@@ -1,12 +1,16 @@
 "use client";
 
-import { useCallback } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
-import { RotateCcw, Trophy } from "lucide-react";
+import { Loader2, RotateCcw, Trophy } from "lucide-react";
 import type { BracketItem } from "@/data/types";
 import { getRoundName } from "@/lib/bracket-engine";
 import { useBracket } from "@/hooks/useBracket";
+import { saveResult } from "@/app/actions/results";
+import { submitVotes } from "@/app/actions/votes";
 import { Button } from "@/components/ui/button";
+import { ResultsDisplay } from "@/components/results/ResultsDisplay";
 import { BracketIntro } from "./BracketIntro";
 import { MatchupCard } from "./MatchupCard";
 import { ProgressBar } from "./ProgressBar";
@@ -32,8 +36,12 @@ export function BracketGame({
   categorySlug,
   bracketSlug,
 }: BracketGameProps) {
+  const router = useRouter();
   const { state, startBracket, pickWinner, undo, reset, progress, currentMatchup, canUndo } =
     useBracket();
+
+  const [isSaving, setIsSaving] = useState(false);
+  const hasSavedRef = useRef(false);
 
   const handleStart = useCallback(
     (size: number) => {
@@ -48,6 +56,51 @@ export function BracketGame({
     },
     [pickWinner],
   );
+
+  // Save results and navigate when bracket completes
+  useEffect(() => {
+    if (state.phase !== "complete" || hasSavedRef.current || !state.champion) {
+      return;
+    }
+
+    hasSavedRef.current = true;
+    setIsSaving(true);
+
+    async function save() {
+      try {
+        const [resultId] = await Promise.all([
+          saveResult({
+            categorySlug,
+            bracketSlug,
+            ranking: state.ranking,
+            champion: state.champion!,
+            matchups: state.matchupHistory,
+          }),
+          submitVotes(
+            categorySlug,
+            bracketSlug,
+            state.matchupHistory,
+            state.champion!
+          ),
+        ]);
+
+        router.push(`/results/${resultId}`);
+      } catch {
+        // If saving fails, stay on the page and show the results inline
+        setIsSaving(false);
+      }
+    }
+
+    save();
+  }, [state.phase, state.champion, state.ranking, state.matchupHistory, categorySlug, bracketSlug, router]);
+
+  // Reset the save guard when bracket is reset
+  useEffect(() => {
+    if (state.phase === "intro") {
+      hasSavedRef.current = false;
+      setIsSaving(false);
+    }
+  }, [state.phase]);
 
   // ----- Intro phase -----
   if (state.phase === "intro") {
@@ -75,8 +128,18 @@ export function BracketGame({
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="mx-auto flex max-w-md flex-col items-center gap-6 text-center"
+          className="mx-auto flex w-full max-w-md flex-col items-center gap-6 text-center"
         >
+          {/* Saving indicator */}
+          {isSaving && (
+            <div className="flex items-center gap-2 rounded-lg bg-muted/50 px-4 py-2">
+              <Loader2 className="size-4 animate-spin" />
+              <span className="text-sm text-muted-foreground">
+                Saving your results...
+              </span>
+            </div>
+          )}
+
           <div
             className="flex h-20 w-20 items-center justify-center rounded-full shadow-lg"
             style={{ backgroundColor: categoryColor }}
@@ -100,33 +163,14 @@ export function BracketGame({
             )}
           </div>
 
-          <div className="space-y-2">
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
-              Final Ranking
-            </h3>
-            <ol className="space-y-1 text-sm">
-              {state.ranking.slice(0, 8).map((itemId, idx) => {
-                const item = state.items.find((i) => i.id === itemId);
-                if (!item) return null;
-                return (
-                  <li
-                    key={itemId}
-                    className="flex items-center gap-2 rounded-lg px-3 py-1.5"
-                  >
-                    <span className="w-6 text-right font-bold text-muted-foreground">
-                      {idx + 1}.
-                    </span>
-                    <span
-                      className={
-                        idx === 0 ? "font-bold" : "text-muted-foreground"
-                      }
-                    >
-                      {item.name}
-                    </span>
-                  </li>
-                );
-              })}
-            </ol>
+          {/* Inline results preview */}
+          <div className="w-full text-left">
+            <ResultsDisplay
+              ranking={state.ranking.slice(0, 8)}
+              items={state.items}
+              champion={state.champion ?? ""}
+              categoryColor={categoryColor}
+            />
           </div>
 
           <Button
