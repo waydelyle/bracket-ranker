@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "monopoly", "name": "Monopoly", "subtitle": "Real estate trading" },
+    { "id": "settlers-of-catan", "name": "Settlers of Catan", "subtitle": "Resource trading" },
+    { "id": "chess", "name": "Chess", "subtitle": "Strategic classic" },
+    { "id": "scrabble", "name": "Scrabble", "subtitle": "Word building" },
+    { "id": "risk", "name": "Risk", "subtitle": "World domination" },
+    { "id": "clue", "name": "Clue", "subtitle": "Murder mystery" },
+    { "id": "ticket-to-ride", "name": "Ticket to Ride", "subtitle": "Train routes" },
+    { "id": "codenames", "name": "Codenames", "subtitle": "Word association" },
+    { "id": "pandemic", "name": "Pandemic", "subtitle": "Cooperative disease fighting" },
+    { "id": "uno", "name": "UNO", "subtitle": "Card shedding" },
+    { "id": "cards-against-humanity", "name": "Cards Against Humanity", "subtitle": "Party card game" },
+    { "id": "jenga", "name": "Jenga", "subtitle": "Stacking blocks" },
+    { "id": "trivial-pursuit", "name": "Trivial Pursuit", "subtitle": "Trivia game" },
+    { "id": "battleship", "name": "Battleship", "subtitle": "Naval combat" },
+    { "id": "connect-four", "name": "Connect Four", "subtitle": "Line up four" },
+    { "id": "checkers", "name": "Checkers", "subtitle": "Classic board game" },
+    { "id": "sorry", "name": "Sorry!", "subtitle": "Slide pursuit" },
+    { "id": "life", "name": "The Game of Life", "subtitle": "Life simulation" },
+    { "id": "pictionary", "name": "Pictionary", "subtitle": "Drawing guessing" },
+    { "id": "boggle", "name": "Boggle", "subtitle": "Word search" },
+    { "id": "apples-to-apples", "name": "Apples to Apples", "subtitle": "Comparison party game" },
+    { "id": "backgammon", "name": "Backgammon", "subtitle": "Ancient strategy" },
+    { "id": "wing-span", "name": "Wingspan", "subtitle": "Bird-themed engine building" },
+    { "id": "azul", "name": "Azul", "subtitle": "Tile-laying pattern" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "flying", "name": "Flying", "subtitle": "Soar through the sky" },
+    { "id": "invisibility", "name": "Invisibility", "subtitle": "Disappear at will" },
+    { "id": "super-strength", "name": "Super Strength", "subtitle": "Lift anything" },
+    { "id": "teleportation", "name": "Teleportation", "subtitle": "Instant travel" },
+    { "id": "time-travel", "name": "Time Travel", "subtitle": "Past & future access" },
+    { "id": "mind-reading", "name": "Mind Reading", "subtitle": "Know all thoughts" },
+    { "id": "super-speed", "name": "Super Speed", "subtitle": "Faster than light" },
+    { "id": "telekinesis", "name": "Telekinesis", "subtitle": "Move objects with your mind" },
+    { "id": "shapeshifting", "name": "Shapeshifting", "subtitle": "Become anything" },
+    { "id": "healing", "name": "Healing Factor", "subtitle": "Instant regeneration" },
+    { "id": "immortality", "name": "Immortality", "subtitle": "Live forever" },
+    { "id": "fire-control", "name": "Fire Control", "subtitle": "Generate & control flames" },
+    { "id": "freeze-time", "name": "Freeze Time", "subtitle": "Pause the world" },
+    { "id": "talk-to-animals", "name": "Talk to Animals", "subtitle": "Animal communication" },
+    { "id": "x-ray-vision", "name": "X-Ray Vision", "subtitle": "See through anything" },
+    { "id": "controlling-weather", "name": "Weather Control", "subtitle": "Command the elements" }
+  ]
+}

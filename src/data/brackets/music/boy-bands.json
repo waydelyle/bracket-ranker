@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "nsync", "name": "*NSYNC", "subtitle": "1995-2002" },
+    { "id": "backstreet-boys", "name": "Backstreet Boys", "subtitle": "1993-present" },
+    { "id": "bts", "name": "BTS", "subtitle": "2013-present" },
+    { "id": "one-direction", "name": "One Direction", "subtitle": "2010-2016" },
+    { "id": "new-kids-on-the-block", "name": "New Kids on the Block", "subtitle": "1984-present" },
+    { "id": "boyz-ii-men", "name": "Boyz II Men", "subtitle": "1988-present" },
+    { "id": "new-edition", "name": "New Edition", "subtitle": "1978-present" },
+    { "id": "the-jackson-5", "name": "The Jackson 5", "subtitle": "1964-1990" },
+    { "id": "98-degrees", "name": "98 Degrees", "subtitle": "1996-present" },
+    { "id": "the-jonas-brothers", "name": "Jonas Brothers", "subtitle": "2005-present" },
+    { "id": "big-time-rush", "name": "Big Time Rush", "subtitle": "2009-present" },
+    { "id": "the-wanted", "name": "The Wanted", "subtitle": "2009-2014" },
+    { "id": "menudo", "name": "Menudo", "subtitle": "1977-2009" },
+    { "id": "o-town", "name": "O-Town", "subtitle": "2000-present" },
+    { "id": "westlife", "name": "Westlife", "subtitle": "1998-present" },
+    { "id": "take-that", "name": "Take That", "subtitle": "1990-present" }
+  ]
+}

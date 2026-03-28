@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "in-n-out-double-double", "name": "In-N-Out Double-Double", "subtitle": "In-N-Out Burger" },
+    { "id": "big-mac", "name": "Big Mac", "subtitle": "McDonald's" },
+    { "id": "whopper", "name": "Whopper", "subtitle": "Burger King" },
+    { "id": "baconator", "name": "Baconator", "subtitle": "Wendy's" },
+    { "id": "five-guys-burger", "name": "Five Guys Cheeseburger", "subtitle": "Five Guys" },
+    { "id": "smashburger", "name": "SmashBurger Classic", "subtitle": "Smashburger" },
+    { "id": "shake-shack-burger", "name": "ShackBurger", "subtitle": "Shake Shack" },
+    { "id": "quarter-pounder", "name": "Quarter Pounder with Cheese", "subtitle": "McDonald's" },
+    { "id": "wendys-classic", "name": "Dave's Single", "subtitle": "Wendy's" },
+    { "id": "whataburger-classic", "name": "Whataburger", "subtitle": "Whataburger" },
+    { "id": "culvers-butterburger", "name": "ButterBurger", "subtitle": "Culver's" },
+    { "id": "mcdouble", "name": "McDouble", "subtitle": "McDonald's" },
+    { "id": "rodeo-burger", "name": "Rodeo Burger", "subtitle": "Burger King" },
+    { "id": "animal-style", "name": "Animal Style Burger", "subtitle": "In-N-Out" },
+    { "id": "steak-n-shake-classic", "name": "Original Steakburger", "subtitle": "Steak 'n Shake" },
+    { "id": "hardees-thickburger", "name": "Thickburger", "subtitle": "Hardee's" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "mcdonalds", "name": "McDonald's", "subtitle": "Burgers & Fries" },
+    { "id": "chick-fil-a", "name": "Chick-fil-A", "subtitle": "Chicken Sandwiches" },
+    { "id": "in-n-out", "name": "In-N-Out Burger", "subtitle": "Burgers" },
+    { "id": "wendys", "name": "Wendy's", "subtitle": "Burgers & Frosties" },
+    { "id": "taco-bell", "name": "Taco Bell", "subtitle": "Mexican-Inspired" },
+    { "id": "chipotle", "name": "Chipotle", "subtitle": "Burritos & Bowls" },
+    { "id": "five-guys", "name": "Five Guys", "subtitle": "Burgers & Fries" },
+    { "id": "popeyes", "name": "Popeyes", "subtitle": "Fried Chicken" },
+    { "id": "burger-king", "name": "Burger King", "subtitle": "Burgers" },
+    { "id": "raising-canes", "name": "Raising Cane's", "subtitle": "Chicken Fingers" },
+    { "id": "whataburger", "name": "Whataburger", "subtitle": "Burgers" },
+    { "id": "subway", "name": "Subway", "subtitle": "Subs & Sandwiches" },
+    { "id": "panda-express", "name": "Panda Express", "subtitle": "Chinese-American" },
+    { "id": "kfc", "name": "KFC", "subtitle": "Fried Chicken" },
+    { "id": "shake-shack", "name": "Shake Shack", "subtitle": "Burgers & Shakes" },
+    { "id": "sonic", "name": "Sonic Drive-In", "subtitle": "Burgers & Drinks" }
+  ]
+}

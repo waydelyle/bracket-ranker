@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "reeses-choc", "name": "Reese's", "subtitle": "Peanut butter cups" },
+    { "id": "lindt", "name": "Lindt", "subtitle": "Swiss chocolate" },
+    { "id": "godiva", "name": "Godiva", "subtitle": "Belgian luxury" },
+    { "id": "ghirardelli", "name": "Ghirardelli", "subtitle": "San Francisco chocolate" },
+    { "id": "toblerone", "name": "Toblerone", "subtitle": "Swiss triangles" },
+    { "id": "cadbury", "name": "Cadbury", "subtitle": "British milk chocolate" },
+    { "id": "hersheys", "name": "Hershey's", "subtitle": "American classic" },
+    { "id": "milka", "name": "Milka", "subtitle": "Alpine milk chocolate" },
+    { "id": "ferrero-rocher", "name": "Ferrero Rocher", "subtitle": "Golden wrapped hazelnut" },
+    { "id": "nutella", "name": "Nutella", "subtitle": "Hazelnut spread" },
+    { "id": "kit-kat-choc", "name": "Kit Kat", "subtitle": "Break me off a piece" },
+    { "id": "snickers-choc", "name": "Snickers", "subtitle": "Satisfies" },
+    { "id": "twix-choc", "name": "Twix", "subtitle": "Left or right?" },
+    { "id": "dark-chocolate", "name": "Dark Chocolate (Generic)", "subtitle": "70%+ cocoa" },
+    { "id": "white-chocolate", "name": "White Chocolate", "subtitle": "Cocoa butter based" },
+    { "id": "m-and-ms-choc", "name": "M&M's", "subtitle": "Melts in your mouth" }
+  ]
+}

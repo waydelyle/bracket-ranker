@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "johnny-carson", "name": "Johnny Carson", "subtitle": "The Tonight Show" },
+    { "id": "david-letterman", "name": "David Letterman", "subtitle": "Late Night / Late Show" },
+    { "id": "oprah-winfrey", "name": "Oprah Winfrey", "subtitle": "The Oprah Winfrey Show" },
+    { "id": "conan-obrien", "name": "Conan O'Brien", "subtitle": "Conan" },
+    { "id": "jimmy-fallon", "name": "Jimmy Fallon", "subtitle": "The Tonight Show" },
+    { "id": "jimmy-kimmel", "name": "Jimmy Kimmel", "subtitle": "Jimmy Kimmel Live!" },
+    { "id": "john-oliver", "name": "John Oliver", "subtitle": "Last Week Tonight" },
+    { "id": "jon-stewart", "name": "Jon Stewart", "subtitle": "The Daily Show" },
+    { "id": "stephen-colbert", "name": "Stephen Colbert", "subtitle": "The Late Show" },
+    { "id": "seth-meyers", "name": "Seth Meyers", "subtitle": "Late Night" },
+    { "id": "ellen-degeneres", "name": "Ellen DeGeneres", "subtitle": "The Ellen DeGeneres Show" },
+    { "id": "graham-norton", "name": "Graham Norton", "subtitle": "The Graham Norton Show" },
+    { "id": "trevor-noah", "name": "Trevor Noah", "subtitle": "The Daily Show" },
+    { "id": "james-corden", "name": "James Corden", "subtitle": "The Late Late Show" },
+    { "id": "craig-ferguson", "name": "Craig Ferguson", "subtitle": "The Late Late Show" },
+    { "id": "jay-leno", "name": "Jay Leno", "subtitle": "The Tonight Show" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "illmatic-debut", "name": "Illmatic", "subtitle": "Nas - 1994" },
+    { "id": "ready-to-die-debut", "name": "Ready to Die", "subtitle": "The Notorious B.I.G. - 1994" },
+    { "id": "the-college-dropout-debut", "name": "The College Dropout", "subtitle": "Kanye West - 2004" },
+    { "id": "born-to-run-debut", "name": "Born to Run", "subtitle": "Bruce Springsteen - 1975" },
+    { "id": "please-please-me", "name": "Please Please Me", "subtitle": "The Beatles - 1963" },
+    { "id": "the-chronic-debut", "name": "The Chronic", "subtitle": "Dr. Dre - 1992" },
+    { "id": "appetite-for-destruction-debut", "name": "Appetite for Destruction", "subtitle": "Guns N' Roses - 1987" },
+    { "id": "is-this-it-debut", "name": "Is This It", "subtitle": "The Strokes - 2001" },
+    { "id": "nevermind-debut", "name": "Nevermind", "subtitle": "Nirvana - 1991" },
+    { "id": "boy", "name": "Boy", "subtitle": "U2 - 1980" },
+    { "id": "when-we-all-fall-asleep-debut", "name": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?", "subtitle": "Billie Eilish - 2019" },
+    { "id": "pablo-honey", "name": "Pablo Honey", "subtitle": "Radiohead - 1993" },
+    { "id": "taylor-swift-debut", "name": "Taylor Swift", "subtitle": "Taylor Swift - 2006" },
+    { "id": "sour", "name": "SOUR", "subtitle": "Olivia Rodrigo - 2021" },
+    { "id": "dangerously-in-love", "name": "Dangerously in Love", "subtitle": "Beyonce - 2003" },
+    { "id": "frank-debut", "name": "Frank", "subtitle": "Amy Winehouse - 2003" },
+    { "id": "ctrl", "name": "Ctrl", "subtitle": "SZA - 2017" },
+    { "id": "reasonable-doubt-debut", "name": "Reasonable Doubt", "subtitle": "Jay-Z - 1996" },
+    { "id": "the-slim-shady-lp", "name": "The Slim Shady LP", "subtitle": "Eminem - 1999" },
+    { "id": "21", "name": "21", "subtitle": "Adele - 2011" },
+    { "id": "lauryn-hill-debut", "name": "The Miseducation of Lauryn Hill", "subtitle": "Lauryn Hill - 1998" },
+    { "id": "hot-fuss", "name": "Hot Fuss", "subtitle": "The Killers - 2004" },
+    { "id": "section-80", "name": "Section.80", "subtitle": "Kendrick Lamar - 2011" },
+    { "id": "bastard", "name": "Bastard", "subtitle": "Tyler, the Creator - 2009" }
+  ]
+}

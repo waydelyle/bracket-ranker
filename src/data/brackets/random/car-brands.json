@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "tesla", "name": "Tesla", "subtitle": "Electric vehicles" },
+    { "id": "bmw", "name": "BMW", "subtitle": "German luxury" },
+    { "id": "mercedes", "name": "Mercedes-Benz", "subtitle": "German luxury" },
+    { "id": "toyota", "name": "Toyota", "subtitle": "Japanese reliability" },
+    { "id": "porsche", "name": "Porsche", "subtitle": "German sports cars" },
+    { "id": "ferrari", "name": "Ferrari", "subtitle": "Italian supercars" },
+    { "id": "lamborghini", "name": "Lamborghini", "subtitle": "Italian supercars" },
+    { "id": "ford", "name": "Ford", "subtitle": "American classic" },
+    { "id": "honda", "name": "Honda", "subtitle": "Japanese reliability" },
+    { "id": "audi", "name": "Audi", "subtitle": "German engineering" },
+    { "id": "chevrolet", "name": "Chevrolet", "subtitle": "American muscle" },
+    { "id": "jeep", "name": "Jeep", "subtitle": "Off-road pioneer" },
+    { "id": "subaru", "name": "Subaru", "subtitle": "All-wheel drive" },
+    { "id": "mazda", "name": "Mazda", "subtitle": "Japanese style" },
+    { "id": "hyundai", "name": "Hyundai", "subtitle": "Korean value" },
+    { "id": "lexus", "name": "Lexus", "subtitle": "Japanese luxury" }
+  ]
+}

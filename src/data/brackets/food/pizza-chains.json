@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "dominos", "name": "Domino's", "subtitle": "Delivery king" },
+    { "id": "pizza-hut", "name": "Pizza Hut", "subtitle": "Pan pizza pioneers" },
+    { "id": "papa-johns", "name": "Papa John's", "subtitle": "Better ingredients" },
+    { "id": "little-caesars", "name": "Little Caesars", "subtitle": "Hot-N-Ready" },
+    { "id": "costco-pizza", "name": "Costco Food Court Pizza", "subtitle": "Warehouse slices" },
+    { "id": "marcos-pizza", "name": "Marco's Pizza", "subtitle": "Fresh dough" },
+    { "id": "jets-pizza", "name": "Jet's Pizza", "subtitle": "Detroit-style" },
+    { "id": "round-table", "name": "Round Table Pizza", "subtitle": "West coast chain" },
+    { "id": "sbarro", "name": "Sbarro", "subtitle": "Mall pizza" },
+    { "id": "blaze-pizza", "name": "Blaze Pizza", "subtitle": "Fast-fired" },
+    { "id": "mod-pizza", "name": "MOD Pizza", "subtitle": "Build your own" },
+    { "id": "hungry-howies", "name": "Hungry Howie's", "subtitle": "Flavored crust" },
+    { "id": "cicis", "name": "Cicis", "subtitle": "Pizza buffet" },
+    { "id": "papa-murphys", "name": "Papa Murphy's", "subtitle": "Take & bake" },
+    { "id": "mountain-mikes", "name": "Mountain Mike's", "subtitle": "Mountain-sized" },
+    { "id": "giordanos", "name": "Giordano's", "subtitle": "Chicago deep dish" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "mac-and-cheese", "name": "Mac & Cheese", "subtitle": "Cheesy pasta perfection" },
+    { "id": "grilled-cheese", "name": "Grilled Cheese", "subtitle": "Buttery & melty" },
+    { "id": "chicken-noodle-soup", "name": "Chicken Noodle Soup", "subtitle": "Feel-better food" },
+    { "id": "pizza-comfort", "name": "Pizza", "subtitle": "Everyone's favorite" },
+    { "id": "mashed-potatoes", "name": "Mashed Potatoes", "subtitle": "Creamy & buttery" },
+    { "id": "fried-chicken", "name": "Fried Chicken", "subtitle": "Crispy & juicy" },
+    { "id": "lasagna", "name": "Lasagna", "subtitle": "Layered Italian comfort" },
+    { "id": "chicken-pot-pie", "name": "Chicken Pot Pie", "subtitle": "Flaky & hearty" },
+    { "id": "meatloaf", "name": "Meatloaf", "subtitle": "Classic American" },
+    { "id": "chili", "name": "Chili", "subtitle": "Warm & spicy" },
+    { "id": "pot-roast", "name": "Pot Roast", "subtitle": "Slow-cooked perfection" },
+    { "id": "tomato-soup", "name": "Tomato Soup", "subtitle": "Pair with grilled cheese" },
+    { "id": "french-fries", "name": "French Fries", "subtitle": "Salty & crispy" },
+    { "id": "spaghetti-meatballs", "name": "Spaghetti & Meatballs", "subtitle": "Italian-American classic" },
+    { "id": "biscuits-and-gravy", "name": "Biscuits & Gravy", "subtitle": "Southern staple" },
+    { "id": "shepherds-pie", "name": "Shepherd's Pie", "subtitle": "Meat & potato casserole" },
+    { "id": "chicken-tenders", "name": "Chicken Tenders", "subtitle": "Crispy strips" },
+    { "id": "cornbread", "name": "Cornbread", "subtitle": "Sweet & crumbly" },
+    { "id": "beef-stew", "name": "Beef Stew", "subtitle": "Hearty & rich" },
+    { "id": "tater-tots", "name": "Tater Tots", "subtitle": "Crispy potato nuggets" },
+    { "id": "loaded-baked-potato", "name": "Loaded Baked Potato", "subtitle": "Cheese, bacon & sour cream" },
+    { "id": "chicken-and-waffles", "name": "Chicken & Waffles", "subtitle": "Sweet meets savory" },
+    { "id": "ramen-comfort", "name": "Ramen", "subtitle": "Warm noodle bowl" },
+    { "id": "pho", "name": "Pho", "subtitle": "Vietnamese noodle soup" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "league-of-legends", "name": "League of Legends", "subtitle": "MOBA - Riot Games" },
+    { "id": "counter-strike", "name": "Counter-Strike 2", "subtitle": "FPS - Valve" },
+    { "id": "valorant", "name": "VALORANT", "subtitle": "FPS - Riot Games" },
+    { "id": "dota-2", "name": "Dota 2", "subtitle": "MOBA - Valve" },
+    { "id": "fortnite-esports", "name": "Fortnite", "subtitle": "Battle Royale - Epic Games" },
+    { "id": "overwatch-2", "name": "Overwatch 2", "subtitle": "FPS - Blizzard" },
+    { "id": "rocket-league", "name": "Rocket League", "subtitle": "Sports - Psyonix" },
+    { "id": "super-smash-bros", "name": "Super Smash Bros. Ultimate", "subtitle": "Fighting - Nintendo" },
+    { "id": "street-fighter-6", "name": "Street Fighter 6", "subtitle": "Fighting - Capcom" },
+    { "id": "apex-legends", "name": "Apex Legends", "subtitle": "Battle Royale - Respawn" },
+    { "id": "rainbow-six-siege", "name": "Rainbow Six Siege", "subtitle": "FPS - Ubisoft" },
+    { "id": "starcraft-2", "name": "StarCraft II", "subtitle": "RTS - Blizzard" },
+    { "id": "call-of-duty", "name": "Call of Duty", "subtitle": "FPS - Activision" },
+    { "id": "fifa-ea-fc", "name": "EA FC / FIFA", "subtitle": "Sports - EA" },
+    { "id": "tekken-8", "name": "Tekken 8", "subtitle": "Fighting - Bandai Namco" },
+    { "id": "pubg", "name": "PUBG", "subtitle": "Battle Royale - Krafton" }
+  ]
+}

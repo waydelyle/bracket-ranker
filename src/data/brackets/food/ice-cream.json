@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "chocolate", "name": "Chocolate", "subtitle": "The classic" },
+    { "id": "vanilla", "name": "Vanilla", "subtitle": "Timeless favorite" },
+    { "id": "cookies-and-cream", "name": "Cookies & Cream", "subtitle": "Oreo pieces" },
+    { "id": "mint-chocolate-chip", "name": "Mint Chocolate Chip", "subtitle": "Green & refreshing" },
+    { "id": "cookie-dough", "name": "Cookie Dough", "subtitle": "Raw dough chunks" },
+    { "id": "strawberry", "name": "Strawberry", "subtitle": "Fruity classic" },
+    { "id": "rocky-road", "name": "Rocky Road", "subtitle": "Chocolate, nuts & marshmallows" },
+    { "id": "butter-pecan", "name": "Butter Pecan", "subtitle": "Buttery & nutty" },
+    { "id": "salted-caramel", "name": "Salted Caramel", "subtitle": "Sweet & salty" },
+    { "id": "pistachio", "name": "Pistachio", "subtitle": "Green & nutty" },
+    { "id": "coffee", "name": "Coffee", "subtitle": "Caffeinated treat" },
+    { "id": "peanut-butter-cup", "name": "Peanut Butter Cup", "subtitle": "Reese's-inspired" },
+    { "id": "neapolitan", "name": "Neapolitan", "subtitle": "Three-in-one" },
+    { "id": "mango", "name": "Mango", "subtitle": "Tropical delight" },
+    { "id": "cotton-candy", "name": "Cotton Candy", "subtitle": "Sweet & colorful" },
+    { "id": "birthday-cake", "name": "Birthday Cake", "subtitle": "Sprinkles & vanilla" },
+    { "id": "dulce-de-leche", "name": "Dulce de Leche", "subtitle": "Caramelized milk" },
+    { "id": "black-cherry", "name": "Black Cherry", "subtitle": "Rich cherry flavor" },
+    { "id": "brownie-batter", "name": "Brownie Batter", "subtitle": "Chocolate fudge" },
+    { "id": "matcha", "name": "Matcha Green Tea", "subtitle": "Japanese-inspired" },
+    { "id": "rum-raisin", "name": "Rum Raisin", "subtitle": "Boozy & fruity" },
+    { "id": "coconut", "name": "Coconut", "subtitle": "Tropical cream" },
+    { "id": "cheesecake", "name": "Cheesecake", "subtitle": "Graham cracker swirl" },
+    { "id": "peppermint", "name": "Peppermint", "subtitle": "Cool & festive" }
+  ]
+}

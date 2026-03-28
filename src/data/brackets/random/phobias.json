@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "acrophobia", "name": "Heights", "subtitle": "Acrophobia" },
+    { "id": "arachnophobia", "name": "Spiders", "subtitle": "Arachnophobia" },
+    { "id": "ophidiophobia", "name": "Snakes", "subtitle": "Ophidiophobia" },
+    { "id": "claustrophobia", "name": "Enclosed Spaces", "subtitle": "Claustrophobia" },
+    { "id": "trypophobia", "name": "Clusters of Holes", "subtitle": "Trypophobia" },
+    { "id": "nyctophobia", "name": "The Dark", "subtitle": "Nyctophobia" },
+    { "id": "glossophobia", "name": "Public Speaking", "subtitle": "Glossophobia" },
+    { "id": "aerophobia", "name": "Flying", "subtitle": "Aerophobia" },
+    { "id": "thalassophobia", "name": "Deep Water", "subtitle": "Thalassophobia" },
+    { "id": "astraphobia", "name": "Thunder & Lightning", "subtitle": "Astraphobia" },
+    { "id": "hemophobia", "name": "Blood", "subtitle": "Hemophobia" },
+    { "id": "thanatophobia", "name": "Death", "subtitle": "Thanatophobia" },
+    { "id": "entomophobia", "name": "Insects", "subtitle": "Entomophobia" },
+    { "id": "coulrophobia", "name": "Clowns", "subtitle": "Coulrophobia" },
+    { "id": "cynophobia", "name": "Dogs", "subtitle": "Cynophobia" },
+    { "id": "agoraphobia", "name": "Open/Crowded Spaces", "subtitle": "Agoraphobia" }
+  ]
+}

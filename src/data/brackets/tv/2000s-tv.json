@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "the-wire-00s", "name": "The Wire", "subtitle": "2002-2008" },
+    { "id": "lost-00s", "name": "Lost", "subtitle": "2004-2010" },
+    { "id": "the-office-00s", "name": "The Office", "subtitle": "2005-2013" },
+    { "id": "breaking-bad-00s", "name": "Breaking Bad", "subtitle": "2008-2013" },
+    { "id": "mad-men-00s", "name": "Mad Men", "subtitle": "2007-2015" },
+    { "id": "dexter-00s", "name": "Dexter", "subtitle": "2006-2013" },
+    { "id": "the-shield-00s", "name": "The Shield", "subtitle": "2002-2008" },
+    { "id": "arrested-development-00s", "name": "Arrested Development", "subtitle": "2003-2006" },
+    { "id": "how-i-met-00s", "name": "How I Met Your Mother", "subtitle": "2005-2014" },
+    { "id": "its-always-sunny-00s", "name": "It's Always Sunny in Philadelphia", "subtitle": "2005-present" },
+    { "id": "scrubs-00s", "name": "Scrubs", "subtitle": "2001-2010" },
+    { "id": "24", "name": "24", "subtitle": "2001-2014" },
+    { "id": "house", "name": "House", "subtitle": "2004-2012" },
+    { "id": "greys-anatomy-00s", "name": "Grey's Anatomy", "subtitle": "2005-present" },
+    { "id": "six-feet-under-00s", "name": "Six Feet Under", "subtitle": "2001-2005" },
+    { "id": "curb-00s", "name": "Curb Your Enthusiasm", "subtitle": "2000-2024" },
+    { "id": "deadwood", "name": "Deadwood", "subtitle": "2004-2006" },
+    { "id": "battlestar-00s", "name": "Battlestar Galactica", "subtitle": "2004-2009" },
+    { "id": "30-rock-00s", "name": "30 Rock", "subtitle": "2006-2013" },
+    { "id": "friday-night-lights-00s", "name": "Friday Night Lights", "subtitle": "2006-2011" },
+    { "id": "the-oc", "name": "The O.C.", "subtitle": "2003-2007" },
+    { "id": "gossip-girl", "name": "Gossip Girl", "subtitle": "2007-2012" },
+    { "id": "heroes", "name": "Heroes", "subtitle": "2006-2010" },
+    { "id": "prison-break", "name": "Prison Break", "subtitle": "2005-2017" }
+  ]
+}

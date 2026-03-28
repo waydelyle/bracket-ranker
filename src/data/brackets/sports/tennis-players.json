@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "roger-federer-tennis", "name": "Roger Federer", "subtitle": "20 Grand Slams" },
+    { "id": "rafael-nadal-tennis", "name": "Rafael Nadal", "subtitle": "22 Grand Slams" },
+    { "id": "novak-djokovic-tennis", "name": "Novak Djokovic", "subtitle": "24 Grand Slams" },
+    { "id": "serena-williams-tennis", "name": "Serena Williams", "subtitle": "23 Grand Slams" },
+    { "id": "steffi-graf", "name": "Steffi Graf", "subtitle": "22 Grand Slams" },
+    { "id": "pete-sampras", "name": "Pete Sampras", "subtitle": "14 Grand Slams" },
+    { "id": "bjorn-borg", "name": "Bjorn Borg", "subtitle": "11 Grand Slams" },
+    { "id": "john-mcenroe", "name": "John McEnroe", "subtitle": "7 Grand Slams" },
+    { "id": "billie-jean-king", "name": "Billie Jean King", "subtitle": "12 Grand Slams" },
+    { "id": "venus-williams", "name": "Venus Williams", "subtitle": "7 Grand Slams" },
+    { "id": "andre-agassi", "name": "Andre Agassi", "subtitle": "8 Grand Slams" },
+    { "id": "martina-navratilova", "name": "Martina Navratilova", "subtitle": "18 Grand Slams" },
+    { "id": "carlos-alcaraz", "name": "Carlos Alcaraz", "subtitle": "4 Grand Slams" },
+    { "id": "jannik-sinner", "name": "Jannik Sinner", "subtitle": "3 Grand Slams" },
+    { "id": "arthur-ashe", "name": "Arthur Ashe", "subtitle": "3 Grand Slams" },
+    { "id": "rod-laver", "name": "Rod Laver", "subtitle": "11 Grand Slams" }
+  ]
+}

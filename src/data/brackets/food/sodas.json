@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "coca-cola", "name": "Coca-Cola", "subtitle": "The original" },
+    { "id": "pepsi", "name": "Pepsi", "subtitle": "The choice of a new generation" },
+    { "id": "dr-pepper", "name": "Dr Pepper", "subtitle": "23 flavors" },
+    { "id": "sprite", "name": "Sprite", "subtitle": "Lemon-lime" },
+    { "id": "mountain-dew", "name": "Mountain Dew", "subtitle": "Do the Dew" },
+    { "id": "root-beer", "name": "A&W Root Beer", "subtitle": "Creamy classic" },
+    { "id": "ginger-ale", "name": "Ginger Ale", "subtitle": "Canada Dry or Schweppes" },
+    { "id": "fanta-orange", "name": "Fanta Orange", "subtitle": "Fruity & bubbly" },
+    { "id": "7up", "name": "7UP", "subtitle": "Lemon-lime" },
+    { "id": "cream-soda", "name": "Cream Soda", "subtitle": "Vanilla sweetness" },
+    { "id": "orange-crush", "name": "Crush", "subtitle": "Orange soda" },
+    { "id": "cherry-coke", "name": "Cherry Coke", "subtitle": "Cherry-flavored cola" },
+    { "id": "sunkist", "name": "Sunkist", "subtitle": "Orange soda" },
+    { "id": "diet-coke", "name": "Diet Coke", "subtitle": "Zero calorie cola" },
+    { "id": "mello-yello", "name": "Mello Yello", "subtitle": "Citrus soda" },
+    { "id": "birch-beer", "name": "Birch Beer", "subtitle": "Regional favorite" }
+  ]
+}

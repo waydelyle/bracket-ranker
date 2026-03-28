@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "japanese", "name": "Japanese", "subtitle": "Sushi, ramen, tempura" },
+    { "id": "thai", "name": "Thai", "subtitle": "Pad thai, curries, tom yum" },
+    { "id": "chinese", "name": "Chinese", "subtitle": "Dim sum, stir fry, dumplings" },
+    { "id": "korean", "name": "Korean", "subtitle": "BBQ, bibimbap, kimchi" },
+    { "id": "indian", "name": "Indian", "subtitle": "Curry, naan, biryani" },
+    { "id": "vietnamese", "name": "Vietnamese", "subtitle": "Pho, banh mi, spring rolls" },
+    { "id": "filipino", "name": "Filipino", "subtitle": "Adobo, lumpia, sinigang" },
+    { "id": "indonesian", "name": "Indonesian", "subtitle": "Nasi goreng, satay, rendang" },
+    { "id": "malaysian", "name": "Malaysian", "subtitle": "Laksa, nasi lemak, roti canai" },
+    { "id": "taiwanese", "name": "Taiwanese", "subtitle": "Beef noodle soup, bubble tea" },
+    { "id": "singaporean", "name": "Singaporean", "subtitle": "Chili crab, Hainanese chicken" },
+    { "id": "burmese", "name": "Burmese", "subtitle": "Mohinga, tea leaf salad" },
+    { "id": "nepali", "name": "Nepali", "subtitle": "Momos, dal bhat" },
+    { "id": "sri-lankan", "name": "Sri Lankan", "subtitle": "Hoppers, kottu roti" },
+    { "id": "pakistani", "name": "Pakistani", "subtitle": "Nihari, biryani, seekh kebab" },
+    { "id": "bangladeshi", "name": "Bangladeshi", "subtitle": "Hilsa fish, biryani" }
+  ]
+}

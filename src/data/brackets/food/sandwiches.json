@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "blt", "name": "BLT", "subtitle": "Bacon, lettuce and tomato" },
+    { "id": "club-sandwich", "name": "Club Sandwich", "subtitle": "Triple-decker classic" },
+    { "id": "reuben", "name": "Reuben", "subtitle": "Corned beef and sauerkraut" },
+    { "id": "philly-cheesesteak", "name": "Philly Cheesesteak", "subtitle": "Sliced beef and cheese" },
+    { "id": "cuban", "name": "Cuban Sandwich", "subtitle": "Ham, pork and pickles" },
+    { "id": "grilled-cheese-sand", "name": "Grilled Cheese", "subtitle": "Melty and buttery" },
+    { "id": "turkey-club", "name": "Turkey Club", "subtitle": "Deli turkey stack" },
+    { "id": "italian-sub", "name": "Italian Sub", "subtitle": "Salami, capicola and provolone" },
+    { "id": "po-boy", "name": "Po Boy", "subtitle": "New Orleans fried seafood" },
+    { "id": "monte-cristo", "name": "Monte Cristo", "subtitle": "Fried ham and cheese" },
+    { "id": "banh-mi", "name": "Banh Mi", "subtitle": "Vietnamese baguette" },
+    { "id": "pulled-pork", "name": "Pulled Pork Sandwich", "subtitle": "BBQ classic" },
+    { "id": "pb-and-j", "name": "PB and J", "subtitle": "Childhood classic" },
+    { "id": "chicken-parm-sub", "name": "Chicken Parm Sub", "subtitle": "Breaded chicken and marinara" },
+    { "id": "french-dip", "name": "French Dip", "subtitle": "Roast beef with au jus" },
+    { "id": "lobster-roll", "name": "Lobster Roll", "subtitle": "New England delicacy" }
+  ]
+}

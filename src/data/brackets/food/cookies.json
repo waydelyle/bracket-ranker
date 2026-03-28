@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "chocolate-chip", "name": "Chocolate Chip", "subtitle": "The OG cookie" },
+    { "id": "oatmeal-raisin", "name": "Oatmeal Raisin", "subtitle": "Love it or hate it" },
+    { "id": "snickerdoodle", "name": "Snickerdoodle", "subtitle": "Cinnamon sugar" },
+    { "id": "peanut-butter-cookie", "name": "Peanut Butter", "subtitle": "Fork-pressed classic" },
+    { "id": "sugar-cookie", "name": "Sugar Cookie", "subtitle": "Sweet & simple" },
+    { "id": "double-chocolate", "name": "Double Chocolate", "subtitle": "Chocolate on chocolate" },
+    { "id": "macaron", "name": "Macaron", "subtitle": "French meringue cookie" },
+    { "id": "shortbread", "name": "Shortbread", "subtitle": "Buttery & crumbly" },
+    { "id": "white-chocolate-macadamia", "name": "White Chocolate Macadamia", "subtitle": "Nutty & sweet" },
+    { "id": "gingerbread", "name": "Gingerbread", "subtitle": "Spiced holiday cookie" },
+    { "id": "oreo-cookie", "name": "Oreo", "subtitle": "Milk's favorite" },
+    { "id": "biscotti", "name": "Biscotti", "subtitle": "Twice-baked Italian" },
+    { "id": "thin-mints", "name": "Thin Mints", "subtitle": "Girl Scout classic" },
+    { "id": "samoa", "name": "Samoa / Caramel deLites", "subtitle": "Coconut & caramel" },
+    { "id": "red-velvet", "name": "Red Velvet", "subtitle": "Cream cheese filled" },
+    { "id": "linzer-cookie", "name": "Linzer Cookie", "subtitle": "Jam-filled Austrian" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "madison-square-garden", "name": "Madison Square Garden", "subtitle": "New York - Basketball / Hockey" },
+    { "id": "camp-nou", "name": "Camp Nou", "subtitle": "Barcelona - Soccer" },
+    { "id": "wembley", "name": "Wembley Stadium", "subtitle": "London - Soccer" },
+    { "id": "lambeau-field", "name": "Lambeau Field", "subtitle": "Green Bay - Football" },
+    { "id": "fenway-park", "name": "Fenway Park", "subtitle": "Boston - Baseball" },
+    { "id": "santiago-bernabeu", "name": "Santiago Bernabeu", "subtitle": "Madrid - Soccer" },
+    { "id": "sofi-stadium", "name": "SoFi Stadium", "subtitle": "Los Angeles - Football" },
+    { "id": "old-trafford", "name": "Old Trafford", "subtitle": "Manchester - Soccer" },
+    { "id": "yankee-stadium", "name": "Yankee Stadium", "subtitle": "New York - Baseball" },
+    { "id": "wrigley-field", "name": "Wrigley Field", "subtitle": "Chicago - Baseball" },
+    { "id": "anfield", "name": "Anfield", "subtitle": "Liverpool - Soccer" },
+    { "id": "cowboys-stadium", "name": "AT&T Stadium", "subtitle": "Dallas - Football" },
+    { "id": "maracana", "name": "Maracana", "subtitle": "Rio de Janeiro - Soccer" },
+    { "id": "rose-bowl", "name": "Rose Bowl", "subtitle": "Pasadena - Football" },
+    { "id": "allianz-arena", "name": "Allianz Arena", "subtitle": "Munich - Soccer" },
+    { "id": "melbourne-cricket-ground", "name": "Melbourne Cricket Ground", "subtitle": "Melbourne - Cricket" }
+  ]
+}

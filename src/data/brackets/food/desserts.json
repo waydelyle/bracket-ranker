@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "chocolate-cake", "name": "Chocolate Cake", "subtitle": "Rich & decadent" },
+    { "id": "apple-pie", "name": "Apple Pie", "subtitle": "American classic" },
+    { "id": "cheesecake-dessert", "name": "Cheesecake", "subtitle": "Creamy & rich" },
+    { "id": "brownies", "name": "Brownies", "subtitle": "Fudgy chocolate squares" },
+    { "id": "tiramisu", "name": "Tiramisu", "subtitle": "Coffee-soaked Italian" },
+    { "id": "creme-brulee", "name": "Creme Brulee", "subtitle": "Caramelized custard" },
+    { "id": "ice-cream-sundae", "name": "Ice Cream Sundae", "subtitle": "Topped & loaded" },
+    { "id": "banana-split", "name": "Banana Split", "subtitle": "Three scoops classic" },
+    { "id": "red-velvet-cake", "name": "Red Velvet Cake", "subtitle": "Cream cheese frosting" },
+    { "id": "key-lime-pie", "name": "Key Lime Pie", "subtitle": "Tart & tangy" },
+    { "id": "pumpkin-pie", "name": "Pumpkin Pie", "subtitle": "Thanksgiving staple" },
+    { "id": "chocolate-chip-cookies-dessert", "name": "Chocolate Chip Cookies", "subtitle": "Warm & gooey" },
+    { "id": "carrot-cake", "name": "Carrot Cake", "subtitle": "Spiced & frosted" },
+    { "id": "banana-pudding", "name": "Banana Pudding", "subtitle": "Southern layered dessert" },
+    { "id": "churros", "name": "Churros", "subtitle": "Fried & cinnamon-sugar" },
+    { "id": "lava-cake", "name": "Molten Lava Cake", "subtitle": "Oozing chocolate center" },
+    { "id": "cannoli", "name": "Cannoli", "subtitle": "Italian filled pastry" },
+    { "id": "pecan-pie", "name": "Pecan Pie", "subtitle": "Nutty & sweet" },
+    { "id": "bread-pudding", "name": "Bread Pudding", "subtitle": "Warm & custardy" },
+    { "id": "macarons-dessert", "name": "Macarons", "subtitle": "French meringue cookies" },
+    { "id": "panna-cotta", "name": "Panna Cotta", "subtitle": "Italian cream dessert" },
+    { "id": "crepes", "name": "Crepes", "subtitle": "Thin French pancakes" },
+    { "id": "baklava", "name": "Baklava", "subtitle": "Layered filo & nuts" },
+    { "id": "tres-leches", "name": "Tres Leches Cake", "subtitle": "Three-milk soaked cake" }
+  ]
+}

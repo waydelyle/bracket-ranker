@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "instagram", "name": "Instagram", "subtitle": "Photo & video sharing" },
+    { "id": "tiktok", "name": "TikTok", "subtitle": "Short-form video" },
+    { "id": "youtube", "name": "YouTube", "subtitle": "Video platform" },
+    { "id": "twitter-x", "name": "X (Twitter)", "subtitle": "Microblogging" },
+    { "id": "reddit", "name": "Reddit", "subtitle": "Forum communities" },
+    { "id": "snapchat", "name": "Snapchat", "subtitle": "Disappearing messages" },
+    { "id": "facebook", "name": "Facebook", "subtitle": "Social networking" },
+    { "id": "linkedin", "name": "LinkedIn", "subtitle": "Professional networking" },
+    { "id": "pinterest", "name": "Pinterest", "subtitle": "Visual bookmarking" },
+    { "id": "discord", "name": "Discord", "subtitle": "Chat & communities" },
+    { "id": "twitch", "name": "Twitch", "subtitle": "Live streaming" },
+    { "id": "whatsapp", "name": "WhatsApp", "subtitle": "Messaging" },
+    { "id": "telegram", "name": "Telegram", "subtitle": "Messaging" },
+    { "id": "threads", "name": "Threads", "subtitle": "Text-based social" },
+    { "id": "bluesky", "name": "Bluesky", "subtitle": "Decentralized social" },
+    { "id": "spotify", "name": "Spotify", "subtitle": "Music streaming" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "levels", "name": "Levels", "subtitle": "Avicii" },
+    { "id": "strobe", "name": "Strobe", "subtitle": "deadmau5" },
+    { "id": "titanium", "name": "Titanium", "subtitle": "David Guetta ft. Sia" },
+    { "id": "wake-me-up", "name": "Wake Me Up", "subtitle": "Avicii" },
+    { "id": "lean-on-edm", "name": "Lean On", "subtitle": "Major Lazer & DJ Snake" },
+    { "id": "clarity", "name": "Clarity", "subtitle": "Zedd ft. Foxes" },
+    { "id": "scary-monsters", "name": "Scary Monsters and Nice Sprites", "subtitle": "Skrillex" },
+    { "id": "one-more-time", "name": "One More Time", "subtitle": "Daft Punk" },
+    { "id": "sandstorm", "name": "Sandstorm", "subtitle": "Darude" },
+    { "id": "animals", "name": "Animals", "subtitle": "Martin Garrix" },
+    { "id": "dont-you-worry-child", "name": "Don't You Worry Child", "subtitle": "Swedish House Mafia" },
+    { "id": "faded", "name": "Faded", "subtitle": "Alan Walker" },
+    { "id": "get-lucky", "name": "Get Lucky", "subtitle": "Daft Punk ft. Pharrell" },
+    { "id": "something-just-like-this", "name": "Something Just Like This", "subtitle": "The Chainsmokers & Coldplay" },
+    { "id": "around-the-world", "name": "Around the World", "subtitle": "Daft Punk" },
+    { "id": "in-the-name-of-love", "name": "In the Name of Love", "subtitle": "Martin Garrix & Bebe Rexha" },
+    { "id": "spectrum", "name": "Spectrum", "subtitle": "Zedd" },
+    { "id": "this-is-what-you-came-for", "name": "This Is What You Came For", "subtitle": "Calvin Harris ft. Rihanna" },
+    { "id": "waiting-for-love", "name": "Waiting for Love", "subtitle": "Avicii" },
+    { "id": "midnight-city", "name": "Midnight City", "subtitle": "M83" },
+    { "id": "bangarang", "name": "Bangarang", "subtitle": "Skrillex" },
+    { "id": "where-are-u-now", "name": "Where Are U Now", "subtitle": "Jack U ft. Justin Bieber" },
+    { "id": "the-nights", "name": "The Nights", "subtitle": "Avicii" },
+    { "id": "summer", "name": "Summer", "subtitle": "Calvin Harris" }
+  ]
+}

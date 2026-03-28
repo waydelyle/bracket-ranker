@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "ketchup", "name": "Ketchup", "subtitle": "Tomato classic" },
+    { "id": "mustard", "name": "Mustard", "subtitle": "Yellow or Dijon" },
+    { "id": "mayo", "name": "Mayonnaise", "subtitle": "Creamy spread" },
+    { "id": "hot-sauce", "name": "Hot Sauce", "subtitle": "Spicy kick" },
+    { "id": "ranch", "name": "Ranch Dressing", "subtitle": "America's favorite dip" },
+    { "id": "bbq-sauce", "name": "BBQ Sauce", "subtitle": "Sweet & smoky" },
+    { "id": "soy-sauce", "name": "Soy Sauce", "subtitle": "Salty umami" },
+    { "id": "sriracha", "name": "Sriracha", "subtitle": "Rooster sauce" },
+    { "id": "salsa", "name": "Salsa", "subtitle": "Tomato-based dip" },
+    { "id": "honey-mustard", "name": "Honey Mustard", "subtitle": "Sweet & tangy" },
+    { "id": "buffalo-sauce", "name": "Buffalo Sauce", "subtitle": "Spicy wing sauce" },
+    { "id": "guacamole", "name": "Guacamole", "subtitle": "Avocado dip" },
+    { "id": "pesto", "name": "Pesto", "subtitle": "Basil & pine nuts" },
+    { "id": "hummus", "name": "Hummus", "subtitle": "Chickpea dip" },
+    { "id": "teriyaki", "name": "Teriyaki Sauce", "subtitle": "Sweet soy glaze" },
+    { "id": "aioli", "name": "Aioli", "subtitle": "Garlic mayo" }
+  ]
+}

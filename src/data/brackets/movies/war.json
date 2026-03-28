@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "saving-private-ryan-war", "name": "Saving Private Ryan", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1998" },
+    { "id": "dunkirk-war", "name": "Dunkirk", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2017" },
+    { "id": "apocalypse-now", "name": "Apocalypse Now", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1979" },
+    { "id": "schindlers-list-war", "name": "Schindler's List", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1993" },
+    { "id": "1917-war", "name": "1917", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2019" },
+    { "id": "full-metal-jacket", "name": "Full Metal Jacket", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1987" },
+    { "id": "platoon", "name": "Platoon", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1986" },
+    { "id": "hacksaw-ridge", "name": "Hacksaw Ridge", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2016" },
+    { "id": "black-hawk-down", "name": "Black Hawk Down", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2001" },
+    { "id": "the-thin-red-line", "name": "The Thin Red Line", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1998" },
+    { "id": "the-bridge-on-the-river-kwai", "name": "The Bridge on the River Kwai", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1957" },
+    { "id": "the-deer-hunter", "name": "The Deer Hunter", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1978" },
+    { "id": "inglourious-basterds-war", "name": "Inglourious Basterds", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2009" },
+    { "id": "fury", "name": "Fury", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2014" },
+    { "id": "letters-from-iwo-jima", "name": "Letters from Iwo Jima", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2006" },
+    { "id": "the-pianist", "name": "The Pianist", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2002" },
+    { "id": "the-great-escape", "name": "The Great Escape", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1963" },
+    { "id": "paths-of-glory", "name": "Paths of Glory", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1957" },
+    { "id": "lone-survivor", "name": "Lone Survivor", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2013" },
+    { "id": "american-sniper", "name": "American Sniper", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2014" },
+    { "id": "we-were-soldiers", "name": "We Were Soldiers", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2002" },
+    { "id": "the-hurt-locker-war", "name": "The Hurt Locker", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2008" },
+    { "id": "braveheart-war", "name": "Braveheart", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1995" },
+    { "id": "all-quiet-on-the-western-front", "name": "All Quiet on the Western Front", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2022" }
+  ]
+}

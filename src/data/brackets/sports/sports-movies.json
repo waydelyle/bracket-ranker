@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "rocky", "name": "Rocky", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1976 - Boxing" },
+    { "id": "remember-the-titans", "name": "Remember the Titans", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2000 - Football" },
+    { "id": "hoosiers", "name": "Hoosiers", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1986 - Basketball" },
+    { "id": "the-sandlot", "name": "The Sandlot", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1993 - Baseball" },
+    { "id": "field-of-dreams", "name": "Field of Dreams", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1989 - Baseball" },
+    { "id": "moneyball", "name": "Moneyball", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2011 - Baseball" },
+    { "id": "space-jam", "name": "Space Jam", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1996 - Basketball" },
+    { "id": "raging-bull", "name": "Raging Bull", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1980 - Boxing" },
+    { "id": "friday-night-lights-movie", "name": "Friday Night Lights", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2004 - Football" },
+    { "id": "happy-gilmore-sports", "name": "Happy Gilmore", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1996 - Golf" },
+    { "id": "the-blind-side", "name": "The Blind Side", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2009 - Football" },
+    { "id": "creed", "name": "Creed", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2015 - Boxing" },
+    { "id": "a-league-of-their-own", "name": "A League of Their Own", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1992 - Baseball" },
+    { "id": "rudy", "name": "Rudy", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1993 - Football" },
+    { "id": "dodgeball", "name": "Dodgeball", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2004 - Dodgeball" },
+    { "id": "the-mighty-ducks", "name": "The Mighty Ducks", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1992 - Hockey" },
+    { "id": "major-league", "name": "Major League", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1989 - Baseball" },
+    { "id": "bend-it-like-beckham", "name": "Bend It Like Beckham", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2002 - Soccer" },
+    { "id": "jerry-maguire", "name": "Jerry Maguire", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1996 - Football" },
+    { "id": "miracle", "name": "Miracle", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2004 - Hockey" },
+    { "id": "bull-durham", "name": "Bull Durham", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "1988 - Baseball" },
+    { "id": "talladega-nights", "name": "Talladega Nights", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2006 - NASCAR" },
+    { "id": "rush", "name": "Rush", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2013 - Formula 1" },
+    { "id": "coach-carter", "name": "Coach Carter", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2005 - Basketball" }
+  ]
+}

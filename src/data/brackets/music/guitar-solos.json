@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "stairway-solo", "name": "Stairway to Heaven", "subtitle": "Led Zeppelin - Jimmy Page" },
+    { "id": "comfortably-numb-solo", "name": "Comfortably Numb", "subtitle": "Pink Floyd - David Gilmour" },
+    { "id": "free-bird-solo", "name": "Free Bird", "subtitle": "Lynyrd Skynyrd - Allen Collins" },
+    { "id": "eruption", "name": "Eruption", "subtitle": "Van Halen - Eddie Van Halen" },
+    { "id": "all-along-the-watchtower-solo", "name": "All Along the Watchtower", "subtitle": "Jimi Hendrix" },
+    { "id": "hotel-california-solo", "name": "Hotel California", "subtitle": "Eagles - Don Felder & Joe Walsh" },
+    { "id": "bohemian-rhapsody-solo", "name": "Bohemian Rhapsody", "subtitle": "Queen - Brian May" },
+    { "id": "sweet-child-solo", "name": "Sweet Child O' Mine", "subtitle": "Guns N' Roses - Slash" },
+    { "id": "november-rain-solo", "name": "November Rain", "subtitle": "Guns N' Roses - Slash" },
+    { "id": "purple-rain-solo", "name": "Purple Rain", "subtitle": "Prince" },
+    { "id": "crossroads-solo", "name": "Crossroads", "subtitle": "Cream - Eric Clapton" },
+    { "id": "texas-flood-solo", "name": "Texas Flood", "subtitle": "Stevie Ray Vaughan" },
+    { "id": "sultans-of-swing-solo", "name": "Sultans of Swing", "subtitle": "Dire Straits - Mark Knopfler" },
+    { "id": "whole-lotta-love-solo", "name": "Whole Lotta Love", "subtitle": "Led Zeppelin - Jimmy Page" },
+    { "id": "little-wing-solo", "name": "Little Wing", "subtitle": "Jimi Hendrix" },
+    { "id": "voodoo-child-solo", "name": "Voodoo Child (Slight Return)", "subtitle": "Jimi Hendrix" },
+    { "id": "crazy-train-solo", "name": "Crazy Train", "subtitle": "Ozzy Osbourne - Randy Rhoads" },
+    { "id": "master-of-puppets-solo", "name": "Master of Puppets", "subtitle": "Metallica - Kirk Hammett" },
+    { "id": "alive-solo", "name": "Alive", "subtitle": "Pearl Jam - Mike McCready" },
+    { "id": "layla-solo", "name": "Layla", "subtitle": "Derek and the Dominos - Duane Allman" },
+    { "id": "while-my-guitar-solo", "name": "While My Guitar Gently Weeps", "subtitle": "The Beatles - Eric Clapton" },
+    { "id": "money-for-nothing-solo", "name": "Money for Nothing", "subtitle": "Dire Straits - Mark Knopfler" },
+    { "id": "shine-on-you-crazy-diamond-solo", "name": "Shine On You Crazy Diamond", "subtitle": "Pink Floyd - David Gilmour" },
+    { "id": "one-metallica-solo", "name": "One", "subtitle": "Metallica - Kirk Hammett" }
+  ]
+}

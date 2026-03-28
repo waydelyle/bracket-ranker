@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "breaking-bad-crime", "name": "Breaking Bad", "subtitle": "2008-2013" },
+    { "id": "the-wire-crime", "name": "The Wire", "subtitle": "2002-2008" },
+    { "id": "the-sopranos-crime", "name": "The Sopranos", "subtitle": "1999-2007" },
+    { "id": "true-detective", "name": "True Detective", "subtitle": "2014-present" },
+    { "id": "mindhunter-crime", "name": "Mindhunter", "subtitle": "2017-2019" },
+    { "id": "narcos-crime", "name": "Narcos", "subtitle": "2015-2017" },
+    { "id": "fargo-tv", "name": "Fargo", "subtitle": "2014-present" },
+    { "id": "ozark-crime", "name": "Ozark", "subtitle": "2017-2022" },
+    { "id": "better-call-saul-crime", "name": "Better Call Saul", "subtitle": "2015-2022" },
+    { "id": "peaky-blinders-crime", "name": "Peaky Blinders", "subtitle": "2013-2022" },
+    { "id": "line-of-duty", "name": "Line of Duty", "subtitle": "2012-2021" },
+    { "id": "dexter-crime", "name": "Dexter", "subtitle": "2006-2013" },
+    { "id": "luther", "name": "Luther", "subtitle": "2010-2019" },
+    { "id": "law-and-order-svu", "name": "Law & Order: SVU", "subtitle": "1999-present" },
+    { "id": "criminal-minds", "name": "Criminal Minds", "subtitle": "2005-present" },
+    { "id": "ncis", "name": "NCIS", "subtitle": "2003-present" },
+    { "id": "csi", "name": "CSI: Crime Scene Investigation", "subtitle": "2000-2015" },
+    { "id": "broadchurch", "name": "Broadchurch", "subtitle": "2013-2017" },
+    { "id": "killing-eve", "name": "Killing Eve", "subtitle": "2018-2022" },
+    { "id": "the-blacklist", "name": "The Blacklist", "subtitle": "2013-2023" },
+    { "id": "sherlock", "name": "Sherlock", "subtitle": "2010-2017" },
+    { "id": "mare-of-easttown", "name": "Mare of Easttown", "subtitle": "2021" },
+    { "id": "the-shield-crime", "name": "The Shield", "subtitle": "2002-2008" },
+    { "id": "only-murders-in-the-building", "name": "Only Murders in the Building", "subtitle": "2021-present" }
+  ]
+}

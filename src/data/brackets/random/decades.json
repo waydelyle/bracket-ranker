@@ -1,0 +1,12 @@
+{
+  "items": [
+    { "id": "1950s", "name": "The 1950s", "subtitle": "Rock & Roll, Diners, Cold War" },
+    { "id": "1960s", "name": "The 1960s", "subtitle": "Moon landing, Beatlemania, Civil Rights" },
+    { "id": "1970s", "name": "The 1970s", "subtitle": "Disco, Star Wars, Punk Rock" },
+    { "id": "1980s", "name": "The 1980s", "subtitle": "MTV, Arcade Games, Big Hair" },
+    { "id": "1990s", "name": "The 1990s", "subtitle": "Grunge, Internet, Boy Bands" },
+    { "id": "2000s", "name": "The 2000s", "subtitle": "Social Media, iPod, Reality TV" },
+    { "id": "2010s", "name": "The 2010s", "subtitle": "Streaming, Smartphones, Marvel" },
+    { "id": "2020s", "name": "The 2020s", "subtitle": "AI, Remote Work, TikTok" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "track-100m", "name": "100m Sprint", "subtitle": "Track & Field" },
+    { "id": "swimming", "name": "Swimming", "subtitle": "Aquatics" },
+    { "id": "gymnastics", "name": "Artistic Gymnastics", "subtitle": "Floor, vault, bars, beam" },
+    { "id": "basketball-olympic", "name": "Basketball", "subtitle": "Team sport" },
+    { "id": "soccer-olympic", "name": "Soccer / Football", "subtitle": "Team sport" },
+    { "id": "diving", "name": "Diving", "subtitle": "Aquatics" },
+    { "id": "figure-skating", "name": "Figure Skating", "subtitle": "Winter Olympics" },
+    { "id": "alpine-skiing", "name": "Alpine Skiing", "subtitle": "Winter Olympics" },
+    { "id": "tennis-olympic", "name": "Tennis", "subtitle": "Racquet sport" },
+    { "id": "volleyball", "name": "Volleyball", "subtitle": "Team sport" },
+    { "id": "fencing", "name": "Fencing", "subtitle": "Combat sport" },
+    { "id": "archery", "name": "Archery", "subtitle": "Precision sport" },
+    { "id": "boxing-olympic", "name": "Boxing", "subtitle": "Combat sport" },
+    { "id": "rowing", "name": "Rowing", "subtitle": "Water sport" },
+    { "id": "track-marathon", "name": "Marathon", "subtitle": "Track & Field" },
+    { "id": "snowboarding", "name": "Snowboarding", "subtitle": "Winter Olympics" },
+    { "id": "surfing", "name": "Surfing", "subtitle": "Added 2020" },
+    { "id": "skateboarding", "name": "Skateboarding", "subtitle": "Added 2020" },
+    { "id": "weightlifting", "name": "Weightlifting", "subtitle": "Strength sport" },
+    { "id": "wrestling", "name": "Wrestling", "subtitle": "Combat sport" },
+    { "id": "bmx", "name": "BMX Racing", "subtitle": "Cycling" },
+    { "id": "ice-hockey", "name": "Ice Hockey", "subtitle": "Winter Olympics" },
+    { "id": "table-tennis", "name": "Table Tennis", "subtitle": "Racquet sport" },
+    { "id": "beach-volleyball", "name": "Beach Volleyball", "subtitle": "Sand court" }
+  ]
+}

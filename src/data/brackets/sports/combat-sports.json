@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "muhammad-ali-combat", "name": "Muhammad Ali", "subtitle": "Boxing - Heavyweight" },
+    { "id": "mike-tyson-combat", "name": "Mike Tyson", "subtitle": "Boxing - Heavyweight" },
+    { "id": "floyd-mayweather", "name": "Floyd Mayweather Jr.", "subtitle": "Boxing - Welterweight" },
+    { "id": "manny-pacquiao", "name": "Manny Pacquiao", "subtitle": "Boxing - Multi-weight" },
+    { "id": "conor-mcgregor", "name": "Conor McGregor", "subtitle": "MMA - UFC" },
+    { "id": "khabib-nurmagomedov", "name": "Khabib Nurmagomedov", "subtitle": "MMA - UFC Lightweight" },
+    { "id": "anderson-silva", "name": "Anderson Silva", "subtitle": "MMA - UFC Middleweight" },
+    { "id": "georges-st-pierre", "name": "Georges St-Pierre", "subtitle": "MMA - UFC Welterweight" },
+    { "id": "jon-jones", "name": "Jon Jones", "subtitle": "MMA - UFC Heavyweight" },
+    { "id": "sugar-ray-leonard", "name": "Sugar Ray Leonard", "subtitle": "Boxing - Welterweight" },
+    { "id": "canelo-alvarez", "name": "Canelo Alvarez", "subtitle": "Boxing - Super Middleweight" },
+    { "id": "lennox-lewis", "name": "Lennox Lewis", "subtitle": "Boxing - Heavyweight" },
+    { "id": "ronda-rousey", "name": "Ronda Rousey", "subtitle": "MMA - UFC Bantamweight" },
+    { "id": "amanda-nunes", "name": "Amanda Nunes", "subtitle": "MMA - UFC Bantamweight" },
+    { "id": "sugar-ray-robinson", "name": "Sugar Ray Robinson", "subtitle": "Boxing - Middleweight" },
+    { "id": "bruce-lee", "name": "Bruce Lee", "subtitle": "Martial Arts Legend" }
+  ]
+}

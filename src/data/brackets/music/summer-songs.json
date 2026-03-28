@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "summertime-magic", "name": "Summertime Magic", "subtitle": "Childish Gambino" },
+    { "id": "california-gurls", "name": "California Gurls", "subtitle": "Katy Perry" },
+    { "id": "cruel-summer-song", "name": "Cruel Summer", "subtitle": "Taylor Swift" },
+    { "id": "summer-of-69", "name": "Summer of '69", "subtitle": "Bryan Adams" },
+    { "id": "hot-girl-summer", "name": "Hot Girl Summer", "subtitle": "Megan Thee Stallion" },
+    { "id": "watermelon-sugar-summer", "name": "Watermelon Sugar", "subtitle": "Harry Styles" },
+    { "id": "boys-of-summer", "name": "The Boys of Summer", "subtitle": "Don Henley" },
+    { "id": "surfin-usa", "name": "Surfin' U.S.A.", "subtitle": "The Beach Boys" },
+    { "id": "summertime", "name": "Summertime", "subtitle": "DJ Jazzy Jeff & The Fresh Prince" },
+    { "id": "blinding-lights-summer", "name": "Blinding Lights", "subtitle": "The Weeknd" },
+    { "id": "party-in-the-usa", "name": "Party in the U.S.A.", "subtitle": "Miley Cyrus" },
+    { "id": "good-vibrations", "name": "Good Vibrations", "subtitle": "The Beach Boys" },
+    { "id": "kokomo", "name": "Kokomo", "subtitle": "The Beach Boys" },
+    { "id": "hot-in-herre", "name": "Hot in Herre", "subtitle": "Nelly" },
+    { "id": "in-the-summertime", "name": "In the Summertime", "subtitle": "Mungo Jerry" },
+    { "id": "steal-my-sunshine-summer", "name": "Steal My Sunshine", "subtitle": "Len" },
+    { "id": "dancing-in-the-moonlight", "name": "Dancing in the Moonlight", "subtitle": "King Harvest" },
+    { "id": "walking-on-sunshine-summer", "name": "Walking on Sunshine", "subtitle": "Katrina and the Waves" },
+    { "id": "lovely-day", "name": "Lovely Day", "subtitle": "Bill Withers" },
+    { "id": "island-in-the-sun", "name": "Island in the Sun", "subtitle": "Weezer" },
+    { "id": "one-dance-summer", "name": "One Dance", "subtitle": "Drake" },
+    { "id": "espresso-summer", "name": "Espresso", "subtitle": "Sabrina Carpenter" },
+    { "id": "levitating-summer", "name": "Levitating", "subtitle": "Dua Lipa" },
+    { "id": "africa-summer", "name": "Africa", "subtitle": "Toto" }
+  ]
+}

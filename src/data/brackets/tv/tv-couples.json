@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "jim-pam", "name": "Jim & Pam", "subtitle": "The Office" },
+    { "id": "ross-rachel", "name": "Ross & Rachel", "subtitle": "Friends" },
+    { "id": "leslie-ben", "name": "Leslie & Ben", "subtitle": "Parks and Recreation" },
+    { "id": "walt-jesse", "name": "Walt & Jesse", "subtitle": "Breaking Bad" },
+    { "id": "chandler-monica", "name": "Chandler & Monica", "subtitle": "Friends" },
+    { "id": "jon-ygritte", "name": "Jon Snow & Ygritte", "subtitle": "Game of Thrones" },
+    { "id": "david-patrick", "name": "David & Patrick", "subtitle": "Schitt's Creek" },
+    { "id": "meredith-derek", "name": "Meredith & Derek", "subtitle": "Grey's Anatomy" },
+    { "id": "jake-amy", "name": "Jake & Amy", "subtitle": "Brooklyn Nine-Nine" },
+    { "id": "nick-jess", "name": "Nick & Jess", "subtitle": "New Girl" },
+    { "id": "randall-beth", "name": "Randall & Beth", "subtitle": "This Is Us" },
+    { "id": "tim-coach", "name": "Coach & Mrs. Coach", "subtitle": "Friday Night Lights" },
+    { "id": "carrie-big", "name": "Carrie & Mr. Big", "subtitle": "Sex and the City" },
+    { "id": "marshall-lily", "name": "Marshall & Lily", "subtitle": "How I Met Your Mother" },
+    { "id": "buffy-angel", "name": "Buffy & Angel", "subtitle": "Buffy the Vampire Slayer" },
+    { "id": "eleanor-chidi", "name": "Eleanor & Chidi", "subtitle": "The Good Place" },
+    { "id": "ted-rebecca", "name": "Ted & Rebecca", "subtitle": "Ted Lasso" },
+    { "id": "philip-elizabeth", "name": "Philip & Elizabeth", "subtitle": "The Americans" },
+    { "id": "turk-jd", "name": "Turk & J.D.", "subtitle": "Scrubs" },
+    { "id": "shiv-tom", "name": "Shiv & Tom", "subtitle": "Succession" },
+    { "id": "joel-ellie", "name": "Joel & Ellie", "subtitle": "The Last of Us" },
+    { "id": "daphne-simon", "name": "Daphne & Simon", "subtitle": "Bridgerton" },
+    { "id": "walt-skyler", "name": "Walt & Skyler", "subtitle": "Breaking Bad" },
+    { "id": "eric-donna", "name": "Eric & Donna", "subtitle": "That '70s Show" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "destiny-s-child", "name": "Destiny's Child", "subtitle": "1990-2006" },
+    { "id": "spice-girls", "name": "Spice Girls", "subtitle": "1994-2000" },
+    { "id": "tlc", "name": "TLC", "subtitle": "1991-present" },
+    { "id": "the-supremes", "name": "The Supremes", "subtitle": "1959-1977" },
+    { "id": "en-vogue", "name": "En Vogue", "subtitle": "1989-present" },
+    { "id": "the-ronettes", "name": "The Ronettes", "subtitle": "1957-1966" },
+    { "id": "salt-n-pepa", "name": "Salt-N-Pepa", "subtitle": "1985-present" },
+    { "id": "the-pointer-sisters", "name": "The Pointer Sisters", "subtitle": "1969-present" },
+    { "id": "little-mix", "name": "Little Mix", "subtitle": "2011-2022" },
+    { "id": "the-pussycat-dolls", "name": "The Pussycat Dolls", "subtitle": "2003-2010" },
+    { "id": "the-bangles", "name": "The Bangles", "subtitle": "1981-present" },
+    { "id": "blackpink", "name": "BLACKPINK", "subtitle": "2016-present" },
+    { "id": "fifth-harmony", "name": "Fifth Harmony", "subtitle": "2012-2018" },
+    { "id": "the-chicks", "name": "The Chicks", "subtitle": "1989-present" },
+    { "id": "sugababes", "name": "Sugababes", "subtitle": "1998-present" },
+    { "id": "girls-aloud", "name": "Girls Aloud", "subtitle": "2002-2013" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "tacos", "name": "Tacos", "subtitle": "Mexican street classic" },
+    { "id": "hot-dogs", "name": "Hot Dogs", "subtitle": "American classic" },
+    { "id": "gyros", "name": "Gyros", "subtitle": "Greek meat wrap" },
+    { "id": "falafel", "name": "Falafel", "subtitle": "Fried chickpea balls" },
+    { "id": "empanadas", "name": "Empanadas", "subtitle": "Stuffed pastry pockets" },
+    { "id": "pretzels-street", "name": "Soft Pretzels", "subtitle": "Twisted & salted" },
+    { "id": "elote", "name": "Elote", "subtitle": "Mexican street corn" },
+    { "id": "kebabs", "name": "Kebabs", "subtitle": "Grilled meat skewers" },
+    { "id": "pad-thai-street", "name": "Pad Thai", "subtitle": "Thai stir-fried noodles" },
+    { "id": "arepa", "name": "Arepas", "subtitle": "Venezuelan corn cakes" },
+    { "id": "dim-sum", "name": "Dim Sum", "subtitle": "Chinese small plates" },
+    { "id": "takoyaki", "name": "Takoyaki", "subtitle": "Japanese octopus balls" },
+    { "id": "crepes-street", "name": "Crepes", "subtitle": "French street pancakes" },
+    { "id": "jerk-chicken", "name": "Jerk Chicken", "subtitle": "Jamaican spiced chicken" },
+    { "id": "currywurst", "name": "Currywurst", "subtitle": "German curry sausage" },
+    { "id": "churros-street", "name": "Churros", "subtitle": "Spanish fried dough" }
+  ]
+}

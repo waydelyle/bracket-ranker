@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "walter-white", "name": "Walter White", "subtitle": "Breaking Bad" },
+    { "id": "cersei-lannister", "name": "Cersei Lannister", "subtitle": "Game of Thrones" },
+    { "id": "gustavo-fring", "name": "Gustavo Fring", "subtitle": "Breaking Bad / Better Call Saul" },
+    { "id": "negan", "name": "Negan", "subtitle": "The Walking Dead" },
+    { "id": "joffrey-baratheon", "name": "Joffrey Baratheon", "subtitle": "Game of Thrones" },
+    { "id": "kilgrave", "name": "Kilgrave", "subtitle": "Jessica Jones" },
+    { "id": "homelander", "name": "Homelander", "subtitle": "The Boys" },
+    { "id": "ramsay-bolton", "name": "Ramsay Bolton", "subtitle": "Game of Thrones" },
+    { "id": "tony-soprano", "name": "Tony Soprano", "subtitle": "The Sopranos" },
+    { "id": "benjamin-linus", "name": "Benjamin Linus", "subtitle": "Lost" },
+    { "id": "moriarty", "name": "Moriarty", "subtitle": "Sherlock" },
+    { "id": "logan-roy", "name": "Logan Roy", "subtitle": "Succession" },
+    { "id": "villanelle", "name": "Villanelle", "subtitle": "Killing Eve" },
+    { "id": "tuco-salamanca", "name": "Tuco Salamanca", "subtitle": "Breaking Bad" },
+    { "id": "vecna", "name": "Vecna", "subtitle": "Stranger Things" },
+    { "id": "nellie-oleson", "name": "Nellie Oleson", "subtitle": "Little House on the Prairie" },
+    { "id": "the-governor", "name": "The Governor", "subtitle": "The Walking Dead" },
+    { "id": "tywin-lannister", "name": "Tywin Lannister", "subtitle": "Game of Thrones" },
+    { "id": "frank-underwood", "name": "Frank Underwood", "subtitle": "House of Cards" },
+    { "id": "lorne-malvo", "name": "Lorne Malvo", "subtitle": "Fargo" },
+    { "id": "the-night-king", "name": "The Night King", "subtitle": "Game of Thrones" },
+    { "id": "hannibal-lecter-tv", "name": "Hannibal Lecter", "subtitle": "Hannibal" },
+    { "id": "dexter-morgan", "name": "Dexter Morgan", "subtitle": "Dexter" },
+    { "id": "omni-man", "name": "Omni-Man", "subtitle": "Invincible" }
+  ]
+}

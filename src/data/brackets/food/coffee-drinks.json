@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "latte", "name": "Latte", "subtitle": "Espresso + steamed milk" },
+    { "id": "cappuccino", "name": "Cappuccino", "subtitle": "Equal parts espresso, milk, foam" },
+    { "id": "iced-coffee", "name": "Iced Coffee", "subtitle": "Chilled & refreshing" },
+    { "id": "cold-brew", "name": "Cold Brew", "subtitle": "Slow-steeped & smooth" },
+    { "id": "espresso", "name": "Espresso", "subtitle": "Concentrated shot" },
+    { "id": "americano", "name": "Americano", "subtitle": "Espresso + hot water" },
+    { "id": "mocha", "name": "Mocha", "subtitle": "Chocolate + espresso" },
+    { "id": "macchiato", "name": "Macchiato", "subtitle": "Stained with milk" },
+    { "id": "frappuccino", "name": "Frappuccino", "subtitle": "Blended iced coffee" },
+    { "id": "flat-white", "name": "Flat White", "subtitle": "Smooth microfoam" },
+    { "id": "french-press", "name": "French Press", "subtitle": "Full-bodied brew" },
+    { "id": "pour-over", "name": "Pour Over", "subtitle": "Clean & bright" },
+    { "id": "irish-coffee", "name": "Irish Coffee", "subtitle": "Coffee + whiskey + cream" },
+    { "id": "pumpkin-spice-latte", "name": "Pumpkin Spice Latte", "subtitle": "Seasonal favorite" },
+    { "id": "affogato", "name": "Affogato", "subtitle": "Espresso + ice cream" },
+    { "id": "chai-latte", "name": "Chai Latte", "subtitle": "Spiced tea latte" }
+  ]
+}

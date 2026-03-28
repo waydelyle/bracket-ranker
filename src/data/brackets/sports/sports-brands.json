@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "nike", "name": "Nike", "subtitle": "Just Do It" },
+    { "id": "adidas", "name": "Adidas", "subtitle": "Impossible Is Nothing" },
+    { "id": "jordan", "name": "Air Jordan", "subtitle": "Nike subsidiary" },
+    { "id": "under-armour", "name": "Under Armour", "subtitle": "I Will" },
+    { "id": "puma", "name": "Puma", "subtitle": "Forever Faster" },
+    { "id": "new-balance", "name": "New Balance", "subtitle": "Fearlessly Independent" },
+    { "id": "reebok", "name": "Reebok", "subtitle": "Life is Not a Spectator Sport" },
+    { "id": "converse", "name": "Converse", "subtitle": "Chuck Taylor classics" },
+    { "id": "north-face", "name": "The North Face", "subtitle": "Never Stop Exploring" },
+    { "id": "lululemon", "name": "Lululemon", "subtitle": "Athletic apparel" },
+    { "id": "asics", "name": "ASICS", "subtitle": "Sound Mind, Sound Body" },
+    { "id": "champion", "name": "Champion", "subtitle": "Athletic wear" },
+    { "id": "fila", "name": "FILA", "subtitle": "Italian sport brand" },
+    { "id": "on-running", "name": "On Running", "subtitle": "Swiss performance" },
+    { "id": "hoka", "name": "HOKA", "subtitle": "Fly human fly" },
+    { "id": "yeezy", "name": "Yeezy", "subtitle": "Kanye West brand" }
+  ]
+}

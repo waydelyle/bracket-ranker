@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "strawberry-fruit", "name": "Strawberry", "subtitle": "Sweet & red" },
+    { "id": "mango-fruit", "name": "Mango", "subtitle": "King of fruits" },
+    { "id": "watermelon", "name": "Watermelon", "subtitle": "Summer staple" },
+    { "id": "banana", "name": "Banana", "subtitle": "Nature's energy bar" },
+    { "id": "peach", "name": "Peach", "subtitle": "Fuzzy & juicy" },
+    { "id": "blueberry", "name": "Blueberry", "subtitle": "Tiny & sweet" },
+    { "id": "pineapple-fruit", "name": "Pineapple", "subtitle": "Tropical tang" },
+    { "id": "raspberry", "name": "Raspberry", "subtitle": "Delicate & tart" },
+    { "id": "apple", "name": "Apple", "subtitle": "Crisp & versatile" },
+    { "id": "grape", "name": "Grape", "subtitle": "Red or green" },
+    { "id": "cherry", "name": "Cherry", "subtitle": "Sweet or tart" },
+    { "id": "orange", "name": "Orange", "subtitle": "Citrus classic" },
+    { "id": "kiwi", "name": "Kiwi", "subtitle": "Fuzzy green inside" },
+    { "id": "pomegranate", "name": "Pomegranate", "subtitle": "Ruby seeds" },
+    { "id": "lemon", "name": "Lemon", "subtitle": "Tart & zesty" },
+    { "id": "coconut-fruit", "name": "Coconut", "subtitle": "Tropical drupe" }
+  ]
+}
