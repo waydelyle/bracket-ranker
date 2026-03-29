@@ -8,12 +8,14 @@ interface ShareButtonsProps {
   resultId: string;
   bracketName: string;
   champion: string;
+  categoryColor?: string;
 }
 
 export function ShareButtons({
   resultId,
   bracketName,
   champion,
+  categoryColor,
 }: ShareButtonsProps) {
   const resultUrl =
     typeof window !== "undefined"
@@ -41,35 +43,37 @@ export function ShareButtons({
     }
   };
 
+  const iconColor = categoryColor || "hsl(var(--primary))";
+
   return (
     <div className="flex flex-wrap items-center gap-2">
       <Button
         variant="outline"
         size="sm"
-        className="gap-1.5"
+        className="gap-1.5 border-border bg-card hover:bg-secondary"
         onClick={() => window.open(twitterUrl, "_blank", "noopener,noreferrer")}
       >
-        <Share2 className="size-3.5" />
+        <Share2 className="size-3.5" style={{ color: iconColor }} />
         Share on X
       </Button>
 
       <Button
         variant="outline"
         size="sm"
-        className="gap-1.5"
+        className="gap-1.5 border-border bg-card hover:bg-secondary"
         onClick={handleCopyLink}
       >
-        <Copy className="size-3.5" />
+        <Copy className="size-3.5" style={{ color: iconColor }} />
         Copy Link
       </Button>
 
       <Button
         variant="outline"
         size="sm"
-        className="gap-1.5"
+        className="gap-1.5 border-border bg-card hover:bg-secondary"
         onClick={handleChallenge}
       >
-        <Link className="size-3.5" />
+        <Link className="size-3.5" style={{ color: iconColor }} />
         Challenge a Friend
       </Button>
     </div>

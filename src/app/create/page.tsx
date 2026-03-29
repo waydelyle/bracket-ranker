@@ -39,12 +39,12 @@ export default function CreatePage() {
   if (createdId) {
     return (
       <div className="flex flex-1 items-center justify-center px-4 py-12">
-        <Card className="mx-auto w-full max-w-md space-y-6 p-8 text-center">
-          <div className="inline-flex h-16 w-16 items-center justify-center rounded-full bg-green-100">
-            <PlusCircle className="size-8 text-green-600" />
+        <Card className="mx-auto w-full max-w-md space-y-6 border-border/50 bg-card p-8 text-center">
+          <div className="inline-flex h-16 w-16 items-center justify-center rounded-full bg-green-500/20">
+            <PlusCircle className="size-8 text-green-500" />
           </div>
           <div className="space-y-2">
-            <h2 className="text-2xl font-extrabold tracking-tight">
+            <h2 className="text-2xl font-extrabold tracking-tight text-white">
               Bracket Created!
             </h2>
             <p className="text-sm text-muted-foreground">
@@ -52,11 +52,18 @@ export default function CreatePage() {
             </p>
           </div>
           <div className="flex flex-col gap-3">
-            <Button onClick={() => router.push(`/create/${createdId}`)} className="gap-2">
+            <Button
+              onClick={() => router.push(`/create/${createdId}`)}
+              className="gap-2 bg-green-500 text-white hover:bg-green-600"
+            >
               <Play className="size-4" />
               Play Now
             </Button>
-            <Button variant="outline" onClick={copyLink} className="gap-2">
+            <Button
+              variant="outline"
+              onClick={copyLink}
+              className="gap-2 border-border bg-card hover:bg-secondary"
+            >
               <LinkIcon className="size-4" />
               Copy Share Link
             </Button>
@@ -70,10 +77,10 @@ export default function CreatePage() {
     <div className="px-4 py-10">
       <div className="mx-auto max-w-lg">
         <div className="mb-8 text-center">
-          <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-primary/10">
-            <PlusCircle className="size-7 text-primary" />
+          <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-amber-500/20">
+            <PlusCircle className="size-7 text-amber-500" />
           </div>
-          <h1 className="text-3xl font-extrabold tracking-tight">
+          <h1 className="text-3xl font-extrabold tracking-tight text-white">
             Create a Bracket
           </h1>
           <p className="mt-2 text-muted-foreground">
@@ -81,7 +88,7 @@ export default function CreatePage() {
           </p>
         </div>
 
-        <Card className="p-6">
+        <Card className="border-border/50 bg-card p-6">
           <BracketBuilder onSubmit={handleSubmit} isSubmitting={isSubmitting} />
         </Card>
       </div>

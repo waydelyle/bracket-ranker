@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Home, ArrowRight } from "lucide-react";
+import { Home, ArrowRight, Trophy } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getFeaturedBrackets } from "@/data/registry";
 import { getCategoryBySlug } from "@/data/categories";
@@ -10,23 +10,30 @@ export default function NotFound() {
   return (
     <div className="flex flex-1 flex-col items-center justify-center px-4 py-16">
       <div className="mx-auto flex max-w-lg flex-col items-center gap-6 text-center">
-        {/* Big 404 */}
-        <h1 className="text-8xl font-extrabold tracking-tighter text-muted-foreground/30">
-          404
-        </h1>
+        {/* Big 404 with gold accent */}
+        <div className="relative">
+          <h1 className="text-gradient-gold text-8xl font-extrabold tracking-tighter">
+            404
+          </h1>
+        </div>
+
+        {/* Trophy icon */}
+        <div className="flex size-16 items-center justify-center rounded-full bg-amber-500/20">
+          <Trophy className="size-8 text-amber-500" />
+        </div>
 
         {/* Heading */}
-        <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-          Page Not Found
+        <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
+          Bracket Not Found
         </h2>
 
         {/* Subtext */}
         <p className="text-muted-foreground">
-          Looks like this bracket doesn&apos;t exist&hellip; yet!
+          This matchup doesn&apos;t exist&hellip; yet! Maybe you should create it.
         </p>
 
         {/* Home link */}
-        <Button render={<Link href="/" />} className="gap-2">
+        <Button render={<Link href="/" />} className="gap-2 bg-amber-500 text-white hover:bg-amber-600">
           <Home className="size-4" />
           Back to Home
         </Button>
@@ -44,16 +51,24 @@ export default function NotFound() {
               <Link
                 key={`${bracket.category}-${bracket.slug}`}
                 href={`/${bracket.category}/${bracket.slug}`}
-                className="group flex items-center gap-3 rounded-xl border p-4 transition-colors hover:bg-muted/50"
+                className="group flex items-center gap-3 rounded-xl border border-border/50 bg-card p-4 transition-all hover:bg-secondary/50"
+                style={
+                  cat
+                    ? {
+                        borderLeftWidth: "3px",
+                        borderLeftColor: cat.color,
+                      }
+                    : undefined
+                }
               >
                 <div
-                  className="flex size-10 shrink-0 items-center justify-center rounded-lg text-white text-lg"
+                  className="flex size-10 shrink-0 items-center justify-center rounded-lg text-lg text-white"
                   style={{ backgroundColor: cat?.color ?? "#6366f1" }}
                 >
                   {cat?.icon}
                 </div>
                 <div className="min-w-0 flex-1">
-                  <p className="truncate text-sm font-semibold">
+                  <p className="truncate text-sm font-semibold text-white">
                     {bracket.name}
                   </p>
                   <p className="truncate text-xs text-muted-foreground">

@@ -10,12 +10,14 @@ interface BracketSizeSelectorProps {
   itemCount: number;
   onSelect: (size: number) => void;
   defaultSize: number;
+  categoryColor: string;
 }
 
 export function BracketSizeSelector({
   itemCount,
   onSelect,
   defaultSize,
+  categoryColor,
 }: BracketSizeSelectorProps) {
   const [selected, setSelected] = useState<number>(defaultSize);
 
@@ -45,32 +47,54 @@ export function BracketSizeSelector({
               className={cn(
                 "relative flex flex-col items-center gap-1 rounded-xl border-2 p-4 transition-all duration-200",
                 "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
-                available && !isSelected &&
-                  "border-border bg-card hover:border-primary/40 hover:shadow-md cursor-pointer",
-                isSelected &&
-                  "border-primary bg-primary/5 shadow-md cursor-pointer",
+                "bg-card",
+                available &&
+                  !isSelected &&
+                  "border-border hover:shadow-md cursor-pointer",
+                isSelected && "shadow-md cursor-pointer",
                 !available &&
-                  "cursor-not-allowed border-border/50 bg-muted/50 opacity-50",
+                  "cursor-not-allowed border-border/50 opacity-50",
               )}
+              style={
+                isSelected
+                  ? {
+                      borderColor: categoryColor,
+                      backgroundColor: `${categoryColor}18`,
+                      boxShadow: `0 0 16px 2px ${categoryColor}30`,
+                    }
+                  : available
+                    ? {
+                        borderColor: undefined,
+                      }
+                    : undefined
+              }
+              onMouseEnter={(e) => {
+                if (available && !isSelected) {
+                  e.currentTarget.style.borderColor = `${categoryColor}66`;
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (available && !isSelected) {
+                  e.currentTarget.style.borderColor = "";
+                }
+              }}
             >
               <Trophy
-                className={cn(
-                  "size-5",
-                  isSelected ? "text-primary" : "text-muted-foreground",
-                )}
+                className="size-5"
+                style={{
+                  color: isSelected ? categoryColor : undefined,
+                }}
               />
               <span
-                className={cn(
-                  "text-lg font-bold",
-                  isSelected ? "text-primary" : "text-foreground",
-                )}
+                className="text-lg font-bold"
+                style={{
+                  color: isSelected ? categoryColor : undefined,
+                }}
               >
                 {size}
               </span>
               <span className="text-xs text-muted-foreground">
-                {available
-                  ? `${size} of ${itemCount}`
-                  : `Need ${size}`}
+                {available ? `${size} of ${itemCount}` : `Need ${size}`}
               </span>
             </button>
           );

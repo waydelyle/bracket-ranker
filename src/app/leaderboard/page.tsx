@@ -121,10 +121,10 @@ export default async function LeaderboardPage() {
       <div className="mx-auto max-w-4xl">
         {/* Header */}
         <div className="mb-8 text-center">
-          <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-primary/10">
-            <BarChart3 className="size-7 text-primary" />
+          <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-amber-500/20">
+            <BarChart3 className="size-7 text-amber-500" />
           </div>
-          <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+          <h1 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
             Community Rankings
           </h1>
           <p className="mt-2 text-muted-foreground">
@@ -135,7 +135,7 @@ export default async function LeaderboardPage() {
 
         {/* Content */}
         {!hasAnyData ? (
-          <div className="flex flex-col items-center gap-3 rounded-xl border bg-muted/30 px-6 py-16 text-center">
+          <div className="flex flex-col items-center gap-3 rounded-xl border border-border/50 bg-card px-6 py-16 text-center">
             <BarChart3 className="size-10 text-muted-foreground/50" />
             <p className="text-muted-foreground">
               Leaderboard data will appear once voting begins
@@ -143,7 +143,7 @@ export default async function LeaderboardPage() {
           </div>
         ) : (
           <Tabs defaultValue={categories[0].slug} className="w-full">
-            <TabsList className="mb-6 flex h-auto w-full flex-wrap gap-1">
+            <TabsList className="mb-6 flex h-auto w-full flex-wrap gap-1 bg-secondary">
               {categories.map((cat) => {
                 const data = categoryData.find(
                   (d) => d.category.slug === cat.slug
@@ -153,12 +153,17 @@ export default async function LeaderboardPage() {
                   <TabsTrigger
                     key={cat.slug}
                     value={cat.slug}
-                    className="gap-1.5 px-3 py-2 text-sm"
+                    className="gap-1.5 px-3 py-2 text-sm data-[state=active]:bg-card data-[state=active]:text-white"
+                    style={
+                      {
+                        "--tab-active-border": cat.color,
+                      } as React.CSSProperties
+                    }
                   >
                     <span>{cat.icon}</span>
                     <span>{cat.name}</span>
                     {count > 0 && (
-                      <span className="ml-1 rounded-full bg-muted px-1.5 py-0.5 text-[10px] font-medium leading-none text-muted-foreground">
+                      <span className="ml-1 rounded-full bg-secondary px-1.5 py-0.5 text-[10px] font-medium leading-none text-muted-foreground">
                         {count}
                       </span>
                     )}

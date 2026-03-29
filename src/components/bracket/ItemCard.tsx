@@ -1,7 +1,5 @@
 "use client";
 
-import { useState } from "react";
-import Image from "next/image";
 import { cn } from "@/lib/utils";
 import type { BracketItem } from "@/data/types";
 
@@ -10,60 +8,58 @@ interface ItemCardProps {
   onClick?: () => void;
   selected?: boolean;
   disabled?: boolean;
+  categoryColor: string;
 }
 
-export function ItemCard({ item, onClick, selected, disabled }: ItemCardProps) {
-  const [imgError, setImgError] = useState(false);
-
-  const showImage = item.image && !imgError;
-
+export function ItemCard({
+  item,
+  onClick,
+  selected,
+  disabled,
+  categoryColor,
+}: ItemCardProps) {
   return (
     <button
       type="button"
       onClick={onClick}
       disabled={disabled}
       className={cn(
-        "group relative flex w-full flex-col overflow-hidden rounded-xl shadow-md transition-all duration-200",
-        "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
-        !disabled && "cursor-pointer hover:scale-[1.02] hover:shadow-lg",
-        disabled && "cursor-default opacity-60",
-        selected &&
-          "ring-2 ring-primary ring-offset-2 shadow-lg scale-[1.02]",
+        "group relative flex w-full flex-col items-center justify-center overflow-hidden rounded-2xl shadow-md transition-all duration-200 aspect-[3/4]",
+        "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-background",
+        !disabled && "cursor-pointer hover:scale-[1.03]",
+        disabled && "cursor-default opacity-50",
+        selected && "ring-2 ring-white scale-[1.03]",
       )}
+      style={{
+        background: `linear-gradient(to bottom, ${categoryColor}cc, ${categoryColor}55)`,
+        boxShadow: selected
+          ? `0 0 24px 4px ${categoryColor}60`
+          : undefined,
+      }}
+      onMouseEnter={(e) => {
+        if (!disabled && !selected) {
+          e.currentTarget.style.boxShadow = `0 0 20px 2px ${categoryColor}40`;
+        }
+      }}
+      onMouseLeave={(e) => {
+        if (!selected) {
+          e.currentTarget.style.boxShadow = "";
+        }
+      }}
     >
-      {/* Image or Placeholder */}
-      <div className="relative aspect-[4/3] w-full overflow-hidden bg-muted">
-        {showImage ? (
-          <Image
-            src={item.image!}
-            alt={item.name}
-            fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
-            sizes="(max-width: 768px) 80vw, 300px"
-            onError={() => setImgError(true)}
-          />
-        ) : (
-          <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-primary/20 to-primary/40">
-            <span className="text-4xl font-bold text-primary/70">
-              {item.name.charAt(0).toUpperCase()}
-            </span>
-          </div>
+      {/* Item name - the hero element */}
+      <div className="flex flex-col items-center gap-2 px-4 text-center">
+        <h3
+          className="text-xl font-bold leading-tight text-white md:text-2xl"
+          style={{ textShadow: "0 2px 8px rgba(0,0,0,0.4)" }}
+        >
+          {item.name}
+        </h3>
+        {item.subtitle && (
+          <p className="text-sm text-white/80 line-clamp-2">
+            {item.subtitle}
+          </p>
         )}
-
-        {/* Gradient overlay for text */}
-        <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/70 to-transparent" />
-
-        {/* Text overlay */}
-        <div className="absolute inset-x-0 bottom-0 p-3">
-          <h3 className="text-sm font-bold text-white leading-tight md:text-base">
-            {item.name}
-          </h3>
-          {item.subtitle && (
-            <p className="mt-0.5 text-xs text-white/80 line-clamp-1">
-              {item.subtitle}
-            </p>
-          )}
-        </div>
       </div>
     </button>
   );

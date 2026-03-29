@@ -22,8 +22,8 @@ export function ShareCard({
   const displayRanking = ranking.slice(0, 10);
 
   return (
-    <div className="overflow-hidden rounded-2xl border bg-card shadow-lg">
-      {/* Header */}
+    <div className="overflow-hidden rounded-2xl bg-card shadow-xl">
+      {/* Header bar */}
       <div
         className="px-6 py-4"
         style={{ backgroundColor: categoryColor }}
@@ -34,9 +34,9 @@ export function ShareCard({
         <h3 className="text-lg font-bold text-white">{bracketName}</h3>
       </div>
 
-      {/* Ranking list */}
-      <div className="px-6 py-4">
-        <div className="space-y-2">
+      {/* Dark ranking list */}
+      <div className="bg-card px-6 py-4">
+        <div className="space-y-2.5">
           {displayRanking.map((itemId, idx) => {
             const item = itemMap.get(itemId);
             if (!item) return null;
@@ -44,16 +44,36 @@ export function ShareCard({
             const isChampion = idx === 0;
 
             return (
-              <div key={itemId} className="flex items-center gap-2">
+              <div key={itemId} className="flex items-center gap-3">
                 {isChampion ? (
                   <Trophy
                     className="size-4 shrink-0"
                     style={{ color: categoryColor }}
                   />
                 ) : (
-                  <span className="w-4 shrink-0 text-center text-xs font-bold text-muted-foreground">
+                  <div
+                    className="flex size-5 shrink-0 items-center justify-center rounded-full text-[10px] font-bold"
+                    style={
+                      idx === 1
+                        ? {
+                            background:
+                              "linear-gradient(to bottom right, #fbbf24, #d97706)",
+                            color: "white",
+                          }
+                        : idx === 2
+                          ? {
+                              background:
+                                "linear-gradient(to bottom right, #9ca3af, #6b7280)",
+                              color: "white",
+                            }
+                          : {
+                              background: "hsl(var(--secondary))",
+                              color: "hsl(var(--muted-foreground))",
+                            }
+                    }
+                  >
                     {idx + 1}
-                  </span>
+                  </div>
                 )}
                 <span
                   className={
@@ -71,14 +91,14 @@ export function ShareCard({
         </div>
 
         {ranking.length > 10 && (
-          <p className="mt-2 text-xs text-muted-foreground">
+          <p className="mt-3 text-xs text-muted-foreground">
             +{ranking.length - 10} more
           </p>
         )}
       </div>
 
       {/* Footer watermark */}
-      <div className="border-t bg-muted/50 px-6 py-2">
+      <div className="border-t border-border/50 bg-secondary/50 px-6 py-2.5">
         <p className="text-xs font-medium text-muted-foreground">
           BracketRanker.com
         </p>

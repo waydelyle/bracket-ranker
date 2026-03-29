@@ -132,27 +132,34 @@ export function BracketGame({
         >
           {/* Saving indicator */}
           {isSaving && (
-            <div className="flex items-center gap-2 rounded-lg bg-muted/50 px-4 py-2">
-              <Loader2 className="size-4 animate-spin" />
+            <div className="flex items-center gap-2 rounded-lg bg-secondary px-4 py-2">
+              <Loader2 className="size-4 animate-spin text-muted-foreground" />
               <span className="text-sm text-muted-foreground">
                 Saving your results...
               </span>
             </div>
           )}
 
+          {/* Trophy with glow */}
           <div
-            className="flex h-20 w-20 items-center justify-center rounded-full shadow-lg"
-            style={{ backgroundColor: categoryColor }}
+            className="flex h-24 w-24 items-center justify-center rounded-full"
+            style={{
+              backgroundColor: categoryColor,
+              boxShadow: `0 0 30px 8px ${categoryColor}50`,
+            }}
           >
-            <Trophy className="size-10 text-white" />
+            <Trophy className="size-12 text-white" />
           </div>
 
           <div className="space-y-2">
-            <h2 className="text-3xl font-extrabold tracking-tight">
+            <h2 className="text-4xl font-extrabold tracking-tight text-white">
               Champion
             </h2>
             {champion && (
-              <p className="text-xl font-bold" style={{ color: categoryColor }}>
+              <p
+                className="text-2xl font-bold"
+                style={{ color: categoryColor }}
+              >
                 {champion.name}
               </p>
             )}
@@ -164,7 +171,7 @@ export function BracketGame({
           </div>
 
           {/* Inline results preview */}
-          <div className="w-full text-left">
+          <div className="w-full rounded-2xl bg-card p-4 text-left">
             <ResultsDisplay
               ranking={state.ranking.slice(0, 8)}
               items={state.items}
@@ -174,9 +181,12 @@ export function BracketGame({
           </div>
 
           <Button
-            variant="outline"
             onClick={reset}
-            className="mt-4 gap-2"
+            className="mt-4 gap-2 rounded-xl px-6 font-bold text-white"
+            style={{
+              backgroundColor: categoryColor,
+              boxShadow: `0 0 16px 2px ${categoryColor}30`,
+            }}
           >
             <RotateCcw className="size-4" />
             Play Again
@@ -226,6 +236,7 @@ export function BracketGame({
               itemB={currentMatchup.itemB}
               onPick={handlePick}
               roundName={roundName}
+              categoryColor={categoryColor}
             />
           )}
         </AnimatePresence>

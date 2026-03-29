@@ -12,12 +12,6 @@ interface ResultsDisplayProps {
   categoryColor: string;
 }
 
-const MEDAL_COLORS: Record<number, string> = {
-  0: "#FFD700", // gold
-  1: "#C0C0C0", // silver
-  2: "#CD7F32", // bronze
-};
-
 export function ResultsDisplay({
   ranking,
   items,
@@ -27,14 +21,13 @@ export function ResultsDisplay({
   const itemMap = new Map(items.map((item) => [item.id, item]));
 
   return (
-    <div className="w-full space-y-3">
+    <div className="w-full space-y-2">
       {ranking.map((itemId, idx) => {
         const item = itemMap.get(itemId);
         if (!item) return null;
 
         const isChampion = idx === 0;
         const isTopThree = idx < 3;
-        const medalColor = MEDAL_COLORS[idx];
 
         return (
           <div
@@ -42,22 +35,22 @@ export function ResultsDisplay({
             className={cn(
               "flex items-center gap-3 rounded-xl px-4 py-3 transition-colors",
               isChampion
-                ? "ring-2 shadow-sm"
+                ? "ring-2"
                 : isTopThree
-                  ? "bg-muted/50"
-                  : "hover:bg-muted/30"
+                  ? "bg-secondary/50"
+                  : "hover:bg-secondary/30"
             )}
             style={
               isChampion
                 ? ({
-                    backgroundColor: `${categoryColor}10`,
-                    borderColor: categoryColor,
+                    backgroundColor: `${categoryColor}15`,
                     "--tw-ring-color": categoryColor,
+                    boxShadow: `0 0 16px 2px ${categoryColor}25`,
                   } as React.CSSProperties)
                 : undefined
             }
           >
-            {/* Rank number or trophy */}
+            {/* Rank circle or trophy */}
             <div className="flex w-8 shrink-0 items-center justify-center">
               {isChampion ? (
                 <Trophy
@@ -65,17 +58,34 @@ export function ResultsDisplay({
                   style={{ color: categoryColor }}
                 />
               ) : (
-                <span
+                <div
                   className={cn(
-                    "text-sm font-bold",
-                    isTopThree
-                      ? "text-foreground"
-                      : "text-muted-foreground"
+                    "flex size-7 items-center justify-center rounded-full text-xs font-bold text-white",
                   )}
-                  style={medalColor ? { color: medalColor } : undefined}
+                  style={
+                    idx === 1
+                      ? {
+                          background:
+                            "linear-gradient(to bottom right, #fbbf24, #d97706)",
+                        }
+                      : idx === 2
+                        ? {
+                            background:
+                              "linear-gradient(to bottom right, #9ca3af, #6b7280)",
+                          }
+                        : idx === 3
+                          ? {
+                              background:
+                                "linear-gradient(to bottom right, #d97706, #92400e)",
+                            }
+                          : {
+                              background: "hsl(var(--secondary))",
+                              color: "hsl(var(--muted-foreground))",
+                            }
+                  }
                 >
                   {idx + 1}
-                </span>
+                </div>
               )}
             </div>
 
@@ -87,7 +97,7 @@ export function ResultsDisplay({
                   isChampion
                     ? "font-bold"
                     : isTopThree
-                      ? "font-semibold"
+                      ? "font-semibold text-white"
                       : "font-medium text-muted-foreground"
                 )}
                 style={isChampion ? { color: categoryColor } : undefined}
@@ -100,16 +110,6 @@ export function ResultsDisplay({
                 </p>
               )}
             </div>
-
-            {/* Medal indicator for top 3 */}
-            {isTopThree && (
-              <div
-                className="flex size-6 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white"
-                style={{ backgroundColor: medalColor }}
-              >
-                {idx + 1}
-              </div>
-            )}
           </div>
         );
       })}
