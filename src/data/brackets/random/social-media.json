@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "instagram", "name": "Instagram", "subtitle": "Photo & video sharing" },
-    { "id": "tiktok", "name": "TikTok", "subtitle": "Short-form video" },
-    { "id": "youtube", "name": "YouTube", "subtitle": "Video platform" },
-    { "id": "twitter-x", "name": "X (Twitter)", "subtitle": "Microblogging" },
-    { "id": "reddit", "name": "Reddit", "subtitle": "Forum communities" },
-    { "id": "snapchat", "name": "Snapchat", "subtitle": "Disappearing messages" },
-    { "id": "facebook", "name": "Facebook", "subtitle": "Social networking" },
-    { "id": "linkedin", "name": "LinkedIn", "subtitle": "Professional networking" },
-    { "id": "pinterest", "name": "Pinterest", "subtitle": "Visual bookmarking" },
-    { "id": "discord", "name": "Discord", "subtitle": "Chat & communities" },
-    { "id": "twitch", "name": "Twitch", "subtitle": "Live streaming" },
-    { "id": "whatsapp", "name": "WhatsApp", "subtitle": "Messaging" },
-    { "id": "telegram", "name": "Telegram", "subtitle": "Messaging" },
-    { "id": "threads", "name": "Threads", "subtitle": "Text-based social" },
-    { "id": "bluesky", "name": "Bluesky", "subtitle": "Decentralized social" },
-    { "id": "spotify", "name": "Spotify", "subtitle": "Music streaming" }
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "subtitle": "Photo & video sharing",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Instagram"
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "subtitle": "Short-form video",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=TikTok"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "subtitle": "Video platform",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=YouTube"
+    },
+    {
+      "id": "twitter-x",
+      "name": "X (Twitter)",
+      "subtitle": "Microblogging",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=X+(Twitter)"
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "subtitle": "Forum communities",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Reddit"
+    },
+    {
+      "id": "snapchat",
+      "name": "Snapchat",
+      "subtitle": "Disappearing messages",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Snapchat"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "subtitle": "Social networking",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Facebook"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "subtitle": "Professional networking",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=LinkedIn"
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "subtitle": "Visual bookmarking",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Pinterest"
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "subtitle": "Chat & communities",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Discord"
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "subtitle": "Live streaming",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Twitch"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "subtitle": "Messaging",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=WhatsApp"
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "subtitle": "Messaging",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Telegram"
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "subtitle": "Text-based social",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Threads"
+    },
+    {
+      "id": "bluesky",
+      "name": "Bluesky",
+      "subtitle": "Decentralized social",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Bluesky"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "subtitle": "Music streaming",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Spotify"
+    }
   ]
 }

@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "spirited-away", "name": "Spirited Away", "subtitle": "2001 - Studio Ghibli" },
-    { "id": "the-lion-king-anim", "name": "The Lion King", "subtitle": "1994 - Disney" },
-    { "id": "toy-story-anim", "name": "Toy Story", "subtitle": "1995 - Pixar" },
-    { "id": "shrek", "name": "Shrek", "subtitle": "2001 - DreamWorks" },
-    { "id": "finding-nemo-anim", "name": "Finding Nemo", "subtitle": "2003 - Pixar" },
-    { "id": "spider-verse", "name": "Spider-Man: Into the Spider-Verse", "subtitle": "2018 - Sony" },
-    { "id": "frozen-anim", "name": "Frozen", "subtitle": "2013 - Disney" },
-    { "id": "wall-e-anim", "name": "WALL-E", "subtitle": "2008 - Pixar" },
-    { "id": "up-anim", "name": "Up", "subtitle": "2009 - Pixar" },
-    { "id": "how-to-train-your-dragon", "name": "How to Train Your Dragon", "subtitle": "2010 - DreamWorks" },
-    { "id": "the-incredibles-anim", "name": "The Incredibles", "subtitle": "2004 - Pixar" },
-    { "id": "ratatouille-anim", "name": "Ratatouille", "subtitle": "2007 - Pixar" },
-    { "id": "coco-anim", "name": "Coco", "subtitle": "2017 - Pixar" },
-    { "id": "inside-out-anim", "name": "Inside Out", "subtitle": "2015 - Pixar" },
-    { "id": "princess-mononoke", "name": "Princess Mononoke", "subtitle": "1997 - Studio Ghibli" },
-    { "id": "beauty-and-the-beast-anim", "name": "Beauty and the Beast", "subtitle": "1991 - Disney" },
-    { "id": "aladdin-anim", "name": "Aladdin", "subtitle": "1992 - Disney" },
-    { "id": "kung-fu-panda", "name": "Kung Fu Panda", "subtitle": "2008 - DreamWorks" },
-    { "id": "the-iron-giant", "name": "The Iron Giant", "subtitle": "1999 - Warner Bros" },
-    { "id": "monsters-inc-anim", "name": "Monsters, Inc.", "subtitle": "2001 - Pixar" },
-    { "id": "shrek-2", "name": "Shrek 2", "subtitle": "2004 - DreamWorks" },
-    { "id": "moana-anim", "name": "Moana", "subtitle": "2016 - Disney" },
-    { "id": "akira", "name": "Akira", "subtitle": "1988 - TMS" },
-    { "id": "the-nightmare-before-christmas-anim", "name": "The Nightmare Before Christmas", "subtitle": "1993 - Disney" },
-    { "id": "soul-anim", "name": "Soul", "subtitle": "2020 - Pixar" },
-    { "id": "zootopia-anim", "name": "Zootopia", "subtitle": "2016 - Disney" },
-    { "id": "the-lego-movie", "name": "The Lego Movie", "subtitle": "2014 - Warner Bros" },
-    { "id": "across-the-spider-verse", "name": "Across the Spider-Verse", "subtitle": "2023 - Sony" },
-    { "id": "tangled-anim", "name": "Tangled", "subtitle": "2010 - Disney" },
-    { "id": "puss-in-boots-last-wish", "name": "Puss in Boots: The Last Wish", "subtitle": "2022 - DreamWorks" },
-    { "id": "megamind", "name": "Megamind", "subtitle": "2010 - DreamWorks" },
-    { "id": "coraline", "name": "Coraline", "subtitle": "2009 - Laika" }
+    {
+      "id": "spirited-away",
+      "name": "Spirited Away",
+      "subtitle": "2001 - Studio Ghibli",
+      "image": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg"
+    },
+    {
+      "id": "the-lion-king-anim",
+      "name": "The Lion King",
+      "subtitle": "1994 - Disney",
+      "image": "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg"
+    },
+    {
+      "id": "toy-story-anim",
+      "name": "Toy Story",
+      "subtitle": "1995 - Pixar",
+      "image": "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg"
+    },
+    {
+      "id": "shrek",
+      "name": "Shrek",
+      "subtitle": "2001 - DreamWorks",
+      "image": "https://image.tmdb.org/t/p/w500/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg"
+    },
+    {
+      "id": "finding-nemo-anim",
+      "name": "Finding Nemo",
+      "subtitle": "2003 - Pixar",
+      "image": "https://image.tmdb.org/t/p/w500/eHuGQ10FUzJ1cGgRnQ3Hy7PS3u9.jpg"
+    },
+    {
+      "id": "spider-verse",
+      "name": "Spider-Man: Into the Spider-Verse",
+      "subtitle": "2018 - Sony",
+      "image": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg"
+    },
+    {
+      "id": "frozen-anim",
+      "name": "Frozen",
+      "subtitle": "2013 - Disney",
+      "image": "https://image.tmdb.org/t/p/w500/kgwjIb2JDHRhNk13lmSMyuMK8Ns.jpg"
+    },
+    {
+      "id": "wall-e-anim",
+      "name": "WALL-E",
+      "subtitle": "2008 - Pixar",
+      "image": "https://image.tmdb.org/t/p/w500/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg"
+    },
+    {
+      "id": "up-anim",
+      "name": "Up",
+      "subtitle": "2009 - Pixar",
+      "image": "https://image.tmdb.org/t/p/w500/vpbaStTMt8qqXaEgnOR2yAAOFBR.jpg"
+    },
+    {
+      "id": "how-to-train-your-dragon",
+      "name": "How to Train Your Dragon",
+      "subtitle": "2010 - DreamWorks",
+      "image": "https://image.tmdb.org/t/p/w500/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg"
+    },
+    {
+      "id": "the-incredibles-anim",
+      "name": "The Incredibles",
+      "subtitle": "2004 - Pixar",
+      "image": "https://image.tmdb.org/t/p/w500/2LqaLgk1MYR85FEOqNP4cQ3AJZJ.jpg"
+    },
+    {
+      "id": "ratatouille-anim",
+      "name": "Ratatouille",
+      "subtitle": "2007 - Pixar",
+      "image": "https://image.tmdb.org/t/p/w500/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg"
+    },
+    {
+      "id": "coco-anim",
+      "name": "Coco",
+      "subtitle": "2017 - Pixar",
+      "image": "https://image.tmdb.org/t/p/w500/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg"
+    },
+    {
+      "id": "inside-out-anim",
+      "name": "Inside Out",
+      "subtitle": "2015 - Pixar",
+      "image": "https://image.tmdb.org/t/p/w500/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg"
+    },
+    {
+      "id": "princess-mononoke",
+      "name": "Princess Mononoke",
+      "subtitle": "1997 - Studio Ghibli",
+      "image": "https://image.tmdb.org/t/p/w500/cMYCDADoLKLbB83g4WnJegaZimC.jpg"
+    },
+    {
+      "id": "beauty-and-the-beast-anim",
+      "name": "Beauty and the Beast",
+      "subtitle": "1991 - Disney",
+      "image": "https://image.tmdb.org/t/p/w500/9BQqngPfwbyqVVPcTePjdaGnWfp.jpg"
+    },
+    {
+      "id": "aladdin-anim",
+      "name": "Aladdin",
+      "subtitle": "1992 - Disney",
+      "image": "https://image.tmdb.org/t/p/w500/fwAlmJYeOJjoceSGqOXWub81Ena.jpg"
+    },
+    {
+      "id": "kung-fu-panda",
+      "name": "Kung Fu Panda",
+      "subtitle": "2008 - DreamWorks",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Kung+Fu+Panda"
+    },
+    {
+      "id": "the-iron-giant",
+      "name": "The Iron Giant",
+      "subtitle": "1999 - Warner Bros",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Iron+Giant"
+    },
+    {
+      "id": "monsters-inc-anim",
+      "name": "Monsters, Inc.",
+      "subtitle": "2001 - Pixar",
+      "image": "https://image.tmdb.org/t/p/w500/sgheSKxZkttIe8ONsf2smuXl2Td.jpg"
+    },
+    {
+      "id": "shrek-2",
+      "name": "Shrek 2",
+      "subtitle": "2004 - DreamWorks",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Shrek+2"
+    },
+    {
+      "id": "moana-anim",
+      "name": "Moana",
+      "subtitle": "2016 - Disney",
+      "image": "https://image.tmdb.org/t/p/w500/4eOb8ditMaEbkiaXV8R8baurJmN.jpg"
+    },
+    {
+      "id": "akira",
+      "name": "Akira",
+      "subtitle": "1988 - TMS",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Akira"
+    },
+    {
+      "id": "the-nightmare-before-christmas-anim",
+      "name": "The Nightmare Before Christmas",
+      "subtitle": "1993 - Disney",
+      "image": "https://image.tmdb.org/t/p/w500/sF9FOiMXbXeTpz6DjkMz6yRkYAy.jpg"
+    },
+    {
+      "id": "soul-anim",
+      "name": "Soul",
+      "subtitle": "2020 - Pixar",
+      "image": "https://image.tmdb.org/t/p/w500/hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg"
+    },
+    {
+      "id": "zootopia-anim",
+      "name": "Zootopia",
+      "subtitle": "2016 - Disney",
+      "image": "https://image.tmdb.org/t/p/w500/hlK0e0aALSmyDHUNUnDLjCMiYQH.jpg"
+    },
+    {
+      "id": "the-lego-movie",
+      "name": "The Lego Movie",
+      "subtitle": "2014 - Warner Bros",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Lego+Movie"
+    },
+    {
+      "id": "across-the-spider-verse",
+      "name": "Across the Spider-Verse",
+      "subtitle": "2023 - Sony",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Across+the+Spider-Verse"
+    },
+    {
+      "id": "tangled-anim",
+      "name": "Tangled",
+      "subtitle": "2010 - Disney",
+      "image": "https://image.tmdb.org/t/p/w500/ym7T4g3MmORUkGRCOIoruaC35MF.jpg"
+    },
+    {
+      "id": "puss-in-boots-last-wish",
+      "name": "Puss in Boots: The Last Wish",
+      "subtitle": "2022 - DreamWorks",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Puss+in+Boots%3A+The+Last+Wish"
+    },
+    {
+      "id": "megamind",
+      "name": "Megamind",
+      "subtitle": "2010 - DreamWorks",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Megamind"
+    },
+    {
+      "id": "coraline",
+      "name": "Coraline",
+      "subtitle": "2009 - Laika",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Coraline"
+    }
   ]
 }

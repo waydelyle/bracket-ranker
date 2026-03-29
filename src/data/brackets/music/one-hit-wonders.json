@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "tainted-love", "name": "Tainted Love", "subtitle": "Soft Cell - 1981" },
-    { "id": "come-on-eileen", "name": "Come On Eileen", "subtitle": "Dexys Midnight Runners - 1982" },
-    { "id": "take-on-me", "name": "Take On Me", "subtitle": "a-ha - 1985" },
-    { "id": "mambo-no-5", "name": "Mambo No. 5", "subtitle": "Lou Bega - 1999" },
-    { "id": "ice-ice-baby", "name": "Ice Ice Baby", "subtitle": "Vanilla Ice - 1990" },
-    { "id": "who-let-the-dogs-out", "name": "Who Let the Dogs Out", "subtitle": "Baha Men - 2000" },
-    { "id": "macarena", "name": "Macarena", "subtitle": "Los del Rio - 1993" },
-    { "id": "tubthumping", "name": "Tubthumping", "subtitle": "Chumbawamba - 1997" },
-    { "id": "spirit-in-the-sky", "name": "Spirit in the Sky", "subtitle": "Norman Greenbaum - 1969" },
-    { "id": "video-killed-the-radio-star", "name": "Video Killed the Radio Star", "subtitle": "The Buggles - 1979" },
-    { "id": "i-ran", "name": "I Ran (So Far Away)", "subtitle": "A Flock of Seagulls - 1982" },
-    { "id": "96-nicky", "name": "Somebody That I Used to Know", "subtitle": "Gotye - 2011" },
-    { "id": "blue-da-ba-dee", "name": "Blue (Da Ba Dee)", "subtitle": "Eiffel 65 - 1998" },
-    { "id": "steal-my-sunshine", "name": "Steal My Sunshine", "subtitle": "Len - 1999" },
-    { "id": "chasing-cars", "name": "Chasing Cars", "subtitle": "Snow Patrol - 2006" },
-    { "id": "cha-cha-slide", "name": "Cha Cha Slide", "subtitle": "DJ Casper - 2000" },
-    { "id": "safety-dance", "name": "The Safety Dance", "subtitle": "Men Without Hats - 1982" },
-    { "id": "867-5309", "name": "867-5309/Jenny", "subtitle": "Tommy Tutone - 1981" },
-    { "id": "thong-song", "name": "Thong Song", "subtitle": "Sisqo - 1999" },
-    { "id": "funkytown", "name": "Funkytown", "subtitle": "Lipps Inc. - 1980" },
-    { "id": "i-believe-i-can-fly", "name": "I Believe I Can Fly", "subtitle": "R. Kelly - 1996" },
-    { "id": "witch-doctor", "name": "Witch Doctor", "subtitle": "Cartoons - 1998" },
-    { "id": "what-is-love", "name": "What Is Love", "subtitle": "Haddaway - 1993" },
-    { "id": "gangnam-style", "name": "Gangnam Style", "subtitle": "PSY - 2012" },
-    { "id": "my-sharona", "name": "My Sharona", "subtitle": "The Knack - 1979" },
-    { "id": "closing-time", "name": "Closing Time", "subtitle": "Semisonic - 1998" },
-    { "id": "stacy-s-mom", "name": "Stacy's Mom", "subtitle": "Fountains of Wayne - 2003" },
-    { "id": "mmmbop", "name": "MMMBop", "subtitle": "Hanson - 1997" },
-    { "id": "walking-on-sunshine", "name": "Walking on Sunshine", "subtitle": "Katrina and the Waves - 1985" },
-    { "id": "i-like-to-move-it", "name": "I Like to Move It", "subtitle": "Reel 2 Real - 1994" },
-    { "id": "tequila", "name": "Tequila", "subtitle": "The Champs - 1958" },
-    { "id": "harlem-shake", "name": "Harlem Shake", "subtitle": "Baauer - 2013" }
+    {
+      "id": "tainted-love",
+      "name": "Tainted Love",
+      "subtitle": "Soft Cell - 1981",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Tainted+Love"
+    },
+    {
+      "id": "come-on-eileen",
+      "name": "Come On Eileen",
+      "subtitle": "Dexys Midnight Runners - 1982",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Come+On+Eileen"
+    },
+    {
+      "id": "take-on-me",
+      "name": "Take On Me",
+      "subtitle": "a-ha - 1985",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Take+On+Me"
+    },
+    {
+      "id": "mambo-no-5",
+      "name": "Mambo No. 5",
+      "subtitle": "Lou Bega - 1999",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Mambo+No.+5"
+    },
+    {
+      "id": "ice-ice-baby",
+      "name": "Ice Ice Baby",
+      "subtitle": "Vanilla Ice - 1990",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ice+Ice+Baby"
+    },
+    {
+      "id": "who-let-the-dogs-out",
+      "name": "Who Let the Dogs Out",
+      "subtitle": "Baha Men - 2000",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Who+Let+the+Dogs+Out"
+    },
+    {
+      "id": "macarena",
+      "name": "Macarena",
+      "subtitle": "Los del Rio - 1993",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Macarena"
+    },
+    {
+      "id": "tubthumping",
+      "name": "Tubthumping",
+      "subtitle": "Chumbawamba - 1997",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Tubthumping"
+    },
+    {
+      "id": "spirit-in-the-sky",
+      "name": "Spirit in the Sky",
+      "subtitle": "Norman Greenbaum - 1969",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Spirit+in+the+Sky"
+    },
+    {
+      "id": "video-killed-the-radio-star",
+      "name": "Video Killed the Radio Star",
+      "subtitle": "The Buggles - 1979",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Video+Killed+the+Radio+Star"
+    },
+    {
+      "id": "i-ran",
+      "name": "I Ran (So Far Away)",
+      "subtitle": "A Flock of Seagulls - 1982",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=I+Ran+(So+Far+Away)"
+    },
+    {
+      "id": "96-nicky",
+      "name": "Somebody That I Used to Know",
+      "subtitle": "Gotye - 2011",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Somebody+That+I+Used+to+Know"
+    },
+    {
+      "id": "blue-da-ba-dee",
+      "name": "Blue (Da Ba Dee)",
+      "subtitle": "Eiffel 65 - 1998",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Blue+(Da+Ba+Dee)"
+    },
+    {
+      "id": "steal-my-sunshine",
+      "name": "Steal My Sunshine",
+      "subtitle": "Len - 1999",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Steal+My+Sunshine"
+    },
+    {
+      "id": "chasing-cars",
+      "name": "Chasing Cars",
+      "subtitle": "Snow Patrol - 2006",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Chasing+Cars"
+    },
+    {
+      "id": "cha-cha-slide",
+      "name": "Cha Cha Slide",
+      "subtitle": "DJ Casper - 2000",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Cha+Cha+Slide"
+    },
+    {
+      "id": "safety-dance",
+      "name": "The Safety Dance",
+      "subtitle": "Men Without Hats - 1982",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Safety+Dance"
+    },
+    {
+      "id": "867-5309",
+      "name": "867-5309/Jenny",
+      "subtitle": "Tommy Tutone - 1981",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=867-5309%2FJenny"
+    },
+    {
+      "id": "thong-song",
+      "name": "Thong Song",
+      "subtitle": "Sisqo - 1999",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Thong+Song"
+    },
+    {
+      "id": "funkytown",
+      "name": "Funkytown",
+      "subtitle": "Lipps Inc. - 1980",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Funkytown"
+    },
+    {
+      "id": "i-believe-i-can-fly",
+      "name": "I Believe I Can Fly",
+      "subtitle": "R. Kelly - 1996",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=I+Believe+I+Can+Fly"
+    },
+    {
+      "id": "witch-doctor",
+      "name": "Witch Doctor",
+      "subtitle": "Cartoons - 1998",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Witch+Doctor"
+    },
+    {
+      "id": "what-is-love",
+      "name": "What Is Love",
+      "subtitle": "Haddaway - 1993",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=What+Is+Love"
+    },
+    {
+      "id": "gangnam-style",
+      "name": "Gangnam Style",
+      "subtitle": "PSY - 2012",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Gangnam+Style"
+    },
+    {
+      "id": "my-sharona",
+      "name": "My Sharona",
+      "subtitle": "The Knack - 1979",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=My+Sharona"
+    },
+    {
+      "id": "closing-time",
+      "name": "Closing Time",
+      "subtitle": "Semisonic - 1998",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Closing+Time"
+    },
+    {
+      "id": "stacy-s-mom",
+      "name": "Stacy's Mom",
+      "subtitle": "Fountains of Wayne - 2003",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Stacy's+Mom"
+    },
+    {
+      "id": "mmmbop",
+      "name": "MMMBop",
+      "subtitle": "Hanson - 1997",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=MMMBop"
+    },
+    {
+      "id": "walking-on-sunshine",
+      "name": "Walking on Sunshine",
+      "subtitle": "Katrina and the Waves - 1985",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Walking+on+Sunshine"
+    },
+    {
+      "id": "i-like-to-move-it",
+      "name": "I Like to Move It",
+      "subtitle": "Reel 2 Real - 1994",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=I+Like+to+Move+It"
+    },
+    {
+      "id": "tequila",
+      "name": "Tequila",
+      "subtitle": "The Champs - 1958",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Tequila"
+    },
+    {
+      "id": "harlem-shake",
+      "name": "Harlem Shake",
+      "subtitle": "Baauer - 2013",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Harlem+Shake"
+    }
   ]
 }

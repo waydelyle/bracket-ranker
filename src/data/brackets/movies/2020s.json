@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "everything-everywhere-20s", "name": "Everything Everywhere All at Once", "subtitle": "2022" },
-    { "id": "oppenheimer-20s", "name": "Oppenheimer", "subtitle": "2023" },
-    { "id": "dune-20s", "name": "Dune", "subtitle": "2021" },
-    { "id": "spider-man-no-way-home-20s", "name": "Spider-Man: No Way Home", "subtitle": "2021" },
-    { "id": "top-gun-maverick-20s", "name": "Top Gun: Maverick", "subtitle": "2022" },
-    { "id": "parasite-20s", "name": "Parasite", "subtitle": "2020" },
-    { "id": "dune-part-two-20s", "name": "Dune: Part Two", "subtitle": "2024" },
-    { "id": "barbie-20s", "name": "Barbie", "subtitle": "2023" },
-    { "id": "across-the-spider-verse-20s", "name": "Across the Spider-Verse", "subtitle": "2023" },
-    { "id": "the-batman", "name": "The Batman", "subtitle": "2022" },
-    { "id": "soul-20s", "name": "Soul", "subtitle": "2020" },
-    { "id": "nomadland-20s", "name": "Nomadland", "subtitle": "2021" },
-    { "id": "killers-of-the-flower-moon-20s", "name": "Killers of the Flower Moon", "subtitle": "2023" },
-    { "id": "past-lives-20s", "name": "Past Lives", "subtitle": "2023" },
-    { "id": "puss-in-boots-last-wish-20s", "name": "Puss in Boots: The Last Wish", "subtitle": "2022" },
-    { "id": "anora-20s", "name": "Anora", "subtitle": "2024" }
+    {
+      "id": "everything-everywhere-20s",
+      "name": "Everything Everywhere All at Once",
+      "subtitle": "2022",
+      "image": "https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg"
+    },
+    {
+      "id": "oppenheimer-20s",
+      "name": "Oppenheimer",
+      "subtitle": "2023",
+      "image": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+    },
+    {
+      "id": "dune-20s",
+      "name": "Dune",
+      "subtitle": "2021",
+      "image": "https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
+    },
+    {
+      "id": "spider-man-no-way-home-20s",
+      "name": "Spider-Man: No Way Home",
+      "subtitle": "2021",
+      "image": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
+    },
+    {
+      "id": "top-gun-maverick-20s",
+      "name": "Top Gun: Maverick",
+      "subtitle": "2022",
+      "image": "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg"
+    },
+    {
+      "id": "parasite-20s",
+      "name": "Parasite",
+      "subtitle": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+    },
+    {
+      "id": "dune-part-two-20s",
+      "name": "Dune: Part Two",
+      "subtitle": "2024",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Dune%3A+Part+Two"
+    },
+    {
+      "id": "barbie-20s",
+      "name": "Barbie",
+      "subtitle": "2023",
+      "image": "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg"
+    },
+    {
+      "id": "across-the-spider-verse-20s",
+      "name": "Across the Spider-Verse",
+      "subtitle": "2023",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Across+the+Spider-Verse"
+    },
+    {
+      "id": "the-batman",
+      "name": "The Batman",
+      "subtitle": "2022",
+      "image": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg"
+    },
+    {
+      "id": "soul-20s",
+      "name": "Soul",
+      "subtitle": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg"
+    },
+    {
+      "id": "nomadland-20s",
+      "name": "Nomadland",
+      "subtitle": "2021",
+      "image": "https://image.tmdb.org/t/p/w500/fmHGjiCsHTlhisFc8NqXrG0h5UR.jpg"
+    },
+    {
+      "id": "killers-of-the-flower-moon-20s",
+      "name": "Killers of the Flower Moon",
+      "subtitle": "2023",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Killers+of+the+Flower+Moon"
+    },
+    {
+      "id": "past-lives-20s",
+      "name": "Past Lives",
+      "subtitle": "2023",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Past+Lives"
+    },
+    {
+      "id": "puss-in-boots-last-wish-20s",
+      "name": "Puss in Boots: The Last Wish",
+      "subtitle": "2022",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Puss+in+Boots%3A+The+Last+Wish"
+    },
+    {
+      "id": "anora-20s",
+      "name": "Anora",
+      "subtitle": "2024",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Anora"
+    }
   ]
 }

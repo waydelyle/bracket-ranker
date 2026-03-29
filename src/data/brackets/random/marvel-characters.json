@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "spider-man-char", "name": "Spider-Man", "subtitle": "Peter Parker" },
-    { "id": "iron-man-char", "name": "Iron Man", "subtitle": "Tony Stark" },
-    { "id": "wolverine", "name": "Wolverine", "subtitle": "Logan" },
-    { "id": "captain-america-char", "name": "Captain America", "subtitle": "Steve Rogers" },
-    { "id": "thor-char", "name": "Thor", "subtitle": "God of Thunder" },
-    { "id": "black-panther-char", "name": "Black Panther", "subtitle": "T'Challa" },
-    { "id": "hulk", "name": "Hulk", "subtitle": "Bruce Banner" },
-    { "id": "doctor-strange-char", "name": "Doctor Strange", "subtitle": "Stephen Strange" },
-    { "id": "deadpool-char", "name": "Deadpool", "subtitle": "Wade Wilson" },
-    { "id": "scarlet-witch", "name": "Scarlet Witch", "subtitle": "Wanda Maximoff" },
-    { "id": "black-widow-char", "name": "Black Widow", "subtitle": "Natasha Romanoff" },
-    { "id": "thanos", "name": "Thanos", "subtitle": "The Mad Titan" },
-    { "id": "loki-char", "name": "Loki", "subtitle": "God of Mischief" },
-    { "id": "groot", "name": "Groot", "subtitle": "I Am Groot" },
-    { "id": "rocket-raccoon", "name": "Rocket Raccoon", "subtitle": "Guardians of the Galaxy" },
-    { "id": "storm", "name": "Storm", "subtitle": "Ororo Munroe" },
-    { "id": "gamora", "name": "Gamora", "subtitle": "Guardians of the Galaxy" },
-    { "id": "vision", "name": "Vision", "subtitle": "Synthezoid" },
-    { "id": "hawkeye", "name": "Hawkeye", "subtitle": "Clint Barton" },
-    { "id": "ant-man-char", "name": "Ant-Man", "subtitle": "Scott Lang" },
-    { "id": "nick-fury", "name": "Nick Fury", "subtitle": "Director of SHIELD" },
-    { "id": "war-machine", "name": "War Machine", "subtitle": "James Rhodes" },
-    { "id": "falcon", "name": "Falcon / Captain America", "subtitle": "Sam Wilson" },
-    { "id": "winter-soldier", "name": "Winter Soldier", "subtitle": "Bucky Barnes" },
-    { "id": "star-lord", "name": "Star-Lord", "subtitle": "Peter Quill" },
-    { "id": "drax", "name": "Drax", "subtitle": "The Destroyer" },
-    { "id": "miles-morales", "name": "Miles Morales", "subtitle": "Spider-Man" },
-    { "id": "magneto", "name": "Magneto", "subtitle": "Erik Lehnsherr" },
-    { "id": "professor-x", "name": "Professor X", "subtitle": "Charles Xavier" },
-    { "id": "jean-grey", "name": "Jean Grey", "subtitle": "Phoenix" },
-    { "id": "cyclops", "name": "Cyclops", "subtitle": "Scott Summers" },
-    { "id": "shang-chi-char", "name": "Shang-Chi", "subtitle": "Master of Kung Fu" }
+    {
+      "id": "spider-man-char",
+      "name": "Spider-Man",
+      "subtitle": "Peter Parker",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Spider-Man"
+    },
+    {
+      "id": "iron-man-char",
+      "name": "Iron Man",
+      "subtitle": "Tony Stark",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Iron+Man"
+    },
+    {
+      "id": "wolverine",
+      "name": "Wolverine",
+      "subtitle": "Logan",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Wolverine"
+    },
+    {
+      "id": "captain-america-char",
+      "name": "Captain America",
+      "subtitle": "Steve Rogers",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Captain+America"
+    },
+    {
+      "id": "thor-char",
+      "name": "Thor",
+      "subtitle": "God of Thunder",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Thor"
+    },
+    {
+      "id": "black-panther-char",
+      "name": "Black Panther",
+      "subtitle": "T'Challa",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Black+Panther"
+    },
+    {
+      "id": "hulk",
+      "name": "Hulk",
+      "subtitle": "Bruce Banner",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Hulk"
+    },
+    {
+      "id": "doctor-strange-char",
+      "name": "Doctor Strange",
+      "subtitle": "Stephen Strange",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Doctor+Strange"
+    },
+    {
+      "id": "deadpool-char",
+      "name": "Deadpool",
+      "subtitle": "Wade Wilson",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Deadpool"
+    },
+    {
+      "id": "scarlet-witch",
+      "name": "Scarlet Witch",
+      "subtitle": "Wanda Maximoff",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Scarlet+Witch"
+    },
+    {
+      "id": "black-widow-char",
+      "name": "Black Widow",
+      "subtitle": "Natasha Romanoff",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Black+Widow"
+    },
+    {
+      "id": "thanos",
+      "name": "Thanos",
+      "subtitle": "The Mad Titan",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Thanos"
+    },
+    {
+      "id": "loki-char",
+      "name": "Loki",
+      "subtitle": "God of Mischief",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Loki"
+    },
+    {
+      "id": "groot",
+      "name": "Groot",
+      "subtitle": "I Am Groot",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Groot"
+    },
+    {
+      "id": "rocket-raccoon",
+      "name": "Rocket Raccoon",
+      "subtitle": "Guardians of the Galaxy",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Rocket+Raccoon"
+    },
+    {
+      "id": "storm",
+      "name": "Storm",
+      "subtitle": "Ororo Munroe",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Storm"
+    },
+    {
+      "id": "gamora",
+      "name": "Gamora",
+      "subtitle": "Guardians of the Galaxy",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Gamora"
+    },
+    {
+      "id": "vision",
+      "name": "Vision",
+      "subtitle": "Synthezoid",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Vision"
+    },
+    {
+      "id": "hawkeye",
+      "name": "Hawkeye",
+      "subtitle": "Clint Barton",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Hawkeye"
+    },
+    {
+      "id": "ant-man-char",
+      "name": "Ant-Man",
+      "subtitle": "Scott Lang",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Ant-Man"
+    },
+    {
+      "id": "nick-fury",
+      "name": "Nick Fury",
+      "subtitle": "Director of SHIELD",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Nick+Fury"
+    },
+    {
+      "id": "war-machine",
+      "name": "War Machine",
+      "subtitle": "James Rhodes",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=War+Machine"
+    },
+    {
+      "id": "falcon",
+      "name": "Falcon / Captain America",
+      "subtitle": "Sam Wilson",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Falcon+%2F+Captain+America"
+    },
+    {
+      "id": "winter-soldier",
+      "name": "Winter Soldier",
+      "subtitle": "Bucky Barnes",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Winter+Soldier"
+    },
+    {
+      "id": "star-lord",
+      "name": "Star-Lord",
+      "subtitle": "Peter Quill",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Star-Lord"
+    },
+    {
+      "id": "drax",
+      "name": "Drax",
+      "subtitle": "The Destroyer",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Drax"
+    },
+    {
+      "id": "miles-morales",
+      "name": "Miles Morales",
+      "subtitle": "Spider-Man",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Miles+Morales"
+    },
+    {
+      "id": "magneto",
+      "name": "Magneto",
+      "subtitle": "Erik Lehnsherr",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Magneto"
+    },
+    {
+      "id": "professor-x",
+      "name": "Professor X",
+      "subtitle": "Charles Xavier",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Professor+X"
+    },
+    {
+      "id": "jean-grey",
+      "name": "Jean Grey",
+      "subtitle": "Phoenix",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Jean+Grey"
+    },
+    {
+      "id": "cyclops",
+      "name": "Cyclops",
+      "subtitle": "Scott Summers",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Cyclops"
+    },
+    {
+      "id": "shang-chi-char",
+      "name": "Shang-Chi",
+      "subtitle": "Master of Kung Fu",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Shang-Chi"
+    }
   ]
 }

@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "the-legend-of-zelda-botw", "name": "The Legend of Zelda: Breath of the Wild", "subtitle": "2017 - Nintendo" },
-    { "id": "minecraft", "name": "Minecraft", "subtitle": "2011 - Mojang" },
-    { "id": "the-witcher-3", "name": "The Witcher 3: Wild Hunt", "subtitle": "2015 - CD Projekt Red" },
-    { "id": "red-dead-redemption-2", "name": "Red Dead Redemption 2", "subtitle": "2018 - Rockstar" },
-    { "id": "gta-v", "name": "Grand Theft Auto V", "subtitle": "2013 - Rockstar" },
-    { "id": "the-last-of-us", "name": "The Last of Us", "subtitle": "2013 - Naughty Dog" },
-    { "id": "elden-ring", "name": "Elden Ring", "subtitle": "2022 - FromSoftware" },
-    { "id": "super-mario-odyssey", "name": "Super Mario Odyssey", "subtitle": "2017 - Nintendo" },
-    { "id": "god-of-war-2018", "name": "God of War (2018)", "subtitle": "2018 - Santa Monica" },
-    { "id": "skyrim", "name": "The Elder Scrolls V: Skyrim", "subtitle": "2011 - Bethesda" },
-    { "id": "dark-souls", "name": "Dark Souls", "subtitle": "2011 - FromSoftware" },
-    { "id": "halo-reach", "name": "Halo: Reach", "subtitle": "2010 - Bungie" },
-    { "id": "portal-2", "name": "Portal 2", "subtitle": "2011 - Valve" },
-    { "id": "zelda-totk", "name": "The Legend of Zelda: Tears of the Kingdom", "subtitle": "2023 - Nintendo" },
-    { "id": "super-smash-bros-ultimate", "name": "Super Smash Bros. Ultimate", "subtitle": "2018 - Nintendo" },
-    { "id": "mario-kart-8", "name": "Mario Kart 8 Deluxe", "subtitle": "2017 - Nintendo" },
-    { "id": "baldurs-gate-3", "name": "Baldur's Gate 3", "subtitle": "2023 - Larian" },
-    { "id": "celeste", "name": "Celeste", "subtitle": "2018 - Maddy Makes Games" },
-    { "id": "hollow-knight", "name": "Hollow Knight", "subtitle": "2017 - Team Cherry" },
-    { "id": "stardew-valley", "name": "Stardew Valley", "subtitle": "2016 - ConcernedApe" },
-    { "id": "horizon-zero-dawn", "name": "Horizon Zero Dawn", "subtitle": "2017 - Guerrilla" },
-    { "id": "spider-man-ps4", "name": "Marvel's Spider-Man", "subtitle": "2018 - Insomniac" },
-    { "id": "ghost-of-tsushima", "name": "Ghost of Tsushima", "subtitle": "2020 - Sucker Punch" },
-    { "id": "sekiro", "name": "Sekiro: Shadows Die Twice", "subtitle": "2019 - FromSoftware" },
-    { "id": "animal-crossing-nh", "name": "Animal Crossing: New Horizons", "subtitle": "2020 - Nintendo" },
-    { "id": "persona-5", "name": "Persona 5 Royal", "subtitle": "2019 - Atlus" },
-    { "id": "final-fantasy-vii", "name": "Final Fantasy VII", "subtitle": "1997 - Square" },
-    { "id": "mass-effect-2", "name": "Mass Effect 2", "subtitle": "2010 - BioWare" },
-    { "id": "hades", "name": "Hades", "subtitle": "2020 - Supergiant" },
-    { "id": "bioshock", "name": "BioShock", "subtitle": "2007 - Irrational" },
-    { "id": "metal-gear-solid", "name": "Metal Gear Solid", "subtitle": "1998 - Konami" },
-    { "id": "resident-evil-4", "name": "Resident Evil 4", "subtitle": "2005 - Capcom" }
+    {
+      "id": "the-legend-of-zelda-botw",
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "subtitle": "2017 - Nintendo",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Legend+of+Zelda%3A+Breath+of+the+Wild"
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "subtitle": "2011 - Mojang",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Minecraft"
+    },
+    {
+      "id": "the-witcher-3",
+      "name": "The Witcher 3: Wild Hunt",
+      "subtitle": "2015 - CD Projekt Red",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Witcher+3%3A+Wild+Hunt"
+    },
+    {
+      "id": "red-dead-redemption-2",
+      "name": "Red Dead Redemption 2",
+      "subtitle": "2018 - Rockstar",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Red+Dead+Redemption+2"
+    },
+    {
+      "id": "gta-v",
+      "name": "Grand Theft Auto V",
+      "subtitle": "2013 - Rockstar",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Grand+Theft+Auto+V"
+    },
+    {
+      "id": "the-last-of-us",
+      "name": "The Last of Us",
+      "subtitle": "2013 - Naughty Dog",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Last+of+Us"
+    },
+    {
+      "id": "elden-ring",
+      "name": "Elden Ring",
+      "subtitle": "2022 - FromSoftware",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Elden+Ring"
+    },
+    {
+      "id": "super-mario-odyssey",
+      "name": "Super Mario Odyssey",
+      "subtitle": "2017 - Nintendo",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Super+Mario+Odyssey"
+    },
+    {
+      "id": "god-of-war-2018",
+      "name": "God of War (2018)",
+      "subtitle": "2018 - Santa Monica",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=God+of+War+(2018)"
+    },
+    {
+      "id": "skyrim",
+      "name": "The Elder Scrolls V: Skyrim",
+      "subtitle": "2011 - Bethesda",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Elder+Scrolls+V%3A+Skyrim"
+    },
+    {
+      "id": "dark-souls",
+      "name": "Dark Souls",
+      "subtitle": "2011 - FromSoftware",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Dark+Souls"
+    },
+    {
+      "id": "halo-reach",
+      "name": "Halo: Reach",
+      "subtitle": "2010 - Bungie",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Halo%3A+Reach"
+    },
+    {
+      "id": "portal-2",
+      "name": "Portal 2",
+      "subtitle": "2011 - Valve",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Portal+2"
+    },
+    {
+      "id": "zelda-totk",
+      "name": "The Legend of Zelda: Tears of the Kingdom",
+      "subtitle": "2023 - Nintendo",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Legend+of+Zelda%3A+Tears+of+the+Kingdom"
+    },
+    {
+      "id": "super-smash-bros-ultimate",
+      "name": "Super Smash Bros. Ultimate",
+      "subtitle": "2018 - Nintendo",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Super+Smash+Bros.+Ultimate"
+    },
+    {
+      "id": "mario-kart-8",
+      "name": "Mario Kart 8 Deluxe",
+      "subtitle": "2017 - Nintendo",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mario+Kart+8+Deluxe"
+    },
+    {
+      "id": "baldurs-gate-3",
+      "name": "Baldur's Gate 3",
+      "subtitle": "2023 - Larian",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Baldur's+Gate+3"
+    },
+    {
+      "id": "celeste",
+      "name": "Celeste",
+      "subtitle": "2018 - Maddy Makes Games",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Celeste"
+    },
+    {
+      "id": "hollow-knight",
+      "name": "Hollow Knight",
+      "subtitle": "2017 - Team Cherry",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Hollow+Knight"
+    },
+    {
+      "id": "stardew-valley",
+      "name": "Stardew Valley",
+      "subtitle": "2016 - ConcernedApe",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Stardew+Valley"
+    },
+    {
+      "id": "horizon-zero-dawn",
+      "name": "Horizon Zero Dawn",
+      "subtitle": "2017 - Guerrilla",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Horizon+Zero+Dawn"
+    },
+    {
+      "id": "spider-man-ps4",
+      "name": "Marvel's Spider-Man",
+      "subtitle": "2018 - Insomniac",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Marvel's+Spider-Man"
+    },
+    {
+      "id": "ghost-of-tsushima",
+      "name": "Ghost of Tsushima",
+      "subtitle": "2020 - Sucker Punch",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Ghost+of+Tsushima"
+    },
+    {
+      "id": "sekiro",
+      "name": "Sekiro: Shadows Die Twice",
+      "subtitle": "2019 - FromSoftware",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Sekiro%3A+Shadows+Die+Twice"
+    },
+    {
+      "id": "animal-crossing-nh",
+      "name": "Animal Crossing: New Horizons",
+      "subtitle": "2020 - Nintendo",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Animal+Crossing%3A+New+Horizons"
+    },
+    {
+      "id": "persona-5",
+      "name": "Persona 5 Royal",
+      "subtitle": "2019 - Atlus",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Persona+5+Royal"
+    },
+    {
+      "id": "final-fantasy-vii",
+      "name": "Final Fantasy VII",
+      "subtitle": "1997 - Square",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Final+Fantasy+VII"
+    },
+    {
+      "id": "mass-effect-2",
+      "name": "Mass Effect 2",
+      "subtitle": "2010 - BioWare",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mass+Effect+2"
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "subtitle": "2020 - Supergiant",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Hades"
+    },
+    {
+      "id": "bioshock",
+      "name": "BioShock",
+      "subtitle": "2007 - Irrational",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=BioShock"
+    },
+    {
+      "id": "metal-gear-solid",
+      "name": "Metal Gear Solid",
+      "subtitle": "1998 - Konami",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Metal+Gear+Solid"
+    },
+    {
+      "id": "resident-evil-4",
+      "name": "Resident Evil 4",
+      "subtitle": "2005 - Capcom",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Resident+Evil+4"
+    }
   ]
 }

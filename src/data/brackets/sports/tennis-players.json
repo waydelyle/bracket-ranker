@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "roger-federer-tennis", "name": "Roger Federer", "subtitle": "20 Grand Slams" },
-    { "id": "rafael-nadal-tennis", "name": "Rafael Nadal", "subtitle": "22 Grand Slams" },
-    { "id": "novak-djokovic-tennis", "name": "Novak Djokovic", "subtitle": "24 Grand Slams" },
-    { "id": "serena-williams-tennis", "name": "Serena Williams", "subtitle": "23 Grand Slams" },
-    { "id": "steffi-graf", "name": "Steffi Graf", "subtitle": "22 Grand Slams" },
-    { "id": "pete-sampras", "name": "Pete Sampras", "subtitle": "14 Grand Slams" },
-    { "id": "bjorn-borg", "name": "Bjorn Borg", "subtitle": "11 Grand Slams" },
-    { "id": "john-mcenroe", "name": "John McEnroe", "subtitle": "7 Grand Slams" },
-    { "id": "billie-jean-king", "name": "Billie Jean King", "subtitle": "12 Grand Slams" },
-    { "id": "venus-williams", "name": "Venus Williams", "subtitle": "7 Grand Slams" },
-    { "id": "andre-agassi", "name": "Andre Agassi", "subtitle": "8 Grand Slams" },
-    { "id": "martina-navratilova", "name": "Martina Navratilova", "subtitle": "18 Grand Slams" },
-    { "id": "carlos-alcaraz", "name": "Carlos Alcaraz", "subtitle": "4 Grand Slams" },
-    { "id": "jannik-sinner", "name": "Jannik Sinner", "subtitle": "3 Grand Slams" },
-    { "id": "arthur-ashe", "name": "Arthur Ashe", "subtitle": "3 Grand Slams" },
-    { "id": "rod-laver", "name": "Rod Laver", "subtitle": "11 Grand Slams" }
+    {
+      "id": "roger-federer-tennis",
+      "name": "Roger Federer",
+      "subtitle": "20 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Roger+Federer"
+    },
+    {
+      "id": "rafael-nadal-tennis",
+      "name": "Rafael Nadal",
+      "subtitle": "22 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Rafael+Nadal"
+    },
+    {
+      "id": "novak-djokovic-tennis",
+      "name": "Novak Djokovic",
+      "subtitle": "24 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Novak+Djokovic"
+    },
+    {
+      "id": "serena-williams-tennis",
+      "name": "Serena Williams",
+      "subtitle": "23 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Serena+Williams"
+    },
+    {
+      "id": "steffi-graf",
+      "name": "Steffi Graf",
+      "subtitle": "22 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Steffi+Graf"
+    },
+    {
+      "id": "pete-sampras",
+      "name": "Pete Sampras",
+      "subtitle": "14 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Pete+Sampras"
+    },
+    {
+      "id": "bjorn-borg",
+      "name": "Bjorn Borg",
+      "subtitle": "11 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Bjorn+Borg"
+    },
+    {
+      "id": "john-mcenroe",
+      "name": "John McEnroe",
+      "subtitle": "7 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=John+McEnroe"
+    },
+    {
+      "id": "billie-jean-king",
+      "name": "Billie Jean King",
+      "subtitle": "12 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Billie+Jean+King"
+    },
+    {
+      "id": "venus-williams",
+      "name": "Venus Williams",
+      "subtitle": "7 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Venus+Williams"
+    },
+    {
+      "id": "andre-agassi",
+      "name": "Andre Agassi",
+      "subtitle": "8 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Andre+Agassi"
+    },
+    {
+      "id": "martina-navratilova",
+      "name": "Martina Navratilova",
+      "subtitle": "18 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Martina+Navratilova"
+    },
+    {
+      "id": "carlos-alcaraz",
+      "name": "Carlos Alcaraz",
+      "subtitle": "4 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Carlos+Alcaraz"
+    },
+    {
+      "id": "jannik-sinner",
+      "name": "Jannik Sinner",
+      "subtitle": "3 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Jannik+Sinner"
+    },
+    {
+      "id": "arthur-ashe",
+      "name": "Arthur Ashe",
+      "subtitle": "3 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Arthur+Ashe"
+    },
+    {
+      "id": "rod-laver",
+      "name": "Rod Laver",
+      "subtitle": "11 Grand Slams",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Rod+Laver"
+    }
   ]
 }

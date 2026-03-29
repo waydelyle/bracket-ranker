@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "stairway-solo", "name": "Stairway to Heaven", "subtitle": "Led Zeppelin - Jimmy Page" },
-    { "id": "comfortably-numb-solo", "name": "Comfortably Numb", "subtitle": "Pink Floyd - David Gilmour" },
-    { "id": "free-bird-solo", "name": "Free Bird", "subtitle": "Lynyrd Skynyrd - Allen Collins" },
-    { "id": "eruption", "name": "Eruption", "subtitle": "Van Halen - Eddie Van Halen" },
-    { "id": "all-along-the-watchtower-solo", "name": "All Along the Watchtower", "subtitle": "Jimi Hendrix" },
-    { "id": "hotel-california-solo", "name": "Hotel California", "subtitle": "Eagles - Don Felder & Joe Walsh" },
-    { "id": "bohemian-rhapsody-solo", "name": "Bohemian Rhapsody", "subtitle": "Queen - Brian May" },
-    { "id": "sweet-child-solo", "name": "Sweet Child O' Mine", "subtitle": "Guns N' Roses - Slash" },
-    { "id": "november-rain-solo", "name": "November Rain", "subtitle": "Guns N' Roses - Slash" },
-    { "id": "purple-rain-solo", "name": "Purple Rain", "subtitle": "Prince" },
-    { "id": "crossroads-solo", "name": "Crossroads", "subtitle": "Cream - Eric Clapton" },
-    { "id": "texas-flood-solo", "name": "Texas Flood", "subtitle": "Stevie Ray Vaughan" },
-    { "id": "sultans-of-swing-solo", "name": "Sultans of Swing", "subtitle": "Dire Straits - Mark Knopfler" },
-    { "id": "whole-lotta-love-solo", "name": "Whole Lotta Love", "subtitle": "Led Zeppelin - Jimmy Page" },
-    { "id": "little-wing-solo", "name": "Little Wing", "subtitle": "Jimi Hendrix" },
-    { "id": "voodoo-child-solo", "name": "Voodoo Child (Slight Return)", "subtitle": "Jimi Hendrix" },
-    { "id": "crazy-train-solo", "name": "Crazy Train", "subtitle": "Ozzy Osbourne - Randy Rhoads" },
-    { "id": "master-of-puppets-solo", "name": "Master of Puppets", "subtitle": "Metallica - Kirk Hammett" },
-    { "id": "alive-solo", "name": "Alive", "subtitle": "Pearl Jam - Mike McCready" },
-    { "id": "layla-solo", "name": "Layla", "subtitle": "Derek and the Dominos - Duane Allman" },
-    { "id": "while-my-guitar-solo", "name": "While My Guitar Gently Weeps", "subtitle": "The Beatles - Eric Clapton" },
-    { "id": "money-for-nothing-solo", "name": "Money for Nothing", "subtitle": "Dire Straits - Mark Knopfler" },
-    { "id": "shine-on-you-crazy-diamond-solo", "name": "Shine On You Crazy Diamond", "subtitle": "Pink Floyd - David Gilmour" },
-    { "id": "one-metallica-solo", "name": "One", "subtitle": "Metallica - Kirk Hammett" }
+    {
+      "id": "stairway-solo",
+      "name": "Stairway to Heaven",
+      "subtitle": "Led Zeppelin - Jimmy Page",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Stairway+to+Heaven"
+    },
+    {
+      "id": "comfortably-numb-solo",
+      "name": "Comfortably Numb",
+      "subtitle": "Pink Floyd - David Gilmour",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Comfortably+Numb"
+    },
+    {
+      "id": "free-bird-solo",
+      "name": "Free Bird",
+      "subtitle": "Lynyrd Skynyrd - Allen Collins",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Free+Bird"
+    },
+    {
+      "id": "eruption",
+      "name": "Eruption",
+      "subtitle": "Van Halen - Eddie Van Halen",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Eruption"
+    },
+    {
+      "id": "all-along-the-watchtower-solo",
+      "name": "All Along the Watchtower",
+      "subtitle": "Jimi Hendrix",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=All+Along+the+Watchtower"
+    },
+    {
+      "id": "hotel-california-solo",
+      "name": "Hotel California",
+      "subtitle": "Eagles - Don Felder & Joe Walsh",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Hotel+California"
+    },
+    {
+      "id": "bohemian-rhapsody-solo",
+      "name": "Bohemian Rhapsody",
+      "subtitle": "Queen - Brian May",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bohemian+Rhapsody"
+    },
+    {
+      "id": "sweet-child-solo",
+      "name": "Sweet Child O' Mine",
+      "subtitle": "Guns N' Roses - Slash",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sweet+Child+O'+Mine"
+    },
+    {
+      "id": "november-rain-solo",
+      "name": "November Rain",
+      "subtitle": "Guns N' Roses - Slash",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=November+Rain"
+    },
+    {
+      "id": "purple-rain-solo",
+      "name": "Purple Rain",
+      "subtitle": "Prince",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Purple+Rain"
+    },
+    {
+      "id": "crossroads-solo",
+      "name": "Crossroads",
+      "subtitle": "Cream - Eric Clapton",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Crossroads"
+    },
+    {
+      "id": "texas-flood-solo",
+      "name": "Texas Flood",
+      "subtitle": "Stevie Ray Vaughan",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Texas+Flood"
+    },
+    {
+      "id": "sultans-of-swing-solo",
+      "name": "Sultans of Swing",
+      "subtitle": "Dire Straits - Mark Knopfler",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sultans+of+Swing"
+    },
+    {
+      "id": "whole-lotta-love-solo",
+      "name": "Whole Lotta Love",
+      "subtitle": "Led Zeppelin - Jimmy Page",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Whole+Lotta+Love"
+    },
+    {
+      "id": "little-wing-solo",
+      "name": "Little Wing",
+      "subtitle": "Jimi Hendrix",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Little+Wing"
+    },
+    {
+      "id": "voodoo-child-solo",
+      "name": "Voodoo Child (Slight Return)",
+      "subtitle": "Jimi Hendrix",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Voodoo+Child+(Slight+Return)"
+    },
+    {
+      "id": "crazy-train-solo",
+      "name": "Crazy Train",
+      "subtitle": "Ozzy Osbourne - Randy Rhoads",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Crazy+Train"
+    },
+    {
+      "id": "master-of-puppets-solo",
+      "name": "Master of Puppets",
+      "subtitle": "Metallica - Kirk Hammett",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Master+of+Puppets"
+    },
+    {
+      "id": "alive-solo",
+      "name": "Alive",
+      "subtitle": "Pearl Jam - Mike McCready",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Alive"
+    },
+    {
+      "id": "layla-solo",
+      "name": "Layla",
+      "subtitle": "Derek and the Dominos - Duane Allman",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Layla"
+    },
+    {
+      "id": "while-my-guitar-solo",
+      "name": "While My Guitar Gently Weeps",
+      "subtitle": "The Beatles - Eric Clapton",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=While+My+Guitar+Gently+Weeps"
+    },
+    {
+      "id": "money-for-nothing-solo",
+      "name": "Money for Nothing",
+      "subtitle": "Dire Straits - Mark Knopfler",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Money+for+Nothing"
+    },
+    {
+      "id": "shine-on-you-crazy-diamond-solo",
+      "name": "Shine On You Crazy Diamond",
+      "subtitle": "Pink Floyd - David Gilmour",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Shine+On+You+Crazy+Diamond"
+    },
+    {
+      "id": "one-metallica-solo",
+      "name": "One",
+      "subtitle": "Metallica - Kirk Hammett",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=One"
+    }
   ]
 }

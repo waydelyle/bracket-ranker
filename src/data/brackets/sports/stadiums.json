@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "madison-square-garden", "name": "Madison Square Garden", "subtitle": "New York - Basketball / Hockey" },
-    { "id": "camp-nou", "name": "Camp Nou", "subtitle": "Barcelona - Soccer" },
-    { "id": "wembley", "name": "Wembley Stadium", "subtitle": "London - Soccer" },
-    { "id": "lambeau-field", "name": "Lambeau Field", "subtitle": "Green Bay - Football" },
-    { "id": "fenway-park", "name": "Fenway Park", "subtitle": "Boston - Baseball" },
-    { "id": "santiago-bernabeu", "name": "Santiago Bernabeu", "subtitle": "Madrid - Soccer" },
-    { "id": "sofi-stadium", "name": "SoFi Stadium", "subtitle": "Los Angeles - Football" },
-    { "id": "old-trafford", "name": "Old Trafford", "subtitle": "Manchester - Soccer" },
-    { "id": "yankee-stadium", "name": "Yankee Stadium", "subtitle": "New York - Baseball" },
-    { "id": "wrigley-field", "name": "Wrigley Field", "subtitle": "Chicago - Baseball" },
-    { "id": "anfield", "name": "Anfield", "subtitle": "Liverpool - Soccer" },
-    { "id": "cowboys-stadium", "name": "AT&T Stadium", "subtitle": "Dallas - Football" },
-    { "id": "maracana", "name": "Maracana", "subtitle": "Rio de Janeiro - Soccer" },
-    { "id": "rose-bowl", "name": "Rose Bowl", "subtitle": "Pasadena - Football" },
-    { "id": "allianz-arena", "name": "Allianz Arena", "subtitle": "Munich - Soccer" },
-    { "id": "melbourne-cricket-ground", "name": "Melbourne Cricket Ground", "subtitle": "Melbourne - Cricket" }
+    {
+      "id": "madison-square-garden",
+      "name": "Madison Square Garden",
+      "subtitle": "New York - Basketball / Hockey",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Madison+Square+Garden"
+    },
+    {
+      "id": "camp-nou",
+      "name": "Camp Nou",
+      "subtitle": "Barcelona - Soccer",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Camp+Nou"
+    },
+    {
+      "id": "wembley",
+      "name": "Wembley Stadium",
+      "subtitle": "London - Soccer",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Wembley+Stadium"
+    },
+    {
+      "id": "lambeau-field",
+      "name": "Lambeau Field",
+      "subtitle": "Green Bay - Football",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Lambeau+Field"
+    },
+    {
+      "id": "fenway-park",
+      "name": "Fenway Park",
+      "subtitle": "Boston - Baseball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Fenway+Park"
+    },
+    {
+      "id": "santiago-bernabeu",
+      "name": "Santiago Bernabeu",
+      "subtitle": "Madrid - Soccer",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Santiago+Bernabeu"
+    },
+    {
+      "id": "sofi-stadium",
+      "name": "SoFi Stadium",
+      "subtitle": "Los Angeles - Football",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=SoFi+Stadium"
+    },
+    {
+      "id": "old-trafford",
+      "name": "Old Trafford",
+      "subtitle": "Manchester - Soccer",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Old+Trafford"
+    },
+    {
+      "id": "yankee-stadium",
+      "name": "Yankee Stadium",
+      "subtitle": "New York - Baseball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Yankee+Stadium"
+    },
+    {
+      "id": "wrigley-field",
+      "name": "Wrigley Field",
+      "subtitle": "Chicago - Baseball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Wrigley+Field"
+    },
+    {
+      "id": "anfield",
+      "name": "Anfield",
+      "subtitle": "Liverpool - Soccer",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Anfield"
+    },
+    {
+      "id": "cowboys-stadium",
+      "name": "AT&T Stadium",
+      "subtitle": "Dallas - Football",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=AT%26T+Stadium"
+    },
+    {
+      "id": "maracana",
+      "name": "Maracana",
+      "subtitle": "Rio de Janeiro - Soccer",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Maracana"
+    },
+    {
+      "id": "rose-bowl",
+      "name": "Rose Bowl",
+      "subtitle": "Pasadena - Football",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Rose+Bowl"
+    },
+    {
+      "id": "allianz-arena",
+      "name": "Allianz Arena",
+      "subtitle": "Munich - Soccer",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Allianz+Arena"
+    },
+    {
+      "id": "melbourne-cricket-ground",
+      "name": "Melbourne Cricket Ground",
+      "subtitle": "Melbourne - Cricket",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Melbourne+Cricket+Ground"
+    }
   ]
 }

@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "jeopardy", "name": "Jeopardy!", "subtitle": "1964-present" },
-    { "id": "wheel-of-fortune", "name": "Wheel of Fortune", "subtitle": "1975-present" },
-    { "id": "the-price-is-right", "name": "The Price Is Right", "subtitle": "1956-present" },
-    { "id": "who-wants-to-be-a-millionaire", "name": "Who Wants to Be a Millionaire", "subtitle": "1998-present" },
-    { "id": "deal-or-no-deal", "name": "Deal or No Deal", "subtitle": "2005-present" },
-    { "id": "family-feud", "name": "Family Feud", "subtitle": "1976-present" },
-    { "id": "the-weakest-link", "name": "The Weakest Link", "subtitle": "2000-present" },
-    { "id": "are-you-smarter-than-a-5th-grader", "name": "Are You Smarter Than a 5th Grader?", "subtitle": "2007-present" },
-    { "id": "press-your-luck", "name": "Press Your Luck", "subtitle": "1983-present" },
-    { "id": "lets-make-a-deal", "name": "Let's Make a Deal", "subtitle": "1963-present" },
-    { "id": "the-chase", "name": "The Chase", "subtitle": "2009-present" },
-    { "id": "the-floor", "name": "The Floor", "subtitle": "2024-present" },
-    { "id": "password", "name": "Password", "subtitle": "1961-present" },
-    { "id": "the-wall", "name": "The Wall", "subtitle": "2016-present" },
-    { "id": "cash-cab", "name": "Cash Cab", "subtitle": "2005-present" },
-    { "id": "the-match-game", "name": "Match Game", "subtitle": "1962-present" }
+    {
+      "id": "jeopardy",
+      "name": "Jeopardy!",
+      "subtitle": "1964-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jeopardy!"
+    },
+    {
+      "id": "wheel-of-fortune",
+      "name": "Wheel of Fortune",
+      "subtitle": "1975-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Wheel+of+Fortune"
+    },
+    {
+      "id": "the-price-is-right",
+      "name": "The Price Is Right",
+      "subtitle": "1956-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Price+Is+Right"
+    },
+    {
+      "id": "who-wants-to-be-a-millionaire",
+      "name": "Who Wants to Be a Millionaire",
+      "subtitle": "1998-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Who+Wants+to+Be+a+Millionaire"
+    },
+    {
+      "id": "deal-or-no-deal",
+      "name": "Deal or No Deal",
+      "subtitle": "2005-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Deal+or+No+Deal"
+    },
+    {
+      "id": "family-feud",
+      "name": "Family Feud",
+      "subtitle": "1976-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Family+Feud"
+    },
+    {
+      "id": "the-weakest-link",
+      "name": "The Weakest Link",
+      "subtitle": "2000-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Weakest+Link"
+    },
+    {
+      "id": "are-you-smarter-than-a-5th-grader",
+      "name": "Are You Smarter Than a 5th Grader?",
+      "subtitle": "2007-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Are+You+Smarter+Than+a+5th+Grader%3F"
+    },
+    {
+      "id": "press-your-luck",
+      "name": "Press Your Luck",
+      "subtitle": "1983-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Press+Your+Luck"
+    },
+    {
+      "id": "lets-make-a-deal",
+      "name": "Let's Make a Deal",
+      "subtitle": "1963-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Let's+Make+a+Deal"
+    },
+    {
+      "id": "the-chase",
+      "name": "The Chase",
+      "subtitle": "2009-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Chase"
+    },
+    {
+      "id": "the-floor",
+      "name": "The Floor",
+      "subtitle": "2024-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Floor"
+    },
+    {
+      "id": "password",
+      "name": "Password",
+      "subtitle": "1961-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Password"
+    },
+    {
+      "id": "the-wall",
+      "name": "The Wall",
+      "subtitle": "2016-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Wall"
+    },
+    {
+      "id": "cash-cab",
+      "name": "Cash Cab",
+      "subtitle": "2005-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Cash+Cab"
+    },
+    {
+      "id": "the-match-game",
+      "name": "Match Game",
+      "subtitle": "1962-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Match+Game"
+    }
   ]
 }

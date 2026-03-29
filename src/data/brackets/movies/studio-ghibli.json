@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "spirited-away-gh", "name": "Spirited Away", "subtitle": "2001" },
-    { "id": "princess-mononoke-gh", "name": "Princess Mononoke", "subtitle": "1997" },
-    { "id": "my-neighbor-totoro", "name": "My Neighbor Totoro", "subtitle": "1988" },
-    { "id": "howls-moving-castle", "name": "Howl's Moving Castle", "subtitle": "2004" },
-    { "id": "grave-of-the-fireflies", "name": "Grave of the Fireflies", "subtitle": "1988" },
-    { "id": "kiki-delivery-service", "name": "Kiki's Delivery Service", "subtitle": "1989" },
-    { "id": "castle-in-the-sky", "name": "Castle in the Sky", "subtitle": "1986" },
-    { "id": "nausicaa", "name": "Nausicaa of the Valley of the Wind", "subtitle": "1984" },
-    { "id": "porco-rosso", "name": "Porco Rosso", "subtitle": "1992" },
-    { "id": "the-wind-rises", "name": "The Wind Rises", "subtitle": "2013" },
-    { "id": "ponyo", "name": "Ponyo", "subtitle": "2008" },
-    { "id": "the-tale-of-princess-kaguya", "name": "The Tale of the Princess Kaguya", "subtitle": "2013" },
-    { "id": "whisper-of-the-heart", "name": "Whisper of the Heart", "subtitle": "1995" },
-    { "id": "the-cat-returns", "name": "The Cat Returns", "subtitle": "2002" },
-    { "id": "arrietty", "name": "Arrietty", "subtitle": "2010" },
-    { "id": "when-marnie-was-there", "name": "When Marnie Was There", "subtitle": "2014" },
-    { "id": "from-up-on-poppy-hill", "name": "From Up on Poppy Hill", "subtitle": "2011" },
-    { "id": "pom-poko", "name": "Pom Poko", "subtitle": "1994" },
-    { "id": "only-yesterday", "name": "Only Yesterday", "subtitle": "1991" },
-    { "id": "ocean-waves", "name": "Ocean Waves", "subtitle": "1993" },
-    { "id": "tales-from-earthsea", "name": "Tales from Earthsea", "subtitle": "2006" },
-    { "id": "my-neighbors-the-yamadas", "name": "My Neighbors the Yamadas", "subtitle": "1999" },
-    { "id": "the-boy-and-the-heron", "name": "The Boy and the Heron", "subtitle": "2023" },
-    { "id": "earwig-and-the-witch", "name": "Earwig and the Witch", "subtitle": "2020" }
+    {
+      "id": "spirited-away-gh",
+      "name": "Spirited Away",
+      "subtitle": "2001",
+      "image": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg"
+    },
+    {
+      "id": "princess-mononoke-gh",
+      "name": "Princess Mononoke",
+      "subtitle": "1997",
+      "image": "https://image.tmdb.org/t/p/w500/cMYCDADoLKLbB83g4WnJegaZimC.jpg"
+    },
+    {
+      "id": "my-neighbor-totoro",
+      "name": "My Neighbor Totoro",
+      "subtitle": "1988",
+      "image": "https://image.tmdb.org/t/p/w500/rtGDOeG9LzoerkDGKVlTDK4mEAI.jpg"
+    },
+    {
+      "id": "howls-moving-castle",
+      "name": "Howl's Moving Castle",
+      "subtitle": "2004",
+      "image": "https://image.tmdb.org/t/p/w500/TkTPELv4kC3u1lkloush8skOjE.jpg"
+    },
+    {
+      "id": "grave-of-the-fireflies",
+      "name": "Grave of the Fireflies",
+      "subtitle": "1988",
+      "image": "https://image.tmdb.org/t/p/w500/k9tv1iwKRrVrY4TLMMsfHqueQPR.jpg"
+    },
+    {
+      "id": "kiki-delivery-service",
+      "name": "Kiki's Delivery Service",
+      "subtitle": "1989",
+      "image": "https://image.tmdb.org/t/p/w500/8Wuv3PFBFUhIMfcOCK6MCKPP1LE.jpg"
+    },
+    {
+      "id": "castle-in-the-sky",
+      "name": "Castle in the Sky",
+      "subtitle": "1986",
+      "image": "https://image.tmdb.org/t/p/w500/npOnzAbLh6VOIu3naYjOgBBv0vh.jpg"
+    },
+    {
+      "id": "nausicaa",
+      "name": "Nausicaa of the Valley of the Wind",
+      "subtitle": "1984",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Nausicaa+of+the+Valley+of+the+Wind"
+    },
+    {
+      "id": "porco-rosso",
+      "name": "Porco Rosso",
+      "subtitle": "1992",
+      "image": "https://image.tmdb.org/t/p/w500/gYFYGolKSmpRwO0KjCq4SFOaRfn.jpg"
+    },
+    {
+      "id": "the-wind-rises",
+      "name": "The Wind Rises",
+      "subtitle": "2013",
+      "image": "https://image.tmdb.org/t/p/w500/nv2E0rYWPYv1AS3fyvmHW3HCMGf.jpg"
+    },
+    {
+      "id": "ponyo",
+      "name": "Ponyo",
+      "subtitle": "2008",
+      "image": "https://image.tmdb.org/t/p/w500/7ZFrq5u0suhzeOgLGjkAlBeLSF9.jpg"
+    },
+    {
+      "id": "the-tale-of-princess-kaguya",
+      "name": "The Tale of the Princess Kaguya",
+      "subtitle": "2013",
+      "image": "https://image.tmdb.org/t/p/w500/2FDjmDVdNEtOnnW2pHY5VmH1Us2.jpg"
+    },
+    {
+      "id": "whisper-of-the-heart",
+      "name": "Whisper of the Heart",
+      "subtitle": "1995",
+      "image": "https://image.tmdb.org/t/p/w500/5E2LAOWL7m8cMYBnCiB4yFmQeKO.jpg"
+    },
+    {
+      "id": "the-cat-returns",
+      "name": "The Cat Returns",
+      "subtitle": "2002",
+      "image": "https://image.tmdb.org/t/p/w500/gQjfHib4RmjVIBjMiLkyvLB2bnL.jpg"
+    },
+    {
+      "id": "arrietty",
+      "name": "Arrietty",
+      "subtitle": "2010",
+      "image": "https://image.tmdb.org/t/p/w500/ggvvMOgDFJeC3mgykUdp5F0zMrK.jpg"
+    },
+    {
+      "id": "when-marnie-was-there",
+      "name": "When Marnie Was There",
+      "subtitle": "2014",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=When+Marnie+Was+There"
+    },
+    {
+      "id": "from-up-on-poppy-hill",
+      "name": "From Up on Poppy Hill",
+      "subtitle": "2011",
+      "image": "https://image.tmdb.org/t/p/w500/3d57GkjS50KihntGKylTe0UE3rZ.jpg"
+    },
+    {
+      "id": "pom-poko",
+      "name": "Pom Poko",
+      "subtitle": "1994",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Pom+Poko"
+    },
+    {
+      "id": "only-yesterday",
+      "name": "Only Yesterday",
+      "subtitle": "1991",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Only+Yesterday"
+    },
+    {
+      "id": "ocean-waves",
+      "name": "Ocean Waves",
+      "subtitle": "1993",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Ocean+Waves"
+    },
+    {
+      "id": "tales-from-earthsea",
+      "name": "Tales from Earthsea",
+      "subtitle": "2006",
+      "image": "https://image.tmdb.org/t/p/w500/u81YD7VvfEPUuxg7oaVSQAYoF7A.jpg"
+    },
+    {
+      "id": "my-neighbors-the-yamadas",
+      "name": "My Neighbors the Yamadas",
+      "subtitle": "1999",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=My+Neighbors+the+Yamadas"
+    },
+    {
+      "id": "the-boy-and-the-heron",
+      "name": "The Boy and the Heron",
+      "subtitle": "2023",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Boy+and+the+Heron"
+    },
+    {
+      "id": "earwig-and-the-witch",
+      "name": "Earwig and the Witch",
+      "subtitle": "2020",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Earwig+and+the+Witch"
+    }
   ]
 }

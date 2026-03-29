@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "toy-story", "name": "Toy Story", "subtitle": "1995" },
-    { "id": "finding-nemo", "name": "Finding Nemo", "subtitle": "2003" },
-    { "id": "up", "name": "Up", "subtitle": "2009" },
-    { "id": "the-incredibles", "name": "The Incredibles", "subtitle": "2004" },
-    { "id": "inside-out", "name": "Inside Out", "subtitle": "2015" },
-    { "id": "wall-e", "name": "WALL-E", "subtitle": "2008" },
-    { "id": "coco", "name": "Coco", "subtitle": "2017" },
-    { "id": "ratatouille", "name": "Ratatouille", "subtitle": "2007" },
-    { "id": "monsters-inc", "name": "Monsters, Inc.", "subtitle": "2001" },
-    { "id": "toy-story-3", "name": "Toy Story 3", "subtitle": "2010" },
-    { "id": "toy-story-2", "name": "Toy Story 2", "subtitle": "1999" },
-    { "id": "a-bugs-life", "name": "A Bug's Life", "subtitle": "1998" },
-    { "id": "finding-dory", "name": "Finding Dory", "subtitle": "2016" },
-    { "id": "brave", "name": "Brave", "subtitle": "2012" },
-    { "id": "cars", "name": "Cars", "subtitle": "2006" },
-    { "id": "soul", "name": "Soul", "subtitle": "2020" },
-    { "id": "luca", "name": "Luca", "subtitle": "2021" },
-    { "id": "turning-red", "name": "Turning Red", "subtitle": "2022" },
-    { "id": "elemental", "name": "Elemental", "subtitle": "2023" },
-    { "id": "inside-out-2", "name": "Inside Out 2", "subtitle": "2024" },
-    { "id": "toy-story-4", "name": "Toy Story 4", "subtitle": "2019" },
-    { "id": "the-incredibles-2", "name": "Incredibles 2", "subtitle": "2018" },
-    { "id": "onward", "name": "Onward", "subtitle": "2020" },
-    { "id": "the-good-dinosaur", "name": "The Good Dinosaur", "subtitle": "2015" }
+    {
+      "id": "toy-story",
+      "name": "Toy Story",
+      "subtitle": "1995",
+      "image": "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg"
+    },
+    {
+      "id": "finding-nemo",
+      "name": "Finding Nemo",
+      "subtitle": "2003",
+      "image": "https://image.tmdb.org/t/p/w500/eHuGQ10FUzJ1cGgRnQ3Hy7PS3u9.jpg"
+    },
+    {
+      "id": "up",
+      "name": "Up",
+      "subtitle": "2009",
+      "image": "https://image.tmdb.org/t/p/w500/vpbaStTMt8qqXaEgnOR2yAAOFBR.jpg"
+    },
+    {
+      "id": "the-incredibles",
+      "name": "The Incredibles",
+      "subtitle": "2004",
+      "image": "https://image.tmdb.org/t/p/w500/2LqaLgk1MYR85FEOqNP4cQ3AJZJ.jpg"
+    },
+    {
+      "id": "inside-out",
+      "name": "Inside Out",
+      "subtitle": "2015",
+      "image": "https://image.tmdb.org/t/p/w500/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg"
+    },
+    {
+      "id": "wall-e",
+      "name": "WALL-E",
+      "subtitle": "2008",
+      "image": "https://image.tmdb.org/t/p/w500/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg"
+    },
+    {
+      "id": "coco",
+      "name": "Coco",
+      "subtitle": "2017",
+      "image": "https://image.tmdb.org/t/p/w500/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg"
+    },
+    {
+      "id": "ratatouille",
+      "name": "Ratatouille",
+      "subtitle": "2007",
+      "image": "https://image.tmdb.org/t/p/w500/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg"
+    },
+    {
+      "id": "monsters-inc",
+      "name": "Monsters, Inc.",
+      "subtitle": "2001",
+      "image": "https://image.tmdb.org/t/p/w500/sgheSKxZkttIe8ONsf2smuXl2Td.jpg"
+    },
+    {
+      "id": "toy-story-3",
+      "name": "Toy Story 3",
+      "subtitle": "2010",
+      "image": "https://image.tmdb.org/t/p/w500/AbbXspMOwdvwWZgVN0nbNOj1qjt.jpg"
+    },
+    {
+      "id": "toy-story-2",
+      "name": "Toy Story 2",
+      "subtitle": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/xvzxqKWIij65WyNqMjriJqCrBPe.jpg"
+    },
+    {
+      "id": "a-bugs-life",
+      "name": "A Bug's Life",
+      "subtitle": "1998",
+      "image": "https://image.tmdb.org/t/p/w500/aVvA5btgJ3L5yoZB0VPajrH2GRn.jpg"
+    },
+    {
+      "id": "finding-dory",
+      "name": "Finding Dory",
+      "subtitle": "2016",
+      "image": "https://image.tmdb.org/t/p/w500/z09QAf8WbZncbitewNk6lKYMZsh.jpg"
+    },
+    {
+      "id": "brave",
+      "name": "Brave",
+      "subtitle": "2012",
+      "image": "https://image.tmdb.org/t/p/w500/3wJMrciaIMoQ05nFSE0sh89vpJU.jpg"
+    },
+    {
+      "id": "cars",
+      "name": "Cars",
+      "subtitle": "2006",
+      "image": "https://image.tmdb.org/t/p/w500/qa6HCwP4Z15l3hpsASz3auugBr6.jpg"
+    },
+    {
+      "id": "soul",
+      "name": "Soul",
+      "subtitle": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg"
+    },
+    {
+      "id": "luca",
+      "name": "Luca",
+      "subtitle": "2021",
+      "image": "https://image.tmdb.org/t/p/w500/jTswp6KyDYKtvC52GbHagrZbGvD.jpg"
+    },
+    {
+      "id": "turning-red",
+      "name": "Turning Red",
+      "subtitle": "2022",
+      "image": "https://image.tmdb.org/t/p/w500/qsdjcb0alu2m3K2e2LkhBSilbdR.jpg"
+    },
+    {
+      "id": "elemental",
+      "name": "Elemental",
+      "subtitle": "2023",
+      "image": "https://image.tmdb.org/t/p/w500/4Y1WNkd88NIoGLumNkeMDnFTg8d.jpg"
+    },
+    {
+      "id": "inside-out-2",
+      "name": "Inside Out 2",
+      "subtitle": "2024",
+      "image": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg"
+    },
+    {
+      "id": "toy-story-4",
+      "name": "Toy Story 4",
+      "subtitle": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/w9kR8qbmQ01HwnivK4cHeYm2gIR.jpg"
+    },
+    {
+      "id": "the-incredibles-2",
+      "name": "Incredibles 2",
+      "subtitle": "2018",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Incredibles+2"
+    },
+    {
+      "id": "onward",
+      "name": "Onward",
+      "subtitle": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/f4aul3FyD3jv3v4bul1IrkWZvzq.jpg"
+    },
+    {
+      "id": "the-good-dinosaur",
+      "name": "The Good Dinosaur",
+      "subtitle": "2015",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Good+Dinosaur"
+    }
   ]
 }

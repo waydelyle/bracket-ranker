@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "superbad", "name": "Superbad", "subtitle": "2007" },
-    { "id": "bridesmaids", "name": "Bridesmaids", "subtitle": "2011" },
-    { "id": "anchorman", "name": "Anchorman: The Legend of Ron Burgundy", "subtitle": "2004" },
-    { "id": "the-hangover", "name": "The Hangover", "subtitle": "2009" },
-    { "id": "step-brothers", "name": "Step Brothers", "subtitle": "2008" },
-    { "id": "dumb-and-dumber", "name": "Dumb and Dumber", "subtitle": "1994" },
-    { "id": "airplane", "name": "Airplane!", "subtitle": "1980" },
-    { "id": "monty-python-holy-grail", "name": "Monty Python and the Holy Grail", "subtitle": "1975" },
-    { "id": "the-grand-budapest-hotel", "name": "The Grand Budapest Hotel", "subtitle": "2014" },
-    { "id": "knocked-up", "name": "Knocked Up", "subtitle": "2007" },
-    { "id": "blazing-saddles", "name": "Blazing Saddles", "subtitle": "1974" },
-    { "id": "the-40-year-old-virgin", "name": "The 40-Year-Old Virgin", "subtitle": "2005" },
-    { "id": "mean-girls", "name": "Mean Girls", "subtitle": "2004" },
-    { "id": "napoleon-dynamite", "name": "Napoleon Dynamite", "subtitle": "2004" },
-    { "id": "ferris-buellers-day-off", "name": "Ferris Bueller's Day Off", "subtitle": "1986" },
-    { "id": "ghostbusters", "name": "Ghostbusters", "subtitle": "1984" },
-    { "id": "caddyshack", "name": "Caddyshack", "subtitle": "1980" },
-    { "id": "shaun-of-the-dead", "name": "Shaun of the Dead", "subtitle": "2004" },
-    { "id": "tropic-thunder", "name": "Tropic Thunder", "subtitle": "2008" },
-    { "id": "21-jump-street", "name": "21 Jump Street", "subtitle": "2012" },
-    { "id": "this-is-spinal-tap", "name": "This Is Spinal Tap", "subtitle": "1984" },
-    { "id": "the-big-lebowski-comedy", "name": "The Big Lebowski", "subtitle": "1998" },
-    { "id": "borat", "name": "Borat", "subtitle": "2006" },
-    { "id": "wedding-crashers", "name": "Wedding Crashers", "subtitle": "2005" },
-    { "id": "rush-hour", "name": "Rush Hour", "subtitle": "1998" },
-    { "id": "happy-gilmore", "name": "Happy Gilmore", "subtitle": "1996" },
-    { "id": "old-school", "name": "Old School", "subtitle": "2003" },
-    { "id": "the-nice-guys", "name": "The Nice Guys", "subtitle": "2016" },
-    { "id": "hot-fuzz", "name": "Hot Fuzz", "subtitle": "2007" },
-    { "id": "coming-to-america", "name": "Coming to America", "subtitle": "1988" },
-    { "id": "game-night", "name": "Game Night", "subtitle": "2018" },
-    { "id": "the-nice-guys-comedy", "name": "Mrs. Doubtfire", "subtitle": "1993" }
+    {
+      "id": "superbad",
+      "name": "Superbad",
+      "subtitle": "2007",
+      "image": "https://image.tmdb.org/t/p/w500/ek8e8txUyUwd2BNqj6lFEerJfbq.jpg"
+    },
+    {
+      "id": "bridesmaids",
+      "name": "Bridesmaids",
+      "subtitle": "2011",
+      "image": "https://image.tmdb.org/t/p/w500/1vfPOeYmMJhO14cMTh3UMiRPgsW.jpg"
+    },
+    {
+      "id": "anchorman",
+      "name": "Anchorman: The Legend of Ron Burgundy",
+      "subtitle": "2004",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Anchorman%3A+The+Legend+of+Ron+Burgundy"
+    },
+    {
+      "id": "the-hangover",
+      "name": "The Hangover",
+      "subtitle": "2009",
+      "image": "https://image.tmdb.org/t/p/w500/uluhlXubGu1VxkAB3lR9jqtC3Ql.jpg"
+    },
+    {
+      "id": "step-brothers",
+      "name": "Step Brothers",
+      "subtitle": "2008",
+      "image": "https://image.tmdb.org/t/p/w500/p8ehKorZwGMRjsJSkrKkqd8Cbfm.jpg"
+    },
+    {
+      "id": "dumb-and-dumber",
+      "name": "Dumb and Dumber",
+      "subtitle": "1994",
+      "image": "https://image.tmdb.org/t/p/w500/4UHOi16YNR1fxkDl0SS4HkHLH3r.jpg"
+    },
+    {
+      "id": "airplane",
+      "name": "Airplane!",
+      "subtitle": "1980",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Airplane!"
+    },
+    {
+      "id": "monty-python-holy-grail",
+      "name": "Monty Python and the Holy Grail",
+      "subtitle": "1975",
+      "image": "https://image.tmdb.org/t/p/w500/8AVb7tyxZRsbKJNVi0d32m1FYxH.jpg"
+    },
+    {
+      "id": "the-grand-budapest-hotel",
+      "name": "The Grand Budapest Hotel",
+      "subtitle": "2014",
+      "image": "https://image.tmdb.org/t/p/w500/eWDyQ92bge0mZEh7k1RVo0TMOS0.jpg"
+    },
+    {
+      "id": "knocked-up",
+      "name": "Knocked Up",
+      "subtitle": "2007",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Knocked+Up"
+    },
+    {
+      "id": "blazing-saddles",
+      "name": "Blazing Saddles",
+      "subtitle": "1974",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Blazing+Saddles"
+    },
+    {
+      "id": "the-40-year-old-virgin",
+      "name": "The 40-Year-Old Virgin",
+      "subtitle": "2005",
+      "image": "https://image.tmdb.org/t/p/w500/mVeoMNfQJPIzxmKyElhn1gPCAIP.jpg"
+    },
+    {
+      "id": "mean-girls",
+      "name": "Mean Girls",
+      "subtitle": "2004",
+      "image": "https://image.tmdb.org/t/p/w500/fXm3YKXAEjx7d2tg5bEfsEFv94b.jpg"
+    },
+    {
+      "id": "napoleon-dynamite",
+      "name": "Napoleon Dynamite",
+      "subtitle": "2004",
+      "image": "https://image.tmdb.org/t/p/w500/lqkdKxEGjNPoFj7MtZMPhU7FZLX.jpg"
+    },
+    {
+      "id": "ferris-buellers-day-off",
+      "name": "Ferris Bueller's Day Off",
+      "subtitle": "1986",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Ferris+Bueller's+Day+Off"
+    },
+    {
+      "id": "ghostbusters",
+      "name": "Ghostbusters",
+      "subtitle": "1984",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Ghostbusters"
+    },
+    {
+      "id": "caddyshack",
+      "name": "Caddyshack",
+      "subtitle": "1980",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Caddyshack"
+    },
+    {
+      "id": "shaun-of-the-dead",
+      "name": "Shaun of the Dead",
+      "subtitle": "2004",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Shaun+of+the+Dead"
+    },
+    {
+      "id": "tropic-thunder",
+      "name": "Tropic Thunder",
+      "subtitle": "2008",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Tropic+Thunder"
+    },
+    {
+      "id": "21-jump-street",
+      "name": "21 Jump Street",
+      "subtitle": "2012",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=21+Jump+Street"
+    },
+    {
+      "id": "this-is-spinal-tap",
+      "name": "This Is Spinal Tap",
+      "subtitle": "1984",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=This+Is+Spinal+Tap"
+    },
+    {
+      "id": "the-big-lebowski-comedy",
+      "name": "The Big Lebowski",
+      "subtitle": "1998",
+      "image": "https://image.tmdb.org/t/p/w500/fcjEA7ntMptLLIblLIIuwOVTqDm.jpg"
+    },
+    {
+      "id": "borat",
+      "name": "Borat",
+      "subtitle": "2006",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Borat"
+    },
+    {
+      "id": "wedding-crashers",
+      "name": "Wedding Crashers",
+      "subtitle": "2005",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Wedding+Crashers"
+    },
+    {
+      "id": "rush-hour",
+      "name": "Rush Hour",
+      "subtitle": "1998",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Rush+Hour"
+    },
+    {
+      "id": "happy-gilmore",
+      "name": "Happy Gilmore",
+      "subtitle": "1996",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Happy+Gilmore"
+    },
+    {
+      "id": "old-school",
+      "name": "Old School",
+      "subtitle": "2003",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Old+School"
+    },
+    {
+      "id": "the-nice-guys",
+      "name": "The Nice Guys",
+      "subtitle": "2016",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Nice+Guys"
+    },
+    {
+      "id": "hot-fuzz",
+      "name": "Hot Fuzz",
+      "subtitle": "2007",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Hot+Fuzz"
+    },
+    {
+      "id": "coming-to-america",
+      "name": "Coming to America",
+      "subtitle": "1988",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Coming+to+America"
+    },
+    {
+      "id": "game-night",
+      "name": "Game Night",
+      "subtitle": "2018",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Game+Night"
+    },
+    {
+      "id": "the-nice-guys-comedy",
+      "name": "Mrs. Doubtfire",
+      "subtitle": "1993",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Mrs.+Doubtfire"
+    }
   ]
 }

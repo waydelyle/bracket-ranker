@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "dallas-cowboys", "name": "Dallas Cowboys", "subtitle": "NFC East" },
-    { "id": "new-england-patriots", "name": "New England Patriots", "subtitle": "AFC East" },
-    { "id": "green-bay-packers", "name": "Green Bay Packers", "subtitle": "NFC North" },
-    { "id": "kansas-city-chiefs", "name": "Kansas City Chiefs", "subtitle": "AFC West" },
-    { "id": "san-francisco-49ers", "name": "San Francisco 49ers", "subtitle": "NFC West" },
-    { "id": "pittsburgh-steelers", "name": "Pittsburgh Steelers", "subtitle": "AFC North" },
-    { "id": "buffalo-bills", "name": "Buffalo Bills", "subtitle": "AFC East" },
-    { "id": "philadelphia-eagles", "name": "Philadelphia Eagles", "subtitle": "NFC East" },
-    { "id": "detroit-lions", "name": "Detroit Lions", "subtitle": "NFC North" },
-    { "id": "baltimore-ravens", "name": "Baltimore Ravens", "subtitle": "AFC North" },
-    { "id": "miami-dolphins", "name": "Miami Dolphins", "subtitle": "AFC East" },
-    { "id": "seattle-seahawks", "name": "Seattle Seahawks", "subtitle": "NFC West" },
-    { "id": "tampa-bay-buccaneers", "name": "Tampa Bay Buccaneers", "subtitle": "NFC South" },
-    { "id": "las-vegas-raiders", "name": "Las Vegas Raiders", "subtitle": "AFC West" },
-    { "id": "denver-broncos", "name": "Denver Broncos", "subtitle": "AFC West" },
-    { "id": "new-york-giants", "name": "New York Giants", "subtitle": "NFC East" },
-    { "id": "chicago-bears", "name": "Chicago Bears", "subtitle": "NFC North" },
-    { "id": "minnesota-vikings", "name": "Minnesota Vikings", "subtitle": "NFC North" },
-    { "id": "new-orleans-saints", "name": "New Orleans Saints", "subtitle": "NFC South" },
-    { "id": "los-angeles-rams", "name": "Los Angeles Rams", "subtitle": "NFC West" },
-    { "id": "cincinnati-bengals", "name": "Cincinnati Bengals", "subtitle": "AFC North" },
-    { "id": "jacksonville-jaguars", "name": "Jacksonville Jaguars", "subtitle": "AFC South" },
-    { "id": "houston-texans", "name": "Houston Texans", "subtitle": "AFC South" },
-    { "id": "indianapolis-colts", "name": "Indianapolis Colts", "subtitle": "AFC South" },
-    { "id": "washington-commanders", "name": "Washington Commanders", "subtitle": "NFC East" },
-    { "id": "arizona-cardinals", "name": "Arizona Cardinals", "subtitle": "NFC West" },
-    { "id": "carolina-panthers", "name": "Carolina Panthers", "subtitle": "NFC South" },
-    { "id": "atlanta-falcons", "name": "Atlanta Falcons", "subtitle": "NFC South" },
-    { "id": "los-angeles-chargers", "name": "Los Angeles Chargers", "subtitle": "AFC West" },
-    { "id": "new-york-jets", "name": "New York Jets", "subtitle": "AFC East" },
-    { "id": "tennessee-titans", "name": "Tennessee Titans", "subtitle": "AFC South" },
-    { "id": "cleveland-browns", "name": "Cleveland Browns", "subtitle": "AFC North" }
+    {
+      "id": "dallas-cowboys",
+      "name": "Dallas Cowboys",
+      "subtitle": "NFC East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Dallas+Cowboys"
+    },
+    {
+      "id": "new-england-patriots",
+      "name": "New England Patriots",
+      "subtitle": "AFC East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+England+Patriots"
+    },
+    {
+      "id": "green-bay-packers",
+      "name": "Green Bay Packers",
+      "subtitle": "NFC North",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Green+Bay+Packers"
+    },
+    {
+      "id": "kansas-city-chiefs",
+      "name": "Kansas City Chiefs",
+      "subtitle": "AFC West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kansas+City+Chiefs"
+    },
+    {
+      "id": "san-francisco-49ers",
+      "name": "San Francisco 49ers",
+      "subtitle": "NFC West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=San+Francisco+49ers"
+    },
+    {
+      "id": "pittsburgh-steelers",
+      "name": "Pittsburgh Steelers",
+      "subtitle": "AFC North",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Pittsburgh+Steelers"
+    },
+    {
+      "id": "buffalo-bills",
+      "name": "Buffalo Bills",
+      "subtitle": "AFC East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Buffalo+Bills"
+    },
+    {
+      "id": "philadelphia-eagles",
+      "name": "Philadelphia Eagles",
+      "subtitle": "NFC East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Philadelphia+Eagles"
+    },
+    {
+      "id": "detroit-lions",
+      "name": "Detroit Lions",
+      "subtitle": "NFC North",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Detroit+Lions"
+    },
+    {
+      "id": "baltimore-ravens",
+      "name": "Baltimore Ravens",
+      "subtitle": "AFC North",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Baltimore+Ravens"
+    },
+    {
+      "id": "miami-dolphins",
+      "name": "Miami Dolphins",
+      "subtitle": "AFC East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Miami+Dolphins"
+    },
+    {
+      "id": "seattle-seahawks",
+      "name": "Seattle Seahawks",
+      "subtitle": "NFC West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Seattle+Seahawks"
+    },
+    {
+      "id": "tampa-bay-buccaneers",
+      "name": "Tampa Bay Buccaneers",
+      "subtitle": "NFC South",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tampa+Bay+Buccaneers"
+    },
+    {
+      "id": "las-vegas-raiders",
+      "name": "Las Vegas Raiders",
+      "subtitle": "AFC West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Las+Vegas+Raiders"
+    },
+    {
+      "id": "denver-broncos",
+      "name": "Denver Broncos",
+      "subtitle": "AFC West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Denver+Broncos"
+    },
+    {
+      "id": "new-york-giants",
+      "name": "New York Giants",
+      "subtitle": "NFC East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+York+Giants"
+    },
+    {
+      "id": "chicago-bears",
+      "name": "Chicago Bears",
+      "subtitle": "NFC North",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Chicago+Bears"
+    },
+    {
+      "id": "minnesota-vikings",
+      "name": "Minnesota Vikings",
+      "subtitle": "NFC North",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Minnesota+Vikings"
+    },
+    {
+      "id": "new-orleans-saints",
+      "name": "New Orleans Saints",
+      "subtitle": "NFC South",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+Orleans+Saints"
+    },
+    {
+      "id": "los-angeles-rams",
+      "name": "Los Angeles Rams",
+      "subtitle": "NFC West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Los+Angeles+Rams"
+    },
+    {
+      "id": "cincinnati-bengals",
+      "name": "Cincinnati Bengals",
+      "subtitle": "AFC North",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Cincinnati+Bengals"
+    },
+    {
+      "id": "jacksonville-jaguars",
+      "name": "Jacksonville Jaguars",
+      "subtitle": "AFC South",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Jacksonville+Jaguars"
+    },
+    {
+      "id": "houston-texans",
+      "name": "Houston Texans",
+      "subtitle": "AFC South",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Houston+Texans"
+    },
+    {
+      "id": "indianapolis-colts",
+      "name": "Indianapolis Colts",
+      "subtitle": "AFC South",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Indianapolis+Colts"
+    },
+    {
+      "id": "washington-commanders",
+      "name": "Washington Commanders",
+      "subtitle": "NFC East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Washington+Commanders"
+    },
+    {
+      "id": "arizona-cardinals",
+      "name": "Arizona Cardinals",
+      "subtitle": "NFC West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Arizona+Cardinals"
+    },
+    {
+      "id": "carolina-panthers",
+      "name": "Carolina Panthers",
+      "subtitle": "NFC South",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Carolina+Panthers"
+    },
+    {
+      "id": "atlanta-falcons",
+      "name": "Atlanta Falcons",
+      "subtitle": "NFC South",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Atlanta+Falcons"
+    },
+    {
+      "id": "los-angeles-chargers",
+      "name": "Los Angeles Chargers",
+      "subtitle": "AFC West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Los+Angeles+Chargers"
+    },
+    {
+      "id": "new-york-jets",
+      "name": "New York Jets",
+      "subtitle": "AFC East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+York+Jets"
+    },
+    {
+      "id": "tennessee-titans",
+      "name": "Tennessee Titans",
+      "subtitle": "AFC South",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tennessee+Titans"
+    },
+    {
+      "id": "cleveland-browns",
+      "name": "Cleveland Browns",
+      "subtitle": "AFC North",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Cleveland+Browns"
+    }
   ]
 }

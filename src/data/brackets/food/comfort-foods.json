@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "mac-and-cheese", "name": "Mac & Cheese", "subtitle": "Cheesy pasta perfection" },
-    { "id": "grilled-cheese", "name": "Grilled Cheese", "subtitle": "Buttery & melty" },
-    { "id": "chicken-noodle-soup", "name": "Chicken Noodle Soup", "subtitle": "Feel-better food" },
-    { "id": "pizza-comfort", "name": "Pizza", "subtitle": "Everyone's favorite" },
-    { "id": "mashed-potatoes", "name": "Mashed Potatoes", "subtitle": "Creamy & buttery" },
-    { "id": "fried-chicken", "name": "Fried Chicken", "subtitle": "Crispy & juicy" },
-    { "id": "lasagna", "name": "Lasagna", "subtitle": "Layered Italian comfort" },
-    { "id": "chicken-pot-pie", "name": "Chicken Pot Pie", "subtitle": "Flaky & hearty" },
-    { "id": "meatloaf", "name": "Meatloaf", "subtitle": "Classic American" },
-    { "id": "chili", "name": "Chili", "subtitle": "Warm & spicy" },
-    { "id": "pot-roast", "name": "Pot Roast", "subtitle": "Slow-cooked perfection" },
-    { "id": "tomato-soup", "name": "Tomato Soup", "subtitle": "Pair with grilled cheese" },
-    { "id": "french-fries", "name": "French Fries", "subtitle": "Salty & crispy" },
-    { "id": "spaghetti-meatballs", "name": "Spaghetti & Meatballs", "subtitle": "Italian-American classic" },
-    { "id": "biscuits-and-gravy", "name": "Biscuits & Gravy", "subtitle": "Southern staple" },
-    { "id": "shepherds-pie", "name": "Shepherd's Pie", "subtitle": "Meat & potato casserole" },
-    { "id": "chicken-tenders", "name": "Chicken Tenders", "subtitle": "Crispy strips" },
-    { "id": "cornbread", "name": "Cornbread", "subtitle": "Sweet & crumbly" },
-    { "id": "beef-stew", "name": "Beef Stew", "subtitle": "Hearty & rich" },
-    { "id": "tater-tots", "name": "Tater Tots", "subtitle": "Crispy potato nuggets" },
-    { "id": "loaded-baked-potato", "name": "Loaded Baked Potato", "subtitle": "Cheese, bacon & sour cream" },
-    { "id": "chicken-and-waffles", "name": "Chicken & Waffles", "subtitle": "Sweet meets savory" },
-    { "id": "ramen-comfort", "name": "Ramen", "subtitle": "Warm noodle bowl" },
-    { "id": "pho", "name": "Pho", "subtitle": "Vietnamese noodle soup" }
+    {
+      "id": "mac-and-cheese",
+      "name": "Mac & Cheese",
+      "subtitle": "Cheesy pasta perfection",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mac+%26+Cheese"
+    },
+    {
+      "id": "grilled-cheese",
+      "name": "Grilled Cheese",
+      "subtitle": "Buttery & melty",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Grilled+Cheese"
+    },
+    {
+      "id": "chicken-noodle-soup",
+      "name": "Chicken Noodle Soup",
+      "subtitle": "Feel-better food",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chicken+Noodle+Soup"
+    },
+    {
+      "id": "pizza-comfort",
+      "name": "Pizza",
+      "subtitle": "Everyone's favorite",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pizza"
+    },
+    {
+      "id": "mashed-potatoes",
+      "name": "Mashed Potatoes",
+      "subtitle": "Creamy & buttery",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mashed+Potatoes"
+    },
+    {
+      "id": "fried-chicken",
+      "name": "Fried Chicken",
+      "subtitle": "Crispy & juicy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Fried+Chicken"
+    },
+    {
+      "id": "lasagna",
+      "name": "Lasagna",
+      "subtitle": "Layered Italian comfort",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Lasagna"
+    },
+    {
+      "id": "chicken-pot-pie",
+      "name": "Chicken Pot Pie",
+      "subtitle": "Flaky & hearty",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chicken+Pot+Pie"
+    },
+    {
+      "id": "meatloaf",
+      "name": "Meatloaf",
+      "subtitle": "Classic American",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Meatloaf"
+    },
+    {
+      "id": "chili",
+      "name": "Chili",
+      "subtitle": "Warm & spicy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chili"
+    },
+    {
+      "id": "pot-roast",
+      "name": "Pot Roast",
+      "subtitle": "Slow-cooked perfection",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pot+Roast"
+    },
+    {
+      "id": "tomato-soup",
+      "name": "Tomato Soup",
+      "subtitle": "Pair with grilled cheese",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Tomato+Soup"
+    },
+    {
+      "id": "french-fries",
+      "name": "French Fries",
+      "subtitle": "Salty & crispy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=French+Fries"
+    },
+    {
+      "id": "spaghetti-meatballs",
+      "name": "Spaghetti & Meatballs",
+      "subtitle": "Italian-American classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Spaghetti+%26+Meatballs"
+    },
+    {
+      "id": "biscuits-and-gravy",
+      "name": "Biscuits & Gravy",
+      "subtitle": "Southern staple",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Biscuits+%26+Gravy"
+    },
+    {
+      "id": "shepherds-pie",
+      "name": "Shepherd's Pie",
+      "subtitle": "Meat & potato casserole",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Shepherd's+Pie"
+    },
+    {
+      "id": "chicken-tenders",
+      "name": "Chicken Tenders",
+      "subtitle": "Crispy strips",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chicken+Tenders"
+    },
+    {
+      "id": "cornbread",
+      "name": "Cornbread",
+      "subtitle": "Sweet & crumbly",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cornbread"
+    },
+    {
+      "id": "beef-stew",
+      "name": "Beef Stew",
+      "subtitle": "Hearty & rich",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Beef+Stew"
+    },
+    {
+      "id": "tater-tots",
+      "name": "Tater Tots",
+      "subtitle": "Crispy potato nuggets",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Tater+Tots"
+    },
+    {
+      "id": "loaded-baked-potato",
+      "name": "Loaded Baked Potato",
+      "subtitle": "Cheese, bacon & sour cream",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Loaded+Baked+Potato"
+    },
+    {
+      "id": "chicken-and-waffles",
+      "name": "Chicken & Waffles",
+      "subtitle": "Sweet meets savory",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chicken+%26+Waffles"
+    },
+    {
+      "id": "ramen-comfort",
+      "name": "Ramen",
+      "subtitle": "Warm noodle bowl",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ramen"
+    },
+    {
+      "id": "pho",
+      "name": "Pho",
+      "subtitle": "Vietnamese noodle soup",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pho"
+    }
   ]
 }

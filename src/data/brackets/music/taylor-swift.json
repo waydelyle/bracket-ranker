@@ -1,68 +1,388 @@
 {
   "items": [
-    { "id": "all-too-well", "name": "All Too Well (10 Minute Version)", "subtitle": "Red (Taylor's Version)" },
-    { "id": "love-story", "name": "Love Story", "subtitle": "Fearless" },
-    { "id": "blank-space", "name": "Blank Space", "subtitle": "1989" },
-    { "id": "shake-it-off", "name": "Shake It Off", "subtitle": "1989" },
-    { "id": "cruel-summer", "name": "Cruel Summer", "subtitle": "Lover" },
-    { "id": "anti-hero", "name": "Anti-Hero", "subtitle": "Midnights" },
-    { "id": "style", "name": "Style", "subtitle": "1989" },
-    { "id": "enchanted", "name": "Enchanted", "subtitle": "Speak Now" },
-    { "id": "cardigan", "name": "cardigan", "subtitle": "folklore" },
-    { "id": "delicate", "name": "Delicate", "subtitle": "reputation" },
-    { "id": "willow", "name": "willow", "subtitle": "evermore" },
-    { "id": "you-belong-with-me", "name": "You Belong with Me", "subtitle": "Fearless" },
-    { "id": "august", "name": "august", "subtitle": "folklore" },
-    { "id": "wildest-dreams", "name": "Wildest Dreams", "subtitle": "1989" },
-    { "id": "champagne-problems", "name": "champagne problems", "subtitle": "evermore" },
-    { "id": "dont-blame-me", "name": "Don't Blame Me", "subtitle": "reputation" },
-    { "id": "fortnight", "name": "Fortnight", "subtitle": "The Tortured Poets Department" },
-    { "id": "the-1", "name": "the 1", "subtitle": "folklore" },
-    { "id": "exile", "name": "exile (feat. Bon Iver)", "subtitle": "folklore" },
-    { "id": "getaway-car", "name": "Getaway Car", "subtitle": "reputation" },
-    { "id": "betty", "name": "betty", "subtitle": "folklore" },
-    { "id": "22", "name": "22", "subtitle": "Red" },
-    { "id": "bad-blood", "name": "Bad Blood", "subtitle": "1989" },
-    { "id": "we-are-never-getting-back-together", "name": "We Are Never Getting Back Together", "subtitle": "Red" },
-    { "id": "look-what-you-made-me-do", "name": "Look What You Made Me Do", "subtitle": "reputation" },
-    { "id": "teardrops-on-my-guitar", "name": "Teardrops on My Guitar", "subtitle": "Taylor Swift" },
-    { "id": "the-lakes", "name": "the lakes", "subtitle": "folklore" },
-    { "id": "ivy", "name": "ivy", "subtitle": "evermore" },
-    { "id": "lavender-haze", "name": "Lavender Haze", "subtitle": "Midnights" },
-    { "id": "illicit-affairs", "name": "illicit affairs", "subtitle": "folklore" },
-    { "id": "i-knew-you-were-trouble", "name": "I Knew You Were Trouble", "subtitle": "Red" },
-    { "id": "my-tears-ricochet", "name": "my tears ricochet", "subtitle": "folklore" },
-    { "id": "seven", "name": "seven", "subtitle": "folklore" },
-    { "id": "invisible-string", "name": "invisible string", "subtitle": "folklore" },
-    { "id": "back-to-december", "name": "Back to December", "subtitle": "Speak Now" },
-    { "id": "the-last-great-american-dynasty", "name": "the last great american dynasty", "subtitle": "folklore" },
-    { "id": "begin-again", "name": "Begin Again", "subtitle": "Red" },
-    { "id": "new-romantics", "name": "New Romantics", "subtitle": "1989" },
-    { "id": "cornelia-street", "name": "Cornelia Street", "subtitle": "Lover" },
-    { "id": "death-by-a-thousand-cuts", "name": "Death by a Thousand Cuts", "subtitle": "Lover" },
-    { "id": "lover", "name": "Lover", "subtitle": "Lover" },
-    { "id": "midnight-rain", "name": "Midnight Rain", "subtitle": "Midnights" },
-    { "id": "ready-for-it", "name": "...Ready For It?", "subtitle": "reputation" },
-    { "id": "tolerate-it", "name": "tolerate it", "subtitle": "evermore" },
-    { "id": "mirrorball", "name": "mirrorball", "subtitle": "folklore" },
-    { "id": "i-can-do-it-with-a-broken-heart", "name": "I Can Do It With a Broken Heart", "subtitle": "The Tortured Poets Department" },
-    { "id": "state-of-grace", "name": "State of Grace", "subtitle": "Red" },
-    { "id": "should-have-said-no", "name": "Should've Said No", "subtitle": "Taylor Swift" },
-    { "id": "paper-rings", "name": "Paper Rings", "subtitle": "Lover" },
-    { "id": "mean", "name": "Mean", "subtitle": "Speak Now" },
-    { "id": "dear-john", "name": "Dear John", "subtitle": "Speak Now" },
-    { "id": "clean", "name": "Clean", "subtitle": "1989" },
-    { "id": "tim-mcgraw", "name": "Tim McGraw", "subtitle": "Taylor Swift" },
-    { "id": "our-song", "name": "Our Song", "subtitle": "Taylor Swift" },
-    { "id": "sparks-fly", "name": "Sparks Fly", "subtitle": "Speak Now" },
-    { "id": "mine", "name": "Mine", "subtitle": "Speak Now" },
-    { "id": "treacherous", "name": "Treacherous", "subtitle": "Red" },
-    { "id": "the-archer", "name": "The Archer", "subtitle": "Lover" },
-    { "id": "out-of-the-woods", "name": "Out of the Woods", "subtitle": "1989" },
-    { "id": "this-is-me-trying", "name": "this is me trying", "subtitle": "folklore" },
-    { "id": "right-where-you-left-me", "name": "right where you left me", "subtitle": "evermore" },
-    { "id": "no-body-no-crime", "name": "no body, no crime", "subtitle": "evermore" },
-    { "id": "karma", "name": "Karma", "subtitle": "Midnights" },
-    { "id": "snow-on-the-beach", "name": "Snow on the Beach", "subtitle": "Midnights" }
+    {
+      "id": "all-too-well",
+      "name": "All Too Well (10 Minute Version)",
+      "subtitle": "Red (Taylor's Version)",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=All+Too+Well+(10+Minute+Version)"
+    },
+    {
+      "id": "love-story",
+      "name": "Love Story",
+      "subtitle": "Fearless",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Love+Story"
+    },
+    {
+      "id": "blank-space",
+      "name": "Blank Space",
+      "subtitle": "1989",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Blank+Space"
+    },
+    {
+      "id": "shake-it-off",
+      "name": "Shake It Off",
+      "subtitle": "1989",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Shake+It+Off"
+    },
+    {
+      "id": "cruel-summer",
+      "name": "Cruel Summer",
+      "subtitle": "Lover",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Cruel+Summer"
+    },
+    {
+      "id": "anti-hero",
+      "name": "Anti-Hero",
+      "subtitle": "Midnights",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Anti-Hero"
+    },
+    {
+      "id": "style",
+      "name": "Style",
+      "subtitle": "1989",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Style"
+    },
+    {
+      "id": "enchanted",
+      "name": "Enchanted",
+      "subtitle": "Speak Now",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Enchanted"
+    },
+    {
+      "id": "cardigan",
+      "name": "cardigan",
+      "subtitle": "folklore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=cardigan"
+    },
+    {
+      "id": "delicate",
+      "name": "Delicate",
+      "subtitle": "reputation",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Delicate"
+    },
+    {
+      "id": "willow",
+      "name": "willow",
+      "subtitle": "evermore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=willow"
+    },
+    {
+      "id": "you-belong-with-me",
+      "name": "You Belong with Me",
+      "subtitle": "Fearless",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=You+Belong+with+Me"
+    },
+    {
+      "id": "august",
+      "name": "august",
+      "subtitle": "folklore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=august"
+    },
+    {
+      "id": "wildest-dreams",
+      "name": "Wildest Dreams",
+      "subtitle": "1989",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Wildest+Dreams"
+    },
+    {
+      "id": "champagne-problems",
+      "name": "champagne problems",
+      "subtitle": "evermore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=champagne+problems"
+    },
+    {
+      "id": "dont-blame-me",
+      "name": "Don't Blame Me",
+      "subtitle": "reputation",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Don't+Blame+Me"
+    },
+    {
+      "id": "fortnight",
+      "name": "Fortnight",
+      "subtitle": "The Tortured Poets Department",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Fortnight"
+    },
+    {
+      "id": "the-1",
+      "name": "the 1",
+      "subtitle": "folklore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=the+1"
+    },
+    {
+      "id": "exile",
+      "name": "exile (feat. Bon Iver)",
+      "subtitle": "folklore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=exile+(feat.+Bon+Iver)"
+    },
+    {
+      "id": "getaway-car",
+      "name": "Getaway Car",
+      "subtitle": "reputation",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Getaway+Car"
+    },
+    {
+      "id": "betty",
+      "name": "betty",
+      "subtitle": "folklore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=betty"
+    },
+    {
+      "id": "22",
+      "name": "22",
+      "subtitle": "Red",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=22"
+    },
+    {
+      "id": "bad-blood",
+      "name": "Bad Blood",
+      "subtitle": "1989",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bad+Blood"
+    },
+    {
+      "id": "we-are-never-getting-back-together",
+      "name": "We Are Never Getting Back Together",
+      "subtitle": "Red",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=We+Are+Never+Getting+Back+Together"
+    },
+    {
+      "id": "look-what-you-made-me-do",
+      "name": "Look What You Made Me Do",
+      "subtitle": "reputation",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Look+What+You+Made+Me+Do"
+    },
+    {
+      "id": "teardrops-on-my-guitar",
+      "name": "Teardrops on My Guitar",
+      "subtitle": "Taylor Swift",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Teardrops+on+My+Guitar"
+    },
+    {
+      "id": "the-lakes",
+      "name": "the lakes",
+      "subtitle": "folklore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=the+lakes"
+    },
+    {
+      "id": "ivy",
+      "name": "ivy",
+      "subtitle": "evermore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=ivy"
+    },
+    {
+      "id": "lavender-haze",
+      "name": "Lavender Haze",
+      "subtitle": "Midnights",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Lavender+Haze"
+    },
+    {
+      "id": "illicit-affairs",
+      "name": "illicit affairs",
+      "subtitle": "folklore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=illicit+affairs"
+    },
+    {
+      "id": "i-knew-you-were-trouble",
+      "name": "I Knew You Were Trouble",
+      "subtitle": "Red",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=I+Knew+You+Were+Trouble"
+    },
+    {
+      "id": "my-tears-ricochet",
+      "name": "my tears ricochet",
+      "subtitle": "folklore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=my+tears+ricochet"
+    },
+    {
+      "id": "seven",
+      "name": "seven",
+      "subtitle": "folklore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=seven"
+    },
+    {
+      "id": "invisible-string",
+      "name": "invisible string",
+      "subtitle": "folklore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=invisible+string"
+    },
+    {
+      "id": "back-to-december",
+      "name": "Back to December",
+      "subtitle": "Speak Now",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Back+to+December"
+    },
+    {
+      "id": "the-last-great-american-dynasty",
+      "name": "the last great american dynasty",
+      "subtitle": "folklore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=the+last+great+american+dynasty"
+    },
+    {
+      "id": "begin-again",
+      "name": "Begin Again",
+      "subtitle": "Red",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Begin+Again"
+    },
+    {
+      "id": "new-romantics",
+      "name": "New Romantics",
+      "subtitle": "1989",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=New+Romantics"
+    },
+    {
+      "id": "cornelia-street",
+      "name": "Cornelia Street",
+      "subtitle": "Lover",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Cornelia+Street"
+    },
+    {
+      "id": "death-by-a-thousand-cuts",
+      "name": "Death by a Thousand Cuts",
+      "subtitle": "Lover",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Death+by+a+Thousand+Cuts"
+    },
+    {
+      "id": "lover",
+      "name": "Lover",
+      "subtitle": "Lover",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Lover"
+    },
+    {
+      "id": "midnight-rain",
+      "name": "Midnight Rain",
+      "subtitle": "Midnights",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Midnight+Rain"
+    },
+    {
+      "id": "ready-for-it",
+      "name": "...Ready For It?",
+      "subtitle": "reputation",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=...Ready+For+It%3F"
+    },
+    {
+      "id": "tolerate-it",
+      "name": "tolerate it",
+      "subtitle": "evermore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=tolerate+it"
+    },
+    {
+      "id": "mirrorball",
+      "name": "mirrorball",
+      "subtitle": "folklore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=mirrorball"
+    },
+    {
+      "id": "i-can-do-it-with-a-broken-heart",
+      "name": "I Can Do It With a Broken Heart",
+      "subtitle": "The Tortured Poets Department",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=I+Can+Do+It+With+a+Broken+Heart"
+    },
+    {
+      "id": "state-of-grace",
+      "name": "State of Grace",
+      "subtitle": "Red",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=State+of+Grace"
+    },
+    {
+      "id": "should-have-said-no",
+      "name": "Should've Said No",
+      "subtitle": "Taylor Swift",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Should've+Said+No"
+    },
+    {
+      "id": "paper-rings",
+      "name": "Paper Rings",
+      "subtitle": "Lover",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Paper+Rings"
+    },
+    {
+      "id": "mean",
+      "name": "Mean",
+      "subtitle": "Speak Now",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Mean"
+    },
+    {
+      "id": "dear-john",
+      "name": "Dear John",
+      "subtitle": "Speak Now",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Dear+John"
+    },
+    {
+      "id": "clean",
+      "name": "Clean",
+      "subtitle": "1989",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Clean"
+    },
+    {
+      "id": "tim-mcgraw",
+      "name": "Tim McGraw",
+      "subtitle": "Taylor Swift",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Tim+McGraw"
+    },
+    {
+      "id": "our-song",
+      "name": "Our Song",
+      "subtitle": "Taylor Swift",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Our+Song"
+    },
+    {
+      "id": "sparks-fly",
+      "name": "Sparks Fly",
+      "subtitle": "Speak Now",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sparks+Fly"
+    },
+    {
+      "id": "mine",
+      "name": "Mine",
+      "subtitle": "Speak Now",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Mine"
+    },
+    {
+      "id": "treacherous",
+      "name": "Treacherous",
+      "subtitle": "Red",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Treacherous"
+    },
+    {
+      "id": "the-archer",
+      "name": "The Archer",
+      "subtitle": "Lover",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Archer"
+    },
+    {
+      "id": "out-of-the-woods",
+      "name": "Out of the Woods",
+      "subtitle": "1989",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Out+of+the+Woods"
+    },
+    {
+      "id": "this-is-me-trying",
+      "name": "this is me trying",
+      "subtitle": "folklore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=this+is+me+trying"
+    },
+    {
+      "id": "right-where-you-left-me",
+      "name": "right where you left me",
+      "subtitle": "evermore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=right+where+you+left+me"
+    },
+    {
+      "id": "no-body-no-crime",
+      "name": "no body, no crime",
+      "subtitle": "evermore",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=no+body%2C+no+crime"
+    },
+    {
+      "id": "karma",
+      "name": "Karma",
+      "subtitle": "Midnights",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Karma"
+    },
+    {
+      "id": "snow-on-the-beach",
+      "name": "Snow on the Beach",
+      "subtitle": "Midnights",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Snow+on+the+Beach"
+    }
   ]
 }

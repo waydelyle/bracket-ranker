@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "titanic", "name": "Titanic", "subtitle": "1997" },
-    { "id": "the-matrix", "name": "The Matrix", "subtitle": "1999" },
-    { "id": "pulp-fiction", "name": "Pulp Fiction", "subtitle": "1994" },
-    { "id": "forrest-gump", "name": "Forrest Gump", "subtitle": "1994" },
-    { "id": "the-shawshank-redemption", "name": "The Shawshank Redemption", "subtitle": "1994" },
-    { "id": "fight-club", "name": "Fight Club", "subtitle": "1999" },
-    { "id": "good-will-hunting", "name": "Good Will Hunting", "subtitle": "1997" },
-    { "id": "jurassic-park", "name": "Jurassic Park", "subtitle": "1993" },
-    { "id": "schindlers-list", "name": "Schindler's List", "subtitle": "1993" },
-    { "id": "the-sixth-sense", "name": "The Sixth Sense", "subtitle": "1999" },
-    { "id": "saving-private-ryan", "name": "Saving Private Ryan", "subtitle": "1998" },
-    { "id": "the-big-lebowski", "name": "The Big Lebowski", "subtitle": "1998" },
-    { "id": "american-beauty", "name": "American Beauty", "subtitle": "1999" },
-    { "id": "braveheart", "name": "Braveheart", "subtitle": "1995" },
-    { "id": "fargo", "name": "Fargo", "subtitle": "1996" },
-    { "id": "se7en", "name": "Se7en", "subtitle": "1995" },
-    { "id": "the-truman-show", "name": "The Truman Show", "subtitle": "1998" },
-    { "id": "heat", "name": "Heat", "subtitle": "1995" },
-    { "id": "goodfellas", "name": "Goodfellas", "subtitle": "1990" },
-    { "id": "the-usual-suspects", "name": "The Usual Suspects", "subtitle": "1995" },
-    { "id": "terminator-2", "name": "Terminator 2: Judgment Day", "subtitle": "1991" },
-    { "id": "independence-day", "name": "Independence Day", "subtitle": "1996" },
-    { "id": "leon-the-professional", "name": "Leon: The Professional", "subtitle": "1994" },
-    { "id": "the-silence-of-the-lambs-90s", "name": "The Silence of the Lambs", "subtitle": "1991" },
-    { "id": "groundhog-day", "name": "Groundhog Day", "subtitle": "1993" },
-    { "id": "office-space", "name": "Office Space", "subtitle": "1999" },
-    { "id": "clueless", "name": "Clueless", "subtitle": "1995" },
-    { "id": "10-things-i-hate-about-you", "name": "10 Things I Hate About You", "subtitle": "1999" },
-    { "id": "the-fifth-element", "name": "The Fifth Element", "subtitle": "1997" },
-    { "id": "dazed-and-confused", "name": "Dazed and Confused", "subtitle": "1993" },
-    { "id": "speed", "name": "Speed", "subtitle": "1994" },
-    { "id": "eyes-wide-shut", "name": "Eyes Wide Shut", "subtitle": "1999" }
+    {
+      "id": "titanic",
+      "name": "Titanic",
+      "subtitle": "1997",
+      "image": "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg"
+    },
+    {
+      "id": "the-matrix",
+      "name": "The Matrix",
+      "subtitle": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg"
+    },
+    {
+      "id": "pulp-fiction",
+      "name": "Pulp Fiction",
+      "subtitle": "1994",
+      "image": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg"
+    },
+    {
+      "id": "forrest-gump",
+      "name": "Forrest Gump",
+      "subtitle": "1994",
+      "image": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg"
+    },
+    {
+      "id": "the-shawshank-redemption",
+      "name": "The Shawshank Redemption",
+      "subtitle": "1994",
+      "image": "https://image.tmdb.org/t/p/w500/9cjIGRnKoRWDfqAEY72frLjKXwb.jpg"
+    },
+    {
+      "id": "fight-club",
+      "name": "Fight Club",
+      "subtitle": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/pMSFlL7SvU9x4gMoSbNOuKEVyJn.jpg"
+    },
+    {
+      "id": "good-will-hunting",
+      "name": "Good Will Hunting",
+      "subtitle": "1997",
+      "image": "https://image.tmdb.org/t/p/w500/bABCBKYBK7A5G1x0FzmtQqTR6TX.jpg"
+    },
+    {
+      "id": "jurassic-park",
+      "name": "Jurassic Park",
+      "subtitle": "1993",
+      "image": "https://image.tmdb.org/t/p/w500/oU7Oez2kCnGBQjGoiRnag1VjKEv.jpg"
+    },
+    {
+      "id": "schindlers-list",
+      "name": "Schindler's List",
+      "subtitle": "1993",
+      "image": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg"
+    },
+    {
+      "id": "the-sixth-sense",
+      "name": "The Sixth Sense",
+      "subtitle": "1999",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Sixth+Sense"
+    },
+    {
+      "id": "saving-private-ryan",
+      "name": "Saving Private Ryan",
+      "subtitle": "1998",
+      "image": "https://image.tmdb.org/t/p/w500/1wY4psJ5NVEhCuOYROwLH2XExM2.jpg"
+    },
+    {
+      "id": "the-big-lebowski",
+      "name": "The Big Lebowski",
+      "subtitle": "1998",
+      "image": "https://image.tmdb.org/t/p/w500/fcjEA7ntMptLLIblLIIuwOVTqDm.jpg"
+    },
+    {
+      "id": "american-beauty",
+      "name": "American Beauty",
+      "subtitle": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/wby1MRMd4wP0phVdIWVMqnECIbb.jpg"
+    },
+    {
+      "id": "braveheart",
+      "name": "Braveheart",
+      "subtitle": "1995",
+      "image": "https://image.tmdb.org/t/p/w500/or1Lb04dFtPQnbXYMSRlGPxAbQc.jpg"
+    },
+    {
+      "id": "fargo",
+      "name": "Fargo",
+      "subtitle": "1996",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Fargo"
+    },
+    {
+      "id": "se7en",
+      "name": "Se7en",
+      "subtitle": "1995",
+      "image": "https://image.tmdb.org/t/p/w500/6yoghtyTpznpBik8EngEmJskVUO.jpg"
+    },
+    {
+      "id": "the-truman-show",
+      "name": "The Truman Show",
+      "subtitle": "1998",
+      "image": "https://image.tmdb.org/t/p/w500/vuza0WqY239yBXOadKlGwJsZJFE.jpg"
+    },
+    {
+      "id": "heat",
+      "name": "Heat",
+      "subtitle": "1995",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Heat"
+    },
+    {
+      "id": "goodfellas",
+      "name": "Goodfellas",
+      "subtitle": "1990",
+      "image": "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGDp4RniGRtEnf.jpg"
+    },
+    {
+      "id": "the-usual-suspects",
+      "name": "The Usual Suspects",
+      "subtitle": "1995",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Usual+Suspects"
+    },
+    {
+      "id": "terminator-2",
+      "name": "Terminator 2: Judgment Day",
+      "subtitle": "1991",
+      "image": "https://image.tmdb.org/t/p/w500/5M0j0B18abtBI5bQat1zhas1vOU.jpg"
+    },
+    {
+      "id": "independence-day",
+      "name": "Independence Day",
+      "subtitle": "1996",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Independence+Day"
+    },
+    {
+      "id": "leon-the-professional",
+      "name": "Leon: The Professional",
+      "subtitle": "1994",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Leon%3A+The+Professional"
+    },
+    {
+      "id": "the-silence-of-the-lambs-90s",
+      "name": "The Silence of the Lambs",
+      "subtitle": "1991",
+      "image": "https://image.tmdb.org/t/p/w500/uS9m8OBk1RVFzUOC8I0ocL1II27.jpg"
+    },
+    {
+      "id": "groundhog-day",
+      "name": "Groundhog Day",
+      "subtitle": "1993",
+      "image": "https://image.tmdb.org/t/p/w500/gCgt1WARPZaXnq523ySQEUKincs.jpg"
+    },
+    {
+      "id": "office-space",
+      "name": "Office Space",
+      "subtitle": "1999",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Office+Space"
+    },
+    {
+      "id": "clueless",
+      "name": "Clueless",
+      "subtitle": "1995",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Clueless"
+    },
+    {
+      "id": "10-things-i-hate-about-you",
+      "name": "10 Things I Hate About You",
+      "subtitle": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/u1R17CVPlDqYWZIa0GxejERhYT1.jpg"
+    },
+    {
+      "id": "the-fifth-element",
+      "name": "The Fifth Element",
+      "subtitle": "1997",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Fifth+Element"
+    },
+    {
+      "id": "dazed-and-confused",
+      "name": "Dazed and Confused",
+      "subtitle": "1993",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Dazed+and+Confused"
+    },
+    {
+      "id": "speed",
+      "name": "Speed",
+      "subtitle": "1994",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Speed"
+    },
+    {
+      "id": "eyes-wide-shut",
+      "name": "Eyes Wide Shut",
+      "subtitle": "1999",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Eyes+Wide+Shut"
+    }
   ]
 }

@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "star-wars-new-hope", "name": "Star Wars: A New Hope", "subtitle": "1977" },
-    { "id": "blade-runner", "name": "Blade Runner", "subtitle": "1982" },
-    { "id": "interstellar", "name": "Interstellar", "subtitle": "2014" },
-    { "id": "the-matrix-scifi", "name": "The Matrix", "subtitle": "1999" },
-    { "id": "alien-scifi", "name": "Alien", "subtitle": "1979" },
-    { "id": "2001-a-space-odyssey", "name": "2001: A Space Odyssey", "subtitle": "1968" },
-    { "id": "empire-strikes-back", "name": "The Empire Strikes Back", "subtitle": "1980" },
-    { "id": "terminator-2-scifi", "name": "Terminator 2: Judgment Day", "subtitle": "1991" },
-    { "id": "inception", "name": "Inception", "subtitle": "2010" },
-    { "id": "arrival", "name": "Arrival", "subtitle": "2016" },
-    { "id": "blade-runner-2049", "name": "Blade Runner 2049", "subtitle": "2017" },
-    { "id": "et", "name": "E.T. the Extra-Terrestrial", "subtitle": "1982" },
-    { "id": "the-terminator", "name": "The Terminator", "subtitle": "1984" },
-    { "id": "back-to-the-future", "name": "Back to the Future", "subtitle": "1985" },
-    { "id": "jurassic-park-scifi", "name": "Jurassic Park", "subtitle": "1993" },
-    { "id": "dune-2021", "name": "Dune", "subtitle": "2021" },
-    { "id": "close-encounters", "name": "Close Encounters of the Third Kind", "subtitle": "1977" },
-    { "id": "the-fifth-element-scifi", "name": "The Fifth Element", "subtitle": "1997" },
-    { "id": "district-9", "name": "District 9", "subtitle": "2009" },
-    { "id": "ex-machina", "name": "Ex Machina", "subtitle": "2014" },
-    { "id": "moon", "name": "Moon", "subtitle": "2009" },
-    { "id": "the-martian", "name": "The Martian", "subtitle": "2015" },
-    { "id": "annihilation", "name": "Annihilation", "subtitle": "2018" },
-    { "id": "gravity", "name": "Gravity", "subtitle": "2013" },
-    { "id": "her", "name": "Her", "subtitle": "2013" },
-    { "id": "edge-of-tomorrow", "name": "Edge of Tomorrow", "subtitle": "2014" },
-    { "id": "war-of-the-worlds", "name": "War of the Worlds", "subtitle": "2005" },
-    { "id": "solaris", "name": "Solaris", "subtitle": "1972" },
-    { "id": "everything-everywhere", "name": "Everything Everywhere All at Once", "subtitle": "2022" },
-    { "id": "minority-report", "name": "Minority Report", "subtitle": "2002" },
-    { "id": "the-fly", "name": "The Fly", "subtitle": "1986" },
-    { "id": "dune-part-two", "name": "Dune: Part Two", "subtitle": "2024" }
+    {
+      "id": "star-wars-new-hope",
+      "name": "Star Wars: A New Hope",
+      "subtitle": "1977",
+      "image": "https://image.tmdb.org/t/p/w500/6FfCtHmKCfCb77ri6h4Lcnt0PFa.jpg"
+    },
+    {
+      "id": "blade-runner",
+      "name": "Blade Runner",
+      "subtitle": "1982",
+      "image": "https://image.tmdb.org/t/p/w500/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg"
+    },
+    {
+      "id": "interstellar",
+      "name": "Interstellar",
+      "subtitle": "2014",
+      "image": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+    },
+    {
+      "id": "the-matrix-scifi",
+      "name": "The Matrix",
+      "subtitle": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg"
+    },
+    {
+      "id": "alien-scifi",
+      "name": "Alien",
+      "subtitle": "1979",
+      "image": "https://image.tmdb.org/t/p/w500/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg"
+    },
+    {
+      "id": "2001-a-space-odyssey",
+      "name": "2001: A Space Odyssey",
+      "subtitle": "1968",
+      "image": "https://image.tmdb.org/t/p/w500/ve72VLQ8SXXfhEBMnxCAOREKFOc.jpg"
+    },
+    {
+      "id": "empire-strikes-back",
+      "name": "The Empire Strikes Back",
+      "subtitle": "1980",
+      "image": "https://image.tmdb.org/t/p/w500/nNAeTmF4CtdSgMDplXTDPOpYoMo.jpg"
+    },
+    {
+      "id": "terminator-2-scifi",
+      "name": "Terminator 2: Judgment Day",
+      "subtitle": "1991",
+      "image": "https://image.tmdb.org/t/p/w500/5M0j0B18abtBI5bQat1zhas1vOU.jpg"
+    },
+    {
+      "id": "inception",
+      "name": "Inception",
+      "subtitle": "2010",
+      "image": "https://image.tmdb.org/t/p/w500/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg"
+    },
+    {
+      "id": "arrival",
+      "name": "Arrival",
+      "subtitle": "2016",
+      "image": "https://image.tmdb.org/t/p/w500/x2FJsf1ElAgr63Y3LNxZq57Ro3S.jpg"
+    },
+    {
+      "id": "blade-runner-2049",
+      "name": "Blade Runner 2049",
+      "subtitle": "2017",
+      "image": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg"
+    },
+    {
+      "id": "et",
+      "name": "E.T. the Extra-Terrestrial",
+      "subtitle": "1982",
+      "image": "https://image.tmdb.org/t/p/w500/an0nD6uq6bLxjcVX0r5rIJvMVOK.jpg"
+    },
+    {
+      "id": "the-terminator",
+      "name": "The Terminator",
+      "subtitle": "1984",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Terminator"
+    },
+    {
+      "id": "back-to-the-future",
+      "name": "Back to the Future",
+      "subtitle": "1985",
+      "image": "https://image.tmdb.org/t/p/w500/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg"
+    },
+    {
+      "id": "jurassic-park-scifi",
+      "name": "Jurassic Park",
+      "subtitle": "1993",
+      "image": "https://image.tmdb.org/t/p/w500/oU7Oez2kCnGBQjGoiRnag1VjKEv.jpg"
+    },
+    {
+      "id": "dune-2021",
+      "name": "Dune",
+      "subtitle": "2021",
+      "image": "https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
+    },
+    {
+      "id": "close-encounters",
+      "name": "Close Encounters of the Third Kind",
+      "subtitle": "1977",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Close+Encounters+of+the+Third+Kind"
+    },
+    {
+      "id": "the-fifth-element-scifi",
+      "name": "The Fifth Element",
+      "subtitle": "1997",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Fifth+Element"
+    },
+    {
+      "id": "district-9",
+      "name": "District 9",
+      "subtitle": "2009",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=District+9"
+    },
+    {
+      "id": "ex-machina",
+      "name": "Ex Machina",
+      "subtitle": "2014",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Ex+Machina"
+    },
+    {
+      "id": "moon",
+      "name": "Moon",
+      "subtitle": "2009",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Moon"
+    },
+    {
+      "id": "the-martian",
+      "name": "The Martian",
+      "subtitle": "2015",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Martian"
+    },
+    {
+      "id": "annihilation",
+      "name": "Annihilation",
+      "subtitle": "2018",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Annihilation"
+    },
+    {
+      "id": "gravity",
+      "name": "Gravity",
+      "subtitle": "2013",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Gravity"
+    },
+    {
+      "id": "her",
+      "name": "Her",
+      "subtitle": "2013",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Her"
+    },
+    {
+      "id": "edge-of-tomorrow",
+      "name": "Edge of Tomorrow",
+      "subtitle": "2014",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Edge+of+Tomorrow"
+    },
+    {
+      "id": "war-of-the-worlds",
+      "name": "War of the Worlds",
+      "subtitle": "2005",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=War+of+the+Worlds"
+    },
+    {
+      "id": "solaris",
+      "name": "Solaris",
+      "subtitle": "1972",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Solaris"
+    },
+    {
+      "id": "everything-everywhere",
+      "name": "Everything Everywhere All at Once",
+      "subtitle": "2022",
+      "image": "https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg"
+    },
+    {
+      "id": "minority-report",
+      "name": "Minority Report",
+      "subtitle": "2002",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Minority+Report"
+    },
+    {
+      "id": "the-fly",
+      "name": "The Fly",
+      "subtitle": "1986",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Fly"
+    },
+    {
+      "id": "dune-part-two",
+      "name": "Dune: Part Two",
+      "subtitle": "2024",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Dune%3A+Part+Two"
+    }
   ]
 }

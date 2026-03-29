@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "acrophobia", "name": "Heights", "subtitle": "Acrophobia" },
-    { "id": "arachnophobia", "name": "Spiders", "subtitle": "Arachnophobia" },
-    { "id": "ophidiophobia", "name": "Snakes", "subtitle": "Ophidiophobia" },
-    { "id": "claustrophobia", "name": "Enclosed Spaces", "subtitle": "Claustrophobia" },
-    { "id": "trypophobia", "name": "Clusters of Holes", "subtitle": "Trypophobia" },
-    { "id": "nyctophobia", "name": "The Dark", "subtitle": "Nyctophobia" },
-    { "id": "glossophobia", "name": "Public Speaking", "subtitle": "Glossophobia" },
-    { "id": "aerophobia", "name": "Flying", "subtitle": "Aerophobia" },
-    { "id": "thalassophobia", "name": "Deep Water", "subtitle": "Thalassophobia" },
-    { "id": "astraphobia", "name": "Thunder & Lightning", "subtitle": "Astraphobia" },
-    { "id": "hemophobia", "name": "Blood", "subtitle": "Hemophobia" },
-    { "id": "thanatophobia", "name": "Death", "subtitle": "Thanatophobia" },
-    { "id": "entomophobia", "name": "Insects", "subtitle": "Entomophobia" },
-    { "id": "coulrophobia", "name": "Clowns", "subtitle": "Coulrophobia" },
-    { "id": "cynophobia", "name": "Dogs", "subtitle": "Cynophobia" },
-    { "id": "agoraphobia", "name": "Open/Crowded Spaces", "subtitle": "Agoraphobia" }
+    {
+      "id": "acrophobia",
+      "name": "Heights",
+      "subtitle": "Acrophobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Heights"
+    },
+    {
+      "id": "arachnophobia",
+      "name": "Spiders",
+      "subtitle": "Arachnophobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Spiders"
+    },
+    {
+      "id": "ophidiophobia",
+      "name": "Snakes",
+      "subtitle": "Ophidiophobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Snakes"
+    },
+    {
+      "id": "claustrophobia",
+      "name": "Enclosed Spaces",
+      "subtitle": "Claustrophobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Enclosed+Spaces"
+    },
+    {
+      "id": "trypophobia",
+      "name": "Clusters of Holes",
+      "subtitle": "Trypophobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Clusters+of+Holes"
+    },
+    {
+      "id": "nyctophobia",
+      "name": "The Dark",
+      "subtitle": "Nyctophobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Dark"
+    },
+    {
+      "id": "glossophobia",
+      "name": "Public Speaking",
+      "subtitle": "Glossophobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Public+Speaking"
+    },
+    {
+      "id": "aerophobia",
+      "name": "Flying",
+      "subtitle": "Aerophobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Flying"
+    },
+    {
+      "id": "thalassophobia",
+      "name": "Deep Water",
+      "subtitle": "Thalassophobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Deep+Water"
+    },
+    {
+      "id": "astraphobia",
+      "name": "Thunder & Lightning",
+      "subtitle": "Astraphobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Thunder+%26+Lightning"
+    },
+    {
+      "id": "hemophobia",
+      "name": "Blood",
+      "subtitle": "Hemophobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Blood"
+    },
+    {
+      "id": "thanatophobia",
+      "name": "Death",
+      "subtitle": "Thanatophobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Death"
+    },
+    {
+      "id": "entomophobia",
+      "name": "Insects",
+      "subtitle": "Entomophobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Insects"
+    },
+    {
+      "id": "coulrophobia",
+      "name": "Clowns",
+      "subtitle": "Coulrophobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Clowns"
+    },
+    {
+      "id": "cynophobia",
+      "name": "Dogs",
+      "subtitle": "Cynophobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Dogs"
+    },
+    {
+      "id": "agoraphobia",
+      "name": "Open/Crowded Spaces",
+      "subtitle": "Agoraphobia",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Open%2FCrowded+Spaces"
+    }
   ]
 }

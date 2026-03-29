@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "home-alone", "name": "Home Alone", "subtitle": "1990" },
-    { "id": "die-hard", "name": "Die Hard", "subtitle": "1988" },
-    { "id": "elf", "name": "Elf", "subtitle": "2003" },
-    { "id": "its-a-wonderful-life", "name": "It's a Wonderful Life", "subtitle": "1946" },
-    { "id": "a-christmas-story", "name": "A Christmas Story", "subtitle": "1983" },
-    { "id": "the-nightmare-before-christmas", "name": "The Nightmare Before Christmas", "subtitle": "1993" },
-    { "id": "love-actually", "name": "Love Actually", "subtitle": "2003" },
-    { "id": "national-lampoons-christmas-vacation", "name": "National Lampoon's Christmas Vacation", "subtitle": "1989" },
-    { "id": "the-polar-express", "name": "The Polar Express", "subtitle": "2004" },
-    { "id": "how-the-grinch-stole-christmas", "name": "How the Grinch Stole Christmas", "subtitle": "2000" },
-    { "id": "a-charlie-brown-christmas", "name": "A Charlie Brown Christmas", "subtitle": "1965" },
-    { "id": "rudolph-the-red-nosed-reindeer", "name": "Rudolph the Red-Nosed Reindeer", "subtitle": "1964" },
-    { "id": "the-santa-clause", "name": "The Santa Clause", "subtitle": "1994" },
-    { "id": "miracle-on-34th-street", "name": "Miracle on 34th Street", "subtitle": "1947" },
-    { "id": "white-christmas", "name": "White Christmas", "subtitle": "1954" },
-    { "id": "scrooged", "name": "Scrooged", "subtitle": "1988" },
-    { "id": "the-muppet-christmas-carol", "name": "The Muppet Christmas Carol", "subtitle": "1992" },
-    { "id": "jingle-all-the-way", "name": "Jingle All the Way", "subtitle": "1996" },
-    { "id": "bad-santa", "name": "Bad Santa", "subtitle": "2003" },
-    { "id": "the-holiday", "name": "The Holiday", "subtitle": "2006" },
-    { "id": "klaus", "name": "Klaus", "subtitle": "2019" },
-    { "id": "a-christmas-carol-2009", "name": "A Christmas Carol", "subtitle": "2009" },
-    { "id": "home-alone-2", "name": "Home Alone 2: Lost in New York", "subtitle": "1992" },
-    { "id": "gremlins", "name": "Gremlins", "subtitle": "1984" }
+    {
+      "id": "home-alone",
+      "name": "Home Alone",
+      "subtitle": "1990",
+      "image": "https://image.tmdb.org/t/p/w500/9wSbe4CwObACCQvaUVhWQyLR5Vz.jpg"
+    },
+    {
+      "id": "die-hard",
+      "name": "Die Hard",
+      "subtitle": "1988",
+      "image": "https://image.tmdb.org/t/p/w500/yFihWxQcmqcaBR31QM6Y8gT6aYV.jpg"
+    },
+    {
+      "id": "elf",
+      "name": "Elf",
+      "subtitle": "2003",
+      "image": "https://image.tmdb.org/t/p/w500/tGHiREKRuP91mvGTqwTNRMBiAOj.jpg"
+    },
+    {
+      "id": "its-a-wonderful-life",
+      "name": "It's a Wonderful Life",
+      "subtitle": "1946",
+      "image": "https://image.tmdb.org/t/p/w500/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg"
+    },
+    {
+      "id": "a-christmas-story",
+      "name": "A Christmas Story",
+      "subtitle": "1983",
+      "image": "https://image.tmdb.org/t/p/w500/fSvq5mKMxBSvfaIJMppbfTJMGdz.jpg"
+    },
+    {
+      "id": "the-nightmare-before-christmas",
+      "name": "The Nightmare Before Christmas",
+      "subtitle": "1993",
+      "image": "https://image.tmdb.org/t/p/w500/sF9FOiMXbXeTpz6DjkMz6yRkYAy.jpg"
+    },
+    {
+      "id": "love-actually",
+      "name": "Love Actually",
+      "subtitle": "2003",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Love+Actually"
+    },
+    {
+      "id": "national-lampoons-christmas-vacation",
+      "name": "National Lampoon's Christmas Vacation",
+      "subtitle": "1989",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=National+Lampoon's+Christmas+Vacation"
+    },
+    {
+      "id": "the-polar-express",
+      "name": "The Polar Express",
+      "subtitle": "2004",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Polar+Express"
+    },
+    {
+      "id": "how-the-grinch-stole-christmas",
+      "name": "How the Grinch Stole Christmas",
+      "subtitle": "2000",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=How+the+Grinch+Stole+Christmas"
+    },
+    {
+      "id": "a-charlie-brown-christmas",
+      "name": "A Charlie Brown Christmas",
+      "subtitle": "1965",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=A+Charlie+Brown+Christmas"
+    },
+    {
+      "id": "rudolph-the-red-nosed-reindeer",
+      "name": "Rudolph the Red-Nosed Reindeer",
+      "subtitle": "1964",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Rudolph+the+Red-Nosed+Reindeer"
+    },
+    {
+      "id": "the-santa-clause",
+      "name": "The Santa Clause",
+      "subtitle": "1994",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Santa+Clause"
+    },
+    {
+      "id": "miracle-on-34th-street",
+      "name": "Miracle on 34th Street",
+      "subtitle": "1947",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Miracle+on+34th+Street"
+    },
+    {
+      "id": "white-christmas",
+      "name": "White Christmas",
+      "subtitle": "1954",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=White+Christmas"
+    },
+    {
+      "id": "scrooged",
+      "name": "Scrooged",
+      "subtitle": "1988",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Scrooged"
+    },
+    {
+      "id": "the-muppet-christmas-carol",
+      "name": "The Muppet Christmas Carol",
+      "subtitle": "1992",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Muppet+Christmas+Carol"
+    },
+    {
+      "id": "jingle-all-the-way",
+      "name": "Jingle All the Way",
+      "subtitle": "1996",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Jingle+All+the+Way"
+    },
+    {
+      "id": "bad-santa",
+      "name": "Bad Santa",
+      "subtitle": "2003",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Bad+Santa"
+    },
+    {
+      "id": "the-holiday",
+      "name": "The Holiday",
+      "subtitle": "2006",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Holiday"
+    },
+    {
+      "id": "klaus",
+      "name": "Klaus",
+      "subtitle": "2019",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Klaus"
+    },
+    {
+      "id": "a-christmas-carol-2009",
+      "name": "A Christmas Carol",
+      "subtitle": "2009",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=A+Christmas+Carol"
+    },
+    {
+      "id": "home-alone-2",
+      "name": "Home Alone 2: Lost in New York",
+      "subtitle": "1992",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Home+Alone+2%3A+Lost+in+New+York"
+    },
+    {
+      "id": "gremlins",
+      "name": "Gremlins",
+      "subtitle": "1984",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Gremlins"
+    }
   ]
 }

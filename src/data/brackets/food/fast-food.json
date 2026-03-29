@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "mcdonalds", "name": "McDonald's", "subtitle": "Burgers & Fries" },
-    { "id": "chick-fil-a", "name": "Chick-fil-A", "subtitle": "Chicken Sandwiches" },
-    { "id": "in-n-out", "name": "In-N-Out Burger", "subtitle": "Burgers" },
-    { "id": "wendys", "name": "Wendy's", "subtitle": "Burgers & Frosties" },
-    { "id": "taco-bell", "name": "Taco Bell", "subtitle": "Mexican-Inspired" },
-    { "id": "chipotle", "name": "Chipotle", "subtitle": "Burritos & Bowls" },
-    { "id": "five-guys", "name": "Five Guys", "subtitle": "Burgers & Fries" },
-    { "id": "popeyes", "name": "Popeyes", "subtitle": "Fried Chicken" },
-    { "id": "burger-king", "name": "Burger King", "subtitle": "Burgers" },
-    { "id": "raising-canes", "name": "Raising Cane's", "subtitle": "Chicken Fingers" },
-    { "id": "whataburger", "name": "Whataburger", "subtitle": "Burgers" },
-    { "id": "subway", "name": "Subway", "subtitle": "Subs & Sandwiches" },
-    { "id": "panda-express", "name": "Panda Express", "subtitle": "Chinese-American" },
-    { "id": "kfc", "name": "KFC", "subtitle": "Fried Chicken" },
-    { "id": "shake-shack", "name": "Shake Shack", "subtitle": "Burgers & Shakes" },
-    { "id": "sonic", "name": "Sonic Drive-In", "subtitle": "Burgers & Drinks" }
+    {
+      "id": "mcdonalds",
+      "name": "McDonald's",
+      "subtitle": "Burgers & Fries",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=McDonald's"
+    },
+    {
+      "id": "chick-fil-a",
+      "name": "Chick-fil-A",
+      "subtitle": "Chicken Sandwiches",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chick-fil-A"
+    },
+    {
+      "id": "in-n-out",
+      "name": "In-N-Out Burger",
+      "subtitle": "Burgers",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=In-N-Out+Burger"
+    },
+    {
+      "id": "wendys",
+      "name": "Wendy's",
+      "subtitle": "Burgers & Frosties",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Wendy's"
+    },
+    {
+      "id": "taco-bell",
+      "name": "Taco Bell",
+      "subtitle": "Mexican-Inspired",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Taco+Bell"
+    },
+    {
+      "id": "chipotle",
+      "name": "Chipotle",
+      "subtitle": "Burritos & Bowls",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chipotle"
+    },
+    {
+      "id": "five-guys",
+      "name": "Five Guys",
+      "subtitle": "Burgers & Fries",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Five+Guys"
+    },
+    {
+      "id": "popeyes",
+      "name": "Popeyes",
+      "subtitle": "Fried Chicken",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Popeyes"
+    },
+    {
+      "id": "burger-king",
+      "name": "Burger King",
+      "subtitle": "Burgers",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Burger+King"
+    },
+    {
+      "id": "raising-canes",
+      "name": "Raising Cane's",
+      "subtitle": "Chicken Fingers",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Raising+Cane's"
+    },
+    {
+      "id": "whataburger",
+      "name": "Whataburger",
+      "subtitle": "Burgers",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Whataburger"
+    },
+    {
+      "id": "subway",
+      "name": "Subway",
+      "subtitle": "Subs & Sandwiches",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Subway"
+    },
+    {
+      "id": "panda-express",
+      "name": "Panda Express",
+      "subtitle": "Chinese-American",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Panda+Express"
+    },
+    {
+      "id": "kfc",
+      "name": "KFC",
+      "subtitle": "Fried Chicken",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=KFC"
+    },
+    {
+      "id": "shake-shack",
+      "name": "Shake Shack",
+      "subtitle": "Burgers & Shakes",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Shake+Shack"
+    },
+    {
+      "id": "sonic",
+      "name": "Sonic Drive-In",
+      "subtitle": "Burgers & Drinks",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Sonic+Drive-In"
+    }
   ]
 }

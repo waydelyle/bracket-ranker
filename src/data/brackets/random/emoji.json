@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "face-tears-of-joy", "name": "\uD83D\uDE02", "subtitle": "Face with Tears of Joy" },
-    { "id": "red-heart", "name": "\u2764\uFE0F", "subtitle": "Red Heart" },
-    { "id": "fire", "name": "\uD83D\uDD25", "subtitle": "Fire" },
-    { "id": "skull", "name": "\uD83D\uDC80", "subtitle": "Skull" },
-    { "id": "thumbs-up", "name": "\uD83D\uDC4D", "subtitle": "Thumbs Up" },
-    { "id": "crying-face", "name": "\uD83D\uDE2D", "subtitle": "Loudly Crying Face" },
-    { "id": "sparkles", "name": "\u2728", "subtitle": "Sparkles" },
-    { "id": "heart-eyes", "name": "\uD83D\uDE0D", "subtitle": "Smiling Face with Heart-Eyes" },
-    { "id": "clapping", "name": "\uD83D\uDC4F", "subtitle": "Clapping Hands" },
-    { "id": "thinking", "name": "\uD83E\uDD14", "subtitle": "Thinking Face" },
-    { "id": "sunglasses", "name": "\uD83D\uDE0E", "subtitle": "Smiling Face with Sunglasses" },
-    { "id": "100", "name": "\uD83D\uDCAF", "subtitle": "Hundred Points" },
-    { "id": "pray", "name": "\uD83D\uDE4F", "subtitle": "Folded Hands" },
-    { "id": "rocket", "name": "\uD83D\uDE80", "subtitle": "Rocket" },
-    { "id": "eyes", "name": "\uD83D\uDC40", "subtitle": "Eyes" },
-    { "id": "party", "name": "\uD83C\uDF89", "subtitle": "Party Popper" },
-    { "id": "wave", "name": "\uD83D\uDC4B", "subtitle": "Waving Hand" },
-    { "id": "star-struck", "name": "\uD83E\uDD29", "subtitle": "Star-Struck" },
-    { "id": "rolling-eyes", "name": "\uD83D\uDE44", "subtitle": "Face with Rolling Eyes" },
-    { "id": "pleading-face", "name": "\uD83E\uDD7A", "subtitle": "Pleading Face" },
-    { "id": "laughing", "name": "\uD83E\uDD23", "subtitle": "Rolling on the Floor Laughing" },
-    { "id": "nail-polish", "name": "\uD83D\uDC85", "subtitle": "Nail Polish" },
-    { "id": "shrug", "name": "\uD83E\uDD37", "subtitle": "Person Shrugging" },
-    { "id": "muscle", "name": "\uD83D\uDCAA", "subtitle": "Flexed Biceps" },
-    { "id": "sob", "name": "\uD83D\uDE29", "subtitle": "Weary Face" },
-    { "id": "crown", "name": "\uD83D\uDC51", "subtitle": "Crown" },
-    { "id": "peach", "name": "\uD83C\uDF51", "subtitle": "Peach" },
-    { "id": "ghost", "name": "\uD83D\uDC7B", "subtitle": "Ghost" },
-    { "id": "alien", "name": "\uD83D\uDC7D", "subtitle": "Alien" },
-    { "id": "rainbow", "name": "\uD83C\uDF08", "subtitle": "Rainbow" },
-    { "id": "pizza-emoji", "name": "\uD83C\uDF55", "subtitle": "Pizza" },
-    { "id": "clown", "name": "\uD83E\uDD21", "subtitle": "Clown Face" }
+    {
+      "id": "face-tears-of-joy",
+      "name": "😂",
+      "subtitle": "Face with Tears of Joy",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%98%82"
+    },
+    {
+      "id": "red-heart",
+      "name": "❤️",
+      "subtitle": "Red Heart",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%E2%9D%A4%EF%B8%8F"
+    },
+    {
+      "id": "fire",
+      "name": "🔥",
+      "subtitle": "Fire",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%94%A5"
+    },
+    {
+      "id": "skull",
+      "name": "💀",
+      "subtitle": "Skull",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%92%80"
+    },
+    {
+      "id": "thumbs-up",
+      "name": "👍",
+      "subtitle": "Thumbs Up",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%91%8D"
+    },
+    {
+      "id": "crying-face",
+      "name": "😭",
+      "subtitle": "Loudly Crying Face",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%98%AD"
+    },
+    {
+      "id": "sparkles",
+      "name": "✨",
+      "subtitle": "Sparkles",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%E2%9C%A8"
+    },
+    {
+      "id": "heart-eyes",
+      "name": "😍",
+      "subtitle": "Smiling Face with Heart-Eyes",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%98%8D"
+    },
+    {
+      "id": "clapping",
+      "name": "👏",
+      "subtitle": "Clapping Hands",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%91%8F"
+    },
+    {
+      "id": "thinking",
+      "name": "🤔",
+      "subtitle": "Thinking Face",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%A4%94"
+    },
+    {
+      "id": "sunglasses",
+      "name": "😎",
+      "subtitle": "Smiling Face with Sunglasses",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%98%8E"
+    },
+    {
+      "id": "100",
+      "name": "💯",
+      "subtitle": "Hundred Points",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%92%AF"
+    },
+    {
+      "id": "pray",
+      "name": "🙏",
+      "subtitle": "Folded Hands",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%99%8F"
+    },
+    {
+      "id": "rocket",
+      "name": "🚀",
+      "subtitle": "Rocket",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%9A%80"
+    },
+    {
+      "id": "eyes",
+      "name": "👀",
+      "subtitle": "Eyes",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%91%80"
+    },
+    {
+      "id": "party",
+      "name": "🎉",
+      "subtitle": "Party Popper",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%8E%89"
+    },
+    {
+      "id": "wave",
+      "name": "👋",
+      "subtitle": "Waving Hand",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%91%8B"
+    },
+    {
+      "id": "star-struck",
+      "name": "🤩",
+      "subtitle": "Star-Struck",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%A4%A9"
+    },
+    {
+      "id": "rolling-eyes",
+      "name": "🙄",
+      "subtitle": "Face with Rolling Eyes",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%99%84"
+    },
+    {
+      "id": "pleading-face",
+      "name": "🥺",
+      "subtitle": "Pleading Face",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%A5%BA"
+    },
+    {
+      "id": "laughing",
+      "name": "🤣",
+      "subtitle": "Rolling on the Floor Laughing",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%A4%A3"
+    },
+    {
+      "id": "nail-polish",
+      "name": "💅",
+      "subtitle": "Nail Polish",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%92%85"
+    },
+    {
+      "id": "shrug",
+      "name": "🤷",
+      "subtitle": "Person Shrugging",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%A4%B7"
+    },
+    {
+      "id": "muscle",
+      "name": "💪",
+      "subtitle": "Flexed Biceps",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%92%AA"
+    },
+    {
+      "id": "sob",
+      "name": "😩",
+      "subtitle": "Weary Face",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%98%A9"
+    },
+    {
+      "id": "crown",
+      "name": "👑",
+      "subtitle": "Crown",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%91%91"
+    },
+    {
+      "id": "peach",
+      "name": "🍑",
+      "subtitle": "Peach",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%8D%91"
+    },
+    {
+      "id": "ghost",
+      "name": "👻",
+      "subtitle": "Ghost",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%91%BB"
+    },
+    {
+      "id": "alien",
+      "name": "👽",
+      "subtitle": "Alien",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%91%BD"
+    },
+    {
+      "id": "rainbow",
+      "name": "🌈",
+      "subtitle": "Rainbow",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%8C%88"
+    },
+    {
+      "id": "pizza-emoji",
+      "name": "🍕",
+      "subtitle": "Pizza",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%8D%95"
+    },
+    {
+      "id": "clown",
+      "name": "🤡",
+      "subtitle": "Clown Face",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%A4%A1"
+    }
   ]
 }

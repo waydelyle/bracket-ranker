@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "dark-side-of-the-moon", "name": "The Dark Side of the Moon", "subtitle": "Pink Floyd - 1973" },
-    { "id": "abbey-road", "name": "Abbey Road", "subtitle": "The Beatles - 1969" },
-    { "id": "nevermind", "name": "Nevermind", "subtitle": "Nirvana - 1991" },
-    { "id": "sgt-peppers", "name": "Sgt. Pepper's Lonely Hearts Club Band", "subtitle": "The Beatles - 1967" },
-    { "id": "the-velvet-underground", "name": "The Velvet Underground & Nico", "subtitle": "The Velvet Underground - 1967" },
-    { "id": "unknown-pleasures", "name": "Unknown Pleasures", "subtitle": "Joy Division - 1979" },
-    { "id": "thriller", "name": "Thriller", "subtitle": "Michael Jackson - 1982" },
-    { "id": "london-calling", "name": "London Calling", "subtitle": "The Clash - 1979" },
-    { "id": "wish-you-were-here-album", "name": "Wish You Were Here", "subtitle": "Pink Floyd - 1975" },
-    { "id": "ok-computer", "name": "OK Computer", "subtitle": "Radiohead - 1997" },
-    { "id": "kid-a", "name": "Kid A", "subtitle": "Radiohead - 2000" },
-    { "id": "born-in-the-usa", "name": "Born in the U.S.A.", "subtitle": "Bruce Springsteen - 1984" },
-    { "id": "rumours", "name": "Rumours", "subtitle": "Fleetwood Mac - 1977" },
-    { "id": "appetite-for-destruction", "name": "Appetite for Destruction", "subtitle": "Guns N' Roses - 1987" },
-    { "id": "led-zeppelin-iv", "name": "Led Zeppelin IV", "subtitle": "Led Zeppelin - 1971" },
-    { "id": "the-rise-and-fall-ziggy-stardust", "name": "The Rise and Fall of Ziggy Stardust", "subtitle": "David Bowie - 1972" },
-    { "id": "is-this-it", "name": "Is This It", "subtitle": "The Strokes - 2001" },
-    { "id": "mbdtf-cover", "name": "My Beautiful Dark Twisted Fantasy", "subtitle": "Kanye West - 2010" },
-    { "id": "in-utero", "name": "In Utero", "subtitle": "Nirvana - 1993" },
-    { "id": "igor-cover", "name": "IGOR", "subtitle": "Tyler, the Creator - 2019" },
-    { "id": "sticky-fingers", "name": "Sticky Fingers", "subtitle": "The Rolling Stones - 1971" },
-    { "id": "the-wall", "name": "The Wall", "subtitle": "Pink Floyd - 1979" },
-    { "id": "channel-orange", "name": "Channel Orange", "subtitle": "Frank Ocean - 2012" },
-    { "id": "blonde", "name": "Blonde", "subtitle": "Frank Ocean - 2016" },
-    { "id": "random-access-memories", "name": "Random Access Memories", "subtitle": "Daft Punk - 2013" },
-    { "id": "purple-rain", "name": "Purple Rain", "subtitle": "Prince - 1984" },
-    { "id": "back-in-black-album", "name": "Back in Black", "subtitle": "AC/DC - 1980" },
-    { "id": "the-miseducation-cover", "name": "The Miseducation of Lauryn Hill", "subtitle": "Lauryn Hill - 1998" },
-    { "id": "AM", "name": "AM", "subtitle": "Arctic Monkeys - 2013" },
-    { "id": "good-kid-cover", "name": "good kid, m.A.A.d city", "subtitle": "Kendrick Lamar - 2012" },
-    { "id": "lemonade", "name": "Lemonade", "subtitle": "Beyonce - 2016" },
-    { "id": "when-we-all-fall-asleep", "name": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?", "subtitle": "Billie Eilish - 2019" }
+    {
+      "id": "dark-side-of-the-moon",
+      "name": "The Dark Side of the Moon",
+      "subtitle": "Pink Floyd - 1973",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Dark+Side+of+the+Moon"
+    },
+    {
+      "id": "abbey-road",
+      "name": "Abbey Road",
+      "subtitle": "The Beatles - 1969",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Abbey+Road"
+    },
+    {
+      "id": "nevermind",
+      "name": "Nevermind",
+      "subtitle": "Nirvana - 1991",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Nevermind"
+    },
+    {
+      "id": "sgt-peppers",
+      "name": "Sgt. Pepper's Lonely Hearts Club Band",
+      "subtitle": "The Beatles - 1967",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sgt.+Pepper's+Lonely+Hearts+Club+Band"
+    },
+    {
+      "id": "the-velvet-underground",
+      "name": "The Velvet Underground & Nico",
+      "subtitle": "The Velvet Underground - 1967",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Velvet+Underground+%26+Nico"
+    },
+    {
+      "id": "unknown-pleasures",
+      "name": "Unknown Pleasures",
+      "subtitle": "Joy Division - 1979",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Unknown+Pleasures"
+    },
+    {
+      "id": "thriller",
+      "name": "Thriller",
+      "subtitle": "Michael Jackson - 1982",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Thriller"
+    },
+    {
+      "id": "london-calling",
+      "name": "London Calling",
+      "subtitle": "The Clash - 1979",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=London+Calling"
+    },
+    {
+      "id": "wish-you-were-here-album",
+      "name": "Wish You Were Here",
+      "subtitle": "Pink Floyd - 1975",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Wish+You+Were+Here"
+    },
+    {
+      "id": "ok-computer",
+      "name": "OK Computer",
+      "subtitle": "Radiohead - 1997",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=OK+Computer"
+    },
+    {
+      "id": "kid-a",
+      "name": "Kid A",
+      "subtitle": "Radiohead - 2000",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kid+A"
+    },
+    {
+      "id": "born-in-the-usa",
+      "name": "Born in the U.S.A.",
+      "subtitle": "Bruce Springsteen - 1984",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Born+in+the+U.S.A."
+    },
+    {
+      "id": "rumours",
+      "name": "Rumours",
+      "subtitle": "Fleetwood Mac - 1977",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Rumours"
+    },
+    {
+      "id": "appetite-for-destruction",
+      "name": "Appetite for Destruction",
+      "subtitle": "Guns N' Roses - 1987",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Appetite+for+Destruction"
+    },
+    {
+      "id": "led-zeppelin-iv",
+      "name": "Led Zeppelin IV",
+      "subtitle": "Led Zeppelin - 1971",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Led+Zeppelin+IV"
+    },
+    {
+      "id": "the-rise-and-fall-ziggy-stardust",
+      "name": "The Rise and Fall of Ziggy Stardust",
+      "subtitle": "David Bowie - 1972",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Rise+and+Fall+of+Ziggy+Stardust"
+    },
+    {
+      "id": "is-this-it",
+      "name": "Is This It",
+      "subtitle": "The Strokes - 2001",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Is+This+It"
+    },
+    {
+      "id": "mbdtf-cover",
+      "name": "My Beautiful Dark Twisted Fantasy",
+      "subtitle": "Kanye West - 2010",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=My+Beautiful+Dark+Twisted+Fantasy"
+    },
+    {
+      "id": "in-utero",
+      "name": "In Utero",
+      "subtitle": "Nirvana - 1993",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=In+Utero"
+    },
+    {
+      "id": "igor-cover",
+      "name": "IGOR",
+      "subtitle": "Tyler, the Creator - 2019",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=IGOR"
+    },
+    {
+      "id": "sticky-fingers",
+      "name": "Sticky Fingers",
+      "subtitle": "The Rolling Stones - 1971",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sticky+Fingers"
+    },
+    {
+      "id": "the-wall",
+      "name": "The Wall",
+      "subtitle": "Pink Floyd - 1979",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Wall"
+    },
+    {
+      "id": "channel-orange",
+      "name": "Channel Orange",
+      "subtitle": "Frank Ocean - 2012",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Channel+Orange"
+    },
+    {
+      "id": "blonde",
+      "name": "Blonde",
+      "subtitle": "Frank Ocean - 2016",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Blonde"
+    },
+    {
+      "id": "random-access-memories",
+      "name": "Random Access Memories",
+      "subtitle": "Daft Punk - 2013",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Random+Access+Memories"
+    },
+    {
+      "id": "purple-rain",
+      "name": "Purple Rain",
+      "subtitle": "Prince - 1984",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Purple+Rain"
+    },
+    {
+      "id": "back-in-black-album",
+      "name": "Back in Black",
+      "subtitle": "AC/DC - 1980",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Back+in+Black"
+    },
+    {
+      "id": "the-miseducation-cover",
+      "name": "The Miseducation of Lauryn Hill",
+      "subtitle": "Lauryn Hill - 1998",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Miseducation+of+Lauryn+Hill"
+    },
+    {
+      "id": "AM",
+      "name": "AM",
+      "subtitle": "Arctic Monkeys - 2013",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=AM"
+    },
+    {
+      "id": "good-kid-cover",
+      "name": "good kid, m.A.A.d city",
+      "subtitle": "Kendrick Lamar - 2012",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=good+kid%2C+m.A.A.d+city"
+    },
+    {
+      "id": "lemonade",
+      "name": "Lemonade",
+      "subtitle": "Beyonce - 2016",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Lemonade"
+    },
+    {
+      "id": "when-we-all-fall-asleep",
+      "name": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+      "subtitle": "Billie Eilish - 2019",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=WHEN+WE+ALL+FALL+ASLEEP%2C+WHERE+DO+WE+GO%3F"
+    }
   ]
 }

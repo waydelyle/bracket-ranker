@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "coca-cola", "name": "Coca-Cola", "subtitle": "The original" },
-    { "id": "pepsi", "name": "Pepsi", "subtitle": "The choice of a new generation" },
-    { "id": "dr-pepper", "name": "Dr Pepper", "subtitle": "23 flavors" },
-    { "id": "sprite", "name": "Sprite", "subtitle": "Lemon-lime" },
-    { "id": "mountain-dew", "name": "Mountain Dew", "subtitle": "Do the Dew" },
-    { "id": "root-beer", "name": "A&W Root Beer", "subtitle": "Creamy classic" },
-    { "id": "ginger-ale", "name": "Ginger Ale", "subtitle": "Canada Dry or Schweppes" },
-    { "id": "fanta-orange", "name": "Fanta Orange", "subtitle": "Fruity & bubbly" },
-    { "id": "7up", "name": "7UP", "subtitle": "Lemon-lime" },
-    { "id": "cream-soda", "name": "Cream Soda", "subtitle": "Vanilla sweetness" },
-    { "id": "orange-crush", "name": "Crush", "subtitle": "Orange soda" },
-    { "id": "cherry-coke", "name": "Cherry Coke", "subtitle": "Cherry-flavored cola" },
-    { "id": "sunkist", "name": "Sunkist", "subtitle": "Orange soda" },
-    { "id": "diet-coke", "name": "Diet Coke", "subtitle": "Zero calorie cola" },
-    { "id": "mello-yello", "name": "Mello Yello", "subtitle": "Citrus soda" },
-    { "id": "birch-beer", "name": "Birch Beer", "subtitle": "Regional favorite" }
+    {
+      "id": "coca-cola",
+      "name": "Coca-Cola",
+      "subtitle": "The original",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Coca-Cola"
+    },
+    {
+      "id": "pepsi",
+      "name": "Pepsi",
+      "subtitle": "The choice of a new generation",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pepsi"
+    },
+    {
+      "id": "dr-pepper",
+      "name": "Dr Pepper",
+      "subtitle": "23 flavors",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Dr+Pepper"
+    },
+    {
+      "id": "sprite",
+      "name": "Sprite",
+      "subtitle": "Lemon-lime",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Sprite"
+    },
+    {
+      "id": "mountain-dew",
+      "name": "Mountain Dew",
+      "subtitle": "Do the Dew",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mountain+Dew"
+    },
+    {
+      "id": "root-beer",
+      "name": "A&W Root Beer",
+      "subtitle": "Creamy classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=A%26W+Root+Beer"
+    },
+    {
+      "id": "ginger-ale",
+      "name": "Ginger Ale",
+      "subtitle": "Canada Dry or Schweppes",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ginger+Ale"
+    },
+    {
+      "id": "fanta-orange",
+      "name": "Fanta Orange",
+      "subtitle": "Fruity & bubbly",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Fanta+Orange"
+    },
+    {
+      "id": "7up",
+      "name": "7UP",
+      "subtitle": "Lemon-lime",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=7UP"
+    },
+    {
+      "id": "cream-soda",
+      "name": "Cream Soda",
+      "subtitle": "Vanilla sweetness",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cream+Soda"
+    },
+    {
+      "id": "orange-crush",
+      "name": "Crush",
+      "subtitle": "Orange soda",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Crush"
+    },
+    {
+      "id": "cherry-coke",
+      "name": "Cherry Coke",
+      "subtitle": "Cherry-flavored cola",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cherry+Coke"
+    },
+    {
+      "id": "sunkist",
+      "name": "Sunkist",
+      "subtitle": "Orange soda",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Sunkist"
+    },
+    {
+      "id": "diet-coke",
+      "name": "Diet Coke",
+      "subtitle": "Zero calorie cola",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Diet+Coke"
+    },
+    {
+      "id": "mello-yello",
+      "name": "Mello Yello",
+      "subtitle": "Citrus soda",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mello+Yello"
+    },
+    {
+      "id": "birch-beer",
+      "name": "Birch Beer",
+      "subtitle": "Regional favorite",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Birch+Beer"
+    }
   ]
 }

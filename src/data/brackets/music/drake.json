@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "hotline-bling", "name": "Hotline Bling", "subtitle": "Views" },
-    { "id": "gods-plan", "name": "God's Plan", "subtitle": "Scorpion" },
-    { "id": "one-dance", "name": "One Dance", "subtitle": "Views" },
-    { "id": "started-from-the-bottom", "name": "Started From the Bottom", "subtitle": "Nothing Was the Same" },
-    { "id": "passionfruit", "name": "Passionfruit", "subtitle": "More Life" },
-    { "id": "hold-on-were-going-home", "name": "Hold On, We're Going Home", "subtitle": "Nothing Was the Same" },
-    { "id": "in-my-feelings", "name": "In My Feelings", "subtitle": "Scorpion" },
-    { "id": "nice-for-what", "name": "Nice for What", "subtitle": "Scorpion" },
-    { "id": "take-care", "name": "Take Care (feat. Rihanna)", "subtitle": "Take Care" },
-    { "id": "marvins-room", "name": "Marvins Room", "subtitle": "Take Care" },
-    { "id": "best-i-ever-had", "name": "Best I Ever Had", "subtitle": "So Far Gone" },
-    { "id": "crew-love", "name": "Crew Love (feat. The Weeknd)", "subtitle": "Take Care" },
-    { "id": "headlines", "name": "Headlines", "subtitle": "Take Care" },
-    { "id": "nonstop", "name": "Nonstop", "subtitle": "Scorpion" },
-    { "id": "laugh-now-cry-later", "name": "Laugh Now Cry Later", "subtitle": "Single" },
-    { "id": "toosie-slide", "name": "Toosie Slide", "subtitle": "Single" },
-    { "id": "tuscan-leather", "name": "Tuscan Leather", "subtitle": "Nothing Was the Same" },
-    { "id": "0-to-100", "name": "0 to 100 / The Catch Up", "subtitle": "Single" },
-    { "id": "energy", "name": "Energy", "subtitle": "If You're Reading This It's Too Late" },
-    { "id": "know-yourself", "name": "Know Yourself", "subtitle": "If You're Reading This It's Too Late" },
-    { "id": "pound-cake", "name": "Pound Cake / Paris Morton Music 2", "subtitle": "Nothing Was the Same" },
-    { "id": "from-time", "name": "From Time (feat. Jhene Aiko)", "subtitle": "Nothing Was the Same" },
-    { "id": "controlla", "name": "Controlla", "subtitle": "Views" },
-    { "id": "legend", "name": "Legend", "subtitle": "If You're Reading This It's Too Late" },
-    { "id": "too-good", "name": "Too Good (feat. Rihanna)", "subtitle": "Views" },
-    { "id": "chicago-freestyle", "name": "Chicago Freestyle", "subtitle": "Dark Lane Demo Tapes" },
-    { "id": "feel-no-ways", "name": "Feel No Ways", "subtitle": "Views" },
-    { "id": "fake-love", "name": "Fake Love", "subtitle": "More Life" },
-    { "id": "the-motto", "name": "The Motto (feat. Lil Wayne)", "subtitle": "Take Care" },
-    { "id": "money-in-the-grave", "name": "Money in the Grave", "subtitle": "Single" },
-    { "id": "over", "name": "Over", "subtitle": "Thank Me Later" },
-    { "id": "richflex", "name": "Rich Flex", "subtitle": "Her Loss" }
+    {
+      "id": "hotline-bling",
+      "name": "Hotline Bling",
+      "subtitle": "Views",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Hotline+Bling"
+    },
+    {
+      "id": "gods-plan",
+      "name": "God's Plan",
+      "subtitle": "Scorpion",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=God's+Plan"
+    },
+    {
+      "id": "one-dance",
+      "name": "One Dance",
+      "subtitle": "Views",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=One+Dance"
+    },
+    {
+      "id": "started-from-the-bottom",
+      "name": "Started From the Bottom",
+      "subtitle": "Nothing Was the Same",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Started+From+the+Bottom"
+    },
+    {
+      "id": "passionfruit",
+      "name": "Passionfruit",
+      "subtitle": "More Life",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Passionfruit"
+    },
+    {
+      "id": "hold-on-were-going-home",
+      "name": "Hold On, We're Going Home",
+      "subtitle": "Nothing Was the Same",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Hold+On%2C+We're+Going+Home"
+    },
+    {
+      "id": "in-my-feelings",
+      "name": "In My Feelings",
+      "subtitle": "Scorpion",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=In+My+Feelings"
+    },
+    {
+      "id": "nice-for-what",
+      "name": "Nice for What",
+      "subtitle": "Scorpion",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Nice+for+What"
+    },
+    {
+      "id": "take-care",
+      "name": "Take Care (feat. Rihanna)",
+      "subtitle": "Take Care",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Take+Care+(feat.+Rihanna)"
+    },
+    {
+      "id": "marvins-room",
+      "name": "Marvins Room",
+      "subtitle": "Take Care",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Marvins+Room"
+    },
+    {
+      "id": "best-i-ever-had",
+      "name": "Best I Ever Had",
+      "subtitle": "So Far Gone",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Best+I+Ever+Had"
+    },
+    {
+      "id": "crew-love",
+      "name": "Crew Love (feat. The Weeknd)",
+      "subtitle": "Take Care",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Crew+Love+(feat.+The+Weeknd)"
+    },
+    {
+      "id": "headlines",
+      "name": "Headlines",
+      "subtitle": "Take Care",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Headlines"
+    },
+    {
+      "id": "nonstop",
+      "name": "Nonstop",
+      "subtitle": "Scorpion",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Nonstop"
+    },
+    {
+      "id": "laugh-now-cry-later",
+      "name": "Laugh Now Cry Later",
+      "subtitle": "Single",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Laugh+Now+Cry+Later"
+    },
+    {
+      "id": "toosie-slide",
+      "name": "Toosie Slide",
+      "subtitle": "Single",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Toosie+Slide"
+    },
+    {
+      "id": "tuscan-leather",
+      "name": "Tuscan Leather",
+      "subtitle": "Nothing Was the Same",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Tuscan+Leather"
+    },
+    {
+      "id": "0-to-100",
+      "name": "0 to 100 / The Catch Up",
+      "subtitle": "Single",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=0+to+100+%2F+The+Catch+Up"
+    },
+    {
+      "id": "energy",
+      "name": "Energy",
+      "subtitle": "If You're Reading This It's Too Late",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Energy"
+    },
+    {
+      "id": "know-yourself",
+      "name": "Know Yourself",
+      "subtitle": "If You're Reading This It's Too Late",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Know+Yourself"
+    },
+    {
+      "id": "pound-cake",
+      "name": "Pound Cake / Paris Morton Music 2",
+      "subtitle": "Nothing Was the Same",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Pound+Cake+%2F+Paris+Morton+Music+2"
+    },
+    {
+      "id": "from-time",
+      "name": "From Time (feat. Jhene Aiko)",
+      "subtitle": "Nothing Was the Same",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=From+Time+(feat.+Jhene+Aiko)"
+    },
+    {
+      "id": "controlla",
+      "name": "Controlla",
+      "subtitle": "Views",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Controlla"
+    },
+    {
+      "id": "legend",
+      "name": "Legend",
+      "subtitle": "If You're Reading This It's Too Late",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Legend"
+    },
+    {
+      "id": "too-good",
+      "name": "Too Good (feat. Rihanna)",
+      "subtitle": "Views",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Too+Good+(feat.+Rihanna)"
+    },
+    {
+      "id": "chicago-freestyle",
+      "name": "Chicago Freestyle",
+      "subtitle": "Dark Lane Demo Tapes",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Chicago+Freestyle"
+    },
+    {
+      "id": "feel-no-ways",
+      "name": "Feel No Ways",
+      "subtitle": "Views",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Feel+No+Ways"
+    },
+    {
+      "id": "fake-love",
+      "name": "Fake Love",
+      "subtitle": "More Life",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Fake+Love"
+    },
+    {
+      "id": "the-motto",
+      "name": "The Motto (feat. Lil Wayne)",
+      "subtitle": "Take Care",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Motto+(feat.+Lil+Wayne)"
+    },
+    {
+      "id": "money-in-the-grave",
+      "name": "Money in the Grave",
+      "subtitle": "Single",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Money+in+the+Grave"
+    },
+    {
+      "id": "over",
+      "name": "Over",
+      "subtitle": "Thank Me Later",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Over"
+    },
+    {
+      "id": "richflex",
+      "name": "Rich Flex",
+      "subtitle": "Her Loss",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Rich+Flex"
+    }
   ]
 }

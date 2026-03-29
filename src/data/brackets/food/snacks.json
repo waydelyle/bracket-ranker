@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "doritos", "name": "Doritos", "subtitle": "Tortilla chips" },
-    { "id": "cheez-its", "name": "Cheez-Its", "subtitle": "Cheese crackers" },
-    { "id": "goldfish", "name": "Goldfish", "subtitle": "The snack that smiles back" },
-    { "id": "lays-classic", "name": "Lay's Classic", "subtitle": "Potato chips" },
-    { "id": "oreos", "name": "Oreos", "subtitle": "Sandwich cookies" },
-    { "id": "hot-cheetos", "name": "Flamin' Hot Cheetos", "subtitle": "Spicy cheese puffs" },
-    { "id": "pretzels", "name": "Pretzels", "subtitle": "Salted & twisted" },
-    { "id": "cheetos-puffs", "name": "Cheetos Puffs", "subtitle": "Cheese puffs" },
-    { "id": "pringles", "name": "Pringles", "subtitle": "Stackable crisps" },
-    { "id": "ritz-crackers", "name": "Ritz Crackers", "subtitle": "Buttery crackers" },
-    { "id": "trail-mix", "name": "Trail Mix", "subtitle": "Nuts & dried fruit" },
-    { "id": "takis", "name": "Takis", "subtitle": "Rolled tortilla chips" },
-    { "id": "popcorn", "name": "Popcorn", "subtitle": "Buttered classic" },
-    { "id": "chex-mix", "name": "Chex Mix", "subtitle": "Snack mix" },
-    { "id": "cheese-puffs", "name": "Pirate's Booty", "subtitle": "White cheddar puffs" },
-    { "id": "sour-cream-onion", "name": "Lay's Sour Cream & Onion", "subtitle": "Flavored chips" },
-    { "id": "sun-chips", "name": "SunChips", "subtitle": "Multigrain chips" },
-    { "id": "chips-ahoy", "name": "Chips Ahoy!", "subtitle": "Chocolate chip cookies" },
-    { "id": "pop-tarts", "name": "Pop-Tarts", "subtitle": "Toaster pastries" },
-    { "id": "fruit-snacks", "name": "Fruit Snacks", "subtitle": "Gummy fruit shapes" },
-    { "id": "wheat-thins", "name": "Wheat Thins", "subtitle": "Wheat crackers" },
-    { "id": "cheese-nips", "name": "Better Cheddars", "subtitle": "Cheese crackers" },
-    { "id": "animal-crackers", "name": "Animal Crackers", "subtitle": "Sweet crackers" },
-    { "id": "funyuns", "name": "Funyuns", "subtitle": "Onion ring snacks" },
-    { "id": "bugles", "name": "Bugles", "subtitle": "Corn snacks" },
-    { "id": "combos", "name": "Combos", "subtitle": "Filled pretzel snacks" },
-    { "id": "granola-bars", "name": "Granola Bars", "subtitle": "Nature Valley style" },
-    { "id": "rice-krispies-treats", "name": "Rice Krispies Treats", "subtitle": "Marshmallow cereal bars" },
-    { "id": "fig-newtons", "name": "Fig Newtons", "subtitle": "Fig-filled cookies" },
-    { "id": "nutter-butters", "name": "Nutter Butters", "subtitle": "Peanut butter cookies" },
-    { "id": "string-cheese", "name": "String Cheese", "subtitle": "Pull-apart mozzarella" },
-    { "id": "beef-jerky", "name": "Beef Jerky", "subtitle": "Dried meat snack" }
+    {
+      "id": "doritos",
+      "name": "Doritos",
+      "subtitle": "Tortilla chips",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Doritos"
+    },
+    {
+      "id": "cheez-its",
+      "name": "Cheez-Its",
+      "subtitle": "Cheese crackers",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cheez-Its"
+    },
+    {
+      "id": "goldfish",
+      "name": "Goldfish",
+      "subtitle": "The snack that smiles back",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Goldfish"
+    },
+    {
+      "id": "lays-classic",
+      "name": "Lay's Classic",
+      "subtitle": "Potato chips",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Lay's+Classic"
+    },
+    {
+      "id": "oreos",
+      "name": "Oreos",
+      "subtitle": "Sandwich cookies",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Oreos"
+    },
+    {
+      "id": "hot-cheetos",
+      "name": "Flamin' Hot Cheetos",
+      "subtitle": "Spicy cheese puffs",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Flamin'+Hot+Cheetos"
+    },
+    {
+      "id": "pretzels",
+      "name": "Pretzels",
+      "subtitle": "Salted & twisted",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pretzels"
+    },
+    {
+      "id": "cheetos-puffs",
+      "name": "Cheetos Puffs",
+      "subtitle": "Cheese puffs",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cheetos+Puffs"
+    },
+    {
+      "id": "pringles",
+      "name": "Pringles",
+      "subtitle": "Stackable crisps",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pringles"
+    },
+    {
+      "id": "ritz-crackers",
+      "name": "Ritz Crackers",
+      "subtitle": "Buttery crackers",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ritz+Crackers"
+    },
+    {
+      "id": "trail-mix",
+      "name": "Trail Mix",
+      "subtitle": "Nuts & dried fruit",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Trail+Mix"
+    },
+    {
+      "id": "takis",
+      "name": "Takis",
+      "subtitle": "Rolled tortilla chips",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Takis"
+    },
+    {
+      "id": "popcorn",
+      "name": "Popcorn",
+      "subtitle": "Buttered classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Popcorn"
+    },
+    {
+      "id": "chex-mix",
+      "name": "Chex Mix",
+      "subtitle": "Snack mix",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chex+Mix"
+    },
+    {
+      "id": "cheese-puffs",
+      "name": "Pirate's Booty",
+      "subtitle": "White cheddar puffs",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pirate's+Booty"
+    },
+    {
+      "id": "sour-cream-onion",
+      "name": "Lay's Sour Cream & Onion",
+      "subtitle": "Flavored chips",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Lay's+Sour+Cream+%26+Onion"
+    },
+    {
+      "id": "sun-chips",
+      "name": "SunChips",
+      "subtitle": "Multigrain chips",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=SunChips"
+    },
+    {
+      "id": "chips-ahoy",
+      "name": "Chips Ahoy!",
+      "subtitle": "Chocolate chip cookies",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chips+Ahoy!"
+    },
+    {
+      "id": "pop-tarts",
+      "name": "Pop-Tarts",
+      "subtitle": "Toaster pastries",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pop-Tarts"
+    },
+    {
+      "id": "fruit-snacks",
+      "name": "Fruit Snacks",
+      "subtitle": "Gummy fruit shapes",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Fruit+Snacks"
+    },
+    {
+      "id": "wheat-thins",
+      "name": "Wheat Thins",
+      "subtitle": "Wheat crackers",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Wheat+Thins"
+    },
+    {
+      "id": "cheese-nips",
+      "name": "Better Cheddars",
+      "subtitle": "Cheese crackers",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Better+Cheddars"
+    },
+    {
+      "id": "animal-crackers",
+      "name": "Animal Crackers",
+      "subtitle": "Sweet crackers",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Animal+Crackers"
+    },
+    {
+      "id": "funyuns",
+      "name": "Funyuns",
+      "subtitle": "Onion ring snacks",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Funyuns"
+    },
+    {
+      "id": "bugles",
+      "name": "Bugles",
+      "subtitle": "Corn snacks",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Bugles"
+    },
+    {
+      "id": "combos",
+      "name": "Combos",
+      "subtitle": "Filled pretzel snacks",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Combos"
+    },
+    {
+      "id": "granola-bars",
+      "name": "Granola Bars",
+      "subtitle": "Nature Valley style",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Granola+Bars"
+    },
+    {
+      "id": "rice-krispies-treats",
+      "name": "Rice Krispies Treats",
+      "subtitle": "Marshmallow cereal bars",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Rice+Krispies+Treats"
+    },
+    {
+      "id": "fig-newtons",
+      "name": "Fig Newtons",
+      "subtitle": "Fig-filled cookies",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Fig+Newtons"
+    },
+    {
+      "id": "nutter-butters",
+      "name": "Nutter Butters",
+      "subtitle": "Peanut butter cookies",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Nutter+Butters"
+    },
+    {
+      "id": "string-cheese",
+      "name": "String Cheese",
+      "subtitle": "Pull-apart mozzarella",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=String+Cheese"
+    },
+    {
+      "id": "beef-jerky",
+      "name": "Beef Jerky",
+      "subtitle": "Dried meat snack",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Beef+Jerky"
+    }
   ]
 }

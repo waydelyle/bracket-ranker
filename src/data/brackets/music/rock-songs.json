@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "stairway-to-heaven", "name": "Stairway to Heaven", "subtitle": "Led Zeppelin" },
-    { "id": "bohemian-rhapsody", "name": "Bohemian Rhapsody", "subtitle": "Queen" },
-    { "id": "hotel-california", "name": "Hotel California", "subtitle": "Eagles" },
-    { "id": "smells-like-teen-spirit", "name": "Smells Like Teen Spirit", "subtitle": "Nirvana" },
-    { "id": "sweet-child-o-mine", "name": "Sweet Child O' Mine", "subtitle": "Guns N' Roses" },
-    { "id": "comfortably-numb", "name": "Comfortably Numb", "subtitle": "Pink Floyd" },
-    { "id": "november-rain", "name": "November Rain", "subtitle": "Guns N' Roses" },
-    { "id": "back-in-black", "name": "Back in Black", "subtitle": "AC/DC" },
-    { "id": "dream-on", "name": "Dream On", "subtitle": "Aerosmith" },
-    { "id": "free-bird", "name": "Free Bird", "subtitle": "Lynyrd Skynyrd" },
-    { "id": "thunderstruck", "name": "Thunderstruck", "subtitle": "AC/DC" },
-    { "id": "enter-sandman", "name": "Enter Sandman", "subtitle": "Metallica" },
-    { "id": "paint-it-black", "name": "Paint It Black", "subtitle": "The Rolling Stones" },
-    { "id": "satisfaction", "name": "(I Can't Get No) Satisfaction", "subtitle": "The Rolling Stones" },
-    { "id": "born-to-run", "name": "Born to Run", "subtitle": "Bruce Springsteen" },
-    { "id": "layla", "name": "Layla", "subtitle": "Derek and the Dominos" },
-    { "id": "whole-lotta-love", "name": "Whole Lotta Love", "subtitle": "Led Zeppelin" },
-    { "id": "dont-stop-believin", "name": "Don't Stop Believin'", "subtitle": "Journey" },
-    { "id": "purple-haze", "name": "Purple Haze", "subtitle": "Jimi Hendrix" },
-    { "id": "livin-on-a-prayer", "name": "Livin' on a Prayer", "subtitle": "Bon Jovi" },
-    { "id": "under-pressure", "name": "Under Pressure", "subtitle": "Queen & David Bowie" },
-    { "id": "kashmir", "name": "Kashmir", "subtitle": "Led Zeppelin" },
-    { "id": "creep", "name": "Creep", "subtitle": "Radiohead" },
-    { "id": "black-dog", "name": "Black Dog", "subtitle": "Led Zeppelin" },
-    { "id": "welcome-to-the-jungle", "name": "Welcome to the Jungle", "subtitle": "Guns N' Roses" },
-    { "id": "crazy-train", "name": "Crazy Train", "subtitle": "Ozzy Osbourne" },
-    { "id": "baba-oriley", "name": "Baba O'Riley", "subtitle": "The Who" },
-    { "id": "sympathy-for-the-devil", "name": "Sympathy for the Devil", "subtitle": "The Rolling Stones" },
-    { "id": "wish-you-were-here", "name": "Wish You Were Here", "subtitle": "Pink Floyd" },
-    { "id": "paranoid", "name": "Paranoid", "subtitle": "Black Sabbath" },
-    { "id": "more-than-a-feeling", "name": "More Than a Feeling", "subtitle": "Boston" },
-    { "id": "carry-on-wayward-son", "name": "Carry On Wayward Son", "subtitle": "Kansas" }
+    {
+      "id": "stairway-to-heaven",
+      "name": "Stairway to Heaven",
+      "subtitle": "Led Zeppelin",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Stairway+to+Heaven"
+    },
+    {
+      "id": "bohemian-rhapsody",
+      "name": "Bohemian Rhapsody",
+      "subtitle": "Queen",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bohemian+Rhapsody"
+    },
+    {
+      "id": "hotel-california",
+      "name": "Hotel California",
+      "subtitle": "Eagles",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Hotel+California"
+    },
+    {
+      "id": "smells-like-teen-spirit",
+      "name": "Smells Like Teen Spirit",
+      "subtitle": "Nirvana",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Smells+Like+Teen+Spirit"
+    },
+    {
+      "id": "sweet-child-o-mine",
+      "name": "Sweet Child O' Mine",
+      "subtitle": "Guns N' Roses",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sweet+Child+O'+Mine"
+    },
+    {
+      "id": "comfortably-numb",
+      "name": "Comfortably Numb",
+      "subtitle": "Pink Floyd",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Comfortably+Numb"
+    },
+    {
+      "id": "november-rain",
+      "name": "November Rain",
+      "subtitle": "Guns N' Roses",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=November+Rain"
+    },
+    {
+      "id": "back-in-black",
+      "name": "Back in Black",
+      "subtitle": "AC/DC",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Back+in+Black"
+    },
+    {
+      "id": "dream-on",
+      "name": "Dream On",
+      "subtitle": "Aerosmith",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Dream+On"
+    },
+    {
+      "id": "free-bird",
+      "name": "Free Bird",
+      "subtitle": "Lynyrd Skynyrd",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Free+Bird"
+    },
+    {
+      "id": "thunderstruck",
+      "name": "Thunderstruck",
+      "subtitle": "AC/DC",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Thunderstruck"
+    },
+    {
+      "id": "enter-sandman",
+      "name": "Enter Sandman",
+      "subtitle": "Metallica",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Enter+Sandman"
+    },
+    {
+      "id": "paint-it-black",
+      "name": "Paint It Black",
+      "subtitle": "The Rolling Stones",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Paint+It+Black"
+    },
+    {
+      "id": "satisfaction",
+      "name": "(I Can't Get No) Satisfaction",
+      "subtitle": "The Rolling Stones",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=(I+Can't+Get+No)+Satisfaction"
+    },
+    {
+      "id": "born-to-run",
+      "name": "Born to Run",
+      "subtitle": "Bruce Springsteen",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Born+to+Run"
+    },
+    {
+      "id": "layla",
+      "name": "Layla",
+      "subtitle": "Derek and the Dominos",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Layla"
+    },
+    {
+      "id": "whole-lotta-love",
+      "name": "Whole Lotta Love",
+      "subtitle": "Led Zeppelin",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Whole+Lotta+Love"
+    },
+    {
+      "id": "dont-stop-believin",
+      "name": "Don't Stop Believin'",
+      "subtitle": "Journey",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Don't+Stop+Believin'"
+    },
+    {
+      "id": "purple-haze",
+      "name": "Purple Haze",
+      "subtitle": "Jimi Hendrix",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Purple+Haze"
+    },
+    {
+      "id": "livin-on-a-prayer",
+      "name": "Livin' on a Prayer",
+      "subtitle": "Bon Jovi",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Livin'+on+a+Prayer"
+    },
+    {
+      "id": "under-pressure",
+      "name": "Under Pressure",
+      "subtitle": "Queen & David Bowie",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Under+Pressure"
+    },
+    {
+      "id": "kashmir",
+      "name": "Kashmir",
+      "subtitle": "Led Zeppelin",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kashmir"
+    },
+    {
+      "id": "creep",
+      "name": "Creep",
+      "subtitle": "Radiohead",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Creep"
+    },
+    {
+      "id": "black-dog",
+      "name": "Black Dog",
+      "subtitle": "Led Zeppelin",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Black+Dog"
+    },
+    {
+      "id": "welcome-to-the-jungle",
+      "name": "Welcome to the Jungle",
+      "subtitle": "Guns N' Roses",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Welcome+to+the+Jungle"
+    },
+    {
+      "id": "crazy-train",
+      "name": "Crazy Train",
+      "subtitle": "Ozzy Osbourne",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Crazy+Train"
+    },
+    {
+      "id": "baba-oriley",
+      "name": "Baba O'Riley",
+      "subtitle": "The Who",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Baba+O'Riley"
+    },
+    {
+      "id": "sympathy-for-the-devil",
+      "name": "Sympathy for the Devil",
+      "subtitle": "The Rolling Stones",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sympathy+for+the+Devil"
+    },
+    {
+      "id": "wish-you-were-here",
+      "name": "Wish You Were Here",
+      "subtitle": "Pink Floyd",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Wish+You+Were+Here"
+    },
+    {
+      "id": "paranoid",
+      "name": "Paranoid",
+      "subtitle": "Black Sabbath",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Paranoid"
+    },
+    {
+      "id": "more-than-a-feeling",
+      "name": "More Than a Feeling",
+      "subtitle": "Boston",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=More+Than+a+Feeling"
+    },
+    {
+      "id": "carry-on-wayward-son",
+      "name": "Carry On Wayward Son",
+      "subtitle": "Kansas",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Carry+On+Wayward+Son"
+    }
   ]
 }

@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "blinding-lights", "name": "Blinding Lights", "subtitle": "The Weeknd" },
-    { "id": "as-it-was", "name": "As It Was", "subtitle": "Harry Styles" },
-    { "id": "levitating", "name": "Levitating", "subtitle": "Dua Lipa" },
-    { "id": "drivers-license", "name": "drivers license", "subtitle": "Olivia Rodrigo" },
-    { "id": "stay", "name": "Stay", "subtitle": "The Kid LAROI & Justin Bieber" },
-    { "id": "good-4-u", "name": "good 4 u", "subtitle": "Olivia Rodrigo" },
-    { "id": "peaches", "name": "Peaches", "subtitle": "Justin Bieber" },
-    { "id": "montero", "name": "MONTERO (Call Me By Your Name)", "subtitle": "Lil Nas X" },
-    { "id": "heat-waves", "name": "Heat Waves", "subtitle": "Glass Animals" },
-    { "id": "save-your-tears", "name": "Save Your Tears", "subtitle": "The Weeknd" },
-    { "id": "watermelon-sugar", "name": "Watermelon Sugar", "subtitle": "Harry Styles" },
-    { "id": "bad-habit", "name": "Bad Habit", "subtitle": "Steve Lacy" },
-    { "id": "about-damn-time", "name": "About Damn Time", "subtitle": "Lizzo" },
-    { "id": "anti-hero-hit", "name": "Anti-Hero", "subtitle": "Taylor Swift" },
-    { "id": "flowers", "name": "Flowers", "subtitle": "Miley Cyrus" },
-    { "id": "kill-bill", "name": "Kill Bill", "subtitle": "SZA" },
-    { "id": "vampire", "name": "vampire", "subtitle": "Olivia Rodrigo" },
-    { "id": "cruel-summer-hit", "name": "Cruel Summer", "subtitle": "Taylor Swift" },
-    { "id": "paint-the-town-red", "name": "Paint the Town Red", "subtitle": "Doja Cat" },
-    { "id": "last-night", "name": "Last Night", "subtitle": "Morgan Wallen" },
-    { "id": "unholy", "name": "Unholy", "subtitle": "Sam Smith & Kim Petras" },
-    { "id": "dynamite", "name": "Dynamite", "subtitle": "BTS" },
-    { "id": "butter", "name": "Butter", "subtitle": "BTS" },
-    { "id": "kiss-me-more", "name": "Kiss Me More", "subtitle": "Doja Cat ft. SZA" },
-    { "id": "deja-vu", "name": "deja vu", "subtitle": "Olivia Rodrigo" },
-    { "id": "industry-baby", "name": "INDUSTRY BABY", "subtitle": "Lil Nas X & Jack Harlow" },
-    { "id": "espresso", "name": "Espresso", "subtitle": "Sabrina Carpenter" },
-    { "id": "please-please-please", "name": "Please Please Please", "subtitle": "Sabrina Carpenter" },
-    { "id": "apt", "name": "APT.", "subtitle": "Rose & Bruno Mars" },
-    { "id": "not-like-us", "name": "Not Like Us", "subtitle": "Kendrick Lamar" },
-    { "id": "greedy", "name": "Greedy", "subtitle": "Tate McRae" },
-    { "id": "birds-of-a-feather", "name": "BIRDS OF A FEATHER", "subtitle": "Billie Eilish" }
+    {
+      "id": "blinding-lights",
+      "name": "Blinding Lights",
+      "subtitle": "The Weeknd",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Blinding+Lights"
+    },
+    {
+      "id": "as-it-was",
+      "name": "As It Was",
+      "subtitle": "Harry Styles",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=As+It+Was"
+    },
+    {
+      "id": "levitating",
+      "name": "Levitating",
+      "subtitle": "Dua Lipa",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Levitating"
+    },
+    {
+      "id": "drivers-license",
+      "name": "drivers license",
+      "subtitle": "Olivia Rodrigo",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=drivers+license"
+    },
+    {
+      "id": "stay",
+      "name": "Stay",
+      "subtitle": "The Kid LAROI & Justin Bieber",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Stay"
+    },
+    {
+      "id": "good-4-u",
+      "name": "good 4 u",
+      "subtitle": "Olivia Rodrigo",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=good+4+u"
+    },
+    {
+      "id": "peaches",
+      "name": "Peaches",
+      "subtitle": "Justin Bieber",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Peaches"
+    },
+    {
+      "id": "montero",
+      "name": "MONTERO (Call Me By Your Name)",
+      "subtitle": "Lil Nas X",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=MONTERO+(Call+Me+By+Your+Name)"
+    },
+    {
+      "id": "heat-waves",
+      "name": "Heat Waves",
+      "subtitle": "Glass Animals",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Heat+Waves"
+    },
+    {
+      "id": "save-your-tears",
+      "name": "Save Your Tears",
+      "subtitle": "The Weeknd",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Save+Your+Tears"
+    },
+    {
+      "id": "watermelon-sugar",
+      "name": "Watermelon Sugar",
+      "subtitle": "Harry Styles",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Watermelon+Sugar"
+    },
+    {
+      "id": "bad-habit",
+      "name": "Bad Habit",
+      "subtitle": "Steve Lacy",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bad+Habit"
+    },
+    {
+      "id": "about-damn-time",
+      "name": "About Damn Time",
+      "subtitle": "Lizzo",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=About+Damn+Time"
+    },
+    {
+      "id": "anti-hero-hit",
+      "name": "Anti-Hero",
+      "subtitle": "Taylor Swift",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Anti-Hero"
+    },
+    {
+      "id": "flowers",
+      "name": "Flowers",
+      "subtitle": "Miley Cyrus",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Flowers"
+    },
+    {
+      "id": "kill-bill",
+      "name": "Kill Bill",
+      "subtitle": "SZA",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kill+Bill"
+    },
+    {
+      "id": "vampire",
+      "name": "vampire",
+      "subtitle": "Olivia Rodrigo",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=vampire"
+    },
+    {
+      "id": "cruel-summer-hit",
+      "name": "Cruel Summer",
+      "subtitle": "Taylor Swift",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Cruel+Summer"
+    },
+    {
+      "id": "paint-the-town-red",
+      "name": "Paint the Town Red",
+      "subtitle": "Doja Cat",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Paint+the+Town+Red"
+    },
+    {
+      "id": "last-night",
+      "name": "Last Night",
+      "subtitle": "Morgan Wallen",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Last+Night"
+    },
+    {
+      "id": "unholy",
+      "name": "Unholy",
+      "subtitle": "Sam Smith & Kim Petras",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Unholy"
+    },
+    {
+      "id": "dynamite",
+      "name": "Dynamite",
+      "subtitle": "BTS",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Dynamite"
+    },
+    {
+      "id": "butter",
+      "name": "Butter",
+      "subtitle": "BTS",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Butter"
+    },
+    {
+      "id": "kiss-me-more",
+      "name": "Kiss Me More",
+      "subtitle": "Doja Cat ft. SZA",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kiss+Me+More"
+    },
+    {
+      "id": "deja-vu",
+      "name": "deja vu",
+      "subtitle": "Olivia Rodrigo",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=deja+vu"
+    },
+    {
+      "id": "industry-baby",
+      "name": "INDUSTRY BABY",
+      "subtitle": "Lil Nas X & Jack Harlow",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=INDUSTRY+BABY"
+    },
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "subtitle": "Sabrina Carpenter",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Espresso"
+    },
+    {
+      "id": "please-please-please",
+      "name": "Please Please Please",
+      "subtitle": "Sabrina Carpenter",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Please+Please+Please"
+    },
+    {
+      "id": "apt",
+      "name": "APT.",
+      "subtitle": "Rose & Bruno Mars",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=APT."
+    },
+    {
+      "id": "not-like-us",
+      "name": "Not Like Us",
+      "subtitle": "Kendrick Lamar",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Not+Like+Us"
+    },
+    {
+      "id": "greedy",
+      "name": "Greedy",
+      "subtitle": "Tate McRae",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Greedy"
+    },
+    {
+      "id": "birds-of-a-feather",
+      "name": "BIRDS OF A FEATHER",
+      "subtitle": "Billie Eilish",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=BIRDS+OF+A+FEATHER"
+    }
   ]
 }

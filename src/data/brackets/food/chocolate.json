@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "reeses-choc", "name": "Reese's", "subtitle": "Peanut butter cups" },
-    { "id": "lindt", "name": "Lindt", "subtitle": "Swiss chocolate" },
-    { "id": "godiva", "name": "Godiva", "subtitle": "Belgian luxury" },
-    { "id": "ghirardelli", "name": "Ghirardelli", "subtitle": "San Francisco chocolate" },
-    { "id": "toblerone", "name": "Toblerone", "subtitle": "Swiss triangles" },
-    { "id": "cadbury", "name": "Cadbury", "subtitle": "British milk chocolate" },
-    { "id": "hersheys", "name": "Hershey's", "subtitle": "American classic" },
-    { "id": "milka", "name": "Milka", "subtitle": "Alpine milk chocolate" },
-    { "id": "ferrero-rocher", "name": "Ferrero Rocher", "subtitle": "Golden wrapped hazelnut" },
-    { "id": "nutella", "name": "Nutella", "subtitle": "Hazelnut spread" },
-    { "id": "kit-kat-choc", "name": "Kit Kat", "subtitle": "Break me off a piece" },
-    { "id": "snickers-choc", "name": "Snickers", "subtitle": "Satisfies" },
-    { "id": "twix-choc", "name": "Twix", "subtitle": "Left or right?" },
-    { "id": "dark-chocolate", "name": "Dark Chocolate (Generic)", "subtitle": "70%+ cocoa" },
-    { "id": "white-chocolate", "name": "White Chocolate", "subtitle": "Cocoa butter based" },
-    { "id": "m-and-ms-choc", "name": "M&M's", "subtitle": "Melts in your mouth" }
+    {
+      "id": "reeses-choc",
+      "name": "Reese's",
+      "subtitle": "Peanut butter cups",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Reese's"
+    },
+    {
+      "id": "lindt",
+      "name": "Lindt",
+      "subtitle": "Swiss chocolate",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Lindt"
+    },
+    {
+      "id": "godiva",
+      "name": "Godiva",
+      "subtitle": "Belgian luxury",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Godiva"
+    },
+    {
+      "id": "ghirardelli",
+      "name": "Ghirardelli",
+      "subtitle": "San Francisco chocolate",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ghirardelli"
+    },
+    {
+      "id": "toblerone",
+      "name": "Toblerone",
+      "subtitle": "Swiss triangles",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Toblerone"
+    },
+    {
+      "id": "cadbury",
+      "name": "Cadbury",
+      "subtitle": "British milk chocolate",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cadbury"
+    },
+    {
+      "id": "hersheys",
+      "name": "Hershey's",
+      "subtitle": "American classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Hershey's"
+    },
+    {
+      "id": "milka",
+      "name": "Milka",
+      "subtitle": "Alpine milk chocolate",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Milka"
+    },
+    {
+      "id": "ferrero-rocher",
+      "name": "Ferrero Rocher",
+      "subtitle": "Golden wrapped hazelnut",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ferrero+Rocher"
+    },
+    {
+      "id": "nutella",
+      "name": "Nutella",
+      "subtitle": "Hazelnut spread",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Nutella"
+    },
+    {
+      "id": "kit-kat-choc",
+      "name": "Kit Kat",
+      "subtitle": "Break me off a piece",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Kit+Kat"
+    },
+    {
+      "id": "snickers-choc",
+      "name": "Snickers",
+      "subtitle": "Satisfies",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Snickers"
+    },
+    {
+      "id": "twix-choc",
+      "name": "Twix",
+      "subtitle": "Left or right?",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Twix"
+    },
+    {
+      "id": "dark-chocolate",
+      "name": "Dark Chocolate (Generic)",
+      "subtitle": "70%+ cocoa",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Dark+Chocolate+(Generic)"
+    },
+    {
+      "id": "white-chocolate",
+      "name": "White Chocolate",
+      "subtitle": "Cocoa butter based",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=White+Chocolate"
+    },
+    {
+      "id": "m-and-ms-choc",
+      "name": "M&M's",
+      "subtitle": "Melts in your mouth",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=M%26M's"
+    }
   ]
 }

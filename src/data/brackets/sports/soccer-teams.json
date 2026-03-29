@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "real-madrid", "name": "Real Madrid", "subtitle": "La Liga - Spain" },
-    { "id": "barcelona", "name": "FC Barcelona", "subtitle": "La Liga - Spain" },
-    { "id": "manchester-united", "name": "Manchester United", "subtitle": "Premier League - England" },
-    { "id": "liverpool", "name": "Liverpool", "subtitle": "Premier League - England" },
-    { "id": "bayern-munich", "name": "Bayern Munich", "subtitle": "Bundesliga - Germany" },
-    { "id": "manchester-city", "name": "Manchester City", "subtitle": "Premier League - England" },
-    { "id": "arsenal", "name": "Arsenal", "subtitle": "Premier League - England" },
-    { "id": "chelsea", "name": "Chelsea", "subtitle": "Premier League - England" },
-    { "id": "psg", "name": "Paris Saint-Germain", "subtitle": "Ligue 1 - France" },
-    { "id": "juventus", "name": "Juventus", "subtitle": "Serie A - Italy" },
-    { "id": "ac-milan", "name": "AC Milan", "subtitle": "Serie A - Italy" },
-    { "id": "inter-milan", "name": "Inter Milan", "subtitle": "Serie A - Italy" },
-    { "id": "tottenham", "name": "Tottenham Hotspur", "subtitle": "Premier League - England" },
-    { "id": "borussia-dortmund", "name": "Borussia Dortmund", "subtitle": "Bundesliga - Germany" },
-    { "id": "atletico-madrid", "name": "Atletico Madrid", "subtitle": "La Liga - Spain" },
-    { "id": "ajax", "name": "Ajax", "subtitle": "Eredivisie - Netherlands" },
-    { "id": "benfica", "name": "Benfica", "subtitle": "Primeira Liga - Portugal" },
-    { "id": "napoli", "name": "Napoli", "subtitle": "Serie A - Italy" },
-    { "id": "roma", "name": "AS Roma", "subtitle": "Serie A - Italy" },
-    { "id": "porto", "name": "FC Porto", "subtitle": "Primeira Liga - Portugal" },
-    { "id": "newcastle", "name": "Newcastle United", "subtitle": "Premier League - England" },
-    { "id": "aston-villa", "name": "Aston Villa", "subtitle": "Premier League - England" },
-    { "id": "west-ham", "name": "West Ham United", "subtitle": "Premier League - England" },
-    { "id": "celtic", "name": "Celtic", "subtitle": "Scottish Premiership" },
-    { "id": "river-plate", "name": "River Plate", "subtitle": "Argentina" },
-    { "id": "boca-juniors", "name": "Boca Juniors", "subtitle": "Argentina" },
-    { "id": "flamengo", "name": "Flamengo", "subtitle": "Brazil" },
-    { "id": "santos", "name": "Santos", "subtitle": "Brazil" },
-    { "id": "galatasaray", "name": "Galatasaray", "subtitle": "Turkey" },
-    { "id": "sporting-cp", "name": "Sporting CP", "subtitle": "Portugal" },
-    { "id": "rb-leipzig", "name": "RB Leipzig", "subtitle": "Bundesliga - Germany" },
-    { "id": "everton", "name": "Everton", "subtitle": "Premier League - England" }
+    {
+      "id": "real-madrid",
+      "name": "Real Madrid",
+      "subtitle": "La Liga - Spain",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Real+Madrid"
+    },
+    {
+      "id": "barcelona",
+      "name": "FC Barcelona",
+      "subtitle": "La Liga - Spain",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=FC+Barcelona"
+    },
+    {
+      "id": "manchester-united",
+      "name": "Manchester United",
+      "subtitle": "Premier League - England",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Manchester+United"
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "subtitle": "Premier League - England",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Liverpool"
+    },
+    {
+      "id": "bayern-munich",
+      "name": "Bayern Munich",
+      "subtitle": "Bundesliga - Germany",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Bayern+Munich"
+    },
+    {
+      "id": "manchester-city",
+      "name": "Manchester City",
+      "subtitle": "Premier League - England",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Manchester+City"
+    },
+    {
+      "id": "arsenal",
+      "name": "Arsenal",
+      "subtitle": "Premier League - England",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Arsenal"
+    },
+    {
+      "id": "chelsea",
+      "name": "Chelsea",
+      "subtitle": "Premier League - England",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Chelsea"
+    },
+    {
+      "id": "psg",
+      "name": "Paris Saint-Germain",
+      "subtitle": "Ligue 1 - France",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Paris+Saint-Germain"
+    },
+    {
+      "id": "juventus",
+      "name": "Juventus",
+      "subtitle": "Serie A - Italy",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Juventus"
+    },
+    {
+      "id": "ac-milan",
+      "name": "AC Milan",
+      "subtitle": "Serie A - Italy",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=AC+Milan"
+    },
+    {
+      "id": "inter-milan",
+      "name": "Inter Milan",
+      "subtitle": "Serie A - Italy",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Inter+Milan"
+    },
+    {
+      "id": "tottenham",
+      "name": "Tottenham Hotspur",
+      "subtitle": "Premier League - England",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tottenham+Hotspur"
+    },
+    {
+      "id": "borussia-dortmund",
+      "name": "Borussia Dortmund",
+      "subtitle": "Bundesliga - Germany",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Borussia+Dortmund"
+    },
+    {
+      "id": "atletico-madrid",
+      "name": "Atletico Madrid",
+      "subtitle": "La Liga - Spain",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Atletico+Madrid"
+    },
+    {
+      "id": "ajax",
+      "name": "Ajax",
+      "subtitle": "Eredivisie - Netherlands",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Ajax"
+    },
+    {
+      "id": "benfica",
+      "name": "Benfica",
+      "subtitle": "Primeira Liga - Portugal",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Benfica"
+    },
+    {
+      "id": "napoli",
+      "name": "Napoli",
+      "subtitle": "Serie A - Italy",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Napoli"
+    },
+    {
+      "id": "roma",
+      "name": "AS Roma",
+      "subtitle": "Serie A - Italy",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=AS+Roma"
+    },
+    {
+      "id": "porto",
+      "name": "FC Porto",
+      "subtitle": "Primeira Liga - Portugal",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=FC+Porto"
+    },
+    {
+      "id": "newcastle",
+      "name": "Newcastle United",
+      "subtitle": "Premier League - England",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Newcastle+United"
+    },
+    {
+      "id": "aston-villa",
+      "name": "Aston Villa",
+      "subtitle": "Premier League - England",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Aston+Villa"
+    },
+    {
+      "id": "west-ham",
+      "name": "West Ham United",
+      "subtitle": "Premier League - England",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=West+Ham+United"
+    },
+    {
+      "id": "celtic",
+      "name": "Celtic",
+      "subtitle": "Scottish Premiership",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Celtic"
+    },
+    {
+      "id": "river-plate",
+      "name": "River Plate",
+      "subtitle": "Argentina",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=River+Plate"
+    },
+    {
+      "id": "boca-juniors",
+      "name": "Boca Juniors",
+      "subtitle": "Argentina",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Boca+Juniors"
+    },
+    {
+      "id": "flamengo",
+      "name": "Flamengo",
+      "subtitle": "Brazil",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Flamengo"
+    },
+    {
+      "id": "santos",
+      "name": "Santos",
+      "subtitle": "Brazil",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Santos"
+    },
+    {
+      "id": "galatasaray",
+      "name": "Galatasaray",
+      "subtitle": "Turkey",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Galatasaray"
+    },
+    {
+      "id": "sporting-cp",
+      "name": "Sporting CP",
+      "subtitle": "Portugal",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Sporting+CP"
+    },
+    {
+      "id": "rb-leipzig",
+      "name": "RB Leipzig",
+      "subtitle": "Bundesliga - Germany",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=RB+Leipzig"
+    },
+    {
+      "id": "everton",
+      "name": "Everton",
+      "subtitle": "Premier League - England",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Everton"
+    }
   ]
 }

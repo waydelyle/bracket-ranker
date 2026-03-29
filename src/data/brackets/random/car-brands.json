@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "tesla", "name": "Tesla", "subtitle": "Electric vehicles" },
-    { "id": "bmw", "name": "BMW", "subtitle": "German luxury" },
-    { "id": "mercedes", "name": "Mercedes-Benz", "subtitle": "German luxury" },
-    { "id": "toyota", "name": "Toyota", "subtitle": "Japanese reliability" },
-    { "id": "porsche", "name": "Porsche", "subtitle": "German sports cars" },
-    { "id": "ferrari", "name": "Ferrari", "subtitle": "Italian supercars" },
-    { "id": "lamborghini", "name": "Lamborghini", "subtitle": "Italian supercars" },
-    { "id": "ford", "name": "Ford", "subtitle": "American classic" },
-    { "id": "honda", "name": "Honda", "subtitle": "Japanese reliability" },
-    { "id": "audi", "name": "Audi", "subtitle": "German engineering" },
-    { "id": "chevrolet", "name": "Chevrolet", "subtitle": "American muscle" },
-    { "id": "jeep", "name": "Jeep", "subtitle": "Off-road pioneer" },
-    { "id": "subaru", "name": "Subaru", "subtitle": "All-wheel drive" },
-    { "id": "mazda", "name": "Mazda", "subtitle": "Japanese style" },
-    { "id": "hyundai", "name": "Hyundai", "subtitle": "Korean value" },
-    { "id": "lexus", "name": "Lexus", "subtitle": "Japanese luxury" }
+    {
+      "id": "tesla",
+      "name": "Tesla",
+      "subtitle": "Electric vehicles",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Tesla"
+    },
+    {
+      "id": "bmw",
+      "name": "BMW",
+      "subtitle": "German luxury",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=BMW"
+    },
+    {
+      "id": "mercedes",
+      "name": "Mercedes-Benz",
+      "subtitle": "German luxury",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mercedes-Benz"
+    },
+    {
+      "id": "toyota",
+      "name": "Toyota",
+      "subtitle": "Japanese reliability",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Toyota"
+    },
+    {
+      "id": "porsche",
+      "name": "Porsche",
+      "subtitle": "German sports cars",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Porsche"
+    },
+    {
+      "id": "ferrari",
+      "name": "Ferrari",
+      "subtitle": "Italian supercars",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Ferrari"
+    },
+    {
+      "id": "lamborghini",
+      "name": "Lamborghini",
+      "subtitle": "Italian supercars",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Lamborghini"
+    },
+    {
+      "id": "ford",
+      "name": "Ford",
+      "subtitle": "American classic",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Ford"
+    },
+    {
+      "id": "honda",
+      "name": "Honda",
+      "subtitle": "Japanese reliability",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Honda"
+    },
+    {
+      "id": "audi",
+      "name": "Audi",
+      "subtitle": "German engineering",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Audi"
+    },
+    {
+      "id": "chevrolet",
+      "name": "Chevrolet",
+      "subtitle": "American muscle",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Chevrolet"
+    },
+    {
+      "id": "jeep",
+      "name": "Jeep",
+      "subtitle": "Off-road pioneer",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Jeep"
+    },
+    {
+      "id": "subaru",
+      "name": "Subaru",
+      "subtitle": "All-wheel drive",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Subaru"
+    },
+    {
+      "id": "mazda",
+      "name": "Mazda",
+      "subtitle": "Japanese style",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mazda"
+    },
+    {
+      "id": "hyundai",
+      "name": "Hyundai",
+      "subtitle": "Korean value",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Hyundai"
+    },
+    {
+      "id": "lexus",
+      "name": "Lexus",
+      "subtitle": "Japanese luxury",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Lexus"
+    }
   ]
 }

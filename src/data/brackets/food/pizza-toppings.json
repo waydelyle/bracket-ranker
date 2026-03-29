@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "pepperoni", "name": "Pepperoni", "subtitle": "Classic meat topping" },
-    { "id": "mushrooms", "name": "Mushrooms", "subtitle": "Sliced or diced" },
-    { "id": "sausage", "name": "Italian Sausage", "subtitle": "Crumbled or sliced" },
-    { "id": "extra-cheese", "name": "Extra Cheese", "subtitle": "More mozzarella" },
-    { "id": "green-peppers", "name": "Green Peppers", "subtitle": "Bell peppers" },
-    { "id": "onions", "name": "Onions", "subtitle": "Red or white" },
-    { "id": "black-olives", "name": "Black Olives", "subtitle": "Sliced" },
-    { "id": "bacon", "name": "Bacon", "subtitle": "Crispy pieces" },
-    { "id": "pineapple", "name": "Pineapple", "subtitle": "The controversial one" },
-    { "id": "ham", "name": "Ham", "subtitle": "Diced or sliced" },
-    { "id": "jalapenos", "name": "Jalapenos", "subtitle": "Spicy kick" },
-    { "id": "spinach", "name": "Spinach", "subtitle": "Fresh or cooked" },
-    { "id": "fresh-basil", "name": "Fresh Basil", "subtitle": "Classic Italian" },
-    { "id": "buffalo-chicken", "name": "Buffalo Chicken", "subtitle": "Spicy chicken" },
-    { "id": "bbq-chicken", "name": "BBQ Chicken", "subtitle": "Sweet & smoky" },
-    { "id": "anchovies", "name": "Anchovies", "subtitle": "Love 'em or hate 'em" }
+    {
+      "id": "pepperoni",
+      "name": "Pepperoni",
+      "subtitle": "Classic meat topping",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pepperoni"
+    },
+    {
+      "id": "mushrooms",
+      "name": "Mushrooms",
+      "subtitle": "Sliced or diced",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mushrooms"
+    },
+    {
+      "id": "sausage",
+      "name": "Italian Sausage",
+      "subtitle": "Crumbled or sliced",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Italian+Sausage"
+    },
+    {
+      "id": "extra-cheese",
+      "name": "Extra Cheese",
+      "subtitle": "More mozzarella",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Extra+Cheese"
+    },
+    {
+      "id": "green-peppers",
+      "name": "Green Peppers",
+      "subtitle": "Bell peppers",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Green+Peppers"
+    },
+    {
+      "id": "onions",
+      "name": "Onions",
+      "subtitle": "Red or white",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Onions"
+    },
+    {
+      "id": "black-olives",
+      "name": "Black Olives",
+      "subtitle": "Sliced",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Black+Olives"
+    },
+    {
+      "id": "bacon",
+      "name": "Bacon",
+      "subtitle": "Crispy pieces",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Bacon"
+    },
+    {
+      "id": "pineapple",
+      "name": "Pineapple",
+      "subtitle": "The controversial one",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pineapple"
+    },
+    {
+      "id": "ham",
+      "name": "Ham",
+      "subtitle": "Diced or sliced",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ham"
+    },
+    {
+      "id": "jalapenos",
+      "name": "Jalapenos",
+      "subtitle": "Spicy kick",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Jalapenos"
+    },
+    {
+      "id": "spinach",
+      "name": "Spinach",
+      "subtitle": "Fresh or cooked",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Spinach"
+    },
+    {
+      "id": "fresh-basil",
+      "name": "Fresh Basil",
+      "subtitle": "Classic Italian",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Fresh+Basil"
+    },
+    {
+      "id": "buffalo-chicken",
+      "name": "Buffalo Chicken",
+      "subtitle": "Spicy chicken",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Buffalo+Chicken"
+    },
+    {
+      "id": "bbq-chicken",
+      "name": "BBQ Chicken",
+      "subtitle": "Sweet & smoky",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=BBQ+Chicken"
+    },
+    {
+      "id": "anchovies",
+      "name": "Anchovies",
+      "subtitle": "Love 'em or hate 'em",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Anchovies"
+    }
   ]
 }

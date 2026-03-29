@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "pancakes", "name": "Pancakes", "subtitle": "Fluffy stacks" },
-    { "id": "waffles", "name": "Waffles", "subtitle": "Crispy grid pattern" },
-    { "id": "french-toast", "name": "French Toast", "subtitle": "Egg-dipped bread" },
-    { "id": "bacon-breakfast", "name": "Bacon", "subtitle": "Crispy strips" },
-    { "id": "scrambled-eggs", "name": "Scrambled Eggs", "subtitle": "Fluffy & buttery" },
-    { "id": "breakfast-burrito", "name": "Breakfast Burrito", "subtitle": "Wrapped perfection" },
-    { "id": "avocado-toast", "name": "Avocado Toast", "subtitle": "Millennial classic" },
-    { "id": "eggs-benedict", "name": "Eggs Benedict", "subtitle": "Poached eggs & hollandaise" },
-    { "id": "cereal-breakfast", "name": "Cereal & Milk", "subtitle": "Classic morning bowl" },
-    { "id": "omelette", "name": "Omelette", "subtitle": "Filled & folded" },
-    { "id": "bagel-cream-cheese", "name": "Bagel & Cream Cheese", "subtitle": "NY classic" },
-    { "id": "smoothie-bowl", "name": "Smoothie Bowl", "subtitle": "Fruity & fresh" },
-    { "id": "cinnamon-rolls", "name": "Cinnamon Rolls", "subtitle": "Sweet & sticky" },
-    { "id": "hash-browns", "name": "Hash Browns", "subtitle": "Crispy potato" },
-    { "id": "biscuits-breakfast", "name": "Biscuits", "subtitle": "Flaky & buttery" },
-    { "id": "donuts", "name": "Donuts", "subtitle": "Glazed or filled" }
+    {
+      "id": "pancakes",
+      "name": "Pancakes",
+      "subtitle": "Fluffy stacks",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pancakes"
+    },
+    {
+      "id": "waffles",
+      "name": "Waffles",
+      "subtitle": "Crispy grid pattern",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Waffles"
+    },
+    {
+      "id": "french-toast",
+      "name": "French Toast",
+      "subtitle": "Egg-dipped bread",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=French+Toast"
+    },
+    {
+      "id": "bacon-breakfast",
+      "name": "Bacon",
+      "subtitle": "Crispy strips",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Bacon"
+    },
+    {
+      "id": "scrambled-eggs",
+      "name": "Scrambled Eggs",
+      "subtitle": "Fluffy & buttery",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Scrambled+Eggs"
+    },
+    {
+      "id": "breakfast-burrito",
+      "name": "Breakfast Burrito",
+      "subtitle": "Wrapped perfection",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Breakfast+Burrito"
+    },
+    {
+      "id": "avocado-toast",
+      "name": "Avocado Toast",
+      "subtitle": "Millennial classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Avocado+Toast"
+    },
+    {
+      "id": "eggs-benedict",
+      "name": "Eggs Benedict",
+      "subtitle": "Poached eggs & hollandaise",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Eggs+Benedict"
+    },
+    {
+      "id": "cereal-breakfast",
+      "name": "Cereal & Milk",
+      "subtitle": "Classic morning bowl",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cereal+%26+Milk"
+    },
+    {
+      "id": "omelette",
+      "name": "Omelette",
+      "subtitle": "Filled & folded",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Omelette"
+    },
+    {
+      "id": "bagel-cream-cheese",
+      "name": "Bagel & Cream Cheese",
+      "subtitle": "NY classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Bagel+%26+Cream+Cheese"
+    },
+    {
+      "id": "smoothie-bowl",
+      "name": "Smoothie Bowl",
+      "subtitle": "Fruity & fresh",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Smoothie+Bowl"
+    },
+    {
+      "id": "cinnamon-rolls",
+      "name": "Cinnamon Rolls",
+      "subtitle": "Sweet & sticky",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cinnamon+Rolls"
+    },
+    {
+      "id": "hash-browns",
+      "name": "Hash Browns",
+      "subtitle": "Crispy potato",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Hash+Browns"
+    },
+    {
+      "id": "biscuits-breakfast",
+      "name": "Biscuits",
+      "subtitle": "Flaky & buttery",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Biscuits"
+    },
+    {
+      "id": "donuts",
+      "name": "Donuts",
+      "subtitle": "Glazed or filled",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Donuts"
+    }
   ]
 }

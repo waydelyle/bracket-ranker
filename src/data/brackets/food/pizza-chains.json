@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "dominos", "name": "Domino's", "subtitle": "Delivery king" },
-    { "id": "pizza-hut", "name": "Pizza Hut", "subtitle": "Pan pizza pioneers" },
-    { "id": "papa-johns", "name": "Papa John's", "subtitle": "Better ingredients" },
-    { "id": "little-caesars", "name": "Little Caesars", "subtitle": "Hot-N-Ready" },
-    { "id": "costco-pizza", "name": "Costco Food Court Pizza", "subtitle": "Warehouse slices" },
-    { "id": "marcos-pizza", "name": "Marco's Pizza", "subtitle": "Fresh dough" },
-    { "id": "jets-pizza", "name": "Jet's Pizza", "subtitle": "Detroit-style" },
-    { "id": "round-table", "name": "Round Table Pizza", "subtitle": "West coast chain" },
-    { "id": "sbarro", "name": "Sbarro", "subtitle": "Mall pizza" },
-    { "id": "blaze-pizza", "name": "Blaze Pizza", "subtitle": "Fast-fired" },
-    { "id": "mod-pizza", "name": "MOD Pizza", "subtitle": "Build your own" },
-    { "id": "hungry-howies", "name": "Hungry Howie's", "subtitle": "Flavored crust" },
-    { "id": "cicis", "name": "Cicis", "subtitle": "Pizza buffet" },
-    { "id": "papa-murphys", "name": "Papa Murphy's", "subtitle": "Take & bake" },
-    { "id": "mountain-mikes", "name": "Mountain Mike's", "subtitle": "Mountain-sized" },
-    { "id": "giordanos", "name": "Giordano's", "subtitle": "Chicago deep dish" }
+    {
+      "id": "dominos",
+      "name": "Domino's",
+      "subtitle": "Delivery king",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Domino's"
+    },
+    {
+      "id": "pizza-hut",
+      "name": "Pizza Hut",
+      "subtitle": "Pan pizza pioneers",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pizza+Hut"
+    },
+    {
+      "id": "papa-johns",
+      "name": "Papa John's",
+      "subtitle": "Better ingredients",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Papa+John's"
+    },
+    {
+      "id": "little-caesars",
+      "name": "Little Caesars",
+      "subtitle": "Hot-N-Ready",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Little+Caesars"
+    },
+    {
+      "id": "costco-pizza",
+      "name": "Costco Food Court Pizza",
+      "subtitle": "Warehouse slices",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Costco+Food+Court+Pizza"
+    },
+    {
+      "id": "marcos-pizza",
+      "name": "Marco's Pizza",
+      "subtitle": "Fresh dough",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Marco's+Pizza"
+    },
+    {
+      "id": "jets-pizza",
+      "name": "Jet's Pizza",
+      "subtitle": "Detroit-style",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Jet's+Pizza"
+    },
+    {
+      "id": "round-table",
+      "name": "Round Table Pizza",
+      "subtitle": "West coast chain",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Round+Table+Pizza"
+    },
+    {
+      "id": "sbarro",
+      "name": "Sbarro",
+      "subtitle": "Mall pizza",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Sbarro"
+    },
+    {
+      "id": "blaze-pizza",
+      "name": "Blaze Pizza",
+      "subtitle": "Fast-fired",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Blaze+Pizza"
+    },
+    {
+      "id": "mod-pizza",
+      "name": "MOD Pizza",
+      "subtitle": "Build your own",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=MOD+Pizza"
+    },
+    {
+      "id": "hungry-howies",
+      "name": "Hungry Howie's",
+      "subtitle": "Flavored crust",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Hungry+Howie's"
+    },
+    {
+      "id": "cicis",
+      "name": "Cicis",
+      "subtitle": "Pizza buffet",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cicis"
+    },
+    {
+      "id": "papa-murphys",
+      "name": "Papa Murphy's",
+      "subtitle": "Take & bake",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Papa+Murphy's"
+    },
+    {
+      "id": "mountain-mikes",
+      "name": "Mountain Mike's",
+      "subtitle": "Mountain-sized",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mountain+Mike's"
+    },
+    {
+      "id": "giordanos",
+      "name": "Giordano's",
+      "subtitle": "Chicago deep dish",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Giordano's"
+    }
   ]
 }

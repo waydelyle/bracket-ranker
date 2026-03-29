@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "stranger-things", "name": "Stranger Things", "subtitle": "2016-2025" },
-    { "id": "squid-game", "name": "Squid Game", "subtitle": "2021-present" },
-    { "id": "bridgerton", "name": "Bridgerton", "subtitle": "2020-present" },
-    { "id": "the-witcher", "name": "The Witcher", "subtitle": "2019-2023" },
-    { "id": "ozark", "name": "Ozark", "subtitle": "2017-2022" },
-    { "id": "the-queens-gambit", "name": "The Queen's Gambit", "subtitle": "2020" },
-    { "id": "wednesday", "name": "Wednesday", "subtitle": "2022-present" },
-    { "id": "you", "name": "You", "subtitle": "2018-2024" },
-    { "id": "narcos", "name": "Narcos", "subtitle": "2015-2017" },
-    { "id": "the-crown", "name": "The Crown", "subtitle": "2016-2023" },
-    { "id": "cobra-kai", "name": "Cobra Kai", "subtitle": "2018-2025" },
-    { "id": "dark", "name": "Dark", "subtitle": "2017-2020" },
-    { "id": "black-mirror", "name": "Black Mirror", "subtitle": "2011-present" },
-    { "id": "money-heist", "name": "Money Heist", "subtitle": "2017-2021" },
-    { "id": "the-umbrella-academy", "name": "The Umbrella Academy", "subtitle": "2019-2024" },
-    { "id": "never-have-i-ever", "name": "Never Have I Ever", "subtitle": "2020-2023" },
-    { "id": "lupin", "name": "Lupin", "subtitle": "2021-present" },
-    { "id": "outer-banks", "name": "Outer Banks", "subtitle": "2020-present" },
-    { "id": "all-of-us-are-dead", "name": "All of Us Are Dead", "subtitle": "2022-present" },
-    { "id": "orange-is-the-new-black", "name": "Orange Is the New Black", "subtitle": "2013-2019" },
-    { "id": "house-of-cards", "name": "House of Cards", "subtitle": "2013-2018" },
-    { "id": "mindhunter", "name": "Mindhunter", "subtitle": "2017-2019" },
-    { "id": "bojack-horseman", "name": "BoJack Horseman", "subtitle": "2014-2020" },
-    { "id": "unbreakable-kimmy-schmidt", "name": "Unbreakable Kimmy Schmidt", "subtitle": "2015-2019" },
-    { "id": "beef", "name": "Beef", "subtitle": "2023" },
-    { "id": "dahmer", "name": "Dahmer", "subtitle": "2022" },
-    { "id": "the-night-agent", "name": "The Night Agent", "subtitle": "2023-present" },
-    { "id": "ginny-and-georgia", "name": "Ginny & Georgia", "subtitle": "2021-present" },
-    { "id": "the-sandman", "name": "The Sandman", "subtitle": "2022-present" },
-    { "id": "alice-in-borderland", "name": "Alice in Borderland", "subtitle": "2020-2022" },
-    { "id": "daredevil", "name": "Daredevil", "subtitle": "2015-2018" },
-    { "id": "master-of-none", "name": "Master of None", "subtitle": "2015-2021" }
+    {
+      "id": "stranger-things",
+      "name": "Stranger Things",
+      "subtitle": "2016-2025",
+      "image": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg"
+    },
+    {
+      "id": "squid-game",
+      "name": "Squid Game",
+      "subtitle": "2021-present",
+      "image": "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg"
+    },
+    {
+      "id": "bridgerton",
+      "name": "Bridgerton",
+      "subtitle": "2020-present",
+      "image": "https://image.tmdb.org/t/p/w500/luoKpgVwi1E5nQsi7W0ULPJi5mZ.jpg"
+    },
+    {
+      "id": "the-witcher",
+      "name": "The Witcher",
+      "subtitle": "2019-2023",
+      "image": "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg"
+    },
+    {
+      "id": "ozark",
+      "name": "Ozark",
+      "subtitle": "2017-2022",
+      "image": "https://image.tmdb.org/t/p/w500/pCgyMacg4p0IfJKvJsMC7IJKyx3.jpg"
+    },
+    {
+      "id": "the-queens-gambit",
+      "name": "The Queen's Gambit",
+      "subtitle": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg"
+    },
+    {
+      "id": "wednesday",
+      "name": "Wednesday",
+      "subtitle": "2022-present",
+      "image": "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg"
+    },
+    {
+      "id": "you",
+      "name": "You",
+      "subtitle": "2018-2024",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=You"
+    },
+    {
+      "id": "narcos",
+      "name": "Narcos",
+      "subtitle": "2015-2017",
+      "image": "https://image.tmdb.org/t/p/w500/rTmal9fDbwh5F0waol2hq35U4ah.jpg"
+    },
+    {
+      "id": "the-crown",
+      "name": "The Crown",
+      "subtitle": "2016-2023",
+      "image": "https://image.tmdb.org/t/p/w500/1M7BGpFilMU2hyAq4cH1K3FMvWy.jpg"
+    },
+    {
+      "id": "cobra-kai",
+      "name": "Cobra Kai",
+      "subtitle": "2018-2025",
+      "image": "https://image.tmdb.org/t/p/w500/6POBWybSBBKKnziYFTtWca0STLz.jpg"
+    },
+    {
+      "id": "dark",
+      "name": "Dark",
+      "subtitle": "2017-2020",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dark"
+    },
+    {
+      "id": "black-mirror",
+      "name": "Black Mirror",
+      "subtitle": "2011-present",
+      "image": "https://image.tmdb.org/t/p/w500/5UaYsGZOFhjFDwQh6GuLjjA1WlF.jpg"
+    },
+    {
+      "id": "money-heist",
+      "name": "Money Heist",
+      "subtitle": "2017-2021",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Money+Heist"
+    },
+    {
+      "id": "the-umbrella-academy",
+      "name": "The Umbrella Academy",
+      "subtitle": "2019-2024",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Umbrella+Academy"
+    },
+    {
+      "id": "never-have-i-ever",
+      "name": "Never Have I Ever",
+      "subtitle": "2020-2023",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Never+Have+I+Ever"
+    },
+    {
+      "id": "lupin",
+      "name": "Lupin",
+      "subtitle": "2021-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Lupin"
+    },
+    {
+      "id": "outer-banks",
+      "name": "Outer Banks",
+      "subtitle": "2020-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Outer+Banks"
+    },
+    {
+      "id": "all-of-us-are-dead",
+      "name": "All of Us Are Dead",
+      "subtitle": "2022-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=All+of+Us+Are+Dead"
+    },
+    {
+      "id": "orange-is-the-new-black",
+      "name": "Orange Is the New Black",
+      "subtitle": "2013-2019",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Orange+Is+the+New+Black"
+    },
+    {
+      "id": "house-of-cards",
+      "name": "House of Cards",
+      "subtitle": "2013-2018",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=House+of+Cards"
+    },
+    {
+      "id": "mindhunter",
+      "name": "Mindhunter",
+      "subtitle": "2017-2019",
+      "image": "https://image.tmdb.org/t/p/w500/gq57cFV5fRXhEjwsFqNLcBXLb7G.jpg"
+    },
+    {
+      "id": "bojack-horseman",
+      "name": "BoJack Horseman",
+      "subtitle": "2014-2020",
+      "image": "https://image.tmdb.org/t/p/w500/pB9L0jAnEQLMKgexqCkRLv8W1kA.jpg"
+    },
+    {
+      "id": "unbreakable-kimmy-schmidt",
+      "name": "Unbreakable Kimmy Schmidt",
+      "subtitle": "2015-2019",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Unbreakable+Kimmy+Schmidt"
+    },
+    {
+      "id": "beef",
+      "name": "Beef",
+      "subtitle": "2023",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Beef"
+    },
+    {
+      "id": "dahmer",
+      "name": "Dahmer",
+      "subtitle": "2022",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dahmer"
+    },
+    {
+      "id": "the-night-agent",
+      "name": "The Night Agent",
+      "subtitle": "2023-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Night+Agent"
+    },
+    {
+      "id": "ginny-and-georgia",
+      "name": "Ginny & Georgia",
+      "subtitle": "2021-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Ginny+%26+Georgia"
+    },
+    {
+      "id": "the-sandman",
+      "name": "The Sandman",
+      "subtitle": "2022-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Sandman"
+    },
+    {
+      "id": "alice-in-borderland",
+      "name": "Alice in Borderland",
+      "subtitle": "2020-2022",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Alice+in+Borderland"
+    },
+    {
+      "id": "daredevil",
+      "name": "Daredevil",
+      "subtitle": "2015-2018",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Daredevil"
+    },
+    {
+      "id": "master-of-none",
+      "name": "Master of None",
+      "subtitle": "2015-2021",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Master+of+None"
+    }
   ]
 }

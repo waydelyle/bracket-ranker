@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "stronger", "name": "Stronger", "subtitle": "Graduation" },
-    { "id": "gold-digger", "name": "Gold Digger", "subtitle": "Late Registration" },
-    { "id": "runaway", "name": "Runaway", "subtitle": "My Beautiful Dark Twisted Fantasy" },
-    { "id": "jesus-walks", "name": "Jesus Walks", "subtitle": "The College Dropout" },
-    { "id": "power", "name": "POWER", "subtitle": "My Beautiful Dark Twisted Fantasy" },
-    { "id": "heartless", "name": "Heartless", "subtitle": "808s & Heartbreak" },
-    { "id": "flashing-lights", "name": "Flashing Lights", "subtitle": "Graduation" },
-    { "id": "through-the-wire", "name": "Through the Wire", "subtitle": "The College Dropout" },
-    { "id": "all-of-the-lights", "name": "All of the Lights", "subtitle": "My Beautiful Dark Twisted Fantasy" },
-    { "id": "bound-2", "name": "Bound 2", "subtitle": "Yeezus" },
-    { "id": "touch-the-sky", "name": "Touch the Sky", "subtitle": "Late Registration" },
-    { "id": "mbdtf-album", "name": "My Beautiful Dark Twisted Fantasy (Album)", "subtitle": "2010" },
-    { "id": "the-college-dropout-album", "name": "The College Dropout (Album)", "subtitle": "2004" },
-    { "id": "graduation-album", "name": "Graduation (Album)", "subtitle": "2007" },
-    { "id": "late-registration-album", "name": "Late Registration (Album)", "subtitle": "2005" },
-    { "id": "808s-album", "name": "808s & Heartbreak (Album)", "subtitle": "2008" },
-    { "id": "yeezus-album", "name": "Yeezus (Album)", "subtitle": "2013" },
-    { "id": "the-life-of-pablo-album", "name": "The Life of Pablo (Album)", "subtitle": "2016" },
-    { "id": "ultralight-beam", "name": "Ultralight Beam", "subtitle": "The Life of Pablo" },
-    { "id": "love-lockdown", "name": "Love Lockdown", "subtitle": "808s & Heartbreak" },
-    { "id": "black-skinhead", "name": "Black Skinhead", "subtitle": "Yeezus" },
-    { "id": "devil-in-a-new-dress", "name": "Devil in a New Dress", "subtitle": "My Beautiful Dark Twisted Fantasy" },
-    { "id": "ghost-town", "name": "Ghost Town", "subtitle": "ye" },
-    { "id": "fade", "name": "Fade", "subtitle": "The Life of Pablo" },
-    { "id": "father-stretch-my-hands", "name": "Father Stretch My Hands Pt. 1", "subtitle": "The Life of Pablo" },
-    { "id": "gorgeous", "name": "Gorgeous", "subtitle": "My Beautiful Dark Twisted Fantasy" },
-    { "id": "cant-tell-me-nothing", "name": "Can't Tell Me Nothing", "subtitle": "Graduation" },
-    { "id": "good-morning", "name": "Good Morning", "subtitle": "Graduation" },
-    { "id": "slow-jamz", "name": "Slow Jamz", "subtitle": "The College Dropout" },
-    { "id": "all-falls-down", "name": "All Falls Down", "subtitle": "The College Dropout" },
-    { "id": "spaceship", "name": "Spaceship", "subtitle": "The College Dropout" },
-    { "id": "champion", "name": "Champion", "subtitle": "Graduation" }
+    {
+      "id": "stronger",
+      "name": "Stronger",
+      "subtitle": "Graduation",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Stronger"
+    },
+    {
+      "id": "gold-digger",
+      "name": "Gold Digger",
+      "subtitle": "Late Registration",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Gold+Digger"
+    },
+    {
+      "id": "runaway",
+      "name": "Runaway",
+      "subtitle": "My Beautiful Dark Twisted Fantasy",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Runaway"
+    },
+    {
+      "id": "jesus-walks",
+      "name": "Jesus Walks",
+      "subtitle": "The College Dropout",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Jesus+Walks"
+    },
+    {
+      "id": "power",
+      "name": "POWER",
+      "subtitle": "My Beautiful Dark Twisted Fantasy",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=POWER"
+    },
+    {
+      "id": "heartless",
+      "name": "Heartless",
+      "subtitle": "808s & Heartbreak",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Heartless"
+    },
+    {
+      "id": "flashing-lights",
+      "name": "Flashing Lights",
+      "subtitle": "Graduation",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Flashing+Lights"
+    },
+    {
+      "id": "through-the-wire",
+      "name": "Through the Wire",
+      "subtitle": "The College Dropout",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Through+the+Wire"
+    },
+    {
+      "id": "all-of-the-lights",
+      "name": "All of the Lights",
+      "subtitle": "My Beautiful Dark Twisted Fantasy",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=All+of+the+Lights"
+    },
+    {
+      "id": "bound-2",
+      "name": "Bound 2",
+      "subtitle": "Yeezus",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bound+2"
+    },
+    {
+      "id": "touch-the-sky",
+      "name": "Touch the Sky",
+      "subtitle": "Late Registration",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Touch+the+Sky"
+    },
+    {
+      "id": "mbdtf-album",
+      "name": "My Beautiful Dark Twisted Fantasy (Album)",
+      "subtitle": "2010",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=My+Beautiful+Dark+Twisted+Fantasy+(Album)"
+    },
+    {
+      "id": "the-college-dropout-album",
+      "name": "The College Dropout (Album)",
+      "subtitle": "2004",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+College+Dropout+(Album)"
+    },
+    {
+      "id": "graduation-album",
+      "name": "Graduation (Album)",
+      "subtitle": "2007",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Graduation+(Album)"
+    },
+    {
+      "id": "late-registration-album",
+      "name": "Late Registration (Album)",
+      "subtitle": "2005",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Late+Registration+(Album)"
+    },
+    {
+      "id": "808s-album",
+      "name": "808s & Heartbreak (Album)",
+      "subtitle": "2008",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=808s+%26+Heartbreak+(Album)"
+    },
+    {
+      "id": "yeezus-album",
+      "name": "Yeezus (Album)",
+      "subtitle": "2013",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Yeezus+(Album)"
+    },
+    {
+      "id": "the-life-of-pablo-album",
+      "name": "The Life of Pablo (Album)",
+      "subtitle": "2016",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Life+of+Pablo+(Album)"
+    },
+    {
+      "id": "ultralight-beam",
+      "name": "Ultralight Beam",
+      "subtitle": "The Life of Pablo",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ultralight+Beam"
+    },
+    {
+      "id": "love-lockdown",
+      "name": "Love Lockdown",
+      "subtitle": "808s & Heartbreak",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Love+Lockdown"
+    },
+    {
+      "id": "black-skinhead",
+      "name": "Black Skinhead",
+      "subtitle": "Yeezus",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Black+Skinhead"
+    },
+    {
+      "id": "devil-in-a-new-dress",
+      "name": "Devil in a New Dress",
+      "subtitle": "My Beautiful Dark Twisted Fantasy",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Devil+in+a+New+Dress"
+    },
+    {
+      "id": "ghost-town",
+      "name": "Ghost Town",
+      "subtitle": "ye",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ghost+Town"
+    },
+    {
+      "id": "fade",
+      "name": "Fade",
+      "subtitle": "The Life of Pablo",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Fade"
+    },
+    {
+      "id": "father-stretch-my-hands",
+      "name": "Father Stretch My Hands Pt. 1",
+      "subtitle": "The Life of Pablo",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Father+Stretch+My+Hands+Pt.+1"
+    },
+    {
+      "id": "gorgeous",
+      "name": "Gorgeous",
+      "subtitle": "My Beautiful Dark Twisted Fantasy",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Gorgeous"
+    },
+    {
+      "id": "cant-tell-me-nothing",
+      "name": "Can't Tell Me Nothing",
+      "subtitle": "Graduation",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Can't+Tell+Me+Nothing"
+    },
+    {
+      "id": "good-morning",
+      "name": "Good Morning",
+      "subtitle": "Graduation",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Good+Morning"
+    },
+    {
+      "id": "slow-jamz",
+      "name": "Slow Jamz",
+      "subtitle": "The College Dropout",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Slow+Jamz"
+    },
+    {
+      "id": "all-falls-down",
+      "name": "All Falls Down",
+      "subtitle": "The College Dropout",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=All+Falls+Down"
+    },
+    {
+      "id": "spaceship",
+      "name": "Spaceship",
+      "subtitle": "The College Dropout",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Spaceship"
+    },
+    {
+      "id": "champion",
+      "name": "Champion",
+      "subtitle": "Graduation",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Champion"
+    }
   ]
 }

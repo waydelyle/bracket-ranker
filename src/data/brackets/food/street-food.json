@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "tacos", "name": "Tacos", "subtitle": "Mexican street classic" },
-    { "id": "hot-dogs", "name": "Hot Dogs", "subtitle": "American classic" },
-    { "id": "gyros", "name": "Gyros", "subtitle": "Greek meat wrap" },
-    { "id": "falafel", "name": "Falafel", "subtitle": "Fried chickpea balls" },
-    { "id": "empanadas", "name": "Empanadas", "subtitle": "Stuffed pastry pockets" },
-    { "id": "pretzels-street", "name": "Soft Pretzels", "subtitle": "Twisted & salted" },
-    { "id": "elote", "name": "Elote", "subtitle": "Mexican street corn" },
-    { "id": "kebabs", "name": "Kebabs", "subtitle": "Grilled meat skewers" },
-    { "id": "pad-thai-street", "name": "Pad Thai", "subtitle": "Thai stir-fried noodles" },
-    { "id": "arepa", "name": "Arepas", "subtitle": "Venezuelan corn cakes" },
-    { "id": "dim-sum", "name": "Dim Sum", "subtitle": "Chinese small plates" },
-    { "id": "takoyaki", "name": "Takoyaki", "subtitle": "Japanese octopus balls" },
-    { "id": "crepes-street", "name": "Crepes", "subtitle": "French street pancakes" },
-    { "id": "jerk-chicken", "name": "Jerk Chicken", "subtitle": "Jamaican spiced chicken" },
-    { "id": "currywurst", "name": "Currywurst", "subtitle": "German curry sausage" },
-    { "id": "churros-street", "name": "Churros", "subtitle": "Spanish fried dough" }
+    {
+      "id": "tacos",
+      "name": "Tacos",
+      "subtitle": "Mexican street classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Tacos"
+    },
+    {
+      "id": "hot-dogs",
+      "name": "Hot Dogs",
+      "subtitle": "American classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Hot+Dogs"
+    },
+    {
+      "id": "gyros",
+      "name": "Gyros",
+      "subtitle": "Greek meat wrap",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Gyros"
+    },
+    {
+      "id": "falafel",
+      "name": "Falafel",
+      "subtitle": "Fried chickpea balls",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Falafel"
+    },
+    {
+      "id": "empanadas",
+      "name": "Empanadas",
+      "subtitle": "Stuffed pastry pockets",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Empanadas"
+    },
+    {
+      "id": "pretzels-street",
+      "name": "Soft Pretzels",
+      "subtitle": "Twisted & salted",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Soft+Pretzels"
+    },
+    {
+      "id": "elote",
+      "name": "Elote",
+      "subtitle": "Mexican street corn",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Elote"
+    },
+    {
+      "id": "kebabs",
+      "name": "Kebabs",
+      "subtitle": "Grilled meat skewers",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Kebabs"
+    },
+    {
+      "id": "pad-thai-street",
+      "name": "Pad Thai",
+      "subtitle": "Thai stir-fried noodles",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pad+Thai"
+    },
+    {
+      "id": "arepa",
+      "name": "Arepas",
+      "subtitle": "Venezuelan corn cakes",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Arepas"
+    },
+    {
+      "id": "dim-sum",
+      "name": "Dim Sum",
+      "subtitle": "Chinese small plates",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Dim+Sum"
+    },
+    {
+      "id": "takoyaki",
+      "name": "Takoyaki",
+      "subtitle": "Japanese octopus balls",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Takoyaki"
+    },
+    {
+      "id": "crepes-street",
+      "name": "Crepes",
+      "subtitle": "French street pancakes",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Crepes"
+    },
+    {
+      "id": "jerk-chicken",
+      "name": "Jerk Chicken",
+      "subtitle": "Jamaican spiced chicken",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Jerk+Chicken"
+    },
+    {
+      "id": "currywurst",
+      "name": "Currywurst",
+      "subtitle": "German curry sausage",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Currywurst"
+    },
+    {
+      "id": "churros-street",
+      "name": "Churros",
+      "subtitle": "Spanish fried dough",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Churros"
+    }
   ]
 }

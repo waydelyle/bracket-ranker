@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "saving-private-ryan-war", "name": "Saving Private Ryan", "subtitle": "1998" },
-    { "id": "dunkirk-war", "name": "Dunkirk", "subtitle": "2017" },
-    { "id": "apocalypse-now", "name": "Apocalypse Now", "subtitle": "1979" },
-    { "id": "schindlers-list-war", "name": "Schindler's List", "subtitle": "1993" },
-    { "id": "1917-war", "name": "1917", "subtitle": "2019" },
-    { "id": "full-metal-jacket", "name": "Full Metal Jacket", "subtitle": "1987" },
-    { "id": "platoon", "name": "Platoon", "subtitle": "1986" },
-    { "id": "hacksaw-ridge", "name": "Hacksaw Ridge", "subtitle": "2016" },
-    { "id": "black-hawk-down", "name": "Black Hawk Down", "subtitle": "2001" },
-    { "id": "the-thin-red-line", "name": "The Thin Red Line", "subtitle": "1998" },
-    { "id": "the-bridge-on-the-river-kwai", "name": "The Bridge on the River Kwai", "subtitle": "1957" },
-    { "id": "the-deer-hunter", "name": "The Deer Hunter", "subtitle": "1978" },
-    { "id": "inglourious-basterds-war", "name": "Inglourious Basterds", "subtitle": "2009" },
-    { "id": "fury", "name": "Fury", "subtitle": "2014" },
-    { "id": "letters-from-iwo-jima", "name": "Letters from Iwo Jima", "subtitle": "2006" },
-    { "id": "the-pianist", "name": "The Pianist", "subtitle": "2002" },
-    { "id": "the-great-escape", "name": "The Great Escape", "subtitle": "1963" },
-    { "id": "paths-of-glory", "name": "Paths of Glory", "subtitle": "1957" },
-    { "id": "lone-survivor", "name": "Lone Survivor", "subtitle": "2013" },
-    { "id": "american-sniper", "name": "American Sniper", "subtitle": "2014" },
-    { "id": "we-were-soldiers", "name": "We Were Soldiers", "subtitle": "2002" },
-    { "id": "the-hurt-locker-war", "name": "The Hurt Locker", "subtitle": "2008" },
-    { "id": "braveheart-war", "name": "Braveheart", "subtitle": "1995" },
-    { "id": "all-quiet-on-the-western-front", "name": "All Quiet on the Western Front", "subtitle": "2022" }
+    {
+      "id": "saving-private-ryan-war",
+      "name": "Saving Private Ryan",
+      "subtitle": "1998",
+      "image": "https://image.tmdb.org/t/p/w500/1wY4psJ5NVEhCuOYROwLH2XExM2.jpg"
+    },
+    {
+      "id": "dunkirk-war",
+      "name": "Dunkirk",
+      "subtitle": "2017",
+      "image": "https://image.tmdb.org/t/p/w500/ebSnODDg9lbsMIaWg2uAbjn7TO5.jpg"
+    },
+    {
+      "id": "apocalypse-now",
+      "name": "Apocalypse Now",
+      "subtitle": "1979",
+      "image": "https://image.tmdb.org/t/p/w500/gQB8Y5RCMkJIlKVUiRijS3GY6Ra.jpg"
+    },
+    {
+      "id": "schindlers-list-war",
+      "name": "Schindler's List",
+      "subtitle": "1993",
+      "image": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg"
+    },
+    {
+      "id": "1917-war",
+      "name": "1917",
+      "subtitle": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFDufj2nS.jpg"
+    },
+    {
+      "id": "full-metal-jacket",
+      "name": "Full Metal Jacket",
+      "subtitle": "1987",
+      "image": "https://image.tmdb.org/t/p/w500/kMKyx1k8hWWscYFnPbnxxYjk5wg.jpg"
+    },
+    {
+      "id": "platoon",
+      "name": "Platoon",
+      "subtitle": "1986",
+      "image": "https://image.tmdb.org/t/p/w500/sLiHkqPuKkJRvOySfMdH3eSKpbN.jpg"
+    },
+    {
+      "id": "hacksaw-ridge",
+      "name": "Hacksaw Ridge",
+      "subtitle": "2016",
+      "image": "https://image.tmdb.org/t/p/w500/oIEbravOkMFySDT0fIjY0xnQLap.jpg"
+    },
+    {
+      "id": "black-hawk-down",
+      "name": "Black Hawk Down",
+      "subtitle": "2001",
+      "image": "https://image.tmdb.org/t/p/w500/83GGMveRSnIDl5JNzCKymPM3K5b.jpg"
+    },
+    {
+      "id": "the-thin-red-line",
+      "name": "The Thin Red Line",
+      "subtitle": "1998",
+      "image": "https://image.tmdb.org/t/p/w500/hFyAVqjczJivxIigQz8qhnoV9qz.jpg"
+    },
+    {
+      "id": "the-bridge-on-the-river-kwai",
+      "name": "The Bridge on the River Kwai",
+      "subtitle": "1957",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Bridge+on+the+River+Kwai"
+    },
+    {
+      "id": "the-deer-hunter",
+      "name": "The Deer Hunter",
+      "subtitle": "1978",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Deer+Hunter"
+    },
+    {
+      "id": "inglourious-basterds-war",
+      "name": "Inglourious Basterds",
+      "subtitle": "2009",
+      "image": "https://image.tmdb.org/t/p/w500/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg"
+    },
+    {
+      "id": "fury",
+      "name": "Fury",
+      "subtitle": "2014",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Fury"
+    },
+    {
+      "id": "letters-from-iwo-jima",
+      "name": "Letters from Iwo Jima",
+      "subtitle": "2006",
+      "image": "https://image.tmdb.org/t/p/w500/nWY3OqjS2LRlr4aZXhKCPDGPohD.jpg"
+    },
+    {
+      "id": "the-pianist",
+      "name": "The Pianist",
+      "subtitle": "2002",
+      "image": "https://image.tmdb.org/t/p/w500/2hFvxCEWrTceZ5EHKsu1v6yZYXP.jpg"
+    },
+    {
+      "id": "the-great-escape",
+      "name": "The Great Escape",
+      "subtitle": "1963",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Great+Escape"
+    },
+    {
+      "id": "paths-of-glory",
+      "name": "Paths of Glory",
+      "subtitle": "1957",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Paths+of+Glory"
+    },
+    {
+      "id": "lone-survivor",
+      "name": "Lone Survivor",
+      "subtitle": "2013",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Lone+Survivor"
+    },
+    {
+      "id": "american-sniper",
+      "name": "American Sniper",
+      "subtitle": "2014",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=American+Sniper"
+    },
+    {
+      "id": "we-were-soldiers",
+      "name": "We Were Soldiers",
+      "subtitle": "2002",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=We+Were+Soldiers"
+    },
+    {
+      "id": "the-hurt-locker-war",
+      "name": "The Hurt Locker",
+      "subtitle": "2008",
+      "image": "https://image.tmdb.org/t/p/w500/kPRhB2o1MEbPj3IiFdJvDQVfseV.jpg"
+    },
+    {
+      "id": "braveheart-war",
+      "name": "Braveheart",
+      "subtitle": "1995",
+      "image": "https://image.tmdb.org/t/p/w500/or1Lb04dFtPQnbXYMSRlGPxAbQc.jpg"
+    },
+    {
+      "id": "all-quiet-on-the-western-front",
+      "name": "All Quiet on the Western Front",
+      "subtitle": "2022",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=All+Quiet+on+the+Western+Front"
+    }
   ]
 }

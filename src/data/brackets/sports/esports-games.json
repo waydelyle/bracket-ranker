@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "league-of-legends", "name": "League of Legends", "subtitle": "MOBA - Riot Games" },
-    { "id": "counter-strike", "name": "Counter-Strike 2", "subtitle": "FPS - Valve" },
-    { "id": "valorant", "name": "VALORANT", "subtitle": "FPS - Riot Games" },
-    { "id": "dota-2", "name": "Dota 2", "subtitle": "MOBA - Valve" },
-    { "id": "fortnite-esports", "name": "Fortnite", "subtitle": "Battle Royale - Epic Games" },
-    { "id": "overwatch-2", "name": "Overwatch 2", "subtitle": "FPS - Blizzard" },
-    { "id": "rocket-league", "name": "Rocket League", "subtitle": "Sports - Psyonix" },
-    { "id": "super-smash-bros", "name": "Super Smash Bros. Ultimate", "subtitle": "Fighting - Nintendo" },
-    { "id": "street-fighter-6", "name": "Street Fighter 6", "subtitle": "Fighting - Capcom" },
-    { "id": "apex-legends", "name": "Apex Legends", "subtitle": "Battle Royale - Respawn" },
-    { "id": "rainbow-six-siege", "name": "Rainbow Six Siege", "subtitle": "FPS - Ubisoft" },
-    { "id": "starcraft-2", "name": "StarCraft II", "subtitle": "RTS - Blizzard" },
-    { "id": "call-of-duty", "name": "Call of Duty", "subtitle": "FPS - Activision" },
-    { "id": "fifa-ea-fc", "name": "EA FC / FIFA", "subtitle": "Sports - EA" },
-    { "id": "tekken-8", "name": "Tekken 8", "subtitle": "Fighting - Bandai Namco" },
-    { "id": "pubg", "name": "PUBG", "subtitle": "Battle Royale - Krafton" }
+    {
+      "id": "league-of-legends",
+      "name": "League of Legends",
+      "subtitle": "MOBA - Riot Games",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=League+of+Legends"
+    },
+    {
+      "id": "counter-strike",
+      "name": "Counter-Strike 2",
+      "subtitle": "FPS - Valve",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Counter-Strike+2"
+    },
+    {
+      "id": "valorant",
+      "name": "VALORANT",
+      "subtitle": "FPS - Riot Games",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=VALORANT"
+    },
+    {
+      "id": "dota-2",
+      "name": "Dota 2",
+      "subtitle": "MOBA - Valve",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Dota+2"
+    },
+    {
+      "id": "fortnite-esports",
+      "name": "Fortnite",
+      "subtitle": "Battle Royale - Epic Games",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Fortnite"
+    },
+    {
+      "id": "overwatch-2",
+      "name": "Overwatch 2",
+      "subtitle": "FPS - Blizzard",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Overwatch+2"
+    },
+    {
+      "id": "rocket-league",
+      "name": "Rocket League",
+      "subtitle": "Sports - Psyonix",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Rocket+League"
+    },
+    {
+      "id": "super-smash-bros",
+      "name": "Super Smash Bros. Ultimate",
+      "subtitle": "Fighting - Nintendo",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Super+Smash+Bros.+Ultimate"
+    },
+    {
+      "id": "street-fighter-6",
+      "name": "Street Fighter 6",
+      "subtitle": "Fighting - Capcom",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Street+Fighter+6"
+    },
+    {
+      "id": "apex-legends",
+      "name": "Apex Legends",
+      "subtitle": "Battle Royale - Respawn",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Apex+Legends"
+    },
+    {
+      "id": "rainbow-six-siege",
+      "name": "Rainbow Six Siege",
+      "subtitle": "FPS - Ubisoft",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Rainbow+Six+Siege"
+    },
+    {
+      "id": "starcraft-2",
+      "name": "StarCraft II",
+      "subtitle": "RTS - Blizzard",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=StarCraft+II"
+    },
+    {
+      "id": "call-of-duty",
+      "name": "Call of Duty",
+      "subtitle": "FPS - Activision",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Call+of+Duty"
+    },
+    {
+      "id": "fifa-ea-fc",
+      "name": "EA FC / FIFA",
+      "subtitle": "Sports - EA",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=EA+FC+%2F+FIFA"
+    },
+    {
+      "id": "tekken-8",
+      "name": "Tekken 8",
+      "subtitle": "Fighting - Bandai Namco",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tekken+8"
+    },
+    {
+      "id": "pubg",
+      "name": "PUBG",
+      "subtitle": "Battle Royale - Krafton",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=PUBG"
+    }
   ]
 }

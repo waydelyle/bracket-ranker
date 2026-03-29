@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "the-beatles", "name": "The Beatles", "subtitle": "Rock" },
-    { "id": "michael-jackson", "name": "Michael Jackson", "subtitle": "Pop" },
-    { "id": "elvis-presley", "name": "Elvis Presley", "subtitle": "Rock & Roll" },
-    { "id": "queen", "name": "Queen", "subtitle": "Rock" },
-    { "id": "david-bowie", "name": "David Bowie", "subtitle": "Rock" },
-    { "id": "prince", "name": "Prince", "subtitle": "Pop/R&B" },
-    { "id": "madonna", "name": "Madonna", "subtitle": "Pop" },
-    { "id": "led-zeppelin", "name": "Led Zeppelin", "subtitle": "Rock" },
-    { "id": "beyonce", "name": "Beyonce", "subtitle": "R&B/Pop" },
-    { "id": "bob-dylan", "name": "Bob Dylan", "subtitle": "Folk/Rock" },
-    { "id": "stevie-wonder", "name": "Stevie Wonder", "subtitle": "R&B/Soul" },
-    { "id": "whitney-houston", "name": "Whitney Houston", "subtitle": "Pop/R&B" },
-    { "id": "aretha-franklin", "name": "Aretha Franklin", "subtitle": "Soul" },
-    { "id": "taylor-swift-artist", "name": "Taylor Swift", "subtitle": "Pop/Country" },
-    { "id": "pink-floyd", "name": "Pink Floyd", "subtitle": "Rock" },
-    { "id": "rolling-stones", "name": "The Rolling Stones", "subtitle": "Rock" },
-    { "id": "bob-marley", "name": "Bob Marley", "subtitle": "Reggae" },
-    { "id": "nirvana", "name": "Nirvana", "subtitle": "Grunge" },
-    { "id": "adele", "name": "Adele", "subtitle": "Pop/Soul" },
-    { "id": "bruce-springsteen", "name": "Bruce Springsteen", "subtitle": "Rock" },
-    { "id": "elton-john", "name": "Elton John", "subtitle": "Pop/Rock" },
-    { "id": "jimi-hendrix", "name": "Jimi Hendrix", "subtitle": "Rock" },
-    { "id": "frank-sinatra", "name": "Frank Sinatra", "subtitle": "Jazz/Pop" },
-    { "id": "mariah-carey", "name": "Mariah Carey", "subtitle": "Pop/R&B" },
-    { "id": "radiohead", "name": "Radiohead", "subtitle": "Alt Rock" },
-    { "id": "u2", "name": "U2", "subtitle": "Rock" },
-    { "id": "kanye-west-artist", "name": "Kanye West", "subtitle": "Hip-Hop" },
-    { "id": "drake-artist", "name": "Drake", "subtitle": "Hip-Hop/R&B" },
-    { "id": "kendrick-lamar", "name": "Kendrick Lamar", "subtitle": "Hip-Hop" },
-    { "id": "eminem", "name": "Eminem", "subtitle": "Hip-Hop" },
-    { "id": "billie-eilish", "name": "Billie Eilish", "subtitle": "Pop" },
-    { "id": "the-weeknd", "name": "The Weeknd", "subtitle": "R&B/Pop" }
+    {
+      "id": "the-beatles",
+      "name": "The Beatles",
+      "subtitle": "Rock",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Beatles"
+    },
+    {
+      "id": "michael-jackson",
+      "name": "Michael Jackson",
+      "subtitle": "Pop",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Michael+Jackson"
+    },
+    {
+      "id": "elvis-presley",
+      "name": "Elvis Presley",
+      "subtitle": "Rock & Roll",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Elvis+Presley"
+    },
+    {
+      "id": "queen",
+      "name": "Queen",
+      "subtitle": "Rock",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Queen"
+    },
+    {
+      "id": "david-bowie",
+      "name": "David Bowie",
+      "subtitle": "Rock",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=David+Bowie"
+    },
+    {
+      "id": "prince",
+      "name": "Prince",
+      "subtitle": "Pop/R&B",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Prince"
+    },
+    {
+      "id": "madonna",
+      "name": "Madonna",
+      "subtitle": "Pop",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Madonna"
+    },
+    {
+      "id": "led-zeppelin",
+      "name": "Led Zeppelin",
+      "subtitle": "Rock",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Led+Zeppelin"
+    },
+    {
+      "id": "beyonce",
+      "name": "Beyonce",
+      "subtitle": "R&B/Pop",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Beyonce"
+    },
+    {
+      "id": "bob-dylan",
+      "name": "Bob Dylan",
+      "subtitle": "Folk/Rock",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bob+Dylan"
+    },
+    {
+      "id": "stevie-wonder",
+      "name": "Stevie Wonder",
+      "subtitle": "R&B/Soul",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Stevie+Wonder"
+    },
+    {
+      "id": "whitney-houston",
+      "name": "Whitney Houston",
+      "subtitle": "Pop/R&B",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Whitney+Houston"
+    },
+    {
+      "id": "aretha-franklin",
+      "name": "Aretha Franklin",
+      "subtitle": "Soul",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Aretha+Franklin"
+    },
+    {
+      "id": "taylor-swift-artist",
+      "name": "Taylor Swift",
+      "subtitle": "Pop/Country",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Taylor+Swift"
+    },
+    {
+      "id": "pink-floyd",
+      "name": "Pink Floyd",
+      "subtitle": "Rock",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Pink+Floyd"
+    },
+    {
+      "id": "rolling-stones",
+      "name": "The Rolling Stones",
+      "subtitle": "Rock",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Rolling+Stones"
+    },
+    {
+      "id": "bob-marley",
+      "name": "Bob Marley",
+      "subtitle": "Reggae",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bob+Marley"
+    },
+    {
+      "id": "nirvana",
+      "name": "Nirvana",
+      "subtitle": "Grunge",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Nirvana"
+    },
+    {
+      "id": "adele",
+      "name": "Adele",
+      "subtitle": "Pop/Soul",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Adele"
+    },
+    {
+      "id": "bruce-springsteen",
+      "name": "Bruce Springsteen",
+      "subtitle": "Rock",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bruce+Springsteen"
+    },
+    {
+      "id": "elton-john",
+      "name": "Elton John",
+      "subtitle": "Pop/Rock",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Elton+John"
+    },
+    {
+      "id": "jimi-hendrix",
+      "name": "Jimi Hendrix",
+      "subtitle": "Rock",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Jimi+Hendrix"
+    },
+    {
+      "id": "frank-sinatra",
+      "name": "Frank Sinatra",
+      "subtitle": "Jazz/Pop",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Frank+Sinatra"
+    },
+    {
+      "id": "mariah-carey",
+      "name": "Mariah Carey",
+      "subtitle": "Pop/R&B",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Mariah+Carey"
+    },
+    {
+      "id": "radiohead",
+      "name": "Radiohead",
+      "subtitle": "Alt Rock",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Radiohead"
+    },
+    {
+      "id": "u2",
+      "name": "U2",
+      "subtitle": "Rock",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=U2"
+    },
+    {
+      "id": "kanye-west-artist",
+      "name": "Kanye West",
+      "subtitle": "Hip-Hop",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kanye+West"
+    },
+    {
+      "id": "drake-artist",
+      "name": "Drake",
+      "subtitle": "Hip-Hop/R&B",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Drake"
+    },
+    {
+      "id": "kendrick-lamar",
+      "name": "Kendrick Lamar",
+      "subtitle": "Hip-Hop",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kendrick+Lamar"
+    },
+    {
+      "id": "eminem",
+      "name": "Eminem",
+      "subtitle": "Hip-Hop",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Eminem"
+    },
+    {
+      "id": "billie-eilish",
+      "name": "Billie Eilish",
+      "subtitle": "Pop",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Billie+Eilish"
+    },
+    {
+      "id": "the-weeknd",
+      "name": "The Weeknd",
+      "subtitle": "R&B/Pop",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Weeknd"
+    }
   ]
 }

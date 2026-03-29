@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "everything-everywhere-all-at-once", "name": "Everything Everywhere All at Once", "subtitle": "2023 Winner" },
-    { "id": "oppenheimer", "name": "Oppenheimer", "subtitle": "2024 Winner" },
-    { "id": "parasite", "name": "Parasite", "subtitle": "2020 Winner" },
-    { "id": "nomadland", "name": "Nomadland", "subtitle": "2021 Winner" },
-    { "id": "coda", "name": "CODA", "subtitle": "2022 Winner" },
-    { "id": "moonlight", "name": "Moonlight", "subtitle": "2017 Winner" },
-    { "id": "the-shape-of-water", "name": "The Shape of Water", "subtitle": "2018 Winner" },
-    { "id": "green-book", "name": "Green Book", "subtitle": "2019 Winner" },
-    { "id": "spotlight", "name": "Spotlight", "subtitle": "2016 Winner" },
-    { "id": "birdman", "name": "Birdman", "subtitle": "2015 Winner" },
-    { "id": "12-years-a-slave", "name": "12 Years a Slave", "subtitle": "2014 Winner" },
-    { "id": "argo", "name": "Argo", "subtitle": "2013 Winner" },
-    { "id": "the-artist", "name": "The Artist", "subtitle": "2012 Winner" },
-    { "id": "the-kings-speech", "name": "The King's Speech", "subtitle": "2011 Winner" },
-    { "id": "the-hurt-locker", "name": "The Hurt Locker", "subtitle": "2010 Winner" },
-    { "id": "no-country-for-old-men", "name": "No Country for Old Men", "subtitle": "2008 Winner" },
-    { "id": "anora", "name": "Anora", "subtitle": "2025 Winner" },
-    { "id": "the-departed", "name": "The Departed", "subtitle": "2007 Winner" },
-    { "id": "la-la-land", "name": "La La Land", "subtitle": "2017 Nominee" },
-    { "id": "1917", "name": "1917", "subtitle": "2020 Nominee" },
-    { "id": "joker", "name": "Joker", "subtitle": "2020 Nominee" },
-    { "id": "the-power-of-the-dog", "name": "The Power of the Dog", "subtitle": "2022 Nominee" },
-    { "id": "the-fabelmans", "name": "The Fabelmans", "subtitle": "2023 Nominee" },
-    { "id": "tar", "name": "Tar", "subtitle": "2023 Nominee" },
-    { "id": "killers-of-the-flower-moon", "name": "Killers of the Flower Moon", "subtitle": "2024 Nominee" },
-    { "id": "barbie", "name": "Barbie", "subtitle": "2024 Nominee" },
-    { "id": "the-holdovers", "name": "The Holdovers", "subtitle": "2024 Nominee" },
-    { "id": "past-lives", "name": "Past Lives", "subtitle": "2024 Nominee" },
-    { "id": "anatomy-of-a-fall", "name": "Anatomy of a Fall", "subtitle": "2024 Nominee" },
-    { "id": "american-fiction", "name": "American Fiction", "subtitle": "2024 Nominee" },
-    { "id": "the-zone-of-interest", "name": "The Zone of Interest", "subtitle": "2024 Nominee" },
-    { "id": "maestro", "name": "Maestro", "subtitle": "2024 Nominee" }
+    {
+      "id": "everything-everywhere-all-at-once",
+      "name": "Everything Everywhere All at Once",
+      "subtitle": "2023 Winner",
+      "image": "https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg"
+    },
+    {
+      "id": "oppenheimer",
+      "name": "Oppenheimer",
+      "subtitle": "2024 Winner",
+      "image": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+    },
+    {
+      "id": "parasite",
+      "name": "Parasite",
+      "subtitle": "2020 Winner",
+      "image": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+    },
+    {
+      "id": "nomadland",
+      "name": "Nomadland",
+      "subtitle": "2021 Winner",
+      "image": "https://image.tmdb.org/t/p/w500/fmHGjiCsHTlhisFc8NqXrG0h5UR.jpg"
+    },
+    {
+      "id": "coda",
+      "name": "CODA",
+      "subtitle": "2022 Winner",
+      "image": "https://image.tmdb.org/t/p/w500/b5GI1KM03Lxqhlhm4sPPSfL0wAh.jpg"
+    },
+    {
+      "id": "moonlight",
+      "name": "Moonlight",
+      "subtitle": "2017 Winner",
+      "image": "https://image.tmdb.org/t/p/w500/4911T5FbJ9eD2Faz5Z8cT3SUhU3.jpg"
+    },
+    {
+      "id": "the-shape-of-water",
+      "name": "The Shape of Water",
+      "subtitle": "2018 Winner",
+      "image": "https://image.tmdb.org/t/p/w500/9zBIMcp3G2c4I7rZ7hhzRNWflBq.jpg"
+    },
+    {
+      "id": "green-book",
+      "name": "Green Book",
+      "subtitle": "2019 Winner",
+      "image": "https://image.tmdb.org/t/p/w500/7BsvSuDQuoqhWmU2fL7W2GOcZHU.jpg"
+    },
+    {
+      "id": "spotlight",
+      "name": "Spotlight",
+      "subtitle": "2016 Winner",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Spotlight"
+    },
+    {
+      "id": "birdman",
+      "name": "Birdman",
+      "subtitle": "2015 Winner",
+      "image": "https://image.tmdb.org/t/p/w500/rR2jG2mYJ9SqtdMdCSYz0FDqVpQ.jpg"
+    },
+    {
+      "id": "12-years-a-slave",
+      "name": "12 Years a Slave",
+      "subtitle": "2014 Winner",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=12+Years+a+Slave"
+    },
+    {
+      "id": "argo",
+      "name": "Argo",
+      "subtitle": "2013 Winner",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Argo"
+    },
+    {
+      "id": "the-artist",
+      "name": "The Artist",
+      "subtitle": "2012 Winner",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Artist"
+    },
+    {
+      "id": "the-kings-speech",
+      "name": "The King's Speech",
+      "subtitle": "2011 Winner",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+King's+Speech"
+    },
+    {
+      "id": "the-hurt-locker",
+      "name": "The Hurt Locker",
+      "subtitle": "2010 Winner",
+      "image": "https://image.tmdb.org/t/p/w500/kPRhB2o1MEbPj3IiFdJvDQVfseV.jpg"
+    },
+    {
+      "id": "no-country-for-old-men",
+      "name": "No Country for Old Men",
+      "subtitle": "2008 Winner",
+      "image": "https://image.tmdb.org/t/p/w500/6d5XOczc226IdIfs4eFhFYJnQVw.jpg"
+    },
+    {
+      "id": "anora",
+      "name": "Anora",
+      "subtitle": "2025 Winner",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Anora"
+    },
+    {
+      "id": "the-departed",
+      "name": "The Departed",
+      "subtitle": "2007 Winner",
+      "image": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Dqv4k7VA.jpg"
+    },
+    {
+      "id": "la-la-land",
+      "name": "La La Land",
+      "subtitle": "2017 Nominee",
+      "image": "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+    },
+    {
+      "id": "1917",
+      "name": "1917",
+      "subtitle": "2020 Nominee",
+      "image": "https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFDufj2nS.jpg"
+    },
+    {
+      "id": "joker",
+      "name": "Joker",
+      "subtitle": "2020 Nominee",
+      "image": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+    },
+    {
+      "id": "the-power-of-the-dog",
+      "name": "The Power of the Dog",
+      "subtitle": "2022 Nominee",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Power+of+the+Dog"
+    },
+    {
+      "id": "the-fabelmans",
+      "name": "The Fabelmans",
+      "subtitle": "2023 Nominee",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Fabelmans"
+    },
+    {
+      "id": "tar",
+      "name": "Tar",
+      "subtitle": "2023 Nominee",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Tar"
+    },
+    {
+      "id": "killers-of-the-flower-moon",
+      "name": "Killers of the Flower Moon",
+      "subtitle": "2024 Nominee",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Killers+of+the+Flower+Moon"
+    },
+    {
+      "id": "barbie",
+      "name": "Barbie",
+      "subtitle": "2024 Nominee",
+      "image": "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg"
+    },
+    {
+      "id": "the-holdovers",
+      "name": "The Holdovers",
+      "subtitle": "2024 Nominee",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Holdovers"
+    },
+    {
+      "id": "past-lives",
+      "name": "Past Lives",
+      "subtitle": "2024 Nominee",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Past+Lives"
+    },
+    {
+      "id": "anatomy-of-a-fall",
+      "name": "Anatomy of a Fall",
+      "subtitle": "2024 Nominee",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Anatomy+of+a+Fall"
+    },
+    {
+      "id": "american-fiction",
+      "name": "American Fiction",
+      "subtitle": "2024 Nominee",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=American+Fiction"
+    },
+    {
+      "id": "the-zone-of-interest",
+      "name": "The Zone of Interest",
+      "subtitle": "2024 Nominee",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Zone+of+Interest"
+    },
+    {
+      "id": "maestro",
+      "name": "Maestro",
+      "subtitle": "2024 Nominee",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Maestro"
+    }
   ]
 }

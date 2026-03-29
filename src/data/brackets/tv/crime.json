@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "breaking-bad-crime", "name": "Breaking Bad", "subtitle": "2008-2013" },
-    { "id": "the-wire-crime", "name": "The Wire", "subtitle": "2002-2008" },
-    { "id": "the-sopranos-crime", "name": "The Sopranos", "subtitle": "1999-2007" },
-    { "id": "true-detective", "name": "True Detective", "subtitle": "2014-present" },
-    { "id": "mindhunter-crime", "name": "Mindhunter", "subtitle": "2017-2019" },
-    { "id": "narcos-crime", "name": "Narcos", "subtitle": "2015-2017" },
-    { "id": "fargo-tv", "name": "Fargo", "subtitle": "2014-present" },
-    { "id": "ozark-crime", "name": "Ozark", "subtitle": "2017-2022" },
-    { "id": "better-call-saul-crime", "name": "Better Call Saul", "subtitle": "2015-2022" },
-    { "id": "peaky-blinders-crime", "name": "Peaky Blinders", "subtitle": "2013-2022" },
-    { "id": "line-of-duty", "name": "Line of Duty", "subtitle": "2012-2021" },
-    { "id": "dexter-crime", "name": "Dexter", "subtitle": "2006-2013" },
-    { "id": "luther", "name": "Luther", "subtitle": "2010-2019" },
-    { "id": "law-and-order-svu", "name": "Law & Order: SVU", "subtitle": "1999-present" },
-    { "id": "criminal-minds", "name": "Criminal Minds", "subtitle": "2005-present" },
-    { "id": "ncis", "name": "NCIS", "subtitle": "2003-present" },
-    { "id": "csi", "name": "CSI: Crime Scene Investigation", "subtitle": "2000-2015" },
-    { "id": "broadchurch", "name": "Broadchurch", "subtitle": "2013-2017" },
-    { "id": "killing-eve", "name": "Killing Eve", "subtitle": "2018-2022" },
-    { "id": "the-blacklist", "name": "The Blacklist", "subtitle": "2013-2023" },
-    { "id": "sherlock", "name": "Sherlock", "subtitle": "2010-2017" },
-    { "id": "mare-of-easttown", "name": "Mare of Easttown", "subtitle": "2021" },
-    { "id": "the-shield-crime", "name": "The Shield", "subtitle": "2002-2008" },
-    { "id": "only-murders-in-the-building", "name": "Only Murders in the Building", "subtitle": "2021-present" }
+    {
+      "id": "breaking-bad-crime",
+      "name": "Breaking Bad",
+      "subtitle": "2008-2013",
+      "image": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg"
+    },
+    {
+      "id": "the-wire-crime",
+      "name": "The Wire",
+      "subtitle": "2002-2008",
+      "image": "https://image.tmdb.org/t/p/w500/4lbclFbWhn0ASf0Lqp17McBi8jI.jpg"
+    },
+    {
+      "id": "the-sopranos-crime",
+      "name": "The Sopranos",
+      "subtitle": "1999-2007",
+      "image": "https://image.tmdb.org/t/p/w500/57okJJUBK0Rjuq7SE9aDtMQWxoY.jpg"
+    },
+    {
+      "id": "true-detective",
+      "name": "True Detective",
+      "subtitle": "2014-present",
+      "image": "https://image.tmdb.org/t/p/w500/aowr0Cy9trmlfn6VjxgMGZjGRQw.jpg"
+    },
+    {
+      "id": "mindhunter-crime",
+      "name": "Mindhunter",
+      "subtitle": "2017-2019",
+      "image": "https://image.tmdb.org/t/p/w500/gq57cFV5fRXhEjwsFqNLcBXLb7G.jpg"
+    },
+    {
+      "id": "narcos-crime",
+      "name": "Narcos",
+      "subtitle": "2015-2017",
+      "image": "https://image.tmdb.org/t/p/w500/rTmal9fDbwh5F0waol2hq35U4ah.jpg"
+    },
+    {
+      "id": "fargo-tv",
+      "name": "Fargo",
+      "subtitle": "2014-present",
+      "image": "https://image.tmdb.org/t/p/w500/6U9CPeD8obHzweikFhiLhpc7YBT.jpg"
+    },
+    {
+      "id": "ozark-crime",
+      "name": "Ozark",
+      "subtitle": "2017-2022",
+      "image": "https://image.tmdb.org/t/p/w500/pCgyMacg4p0IfJKvJsMC7IJKyx3.jpg"
+    },
+    {
+      "id": "better-call-saul-crime",
+      "name": "Better Call Saul",
+      "subtitle": "2015-2022",
+      "image": "https://image.tmdb.org/t/p/w500/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg"
+    },
+    {
+      "id": "peaky-blinders-crime",
+      "name": "Peaky Blinders",
+      "subtitle": "2013-2022",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Peaky+Blinders"
+    },
+    {
+      "id": "line-of-duty",
+      "name": "Line of Duty",
+      "subtitle": "2012-2021",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Line+of+Duty"
+    },
+    {
+      "id": "dexter-crime",
+      "name": "Dexter",
+      "subtitle": "2006-2013",
+      "image": "https://image.tmdb.org/t/p/w500/58H4JCslgDkJEMSLmnKGjp9X2pK.jpg"
+    },
+    {
+      "id": "luther",
+      "name": "Luther",
+      "subtitle": "2010-2019",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Luther"
+    },
+    {
+      "id": "law-and-order-svu",
+      "name": "Law & Order: SVU",
+      "subtitle": "1999-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Law+%26+Order%3A+SVU"
+    },
+    {
+      "id": "criminal-minds",
+      "name": "Criminal Minds",
+      "subtitle": "2005-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Criminal+Minds"
+    },
+    {
+      "id": "ncis",
+      "name": "NCIS",
+      "subtitle": "2003-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=NCIS"
+    },
+    {
+      "id": "csi",
+      "name": "CSI: Crime Scene Investigation",
+      "subtitle": "2000-2015",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=CSI%3A+Crime+Scene+Investigation"
+    },
+    {
+      "id": "broadchurch",
+      "name": "Broadchurch",
+      "subtitle": "2013-2017",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Broadchurch"
+    },
+    {
+      "id": "killing-eve",
+      "name": "Killing Eve",
+      "subtitle": "2018-2022",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Killing+Eve"
+    },
+    {
+      "id": "the-blacklist",
+      "name": "The Blacklist",
+      "subtitle": "2013-2023",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Blacklist"
+    },
+    {
+      "id": "sherlock",
+      "name": "Sherlock",
+      "subtitle": "2010-2017",
+      "image": "https://image.tmdb.org/t/p/w500/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg"
+    },
+    {
+      "id": "mare-of-easttown",
+      "name": "Mare of Easttown",
+      "subtitle": "2021",
+      "image": "https://image.tmdb.org/t/p/w500/qMH7RExSDAIYUacxmeTp9E2yNnm.jpg"
+    },
+    {
+      "id": "the-shield-crime",
+      "name": "The Shield",
+      "subtitle": "2002-2008",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Shield"
+    },
+    {
+      "id": "only-murders-in-the-building",
+      "name": "Only Murders in the Building",
+      "subtitle": "2021-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Only+Murders+in+the+Building"
+    }
   ]
 }

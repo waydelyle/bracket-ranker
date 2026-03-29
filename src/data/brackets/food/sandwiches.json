@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "blt", "name": "BLT", "subtitle": "Bacon, lettuce and tomato" },
-    { "id": "club-sandwich", "name": "Club Sandwich", "subtitle": "Triple-decker classic" },
-    { "id": "reuben", "name": "Reuben", "subtitle": "Corned beef and sauerkraut" },
-    { "id": "philly-cheesesteak", "name": "Philly Cheesesteak", "subtitle": "Sliced beef and cheese" },
-    { "id": "cuban", "name": "Cuban Sandwich", "subtitle": "Ham, pork and pickles" },
-    { "id": "grilled-cheese-sand", "name": "Grilled Cheese", "subtitle": "Melty and buttery" },
-    { "id": "turkey-club", "name": "Turkey Club", "subtitle": "Deli turkey stack" },
-    { "id": "italian-sub", "name": "Italian Sub", "subtitle": "Salami, capicola and provolone" },
-    { "id": "po-boy", "name": "Po Boy", "subtitle": "New Orleans fried seafood" },
-    { "id": "monte-cristo", "name": "Monte Cristo", "subtitle": "Fried ham and cheese" },
-    { "id": "banh-mi", "name": "Banh Mi", "subtitle": "Vietnamese baguette" },
-    { "id": "pulled-pork", "name": "Pulled Pork Sandwich", "subtitle": "BBQ classic" },
-    { "id": "pb-and-j", "name": "PB and J", "subtitle": "Childhood classic" },
-    { "id": "chicken-parm-sub", "name": "Chicken Parm Sub", "subtitle": "Breaded chicken and marinara" },
-    { "id": "french-dip", "name": "French Dip", "subtitle": "Roast beef with au jus" },
-    { "id": "lobster-roll", "name": "Lobster Roll", "subtitle": "New England delicacy" }
+    {
+      "id": "blt",
+      "name": "BLT",
+      "subtitle": "Bacon, lettuce and tomato",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=BLT"
+    },
+    {
+      "id": "club-sandwich",
+      "name": "Club Sandwich",
+      "subtitle": "Triple-decker classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Club+Sandwich"
+    },
+    {
+      "id": "reuben",
+      "name": "Reuben",
+      "subtitle": "Corned beef and sauerkraut",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Reuben"
+    },
+    {
+      "id": "philly-cheesesteak",
+      "name": "Philly Cheesesteak",
+      "subtitle": "Sliced beef and cheese",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Philly+Cheesesteak"
+    },
+    {
+      "id": "cuban",
+      "name": "Cuban Sandwich",
+      "subtitle": "Ham, pork and pickles",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cuban+Sandwich"
+    },
+    {
+      "id": "grilled-cheese-sand",
+      "name": "Grilled Cheese",
+      "subtitle": "Melty and buttery",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Grilled+Cheese"
+    },
+    {
+      "id": "turkey-club",
+      "name": "Turkey Club",
+      "subtitle": "Deli turkey stack",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Turkey+Club"
+    },
+    {
+      "id": "italian-sub",
+      "name": "Italian Sub",
+      "subtitle": "Salami, capicola and provolone",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Italian+Sub"
+    },
+    {
+      "id": "po-boy",
+      "name": "Po Boy",
+      "subtitle": "New Orleans fried seafood",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Po+Boy"
+    },
+    {
+      "id": "monte-cristo",
+      "name": "Monte Cristo",
+      "subtitle": "Fried ham and cheese",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Monte+Cristo"
+    },
+    {
+      "id": "banh-mi",
+      "name": "Banh Mi",
+      "subtitle": "Vietnamese baguette",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Banh+Mi"
+    },
+    {
+      "id": "pulled-pork",
+      "name": "Pulled Pork Sandwich",
+      "subtitle": "BBQ classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pulled+Pork+Sandwich"
+    },
+    {
+      "id": "pb-and-j",
+      "name": "PB and J",
+      "subtitle": "Childhood classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=PB+and+J"
+    },
+    {
+      "id": "chicken-parm-sub",
+      "name": "Chicken Parm Sub",
+      "subtitle": "Breaded chicken and marinara",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chicken+Parm+Sub"
+    },
+    {
+      "id": "french-dip",
+      "name": "French Dip",
+      "subtitle": "Roast beef with au jus",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=French+Dip"
+    },
+    {
+      "id": "lobster-roll",
+      "name": "Lobster Roll",
+      "subtitle": "New England delicacy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Lobster+Roll"
+    }
   ]
 }

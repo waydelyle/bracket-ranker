@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "japanese", "name": "Japanese", "subtitle": "Sushi, ramen, tempura" },
-    { "id": "thai", "name": "Thai", "subtitle": "Pad thai, curries, tom yum" },
-    { "id": "chinese", "name": "Chinese", "subtitle": "Dim sum, stir fry, dumplings" },
-    { "id": "korean", "name": "Korean", "subtitle": "BBQ, bibimbap, kimchi" },
-    { "id": "indian", "name": "Indian", "subtitle": "Curry, naan, biryani" },
-    { "id": "vietnamese", "name": "Vietnamese", "subtitle": "Pho, banh mi, spring rolls" },
-    { "id": "filipino", "name": "Filipino", "subtitle": "Adobo, lumpia, sinigang" },
-    { "id": "indonesian", "name": "Indonesian", "subtitle": "Nasi goreng, satay, rendang" },
-    { "id": "malaysian", "name": "Malaysian", "subtitle": "Laksa, nasi lemak, roti canai" },
-    { "id": "taiwanese", "name": "Taiwanese", "subtitle": "Beef noodle soup, bubble tea" },
-    { "id": "singaporean", "name": "Singaporean", "subtitle": "Chili crab, Hainanese chicken" },
-    { "id": "burmese", "name": "Burmese", "subtitle": "Mohinga, tea leaf salad" },
-    { "id": "nepali", "name": "Nepali", "subtitle": "Momos, dal bhat" },
-    { "id": "sri-lankan", "name": "Sri Lankan", "subtitle": "Hoppers, kottu roti" },
-    { "id": "pakistani", "name": "Pakistani", "subtitle": "Nihari, biryani, seekh kebab" },
-    { "id": "bangladeshi", "name": "Bangladeshi", "subtitle": "Hilsa fish, biryani" }
+    {
+      "id": "japanese",
+      "name": "Japanese",
+      "subtitle": "Sushi, ramen, tempura",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Japanese"
+    },
+    {
+      "id": "thai",
+      "name": "Thai",
+      "subtitle": "Pad thai, curries, tom yum",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Thai"
+    },
+    {
+      "id": "chinese",
+      "name": "Chinese",
+      "subtitle": "Dim sum, stir fry, dumplings",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chinese"
+    },
+    {
+      "id": "korean",
+      "name": "Korean",
+      "subtitle": "BBQ, bibimbap, kimchi",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Korean"
+    },
+    {
+      "id": "indian",
+      "name": "Indian",
+      "subtitle": "Curry, naan, biryani",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Indian"
+    },
+    {
+      "id": "vietnamese",
+      "name": "Vietnamese",
+      "subtitle": "Pho, banh mi, spring rolls",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Vietnamese"
+    },
+    {
+      "id": "filipino",
+      "name": "Filipino",
+      "subtitle": "Adobo, lumpia, sinigang",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Filipino"
+    },
+    {
+      "id": "indonesian",
+      "name": "Indonesian",
+      "subtitle": "Nasi goreng, satay, rendang",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Indonesian"
+    },
+    {
+      "id": "malaysian",
+      "name": "Malaysian",
+      "subtitle": "Laksa, nasi lemak, roti canai",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Malaysian"
+    },
+    {
+      "id": "taiwanese",
+      "name": "Taiwanese",
+      "subtitle": "Beef noodle soup, bubble tea",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Taiwanese"
+    },
+    {
+      "id": "singaporean",
+      "name": "Singaporean",
+      "subtitle": "Chili crab, Hainanese chicken",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Singaporean"
+    },
+    {
+      "id": "burmese",
+      "name": "Burmese",
+      "subtitle": "Mohinga, tea leaf salad",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Burmese"
+    },
+    {
+      "id": "nepali",
+      "name": "Nepali",
+      "subtitle": "Momos, dal bhat",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Nepali"
+    },
+    {
+      "id": "sri-lankan",
+      "name": "Sri Lankan",
+      "subtitle": "Hoppers, kottu roti",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Sri+Lankan"
+    },
+    {
+      "id": "pakistani",
+      "name": "Pakistani",
+      "subtitle": "Nihari, biryani, seekh kebab",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pakistani"
+    },
+    {
+      "id": "bangladeshi",
+      "name": "Bangladeshi",
+      "subtitle": "Hilsa fish, biryani",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Bangladeshi"
+    }
   ]
 }

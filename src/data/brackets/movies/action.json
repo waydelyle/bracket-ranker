@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "mad-max-fury-road", "name": "Mad Max: Fury Road", "subtitle": "2015" },
-    { "id": "john-wick", "name": "John Wick", "subtitle": "2014" },
-    { "id": "die-hard-action", "name": "Die Hard", "subtitle": "1988" },
-    { "id": "the-dark-knight", "name": "The Dark Knight", "subtitle": "2008" },
-    { "id": "terminator-2-action", "name": "Terminator 2: Judgment Day", "subtitle": "1991" },
-    { "id": "raiders-of-the-lost-ark", "name": "Raiders of the Lost Ark", "subtitle": "1981" },
-    { "id": "gladiator", "name": "Gladiator", "subtitle": "2000" },
-    { "id": "the-matrix-action", "name": "The Matrix", "subtitle": "1999" },
-    { "id": "mission-impossible-fallout", "name": "Mission: Impossible - Fallout", "subtitle": "2018" },
-    { "id": "kill-bill-vol-1", "name": "Kill Bill: Vol. 1", "subtitle": "2003" },
-    { "id": "top-gun-maverick", "name": "Top Gun: Maverick", "subtitle": "2022" },
-    { "id": "the-bourne-identity", "name": "The Bourne Identity", "subtitle": "2002" },
-    { "id": "predator", "name": "Predator", "subtitle": "1987" },
-    { "id": "lethal-weapon", "name": "Lethal Weapon", "subtitle": "1987" },
-    { "id": "the-raid", "name": "The Raid", "subtitle": "2011" },
-    { "id": "crouching-tiger-hidden-dragon", "name": "Crouching Tiger, Hidden Dragon", "subtitle": "2000" },
-    { "id": "fury-road", "name": "The Road Warrior", "subtitle": "1981" },
-    { "id": "300", "name": "300", "subtitle": "2006" },
-    { "id": "john-wick-4", "name": "John Wick: Chapter 4", "subtitle": "2023" },
-    { "id": "speed-action", "name": "Speed", "subtitle": "1994" },
-    { "id": "point-break", "name": "Point Break", "subtitle": "1991" },
-    { "id": "total-recall", "name": "Total Recall", "subtitle": "1990" },
-    { "id": "robocop", "name": "RoboCop", "subtitle": "1987" },
-    { "id": "the-fugitive", "name": "The Fugitive", "subtitle": "1993" },
-    { "id": "ip-man", "name": "Ip Man", "subtitle": "2008" },
-    { "id": "casino-royale", "name": "Casino Royale", "subtitle": "2006" },
-    { "id": "the-rock", "name": "The Rock", "subtitle": "1996" },
-    { "id": "fast-five", "name": "Fast Five", "subtitle": "2011" },
-    { "id": "aliens", "name": "Aliens", "subtitle": "1986" },
-    { "id": "extraction", "name": "Extraction", "subtitle": "2020" },
-    { "id": "first-blood", "name": "First Blood", "subtitle": "1982" },
-    { "id": "hard-boiled", "name": "Hard Boiled", "subtitle": "1992" }
+    {
+      "id": "mad-max-fury-road",
+      "name": "Mad Max: Fury Road",
+      "subtitle": "2015",
+      "image": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg"
+    },
+    {
+      "id": "john-wick",
+      "name": "John Wick",
+      "subtitle": "2014",
+      "image": "https://image.tmdb.org/t/p/w500/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg"
+    },
+    {
+      "id": "die-hard-action",
+      "name": "Die Hard",
+      "subtitle": "1988",
+      "image": "https://image.tmdb.org/t/p/w500/yFihWxQcmqcaBR31QM6Y8gT6aYV.jpg"
+    },
+    {
+      "id": "the-dark-knight",
+      "name": "The Dark Knight",
+      "subtitle": "2008",
+      "image": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911kpWdfASJGnGT.jpg"
+    },
+    {
+      "id": "terminator-2-action",
+      "name": "Terminator 2: Judgment Day",
+      "subtitle": "1991",
+      "image": "https://image.tmdb.org/t/p/w500/5M0j0B18abtBI5bQat1zhas1vOU.jpg"
+    },
+    {
+      "id": "raiders-of-the-lost-ark",
+      "name": "Raiders of the Lost Ark",
+      "subtitle": "1981",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Raiders+of+the+Lost+Ark"
+    },
+    {
+      "id": "gladiator",
+      "name": "Gladiator",
+      "subtitle": "2000",
+      "image": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgCLbm.jpg"
+    },
+    {
+      "id": "the-matrix-action",
+      "name": "The Matrix",
+      "subtitle": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg"
+    },
+    {
+      "id": "mission-impossible-fallout",
+      "name": "Mission: Impossible - Fallout",
+      "subtitle": "2018",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Mission%3A+Impossible+-+Fallout"
+    },
+    {
+      "id": "kill-bill-vol-1",
+      "name": "Kill Bill: Vol. 1",
+      "subtitle": "2003",
+      "image": "https://image.tmdb.org/t/p/w500/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg"
+    },
+    {
+      "id": "top-gun-maverick",
+      "name": "Top Gun: Maverick",
+      "subtitle": "2022",
+      "image": "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg"
+    },
+    {
+      "id": "the-bourne-identity",
+      "name": "The Bourne Identity",
+      "subtitle": "2002",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Bourne+Identity"
+    },
+    {
+      "id": "predator",
+      "name": "Predator",
+      "subtitle": "1987",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Predator"
+    },
+    {
+      "id": "lethal-weapon",
+      "name": "Lethal Weapon",
+      "subtitle": "1987",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Lethal+Weapon"
+    },
+    {
+      "id": "the-raid",
+      "name": "The Raid",
+      "subtitle": "2011",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Raid"
+    },
+    {
+      "id": "crouching-tiger-hidden-dragon",
+      "name": "Crouching Tiger, Hidden Dragon",
+      "subtitle": "2000",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Crouching+Tiger%2C+Hidden+Dragon"
+    },
+    {
+      "id": "fury-road",
+      "name": "The Road Warrior",
+      "subtitle": "1981",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Road+Warrior"
+    },
+    {
+      "id": "300",
+      "name": "300",
+      "subtitle": "2006",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=300"
+    },
+    {
+      "id": "john-wick-4",
+      "name": "John Wick: Chapter 4",
+      "subtitle": "2023",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=John+Wick%3A+Chapter+4"
+    },
+    {
+      "id": "speed-action",
+      "name": "Speed",
+      "subtitle": "1994",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Speed"
+    },
+    {
+      "id": "point-break",
+      "name": "Point Break",
+      "subtitle": "1991",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Point+Break"
+    },
+    {
+      "id": "total-recall",
+      "name": "Total Recall",
+      "subtitle": "1990",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Total+Recall"
+    },
+    {
+      "id": "robocop",
+      "name": "RoboCop",
+      "subtitle": "1987",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=RoboCop"
+    },
+    {
+      "id": "the-fugitive",
+      "name": "The Fugitive",
+      "subtitle": "1993",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Fugitive"
+    },
+    {
+      "id": "ip-man",
+      "name": "Ip Man",
+      "subtitle": "2008",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Ip+Man"
+    },
+    {
+      "id": "casino-royale",
+      "name": "Casino Royale",
+      "subtitle": "2006",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Casino+Royale"
+    },
+    {
+      "id": "the-rock",
+      "name": "The Rock",
+      "subtitle": "1996",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Rock"
+    },
+    {
+      "id": "fast-five",
+      "name": "Fast Five",
+      "subtitle": "2011",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Fast+Five"
+    },
+    {
+      "id": "aliens",
+      "name": "Aliens",
+      "subtitle": "1986",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Aliens"
+    },
+    {
+      "id": "extraction",
+      "name": "Extraction",
+      "subtitle": "2020",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Extraction"
+    },
+    {
+      "id": "first-blood",
+      "name": "First Blood",
+      "subtitle": "1982",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=First+Blood"
+    },
+    {
+      "id": "hard-boiled",
+      "name": "Hard Boiled",
+      "subtitle": "1992",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Hard+Boiled"
+    }
   ]
 }

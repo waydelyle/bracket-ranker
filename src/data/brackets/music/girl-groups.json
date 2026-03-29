@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "destiny-s-child", "name": "Destiny's Child", "subtitle": "1990-2006" },
-    { "id": "spice-girls", "name": "Spice Girls", "subtitle": "1994-2000" },
-    { "id": "tlc", "name": "TLC", "subtitle": "1991-present" },
-    { "id": "the-supremes", "name": "The Supremes", "subtitle": "1959-1977" },
-    { "id": "en-vogue", "name": "En Vogue", "subtitle": "1989-present" },
-    { "id": "the-ronettes", "name": "The Ronettes", "subtitle": "1957-1966" },
-    { "id": "salt-n-pepa", "name": "Salt-N-Pepa", "subtitle": "1985-present" },
-    { "id": "the-pointer-sisters", "name": "The Pointer Sisters", "subtitle": "1969-present" },
-    { "id": "little-mix", "name": "Little Mix", "subtitle": "2011-2022" },
-    { "id": "the-pussycat-dolls", "name": "The Pussycat Dolls", "subtitle": "2003-2010" },
-    { "id": "the-bangles", "name": "The Bangles", "subtitle": "1981-present" },
-    { "id": "blackpink", "name": "BLACKPINK", "subtitle": "2016-present" },
-    { "id": "fifth-harmony", "name": "Fifth Harmony", "subtitle": "2012-2018" },
-    { "id": "the-chicks", "name": "The Chicks", "subtitle": "1989-present" },
-    { "id": "sugababes", "name": "Sugababes", "subtitle": "1998-present" },
-    { "id": "girls-aloud", "name": "Girls Aloud", "subtitle": "2002-2013" }
+    {
+      "id": "destiny-s-child",
+      "name": "Destiny's Child",
+      "subtitle": "1990-2006",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Destiny's+Child"
+    },
+    {
+      "id": "spice-girls",
+      "name": "Spice Girls",
+      "subtitle": "1994-2000",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Spice+Girls"
+    },
+    {
+      "id": "tlc",
+      "name": "TLC",
+      "subtitle": "1991-present",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=TLC"
+    },
+    {
+      "id": "the-supremes",
+      "name": "The Supremes",
+      "subtitle": "1959-1977",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Supremes"
+    },
+    {
+      "id": "en-vogue",
+      "name": "En Vogue",
+      "subtitle": "1989-present",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=En+Vogue"
+    },
+    {
+      "id": "the-ronettes",
+      "name": "The Ronettes",
+      "subtitle": "1957-1966",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Ronettes"
+    },
+    {
+      "id": "salt-n-pepa",
+      "name": "Salt-N-Pepa",
+      "subtitle": "1985-present",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Salt-N-Pepa"
+    },
+    {
+      "id": "the-pointer-sisters",
+      "name": "The Pointer Sisters",
+      "subtitle": "1969-present",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Pointer+Sisters"
+    },
+    {
+      "id": "little-mix",
+      "name": "Little Mix",
+      "subtitle": "2011-2022",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Little+Mix"
+    },
+    {
+      "id": "the-pussycat-dolls",
+      "name": "The Pussycat Dolls",
+      "subtitle": "2003-2010",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Pussycat+Dolls"
+    },
+    {
+      "id": "the-bangles",
+      "name": "The Bangles",
+      "subtitle": "1981-present",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Bangles"
+    },
+    {
+      "id": "blackpink",
+      "name": "BLACKPINK",
+      "subtitle": "2016-present",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=BLACKPINK"
+    },
+    {
+      "id": "fifth-harmony",
+      "name": "Fifth Harmony",
+      "subtitle": "2012-2018",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Fifth+Harmony"
+    },
+    {
+      "id": "the-chicks",
+      "name": "The Chicks",
+      "subtitle": "1989-present",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Chicks"
+    },
+    {
+      "id": "sugababes",
+      "name": "Sugababes",
+      "subtitle": "1998-present",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sugababes"
+    },
+    {
+      "id": "girls-aloud",
+      "name": "Girls Aloud",
+      "subtitle": "2002-2013",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Girls+Aloud"
+    }
   ]
 }

@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "monopoly", "name": "Monopoly", "subtitle": "Real estate trading" },
-    { "id": "settlers-of-catan", "name": "Settlers of Catan", "subtitle": "Resource trading" },
-    { "id": "chess", "name": "Chess", "subtitle": "Strategic classic" },
-    { "id": "scrabble", "name": "Scrabble", "subtitle": "Word building" },
-    { "id": "risk", "name": "Risk", "subtitle": "World domination" },
-    { "id": "clue", "name": "Clue", "subtitle": "Murder mystery" },
-    { "id": "ticket-to-ride", "name": "Ticket to Ride", "subtitle": "Train routes" },
-    { "id": "codenames", "name": "Codenames", "subtitle": "Word association" },
-    { "id": "pandemic", "name": "Pandemic", "subtitle": "Cooperative disease fighting" },
-    { "id": "uno", "name": "UNO", "subtitle": "Card shedding" },
-    { "id": "cards-against-humanity", "name": "Cards Against Humanity", "subtitle": "Party card game" },
-    { "id": "jenga", "name": "Jenga", "subtitle": "Stacking blocks" },
-    { "id": "trivial-pursuit", "name": "Trivial Pursuit", "subtitle": "Trivia game" },
-    { "id": "battleship", "name": "Battleship", "subtitle": "Naval combat" },
-    { "id": "connect-four", "name": "Connect Four", "subtitle": "Line up four" },
-    { "id": "checkers", "name": "Checkers", "subtitle": "Classic board game" },
-    { "id": "sorry", "name": "Sorry!", "subtitle": "Slide pursuit" },
-    { "id": "life", "name": "The Game of Life", "subtitle": "Life simulation" },
-    { "id": "pictionary", "name": "Pictionary", "subtitle": "Drawing guessing" },
-    { "id": "boggle", "name": "Boggle", "subtitle": "Word search" },
-    { "id": "apples-to-apples", "name": "Apples to Apples", "subtitle": "Comparison party game" },
-    { "id": "backgammon", "name": "Backgammon", "subtitle": "Ancient strategy" },
-    { "id": "wing-span", "name": "Wingspan", "subtitle": "Bird-themed engine building" },
-    { "id": "azul", "name": "Azul", "subtitle": "Tile-laying pattern" }
+    {
+      "id": "monopoly",
+      "name": "Monopoly",
+      "subtitle": "Real estate trading",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Monopoly"
+    },
+    {
+      "id": "settlers-of-catan",
+      "name": "Settlers of Catan",
+      "subtitle": "Resource trading",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Settlers+of+Catan"
+    },
+    {
+      "id": "chess",
+      "name": "Chess",
+      "subtitle": "Strategic classic",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Chess"
+    },
+    {
+      "id": "scrabble",
+      "name": "Scrabble",
+      "subtitle": "Word building",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Scrabble"
+    },
+    {
+      "id": "risk",
+      "name": "Risk",
+      "subtitle": "World domination",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Risk"
+    },
+    {
+      "id": "clue",
+      "name": "Clue",
+      "subtitle": "Murder mystery",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Clue"
+    },
+    {
+      "id": "ticket-to-ride",
+      "name": "Ticket to Ride",
+      "subtitle": "Train routes",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Ticket+to+Ride"
+    },
+    {
+      "id": "codenames",
+      "name": "Codenames",
+      "subtitle": "Word association",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Codenames"
+    },
+    {
+      "id": "pandemic",
+      "name": "Pandemic",
+      "subtitle": "Cooperative disease fighting",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Pandemic"
+    },
+    {
+      "id": "uno",
+      "name": "UNO",
+      "subtitle": "Card shedding",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=UNO"
+    },
+    {
+      "id": "cards-against-humanity",
+      "name": "Cards Against Humanity",
+      "subtitle": "Party card game",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Cards+Against+Humanity"
+    },
+    {
+      "id": "jenga",
+      "name": "Jenga",
+      "subtitle": "Stacking blocks",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Jenga"
+    },
+    {
+      "id": "trivial-pursuit",
+      "name": "Trivial Pursuit",
+      "subtitle": "Trivia game",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Trivial+Pursuit"
+    },
+    {
+      "id": "battleship",
+      "name": "Battleship",
+      "subtitle": "Naval combat",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Battleship"
+    },
+    {
+      "id": "connect-four",
+      "name": "Connect Four",
+      "subtitle": "Line up four",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Connect+Four"
+    },
+    {
+      "id": "checkers",
+      "name": "Checkers",
+      "subtitle": "Classic board game",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Checkers"
+    },
+    {
+      "id": "sorry",
+      "name": "Sorry!",
+      "subtitle": "Slide pursuit",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Sorry!"
+    },
+    {
+      "id": "life",
+      "name": "The Game of Life",
+      "subtitle": "Life simulation",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Game+of+Life"
+    },
+    {
+      "id": "pictionary",
+      "name": "Pictionary",
+      "subtitle": "Drawing guessing",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Pictionary"
+    },
+    {
+      "id": "boggle",
+      "name": "Boggle",
+      "subtitle": "Word search",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Boggle"
+    },
+    {
+      "id": "apples-to-apples",
+      "name": "Apples to Apples",
+      "subtitle": "Comparison party game",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Apples+to+Apples"
+    },
+    {
+      "id": "backgammon",
+      "name": "Backgammon",
+      "subtitle": "Ancient strategy",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Backgammon"
+    },
+    {
+      "id": "wing-span",
+      "name": "Wingspan",
+      "subtitle": "Bird-themed engine building",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Wingspan"
+    },
+    {
+      "id": "azul",
+      "name": "Azul",
+      "subtitle": "Tile-laying pattern",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Azul"
+    }
   ]
 }

@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "johnny-carson", "name": "Johnny Carson", "subtitle": "The Tonight Show" },
-    { "id": "david-letterman", "name": "David Letterman", "subtitle": "Late Night / Late Show" },
-    { "id": "oprah-winfrey", "name": "Oprah Winfrey", "subtitle": "The Oprah Winfrey Show" },
-    { "id": "conan-obrien", "name": "Conan O'Brien", "subtitle": "Conan" },
-    { "id": "jimmy-fallon", "name": "Jimmy Fallon", "subtitle": "The Tonight Show" },
-    { "id": "jimmy-kimmel", "name": "Jimmy Kimmel", "subtitle": "Jimmy Kimmel Live!" },
-    { "id": "john-oliver", "name": "John Oliver", "subtitle": "Last Week Tonight" },
-    { "id": "jon-stewart", "name": "Jon Stewart", "subtitle": "The Daily Show" },
-    { "id": "stephen-colbert", "name": "Stephen Colbert", "subtitle": "The Late Show" },
-    { "id": "seth-meyers", "name": "Seth Meyers", "subtitle": "Late Night" },
-    { "id": "ellen-degeneres", "name": "Ellen DeGeneres", "subtitle": "The Ellen DeGeneres Show" },
-    { "id": "graham-norton", "name": "Graham Norton", "subtitle": "The Graham Norton Show" },
-    { "id": "trevor-noah", "name": "Trevor Noah", "subtitle": "The Daily Show" },
-    { "id": "james-corden", "name": "James Corden", "subtitle": "The Late Late Show" },
-    { "id": "craig-ferguson", "name": "Craig Ferguson", "subtitle": "The Late Late Show" },
-    { "id": "jay-leno", "name": "Jay Leno", "subtitle": "The Tonight Show" }
+    {
+      "id": "johnny-carson",
+      "name": "Johnny Carson",
+      "subtitle": "The Tonight Show",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Johnny+Carson"
+    },
+    {
+      "id": "david-letterman",
+      "name": "David Letterman",
+      "subtitle": "Late Night / Late Show",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=David+Letterman"
+    },
+    {
+      "id": "oprah-winfrey",
+      "name": "Oprah Winfrey",
+      "subtitle": "The Oprah Winfrey Show",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Oprah+Winfrey"
+    },
+    {
+      "id": "conan-obrien",
+      "name": "Conan O'Brien",
+      "subtitle": "Conan",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Conan+O'Brien"
+    },
+    {
+      "id": "jimmy-fallon",
+      "name": "Jimmy Fallon",
+      "subtitle": "The Tonight Show",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jimmy+Fallon"
+    },
+    {
+      "id": "jimmy-kimmel",
+      "name": "Jimmy Kimmel",
+      "subtitle": "Jimmy Kimmel Live!",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jimmy+Kimmel"
+    },
+    {
+      "id": "john-oliver",
+      "name": "John Oliver",
+      "subtitle": "Last Week Tonight",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=John+Oliver"
+    },
+    {
+      "id": "jon-stewart",
+      "name": "Jon Stewart",
+      "subtitle": "The Daily Show",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jon+Stewart"
+    },
+    {
+      "id": "stephen-colbert",
+      "name": "Stephen Colbert",
+      "subtitle": "The Late Show",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Stephen+Colbert"
+    },
+    {
+      "id": "seth-meyers",
+      "name": "Seth Meyers",
+      "subtitle": "Late Night",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Seth+Meyers"
+    },
+    {
+      "id": "ellen-degeneres",
+      "name": "Ellen DeGeneres",
+      "subtitle": "The Ellen DeGeneres Show",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Ellen+DeGeneres"
+    },
+    {
+      "id": "graham-norton",
+      "name": "Graham Norton",
+      "subtitle": "The Graham Norton Show",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Graham+Norton"
+    },
+    {
+      "id": "trevor-noah",
+      "name": "Trevor Noah",
+      "subtitle": "The Daily Show",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Trevor+Noah"
+    },
+    {
+      "id": "james-corden",
+      "name": "James Corden",
+      "subtitle": "The Late Late Show",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=James+Corden"
+    },
+    {
+      "id": "craig-ferguson",
+      "name": "Craig Ferguson",
+      "subtitle": "The Late Late Show",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Craig+Ferguson"
+    },
+    {
+      "id": "jay-leno",
+      "name": "Jay Leno",
+      "subtitle": "The Tonight Show",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jay+Leno"
+    }
   ]
 }

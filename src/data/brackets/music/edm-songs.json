@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "levels", "name": "Levels", "subtitle": "Avicii" },
-    { "id": "strobe", "name": "Strobe", "subtitle": "deadmau5" },
-    { "id": "titanium", "name": "Titanium", "subtitle": "David Guetta ft. Sia" },
-    { "id": "wake-me-up", "name": "Wake Me Up", "subtitle": "Avicii" },
-    { "id": "lean-on-edm", "name": "Lean On", "subtitle": "Major Lazer & DJ Snake" },
-    { "id": "clarity", "name": "Clarity", "subtitle": "Zedd ft. Foxes" },
-    { "id": "scary-monsters", "name": "Scary Monsters and Nice Sprites", "subtitle": "Skrillex" },
-    { "id": "one-more-time", "name": "One More Time", "subtitle": "Daft Punk" },
-    { "id": "sandstorm", "name": "Sandstorm", "subtitle": "Darude" },
-    { "id": "animals", "name": "Animals", "subtitle": "Martin Garrix" },
-    { "id": "dont-you-worry-child", "name": "Don't You Worry Child", "subtitle": "Swedish House Mafia" },
-    { "id": "faded", "name": "Faded", "subtitle": "Alan Walker" },
-    { "id": "get-lucky", "name": "Get Lucky", "subtitle": "Daft Punk ft. Pharrell" },
-    { "id": "something-just-like-this", "name": "Something Just Like This", "subtitle": "The Chainsmokers & Coldplay" },
-    { "id": "around-the-world", "name": "Around the World", "subtitle": "Daft Punk" },
-    { "id": "in-the-name-of-love", "name": "In the Name of Love", "subtitle": "Martin Garrix & Bebe Rexha" },
-    { "id": "spectrum", "name": "Spectrum", "subtitle": "Zedd" },
-    { "id": "this-is-what-you-came-for", "name": "This Is What You Came For", "subtitle": "Calvin Harris ft. Rihanna" },
-    { "id": "waiting-for-love", "name": "Waiting for Love", "subtitle": "Avicii" },
-    { "id": "midnight-city", "name": "Midnight City", "subtitle": "M83" },
-    { "id": "bangarang", "name": "Bangarang", "subtitle": "Skrillex" },
-    { "id": "where-are-u-now", "name": "Where Are U Now", "subtitle": "Jack U ft. Justin Bieber" },
-    { "id": "the-nights", "name": "The Nights", "subtitle": "Avicii" },
-    { "id": "summer", "name": "Summer", "subtitle": "Calvin Harris" }
+    {
+      "id": "levels",
+      "name": "Levels",
+      "subtitle": "Avicii",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Levels"
+    },
+    {
+      "id": "strobe",
+      "name": "Strobe",
+      "subtitle": "deadmau5",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Strobe"
+    },
+    {
+      "id": "titanium",
+      "name": "Titanium",
+      "subtitle": "David Guetta ft. Sia",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Titanium"
+    },
+    {
+      "id": "wake-me-up",
+      "name": "Wake Me Up",
+      "subtitle": "Avicii",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Wake+Me+Up"
+    },
+    {
+      "id": "lean-on-edm",
+      "name": "Lean On",
+      "subtitle": "Major Lazer & DJ Snake",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Lean+On"
+    },
+    {
+      "id": "clarity",
+      "name": "Clarity",
+      "subtitle": "Zedd ft. Foxes",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Clarity"
+    },
+    {
+      "id": "scary-monsters",
+      "name": "Scary Monsters and Nice Sprites",
+      "subtitle": "Skrillex",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Scary+Monsters+and+Nice+Sprites"
+    },
+    {
+      "id": "one-more-time",
+      "name": "One More Time",
+      "subtitle": "Daft Punk",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=One+More+Time"
+    },
+    {
+      "id": "sandstorm",
+      "name": "Sandstorm",
+      "subtitle": "Darude",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sandstorm"
+    },
+    {
+      "id": "animals",
+      "name": "Animals",
+      "subtitle": "Martin Garrix",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Animals"
+    },
+    {
+      "id": "dont-you-worry-child",
+      "name": "Don't You Worry Child",
+      "subtitle": "Swedish House Mafia",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Don't+You+Worry+Child"
+    },
+    {
+      "id": "faded",
+      "name": "Faded",
+      "subtitle": "Alan Walker",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Faded"
+    },
+    {
+      "id": "get-lucky",
+      "name": "Get Lucky",
+      "subtitle": "Daft Punk ft. Pharrell",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Get+Lucky"
+    },
+    {
+      "id": "something-just-like-this",
+      "name": "Something Just Like This",
+      "subtitle": "The Chainsmokers & Coldplay",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Something+Just+Like+This"
+    },
+    {
+      "id": "around-the-world",
+      "name": "Around the World",
+      "subtitle": "Daft Punk",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Around+the+World"
+    },
+    {
+      "id": "in-the-name-of-love",
+      "name": "In the Name of Love",
+      "subtitle": "Martin Garrix & Bebe Rexha",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=In+the+Name+of+Love"
+    },
+    {
+      "id": "spectrum",
+      "name": "Spectrum",
+      "subtitle": "Zedd",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Spectrum"
+    },
+    {
+      "id": "this-is-what-you-came-for",
+      "name": "This Is What You Came For",
+      "subtitle": "Calvin Harris ft. Rihanna",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=This+Is+What+You+Came+For"
+    },
+    {
+      "id": "waiting-for-love",
+      "name": "Waiting for Love",
+      "subtitle": "Avicii",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Waiting+for+Love"
+    },
+    {
+      "id": "midnight-city",
+      "name": "Midnight City",
+      "subtitle": "M83",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Midnight+City"
+    },
+    {
+      "id": "bangarang",
+      "name": "Bangarang",
+      "subtitle": "Skrillex",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bangarang"
+    },
+    {
+      "id": "where-are-u-now",
+      "name": "Where Are U Now",
+      "subtitle": "Jack U ft. Justin Bieber",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Where+Are+U+Now"
+    },
+    {
+      "id": "the-nights",
+      "name": "The Nights",
+      "subtitle": "Avicii",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Nights"
+    },
+    {
+      "id": "summer",
+      "name": "Summer",
+      "subtitle": "Calvin Harris",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Summer"
+    }
   ]
 }

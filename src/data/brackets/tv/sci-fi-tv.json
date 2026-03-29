@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "stranger-things-sf", "name": "Stranger Things", "subtitle": "2016-2025" },
-    { "id": "black-mirror-sf", "name": "Black Mirror", "subtitle": "2011-present" },
-    { "id": "the-expanse", "name": "The Expanse", "subtitle": "2015-2022" },
-    { "id": "westworld", "name": "Westworld", "subtitle": "2016-2022" },
-    { "id": "star-trek-tng", "name": "Star Trek: The Next Generation", "subtitle": "1987-1994" },
-    { "id": "battlestar-galactica", "name": "Battlestar Galactica", "subtitle": "2004-2009" },
-    { "id": "doctor-who", "name": "Doctor Who", "subtitle": "1963-present" },
-    { "id": "the-mandalorian", "name": "The Mandalorian", "subtitle": "2019-present" },
-    { "id": "lost-sf", "name": "Lost", "subtitle": "2004-2010" },
-    { "id": "the-x-files", "name": "The X-Files", "subtitle": "1993-2018" },
-    { "id": "fringe", "name": "Fringe", "subtitle": "2008-2013" },
-    { "id": "dark-sf", "name": "Dark", "subtitle": "2017-2020" },
-    { "id": "foundation", "name": "Foundation", "subtitle": "2021-present" },
-    { "id": "the-twilight-zone", "name": "The Twilight Zone", "subtitle": "1959-1964" },
-    { "id": "severance-sf", "name": "Severance", "subtitle": "2022-present" },
-    { "id": "firefly", "name": "Firefly", "subtitle": "2002" },
-    { "id": "altered-carbon", "name": "Altered Carbon", "subtitle": "2018-2020" },
-    { "id": "the-100", "name": "The 100", "subtitle": "2014-2020" },
-    { "id": "stargate-sg1", "name": "Stargate SG-1", "subtitle": "1997-2007" },
-    { "id": "star-trek-original", "name": "Star Trek", "subtitle": "1966-1969" },
-    { "id": "the-boys-sf", "name": "The Boys", "subtitle": "2019-present" },
-    { "id": "andor", "name": "Andor", "subtitle": "2022-present" },
-    { "id": "devs", "name": "Devs", "subtitle": "2020" },
-    { "id": "3-body-problem", "name": "3 Body Problem", "subtitle": "2024-present" }
+    {
+      "id": "stranger-things-sf",
+      "name": "Stranger Things",
+      "subtitle": "2016-2025",
+      "image": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg"
+    },
+    {
+      "id": "black-mirror-sf",
+      "name": "Black Mirror",
+      "subtitle": "2011-present",
+      "image": "https://image.tmdb.org/t/p/w500/5UaYsGZOFhjFDwQh6GuLjjA1WlF.jpg"
+    },
+    {
+      "id": "the-expanse",
+      "name": "The Expanse",
+      "subtitle": "2015-2022",
+      "image": "https://image.tmdb.org/t/p/w500/parKXxAnkThT1wXbz1m5dpSoLSS.jpg"
+    },
+    {
+      "id": "westworld",
+      "name": "Westworld",
+      "subtitle": "2016-2022",
+      "image": "https://image.tmdb.org/t/p/w500/y55oBgI2oGMDSSbOVp7Lf5pVamV.jpg"
+    },
+    {
+      "id": "star-trek-tng",
+      "name": "Star Trek: The Next Generation",
+      "subtitle": "1987-1994",
+      "image": "https://image.tmdb.org/t/p/w500/y4PDksvUxPjlGwUKIbMgOFjSsp3.jpg"
+    },
+    {
+      "id": "battlestar-galactica",
+      "name": "Battlestar Galactica",
+      "subtitle": "2004-2009",
+      "image": "https://image.tmdb.org/t/p/w500/3KUjDgUoNPcJh947FDZNuRkgJBG.jpg"
+    },
+    {
+      "id": "doctor-who",
+      "name": "Doctor Who",
+      "subtitle": "1963-present",
+      "image": "https://image.tmdb.org/t/p/w500/sz4zF5z9zyFh8Z6g5IQPNq91cI7.jpg"
+    },
+    {
+      "id": "the-mandalorian",
+      "name": "The Mandalorian",
+      "subtitle": "2019-present",
+      "image": "https://image.tmdb.org/t/p/w500/eU1i6eHXlzMOlEq0ku1Bry4Wrqu.jpg"
+    },
+    {
+      "id": "lost-sf",
+      "name": "Lost",
+      "subtitle": "2004-2010",
+      "image": "https://image.tmdb.org/t/p/w500/og6S0aTZU6YUJAbqxmBHuTxphTO.jpg"
+    },
+    {
+      "id": "the-x-files",
+      "name": "The X-Files",
+      "subtitle": "1993-2018",
+      "image": "https://image.tmdb.org/t/p/w500/5BD0kiTGLaiJLONqt6MFbyOKN6B.jpg"
+    },
+    {
+      "id": "fringe",
+      "name": "Fringe",
+      "subtitle": "2008-2013",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Fringe"
+    },
+    {
+      "id": "dark-sf",
+      "name": "Dark",
+      "subtitle": "2017-2020",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dark"
+    },
+    {
+      "id": "foundation",
+      "name": "Foundation",
+      "subtitle": "2021-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Foundation"
+    },
+    {
+      "id": "the-twilight-zone",
+      "name": "The Twilight Zone",
+      "subtitle": "1959-1964",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Twilight+Zone"
+    },
+    {
+      "id": "severance-sf",
+      "name": "Severance",
+      "subtitle": "2022-present",
+      "image": "https://image.tmdb.org/t/p/w500/lFRMmZqxShgu1YFuJSD0MgCVKXG.jpg"
+    },
+    {
+      "id": "firefly",
+      "name": "Firefly",
+      "subtitle": "2002",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Firefly"
+    },
+    {
+      "id": "altered-carbon",
+      "name": "Altered Carbon",
+      "subtitle": "2018-2020",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Altered+Carbon"
+    },
+    {
+      "id": "the-100",
+      "name": "The 100",
+      "subtitle": "2014-2020",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+100"
+    },
+    {
+      "id": "stargate-sg1",
+      "name": "Stargate SG-1",
+      "subtitle": "1997-2007",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Stargate+SG-1"
+    },
+    {
+      "id": "star-trek-original",
+      "name": "Star Trek",
+      "subtitle": "1966-1969",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Star+Trek"
+    },
+    {
+      "id": "the-boys-sf",
+      "name": "The Boys",
+      "subtitle": "2019-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Boys"
+    },
+    {
+      "id": "andor",
+      "name": "Andor",
+      "subtitle": "2022-present",
+      "image": "https://image.tmdb.org/t/p/w500/59SVNwLfoMnZPPB6ukW6dlPxAdI.jpg"
+    },
+    {
+      "id": "devs",
+      "name": "Devs",
+      "subtitle": "2020",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Devs"
+    },
+    {
+      "id": "3-body-problem",
+      "name": "3 Body Problem",
+      "subtitle": "2024-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=3+Body+Problem"
+    }
   ]
 }

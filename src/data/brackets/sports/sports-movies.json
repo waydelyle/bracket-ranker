@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "rocky", "name": "Rocky", "subtitle": "1976 - Boxing" },
-    { "id": "remember-the-titans", "name": "Remember the Titans", "subtitle": "2000 - Football" },
-    { "id": "hoosiers", "name": "Hoosiers", "subtitle": "1986 - Basketball" },
-    { "id": "the-sandlot", "name": "The Sandlot", "subtitle": "1993 - Baseball" },
-    { "id": "field-of-dreams", "name": "Field of Dreams", "subtitle": "1989 - Baseball" },
-    { "id": "moneyball", "name": "Moneyball", "subtitle": "2011 - Baseball" },
-    { "id": "space-jam", "name": "Space Jam", "subtitle": "1996 - Basketball" },
-    { "id": "raging-bull", "name": "Raging Bull", "subtitle": "1980 - Boxing" },
-    { "id": "friday-night-lights-movie", "name": "Friday Night Lights", "subtitle": "2004 - Football" },
-    { "id": "happy-gilmore-sports", "name": "Happy Gilmore", "subtitle": "1996 - Golf" },
-    { "id": "the-blind-side", "name": "The Blind Side", "subtitle": "2009 - Football" },
-    { "id": "creed", "name": "Creed", "subtitle": "2015 - Boxing" },
-    { "id": "a-league-of-their-own", "name": "A League of Their Own", "subtitle": "1992 - Baseball" },
-    { "id": "rudy", "name": "Rudy", "subtitle": "1993 - Football" },
-    { "id": "dodgeball", "name": "Dodgeball", "subtitle": "2004 - Dodgeball" },
-    { "id": "the-mighty-ducks", "name": "The Mighty Ducks", "subtitle": "1992 - Hockey" },
-    { "id": "major-league", "name": "Major League", "subtitle": "1989 - Baseball" },
-    { "id": "bend-it-like-beckham", "name": "Bend It Like Beckham", "subtitle": "2002 - Soccer" },
-    { "id": "jerry-maguire", "name": "Jerry Maguire", "subtitle": "1996 - Football" },
-    { "id": "miracle", "name": "Miracle", "subtitle": "2004 - Hockey" },
-    { "id": "bull-durham", "name": "Bull Durham", "subtitle": "1988 - Baseball" },
-    { "id": "talladega-nights", "name": "Talladega Nights", "subtitle": "2006 - NASCAR" },
-    { "id": "rush", "name": "Rush", "subtitle": "2013 - Formula 1" },
-    { "id": "coach-carter", "name": "Coach Carter", "subtitle": "2005 - Basketball" }
+    {
+      "id": "rocky",
+      "name": "Rocky",
+      "subtitle": "1976 - Boxing",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Rocky"
+    },
+    {
+      "id": "remember-the-titans",
+      "name": "Remember the Titans",
+      "subtitle": "2000 - Football",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Remember+the+Titans"
+    },
+    {
+      "id": "hoosiers",
+      "name": "Hoosiers",
+      "subtitle": "1986 - Basketball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Hoosiers"
+    },
+    {
+      "id": "the-sandlot",
+      "name": "The Sandlot",
+      "subtitle": "1993 - Baseball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=The+Sandlot"
+    },
+    {
+      "id": "field-of-dreams",
+      "name": "Field of Dreams",
+      "subtitle": "1989 - Baseball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Field+of+Dreams"
+    },
+    {
+      "id": "moneyball",
+      "name": "Moneyball",
+      "subtitle": "2011 - Baseball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Moneyball"
+    },
+    {
+      "id": "space-jam",
+      "name": "Space Jam",
+      "subtitle": "1996 - Basketball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Space+Jam"
+    },
+    {
+      "id": "raging-bull",
+      "name": "Raging Bull",
+      "subtitle": "1980 - Boxing",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Raging+Bull"
+    },
+    {
+      "id": "friday-night-lights-movie",
+      "name": "Friday Night Lights",
+      "subtitle": "2004 - Football",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Friday+Night+Lights"
+    },
+    {
+      "id": "happy-gilmore-sports",
+      "name": "Happy Gilmore",
+      "subtitle": "1996 - Golf",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Happy+Gilmore"
+    },
+    {
+      "id": "the-blind-side",
+      "name": "The Blind Side",
+      "subtitle": "2009 - Football",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=The+Blind+Side"
+    },
+    {
+      "id": "creed",
+      "name": "Creed",
+      "subtitle": "2015 - Boxing",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Creed"
+    },
+    {
+      "id": "a-league-of-their-own",
+      "name": "A League of Their Own",
+      "subtitle": "1992 - Baseball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=A+League+of+Their+Own"
+    },
+    {
+      "id": "rudy",
+      "name": "Rudy",
+      "subtitle": "1993 - Football",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Rudy"
+    },
+    {
+      "id": "dodgeball",
+      "name": "Dodgeball",
+      "subtitle": "2004 - Dodgeball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Dodgeball"
+    },
+    {
+      "id": "the-mighty-ducks",
+      "name": "The Mighty Ducks",
+      "subtitle": "1992 - Hockey",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=The+Mighty+Ducks"
+    },
+    {
+      "id": "major-league",
+      "name": "Major League",
+      "subtitle": "1989 - Baseball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Major+League"
+    },
+    {
+      "id": "bend-it-like-beckham",
+      "name": "Bend It Like Beckham",
+      "subtitle": "2002 - Soccer",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Bend+It+Like+Beckham"
+    },
+    {
+      "id": "jerry-maguire",
+      "name": "Jerry Maguire",
+      "subtitle": "1996 - Football",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Jerry+Maguire"
+    },
+    {
+      "id": "miracle",
+      "name": "Miracle",
+      "subtitle": "2004 - Hockey",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Miracle"
+    },
+    {
+      "id": "bull-durham",
+      "name": "Bull Durham",
+      "subtitle": "1988 - Baseball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Bull+Durham"
+    },
+    {
+      "id": "talladega-nights",
+      "name": "Talladega Nights",
+      "subtitle": "2006 - NASCAR",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Talladega+Nights"
+    },
+    {
+      "id": "rush",
+      "name": "Rush",
+      "subtitle": "2013 - Formula 1",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Rush"
+    },
+    {
+      "id": "coach-carter",
+      "name": "Coach Carter",
+      "subtitle": "2005 - Basketball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Coach+Carter"
+    }
   ]
 }

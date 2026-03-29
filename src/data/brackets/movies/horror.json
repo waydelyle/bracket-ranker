@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "the-shining", "name": "The Shining", "subtitle": "1980" },
-    { "id": "get-out", "name": "Get Out", "subtitle": "2017" },
-    { "id": "scream", "name": "Scream", "subtitle": "1996" },
-    { "id": "the-exorcist", "name": "The Exorcist", "subtitle": "1973" },
-    { "id": "halloween", "name": "Halloween", "subtitle": "1978" },
-    { "id": "a-nightmare-on-elm-street", "name": "A Nightmare on Elm Street", "subtitle": "1984" },
-    { "id": "hereditary", "name": "Hereditary", "subtitle": "2018" },
-    { "id": "the-texas-chain-saw-massacre", "name": "The Texas Chain Saw Massacre", "subtitle": "1974" },
-    { "id": "psycho", "name": "Psycho", "subtitle": "1960" },
-    { "id": "it", "name": "It", "subtitle": "2017" },
-    { "id": "the-conjuring", "name": "The Conjuring", "subtitle": "2013" },
-    { "id": "alien", "name": "Alien", "subtitle": "1979" },
-    { "id": "midsommar", "name": "Midsommar", "subtitle": "2019" },
-    { "id": "the-ring", "name": "The Ring", "subtitle": "2002" },
-    { "id": "us", "name": "Us", "subtitle": "2019" },
-    { "id": "the-silence-of-the-lambs", "name": "The Silence of the Lambs", "subtitle": "1991" },
-    { "id": "jaws", "name": "Jaws", "subtitle": "1975" },
-    { "id": "the-thing", "name": "The Thing", "subtitle": "1982" },
-    { "id": "rosemarys-baby", "name": "Rosemary's Baby", "subtitle": "1968" },
-    { "id": "the-babadook", "name": "The Babadook", "subtitle": "2014" },
-    { "id": "the-witch", "name": "The Witch", "subtitle": "2015" },
-    { "id": "a-quiet-place", "name": "A Quiet Place", "subtitle": "2018" },
-    { "id": "friday-the-13th", "name": "Friday the 13th", "subtitle": "1980" },
-    { "id": "the-omen", "name": "The Omen", "subtitle": "1976" },
-    { "id": "nope", "name": "Nope", "subtitle": "2022" },
-    { "id": "poltergeist", "name": "Poltergeist", "subtitle": "1982" },
-    { "id": "candyman", "name": "Candyman", "subtitle": "1992" },
-    { "id": "28-days-later", "name": "28 Days Later", "subtitle": "2002" },
-    { "id": "saw", "name": "Saw", "subtitle": "2004" },
-    { "id": "the-cabin-in-the-woods", "name": "The Cabin in the Woods", "subtitle": "2012" },
-    { "id": "paranormal-activity", "name": "Paranormal Activity", "subtitle": "2007" },
-    { "id": "suspiria", "name": "Suspiria", "subtitle": "1977" }
+    {
+      "id": "the-shining",
+      "name": "The Shining",
+      "subtitle": "1980",
+      "image": "https://image.tmdb.org/t/p/w500/nRj5511mZdTl4saWEPoj9QroTIu.jpg"
+    },
+    {
+      "id": "get-out",
+      "name": "Get Out",
+      "subtitle": "2017",
+      "image": "https://image.tmdb.org/t/p/w500/qbaIVgiFKTivC5YQjeFF7qPq14M.jpg"
+    },
+    {
+      "id": "scream",
+      "name": "Scream",
+      "subtitle": "1996",
+      "image": "https://image.tmdb.org/t/p/w500/3O3klyyYIhEHkfKBMvhNhYsyr0X.jpg"
+    },
+    {
+      "id": "the-exorcist",
+      "name": "The Exorcist",
+      "subtitle": "1973",
+      "image": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSBAIo.jpg"
+    },
+    {
+      "id": "halloween",
+      "name": "Halloween",
+      "subtitle": "1978",
+      "image": "https://image.tmdb.org/t/p/w500/brgTuPpFYyHOIIMb2PPqicFM3Uq.jpg"
+    },
+    {
+      "id": "a-nightmare-on-elm-street",
+      "name": "A Nightmare on Elm Street",
+      "subtitle": "1984",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=A+Nightmare+on+Elm+Street"
+    },
+    {
+      "id": "hereditary",
+      "name": "Hereditary",
+      "subtitle": "2018",
+      "image": "https://image.tmdb.org/t/p/w500/p9fmuz3Iin5lEpkOaxPE9Cjpyqq.jpg"
+    },
+    {
+      "id": "the-texas-chain-saw-massacre",
+      "name": "The Texas Chain Saw Massacre",
+      "subtitle": "1974",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Texas+Chain+Saw+Massacre"
+    },
+    {
+      "id": "psycho",
+      "name": "Psycho",
+      "subtitle": "1960",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Psycho"
+    },
+    {
+      "id": "it",
+      "name": "It",
+      "subtitle": "2017",
+      "image": "https://image.tmdb.org/t/p/w500/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg"
+    },
+    {
+      "id": "the-conjuring",
+      "name": "The Conjuring",
+      "subtitle": "2013",
+      "image": "https://image.tmdb.org/t/p/w500/wVYREutTvI2tmxr6ujrHT704wGF.jpg"
+    },
+    {
+      "id": "alien",
+      "name": "Alien",
+      "subtitle": "1979",
+      "image": "https://image.tmdb.org/t/p/w500/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg"
+    },
+    {
+      "id": "midsommar",
+      "name": "Midsommar",
+      "subtitle": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/7LEI8ulZEBU2v4bPEENh1bHunc5.jpg"
+    },
+    {
+      "id": "the-ring",
+      "name": "The Ring",
+      "subtitle": "2002",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Ring"
+    },
+    {
+      "id": "us",
+      "name": "Us",
+      "subtitle": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/ux2dU1jQ2ACIMShzB3yP93Udezz.jpg"
+    },
+    {
+      "id": "the-silence-of-the-lambs",
+      "name": "The Silence of the Lambs",
+      "subtitle": "1991",
+      "image": "https://image.tmdb.org/t/p/w500/uS9m8OBk1RVFzUOC8I0ocL1II27.jpg"
+    },
+    {
+      "id": "jaws",
+      "name": "Jaws",
+      "subtitle": "1975",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Jaws"
+    },
+    {
+      "id": "the-thing",
+      "name": "The Thing",
+      "subtitle": "1982",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Thing"
+    },
+    {
+      "id": "rosemarys-baby",
+      "name": "Rosemary's Baby",
+      "subtitle": "1968",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Rosemary's+Baby"
+    },
+    {
+      "id": "the-babadook",
+      "name": "The Babadook",
+      "subtitle": "2014",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Babadook"
+    },
+    {
+      "id": "the-witch",
+      "name": "The Witch",
+      "subtitle": "2015",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Witch"
+    },
+    {
+      "id": "a-quiet-place",
+      "name": "A Quiet Place",
+      "subtitle": "2018",
+      "image": "https://image.tmdb.org/t/p/w500/rknxGRg1ASCAGPzVlfrZ55GtkAr.jpg"
+    },
+    {
+      "id": "friday-the-13th",
+      "name": "Friday the 13th",
+      "subtitle": "1980",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Friday+the+13th"
+    },
+    {
+      "id": "the-omen",
+      "name": "The Omen",
+      "subtitle": "1976",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Omen"
+    },
+    {
+      "id": "nope",
+      "name": "Nope",
+      "subtitle": "2022",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Nope"
+    },
+    {
+      "id": "poltergeist",
+      "name": "Poltergeist",
+      "subtitle": "1982",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Poltergeist"
+    },
+    {
+      "id": "candyman",
+      "name": "Candyman",
+      "subtitle": "1992",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Candyman"
+    },
+    {
+      "id": "28-days-later",
+      "name": "28 Days Later",
+      "subtitle": "2002",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=28+Days+Later"
+    },
+    {
+      "id": "saw",
+      "name": "Saw",
+      "subtitle": "2004",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Saw"
+    },
+    {
+      "id": "the-cabin-in-the-woods",
+      "name": "The Cabin in the Woods",
+      "subtitle": "2012",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Cabin+in+the+Woods"
+    },
+    {
+      "id": "paranormal-activity",
+      "name": "Paranormal Activity",
+      "subtitle": "2007",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Paranormal+Activity"
+    },
+    {
+      "id": "suspiria",
+      "name": "Suspiria",
+      "subtitle": "1977",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Suspiria"
+    }
   ]
 }

@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "se7en-thr", "name": "Se7en", "subtitle": "1995" },
-    { "id": "silence-of-the-lambs-thr", "name": "The Silence of the Lambs", "subtitle": "1991" },
-    { "id": "gone-girl", "name": "Gone Girl", "subtitle": "2014" },
-    { "id": "zodiac", "name": "Zodiac", "subtitle": "2007" },
-    { "id": "no-country-for-old-men-thr", "name": "No Country for Old Men", "subtitle": "2007" },
-    { "id": "shutter-island", "name": "Shutter Island", "subtitle": "2010" },
-    { "id": "parasite-thr", "name": "Parasite", "subtitle": "2019" },
-    { "id": "the-departed-thr", "name": "The Departed", "subtitle": "2006" },
-    { "id": "prisoners", "name": "Prisoners", "subtitle": "2013" },
-    { "id": "nightcrawler", "name": "Nightcrawler", "subtitle": "2014" },
-    { "id": "the-girl-with-the-dragon-tattoo", "name": "The Girl with the Dragon Tattoo", "subtitle": "2011" },
-    { "id": "oldboy", "name": "Oldboy", "subtitle": "2003" },
-    { "id": "memento", "name": "Memento", "subtitle": "2000" },
-    { "id": "the-usual-suspects-thr", "name": "The Usual Suspects", "subtitle": "1995" },
-    { "id": "sicario", "name": "Sicario", "subtitle": "2015" },
-    { "id": "psycho-thr", "name": "Psycho", "subtitle": "1960" },
-    { "id": "vertigo", "name": "Vertigo", "subtitle": "1958" },
-    { "id": "rear-window", "name": "Rear Window", "subtitle": "1954" },
-    { "id": "the-talented-mr-ripley", "name": "The Talented Mr. Ripley", "subtitle": "1999" },
-    { "id": "cape-fear", "name": "Cape Fear", "subtitle": "1991" },
-    { "id": "misery", "name": "Misery", "subtitle": "1990" },
-    { "id": "black-swan", "name": "Black Swan", "subtitle": "2010" },
-    { "id": "uncut-gems", "name": "Uncut Gems", "subtitle": "2019" },
-    { "id": "whiplash", "name": "Whiplash", "subtitle": "2014" },
-    { "id": "the-hand-of-god", "name": "The Handmaiden", "subtitle": "2016" },
-    { "id": "a-simple-favor", "name": "A Simple Favor", "subtitle": "2018" },
-    { "id": "knives-out", "name": "Knives Out", "subtitle": "2019" },
-    { "id": "the-prestige", "name": "The Prestige", "subtitle": "2006" },
-    { "id": "the-game", "name": "The Game", "subtitle": "1997" },
-    { "id": "mulholland-drive", "name": "Mulholland Drive", "subtitle": "2001" },
-    { "id": "heat-thr", "name": "Heat", "subtitle": "1995" },
-    { "id": "the-sixth-sense-thr", "name": "The Sixth Sense", "subtitle": "1999" }
+    {
+      "id": "se7en-thr",
+      "name": "Se7en",
+      "subtitle": "1995",
+      "image": "https://image.tmdb.org/t/p/w500/6yoghtyTpznpBik8EngEmJskVUO.jpg"
+    },
+    {
+      "id": "silence-of-the-lambs-thr",
+      "name": "The Silence of the Lambs",
+      "subtitle": "1991",
+      "image": "https://image.tmdb.org/t/p/w500/uS9m8OBk1RVFzUOC8I0ocL1II27.jpg"
+    },
+    {
+      "id": "gone-girl",
+      "name": "Gone Girl",
+      "subtitle": "2014",
+      "image": "https://image.tmdb.org/t/p/w500/wPsq25hqZQe2kTJuclcFrJciKTc.jpg"
+    },
+    {
+      "id": "zodiac",
+      "name": "Zodiac",
+      "subtitle": "2007",
+      "image": "https://image.tmdb.org/t/p/w500/q8FELO3pXwhG6Jv0GqV7cxMbKJp.jpg"
+    },
+    {
+      "id": "no-country-for-old-men-thr",
+      "name": "No Country for Old Men",
+      "subtitle": "2007",
+      "image": "https://image.tmdb.org/t/p/w500/6d5XOczc226IdIfs4eFhFYJnQVw.jpg"
+    },
+    {
+      "id": "shutter-island",
+      "name": "Shutter Island",
+      "subtitle": "2010",
+      "image": "https://image.tmdb.org/t/p/w500/4GDy0PHYX3VRXUtwK5ysFbg3kEx.jpg"
+    },
+    {
+      "id": "parasite-thr",
+      "name": "Parasite",
+      "subtitle": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+    },
+    {
+      "id": "the-departed-thr",
+      "name": "The Departed",
+      "subtitle": "2006",
+      "image": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Dqv4k7VA.jpg"
+    },
+    {
+      "id": "prisoners",
+      "name": "Prisoners",
+      "subtitle": "2013",
+      "image": "https://image.tmdb.org/t/p/w500/uhBqvilFb7FmXcP4K3VQfDeCqIc.jpg"
+    },
+    {
+      "id": "nightcrawler",
+      "name": "Nightcrawler",
+      "subtitle": "2014",
+      "image": "https://image.tmdb.org/t/p/w500/j9HrX8f7GbZQm1BrBiR40uFQEiE.jpg"
+    },
+    {
+      "id": "the-girl-with-the-dragon-tattoo",
+      "name": "The Girl with the Dragon Tattoo",
+      "subtitle": "2011",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Girl+with+the+Dragon+Tattoo"
+    },
+    {
+      "id": "oldboy",
+      "name": "Oldboy",
+      "subtitle": "2003",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Oldboy"
+    },
+    {
+      "id": "memento",
+      "name": "Memento",
+      "subtitle": "2000",
+      "image": "https://image.tmdb.org/t/p/w500/yuNs09hvpHVU1cBTCAk9zxsL2oW.jpg"
+    },
+    {
+      "id": "the-usual-suspects-thr",
+      "name": "The Usual Suspects",
+      "subtitle": "1995",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Usual+Suspects"
+    },
+    {
+      "id": "sicario",
+      "name": "Sicario",
+      "subtitle": "2015",
+      "image": "https://image.tmdb.org/t/p/w500/ri8xr22LO2TiKLIGIy3JFSqKBfT.jpg"
+    },
+    {
+      "id": "psycho-thr",
+      "name": "Psycho",
+      "subtitle": "1960",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Psycho"
+    },
+    {
+      "id": "vertigo",
+      "name": "Vertigo",
+      "subtitle": "1958",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Vertigo"
+    },
+    {
+      "id": "rear-window",
+      "name": "Rear Window",
+      "subtitle": "1954",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Rear+Window"
+    },
+    {
+      "id": "the-talented-mr-ripley",
+      "name": "The Talented Mr. Ripley",
+      "subtitle": "1999",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Talented+Mr.+Ripley"
+    },
+    {
+      "id": "cape-fear",
+      "name": "Cape Fear",
+      "subtitle": "1991",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Cape+Fear"
+    },
+    {
+      "id": "misery",
+      "name": "Misery",
+      "subtitle": "1990",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Misery"
+    },
+    {
+      "id": "black-swan",
+      "name": "Black Swan",
+      "subtitle": "2010",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Black+Swan"
+    },
+    {
+      "id": "uncut-gems",
+      "name": "Uncut Gems",
+      "subtitle": "2019",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Uncut+Gems"
+    },
+    {
+      "id": "whiplash",
+      "name": "Whiplash",
+      "subtitle": "2014",
+      "image": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg"
+    },
+    {
+      "id": "the-hand-of-god",
+      "name": "The Handmaiden",
+      "subtitle": "2016",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Handmaiden"
+    },
+    {
+      "id": "a-simple-favor",
+      "name": "A Simple Favor",
+      "subtitle": "2018",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=A+Simple+Favor"
+    },
+    {
+      "id": "knives-out",
+      "name": "Knives Out",
+      "subtitle": "2019",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Knives+Out"
+    },
+    {
+      "id": "the-prestige",
+      "name": "The Prestige",
+      "subtitle": "2006",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Prestige"
+    },
+    {
+      "id": "the-game",
+      "name": "The Game",
+      "subtitle": "1997",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Game"
+    },
+    {
+      "id": "mulholland-drive",
+      "name": "Mulholland Drive",
+      "subtitle": "2001",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Mulholland+Drive"
+    },
+    {
+      "id": "heat-thr",
+      "name": "Heat",
+      "subtitle": "1995",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Heat"
+    },
+    {
+      "id": "the-sixth-sense-thr",
+      "name": "The Sixth Sense",
+      "subtitle": "1999",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Sixth+Sense"
+    }
   ]
 }

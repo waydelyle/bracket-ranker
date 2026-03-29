@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "survivor", "name": "Survivor", "subtitle": "2000-present" },
-    { "id": "the-bachelor", "name": "The Bachelor", "subtitle": "2002-present" },
-    { "id": "rupauls-drag-race", "name": "RuPaul's Drag Race", "subtitle": "2009-present" },
-    { "id": "the-amazing-race", "name": "The Amazing Race", "subtitle": "2001-present" },
-    { "id": "love-island", "name": "Love Island", "subtitle": "2015-present" },
-    { "id": "big-brother", "name": "Big Brother", "subtitle": "2000-present" },
-    { "id": "american-idol", "name": "American Idol", "subtitle": "2002-present" },
-    { "id": "keeping-up-with-the-kardashians", "name": "Keeping Up with the Kardashians", "subtitle": "2007-2021" },
-    { "id": "the-real-housewives", "name": "The Real Housewives", "subtitle": "2006-present" },
-    { "id": "the-great-british-bake-off", "name": "The Great British Bake Off", "subtitle": "2010-present" },
-    { "id": "love-is-blind", "name": "Love Is Blind", "subtitle": "2020-present" },
-    { "id": "the-voice", "name": "The Voice", "subtitle": "2011-present" },
-    { "id": "project-runway", "name": "Project Runway", "subtitle": "2004-present" },
-    { "id": "shark-tank", "name": "Shark Tank", "subtitle": "2009-present" },
-    { "id": "the-circle", "name": "The Circle", "subtitle": "2020-present" },
-    { "id": "jersey-shore", "name": "Jersey Shore", "subtitle": "2009-2012" },
-    { "id": "too-hot-to-handle", "name": "Too Hot to Handle", "subtitle": "2020-present" },
-    { "id": "masterchef", "name": "MasterChef", "subtitle": "2010-present" },
-    { "id": "the-traitors", "name": "The Traitors", "subtitle": "2023-present" },
-    { "id": "dancing-with-the-stars", "name": "Dancing with the Stars", "subtitle": "2005-present" },
-    { "id": "top-chef", "name": "Top Chef", "subtitle": "2006-present" },
-    { "id": "90-day-fiance", "name": "90 Day Fiance", "subtitle": "2014-present" },
-    { "id": "the-masked-singer", "name": "The Masked Singer", "subtitle": "2019-present" },
-    { "id": "queer-eye", "name": "Queer Eye", "subtitle": "2018-present" }
+    {
+      "id": "survivor",
+      "name": "Survivor",
+      "subtitle": "2000-present",
+      "image": "https://image.tmdb.org/t/p/w500/6lF4bppO4LOiEFU79gZ3bnXybqe.jpg"
+    },
+    {
+      "id": "the-bachelor",
+      "name": "The Bachelor",
+      "subtitle": "2002-present",
+      "image": "https://image.tmdb.org/t/p/w500/f5uNbUC76oGt1hl7kJGkj0wNSv2.jpg"
+    },
+    {
+      "id": "rupauls-drag-race",
+      "name": "RuPaul's Drag Race",
+      "subtitle": "2009-present",
+      "image": "https://image.tmdb.org/t/p/w500/6lgrslkFIE0M7RkvcBWnWmppFr4.jpg"
+    },
+    {
+      "id": "the-amazing-race",
+      "name": "The Amazing Race",
+      "subtitle": "2001-present",
+      "image": "https://image.tmdb.org/t/p/w500/3VK0TkP3GaAM8AIPM63fBhE7v6v.jpg"
+    },
+    {
+      "id": "love-island",
+      "name": "Love Island",
+      "subtitle": "2015-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Love+Island"
+    },
+    {
+      "id": "big-brother",
+      "name": "Big Brother",
+      "subtitle": "2000-present",
+      "image": "https://image.tmdb.org/t/p/w500/dnqxlPNCxrCJIyIXKtDKYSlBkTr.jpg"
+    },
+    {
+      "id": "american-idol",
+      "name": "American Idol",
+      "subtitle": "2002-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=American+Idol"
+    },
+    {
+      "id": "keeping-up-with-the-kardashians",
+      "name": "Keeping Up with the Kardashians",
+      "subtitle": "2007-2021",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Keeping+Up+with+the+Kardashians"
+    },
+    {
+      "id": "the-real-housewives",
+      "name": "The Real Housewives",
+      "subtitle": "2006-present",
+      "image": "https://image.tmdb.org/t/p/w500/fA5MQJGE6HjJ1gO0pQBgGkg6mey.jpg"
+    },
+    {
+      "id": "the-great-british-bake-off",
+      "name": "The Great British Bake Off",
+      "subtitle": "2010-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Great+British+Bake+Off"
+    },
+    {
+      "id": "love-is-blind",
+      "name": "Love Is Blind",
+      "subtitle": "2020-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Love+Is+Blind"
+    },
+    {
+      "id": "the-voice",
+      "name": "The Voice",
+      "subtitle": "2011-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Voice"
+    },
+    {
+      "id": "project-runway",
+      "name": "Project Runway",
+      "subtitle": "2004-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Project+Runway"
+    },
+    {
+      "id": "shark-tank",
+      "name": "Shark Tank",
+      "subtitle": "2009-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Shark+Tank"
+    },
+    {
+      "id": "the-circle",
+      "name": "The Circle",
+      "subtitle": "2020-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Circle"
+    },
+    {
+      "id": "jersey-shore",
+      "name": "Jersey Shore",
+      "subtitle": "2009-2012",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jersey+Shore"
+    },
+    {
+      "id": "too-hot-to-handle",
+      "name": "Too Hot to Handle",
+      "subtitle": "2020-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Too+Hot+to+Handle"
+    },
+    {
+      "id": "masterchef",
+      "name": "MasterChef",
+      "subtitle": "2010-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=MasterChef"
+    },
+    {
+      "id": "the-traitors",
+      "name": "The Traitors",
+      "subtitle": "2023-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Traitors"
+    },
+    {
+      "id": "dancing-with-the-stars",
+      "name": "Dancing with the Stars",
+      "subtitle": "2005-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dancing+with+the+Stars"
+    },
+    {
+      "id": "top-chef",
+      "name": "Top Chef",
+      "subtitle": "2006-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Top+Chef"
+    },
+    {
+      "id": "90-day-fiance",
+      "name": "90 Day Fiance",
+      "subtitle": "2014-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=90+Day+Fiance"
+    },
+    {
+      "id": "the-masked-singer",
+      "name": "The Masked Singer",
+      "subtitle": "2019-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Masked+Singer"
+    },
+    {
+      "id": "queer-eye",
+      "name": "Queer Eye",
+      "subtitle": "2018-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Queer+Eye"
+    }
   ]
 }

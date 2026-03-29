@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "chocolate-cake", "name": "Chocolate Cake", "subtitle": "Rich & decadent" },
-    { "id": "apple-pie", "name": "Apple Pie", "subtitle": "American classic" },
-    { "id": "cheesecake-dessert", "name": "Cheesecake", "subtitle": "Creamy & rich" },
-    { "id": "brownies", "name": "Brownies", "subtitle": "Fudgy chocolate squares" },
-    { "id": "tiramisu", "name": "Tiramisu", "subtitle": "Coffee-soaked Italian" },
-    { "id": "creme-brulee", "name": "Creme Brulee", "subtitle": "Caramelized custard" },
-    { "id": "ice-cream-sundae", "name": "Ice Cream Sundae", "subtitle": "Topped & loaded" },
-    { "id": "banana-split", "name": "Banana Split", "subtitle": "Three scoops classic" },
-    { "id": "red-velvet-cake", "name": "Red Velvet Cake", "subtitle": "Cream cheese frosting" },
-    { "id": "key-lime-pie", "name": "Key Lime Pie", "subtitle": "Tart & tangy" },
-    { "id": "pumpkin-pie", "name": "Pumpkin Pie", "subtitle": "Thanksgiving staple" },
-    { "id": "chocolate-chip-cookies-dessert", "name": "Chocolate Chip Cookies", "subtitle": "Warm & gooey" },
-    { "id": "carrot-cake", "name": "Carrot Cake", "subtitle": "Spiced & frosted" },
-    { "id": "banana-pudding", "name": "Banana Pudding", "subtitle": "Southern layered dessert" },
-    { "id": "churros", "name": "Churros", "subtitle": "Fried & cinnamon-sugar" },
-    { "id": "lava-cake", "name": "Molten Lava Cake", "subtitle": "Oozing chocolate center" },
-    { "id": "cannoli", "name": "Cannoli", "subtitle": "Italian filled pastry" },
-    { "id": "pecan-pie", "name": "Pecan Pie", "subtitle": "Nutty & sweet" },
-    { "id": "bread-pudding", "name": "Bread Pudding", "subtitle": "Warm & custardy" },
-    { "id": "macarons-dessert", "name": "Macarons", "subtitle": "French meringue cookies" },
-    { "id": "panna-cotta", "name": "Panna Cotta", "subtitle": "Italian cream dessert" },
-    { "id": "crepes", "name": "Crepes", "subtitle": "Thin French pancakes" },
-    { "id": "baklava", "name": "Baklava", "subtitle": "Layered filo & nuts" },
-    { "id": "tres-leches", "name": "Tres Leches Cake", "subtitle": "Three-milk soaked cake" }
+    {
+      "id": "chocolate-cake",
+      "name": "Chocolate Cake",
+      "subtitle": "Rich & decadent",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chocolate+Cake"
+    },
+    {
+      "id": "apple-pie",
+      "name": "Apple Pie",
+      "subtitle": "American classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Apple+Pie"
+    },
+    {
+      "id": "cheesecake-dessert",
+      "name": "Cheesecake",
+      "subtitle": "Creamy & rich",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cheesecake"
+    },
+    {
+      "id": "brownies",
+      "name": "Brownies",
+      "subtitle": "Fudgy chocolate squares",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Brownies"
+    },
+    {
+      "id": "tiramisu",
+      "name": "Tiramisu",
+      "subtitle": "Coffee-soaked Italian",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Tiramisu"
+    },
+    {
+      "id": "creme-brulee",
+      "name": "Creme Brulee",
+      "subtitle": "Caramelized custard",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Creme+Brulee"
+    },
+    {
+      "id": "ice-cream-sundae",
+      "name": "Ice Cream Sundae",
+      "subtitle": "Topped & loaded",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ice+Cream+Sundae"
+    },
+    {
+      "id": "banana-split",
+      "name": "Banana Split",
+      "subtitle": "Three scoops classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Banana+Split"
+    },
+    {
+      "id": "red-velvet-cake",
+      "name": "Red Velvet Cake",
+      "subtitle": "Cream cheese frosting",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Red+Velvet+Cake"
+    },
+    {
+      "id": "key-lime-pie",
+      "name": "Key Lime Pie",
+      "subtitle": "Tart & tangy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Key+Lime+Pie"
+    },
+    {
+      "id": "pumpkin-pie",
+      "name": "Pumpkin Pie",
+      "subtitle": "Thanksgiving staple",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pumpkin+Pie"
+    },
+    {
+      "id": "chocolate-chip-cookies-dessert",
+      "name": "Chocolate Chip Cookies",
+      "subtitle": "Warm & gooey",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chocolate+Chip+Cookies"
+    },
+    {
+      "id": "carrot-cake",
+      "name": "Carrot Cake",
+      "subtitle": "Spiced & frosted",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Carrot+Cake"
+    },
+    {
+      "id": "banana-pudding",
+      "name": "Banana Pudding",
+      "subtitle": "Southern layered dessert",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Banana+Pudding"
+    },
+    {
+      "id": "churros",
+      "name": "Churros",
+      "subtitle": "Fried & cinnamon-sugar",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Churros"
+    },
+    {
+      "id": "lava-cake",
+      "name": "Molten Lava Cake",
+      "subtitle": "Oozing chocolate center",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Molten+Lava+Cake"
+    },
+    {
+      "id": "cannoli",
+      "name": "Cannoli",
+      "subtitle": "Italian filled pastry",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cannoli"
+    },
+    {
+      "id": "pecan-pie",
+      "name": "Pecan Pie",
+      "subtitle": "Nutty & sweet",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pecan+Pie"
+    },
+    {
+      "id": "bread-pudding",
+      "name": "Bread Pudding",
+      "subtitle": "Warm & custardy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Bread+Pudding"
+    },
+    {
+      "id": "macarons-dessert",
+      "name": "Macarons",
+      "subtitle": "French meringue cookies",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Macarons"
+    },
+    {
+      "id": "panna-cotta",
+      "name": "Panna Cotta",
+      "subtitle": "Italian cream dessert",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Panna+Cotta"
+    },
+    {
+      "id": "crepes",
+      "name": "Crepes",
+      "subtitle": "Thin French pancakes",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Crepes"
+    },
+    {
+      "id": "baklava",
+      "name": "Baklava",
+      "subtitle": "Layered filo & nuts",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Baklava"
+    },
+    {
+      "id": "tres-leches",
+      "name": "Tres Leches Cake",
+      "subtitle": "Three-milk soaked cake",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Tres+Leches+Cake"
+    }
   ]
 }

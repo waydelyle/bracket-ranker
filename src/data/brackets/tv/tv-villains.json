@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "walter-white", "name": "Walter White", "subtitle": "Breaking Bad" },
-    { "id": "cersei-lannister", "name": "Cersei Lannister", "subtitle": "Game of Thrones" },
-    { "id": "gustavo-fring", "name": "Gustavo Fring", "subtitle": "Breaking Bad / Better Call Saul" },
-    { "id": "negan", "name": "Negan", "subtitle": "The Walking Dead" },
-    { "id": "joffrey-baratheon", "name": "Joffrey Baratheon", "subtitle": "Game of Thrones" },
-    { "id": "kilgrave", "name": "Kilgrave", "subtitle": "Jessica Jones" },
-    { "id": "homelander", "name": "Homelander", "subtitle": "The Boys" },
-    { "id": "ramsay-bolton", "name": "Ramsay Bolton", "subtitle": "Game of Thrones" },
-    { "id": "tony-soprano", "name": "Tony Soprano", "subtitle": "The Sopranos" },
-    { "id": "benjamin-linus", "name": "Benjamin Linus", "subtitle": "Lost" },
-    { "id": "moriarty", "name": "Moriarty", "subtitle": "Sherlock" },
-    { "id": "logan-roy", "name": "Logan Roy", "subtitle": "Succession" },
-    { "id": "villanelle", "name": "Villanelle", "subtitle": "Killing Eve" },
-    { "id": "tuco-salamanca", "name": "Tuco Salamanca", "subtitle": "Breaking Bad" },
-    { "id": "vecna", "name": "Vecna", "subtitle": "Stranger Things" },
-    { "id": "nellie-oleson", "name": "Nellie Oleson", "subtitle": "Little House on the Prairie" },
-    { "id": "the-governor", "name": "The Governor", "subtitle": "The Walking Dead" },
-    { "id": "tywin-lannister", "name": "Tywin Lannister", "subtitle": "Game of Thrones" },
-    { "id": "frank-underwood", "name": "Frank Underwood", "subtitle": "House of Cards" },
-    { "id": "lorne-malvo", "name": "Lorne Malvo", "subtitle": "Fargo" },
-    { "id": "the-night-king", "name": "The Night King", "subtitle": "Game of Thrones" },
-    { "id": "hannibal-lecter-tv", "name": "Hannibal Lecter", "subtitle": "Hannibal" },
-    { "id": "dexter-morgan", "name": "Dexter Morgan", "subtitle": "Dexter" },
-    { "id": "omni-man", "name": "Omni-Man", "subtitle": "Invincible" }
+    {
+      "id": "walter-white",
+      "name": "Walter White",
+      "subtitle": "Breaking Bad",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Walter+White"
+    },
+    {
+      "id": "cersei-lannister",
+      "name": "Cersei Lannister",
+      "subtitle": "Game of Thrones",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Cersei+Lannister"
+    },
+    {
+      "id": "gustavo-fring",
+      "name": "Gustavo Fring",
+      "subtitle": "Breaking Bad / Better Call Saul",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Gustavo+Fring"
+    },
+    {
+      "id": "negan",
+      "name": "Negan",
+      "subtitle": "The Walking Dead",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Negan"
+    },
+    {
+      "id": "joffrey-baratheon",
+      "name": "Joffrey Baratheon",
+      "subtitle": "Game of Thrones",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Joffrey+Baratheon"
+    },
+    {
+      "id": "kilgrave",
+      "name": "Kilgrave",
+      "subtitle": "Jessica Jones",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Kilgrave"
+    },
+    {
+      "id": "homelander",
+      "name": "Homelander",
+      "subtitle": "The Boys",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Homelander"
+    },
+    {
+      "id": "ramsay-bolton",
+      "name": "Ramsay Bolton",
+      "subtitle": "Game of Thrones",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Ramsay+Bolton"
+    },
+    {
+      "id": "tony-soprano",
+      "name": "Tony Soprano",
+      "subtitle": "The Sopranos",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Tony+Soprano"
+    },
+    {
+      "id": "benjamin-linus",
+      "name": "Benjamin Linus",
+      "subtitle": "Lost",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Benjamin+Linus"
+    },
+    {
+      "id": "moriarty",
+      "name": "Moriarty",
+      "subtitle": "Sherlock",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Moriarty"
+    },
+    {
+      "id": "logan-roy",
+      "name": "Logan Roy",
+      "subtitle": "Succession",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Logan+Roy"
+    },
+    {
+      "id": "villanelle",
+      "name": "Villanelle",
+      "subtitle": "Killing Eve",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Villanelle"
+    },
+    {
+      "id": "tuco-salamanca",
+      "name": "Tuco Salamanca",
+      "subtitle": "Breaking Bad",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Tuco+Salamanca"
+    },
+    {
+      "id": "vecna",
+      "name": "Vecna",
+      "subtitle": "Stranger Things",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Vecna"
+    },
+    {
+      "id": "nellie-oleson",
+      "name": "Nellie Oleson",
+      "subtitle": "Little House on the Prairie",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Nellie+Oleson"
+    },
+    {
+      "id": "the-governor",
+      "name": "The Governor",
+      "subtitle": "The Walking Dead",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Governor"
+    },
+    {
+      "id": "tywin-lannister",
+      "name": "Tywin Lannister",
+      "subtitle": "Game of Thrones",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Tywin+Lannister"
+    },
+    {
+      "id": "frank-underwood",
+      "name": "Frank Underwood",
+      "subtitle": "House of Cards",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Frank+Underwood"
+    },
+    {
+      "id": "lorne-malvo",
+      "name": "Lorne Malvo",
+      "subtitle": "Fargo",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Lorne+Malvo"
+    },
+    {
+      "id": "the-night-king",
+      "name": "The Night King",
+      "subtitle": "Game of Thrones",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Night+King"
+    },
+    {
+      "id": "hannibal-lecter-tv",
+      "name": "Hannibal Lecter",
+      "subtitle": "Hannibal",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Hannibal+Lecter"
+    },
+    {
+      "id": "dexter-morgan",
+      "name": "Dexter Morgan",
+      "subtitle": "Dexter",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dexter+Morgan"
+    },
+    {
+      "id": "omni-man",
+      "name": "Omni-Man",
+      "subtitle": "Invincible",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Omni-Man"
+    }
   ]
 }

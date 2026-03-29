@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "illmatic-debut", "name": "Illmatic", "subtitle": "Nas - 1994" },
-    { "id": "ready-to-die-debut", "name": "Ready to Die", "subtitle": "The Notorious B.I.G. - 1994" },
-    { "id": "the-college-dropout-debut", "name": "The College Dropout", "subtitle": "Kanye West - 2004" },
-    { "id": "born-to-run-debut", "name": "Born to Run", "subtitle": "Bruce Springsteen - 1975" },
-    { "id": "please-please-me", "name": "Please Please Me", "subtitle": "The Beatles - 1963" },
-    { "id": "the-chronic-debut", "name": "The Chronic", "subtitle": "Dr. Dre - 1992" },
-    { "id": "appetite-for-destruction-debut", "name": "Appetite for Destruction", "subtitle": "Guns N' Roses - 1987" },
-    { "id": "is-this-it-debut", "name": "Is This It", "subtitle": "The Strokes - 2001" },
-    { "id": "nevermind-debut", "name": "Nevermind", "subtitle": "Nirvana - 1991" },
-    { "id": "boy", "name": "Boy", "subtitle": "U2 - 1980" },
-    { "id": "when-we-all-fall-asleep-debut", "name": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?", "subtitle": "Billie Eilish - 2019" },
-    { "id": "pablo-honey", "name": "Pablo Honey", "subtitle": "Radiohead - 1993" },
-    { "id": "taylor-swift-debut", "name": "Taylor Swift", "subtitle": "Taylor Swift - 2006" },
-    { "id": "sour", "name": "SOUR", "subtitle": "Olivia Rodrigo - 2021" },
-    { "id": "dangerously-in-love", "name": "Dangerously in Love", "subtitle": "Beyonce - 2003" },
-    { "id": "frank-debut", "name": "Frank", "subtitle": "Amy Winehouse - 2003" },
-    { "id": "ctrl", "name": "Ctrl", "subtitle": "SZA - 2017" },
-    { "id": "reasonable-doubt-debut", "name": "Reasonable Doubt", "subtitle": "Jay-Z - 1996" },
-    { "id": "the-slim-shady-lp", "name": "The Slim Shady LP", "subtitle": "Eminem - 1999" },
-    { "id": "21", "name": "21", "subtitle": "Adele - 2011" },
-    { "id": "lauryn-hill-debut", "name": "The Miseducation of Lauryn Hill", "subtitle": "Lauryn Hill - 1998" },
-    { "id": "hot-fuss", "name": "Hot Fuss", "subtitle": "The Killers - 2004" },
-    { "id": "section-80", "name": "Section.80", "subtitle": "Kendrick Lamar - 2011" },
-    { "id": "bastard", "name": "Bastard", "subtitle": "Tyler, the Creator - 2009" }
+    {
+      "id": "illmatic-debut",
+      "name": "Illmatic",
+      "subtitle": "Nas - 1994",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Illmatic"
+    },
+    {
+      "id": "ready-to-die-debut",
+      "name": "Ready to Die",
+      "subtitle": "The Notorious B.I.G. - 1994",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ready+to+Die"
+    },
+    {
+      "id": "the-college-dropout-debut",
+      "name": "The College Dropout",
+      "subtitle": "Kanye West - 2004",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+College+Dropout"
+    },
+    {
+      "id": "born-to-run-debut",
+      "name": "Born to Run",
+      "subtitle": "Bruce Springsteen - 1975",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Born+to+Run"
+    },
+    {
+      "id": "please-please-me",
+      "name": "Please Please Me",
+      "subtitle": "The Beatles - 1963",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Please+Please+Me"
+    },
+    {
+      "id": "the-chronic-debut",
+      "name": "The Chronic",
+      "subtitle": "Dr. Dre - 1992",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Chronic"
+    },
+    {
+      "id": "appetite-for-destruction-debut",
+      "name": "Appetite for Destruction",
+      "subtitle": "Guns N' Roses - 1987",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Appetite+for+Destruction"
+    },
+    {
+      "id": "is-this-it-debut",
+      "name": "Is This It",
+      "subtitle": "The Strokes - 2001",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Is+This+It"
+    },
+    {
+      "id": "nevermind-debut",
+      "name": "Nevermind",
+      "subtitle": "Nirvana - 1991",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Nevermind"
+    },
+    {
+      "id": "boy",
+      "name": "Boy",
+      "subtitle": "U2 - 1980",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Boy"
+    },
+    {
+      "id": "when-we-all-fall-asleep-debut",
+      "name": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+      "subtitle": "Billie Eilish - 2019",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=WHEN+WE+ALL+FALL+ASLEEP%2C+WHERE+DO+WE+GO%3F"
+    },
+    {
+      "id": "pablo-honey",
+      "name": "Pablo Honey",
+      "subtitle": "Radiohead - 1993",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Pablo+Honey"
+    },
+    {
+      "id": "taylor-swift-debut",
+      "name": "Taylor Swift",
+      "subtitle": "Taylor Swift - 2006",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Taylor+Swift"
+    },
+    {
+      "id": "sour",
+      "name": "SOUR",
+      "subtitle": "Olivia Rodrigo - 2021",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=SOUR"
+    },
+    {
+      "id": "dangerously-in-love",
+      "name": "Dangerously in Love",
+      "subtitle": "Beyonce - 2003",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Dangerously+in+Love"
+    },
+    {
+      "id": "frank-debut",
+      "name": "Frank",
+      "subtitle": "Amy Winehouse - 2003",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Frank"
+    },
+    {
+      "id": "ctrl",
+      "name": "Ctrl",
+      "subtitle": "SZA - 2017",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ctrl"
+    },
+    {
+      "id": "reasonable-doubt-debut",
+      "name": "Reasonable Doubt",
+      "subtitle": "Jay-Z - 1996",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Reasonable+Doubt"
+    },
+    {
+      "id": "the-slim-shady-lp",
+      "name": "The Slim Shady LP",
+      "subtitle": "Eminem - 1999",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Slim+Shady+LP"
+    },
+    {
+      "id": "21",
+      "name": "21",
+      "subtitle": "Adele - 2011",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=21"
+    },
+    {
+      "id": "lauryn-hill-debut",
+      "name": "The Miseducation of Lauryn Hill",
+      "subtitle": "Lauryn Hill - 1998",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Miseducation+of+Lauryn+Hill"
+    },
+    {
+      "id": "hot-fuss",
+      "name": "Hot Fuss",
+      "subtitle": "The Killers - 2004",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Hot+Fuss"
+    },
+    {
+      "id": "section-80",
+      "name": "Section.80",
+      "subtitle": "Kendrick Lamar - 2011",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Section.80"
+    },
+    {
+      "id": "bastard",
+      "name": "Bastard",
+      "subtitle": "Tyler, the Creator - 2009",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bastard"
+    }
   ]
 }

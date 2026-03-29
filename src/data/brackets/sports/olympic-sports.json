@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "track-100m", "name": "100m Sprint", "subtitle": "Track & Field" },
-    { "id": "swimming", "name": "Swimming", "subtitle": "Aquatics" },
-    { "id": "gymnastics", "name": "Artistic Gymnastics", "subtitle": "Floor, vault, bars, beam" },
-    { "id": "basketball-olympic", "name": "Basketball", "subtitle": "Team sport" },
-    { "id": "soccer-olympic", "name": "Soccer / Football", "subtitle": "Team sport" },
-    { "id": "diving", "name": "Diving", "subtitle": "Aquatics" },
-    { "id": "figure-skating", "name": "Figure Skating", "subtitle": "Winter Olympics" },
-    { "id": "alpine-skiing", "name": "Alpine Skiing", "subtitle": "Winter Olympics" },
-    { "id": "tennis-olympic", "name": "Tennis", "subtitle": "Racquet sport" },
-    { "id": "volleyball", "name": "Volleyball", "subtitle": "Team sport" },
-    { "id": "fencing", "name": "Fencing", "subtitle": "Combat sport" },
-    { "id": "archery", "name": "Archery", "subtitle": "Precision sport" },
-    { "id": "boxing-olympic", "name": "Boxing", "subtitle": "Combat sport" },
-    { "id": "rowing", "name": "Rowing", "subtitle": "Water sport" },
-    { "id": "track-marathon", "name": "Marathon", "subtitle": "Track & Field" },
-    { "id": "snowboarding", "name": "Snowboarding", "subtitle": "Winter Olympics" },
-    { "id": "surfing", "name": "Surfing", "subtitle": "Added 2020" },
-    { "id": "skateboarding", "name": "Skateboarding", "subtitle": "Added 2020" },
-    { "id": "weightlifting", "name": "Weightlifting", "subtitle": "Strength sport" },
-    { "id": "wrestling", "name": "Wrestling", "subtitle": "Combat sport" },
-    { "id": "bmx", "name": "BMX Racing", "subtitle": "Cycling" },
-    { "id": "ice-hockey", "name": "Ice Hockey", "subtitle": "Winter Olympics" },
-    { "id": "table-tennis", "name": "Table Tennis", "subtitle": "Racquet sport" },
-    { "id": "beach-volleyball", "name": "Beach Volleyball", "subtitle": "Sand court" }
+    {
+      "id": "track-100m",
+      "name": "100m Sprint",
+      "subtitle": "Track & Field",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=100m+Sprint"
+    },
+    {
+      "id": "swimming",
+      "name": "Swimming",
+      "subtitle": "Aquatics",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Swimming"
+    },
+    {
+      "id": "gymnastics",
+      "name": "Artistic Gymnastics",
+      "subtitle": "Floor, vault, bars, beam",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Artistic+Gymnastics"
+    },
+    {
+      "id": "basketball-olympic",
+      "name": "Basketball",
+      "subtitle": "Team sport",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Basketball"
+    },
+    {
+      "id": "soccer-olympic",
+      "name": "Soccer / Football",
+      "subtitle": "Team sport",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Soccer+%2F+Football"
+    },
+    {
+      "id": "diving",
+      "name": "Diving",
+      "subtitle": "Aquatics",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Diving"
+    },
+    {
+      "id": "figure-skating",
+      "name": "Figure Skating",
+      "subtitle": "Winter Olympics",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Figure+Skating"
+    },
+    {
+      "id": "alpine-skiing",
+      "name": "Alpine Skiing",
+      "subtitle": "Winter Olympics",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Alpine+Skiing"
+    },
+    {
+      "id": "tennis-olympic",
+      "name": "Tennis",
+      "subtitle": "Racquet sport",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tennis"
+    },
+    {
+      "id": "volleyball",
+      "name": "Volleyball",
+      "subtitle": "Team sport",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Volleyball"
+    },
+    {
+      "id": "fencing",
+      "name": "Fencing",
+      "subtitle": "Combat sport",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Fencing"
+    },
+    {
+      "id": "archery",
+      "name": "Archery",
+      "subtitle": "Precision sport",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Archery"
+    },
+    {
+      "id": "boxing-olympic",
+      "name": "Boxing",
+      "subtitle": "Combat sport",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Boxing"
+    },
+    {
+      "id": "rowing",
+      "name": "Rowing",
+      "subtitle": "Water sport",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Rowing"
+    },
+    {
+      "id": "track-marathon",
+      "name": "Marathon",
+      "subtitle": "Track & Field",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Marathon"
+    },
+    {
+      "id": "snowboarding",
+      "name": "Snowboarding",
+      "subtitle": "Winter Olympics",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Snowboarding"
+    },
+    {
+      "id": "surfing",
+      "name": "Surfing",
+      "subtitle": "Added 2020",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Surfing"
+    },
+    {
+      "id": "skateboarding",
+      "name": "Skateboarding",
+      "subtitle": "Added 2020",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Skateboarding"
+    },
+    {
+      "id": "weightlifting",
+      "name": "Weightlifting",
+      "subtitle": "Strength sport",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Weightlifting"
+    },
+    {
+      "id": "wrestling",
+      "name": "Wrestling",
+      "subtitle": "Combat sport",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Wrestling"
+    },
+    {
+      "id": "bmx",
+      "name": "BMX Racing",
+      "subtitle": "Cycling",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=BMX+Racing"
+    },
+    {
+      "id": "ice-hockey",
+      "name": "Ice Hockey",
+      "subtitle": "Winter Olympics",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Ice+Hockey"
+    },
+    {
+      "id": "table-tennis",
+      "name": "Table Tennis",
+      "subtitle": "Racquet sport",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Table+Tennis"
+    },
+    {
+      "id": "beach-volleyball",
+      "name": "Beach Volleyball",
+      "subtitle": "Sand court",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Beach+Volleyball"
+    }
   ]
 }

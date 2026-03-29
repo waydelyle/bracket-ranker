@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "attack-on-titan", "name": "Attack on Titan", "subtitle": "2013-2023" },
-    { "id": "fullmetal-alchemist-brotherhood", "name": "Fullmetal Alchemist: Brotherhood", "subtitle": "2009-2010" },
-    { "id": "death-note", "name": "Death Note", "subtitle": "2006-2007" },
-    { "id": "naruto-shippuden", "name": "Naruto Shippuden", "subtitle": "2007-2017" },
-    { "id": "one-piece", "name": "One Piece", "subtitle": "1999-present" },
-    { "id": "demon-slayer", "name": "Demon Slayer", "subtitle": "2019-present" },
-    { "id": "dragon-ball-z", "name": "Dragon Ball Z", "subtitle": "1989-1996" },
-    { "id": "hunter-x-hunter", "name": "Hunter x Hunter", "subtitle": "2011-2014" },
-    { "id": "jujutsu-kaisen", "name": "Jujutsu Kaisen", "subtitle": "2020-present" },
-    { "id": "my-hero-academia", "name": "My Hero Academia", "subtitle": "2016-present" },
-    { "id": "one-punch-man", "name": "One Punch Man", "subtitle": "2015-present" },
-    { "id": "cowboy-bebop", "name": "Cowboy Bebop", "subtitle": "1998-1999" },
-    { "id": "neon-genesis-evangelion", "name": "Neon Genesis Evangelion", "subtitle": "1995-1996" },
-    { "id": "steins-gate", "name": "Steins;Gate", "subtitle": "2011" },
-    { "id": "mob-psycho-100", "name": "Mob Psycho 100", "subtitle": "2016-2023" },
-    { "id": "spy-x-family", "name": "SPY x FAMILY", "subtitle": "2022-present" },
-    { "id": "chainsaw-man", "name": "Chainsaw Man", "subtitle": "2022-present" },
-    { "id": "vinland-saga", "name": "Vinland Saga", "subtitle": "2019-present" },
-    { "id": "code-geass", "name": "Code Geass", "subtitle": "2006-2008" },
-    { "id": "made-in-abyss", "name": "Made in Abyss", "subtitle": "2017-present" },
-    { "id": "violet-evergarden", "name": "Violet Evergarden", "subtitle": "2018" },
-    { "id": "fruits-basket", "name": "Fruits Basket", "subtitle": "2019-2021" },
-    { "id": "your-lie-in-april", "name": "Your Lie in April", "subtitle": "2014-2015" },
-    { "id": "haikyuu", "name": "Haikyuu!!", "subtitle": "2014-2020" },
-    { "id": "tokyo-ghoul", "name": "Tokyo Ghoul", "subtitle": "2014-2018" },
-    { "id": "bleach", "name": "Bleach", "subtitle": "2004-present" },
-    { "id": "naruto", "name": "Naruto", "subtitle": "2002-2007" },
-    { "id": "sword-art-online", "name": "Sword Art Online", "subtitle": "2012-present" },
-    { "id": "re-zero", "name": "Re:Zero", "subtitle": "2016-present" },
-    { "id": "the-promised-neverland", "name": "The Promised Neverland", "subtitle": "2019-2021" },
-    { "id": "erased", "name": "Erased", "subtitle": "2016" },
-    { "id": "parasyte", "name": "Parasyte: The Maxim", "subtitle": "2014-2015" }
+    {
+      "id": "attack-on-titan",
+      "name": "Attack on Titan",
+      "subtitle": "2013-2023",
+      "image": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg"
+    },
+    {
+      "id": "fullmetal-alchemist-brotherhood",
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "subtitle": "2009-2010",
+      "image": "https://image.tmdb.org/t/p/w500/4bKlMOMjSKkr1msjlSHePKH0LBL.jpg"
+    },
+    {
+      "id": "death-note",
+      "name": "Death Note",
+      "subtitle": "2006-2007",
+      "image": "https://image.tmdb.org/t/p/w500/iigTJJskR1PcjjhqLSfsiK80yFH.jpg"
+    },
+    {
+      "id": "naruto-shippuden",
+      "name": "Naruto Shippuden",
+      "subtitle": "2007-2017",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Naruto+Shippuden"
+    },
+    {
+      "id": "one-piece",
+      "name": "One Piece",
+      "subtitle": "1999-present",
+      "image": "https://image.tmdb.org/t/p/w500/cMD9Ygz11zjJzAovURpO75Gnj7j.jpg"
+    },
+    {
+      "id": "demon-slayer",
+      "name": "Demon Slayer",
+      "subtitle": "2019-present",
+      "image": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg"
+    },
+    {
+      "id": "dragon-ball-z",
+      "name": "Dragon Ball Z",
+      "subtitle": "1989-1996",
+      "image": "https://image.tmdb.org/t/p/w500/6VKOfMDAMhGPOVoTYBOaCwmhEhG.jpg"
+    },
+    {
+      "id": "hunter-x-hunter",
+      "name": "Hunter x Hunter",
+      "subtitle": "2011-2014",
+      "image": "https://image.tmdb.org/t/p/w500/yXYaPO5qv8CDH3NjH4PKvL4TDeN.jpg"
+    },
+    {
+      "id": "jujutsu-kaisen",
+      "name": "Jujutsu Kaisen",
+      "subtitle": "2020-present",
+      "image": "https://image.tmdb.org/t/p/w500/hFWP5HkbVEe40hrSyVMRqoJHcpG.jpg"
+    },
+    {
+      "id": "my-hero-academia",
+      "name": "My Hero Academia",
+      "subtitle": "2016-present",
+      "image": "https://image.tmdb.org/t/p/w500/ivOLM47yJt90P19RH1NvJrAJz9F.jpg"
+    },
+    {
+      "id": "one-punch-man",
+      "name": "One Punch Man",
+      "subtitle": "2015-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=One+Punch+Man"
+    },
+    {
+      "id": "cowboy-bebop",
+      "name": "Cowboy Bebop",
+      "subtitle": "1998-1999",
+      "image": "https://image.tmdb.org/t/p/w500/2lBbwXMOl3mazX5F6gXzifcnPLd.jpg"
+    },
+    {
+      "id": "neon-genesis-evangelion",
+      "name": "Neon Genesis Evangelion",
+      "subtitle": "1995-1996",
+      "image": "https://image.tmdb.org/t/p/w500/wWxPHYrD5F5sNIJeuvVeFrT8GEG.jpg"
+    },
+    {
+      "id": "steins-gate",
+      "name": "Steins;Gate",
+      "subtitle": "2011",
+      "image": "https://image.tmdb.org/t/p/w500/el7S2kNFIPp3M4To9UiD8l5n2WT.jpg"
+    },
+    {
+      "id": "mob-psycho-100",
+      "name": "Mob Psycho 100",
+      "subtitle": "2016-2023",
+      "image": "https://image.tmdb.org/t/p/w500/vwD3RynHGwK3TVCimGJEgUINdIW.jpg"
+    },
+    {
+      "id": "spy-x-family",
+      "name": "SPY x FAMILY",
+      "subtitle": "2022-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=SPY+x+FAMILY"
+    },
+    {
+      "id": "chainsaw-man",
+      "name": "Chainsaw Man",
+      "subtitle": "2022-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Chainsaw+Man"
+    },
+    {
+      "id": "vinland-saga",
+      "name": "Vinland Saga",
+      "subtitle": "2019-present",
+      "image": "https://image.tmdb.org/t/p/w500/bHXFZRdFjBIAsObeHfH4YDC7FwP.jpg"
+    },
+    {
+      "id": "code-geass",
+      "name": "Code Geass",
+      "subtitle": "2006-2008",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Code+Geass"
+    },
+    {
+      "id": "made-in-abyss",
+      "name": "Made in Abyss",
+      "subtitle": "2017-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Made+in+Abyss"
+    },
+    {
+      "id": "violet-evergarden",
+      "name": "Violet Evergarden",
+      "subtitle": "2018",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Violet+Evergarden"
+    },
+    {
+      "id": "fruits-basket",
+      "name": "Fruits Basket",
+      "subtitle": "2019-2021",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Fruits+Basket"
+    },
+    {
+      "id": "your-lie-in-april",
+      "name": "Your Lie in April",
+      "subtitle": "2014-2015",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Your+Lie+in+April"
+    },
+    {
+      "id": "haikyuu",
+      "name": "Haikyuu!!",
+      "subtitle": "2014-2020",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Haikyuu!!"
+    },
+    {
+      "id": "tokyo-ghoul",
+      "name": "Tokyo Ghoul",
+      "subtitle": "2014-2018",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Tokyo+Ghoul"
+    },
+    {
+      "id": "bleach",
+      "name": "Bleach",
+      "subtitle": "2004-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Bleach"
+    },
+    {
+      "id": "naruto",
+      "name": "Naruto",
+      "subtitle": "2002-2007",
+      "image": "https://image.tmdb.org/t/p/w500/xppeysfvDKVx775MFuH8Z9BlpMk.jpg"
+    },
+    {
+      "id": "sword-art-online",
+      "name": "Sword Art Online",
+      "subtitle": "2012-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Sword+Art+Online"
+    },
+    {
+      "id": "re-zero",
+      "name": "Re:Zero",
+      "subtitle": "2016-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Re%3AZero"
+    },
+    {
+      "id": "the-promised-neverland",
+      "name": "The Promised Neverland",
+      "subtitle": "2019-2021",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Promised+Neverland"
+    },
+    {
+      "id": "erased",
+      "name": "Erased",
+      "subtitle": "2016",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Erased"
+    },
+    {
+      "id": "parasyte",
+      "name": "Parasyte: The Maxim",
+      "subtitle": "2014-2015",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Parasyte%3A+The+Maxim"
+    }
   ]
 }

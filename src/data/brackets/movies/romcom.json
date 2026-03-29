@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "when-harry-met-sally", "name": "When Harry Met Sally", "subtitle": "1989" },
-    { "id": "10-things-i-hate-about-you-rc", "name": "10 Things I Hate About You", "subtitle": "1999" },
-    { "id": "pretty-woman", "name": "Pretty Woman", "subtitle": "1990" },
-    { "id": "the-notebook", "name": "The Notebook", "subtitle": "2004" },
-    { "id": "sleepless-in-seattle", "name": "Sleepless in Seattle", "subtitle": "1993" },
-    { "id": "bridget-joness-diary", "name": "Bridget Jones's Diary", "subtitle": "2001" },
-    { "id": "notting-hill", "name": "Notting Hill", "subtitle": "1999" },
-    { "id": "crazy-rich-asians", "name": "Crazy Rich Asians", "subtitle": "2018" },
-    { "id": "the-proposal", "name": "The Proposal", "subtitle": "2009" },
-    { "id": "clueless-rc", "name": "Clueless", "subtitle": "1995" },
-    { "id": "hitch", "name": "Hitch", "subtitle": "2005" },
-    { "id": "my-big-fat-greek-wedding", "name": "My Big Fat Greek Wedding", "subtitle": "2002" },
-    { "id": "how-to-lose-a-guy", "name": "How to Lose a Guy in 10 Days", "subtitle": "2003" },
-    { "id": "four-weddings-and-a-funeral", "name": "Four Weddings and a Funeral", "subtitle": "1994" },
-    { "id": "50-first-dates", "name": "50 First Dates", "subtitle": "2004" },
-    { "id": "youve-got-mail", "name": "You've Got Mail", "subtitle": "1998" },
-    { "id": "groundhog-day-rc", "name": "Groundhog Day", "subtitle": "1993" },
-    { "id": "the-big-sick", "name": "The Big Sick", "subtitle": "2017" },
-    { "id": "legally-blonde", "name": "Legally Blonde", "subtitle": "2001" },
-    { "id": "mean-girls-rc", "name": "Mean Girls", "subtitle": "2004" },
-    { "id": "set-it-up", "name": "Set It Up", "subtitle": "2018" },
-    { "id": "to-all-the-boys", "name": "To All the Boys I've Loved Before", "subtitle": "2018" },
-    { "id": "the-princess-bride", "name": "The Princess Bride", "subtitle": "1987" },
-    { "id": "about-time", "name": "About Time", "subtitle": "2013" }
+    {
+      "id": "when-harry-met-sally",
+      "name": "When Harry Met Sally",
+      "subtitle": "1989",
+      "image": "https://image.tmdb.org/t/p/w500/9HCO7G0VnRBe4Sb1HHzCJgITr6n.jpg"
+    },
+    {
+      "id": "10-things-i-hate-about-you-rc",
+      "name": "10 Things I Hate About You",
+      "subtitle": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/u1R17CVPlDqYWZIa0GxejERhYT1.jpg"
+    },
+    {
+      "id": "pretty-woman",
+      "name": "Pretty Woman",
+      "subtitle": "1990",
+      "image": "https://image.tmdb.org/t/p/w500/7v2VCuZ0wQQPLqg3g2MJ9yZ3vDw.jpg"
+    },
+    {
+      "id": "the-notebook",
+      "name": "The Notebook",
+      "subtitle": "2004",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Notebook"
+    },
+    {
+      "id": "sleepless-in-seattle",
+      "name": "Sleepless in Seattle",
+      "subtitle": "1993",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Sleepless+in+Seattle"
+    },
+    {
+      "id": "bridget-joness-diary",
+      "name": "Bridget Jones's Diary",
+      "subtitle": "2001",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Bridget+Jones's+Diary"
+    },
+    {
+      "id": "notting-hill",
+      "name": "Notting Hill",
+      "subtitle": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/lFmJImaAjg1sJfew6kgMFSvDT6j.jpg"
+    },
+    {
+      "id": "crazy-rich-asians",
+      "name": "Crazy Rich Asians",
+      "subtitle": "2018",
+      "image": "https://image.tmdb.org/t/p/w500/1XxL4LJ5WHdrcYFeCkOlKiCLEZr.jpg"
+    },
+    {
+      "id": "the-proposal",
+      "name": "The Proposal",
+      "subtitle": "2009",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Proposal"
+    },
+    {
+      "id": "clueless-rc",
+      "name": "Clueless",
+      "subtitle": "1995",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Clueless"
+    },
+    {
+      "id": "hitch",
+      "name": "Hitch",
+      "subtitle": "2005",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Hitch"
+    },
+    {
+      "id": "my-big-fat-greek-wedding",
+      "name": "My Big Fat Greek Wedding",
+      "subtitle": "2002",
+      "image": "https://image.tmdb.org/t/p/w500/3sFDuKTjB3L8VpNpQLmvFUG0rXM.jpg"
+    },
+    {
+      "id": "how-to-lose-a-guy",
+      "name": "How to Lose a Guy in 10 Days",
+      "subtitle": "2003",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=How+to+Lose+a+Guy+in+10+Days"
+    },
+    {
+      "id": "four-weddings-and-a-funeral",
+      "name": "Four Weddings and a Funeral",
+      "subtitle": "1994",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Four+Weddings+and+a+Funeral"
+    },
+    {
+      "id": "50-first-dates",
+      "name": "50 First Dates",
+      "subtitle": "2004",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=50+First+Dates"
+    },
+    {
+      "id": "youve-got-mail",
+      "name": "You've Got Mail",
+      "subtitle": "1998",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=You've+Got+Mail"
+    },
+    {
+      "id": "groundhog-day-rc",
+      "name": "Groundhog Day",
+      "subtitle": "1993",
+      "image": "https://image.tmdb.org/t/p/w500/gCgt1WARPZaXnq523ySQEUKincs.jpg"
+    },
+    {
+      "id": "the-big-sick",
+      "name": "The Big Sick",
+      "subtitle": "2017",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Big+Sick"
+    },
+    {
+      "id": "legally-blonde",
+      "name": "Legally Blonde",
+      "subtitle": "2001",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Legally+Blonde"
+    },
+    {
+      "id": "mean-girls-rc",
+      "name": "Mean Girls",
+      "subtitle": "2004",
+      "image": "https://image.tmdb.org/t/p/w500/fXm3YKXAEjx7d2tg5bEfsEFv94b.jpg"
+    },
+    {
+      "id": "set-it-up",
+      "name": "Set It Up",
+      "subtitle": "2018",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Set+It+Up"
+    },
+    {
+      "id": "to-all-the-boys",
+      "name": "To All the Boys I've Loved Before",
+      "subtitle": "2018",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=To+All+the+Boys+I've+Loved+Before"
+    },
+    {
+      "id": "the-princess-bride",
+      "name": "The Princess Bride",
+      "subtitle": "1987",
+      "image": "https://image.tmdb.org/t/p/w500/gpMV1fMHRlm6UbE6Bk1DQLaTq3K.jpg"
+    },
+    {
+      "id": "about-time",
+      "name": "About Time",
+      "subtitle": "2013",
+      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=About+Time"
+    }
   ]
 }

@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "uptown-funk", "name": "Uptown Funk", "subtitle": "Mark Ronson ft. Bruno Mars" },
-    { "id": "shape-of-you", "name": "Shape of You", "subtitle": "Ed Sheeran" },
-    { "id": "happy", "name": "Happy", "subtitle": "Pharrell Williams" },
-    { "id": "somebody-that-i-used-to-know", "name": "Somebody That I Used to Know", "subtitle": "Gotye" },
-    { "id": "despacito", "name": "Despacito", "subtitle": "Luis Fonsi ft. Daddy Yankee" },
-    { "id": "rolling-in-the-deep", "name": "Rolling in the Deep", "subtitle": "Adele" },
-    { "id": "closer", "name": "Closer", "subtitle": "The Chainsmokers ft. Halsey" },
-    { "id": "thinking-out-loud", "name": "Thinking Out Loud", "subtitle": "Ed Sheeran" },
-    { "id": "old-town-road", "name": "Old Town Road", "subtitle": "Lil Nas X" },
-    { "id": "cant-stop-the-feeling", "name": "Can't Stop the Feeling", "subtitle": "Justin Timberlake" },
-    { "id": "chandelier", "name": "Chandelier", "subtitle": "Sia" },
-    { "id": "bad-guy", "name": "bad guy", "subtitle": "Billie Eilish" },
-    { "id": "hello", "name": "Hello", "subtitle": "Adele" },
-    { "id": "sorry", "name": "Sorry", "subtitle": "Justin Bieber" },
-    { "id": "sunflower", "name": "Sunflower", "subtitle": "Post Malone & Swae Lee" },
-    { "id": "royals", "name": "Royals", "subtitle": "Lorde" },
-    { "id": "thank-u-next", "name": "thank u, next", "subtitle": "Ariana Grande" },
-    { "id": "we-found-love", "name": "We Found Love", "subtitle": "Rihanna" },
-    { "id": "call-me-maybe", "name": "Call Me Maybe", "subtitle": "Carly Rae Jepsen" },
-    { "id": "radioactive", "name": "Radioactive", "subtitle": "Imagine Dragons" },
-    { "id": "stressed-out", "name": "Stressed Out", "subtitle": "Twenty One Pilots" },
-    { "id": "shallow", "name": "Shallow", "subtitle": "Lady Gaga & Bradley Cooper" },
-    { "id": "havana", "name": "Havana", "subtitle": "Camila Cabello" },
-    { "id": "dance-monkey", "name": "Dance Monkey", "subtitle": "Tones and I" },
-    { "id": "señorita", "name": "Senorita", "subtitle": "Shawn Mendes & Camila Cabello" },
-    { "id": "cheap-thrills", "name": "Cheap Thrills", "subtitle": "Sia" },
-    { "id": "7-rings", "name": "7 rings", "subtitle": "Ariana Grande" },
-    { "id": "attention", "name": "Attention", "subtitle": "Charlie Puth" },
-    { "id": "lean-on", "name": "Lean On", "subtitle": "Major Lazer & DJ Snake" },
-    { "id": "darkside", "name": "Darkside", "subtitle": "Alan Walker" },
-    { "id": "thunder", "name": "Thunder", "subtitle": "Imagine Dragons" },
-    { "id": "love-yourself", "name": "Love Yourself", "subtitle": "Justin Bieber" }
+    {
+      "id": "uptown-funk",
+      "name": "Uptown Funk",
+      "subtitle": "Mark Ronson ft. Bruno Mars",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Uptown+Funk"
+    },
+    {
+      "id": "shape-of-you",
+      "name": "Shape of You",
+      "subtitle": "Ed Sheeran",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Shape+of+You"
+    },
+    {
+      "id": "happy",
+      "name": "Happy",
+      "subtitle": "Pharrell Williams",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Happy"
+    },
+    {
+      "id": "somebody-that-i-used-to-know",
+      "name": "Somebody That I Used to Know",
+      "subtitle": "Gotye",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Somebody+That+I+Used+to+Know"
+    },
+    {
+      "id": "despacito",
+      "name": "Despacito",
+      "subtitle": "Luis Fonsi ft. Daddy Yankee",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Despacito"
+    },
+    {
+      "id": "rolling-in-the-deep",
+      "name": "Rolling in the Deep",
+      "subtitle": "Adele",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Rolling+in+the+Deep"
+    },
+    {
+      "id": "closer",
+      "name": "Closer",
+      "subtitle": "The Chainsmokers ft. Halsey",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Closer"
+    },
+    {
+      "id": "thinking-out-loud",
+      "name": "Thinking Out Loud",
+      "subtitle": "Ed Sheeran",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Thinking+Out+Loud"
+    },
+    {
+      "id": "old-town-road",
+      "name": "Old Town Road",
+      "subtitle": "Lil Nas X",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Old+Town+Road"
+    },
+    {
+      "id": "cant-stop-the-feeling",
+      "name": "Can't Stop the Feeling",
+      "subtitle": "Justin Timberlake",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Can't+Stop+the+Feeling"
+    },
+    {
+      "id": "chandelier",
+      "name": "Chandelier",
+      "subtitle": "Sia",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Chandelier"
+    },
+    {
+      "id": "bad-guy",
+      "name": "bad guy",
+      "subtitle": "Billie Eilish",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=bad+guy"
+    },
+    {
+      "id": "hello",
+      "name": "Hello",
+      "subtitle": "Adele",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Hello"
+    },
+    {
+      "id": "sorry",
+      "name": "Sorry",
+      "subtitle": "Justin Bieber",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sorry"
+    },
+    {
+      "id": "sunflower",
+      "name": "Sunflower",
+      "subtitle": "Post Malone & Swae Lee",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sunflower"
+    },
+    {
+      "id": "royals",
+      "name": "Royals",
+      "subtitle": "Lorde",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Royals"
+    },
+    {
+      "id": "thank-u-next",
+      "name": "thank u, next",
+      "subtitle": "Ariana Grande",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=thank+u%2C+next"
+    },
+    {
+      "id": "we-found-love",
+      "name": "We Found Love",
+      "subtitle": "Rihanna",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=We+Found+Love"
+    },
+    {
+      "id": "call-me-maybe",
+      "name": "Call Me Maybe",
+      "subtitle": "Carly Rae Jepsen",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Call+Me+Maybe"
+    },
+    {
+      "id": "radioactive",
+      "name": "Radioactive",
+      "subtitle": "Imagine Dragons",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Radioactive"
+    },
+    {
+      "id": "stressed-out",
+      "name": "Stressed Out",
+      "subtitle": "Twenty One Pilots",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Stressed+Out"
+    },
+    {
+      "id": "shallow",
+      "name": "Shallow",
+      "subtitle": "Lady Gaga & Bradley Cooper",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Shallow"
+    },
+    {
+      "id": "havana",
+      "name": "Havana",
+      "subtitle": "Camila Cabello",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Havana"
+    },
+    {
+      "id": "dance-monkey",
+      "name": "Dance Monkey",
+      "subtitle": "Tones and I",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Dance+Monkey"
+    },
+    {
+      "id": "señorita",
+      "name": "Senorita",
+      "subtitle": "Shawn Mendes & Camila Cabello",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Senorita"
+    },
+    {
+      "id": "cheap-thrills",
+      "name": "Cheap Thrills",
+      "subtitle": "Sia",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Cheap+Thrills"
+    },
+    {
+      "id": "7-rings",
+      "name": "7 rings",
+      "subtitle": "Ariana Grande",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=7+rings"
+    },
+    {
+      "id": "attention",
+      "name": "Attention",
+      "subtitle": "Charlie Puth",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Attention"
+    },
+    {
+      "id": "lean-on",
+      "name": "Lean On",
+      "subtitle": "Major Lazer & DJ Snake",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Lean+On"
+    },
+    {
+      "id": "darkside",
+      "name": "Darkside",
+      "subtitle": "Alan Walker",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Darkside"
+    },
+    {
+      "id": "thunder",
+      "name": "Thunder",
+      "subtitle": "Imagine Dragons",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Thunder"
+    },
+    {
+      "id": "love-yourself",
+      "name": "Love Yourself",
+      "subtitle": "Justin Bieber",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Love+Yourself"
+    }
   ]
 }

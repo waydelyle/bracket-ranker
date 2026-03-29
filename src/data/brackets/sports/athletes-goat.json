@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "michael-jordan-goat", "name": "Michael Jordan", "subtitle": "Basketball" },
-    { "id": "serena-williams", "name": "Serena Williams", "subtitle": "Tennis" },
-    { "id": "muhammad-ali", "name": "Muhammad Ali", "subtitle": "Boxing" },
-    { "id": "lionel-messi-goat", "name": "Lionel Messi", "subtitle": "Soccer" },
-    { "id": "tom-brady", "name": "Tom Brady", "subtitle": "Football" },
-    { "id": "usain-bolt", "name": "Usain Bolt", "subtitle": "Track & Field" },
-    { "id": "michael-phelps", "name": "Michael Phelps", "subtitle": "Swimming" },
-    { "id": "wayne-gretzky", "name": "Wayne Gretzky", "subtitle": "Hockey" },
-    { "id": "lebron-james-goat", "name": "LeBron James", "subtitle": "Basketball" },
-    { "id": "tiger-woods", "name": "Tiger Woods", "subtitle": "Golf" },
-    { "id": "babe-ruth", "name": "Babe Ruth", "subtitle": "Baseball" },
-    { "id": "pele-goat", "name": "Pele", "subtitle": "Soccer" },
-    { "id": "simone-biles", "name": "Simone Biles", "subtitle": "Gymnastics" },
-    { "id": "roger-federer", "name": "Roger Federer", "subtitle": "Tennis" },
-    { "id": "rafael-nadal", "name": "Rafael Nadal", "subtitle": "Tennis" },
-    { "id": "novak-djokovic", "name": "Novak Djokovic", "subtitle": "Tennis" },
-    { "id": "cristiano-ronaldo-goat", "name": "Cristiano Ronaldo", "subtitle": "Soccer" },
-    { "id": "mike-tyson", "name": "Mike Tyson", "subtitle": "Boxing" },
-    { "id": "bo-jackson", "name": "Bo Jackson", "subtitle": "Football / Baseball" },
-    { "id": "jackie-robinson", "name": "Jackie Robinson", "subtitle": "Baseball" },
-    { "id": "shaquille-oneal-goat", "name": "Shaquille O'Neal", "subtitle": "Basketball" },
-    { "id": "jesse-owens", "name": "Jesse Owens", "subtitle": "Track & Field" },
-    { "id": "jim-brown", "name": "Jim Brown", "subtitle": "Football" },
-    { "id": "barry-bonds", "name": "Barry Bonds", "subtitle": "Baseball" },
-    { "id": "nadia-comaneci", "name": "Nadia Comaneci", "subtitle": "Gymnastics" },
-    { "id": "diego-maradona-goat", "name": "Diego Maradona", "subtitle": "Soccer" },
-    { "id": "kobe-bryant-goat", "name": "Kobe Bryant", "subtitle": "Basketball" },
-    { "id": "lewis-hamilton", "name": "Lewis Hamilton", "subtitle": "Formula 1" },
-    { "id": "jack-nicklaus", "name": "Jack Nicklaus", "subtitle": "Golf" },
-    { "id": "carl-lewis", "name": "Carl Lewis", "subtitle": "Track & Field" },
-    { "id": "stephen-curry-goat", "name": "Stephen Curry", "subtitle": "Basketball" },
-    { "id": "connor-mcdavid", "name": "Connor McDavid", "subtitle": "Hockey" }
+    {
+      "id": "michael-jordan-goat",
+      "name": "Michael Jordan",
+      "subtitle": "Basketball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Michael+Jordan"
+    },
+    {
+      "id": "serena-williams",
+      "name": "Serena Williams",
+      "subtitle": "Tennis",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Serena+Williams"
+    },
+    {
+      "id": "muhammad-ali",
+      "name": "Muhammad Ali",
+      "subtitle": "Boxing",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Muhammad+Ali"
+    },
+    {
+      "id": "lionel-messi-goat",
+      "name": "Lionel Messi",
+      "subtitle": "Soccer",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Lionel+Messi"
+    },
+    {
+      "id": "tom-brady",
+      "name": "Tom Brady",
+      "subtitle": "Football",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tom+Brady"
+    },
+    {
+      "id": "usain-bolt",
+      "name": "Usain Bolt",
+      "subtitle": "Track & Field",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Usain+Bolt"
+    },
+    {
+      "id": "michael-phelps",
+      "name": "Michael Phelps",
+      "subtitle": "Swimming",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Michael+Phelps"
+    },
+    {
+      "id": "wayne-gretzky",
+      "name": "Wayne Gretzky",
+      "subtitle": "Hockey",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Wayne+Gretzky"
+    },
+    {
+      "id": "lebron-james-goat",
+      "name": "LeBron James",
+      "subtitle": "Basketball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=LeBron+James"
+    },
+    {
+      "id": "tiger-woods",
+      "name": "Tiger Woods",
+      "subtitle": "Golf",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tiger+Woods"
+    },
+    {
+      "id": "babe-ruth",
+      "name": "Babe Ruth",
+      "subtitle": "Baseball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Babe+Ruth"
+    },
+    {
+      "id": "pele-goat",
+      "name": "Pele",
+      "subtitle": "Soccer",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Pele"
+    },
+    {
+      "id": "simone-biles",
+      "name": "Simone Biles",
+      "subtitle": "Gymnastics",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Simone+Biles"
+    },
+    {
+      "id": "roger-federer",
+      "name": "Roger Federer",
+      "subtitle": "Tennis",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Roger+Federer"
+    },
+    {
+      "id": "rafael-nadal",
+      "name": "Rafael Nadal",
+      "subtitle": "Tennis",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Rafael+Nadal"
+    },
+    {
+      "id": "novak-djokovic",
+      "name": "Novak Djokovic",
+      "subtitle": "Tennis",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Novak+Djokovic"
+    },
+    {
+      "id": "cristiano-ronaldo-goat",
+      "name": "Cristiano Ronaldo",
+      "subtitle": "Soccer",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Cristiano+Ronaldo"
+    },
+    {
+      "id": "mike-tyson",
+      "name": "Mike Tyson",
+      "subtitle": "Boxing",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Mike+Tyson"
+    },
+    {
+      "id": "bo-jackson",
+      "name": "Bo Jackson",
+      "subtitle": "Football / Baseball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Bo+Jackson"
+    },
+    {
+      "id": "jackie-robinson",
+      "name": "Jackie Robinson",
+      "subtitle": "Baseball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Jackie+Robinson"
+    },
+    {
+      "id": "shaquille-oneal-goat",
+      "name": "Shaquille O'Neal",
+      "subtitle": "Basketball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Shaquille+O'Neal"
+    },
+    {
+      "id": "jesse-owens",
+      "name": "Jesse Owens",
+      "subtitle": "Track & Field",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Jesse+Owens"
+    },
+    {
+      "id": "jim-brown",
+      "name": "Jim Brown",
+      "subtitle": "Football",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Jim+Brown"
+    },
+    {
+      "id": "barry-bonds",
+      "name": "Barry Bonds",
+      "subtitle": "Baseball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Barry+Bonds"
+    },
+    {
+      "id": "nadia-comaneci",
+      "name": "Nadia Comaneci",
+      "subtitle": "Gymnastics",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Nadia+Comaneci"
+    },
+    {
+      "id": "diego-maradona-goat",
+      "name": "Diego Maradona",
+      "subtitle": "Soccer",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Diego+Maradona"
+    },
+    {
+      "id": "kobe-bryant-goat",
+      "name": "Kobe Bryant",
+      "subtitle": "Basketball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kobe+Bryant"
+    },
+    {
+      "id": "lewis-hamilton",
+      "name": "Lewis Hamilton",
+      "subtitle": "Formula 1",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Lewis+Hamilton"
+    },
+    {
+      "id": "jack-nicklaus",
+      "name": "Jack Nicklaus",
+      "subtitle": "Golf",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Jack+Nicklaus"
+    },
+    {
+      "id": "carl-lewis",
+      "name": "Carl Lewis",
+      "subtitle": "Track & Field",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Carl+Lewis"
+    },
+    {
+      "id": "stephen-curry-goat",
+      "name": "Stephen Curry",
+      "subtitle": "Basketball",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Stephen+Curry"
+    },
+    {
+      "id": "connor-mcdavid",
+      "name": "Connor McDavid",
+      "subtitle": "Hockey",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Connor+McDavid"
+    }
   ]
 }

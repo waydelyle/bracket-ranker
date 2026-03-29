@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "internet", "name": "The Internet", "subtitle": "1983" },
-    { "id": "printing-press", "name": "Printing Press", "subtitle": "1440" },
-    { "id": "electricity", "name": "Electricity", "subtitle": "1879 (light bulb)" },
-    { "id": "wheel", "name": "The Wheel", "subtitle": "~3500 BC" },
-    { "id": "smartphone", "name": "Smartphone", "subtitle": "2007 (iPhone)" },
-    { "id": "penicillin", "name": "Penicillin", "subtitle": "1928" },
-    { "id": "airplane", "name": "Airplane", "subtitle": "1903" },
-    { "id": "telephone", "name": "Telephone", "subtitle": "1876" },
-    { "id": "television", "name": "Television", "subtitle": "1927" },
-    { "id": "automobile", "name": "Automobile", "subtitle": "1886" },
-    { "id": "computer", "name": "Computer", "subtitle": "1945" },
-    { "id": "steam-engine", "name": "Steam Engine", "subtitle": "1712" },
-    { "id": "vaccines", "name": "Vaccines", "subtitle": "1796" },
-    { "id": "compass", "name": "Compass", "subtitle": "~1100" },
-    { "id": "camera", "name": "Camera", "subtitle": "1816" },
-    { "id": "gps", "name": "GPS", "subtitle": "1978" }
+    {
+      "id": "internet",
+      "name": "The Internet",
+      "subtitle": "1983",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Internet"
+    },
+    {
+      "id": "printing-press",
+      "name": "Printing Press",
+      "subtitle": "1440",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Printing+Press"
+    },
+    {
+      "id": "electricity",
+      "name": "Electricity",
+      "subtitle": "1879 (light bulb)",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Electricity"
+    },
+    {
+      "id": "wheel",
+      "name": "The Wheel",
+      "subtitle": "~3500 BC",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Wheel"
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "subtitle": "2007 (iPhone)",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Smartphone"
+    },
+    {
+      "id": "penicillin",
+      "name": "Penicillin",
+      "subtitle": "1928",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Penicillin"
+    },
+    {
+      "id": "airplane",
+      "name": "Airplane",
+      "subtitle": "1903",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Airplane"
+    },
+    {
+      "id": "telephone",
+      "name": "Telephone",
+      "subtitle": "1876",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Telephone"
+    },
+    {
+      "id": "television",
+      "name": "Television",
+      "subtitle": "1927",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Television"
+    },
+    {
+      "id": "automobile",
+      "name": "Automobile",
+      "subtitle": "1886",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Automobile"
+    },
+    {
+      "id": "computer",
+      "name": "Computer",
+      "subtitle": "1945",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Computer"
+    },
+    {
+      "id": "steam-engine",
+      "name": "Steam Engine",
+      "subtitle": "1712",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Steam+Engine"
+    },
+    {
+      "id": "vaccines",
+      "name": "Vaccines",
+      "subtitle": "1796",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Vaccines"
+    },
+    {
+      "id": "compass",
+      "name": "Compass",
+      "subtitle": "~1100",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Compass"
+    },
+    {
+      "id": "camera",
+      "name": "Camera",
+      "subtitle": "1816",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Camera"
+    },
+    {
+      "id": "gps",
+      "name": "GPS",
+      "subtitle": "1978",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=GPS"
+    }
   ]
 }

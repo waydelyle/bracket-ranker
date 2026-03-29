@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "nike", "name": "Nike", "subtitle": "Just Do It" },
-    { "id": "adidas", "name": "Adidas", "subtitle": "Impossible Is Nothing" },
-    { "id": "jordan", "name": "Air Jordan", "subtitle": "Nike subsidiary" },
-    { "id": "under-armour", "name": "Under Armour", "subtitle": "I Will" },
-    { "id": "puma", "name": "Puma", "subtitle": "Forever Faster" },
-    { "id": "new-balance", "name": "New Balance", "subtitle": "Fearlessly Independent" },
-    { "id": "reebok", "name": "Reebok", "subtitle": "Life is Not a Spectator Sport" },
-    { "id": "converse", "name": "Converse", "subtitle": "Chuck Taylor classics" },
-    { "id": "north-face", "name": "The North Face", "subtitle": "Never Stop Exploring" },
-    { "id": "lululemon", "name": "Lululemon", "subtitle": "Athletic apparel" },
-    { "id": "asics", "name": "ASICS", "subtitle": "Sound Mind, Sound Body" },
-    { "id": "champion", "name": "Champion", "subtitle": "Athletic wear" },
-    { "id": "fila", "name": "FILA", "subtitle": "Italian sport brand" },
-    { "id": "on-running", "name": "On Running", "subtitle": "Swiss performance" },
-    { "id": "hoka", "name": "HOKA", "subtitle": "Fly human fly" },
-    { "id": "yeezy", "name": "Yeezy", "subtitle": "Kanye West brand" }
+    {
+      "id": "nike",
+      "name": "Nike",
+      "subtitle": "Just Do It",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Nike"
+    },
+    {
+      "id": "adidas",
+      "name": "Adidas",
+      "subtitle": "Impossible Is Nothing",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Adidas"
+    },
+    {
+      "id": "jordan",
+      "name": "Air Jordan",
+      "subtitle": "Nike subsidiary",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Air+Jordan"
+    },
+    {
+      "id": "under-armour",
+      "name": "Under Armour",
+      "subtitle": "I Will",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Under+Armour"
+    },
+    {
+      "id": "puma",
+      "name": "Puma",
+      "subtitle": "Forever Faster",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Puma"
+    },
+    {
+      "id": "new-balance",
+      "name": "New Balance",
+      "subtitle": "Fearlessly Independent",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+Balance"
+    },
+    {
+      "id": "reebok",
+      "name": "Reebok",
+      "subtitle": "Life is Not a Spectator Sport",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Reebok"
+    },
+    {
+      "id": "converse",
+      "name": "Converse",
+      "subtitle": "Chuck Taylor classics",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Converse"
+    },
+    {
+      "id": "north-face",
+      "name": "The North Face",
+      "subtitle": "Never Stop Exploring",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=The+North+Face"
+    },
+    {
+      "id": "lululemon",
+      "name": "Lululemon",
+      "subtitle": "Athletic apparel",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Lululemon"
+    },
+    {
+      "id": "asics",
+      "name": "ASICS",
+      "subtitle": "Sound Mind, Sound Body",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=ASICS"
+    },
+    {
+      "id": "champion",
+      "name": "Champion",
+      "subtitle": "Athletic wear",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Champion"
+    },
+    {
+      "id": "fila",
+      "name": "FILA",
+      "subtitle": "Italian sport brand",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=FILA"
+    },
+    {
+      "id": "on-running",
+      "name": "On Running",
+      "subtitle": "Swiss performance",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=On+Running"
+    },
+    {
+      "id": "hoka",
+      "name": "HOKA",
+      "subtitle": "Fly human fly",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=HOKA"
+    },
+    {
+      "id": "yeezy",
+      "name": "Yeezy",
+      "subtitle": "Kanye West brand",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Yeezy"
+    }
   ]
 }

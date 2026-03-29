@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "illmatic", "name": "Illmatic", "subtitle": "Nas - 1994" },
-    { "id": "ready-to-die", "name": "Ready to Die", "subtitle": "The Notorious B.I.G. - 1994" },
-    { "id": "mbdtf", "name": "My Beautiful Dark Twisted Fantasy", "subtitle": "Kanye West - 2010" },
-    { "id": "to-pimp-a-butterfly", "name": "To Pimp a Butterfly", "subtitle": "Kendrick Lamar - 2015" },
-    { "id": "enter-the-wu-tang", "name": "Enter the Wu-Tang (36 Chambers)", "subtitle": "Wu-Tang Clan - 1993" },
-    { "id": "the-miseducation", "name": "The Miseducation of Lauryn Hill", "subtitle": "Lauryn Hill - 1998" },
-    { "id": "aquemini", "name": "Aquemini", "subtitle": "OutKast - 1998" },
-    { "id": "good-kid-maad-city", "name": "good kid, m.A.A.d city", "subtitle": "Kendrick Lamar - 2012" },
-    { "id": "the-blueprint", "name": "The Blueprint", "subtitle": "Jay-Z - 2001" },
-    { "id": "the-marshall-mathers-lp", "name": "The Marshall Mathers LP", "subtitle": "Eminem - 2000" },
-    { "id": "me-against-the-world", "name": "Me Against the World", "subtitle": "2Pac - 1995" },
-    { "id": "reasonable-doubt", "name": "Reasonable Doubt", "subtitle": "Jay-Z - 1996" },
-    { "id": "the-chronic", "name": "The Chronic", "subtitle": "Dr. Dre - 1992" },
-    { "id": "all-eyez-on-me", "name": "All Eyez on Me", "subtitle": "2Pac - 1996" },
-    { "id": "midnight-marauders", "name": "Midnight Marauders", "subtitle": "A Tribe Called Quest - 1993" },
-    { "id": "stankonia", "name": "Stankonia", "subtitle": "OutKast - 2000" },
-    { "id": "paid-in-full", "name": "Paid in Full", "subtitle": "Eric B. & Rakim - 1987" },
-    { "id": "the-score", "name": "The Score", "subtitle": "Fugees - 1996" },
-    { "id": "doggystyle", "name": "Doggystyle", "subtitle": "Snoop Dogg - 1993" },
-    { "id": "madvillainy", "name": "Madvillainy", "subtitle": "Madvillain - 2004" },
-    { "id": "the-college-dropout", "name": "The College Dropout", "subtitle": "Kanye West - 2004" },
-    { "id": "it-takes-a-nation", "name": "It Takes a Nation of Millions to Hold Us Back", "subtitle": "Public Enemy - 1988" },
-    { "id": "only-built-4-cuban-linx", "name": "Only Built 4 Cuban Linx...", "subtitle": "Raekwon - 1995" },
-    { "id": "life-after-death", "name": "Life After Death", "subtitle": "The Notorious B.I.G. - 1997" },
-    { "id": "damn", "name": "DAMN.", "subtitle": "Kendrick Lamar - 2017" },
-    { "id": "rodeo", "name": "Rodeo", "subtitle": "Travis Scott - 2015" },
-    { "id": "take-care-album", "name": "Take Care", "subtitle": "Drake - 2011" },
-    { "id": "igor", "name": "IGOR", "subtitle": "Tyler, the Creator - 2019" },
-    { "id": "flower-boy", "name": "Flower Boy", "subtitle": "Tyler, the Creator - 2017" },
-    { "id": "sos", "name": "SOS", "subtitle": "SZA - 2022" },
-    { "id": "gnx", "name": "GNX", "subtitle": "Kendrick Lamar - 2024" },
-    { "id": "astroworld", "name": "ASTROWORLD", "subtitle": "Travis Scott - 2018" }
+    {
+      "id": "illmatic",
+      "name": "Illmatic",
+      "subtitle": "Nas - 1994",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Illmatic"
+    },
+    {
+      "id": "ready-to-die",
+      "name": "Ready to Die",
+      "subtitle": "The Notorious B.I.G. - 1994",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ready+to+Die"
+    },
+    {
+      "id": "mbdtf",
+      "name": "My Beautiful Dark Twisted Fantasy",
+      "subtitle": "Kanye West - 2010",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=My+Beautiful+Dark+Twisted+Fantasy"
+    },
+    {
+      "id": "to-pimp-a-butterfly",
+      "name": "To Pimp a Butterfly",
+      "subtitle": "Kendrick Lamar - 2015",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=To+Pimp+a+Butterfly"
+    },
+    {
+      "id": "enter-the-wu-tang",
+      "name": "Enter the Wu-Tang (36 Chambers)",
+      "subtitle": "Wu-Tang Clan - 1993",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Enter+the+Wu-Tang+(36+Chambers)"
+    },
+    {
+      "id": "the-miseducation",
+      "name": "The Miseducation of Lauryn Hill",
+      "subtitle": "Lauryn Hill - 1998",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Miseducation+of+Lauryn+Hill"
+    },
+    {
+      "id": "aquemini",
+      "name": "Aquemini",
+      "subtitle": "OutKast - 1998",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Aquemini"
+    },
+    {
+      "id": "good-kid-maad-city",
+      "name": "good kid, m.A.A.d city",
+      "subtitle": "Kendrick Lamar - 2012",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=good+kid%2C+m.A.A.d+city"
+    },
+    {
+      "id": "the-blueprint",
+      "name": "The Blueprint",
+      "subtitle": "Jay-Z - 2001",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Blueprint"
+    },
+    {
+      "id": "the-marshall-mathers-lp",
+      "name": "The Marshall Mathers LP",
+      "subtitle": "Eminem - 2000",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Marshall+Mathers+LP"
+    },
+    {
+      "id": "me-against-the-world",
+      "name": "Me Against the World",
+      "subtitle": "2Pac - 1995",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Me+Against+the+World"
+    },
+    {
+      "id": "reasonable-doubt",
+      "name": "Reasonable Doubt",
+      "subtitle": "Jay-Z - 1996",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Reasonable+Doubt"
+    },
+    {
+      "id": "the-chronic",
+      "name": "The Chronic",
+      "subtitle": "Dr. Dre - 1992",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Chronic"
+    },
+    {
+      "id": "all-eyez-on-me",
+      "name": "All Eyez on Me",
+      "subtitle": "2Pac - 1996",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=All+Eyez+on+Me"
+    },
+    {
+      "id": "midnight-marauders",
+      "name": "Midnight Marauders",
+      "subtitle": "A Tribe Called Quest - 1993",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Midnight+Marauders"
+    },
+    {
+      "id": "stankonia",
+      "name": "Stankonia",
+      "subtitle": "OutKast - 2000",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Stankonia"
+    },
+    {
+      "id": "paid-in-full",
+      "name": "Paid in Full",
+      "subtitle": "Eric B. & Rakim - 1987",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Paid+in+Full"
+    },
+    {
+      "id": "the-score",
+      "name": "The Score",
+      "subtitle": "Fugees - 1996",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Score"
+    },
+    {
+      "id": "doggystyle",
+      "name": "Doggystyle",
+      "subtitle": "Snoop Dogg - 1993",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Doggystyle"
+    },
+    {
+      "id": "madvillainy",
+      "name": "Madvillainy",
+      "subtitle": "Madvillain - 2004",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Madvillainy"
+    },
+    {
+      "id": "the-college-dropout",
+      "name": "The College Dropout",
+      "subtitle": "Kanye West - 2004",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+College+Dropout"
+    },
+    {
+      "id": "it-takes-a-nation",
+      "name": "It Takes a Nation of Millions to Hold Us Back",
+      "subtitle": "Public Enemy - 1988",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=It+Takes+a+Nation+of+Millions+to+Hold+Us+Back"
+    },
+    {
+      "id": "only-built-4-cuban-linx",
+      "name": "Only Built 4 Cuban Linx...",
+      "subtitle": "Raekwon - 1995",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Only+Built+4+Cuban+Linx..."
+    },
+    {
+      "id": "life-after-death",
+      "name": "Life After Death",
+      "subtitle": "The Notorious B.I.G. - 1997",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Life+After+Death"
+    },
+    {
+      "id": "damn",
+      "name": "DAMN.",
+      "subtitle": "Kendrick Lamar - 2017",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=DAMN."
+    },
+    {
+      "id": "rodeo",
+      "name": "Rodeo",
+      "subtitle": "Travis Scott - 2015",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Rodeo"
+    },
+    {
+      "id": "take-care-album",
+      "name": "Take Care",
+      "subtitle": "Drake - 2011",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Take+Care"
+    },
+    {
+      "id": "igor",
+      "name": "IGOR",
+      "subtitle": "Tyler, the Creator - 2019",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=IGOR"
+    },
+    {
+      "id": "flower-boy",
+      "name": "Flower Boy",
+      "subtitle": "Tyler, the Creator - 2017",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Flower+Boy"
+    },
+    {
+      "id": "sos",
+      "name": "SOS",
+      "subtitle": "SZA - 2022",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=SOS"
+    },
+    {
+      "id": "gnx",
+      "name": "GNX",
+      "subtitle": "Kendrick Lamar - 2024",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=GNX"
+    },
+    {
+      "id": "astroworld",
+      "name": "ASTROWORLD",
+      "subtitle": "Travis Scott - 2018",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=ASTROWORLD"
+    }
   ]
 }

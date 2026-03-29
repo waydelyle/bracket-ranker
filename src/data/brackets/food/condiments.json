@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "ketchup", "name": "Ketchup", "subtitle": "Tomato classic" },
-    { "id": "mustard", "name": "Mustard", "subtitle": "Yellow or Dijon" },
-    { "id": "mayo", "name": "Mayonnaise", "subtitle": "Creamy spread" },
-    { "id": "hot-sauce", "name": "Hot Sauce", "subtitle": "Spicy kick" },
-    { "id": "ranch", "name": "Ranch Dressing", "subtitle": "America's favorite dip" },
-    { "id": "bbq-sauce", "name": "BBQ Sauce", "subtitle": "Sweet & smoky" },
-    { "id": "soy-sauce", "name": "Soy Sauce", "subtitle": "Salty umami" },
-    { "id": "sriracha", "name": "Sriracha", "subtitle": "Rooster sauce" },
-    { "id": "salsa", "name": "Salsa", "subtitle": "Tomato-based dip" },
-    { "id": "honey-mustard", "name": "Honey Mustard", "subtitle": "Sweet & tangy" },
-    { "id": "buffalo-sauce", "name": "Buffalo Sauce", "subtitle": "Spicy wing sauce" },
-    { "id": "guacamole", "name": "Guacamole", "subtitle": "Avocado dip" },
-    { "id": "pesto", "name": "Pesto", "subtitle": "Basil & pine nuts" },
-    { "id": "hummus", "name": "Hummus", "subtitle": "Chickpea dip" },
-    { "id": "teriyaki", "name": "Teriyaki Sauce", "subtitle": "Sweet soy glaze" },
-    { "id": "aioli", "name": "Aioli", "subtitle": "Garlic mayo" }
+    {
+      "id": "ketchup",
+      "name": "Ketchup",
+      "subtitle": "Tomato classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ketchup"
+    },
+    {
+      "id": "mustard",
+      "name": "Mustard",
+      "subtitle": "Yellow or Dijon",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mustard"
+    },
+    {
+      "id": "mayo",
+      "name": "Mayonnaise",
+      "subtitle": "Creamy spread",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mayonnaise"
+    },
+    {
+      "id": "hot-sauce",
+      "name": "Hot Sauce",
+      "subtitle": "Spicy kick",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Hot+Sauce"
+    },
+    {
+      "id": "ranch",
+      "name": "Ranch Dressing",
+      "subtitle": "America's favorite dip",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ranch+Dressing"
+    },
+    {
+      "id": "bbq-sauce",
+      "name": "BBQ Sauce",
+      "subtitle": "Sweet & smoky",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=BBQ+Sauce"
+    },
+    {
+      "id": "soy-sauce",
+      "name": "Soy Sauce",
+      "subtitle": "Salty umami",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Soy+Sauce"
+    },
+    {
+      "id": "sriracha",
+      "name": "Sriracha",
+      "subtitle": "Rooster sauce",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Sriracha"
+    },
+    {
+      "id": "salsa",
+      "name": "Salsa",
+      "subtitle": "Tomato-based dip",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Salsa"
+    },
+    {
+      "id": "honey-mustard",
+      "name": "Honey Mustard",
+      "subtitle": "Sweet & tangy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Honey+Mustard"
+    },
+    {
+      "id": "buffalo-sauce",
+      "name": "Buffalo Sauce",
+      "subtitle": "Spicy wing sauce",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Buffalo+Sauce"
+    },
+    {
+      "id": "guacamole",
+      "name": "Guacamole",
+      "subtitle": "Avocado dip",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Guacamole"
+    },
+    {
+      "id": "pesto",
+      "name": "Pesto",
+      "subtitle": "Basil & pine nuts",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pesto"
+    },
+    {
+      "id": "hummus",
+      "name": "Hummus",
+      "subtitle": "Chickpea dip",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Hummus"
+    },
+    {
+      "id": "teriyaki",
+      "name": "Teriyaki Sauce",
+      "subtitle": "Sweet soy glaze",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Teriyaki+Sauce"
+    },
+    {
+      "id": "aioli",
+      "name": "Aioli",
+      "subtitle": "Garlic mayo",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Aioli"
+    }
   ]
 }

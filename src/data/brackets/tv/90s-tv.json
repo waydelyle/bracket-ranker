@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "friends-90s", "name": "Friends", "subtitle": "1994-2004" },
-    { "id": "seinfeld-90s", "name": "Seinfeld", "subtitle": "1989-1998" },
-    { "id": "the-sopranos-90s", "name": "The Sopranos", "subtitle": "1999-2007" },
-    { "id": "the-x-files-90s", "name": "The X-Files", "subtitle": "1993-2002" },
-    { "id": "buffy", "name": "Buffy the Vampire Slayer", "subtitle": "1997-2003" },
-    { "id": "fresh-prince-90s", "name": "The Fresh Prince of Bel-Air", "subtitle": "1990-1996" },
-    { "id": "the-simpsons-90s", "name": "The Simpsons", "subtitle": "1989-present" },
-    { "id": "twin-peaks", "name": "Twin Peaks", "subtitle": "1990-1991" },
-    { "id": "south-park-90s", "name": "South Park", "subtitle": "1997-present" },
-    { "id": "law-and-order", "name": "Law & Order", "subtitle": "1990-present" },
-    { "id": "er", "name": "ER", "subtitle": "1994-2009" },
-    { "id": "frasier-90s", "name": "Frasier", "subtitle": "1993-2004" },
-    { "id": "boy-meets-world", "name": "Boy Meets World", "subtitle": "1993-2000" },
-    { "id": "saved-by-the-bell", "name": "Saved by the Bell", "subtitle": "1989-1993" },
-    { "id": "dawsons-creek", "name": "Dawson's Creek", "subtitle": "1998-2003" },
-    { "id": "that-70s-show-90s", "name": "That '70s Show", "subtitle": "1998-2006" },
-    { "id": "will-and-grace-90s", "name": "Will & Grace", "subtitle": "1998-2006" },
-    { "id": "the-nanny", "name": "The Nanny", "subtitle": "1993-1999" },
-    { "id": "home-improvement", "name": "Home Improvement", "subtitle": "1991-1999" },
-    { "id": "full-house", "name": "Full House", "subtitle": "1987-1995" },
-    { "id": "everybody-loves-raymond-90s", "name": "Everybody Loves Raymond", "subtitle": "1996-2005" },
-    { "id": "the-west-wing-90s", "name": "The West Wing", "subtitle": "1999-2006" },
-    { "id": "oz", "name": "Oz", "subtitle": "1997-2003" },
-    { "id": "sex-and-the-city", "name": "Sex and the City", "subtitle": "1998-2004" }
+    {
+      "id": "friends-90s",
+      "name": "Friends",
+      "subtitle": "1994-2004",
+      "image": "https://image.tmdb.org/t/p/w500/f496cm9enuEsZkSPzCwnTESEK5s.jpg"
+    },
+    {
+      "id": "seinfeld-90s",
+      "name": "Seinfeld",
+      "subtitle": "1989-1998",
+      "image": "https://image.tmdb.org/t/p/w500/aCw8ONfyz3AhngVQa1E2Ss4KFKT.jpg"
+    },
+    {
+      "id": "the-sopranos-90s",
+      "name": "The Sopranos",
+      "subtitle": "1999-2007",
+      "image": "https://image.tmdb.org/t/p/w500/57okJJUBK0Rjuq7SE9aDtMQWxoY.jpg"
+    },
+    {
+      "id": "the-x-files-90s",
+      "name": "The X-Files",
+      "subtitle": "1993-2002",
+      "image": "https://image.tmdb.org/t/p/w500/5BD0kiTGLaiJLONqt6MFbyOKN6B.jpg"
+    },
+    {
+      "id": "buffy",
+      "name": "Buffy the Vampire Slayer",
+      "subtitle": "1997-2003",
+      "image": "https://image.tmdb.org/t/p/w500/eNotk7mOPk4yC1qUqHHOIHJYdmO.jpg"
+    },
+    {
+      "id": "fresh-prince-90s",
+      "name": "The Fresh Prince of Bel-Air",
+      "subtitle": "1990-1996",
+      "image": "https://image.tmdb.org/t/p/w500/iS07JMve2gkvONKGIjvPGn4Zlvt.jpg"
+    },
+    {
+      "id": "the-simpsons-90s",
+      "name": "The Simpsons",
+      "subtitle": "1989-present",
+      "image": "https://image.tmdb.org/t/p/w500/tubgEpjTUA7t0kejVMBsNBZDarZ.jpg"
+    },
+    {
+      "id": "twin-peaks",
+      "name": "Twin Peaks",
+      "subtitle": "1990-1991",
+      "image": "https://image.tmdb.org/t/p/w500/rznEFY9TmBvNuWCpxp3RxfGqlqD.jpg"
+    },
+    {
+      "id": "south-park-90s",
+      "name": "South Park",
+      "subtitle": "1997-present",
+      "image": "https://image.tmdb.org/t/p/w500/xJnbMTrJ2fl1AXAKx34U4BPvOhs.jpg"
+    },
+    {
+      "id": "law-and-order",
+      "name": "Law & Order",
+      "subtitle": "1990-present",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Law+%26+Order"
+    },
+    {
+      "id": "er",
+      "name": "ER",
+      "subtitle": "1994-2009",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=ER"
+    },
+    {
+      "id": "frasier-90s",
+      "name": "Frasier",
+      "subtitle": "1993-2004",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Frasier"
+    },
+    {
+      "id": "boy-meets-world",
+      "name": "Boy Meets World",
+      "subtitle": "1993-2000",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Boy+Meets+World"
+    },
+    {
+      "id": "saved-by-the-bell",
+      "name": "Saved by the Bell",
+      "subtitle": "1989-1993",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Saved+by+the+Bell"
+    },
+    {
+      "id": "dawsons-creek",
+      "name": "Dawson's Creek",
+      "subtitle": "1998-2003",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dawson's+Creek"
+    },
+    {
+      "id": "that-70s-show-90s",
+      "name": "That '70s Show",
+      "subtitle": "1998-2006",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=That+'70s+Show"
+    },
+    {
+      "id": "will-and-grace-90s",
+      "name": "Will & Grace",
+      "subtitle": "1998-2006",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Will+%26+Grace"
+    },
+    {
+      "id": "the-nanny",
+      "name": "The Nanny",
+      "subtitle": "1993-1999",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Nanny"
+    },
+    {
+      "id": "home-improvement",
+      "name": "Home Improvement",
+      "subtitle": "1991-1999",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Home+Improvement"
+    },
+    {
+      "id": "full-house",
+      "name": "Full House",
+      "subtitle": "1987-1995",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Full+House"
+    },
+    {
+      "id": "everybody-loves-raymond-90s",
+      "name": "Everybody Loves Raymond",
+      "subtitle": "1996-2005",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Everybody+Loves+Raymond"
+    },
+    {
+      "id": "the-west-wing-90s",
+      "name": "The West Wing",
+      "subtitle": "1999-2006",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+West+Wing"
+    },
+    {
+      "id": "oz",
+      "name": "Oz",
+      "subtitle": "1997-2003",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Oz"
+    },
+    {
+      "id": "sex-and-the-city",
+      "name": "Sex and the City",
+      "subtitle": "1998-2004",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Sex+and+the+City"
+    }
   ]
 }

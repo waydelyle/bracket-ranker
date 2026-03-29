@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "yankees", "name": "New York Yankees", "subtitle": "AL East" },
-    { "id": "dodgers", "name": "Los Angeles Dodgers", "subtitle": "NL West" },
-    { "id": "red-sox", "name": "Boston Red Sox", "subtitle": "AL East" },
-    { "id": "cubs", "name": "Chicago Cubs", "subtitle": "NL Central" },
-    { "id": "cardinals", "name": "St. Louis Cardinals", "subtitle": "NL Central" },
-    { "id": "braves", "name": "Atlanta Braves", "subtitle": "NL East" },
-    { "id": "giants-mlb", "name": "San Francisco Giants", "subtitle": "NL West" },
-    { "id": "astros", "name": "Houston Astros", "subtitle": "AL West" },
-    { "id": "phillies", "name": "Philadelphia Phillies", "subtitle": "NL East" },
-    { "id": "mets", "name": "New York Mets", "subtitle": "NL East" },
-    { "id": "white-sox", "name": "Chicago White Sox", "subtitle": "AL Central" },
-    { "id": "rangers", "name": "Texas Rangers", "subtitle": "AL West" },
-    { "id": "twins", "name": "Minnesota Twins", "subtitle": "AL Central" },
-    { "id": "tigers", "name": "Detroit Tigers", "subtitle": "AL Central" },
-    { "id": "reds", "name": "Cincinnati Reds", "subtitle": "NL Central" },
-    { "id": "padres", "name": "San Diego Padres", "subtitle": "NL West" },
-    { "id": "angels", "name": "Los Angeles Angels", "subtitle": "AL West" },
-    { "id": "orioles", "name": "Baltimore Orioles", "subtitle": "AL East" },
-    { "id": "mariners", "name": "Seattle Mariners", "subtitle": "AL West" },
-    { "id": "brewers", "name": "Milwaukee Brewers", "subtitle": "NL Central" },
-    { "id": "rays", "name": "Tampa Bay Rays", "subtitle": "AL East" },
-    { "id": "blue-jays", "name": "Toronto Blue Jays", "subtitle": "AL East" },
-    { "id": "pirates-mlb", "name": "Pittsburgh Pirates", "subtitle": "NL Central" },
-    { "id": "nationals", "name": "Washington Nationals", "subtitle": "NL East" },
-    { "id": "athletics", "name": "Oakland Athletics", "subtitle": "AL West" },
-    { "id": "guardians", "name": "Cleveland Guardians", "subtitle": "AL Central" },
-    { "id": "royals", "name": "Kansas City Royals", "subtitle": "AL Central" },
-    { "id": "rockies", "name": "Colorado Rockies", "subtitle": "NL West" },
-    { "id": "dbacks", "name": "Arizona Diamondbacks", "subtitle": "NL West" },
-    { "id": "marlins", "name": "Miami Marlins", "subtitle": "NL East" },
-    { "id": "reds-legacy", "name": "Big Red Machine (1970s)", "subtitle": "Historic Dynasty" },
-    { "id": "yankees-27", "name": "1927 Yankees", "subtitle": "Historic Dynasty" }
+    {
+      "id": "yankees",
+      "name": "New York Yankees",
+      "subtitle": "AL East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+York+Yankees"
+    },
+    {
+      "id": "dodgers",
+      "name": "Los Angeles Dodgers",
+      "subtitle": "NL West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Los+Angeles+Dodgers"
+    },
+    {
+      "id": "red-sox",
+      "name": "Boston Red Sox",
+      "subtitle": "AL East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Boston+Red+Sox"
+    },
+    {
+      "id": "cubs",
+      "name": "Chicago Cubs",
+      "subtitle": "NL Central",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Chicago+Cubs"
+    },
+    {
+      "id": "cardinals",
+      "name": "St. Louis Cardinals",
+      "subtitle": "NL Central",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=St.+Louis+Cardinals"
+    },
+    {
+      "id": "braves",
+      "name": "Atlanta Braves",
+      "subtitle": "NL East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Atlanta+Braves"
+    },
+    {
+      "id": "giants-mlb",
+      "name": "San Francisco Giants",
+      "subtitle": "NL West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=San+Francisco+Giants"
+    },
+    {
+      "id": "astros",
+      "name": "Houston Astros",
+      "subtitle": "AL West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Houston+Astros"
+    },
+    {
+      "id": "phillies",
+      "name": "Philadelphia Phillies",
+      "subtitle": "NL East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Philadelphia+Phillies"
+    },
+    {
+      "id": "mets",
+      "name": "New York Mets",
+      "subtitle": "NL East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+York+Mets"
+    },
+    {
+      "id": "white-sox",
+      "name": "Chicago White Sox",
+      "subtitle": "AL Central",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Chicago+White+Sox"
+    },
+    {
+      "id": "rangers",
+      "name": "Texas Rangers",
+      "subtitle": "AL West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Texas+Rangers"
+    },
+    {
+      "id": "twins",
+      "name": "Minnesota Twins",
+      "subtitle": "AL Central",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Minnesota+Twins"
+    },
+    {
+      "id": "tigers",
+      "name": "Detroit Tigers",
+      "subtitle": "AL Central",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Detroit+Tigers"
+    },
+    {
+      "id": "reds",
+      "name": "Cincinnati Reds",
+      "subtitle": "NL Central",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Cincinnati+Reds"
+    },
+    {
+      "id": "padres",
+      "name": "San Diego Padres",
+      "subtitle": "NL West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=San+Diego+Padres"
+    },
+    {
+      "id": "angels",
+      "name": "Los Angeles Angels",
+      "subtitle": "AL West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Los+Angeles+Angels"
+    },
+    {
+      "id": "orioles",
+      "name": "Baltimore Orioles",
+      "subtitle": "AL East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Baltimore+Orioles"
+    },
+    {
+      "id": "mariners",
+      "name": "Seattle Mariners",
+      "subtitle": "AL West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Seattle+Mariners"
+    },
+    {
+      "id": "brewers",
+      "name": "Milwaukee Brewers",
+      "subtitle": "NL Central",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Milwaukee+Brewers"
+    },
+    {
+      "id": "rays",
+      "name": "Tampa Bay Rays",
+      "subtitle": "AL East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tampa+Bay+Rays"
+    },
+    {
+      "id": "blue-jays",
+      "name": "Toronto Blue Jays",
+      "subtitle": "AL East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Toronto+Blue+Jays"
+    },
+    {
+      "id": "pirates-mlb",
+      "name": "Pittsburgh Pirates",
+      "subtitle": "NL Central",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Pittsburgh+Pirates"
+    },
+    {
+      "id": "nationals",
+      "name": "Washington Nationals",
+      "subtitle": "NL East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Washington+Nationals"
+    },
+    {
+      "id": "athletics",
+      "name": "Oakland Athletics",
+      "subtitle": "AL West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Oakland+Athletics"
+    },
+    {
+      "id": "guardians",
+      "name": "Cleveland Guardians",
+      "subtitle": "AL Central",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Cleveland+Guardians"
+    },
+    {
+      "id": "royals",
+      "name": "Kansas City Royals",
+      "subtitle": "AL Central",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kansas+City+Royals"
+    },
+    {
+      "id": "rockies",
+      "name": "Colorado Rockies",
+      "subtitle": "NL West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Colorado+Rockies"
+    },
+    {
+      "id": "dbacks",
+      "name": "Arizona Diamondbacks",
+      "subtitle": "NL West",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Arizona+Diamondbacks"
+    },
+    {
+      "id": "marlins",
+      "name": "Miami Marlins",
+      "subtitle": "NL East",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Miami+Marlins"
+    },
+    {
+      "id": "reds-legacy",
+      "name": "Big Red Machine (1970s)",
+      "subtitle": "Historic Dynasty",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Big+Red+Machine+(1970s)"
+    },
+    {
+      "id": "yankees-27",
+      "name": "1927 Yankees",
+      "subtitle": "Historic Dynasty",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=1927+Yankees"
+    }
   ]
 }

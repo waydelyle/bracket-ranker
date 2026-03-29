@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "reeses", "name": "Reese's Peanut Butter Cups", "subtitle": "Chocolate & peanut butter" },
-    { "id": "skittles", "name": "Skittles", "subtitle": "Taste the rainbow" },
-    { "id": "snickers", "name": "Snickers", "subtitle": "Nougat, caramel & peanuts" },
-    { "id": "kit-kat", "name": "Kit Kat", "subtitle": "Crispy wafer bars" },
-    { "id": "m-and-ms", "name": "M&M's", "subtitle": "Chocolate candies" },
-    { "id": "twix", "name": "Twix", "subtitle": "Cookie, caramel & chocolate" },
-    { "id": "sour-patch-kids", "name": "Sour Patch Kids", "subtitle": "Sour then sweet" },
-    { "id": "gummy-bears", "name": "Gummy Bears", "subtitle": "Haribo or otherwise" },
-    { "id": "starburst", "name": "Starburst", "subtitle": "Fruit chews" },
-    { "id": "twizzlers", "name": "Twizzlers", "subtitle": "Strawberry licorice" },
-    { "id": "milky-way", "name": "Milky Way", "subtitle": "Nougat & caramel" },
-    { "id": "hershey-bar", "name": "Hershey's Chocolate Bar", "subtitle": "Classic milk chocolate" },
-    { "id": "butterfingers", "name": "Butterfinger", "subtitle": "Crispy peanut butter" },
-    { "id": "jolly-ranchers", "name": "Jolly Ranchers", "subtitle": "Hard fruit candy" },
-    { "id": "swedish-fish", "name": "Swedish Fish", "subtitle": "Red gummy candy" },
-    { "id": "nerds", "name": "Nerds", "subtitle": "Tiny tangy crunchy" },
-    { "id": "airheads", "name": "Airheads", "subtitle": "Chewy taffy" },
-    { "id": "three-musketeers", "name": "3 Musketeers", "subtitle": "Fluffy nougat" },
-    { "id": "almond-joy", "name": "Almond Joy", "subtitle": "Coconut & almonds" },
-    { "id": "baby-ruth", "name": "Baby Ruth", "subtitle": "Nougat & peanuts" },
-    { "id": "laffy-taffy", "name": "Laffy Taffy", "subtitle": "Stretchy taffy" },
-    { "id": "mike-and-ike", "name": "Mike and Ike", "subtitle": "Fruit flavored" },
-    { "id": "whoppers", "name": "Whoppers", "subtitle": "Malted milk balls" },
-    { "id": "payday", "name": "PayDay", "subtitle": "Peanut & caramel" },
-    { "id": "candy-corn", "name": "Candy Corn", "subtitle": "Love it or hate it" },
-    { "id": "tootsie-roll", "name": "Tootsie Roll", "subtitle": "Chocolate taffy" },
-    { "id": "100-grand", "name": "100 Grand", "subtitle": "Caramel & rice crispies" },
-    { "id": "crunch-bar", "name": "Crunch Bar", "subtitle": "Chocolate & crisped rice" },
-    { "id": "ring-pop", "name": "Ring Pop", "subtitle": "Wearable candy" },
-    { "id": "warheads", "name": "Warheads", "subtitle": "Extreme sour candy" },
-    { "id": "heath-bar", "name": "Heath Bar", "subtitle": "English toffee" },
-    { "id": "life-savers", "name": "Life Savers", "subtitle": "Ring-shaped candy" }
+    {
+      "id": "reeses",
+      "name": "Reese's Peanut Butter Cups",
+      "subtitle": "Chocolate & peanut butter",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Reese's+Peanut+Butter+Cups"
+    },
+    {
+      "id": "skittles",
+      "name": "Skittles",
+      "subtitle": "Taste the rainbow",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Skittles"
+    },
+    {
+      "id": "snickers",
+      "name": "Snickers",
+      "subtitle": "Nougat, caramel & peanuts",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Snickers"
+    },
+    {
+      "id": "kit-kat",
+      "name": "Kit Kat",
+      "subtitle": "Crispy wafer bars",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Kit+Kat"
+    },
+    {
+      "id": "m-and-ms",
+      "name": "M&M's",
+      "subtitle": "Chocolate candies",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=M%26M's"
+    },
+    {
+      "id": "twix",
+      "name": "Twix",
+      "subtitle": "Cookie, caramel & chocolate",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Twix"
+    },
+    {
+      "id": "sour-patch-kids",
+      "name": "Sour Patch Kids",
+      "subtitle": "Sour then sweet",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Sour+Patch+Kids"
+    },
+    {
+      "id": "gummy-bears",
+      "name": "Gummy Bears",
+      "subtitle": "Haribo or otherwise",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Gummy+Bears"
+    },
+    {
+      "id": "starburst",
+      "name": "Starburst",
+      "subtitle": "Fruit chews",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Starburst"
+    },
+    {
+      "id": "twizzlers",
+      "name": "Twizzlers",
+      "subtitle": "Strawberry licorice",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Twizzlers"
+    },
+    {
+      "id": "milky-way",
+      "name": "Milky Way",
+      "subtitle": "Nougat & caramel",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Milky+Way"
+    },
+    {
+      "id": "hershey-bar",
+      "name": "Hershey's Chocolate Bar",
+      "subtitle": "Classic milk chocolate",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Hershey's+Chocolate+Bar"
+    },
+    {
+      "id": "butterfingers",
+      "name": "Butterfinger",
+      "subtitle": "Crispy peanut butter",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Butterfinger"
+    },
+    {
+      "id": "jolly-ranchers",
+      "name": "Jolly Ranchers",
+      "subtitle": "Hard fruit candy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Jolly+Ranchers"
+    },
+    {
+      "id": "swedish-fish",
+      "name": "Swedish Fish",
+      "subtitle": "Red gummy candy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Swedish+Fish"
+    },
+    {
+      "id": "nerds",
+      "name": "Nerds",
+      "subtitle": "Tiny tangy crunchy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Nerds"
+    },
+    {
+      "id": "airheads",
+      "name": "Airheads",
+      "subtitle": "Chewy taffy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Airheads"
+    },
+    {
+      "id": "three-musketeers",
+      "name": "3 Musketeers",
+      "subtitle": "Fluffy nougat",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=3+Musketeers"
+    },
+    {
+      "id": "almond-joy",
+      "name": "Almond Joy",
+      "subtitle": "Coconut & almonds",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Almond+Joy"
+    },
+    {
+      "id": "baby-ruth",
+      "name": "Baby Ruth",
+      "subtitle": "Nougat & peanuts",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Baby+Ruth"
+    },
+    {
+      "id": "laffy-taffy",
+      "name": "Laffy Taffy",
+      "subtitle": "Stretchy taffy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Laffy+Taffy"
+    },
+    {
+      "id": "mike-and-ike",
+      "name": "Mike and Ike",
+      "subtitle": "Fruit flavored",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mike+and+Ike"
+    },
+    {
+      "id": "whoppers",
+      "name": "Whoppers",
+      "subtitle": "Malted milk balls",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Whoppers"
+    },
+    {
+      "id": "payday",
+      "name": "PayDay",
+      "subtitle": "Peanut & caramel",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=PayDay"
+    },
+    {
+      "id": "candy-corn",
+      "name": "Candy Corn",
+      "subtitle": "Love it or hate it",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Candy+Corn"
+    },
+    {
+      "id": "tootsie-roll",
+      "name": "Tootsie Roll",
+      "subtitle": "Chocolate taffy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Tootsie+Roll"
+    },
+    {
+      "id": "100-grand",
+      "name": "100 Grand",
+      "subtitle": "Caramel & rice crispies",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=100+Grand"
+    },
+    {
+      "id": "crunch-bar",
+      "name": "Crunch Bar",
+      "subtitle": "Chocolate & crisped rice",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Crunch+Bar"
+    },
+    {
+      "id": "ring-pop",
+      "name": "Ring Pop",
+      "subtitle": "Wearable candy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ring+Pop"
+    },
+    {
+      "id": "warheads",
+      "name": "Warheads",
+      "subtitle": "Extreme sour candy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Warheads"
+    },
+    {
+      "id": "heath-bar",
+      "name": "Heath Bar",
+      "subtitle": "English toffee",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Heath+Bar"
+    },
+    {
+      "id": "life-savers",
+      "name": "Life Savers",
+      "subtitle": "Ring-shaped candy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Life+Savers"
+    }
   ]
 }

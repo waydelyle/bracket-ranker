@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "chocolate", "name": "Chocolate", "subtitle": "The classic" },
-    { "id": "vanilla", "name": "Vanilla", "subtitle": "Timeless favorite" },
-    { "id": "cookies-and-cream", "name": "Cookies & Cream", "subtitle": "Oreo pieces" },
-    { "id": "mint-chocolate-chip", "name": "Mint Chocolate Chip", "subtitle": "Green & refreshing" },
-    { "id": "cookie-dough", "name": "Cookie Dough", "subtitle": "Raw dough chunks" },
-    { "id": "strawberry", "name": "Strawberry", "subtitle": "Fruity classic" },
-    { "id": "rocky-road", "name": "Rocky Road", "subtitle": "Chocolate, nuts & marshmallows" },
-    { "id": "butter-pecan", "name": "Butter Pecan", "subtitle": "Buttery & nutty" },
-    { "id": "salted-caramel", "name": "Salted Caramel", "subtitle": "Sweet & salty" },
-    { "id": "pistachio", "name": "Pistachio", "subtitle": "Green & nutty" },
-    { "id": "coffee", "name": "Coffee", "subtitle": "Caffeinated treat" },
-    { "id": "peanut-butter-cup", "name": "Peanut Butter Cup", "subtitle": "Reese's-inspired" },
-    { "id": "neapolitan", "name": "Neapolitan", "subtitle": "Three-in-one" },
-    { "id": "mango", "name": "Mango", "subtitle": "Tropical delight" },
-    { "id": "cotton-candy", "name": "Cotton Candy", "subtitle": "Sweet & colorful" },
-    { "id": "birthday-cake", "name": "Birthday Cake", "subtitle": "Sprinkles & vanilla" },
-    { "id": "dulce-de-leche", "name": "Dulce de Leche", "subtitle": "Caramelized milk" },
-    { "id": "black-cherry", "name": "Black Cherry", "subtitle": "Rich cherry flavor" },
-    { "id": "brownie-batter", "name": "Brownie Batter", "subtitle": "Chocolate fudge" },
-    { "id": "matcha", "name": "Matcha Green Tea", "subtitle": "Japanese-inspired" },
-    { "id": "rum-raisin", "name": "Rum Raisin", "subtitle": "Boozy & fruity" },
-    { "id": "coconut", "name": "Coconut", "subtitle": "Tropical cream" },
-    { "id": "cheesecake", "name": "Cheesecake", "subtitle": "Graham cracker swirl" },
-    { "id": "peppermint", "name": "Peppermint", "subtitle": "Cool & festive" }
+    {
+      "id": "chocolate",
+      "name": "Chocolate",
+      "subtitle": "The classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chocolate"
+    },
+    {
+      "id": "vanilla",
+      "name": "Vanilla",
+      "subtitle": "Timeless favorite",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Vanilla"
+    },
+    {
+      "id": "cookies-and-cream",
+      "name": "Cookies & Cream",
+      "subtitle": "Oreo pieces",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cookies+%26+Cream"
+    },
+    {
+      "id": "mint-chocolate-chip",
+      "name": "Mint Chocolate Chip",
+      "subtitle": "Green & refreshing",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mint+Chocolate+Chip"
+    },
+    {
+      "id": "cookie-dough",
+      "name": "Cookie Dough",
+      "subtitle": "Raw dough chunks",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cookie+Dough"
+    },
+    {
+      "id": "strawberry",
+      "name": "Strawberry",
+      "subtitle": "Fruity classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Strawberry"
+    },
+    {
+      "id": "rocky-road",
+      "name": "Rocky Road",
+      "subtitle": "Chocolate, nuts & marshmallows",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Rocky+Road"
+    },
+    {
+      "id": "butter-pecan",
+      "name": "Butter Pecan",
+      "subtitle": "Buttery & nutty",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Butter+Pecan"
+    },
+    {
+      "id": "salted-caramel",
+      "name": "Salted Caramel",
+      "subtitle": "Sweet & salty",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Salted+Caramel"
+    },
+    {
+      "id": "pistachio",
+      "name": "Pistachio",
+      "subtitle": "Green & nutty",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pistachio"
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "subtitle": "Caffeinated treat",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Coffee"
+    },
+    {
+      "id": "peanut-butter-cup",
+      "name": "Peanut Butter Cup",
+      "subtitle": "Reese's-inspired",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Peanut+Butter+Cup"
+    },
+    {
+      "id": "neapolitan",
+      "name": "Neapolitan",
+      "subtitle": "Three-in-one",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Neapolitan"
+    },
+    {
+      "id": "mango",
+      "name": "Mango",
+      "subtitle": "Tropical delight",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mango"
+    },
+    {
+      "id": "cotton-candy",
+      "name": "Cotton Candy",
+      "subtitle": "Sweet & colorful",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cotton+Candy"
+    },
+    {
+      "id": "birthday-cake",
+      "name": "Birthday Cake",
+      "subtitle": "Sprinkles & vanilla",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Birthday+Cake"
+    },
+    {
+      "id": "dulce-de-leche",
+      "name": "Dulce de Leche",
+      "subtitle": "Caramelized milk",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Dulce+de+Leche"
+    },
+    {
+      "id": "black-cherry",
+      "name": "Black Cherry",
+      "subtitle": "Rich cherry flavor",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Black+Cherry"
+    },
+    {
+      "id": "brownie-batter",
+      "name": "Brownie Batter",
+      "subtitle": "Chocolate fudge",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Brownie+Batter"
+    },
+    {
+      "id": "matcha",
+      "name": "Matcha Green Tea",
+      "subtitle": "Japanese-inspired",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Matcha+Green+Tea"
+    },
+    {
+      "id": "rum-raisin",
+      "name": "Rum Raisin",
+      "subtitle": "Boozy & fruity",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Rum+Raisin"
+    },
+    {
+      "id": "coconut",
+      "name": "Coconut",
+      "subtitle": "Tropical cream",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Coconut"
+    },
+    {
+      "id": "cheesecake",
+      "name": "Cheesecake",
+      "subtitle": "Graham cracker swirl",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cheesecake"
+    },
+    {
+      "id": "peppermint",
+      "name": "Peppermint",
+      "subtitle": "Cool & festive",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Peppermint"
+    }
   ]
 }

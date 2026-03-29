@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "christmas", "name": "Christmas", "subtitle": "December 25" },
-    { "id": "halloween", "name": "Halloween", "subtitle": "October 31" },
-    { "id": "thanksgiving", "name": "Thanksgiving", "subtitle": "4th Thursday in November" },
-    { "id": "new-years", "name": "New Year's Eve/Day", "subtitle": "December 31 / January 1" },
-    { "id": "independence-day", "name": "4th of July", "subtitle": "July 4" },
-    { "id": "valentines-day", "name": "Valentine's Day", "subtitle": "February 14" },
-    { "id": "easter", "name": "Easter", "subtitle": "Spring" },
-    { "id": "mothers-day", "name": "Mother's Day", "subtitle": "2nd Sunday in May" },
-    { "id": "fathers-day", "name": "Father's Day", "subtitle": "3rd Sunday in June" },
-    { "id": "st-patricks-day", "name": "St. Patrick's Day", "subtitle": "March 17" },
-    { "id": "memorial-day", "name": "Memorial Day", "subtitle": "Last Monday in May" },
-    { "id": "labor-day", "name": "Labor Day", "subtitle": "1st Monday in September" },
-    { "id": "cinco-de-mayo", "name": "Cinco de Mayo", "subtitle": "May 5" },
-    { "id": "mardi-gras", "name": "Mardi Gras", "subtitle": "Before Lent" },
-    { "id": "groundhog-day-holiday", "name": "Groundhog Day", "subtitle": "February 2" },
-    { "id": "black-friday", "name": "Black Friday", "subtitle": "Day after Thanksgiving" }
+    {
+      "id": "christmas",
+      "name": "Christmas",
+      "subtitle": "December 25",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Christmas"
+    },
+    {
+      "id": "halloween",
+      "name": "Halloween",
+      "subtitle": "October 31",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Halloween"
+    },
+    {
+      "id": "thanksgiving",
+      "name": "Thanksgiving",
+      "subtitle": "4th Thursday in November",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Thanksgiving"
+    },
+    {
+      "id": "new-years",
+      "name": "New Year's Eve/Day",
+      "subtitle": "December 31 / January 1",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=New+Year's+Eve%2FDay"
+    },
+    {
+      "id": "independence-day",
+      "name": "4th of July",
+      "subtitle": "July 4",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=4th+of+July"
+    },
+    {
+      "id": "valentines-day",
+      "name": "Valentine's Day",
+      "subtitle": "February 14",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Valentine's+Day"
+    },
+    {
+      "id": "easter",
+      "name": "Easter",
+      "subtitle": "Spring",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Easter"
+    },
+    {
+      "id": "mothers-day",
+      "name": "Mother's Day",
+      "subtitle": "2nd Sunday in May",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mother's+Day"
+    },
+    {
+      "id": "fathers-day",
+      "name": "Father's Day",
+      "subtitle": "3rd Sunday in June",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Father's+Day"
+    },
+    {
+      "id": "st-patricks-day",
+      "name": "St. Patrick's Day",
+      "subtitle": "March 17",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=St.+Patrick's+Day"
+    },
+    {
+      "id": "memorial-day",
+      "name": "Memorial Day",
+      "subtitle": "Last Monday in May",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Memorial+Day"
+    },
+    {
+      "id": "labor-day",
+      "name": "Labor Day",
+      "subtitle": "1st Monday in September",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Labor+Day"
+    },
+    {
+      "id": "cinco-de-mayo",
+      "name": "Cinco de Mayo",
+      "subtitle": "May 5",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Cinco+de+Mayo"
+    },
+    {
+      "id": "mardi-gras",
+      "name": "Mardi Gras",
+      "subtitle": "Before Lent",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mardi+Gras"
+    },
+    {
+      "id": "groundhog-day-holiday",
+      "name": "Groundhog Day",
+      "subtitle": "February 2",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Groundhog+Day"
+    },
+    {
+      "id": "black-friday",
+      "name": "Black Friday",
+      "subtitle": "Day after Thanksgiving",
+      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Black+Friday"
+    }
   ]
 }

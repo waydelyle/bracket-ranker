@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "chernobyl", "name": "Chernobyl", "subtitle": "2019 - HBO" },
-    { "id": "band-of-brothers", "name": "Band of Brothers", "subtitle": "2001 - HBO" },
-    { "id": "the-queens-gambit-mini", "name": "The Queen's Gambit", "subtitle": "2020 - Netflix" },
-    { "id": "when-they-see-us", "name": "When They See Us", "subtitle": "2019 - Netflix" },
-    { "id": "mare-of-easttown-mini", "name": "Mare of Easttown", "subtitle": "2021 - HBO" },
-    { "id": "watchmen", "name": "Watchmen", "subtitle": "2019 - HBO" },
-    { "id": "normal-people", "name": "Normal People", "subtitle": "2020 - Hulu" },
-    { "id": "the-night-of", "name": "The Night Of", "subtitle": "2016 - HBO" },
-    { "id": "tiger-king", "name": "Tiger King", "subtitle": "2020 - Netflix" },
-    { "id": "waco", "name": "Waco", "subtitle": "2018 - Paramount" },
-    { "id": "devs-mini", "name": "Devs", "subtitle": "2020 - FX" },
-    { "id": "the-bear-mini", "name": "The Penguin", "subtitle": "2024 - HBO" },
-    { "id": "midnight-mass", "name": "Midnight Mass", "subtitle": "2021 - Netflix" },
-    { "id": "the-haunting-of-hill-house", "name": "The Haunting of Hill House", "subtitle": "2018 - Netflix" },
-    { "id": "shogun-mini", "name": "Shogun", "subtitle": "2024 - FX" },
-    { "id": "unbelievable", "name": "Unbelievable", "subtitle": "2019 - Netflix" }
+    {
+      "id": "chernobyl",
+      "name": "Chernobyl",
+      "subtitle": "2019 - HBO",
+      "image": "https://image.tmdb.org/t/p/w500/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg"
+    },
+    {
+      "id": "band-of-brothers",
+      "name": "Band of Brothers",
+      "subtitle": "2001 - HBO",
+      "image": "https://image.tmdb.org/t/p/w500/7jwm9Oq3pTNfDqFEgNe33y1M7Gu.jpg"
+    },
+    {
+      "id": "the-queens-gambit-mini",
+      "name": "The Queen's Gambit",
+      "subtitle": "2020 - Netflix",
+      "image": "https://image.tmdb.org/t/p/w500/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg"
+    },
+    {
+      "id": "when-they-see-us",
+      "name": "When They See Us",
+      "subtitle": "2019 - Netflix",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=When+They+See+Us"
+    },
+    {
+      "id": "mare-of-easttown-mini",
+      "name": "Mare of Easttown",
+      "subtitle": "2021 - HBO",
+      "image": "https://image.tmdb.org/t/p/w500/qMH7RExSDAIYUacxmeTp9E2yNnm.jpg"
+    },
+    {
+      "id": "watchmen",
+      "name": "Watchmen",
+      "subtitle": "2019 - HBO",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Watchmen"
+    },
+    {
+      "id": "normal-people",
+      "name": "Normal People",
+      "subtitle": "2020 - Hulu",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Normal+People"
+    },
+    {
+      "id": "the-night-of",
+      "name": "The Night Of",
+      "subtitle": "2016 - HBO",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Night+Of"
+    },
+    {
+      "id": "tiger-king",
+      "name": "Tiger King",
+      "subtitle": "2020 - Netflix",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Tiger+King"
+    },
+    {
+      "id": "waco",
+      "name": "Waco",
+      "subtitle": "2018 - Paramount",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Waco"
+    },
+    {
+      "id": "devs-mini",
+      "name": "Devs",
+      "subtitle": "2020 - FX",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Devs"
+    },
+    {
+      "id": "the-bear-mini",
+      "name": "The Penguin",
+      "subtitle": "2024 - HBO",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Penguin"
+    },
+    {
+      "id": "midnight-mass",
+      "name": "Midnight Mass",
+      "subtitle": "2021 - Netflix",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Midnight+Mass"
+    },
+    {
+      "id": "the-haunting-of-hill-house",
+      "name": "The Haunting of Hill House",
+      "subtitle": "2018 - Netflix",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Haunting+of+Hill+House"
+    },
+    {
+      "id": "shogun-mini",
+      "name": "Shogun",
+      "subtitle": "2024 - FX",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Shogun"
+    },
+    {
+      "id": "unbelievable",
+      "name": "Unbelievable",
+      "subtitle": "2019 - Netflix",
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Unbelievable"
+    }
   ]
 }

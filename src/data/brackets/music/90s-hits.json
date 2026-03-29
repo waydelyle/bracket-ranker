@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "smells-like-teen-spirit-90s", "name": "Smells Like Teen Spirit", "subtitle": "Nirvana" },
-    { "id": "baby-one-more-time-90s", "name": "...Baby One More Time", "subtitle": "Britney Spears" },
-    { "id": "waterfalls-90s", "name": "Waterfalls", "subtitle": "TLC" },
-    { "id": "wannabe-90s", "name": "Wannabe", "subtitle": "Spice Girls" },
-    { "id": "no-scrubs-90s", "name": "No Scrubs", "subtitle": "TLC" },
-    { "id": "mmmbop-90s", "name": "MMMBop", "subtitle": "Hanson" },
-    { "id": "no-diggity-90s", "name": "No Diggity", "subtitle": "Blackstreet" },
-    { "id": "creep-90s", "name": "Creep", "subtitle": "TLC" },
-    { "id": "i-want-it-that-way-90s", "name": "I Want It That Way", "subtitle": "Backstreet Boys" },
-    { "id": "killing-me-softly-90s", "name": "Killing Me Softly", "subtitle": "Fugees" },
-    { "id": "ice-ice-baby-90s", "name": "Ice Ice Baby", "subtitle": "Vanilla Ice" },
-    { "id": "gangsta-s-paradise", "name": "Gangsta's Paradise", "subtitle": "Coolio" },
-    { "id": "jump-around", "name": "Jump Around", "subtitle": "House of Pain" },
-    { "id": "california-love", "name": "California Love", "subtitle": "2Pac ft. Dr. Dre" },
-    { "id": "juicy", "name": "Juicy", "subtitle": "The Notorious B.I.G." },
-    { "id": "u-cant-touch-this", "name": "U Can't Touch This", "subtitle": "MC Hammer" },
-    { "id": "end-of-the-road-90s", "name": "End of the Road", "subtitle": "Boyz II Men" },
-    { "id": "return-of-the-mack", "name": "Return of the Mack", "subtitle": "Mark Morrison" },
-    { "id": "its-gonna-be-me", "name": "It's Gonna Be Me", "subtitle": "*NSYNC" },
-    { "id": "i-want-you-back-90s", "name": "Quit Playing Games (With My Heart)", "subtitle": "Backstreet Boys" },
-    { "id": "semi-charmed-life", "name": "Semi-Charmed Life", "subtitle": "Third Eye Blind" },
-    { "id": "kiss-from-a-rose-90s", "name": "Kiss from a Rose", "subtitle": "Seal" },
-    { "id": "this-is-how-we-do-it", "name": "This Is How We Do It", "subtitle": "Montell Jordan" },
-    { "id": "my-name-is", "name": "My Name Is", "subtitle": "Eminem" },
-    { "id": "genie-in-a-bottle", "name": "Genie in a Bottle", "subtitle": "Christina Aguilera" },
-    { "id": "say-my-name-90s", "name": "Say My Name", "subtitle": "Destiny's Child" },
-    { "id": "iris", "name": "Iris", "subtitle": "Goo Goo Dolls" },
-    { "id": "under-the-bridge", "name": "Under the Bridge", "subtitle": "Red Hot Chili Peppers" },
-    { "id": "losing-my-religion", "name": "Losing My Religion", "subtitle": "R.E.M." },
-    { "id": "bitter-sweet-symphony", "name": "Bitter Sweet Symphony", "subtitle": "The Verve" },
-    { "id": "torn", "name": "Torn", "subtitle": "Natalie Imbruglia" },
-    { "id": "finally", "name": "Finally", "subtitle": "CeCe Peniston" }
+    {
+      "id": "smells-like-teen-spirit-90s",
+      "name": "Smells Like Teen Spirit",
+      "subtitle": "Nirvana",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Smells+Like+Teen+Spirit"
+    },
+    {
+      "id": "baby-one-more-time-90s",
+      "name": "...Baby One More Time",
+      "subtitle": "Britney Spears",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=...Baby+One+More+Time"
+    },
+    {
+      "id": "waterfalls-90s",
+      "name": "Waterfalls",
+      "subtitle": "TLC",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Waterfalls"
+    },
+    {
+      "id": "wannabe-90s",
+      "name": "Wannabe",
+      "subtitle": "Spice Girls",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Wannabe"
+    },
+    {
+      "id": "no-scrubs-90s",
+      "name": "No Scrubs",
+      "subtitle": "TLC",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=No+Scrubs"
+    },
+    {
+      "id": "mmmbop-90s",
+      "name": "MMMBop",
+      "subtitle": "Hanson",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=MMMBop"
+    },
+    {
+      "id": "no-diggity-90s",
+      "name": "No Diggity",
+      "subtitle": "Blackstreet",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=No+Diggity"
+    },
+    {
+      "id": "creep-90s",
+      "name": "Creep",
+      "subtitle": "TLC",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Creep"
+    },
+    {
+      "id": "i-want-it-that-way-90s",
+      "name": "I Want It That Way",
+      "subtitle": "Backstreet Boys",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=I+Want+It+That+Way"
+    },
+    {
+      "id": "killing-me-softly-90s",
+      "name": "Killing Me Softly",
+      "subtitle": "Fugees",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Killing+Me+Softly"
+    },
+    {
+      "id": "ice-ice-baby-90s",
+      "name": "Ice Ice Baby",
+      "subtitle": "Vanilla Ice",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ice+Ice+Baby"
+    },
+    {
+      "id": "gangsta-s-paradise",
+      "name": "Gangsta's Paradise",
+      "subtitle": "Coolio",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Gangsta's+Paradise"
+    },
+    {
+      "id": "jump-around",
+      "name": "Jump Around",
+      "subtitle": "House of Pain",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Jump+Around"
+    },
+    {
+      "id": "california-love",
+      "name": "California Love",
+      "subtitle": "2Pac ft. Dr. Dre",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=California+Love"
+    },
+    {
+      "id": "juicy",
+      "name": "Juicy",
+      "subtitle": "The Notorious B.I.G.",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Juicy"
+    },
+    {
+      "id": "u-cant-touch-this",
+      "name": "U Can't Touch This",
+      "subtitle": "MC Hammer",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=U+Can't+Touch+This"
+    },
+    {
+      "id": "end-of-the-road-90s",
+      "name": "End of the Road",
+      "subtitle": "Boyz II Men",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=End+of+the+Road"
+    },
+    {
+      "id": "return-of-the-mack",
+      "name": "Return of the Mack",
+      "subtitle": "Mark Morrison",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Return+of+the+Mack"
+    },
+    {
+      "id": "its-gonna-be-me",
+      "name": "It's Gonna Be Me",
+      "subtitle": "*NSYNC",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=It's+Gonna+Be+Me"
+    },
+    {
+      "id": "i-want-you-back-90s",
+      "name": "Quit Playing Games (With My Heart)",
+      "subtitle": "Backstreet Boys",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Quit+Playing+Games+(With+My+Heart)"
+    },
+    {
+      "id": "semi-charmed-life",
+      "name": "Semi-Charmed Life",
+      "subtitle": "Third Eye Blind",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Semi-Charmed+Life"
+    },
+    {
+      "id": "kiss-from-a-rose-90s",
+      "name": "Kiss from a Rose",
+      "subtitle": "Seal",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kiss+from+a+Rose"
+    },
+    {
+      "id": "this-is-how-we-do-it",
+      "name": "This Is How We Do It",
+      "subtitle": "Montell Jordan",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=This+Is+How+We+Do+It"
+    },
+    {
+      "id": "my-name-is",
+      "name": "My Name Is",
+      "subtitle": "Eminem",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=My+Name+Is"
+    },
+    {
+      "id": "genie-in-a-bottle",
+      "name": "Genie in a Bottle",
+      "subtitle": "Christina Aguilera",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Genie+in+a+Bottle"
+    },
+    {
+      "id": "say-my-name-90s",
+      "name": "Say My Name",
+      "subtitle": "Destiny's Child",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Say+My+Name"
+    },
+    {
+      "id": "iris",
+      "name": "Iris",
+      "subtitle": "Goo Goo Dolls",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Iris"
+    },
+    {
+      "id": "under-the-bridge",
+      "name": "Under the Bridge",
+      "subtitle": "Red Hot Chili Peppers",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Under+the+Bridge"
+    },
+    {
+      "id": "losing-my-religion",
+      "name": "Losing My Religion",
+      "subtitle": "R.E.M.",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Losing+My+Religion"
+    },
+    {
+      "id": "bitter-sweet-symphony",
+      "name": "Bitter Sweet Symphony",
+      "subtitle": "The Verve",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bitter+Sweet+Symphony"
+    },
+    {
+      "id": "torn",
+      "name": "Torn",
+      "subtitle": "Natalie Imbruglia",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Torn"
+    },
+    {
+      "id": "finally",
+      "name": "Finally",
+      "subtitle": "CeCe Peniston",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Finally"
+    }
   ]
 }

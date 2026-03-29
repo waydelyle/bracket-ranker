@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "summertime-magic", "name": "Summertime Magic", "subtitle": "Childish Gambino" },
-    { "id": "california-gurls", "name": "California Gurls", "subtitle": "Katy Perry" },
-    { "id": "cruel-summer-song", "name": "Cruel Summer", "subtitle": "Taylor Swift" },
-    { "id": "summer-of-69", "name": "Summer of '69", "subtitle": "Bryan Adams" },
-    { "id": "hot-girl-summer", "name": "Hot Girl Summer", "subtitle": "Megan Thee Stallion" },
-    { "id": "watermelon-sugar-summer", "name": "Watermelon Sugar", "subtitle": "Harry Styles" },
-    { "id": "boys-of-summer", "name": "The Boys of Summer", "subtitle": "Don Henley" },
-    { "id": "surfin-usa", "name": "Surfin' U.S.A.", "subtitle": "The Beach Boys" },
-    { "id": "summertime", "name": "Summertime", "subtitle": "DJ Jazzy Jeff & The Fresh Prince" },
-    { "id": "blinding-lights-summer", "name": "Blinding Lights", "subtitle": "The Weeknd" },
-    { "id": "party-in-the-usa", "name": "Party in the U.S.A.", "subtitle": "Miley Cyrus" },
-    { "id": "good-vibrations", "name": "Good Vibrations", "subtitle": "The Beach Boys" },
-    { "id": "kokomo", "name": "Kokomo", "subtitle": "The Beach Boys" },
-    { "id": "hot-in-herre", "name": "Hot in Herre", "subtitle": "Nelly" },
-    { "id": "in-the-summertime", "name": "In the Summertime", "subtitle": "Mungo Jerry" },
-    { "id": "steal-my-sunshine-summer", "name": "Steal My Sunshine", "subtitle": "Len" },
-    { "id": "dancing-in-the-moonlight", "name": "Dancing in the Moonlight", "subtitle": "King Harvest" },
-    { "id": "walking-on-sunshine-summer", "name": "Walking on Sunshine", "subtitle": "Katrina and the Waves" },
-    { "id": "lovely-day", "name": "Lovely Day", "subtitle": "Bill Withers" },
-    { "id": "island-in-the-sun", "name": "Island in the Sun", "subtitle": "Weezer" },
-    { "id": "one-dance-summer", "name": "One Dance", "subtitle": "Drake" },
-    { "id": "espresso-summer", "name": "Espresso", "subtitle": "Sabrina Carpenter" },
-    { "id": "levitating-summer", "name": "Levitating", "subtitle": "Dua Lipa" },
-    { "id": "africa-summer", "name": "Africa", "subtitle": "Toto" }
+    {
+      "id": "summertime-magic",
+      "name": "Summertime Magic",
+      "subtitle": "Childish Gambino",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Summertime+Magic"
+    },
+    {
+      "id": "california-gurls",
+      "name": "California Gurls",
+      "subtitle": "Katy Perry",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=California+Gurls"
+    },
+    {
+      "id": "cruel-summer-song",
+      "name": "Cruel Summer",
+      "subtitle": "Taylor Swift",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Cruel+Summer"
+    },
+    {
+      "id": "summer-of-69",
+      "name": "Summer of '69",
+      "subtitle": "Bryan Adams",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Summer+of+'69"
+    },
+    {
+      "id": "hot-girl-summer",
+      "name": "Hot Girl Summer",
+      "subtitle": "Megan Thee Stallion",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Hot+Girl+Summer"
+    },
+    {
+      "id": "watermelon-sugar-summer",
+      "name": "Watermelon Sugar",
+      "subtitle": "Harry Styles",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Watermelon+Sugar"
+    },
+    {
+      "id": "boys-of-summer",
+      "name": "The Boys of Summer",
+      "subtitle": "Don Henley",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Boys+of+Summer"
+    },
+    {
+      "id": "surfin-usa",
+      "name": "Surfin' U.S.A.",
+      "subtitle": "The Beach Boys",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Surfin'+U.S.A."
+    },
+    {
+      "id": "summertime",
+      "name": "Summertime",
+      "subtitle": "DJ Jazzy Jeff & The Fresh Prince",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Summertime"
+    },
+    {
+      "id": "blinding-lights-summer",
+      "name": "Blinding Lights",
+      "subtitle": "The Weeknd",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Blinding+Lights"
+    },
+    {
+      "id": "party-in-the-usa",
+      "name": "Party in the U.S.A.",
+      "subtitle": "Miley Cyrus",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Party+in+the+U.S.A."
+    },
+    {
+      "id": "good-vibrations",
+      "name": "Good Vibrations",
+      "subtitle": "The Beach Boys",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Good+Vibrations"
+    },
+    {
+      "id": "kokomo",
+      "name": "Kokomo",
+      "subtitle": "The Beach Boys",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kokomo"
+    },
+    {
+      "id": "hot-in-herre",
+      "name": "Hot in Herre",
+      "subtitle": "Nelly",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Hot+in+Herre"
+    },
+    {
+      "id": "in-the-summertime",
+      "name": "In the Summertime",
+      "subtitle": "Mungo Jerry",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=In+the+Summertime"
+    },
+    {
+      "id": "steal-my-sunshine-summer",
+      "name": "Steal My Sunshine",
+      "subtitle": "Len",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Steal+My+Sunshine"
+    },
+    {
+      "id": "dancing-in-the-moonlight",
+      "name": "Dancing in the Moonlight",
+      "subtitle": "King Harvest",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Dancing+in+the+Moonlight"
+    },
+    {
+      "id": "walking-on-sunshine-summer",
+      "name": "Walking on Sunshine",
+      "subtitle": "Katrina and the Waves",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Walking+on+Sunshine"
+    },
+    {
+      "id": "lovely-day",
+      "name": "Lovely Day",
+      "subtitle": "Bill Withers",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Lovely+Day"
+    },
+    {
+      "id": "island-in-the-sun",
+      "name": "Island in the Sun",
+      "subtitle": "Weezer",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Island+in+the+Sun"
+    },
+    {
+      "id": "one-dance-summer",
+      "name": "One Dance",
+      "subtitle": "Drake",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=One+Dance"
+    },
+    {
+      "id": "espresso-summer",
+      "name": "Espresso",
+      "subtitle": "Sabrina Carpenter",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Espresso"
+    },
+    {
+      "id": "levitating-summer",
+      "name": "Levitating",
+      "subtitle": "Dua Lipa",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Levitating"
+    },
+    {
+      "id": "africa-summer",
+      "name": "Africa",
+      "subtitle": "Toto",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Africa"
+    }
   ]
 }

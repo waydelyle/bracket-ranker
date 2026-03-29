@@ -1,36 +1,196 @@
 {
   "items": [
-    { "id": "lebron-james", "name": "LeBron James", "subtitle": "Lakers / Cavaliers / Heat" },
-    { "id": "michael-jordan", "name": "Michael Jordan", "subtitle": "Bulls / Wizards" },
-    { "id": "stephen-curry", "name": "Stephen Curry", "subtitle": "Warriors" },
-    { "id": "kobe-bryant", "name": "Kobe Bryant", "subtitle": "Lakers" },
-    { "id": "magic-johnson", "name": "Magic Johnson", "subtitle": "Lakers" },
-    { "id": "larry-bird", "name": "Larry Bird", "subtitle": "Celtics" },
-    { "id": "kareem-abdul-jabbar", "name": "Kareem Abdul-Jabbar", "subtitle": "Lakers / Bucks" },
-    { "id": "shaquille-oneal", "name": "Shaquille O'Neal", "subtitle": "Lakers / Magic / Heat" },
-    { "id": "tim-duncan", "name": "Tim Duncan", "subtitle": "Spurs" },
-    { "id": "kevin-durant", "name": "Kevin Durant", "subtitle": "Suns / Nets / Warriors / Thunder" },
-    { "id": "giannis-antetokounmpo", "name": "Giannis Antetokounmpo", "subtitle": "Bucks" },
-    { "id": "wilt-chamberlain", "name": "Wilt Chamberlain", "subtitle": "Warriors / 76ers / Lakers" },
-    { "id": "bill-russell", "name": "Bill Russell", "subtitle": "Celtics" },
-    { "id": "hakeem-olajuwon", "name": "Hakeem Olajuwon", "subtitle": "Rockets" },
-    { "id": "allen-iverson", "name": "Allen Iverson", "subtitle": "76ers" },
-    { "id": "dirk-nowitzki", "name": "Dirk Nowitzki", "subtitle": "Mavericks" },
-    { "id": "dwyane-wade", "name": "Dwyane Wade", "subtitle": "Heat" },
-    { "id": "kevin-garnett", "name": "Kevin Garnett", "subtitle": "Timberwolves / Celtics" },
-    { "id": "nikola-jokic", "name": "Nikola Jokic", "subtitle": "Nuggets" },
-    { "id": "luka-doncic", "name": "Luka Doncic", "subtitle": "Lakers / Mavericks" },
-    { "id": "julius-erving", "name": "Julius Erving", "subtitle": "76ers / Nets" },
-    { "id": "charles-barkley", "name": "Charles Barkley", "subtitle": "76ers / Suns / Rockets" },
-    { "id": "karl-malone", "name": "Karl Malone", "subtitle": "Jazz" },
-    { "id": "oscar-robertson", "name": "Oscar Robertson", "subtitle": "Royals / Bucks" },
-    { "id": "jerry-west", "name": "Jerry West", "subtitle": "Lakers" },
-    { "id": "isiah-thomas", "name": "Isiah Thomas", "subtitle": "Pistons" },
-    { "id": "kawhi-leonard", "name": "Kawhi Leonard", "subtitle": "Clippers / Raptors / Spurs" },
-    { "id": "james-harden", "name": "James Harden", "subtitle": "Clippers / 76ers / Rockets" },
-    { "id": "russell-westbrook", "name": "Russell Westbrook", "subtitle": "Thunder / Lakers" },
-    { "id": "chris-paul", "name": "Chris Paul", "subtitle": "Hornets / Clippers / Rockets / Suns" },
-    { "id": "anthony-davis", "name": "Anthony Davis", "subtitle": "Lakers / Pelicans" },
-    { "id": "shai-gilgeous-alexander", "name": "Shai Gilgeous-Alexander", "subtitle": "Thunder" }
+    {
+      "id": "lebron-james",
+      "name": "LeBron James",
+      "subtitle": "Lakers / Cavaliers / Heat",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=LeBron+James"
+    },
+    {
+      "id": "michael-jordan",
+      "name": "Michael Jordan",
+      "subtitle": "Bulls / Wizards",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Michael+Jordan"
+    },
+    {
+      "id": "stephen-curry",
+      "name": "Stephen Curry",
+      "subtitle": "Warriors",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Stephen+Curry"
+    },
+    {
+      "id": "kobe-bryant",
+      "name": "Kobe Bryant",
+      "subtitle": "Lakers",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kobe+Bryant"
+    },
+    {
+      "id": "magic-johnson",
+      "name": "Magic Johnson",
+      "subtitle": "Lakers",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Magic+Johnson"
+    },
+    {
+      "id": "larry-bird",
+      "name": "Larry Bird",
+      "subtitle": "Celtics",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Larry+Bird"
+    },
+    {
+      "id": "kareem-abdul-jabbar",
+      "name": "Kareem Abdul-Jabbar",
+      "subtitle": "Lakers / Bucks",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kareem+Abdul-Jabbar"
+    },
+    {
+      "id": "shaquille-oneal",
+      "name": "Shaquille O'Neal",
+      "subtitle": "Lakers / Magic / Heat",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Shaquille+O'Neal"
+    },
+    {
+      "id": "tim-duncan",
+      "name": "Tim Duncan",
+      "subtitle": "Spurs",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tim+Duncan"
+    },
+    {
+      "id": "kevin-durant",
+      "name": "Kevin Durant",
+      "subtitle": "Suns / Nets / Warriors / Thunder",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kevin+Durant"
+    },
+    {
+      "id": "giannis-antetokounmpo",
+      "name": "Giannis Antetokounmpo",
+      "subtitle": "Bucks",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Giannis+Antetokounmpo"
+    },
+    {
+      "id": "wilt-chamberlain",
+      "name": "Wilt Chamberlain",
+      "subtitle": "Warriors / 76ers / Lakers",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Wilt+Chamberlain"
+    },
+    {
+      "id": "bill-russell",
+      "name": "Bill Russell",
+      "subtitle": "Celtics",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Bill+Russell"
+    },
+    {
+      "id": "hakeem-olajuwon",
+      "name": "Hakeem Olajuwon",
+      "subtitle": "Rockets",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Hakeem+Olajuwon"
+    },
+    {
+      "id": "allen-iverson",
+      "name": "Allen Iverson",
+      "subtitle": "76ers",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Allen+Iverson"
+    },
+    {
+      "id": "dirk-nowitzki",
+      "name": "Dirk Nowitzki",
+      "subtitle": "Mavericks",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Dirk+Nowitzki"
+    },
+    {
+      "id": "dwyane-wade",
+      "name": "Dwyane Wade",
+      "subtitle": "Heat",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Dwyane+Wade"
+    },
+    {
+      "id": "kevin-garnett",
+      "name": "Kevin Garnett",
+      "subtitle": "Timberwolves / Celtics",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kevin+Garnett"
+    },
+    {
+      "id": "nikola-jokic",
+      "name": "Nikola Jokic",
+      "subtitle": "Nuggets",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Nikola+Jokic"
+    },
+    {
+      "id": "luka-doncic",
+      "name": "Luka Doncic",
+      "subtitle": "Lakers / Mavericks",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Luka+Doncic"
+    },
+    {
+      "id": "julius-erving",
+      "name": "Julius Erving",
+      "subtitle": "76ers / Nets",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Julius+Erving"
+    },
+    {
+      "id": "charles-barkley",
+      "name": "Charles Barkley",
+      "subtitle": "76ers / Suns / Rockets",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Charles+Barkley"
+    },
+    {
+      "id": "karl-malone",
+      "name": "Karl Malone",
+      "subtitle": "Jazz",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Karl+Malone"
+    },
+    {
+      "id": "oscar-robertson",
+      "name": "Oscar Robertson",
+      "subtitle": "Royals / Bucks",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Oscar+Robertson"
+    },
+    {
+      "id": "jerry-west",
+      "name": "Jerry West",
+      "subtitle": "Lakers",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Jerry+West"
+    },
+    {
+      "id": "isiah-thomas",
+      "name": "Isiah Thomas",
+      "subtitle": "Pistons",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Isiah+Thomas"
+    },
+    {
+      "id": "kawhi-leonard",
+      "name": "Kawhi Leonard",
+      "subtitle": "Clippers / Raptors / Spurs",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kawhi+Leonard"
+    },
+    {
+      "id": "james-harden",
+      "name": "James Harden",
+      "subtitle": "Clippers / 76ers / Rockets",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=James+Harden"
+    },
+    {
+      "id": "russell-westbrook",
+      "name": "Russell Westbrook",
+      "subtitle": "Thunder / Lakers",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Russell+Westbrook"
+    },
+    {
+      "id": "chris-paul",
+      "name": "Chris Paul",
+      "subtitle": "Hornets / Clippers / Rockets / Suns",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Chris+Paul"
+    },
+    {
+      "id": "anthony-davis",
+      "name": "Anthony Davis",
+      "subtitle": "Lakers / Pelicans",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Anthony+Davis"
+    },
+    {
+      "id": "shai-gilgeous-alexander",
+      "name": "Shai Gilgeous-Alexander",
+      "subtitle": "Thunder",
+      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Shai+Gilgeous-Alexander"
+    }
   ]
 }

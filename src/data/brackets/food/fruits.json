@@ -1,20 +1,100 @@
 {
   "items": [
-    { "id": "strawberry-fruit", "name": "Strawberry", "subtitle": "Sweet & red" },
-    { "id": "mango-fruit", "name": "Mango", "subtitle": "King of fruits" },
-    { "id": "watermelon", "name": "Watermelon", "subtitle": "Summer staple" },
-    { "id": "banana", "name": "Banana", "subtitle": "Nature's energy bar" },
-    { "id": "peach", "name": "Peach", "subtitle": "Fuzzy & juicy" },
-    { "id": "blueberry", "name": "Blueberry", "subtitle": "Tiny & sweet" },
-    { "id": "pineapple-fruit", "name": "Pineapple", "subtitle": "Tropical tang" },
-    { "id": "raspberry", "name": "Raspberry", "subtitle": "Delicate & tart" },
-    { "id": "apple", "name": "Apple", "subtitle": "Crisp & versatile" },
-    { "id": "grape", "name": "Grape", "subtitle": "Red or green" },
-    { "id": "cherry", "name": "Cherry", "subtitle": "Sweet or tart" },
-    { "id": "orange", "name": "Orange", "subtitle": "Citrus classic" },
-    { "id": "kiwi", "name": "Kiwi", "subtitle": "Fuzzy green inside" },
-    { "id": "pomegranate", "name": "Pomegranate", "subtitle": "Ruby seeds" },
-    { "id": "lemon", "name": "Lemon", "subtitle": "Tart & zesty" },
-    { "id": "coconut-fruit", "name": "Coconut", "subtitle": "Tropical drupe" }
+    {
+      "id": "strawberry-fruit",
+      "name": "Strawberry",
+      "subtitle": "Sweet & red",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Strawberry"
+    },
+    {
+      "id": "mango-fruit",
+      "name": "Mango",
+      "subtitle": "King of fruits",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mango"
+    },
+    {
+      "id": "watermelon",
+      "name": "Watermelon",
+      "subtitle": "Summer staple",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Watermelon"
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "subtitle": "Nature's energy bar",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Banana"
+    },
+    {
+      "id": "peach",
+      "name": "Peach",
+      "subtitle": "Fuzzy & juicy",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Peach"
+    },
+    {
+      "id": "blueberry",
+      "name": "Blueberry",
+      "subtitle": "Tiny & sweet",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Blueberry"
+    },
+    {
+      "id": "pineapple-fruit",
+      "name": "Pineapple",
+      "subtitle": "Tropical tang",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pineapple"
+    },
+    {
+      "id": "raspberry",
+      "name": "Raspberry",
+      "subtitle": "Delicate & tart",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Raspberry"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "subtitle": "Crisp & versatile",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Apple"
+    },
+    {
+      "id": "grape",
+      "name": "Grape",
+      "subtitle": "Red or green",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Grape"
+    },
+    {
+      "id": "cherry",
+      "name": "Cherry",
+      "subtitle": "Sweet or tart",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cherry"
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "subtitle": "Citrus classic",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Orange"
+    },
+    {
+      "id": "kiwi",
+      "name": "Kiwi",
+      "subtitle": "Fuzzy green inside",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Kiwi"
+    },
+    {
+      "id": "pomegranate",
+      "name": "Pomegranate",
+      "subtitle": "Ruby seeds",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pomegranate"
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "subtitle": "Tart & zesty",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Lemon"
+    },
+    {
+      "id": "coconut-fruit",
+      "name": "Coconut",
+      "subtitle": "Tropical drupe",
+      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Coconut"
+    }
   ]
 }

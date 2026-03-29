@@ -1,28 +1,148 @@
 {
   "items": [
-    { "id": "someone-like-you", "name": "Someone Like You", "subtitle": "Adele" },
-    { "id": "we-are-never-getting-back", "name": "We Are Never Getting Back Together", "subtitle": "Taylor Swift" },
-    { "id": "un-break-my-heart", "name": "Un-Break My Heart", "subtitle": "Toni Braxton" },
-    { "id": "nothing-compares-2-u", "name": "Nothing Compares 2 U", "subtitle": "Sinead O'Connor" },
-    { "id": "cry-me-a-river", "name": "Cry Me a River", "subtitle": "Justin Timberlake" },
-    { "id": "since-u-been-gone-breakup", "name": "Since U Been Gone", "subtitle": "Kelly Clarkson" },
-    { "id": "drivers-license-breakup", "name": "drivers license", "subtitle": "Olivia Rodrigo" },
-    { "id": "before-he-cheats-breakup", "name": "Before He Cheats", "subtitle": "Carrie Underwood" },
-    { "id": "irreplaceable", "name": "Irreplaceable", "subtitle": "Beyonce" },
-    { "id": "good-4-u-breakup", "name": "good 4 u", "subtitle": "Olivia Rodrigo" },
-    { "id": "somebody-that-i-used-to-know-breakup", "name": "Somebody That I Used to Know", "subtitle": "Gotye" },
-    { "id": "thank-u-next-breakup", "name": "thank u, next", "subtitle": "Ariana Grande" },
-    { "id": "go-your-own-way", "name": "Go Your Own Way", "subtitle": "Fleetwood Mac" },
-    { "id": "all-too-well-breakup", "name": "All Too Well", "subtitle": "Taylor Swift" },
-    { "id": "its-too-late", "name": "It's Too Late", "subtitle": "Carole King" },
-    { "id": "you-oughta-know", "name": "You Oughta Know", "subtitle": "Alanis Morissette" },
-    { "id": "say-something", "name": "Say Something", "subtitle": "A Great Big World & Christina Aguilera" },
-    { "id": "back-to-black", "name": "Back to Black", "subtitle": "Amy Winehouse" },
-    { "id": "flowers-breakup", "name": "Flowers", "subtitle": "Miley Cyrus" },
-    { "id": "i-will-survive", "name": "I Will Survive", "subtitle": "Gloria Gaynor" },
-    { "id": "tears-dry-on-their-own", "name": "Tears Dry on Their Own", "subtitle": "Amy Winehouse" },
-    { "id": "kill-bill-breakup", "name": "Kill Bill", "subtitle": "SZA" },
-    { "id": "no-tears-left-to-cry", "name": "No Tears Left to Cry", "subtitle": "Ariana Grande" },
-    { "id": "dancing-on-my-own", "name": "Dancing on My Own", "subtitle": "Robyn" }
+    {
+      "id": "someone-like-you",
+      "name": "Someone Like You",
+      "subtitle": "Adele",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Someone+Like+You"
+    },
+    {
+      "id": "we-are-never-getting-back",
+      "name": "We Are Never Getting Back Together",
+      "subtitle": "Taylor Swift",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=We+Are+Never+Getting+Back+Together"
+    },
+    {
+      "id": "un-break-my-heart",
+      "name": "Un-Break My Heart",
+      "subtitle": "Toni Braxton",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Un-Break+My+Heart"
+    },
+    {
+      "id": "nothing-compares-2-u",
+      "name": "Nothing Compares 2 U",
+      "subtitle": "Sinead O'Connor",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Nothing+Compares+2+U"
+    },
+    {
+      "id": "cry-me-a-river",
+      "name": "Cry Me a River",
+      "subtitle": "Justin Timberlake",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Cry+Me+a+River"
+    },
+    {
+      "id": "since-u-been-gone-breakup",
+      "name": "Since U Been Gone",
+      "subtitle": "Kelly Clarkson",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Since+U+Been+Gone"
+    },
+    {
+      "id": "drivers-license-breakup",
+      "name": "drivers license",
+      "subtitle": "Olivia Rodrigo",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=drivers+license"
+    },
+    {
+      "id": "before-he-cheats-breakup",
+      "name": "Before He Cheats",
+      "subtitle": "Carrie Underwood",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Before+He+Cheats"
+    },
+    {
+      "id": "irreplaceable",
+      "name": "Irreplaceable",
+      "subtitle": "Beyonce",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Irreplaceable"
+    },
+    {
+      "id": "good-4-u-breakup",
+      "name": "good 4 u",
+      "subtitle": "Olivia Rodrigo",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=good+4+u"
+    },
+    {
+      "id": "somebody-that-i-used-to-know-breakup",
+      "name": "Somebody That I Used to Know",
+      "subtitle": "Gotye",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Somebody+That+I+Used+to+Know"
+    },
+    {
+      "id": "thank-u-next-breakup",
+      "name": "thank u, next",
+      "subtitle": "Ariana Grande",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=thank+u%2C+next"
+    },
+    {
+      "id": "go-your-own-way",
+      "name": "Go Your Own Way",
+      "subtitle": "Fleetwood Mac",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Go+Your+Own+Way"
+    },
+    {
+      "id": "all-too-well-breakup",
+      "name": "All Too Well",
+      "subtitle": "Taylor Swift",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=All+Too+Well"
+    },
+    {
+      "id": "its-too-late",
+      "name": "It's Too Late",
+      "subtitle": "Carole King",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=It's+Too+Late"
+    },
+    {
+      "id": "you-oughta-know",
+      "name": "You Oughta Know",
+      "subtitle": "Alanis Morissette",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=You+Oughta+Know"
+    },
+    {
+      "id": "say-something",
+      "name": "Say Something",
+      "subtitle": "A Great Big World & Christina Aguilera",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Say+Something"
+    },
+    {
+      "id": "back-to-black",
+      "name": "Back to Black",
+      "subtitle": "Amy Winehouse",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Back+to+Black"
+    },
+    {
+      "id": "flowers-breakup",
+      "name": "Flowers",
+      "subtitle": "Miley Cyrus",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Flowers"
+    },
+    {
+      "id": "i-will-survive",
+      "name": "I Will Survive",
+      "subtitle": "Gloria Gaynor",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=I+Will+Survive"
+    },
+    {
+      "id": "tears-dry-on-their-own",
+      "name": "Tears Dry on Their Own",
+      "subtitle": "Amy Winehouse",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Tears+Dry+on+Their+Own"
+    },
+    {
+      "id": "kill-bill-breakup",
+      "name": "Kill Bill",
+      "subtitle": "SZA",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kill+Bill"
+    },
+    {
+      "id": "no-tears-left-to-cry",
+      "name": "No Tears Left to Cry",
+      "subtitle": "Ariana Grande",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=No+Tears+Left+to+Cry"
+    },
+    {
+      "id": "dancing-on-my-own",
+      "name": "Dancing on My Own",
+      "subtitle": "Robyn",
+      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Dancing+on+My+Own"
+    }
   ]
 }
