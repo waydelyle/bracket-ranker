@@ -4,31 +4,31 @@
       "id": "lebron-james",
       "name": "LeBron James",
       "subtitle": "Lakers / Cavaliers / Heat",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=LeBron+James"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/500px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg"
     },
     {
       "id": "michael-jordan",
       "name": "Michael Jordan",
       "subtitle": "Bulls / Wizards",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Michael+Jordan"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Michael_Jordan_in_2014.jpg/500px-Michael_Jordan_in_2014.jpg"
     },
     {
       "id": "stephen-curry",
       "name": "Stephen Curry",
       "subtitle": "Warriors",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Stephen+Curry"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Steph_Curry_P20230117AS-1347_%28cropped%29.jpg/500px-Steph_Curry_P20230117AS-1347_%28cropped%29.jpg"
     },
     {
       "id": "kobe-bryant",
       "name": "Kobe Bryant",
       "subtitle": "Lakers",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kobe+Bryant"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Kobe_Bryant_Dec_2014.jpg/500px-Kobe_Bryant_Dec_2014.jpg"
     },
     {
       "id": "magic-johnson",
       "name": "Magic Johnson",
       "subtitle": "Lakers",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Magic+Johnson"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Magic_Johnson_at_SXSW_2022_%2851958828669%29_%28cropped%29.jpg/500px-Magic_Johnson_at_SXSW_2022_%2851958828669%29_%28cropped%29.jpg"
     },
     {
       "id": "larry-bird",
@@ -46,13 +46,13 @@
       "id": "shaquille-oneal",
       "name": "Shaquille O'Neal",
       "subtitle": "Lakers / Magic / Heat",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Shaquille+O'Neal"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/TechCrunch_Disrupt_2023_-_Day_1_%28cropped%29.jpg/500px-TechCrunch_Disrupt_2023_-_Day_1_%28cropped%29.jpg"
     },
     {
       "id": "tim-duncan",
       "name": "Tim Duncan",
       "subtitle": "Spurs",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tim+Duncan"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Tim_Duncan_Walks_Verizon_Center%27s_Floor_%28cropped%29_%28cropped%29.jpg/500px-Tim_Duncan_Walks_Verizon_Center%27s_Floor_%28cropped%29_%28cropped%29.jpg"
     },
     {
       "id": "kevin-durant",
@@ -64,7 +64,7 @@
       "id": "giannis-antetokounmpo",
       "name": "Giannis Antetokounmpo",
       "subtitle": "Bucks",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Giannis+Antetokounmpo"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Giannis_Antetokounmpo_%2851915153421%29_%28cropped%29.jpg/500px-Giannis_Antetokounmpo_%2851915153421%29_%28cropped%29.jpg"
     },
     {
       "id": "wilt-chamberlain",
@@ -76,7 +76,7 @@
       "id": "bill-russell",
       "name": "Bill Russell",
       "subtitle": "Celtics",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Bill+Russell"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Bill_russell_dribbling_%28cropped%29.jpg/500px-Bill_russell_dribbling_%28cropped%29.jpg"
     },
     {
       "id": "hakeem-olajuwon",
@@ -106,7 +106,7 @@
       "id": "kevin-garnett",
       "name": "Kevin Garnett",
       "subtitle": "Timberwolves / Celtics",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kevin+Garnett"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Kevin_Garnett_2008-01-13.jpg/500px-Kevin_Garnett_2008-01-13.jpg"
     },
     {
       "id": "nikola-jokic",
@@ -136,7 +136,7 @@
       "id": "karl-malone",
       "name": "Karl Malone",
       "subtitle": "Jazz",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Karl+Malone"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NBA_HOF%E2%80%99er_Karl_Malone_visits_Barksdale_%289%29_%28cropped%29.jpg/500px-NBA_HOF%E2%80%99er_Karl_Malone_visits_Barksdale_%289%29_%28cropped%29.jpg"
     },
     {
       "id": "oscar-robertson",
@@ -160,7 +160,7 @@
       "id": "kawhi-leonard",
       "name": "Kawhi Leonard",
       "subtitle": "Clippers / Raptors / Spurs",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kawhi+Leonard"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Kawhi_Leonard_%287440607%29_%28cropped%29.jpg/500px-Kawhi_Leonard_%287440607%29_%28cropped%29.jpg"
     },
     {
       "id": "james-harden",
@@ -172,7 +172,7 @@
       "id": "russell-westbrook",
       "name": "Russell Westbrook",
       "subtitle": "Thunder / Lakers",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Russell+Westbrook"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Russell_Westbrook_%28March_21%2C_2022%29_%28cropped%29.jpg/500px-Russell_Westbrook_%28March_21%2C_2022%29_%28cropped%29.jpg"
     },
     {
       "id": "chris-paul",
@@ -184,13 +184,13 @@
       "id": "anthony-davis",
       "name": "Anthony Davis",
       "subtitle": "Lakers / Pelicans",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Anthony+Davis"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Anthony_Davis_pre-game_%28cropped%29.jpg/500px-Anthony_Davis_pre-game_%28cropped%29.jpg"
     },
     {
       "id": "shai-gilgeous-alexander",
       "name": "Shai Gilgeous-Alexander",
       "subtitle": "Thunder",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Shai+Gilgeous-Alexander"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2023-08-09_Deutschland_gegen_Kanada_%28Basketball-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93109.jpg/500px-2023-08-09_Deutschland_gegen_Kanada_%28Basketball-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93109.jpg"
     }
   ]
 }

@@ -28,7 +28,7 @@
       "id": "guardians-of-the-galaxy",
       "name": "Guardians of the Galaxy",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Guardians+of+the+Galaxy&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/33/Guardians_of_the_Galaxy_%28film%29_poster.jpg"
     },
     {
       "id": "spider-man-homecoming",
@@ -40,7 +40,7 @@
       "id": "avengers-infinity-war",
       "name": "Avengers: Infinity War",
       "subtitle": "2018",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Avengers%3A+Infinity+War&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg"
     },
     {
       "id": "captain-america-the-winter-soldier",
@@ -70,13 +70,13 @@
       "id": "doctor-strange",
       "name": "Doctor Strange",
       "subtitle": "2016",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Doctor+Strange&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a1/Doctor_Strange_%282016_film%29_poster.jpg"
     },
     {
       "id": "ant-man",
       "name": "Ant-Man",
       "subtitle": "2015",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Ant-Man&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/12/Ant-Man_%28film%29_poster.jpg"
     },
     {
       "id": "shang-chi",
@@ -88,7 +88,7 @@
       "id": "the-incredible-hulk",
       "name": "The Incredible Hulk",
       "subtitle": "2008",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Incredible+Hulk&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/The_Incredible_Hulk_%28film%29_poster.jpg"
     },
     {
       "id": "iron-man-2",
@@ -100,13 +100,13 @@
       "id": "thor",
       "name": "Thor",
       "subtitle": "2011",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Thor&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/95/Thor_%28film%29_poster.jpg"
     },
     {
       "id": "captain-america-the-first-avenger",
       "name": "Captain America: The First Avenger",
       "subtitle": "2011",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Captain+America%3A+The+First+Avenger&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg"
     },
     {
       "id": "iron-man-3",
@@ -118,7 +118,7 @@
       "id": "thor-the-dark-world",
       "name": "Thor: The Dark World",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Thor%3A+The+Dark+World&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7f/Thor_The_Dark_World_poster.jpg"
     },
     {
       "id": "avengers-age-of-ultron",
@@ -142,7 +142,7 @@
       "id": "spider-man-far-from-home",
       "name": "Spider-Man: Far From Home",
       "subtitle": "2019",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Spider-Man%3A+Far+From+Home&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/Spider-Man_Far_From_Home_poster.jpg"
     },
     {
       "id": "black-widow",
@@ -154,7 +154,7 @@
       "id": "eternals",
       "name": "Eternals",
       "subtitle": "2021",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Eternals&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Eternals_%28film%29_poster.jpeg"
     },
     {
       "id": "doctor-strange-multiverse-of-madness",

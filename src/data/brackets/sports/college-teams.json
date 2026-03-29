@@ -10,7 +10,7 @@
       "id": "ohio-state",
       "name": "Ohio State Buckeyes",
       "subtitle": "Big Ten",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Ohio+State+Buckeyes"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/500px-Ohio_State_Buckeyes_logo.svg.png"
     },
     {
       "id": "michigan",
@@ -28,7 +28,7 @@
       "id": "georgia",
       "name": "Georgia Bulldogs",
       "subtitle": "SEC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Georgia+Bulldogs"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Georgia_Athletics_logo.svg/500px-Georgia_Athletics_logo.svg.png"
     },
     {
       "id": "lsu",
@@ -70,7 +70,7 @@
       "id": "unc",
       "name": "North Carolina Tar Heels",
       "subtitle": "ACC - Basketball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=North+Carolina+Tar+Heels"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/North_Carolina_Tar_Heels_logo.svg/500px-North_Carolina_Tar_Heels_logo.svg.png"
     },
     {
       "id": "kentucky",
@@ -166,13 +166,13 @@
       "id": "texas-a-and-m",
       "name": "Texas A&M Aggies",
       "subtitle": "SEC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Texas+A%26M+Aggies"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Texas_A%26M_Aggies_Primary_Logo_%282021-Present%29.png/500px-Texas_A%26M_Aggies_Primary_Logo_%282021-Present%29.png"
     },
     {
       "id": "uconn",
       "name": "UConn Huskies",
       "subtitle": "Big East - Basketball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=UConn+Huskies"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Connecticut_Huskies_logo.svg/500px-Connecticut_Huskies_logo.svg.png"
     },
     {
       "id": "villanova",

@@ -10,7 +10,7 @@
       "id": "notorious-big",
       "name": "The Notorious B.I.G.",
       "subtitle": "1994-1997",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Notorious+B.I.G."
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8c/Biggie_Smalls_1997.jpg"
     },
     {
       "id": "jay-z",
@@ -22,43 +22,43 @@
       "id": "nas",
       "name": "Nas",
       "subtitle": "1994-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Nas"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Nas_%2852380600682%29_%28cropped%29.jpg/500px-Nas_%2852380600682%29_%28cropped%29.jpg"
     },
     {
       "id": "kendrick-lamar-hh",
       "name": "Kendrick Lamar",
       "subtitle": "2011-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kendrick+Lamar"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg/500px-KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg"
     },
     {
       "id": "kanye-west-hh",
       "name": "Kanye West",
       "subtitle": "2004-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kanye+West"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kanye_West_at_the_2009_Tribeca_Film_Festival_%28crop_2%29.jpg/500px-Kanye_West_at_the_2009_Tribeca_Film_Festival_%28crop_2%29.jpg"
     },
     {
       "id": "eminem-hh",
       "name": "Eminem",
       "subtitle": "1999-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Eminem"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Eminem_2021_Color_Corrected.jpg/500px-Eminem_2021_Color_Corrected.jpg"
     },
     {
       "id": "drake-hh",
       "name": "Drake",
       "subtitle": "2009-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Drake"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg/500px-Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg"
     },
     {
       "id": "j-cole",
       "name": "J. Cole",
       "subtitle": "2011-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=J.+Cole"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/HOTSPOTATL_-_21_Savage_%26_J.Cole_Light_Birthday_Bash_ATL_2023_On_FIRE_%28xu6HKf40MX0_-_2m38s%29_%28cropped%29.jpg/500px-HOTSPOTATL_-_21_Savage_%26_J.Cole_Light_Birthday_Bash_ATL_2023_On_FIRE_%28xu6HKf40MX0_-_2m38s%29_%28cropped%29.jpg"
     },
     {
       "id": "lil-wayne",
       "name": "Lil Wayne",
       "subtitle": "1999-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Lil+Wayne"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Lil_Wayne_Feb._2020.jpg/500px-Lil_Wayne_Feb._2020.jpg"
     },
     {
       "id": "andre-3000",
@@ -76,7 +76,7 @@
       "id": "snoop-dogg",
       "name": "Snoop Dogg",
       "subtitle": "1993-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Snoop+Dogg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Snoop_Dogg_2023_%2853775197331%29_%28cropped%29_%28cropped%29.jpg/500px-Snoop_Dogg_2023_%2853775197331%29_%28cropped%29_%28cropped%29.jpg"
     },
     {
       "id": "rakim",
@@ -88,19 +88,19 @@
       "id": "wu-tang-clan",
       "name": "Wu-Tang Clan",
       "subtitle": "1993-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Wu-Tang+Clan"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Wu-Tang_Clan_at_Exit_festival_2023.jpg/500px-Wu-Tang_Clan_at_Exit_festival_2023.jpg"
     },
     {
       "id": "ice-cube",
       "name": "Ice Cube",
       "subtitle": "1989-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ice+Cube"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ice_Cube_September_2025.png/500px-Ice_Cube_September_2025.png"
     },
     {
       "id": "method-man",
       "name": "Method Man",
       "subtitle": "1993-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Method+Man"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Method_Man_at_Shattuck_Down_Low.jpg/500px-Method_Man_at_Shattuck_Down_Low.jpg"
     },
     {
       "id": "missy-elliott",
@@ -118,13 +118,13 @@
       "id": "travis-scott",
       "name": "Travis Scott",
       "subtitle": "2013-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Travis+Scott"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2025-0120_Cole_Gahagan_Michael_Rubin_Travis_Scott_%28cropped%29.jpg/500px-2025-0120_Cole_Gahagan_Michael_Rubin_Travis_Scott_%28cropped%29.jpg"
     },
     {
       "id": "tyler-the-creator",
       "name": "Tyler, the Creator",
       "subtitle": "2009-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Tyler%2C+the+Creator"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tyler_the_Creator_%2852163761341%29_%28cropped%29.jpg/500px-Tyler_the_Creator_%2852163761341%29_%28cropped%29.jpg"
     },
     {
       "id": "nicki-minaj",
@@ -136,25 +136,25 @@
       "id": "future",
       "name": "Future",
       "subtitle": "2012-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Future"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Future_-_Openair_Frauenfeld_2019_01_%28cropped%29.jpg/500px-Future_-_Openair_Frauenfeld_2019_01_%28cropped%29.jpg"
     },
     {
       "id": "megan-thee-stallion",
       "name": "Megan Thee Stallion",
       "subtitle": "2018-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Megan+Thee+Stallion"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Megan_Thee_Stallion_Adweek_pose.jpg/500px-Megan_Thee_Stallion_Adweek_pose.jpg"
     },
     {
       "id": "run-dmc",
       "name": "Run-D.M.C.",
       "subtitle": "1981-2002",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Run-D.M.C."
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Run_DMC_%28cropped%29.png/500px-Run_DMC_%28cropped%29.png"
     },
     {
       "id": "public-enemy",
       "name": "Public Enemy",
       "subtitle": "1985-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Public+Enemy"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Public_Enemy-01-mika.jpg/500px-Public_Enemy-01-mika.jpg"
     },
     {
       "id": "ll-cool-j",
@@ -166,31 +166,31 @@
       "id": "dr-dre",
       "name": "Dr. Dre",
       "subtitle": "1988-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Dr.+Dre"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Dr_Dre_sig.svg/500px-Dr_Dre_sig.svg.png"
     },
     {
       "id": "50-cent",
       "name": "50 Cent",
       "subtitle": "2003-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=50+Cent"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Curtis_%2250_Cent%22_Jackson_visits_Barksdale_AFB_%285%29_%28cropped%29.jpg/500px-Curtis_%2250_Cent%22_Jackson_visits_Barksdale_AFB_%285%29_%28cropped%29.jpg"
     },
     {
       "id": "chance-the-rapper",
       "name": "Chance the Rapper",
       "subtitle": "2012-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Chance+the+Rapper"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chance_the_Rapper_-_Raising_Canes_Bicyle_Giveaway_2024-12-22_photo_by_Adam_Bielawski_%28cropped%29.jpg/500px-Chance_the_Rapper_-_Raising_Canes_Bicyle_Giveaway_2024-12-22_photo_by_Adam_Bielawski_%28cropped%29.jpg"
     },
     {
       "id": "sza",
       "name": "SZA",
       "subtitle": "2017-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=SZA"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/KendrickSZASPurs230725-19_-_54683179509_%28cropped%29_%28cropped%29.jpg/500px-KendrickSZASPurs230725-19_-_54683179509_%28cropped%29_%28cropped%29.jpg"
     },
     {
       "id": "childish-gambino",
       "name": "Childish Gambino",
       "subtitle": "2011-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Childish+Gambino"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Donald_Glover_sig.svg/500px-Donald_Glover_sig.svg.png"
     }
   ]
 }

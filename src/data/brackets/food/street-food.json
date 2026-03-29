@@ -64,13 +64,13 @@
       "id": "dim-sum",
       "name": "Dim Sum",
       "subtitle": "Chinese small plates",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Dim+Sum"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Dim_Sum_Trang.jpg/500px-Dim_Sum_Trang.jpg"
     },
     {
       "id": "takoyaki",
       "name": "Takoyaki",
       "subtitle": "Japanese octopus balls",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Takoyaki"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Takoyaki.jpg/500px-Takoyaki.jpg"
     },
     {
       "id": "crepes-street",

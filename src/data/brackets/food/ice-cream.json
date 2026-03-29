@@ -34,7 +34,7 @@
       "id": "strawberry",
       "name": "Strawberry",
       "subtitle": "Fruity classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Strawberry"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg/500px-Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg"
     },
     {
       "id": "rocky-road",
@@ -46,7 +46,7 @@
       "id": "butter-pecan",
       "name": "Butter Pecan",
       "subtitle": "Buttery & nutty",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Butter+Pecan"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Butter_pecan_caramel_ice_cream.jpg/500px-Butter_pecan_caramel_ice_cream.jpg"
     },
     {
       "id": "salted-caramel",
@@ -64,13 +64,13 @@
       "id": "coffee",
       "name": "Coffee",
       "subtitle": "Caffeinated treat",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Coffee"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Latte_and_dark_coffee.jpg/500px-Latte_and_dark_coffee.jpg"
     },
     {
       "id": "peanut-butter-cup",
       "name": "Peanut Butter Cup",
       "subtitle": "Reese's-inspired",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Peanut+Butter+Cup"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Reese%27s_peanut_butter_cups.jpg/500px-Reese%27s_peanut_butter_cups.jpg"
     },
     {
       "id": "neapolitan",
@@ -82,7 +82,7 @@
       "id": "mango",
       "name": "Mango",
       "subtitle": "Tropical delight",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mango"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Mangos_-_single_and_halved.jpg/500px-Mangos_-_single_and_halved.jpg"
     },
     {
       "id": "cotton-candy",
@@ -130,19 +130,19 @@
       "id": "coconut",
       "name": "Coconut",
       "subtitle": "Tropical cream",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Coconut"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Cocos_nucifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-187.jpg/500px-Cocos_nucifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-187.jpg"
     },
     {
       "id": "cheesecake",
       "name": "Cheesecake",
       "subtitle": "Graham cracker swirl",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cheesecake"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Baked_cheesecake_with_raspberries_and_blueberries.jpg/500px-Baked_cheesecake_with_raspberries_and_blueberries.jpg"
     },
     {
       "id": "peppermint",
       "name": "Peppermint",
       "subtitle": "Cool & festive",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Peppermint"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Pfefferminze_natur_peppermint.jpg/500px-Pfefferminze_natur_peppermint.jpg"
     }
   ]
 }

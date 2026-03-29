@@ -10,7 +10,7 @@
       "id": "camp-nou",
       "name": "Camp Nou",
       "subtitle": "Barcelona - Soccer",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Camp+Nou"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Camp_Nou_aerial.jpg/500px-Camp_Nou_aerial.jpg"
     },
     {
       "id": "wembley",
@@ -94,7 +94,7 @@
       "id": "melbourne-cricket-ground",
       "name": "Melbourne Cricket Ground",
       "subtitle": "Melbourne - Cricket",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Melbourne+Cricket+Ground"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/2017_AFL_Grand_Final_panorama_during_national_anthem.jpg/500px-2017_AFL_Grand_Final_panorama_during_national_anthem.jpg"
     }
   ]
 }

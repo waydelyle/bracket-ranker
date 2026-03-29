@@ -22,7 +22,7 @@
       "id": "the-dark-knight",
       "name": "The Dark Knight",
       "subtitle": "2008",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Dark+Knight&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg"
     },
     {
       "id": "terminator-2-action",
@@ -40,7 +40,7 @@
       "id": "gladiator",
       "name": "Gladiator",
       "subtitle": "2000",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Gladiator&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png"
     },
     {
       "id": "the-matrix-action",
@@ -58,7 +58,7 @@
       "id": "kill-bill-vol-1",
       "name": "Kill Bill: Vol. 1",
       "subtitle": "2003",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Kill+Bill%3A+Vol.+1&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/Kill_Bill_Volume_1.png"
     },
     {
       "id": "top-gun-maverick",
@@ -88,7 +88,7 @@
       "id": "the-raid",
       "name": "The Raid",
       "subtitle": "2011",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Raid&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9a/The_Raid_2011_poster.jpg"
     },
     {
       "id": "crouching-tiger-hidden-dragon",
@@ -106,19 +106,19 @@
       "id": "300",
       "name": "300",
       "subtitle": "2006",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=300"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5c/300poster.jpg"
     },
     {
       "id": "john-wick-4",
       "name": "John Wick: Chapter 4",
       "subtitle": "2023",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=John+Wick%3A+Chapter+4"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d0/John_Wick_-_Chapter_4_promotional_poster.jpg"
     },
     {
       "id": "speed-action",
       "name": "Speed",
       "subtitle": "1994",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Speed"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Motorcyclist_in_Midtown_Manhattan-L1002704.jpg/500px-Motorcyclist_in_Midtown_Manhattan-L1002704.jpg"
     },
     {
       "id": "point-break",
@@ -130,7 +130,7 @@
       "id": "total-recall",
       "name": "Total Recall",
       "subtitle": "1990",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Total+Recall"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2d/Total_Recall_%281990_film%29_poster.jpg"
     },
     {
       "id": "robocop",
@@ -142,13 +142,13 @@
       "id": "the-fugitive",
       "name": "The Fugitive",
       "subtitle": "1993",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Fugitive"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c7/The_Fugitive_movie.jpg"
     },
     {
       "id": "ip-man",
       "name": "Ip Man",
       "subtitle": "2008",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Ip+Man"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Yip_Man.jpg"
     },
     {
       "id": "casino-royale",
@@ -172,7 +172,7 @@
       "id": "aliens",
       "name": "Aliens",
       "subtitle": "1986",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Aliens&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fb/Aliens_poster.jpg"
     },
     {
       "id": "extraction",
@@ -184,13 +184,13 @@
       "id": "first-blood",
       "name": "First Blood",
       "subtitle": "1982",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=First+Blood"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/First_blood_poster.jpg"
     },
     {
       "id": "hard-boiled",
       "name": "Hard Boiled",
       "subtitle": "1992",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Hard+Boiled"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/38/Hard-boiled-film-poster.jpg"
     }
   ]
 }

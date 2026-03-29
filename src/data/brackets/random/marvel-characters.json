@@ -16,7 +16,7 @@
       "id": "wolverine",
       "name": "Wolverine",
       "subtitle": "Logan",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Wolverine"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Gulo_gulo_2.jpg/500px-Gulo_gulo_2.jpg"
     },
     {
       "id": "captain-america-char",
@@ -70,7 +70,7 @@
       "id": "thanos",
       "name": "Thanos",
       "subtitle": "The Mad Titan",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Thanos"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b7/Thanos_%28Infobox_image%29.png"
     },
     {
       "id": "loki-char",
@@ -94,7 +94,7 @@
       "id": "storm",
       "name": "Storm",
       "subtitle": "Ororo Munroe",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Storm"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/34/Storm_%28Ororo_Munroe%29.png"
     },
     {
       "id": "gamora",
@@ -160,7 +160,7 @@
       "id": "miles-morales",
       "name": "Miles Morales",
       "subtitle": "Spider-Man",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Miles+Morales"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8e/Spider-Man_%28Miles_Morales%29_character_art.png"
     },
     {
       "id": "magneto",
@@ -190,7 +190,7 @@
       "id": "shang-chi-char",
       "name": "Shang-Chi",
       "subtitle": "Master of Kung Fu",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Shang-Chi"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/62/Shang-Chi_Vol_1_%2C1.jpg"
     }
   ]
 }

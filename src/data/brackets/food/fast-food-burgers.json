@@ -58,13 +58,13 @@
       "id": "whataburger-classic",
       "name": "Whataburger",
       "subtitle": "Whataburger",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Whataburger"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Whataburger_logo.svg/500px-Whataburger_logo.svg.png"
     },
     {
       "id": "culvers-butterburger",
       "name": "ButterBurger",
       "subtitle": "Culver's",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=ButterBurger"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Culver%27s_headquarters.jpg/500px-Culver%27s_headquarters.jpg"
     },
     {
       "id": "mcdouble",

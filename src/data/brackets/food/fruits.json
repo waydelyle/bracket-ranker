@@ -4,13 +4,13 @@
       "id": "strawberry-fruit",
       "name": "Strawberry",
       "subtitle": "Sweet & red",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Strawberry"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg/500px-Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg"
     },
     {
       "id": "mango-fruit",
       "name": "Mango",
       "subtitle": "King of fruits",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mango"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Mangos_-_single_and_halved.jpg/500px-Mangos_-_single_and_halved.jpg"
     },
     {
       "id": "watermelon",
@@ -22,19 +22,19 @@
       "id": "banana",
       "name": "Banana",
       "subtitle": "Nature's energy bar",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Banana"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Bananavarieties.jpg/500px-Bananavarieties.jpg"
     },
     {
       "id": "peach",
       "name": "Peach",
       "subtitle": "Fuzzy & juicy",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Peach"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Illustration_Prunus_persica_clean_no_descr.jpg/500px-Illustration_Prunus_persica_clean_no_descr.jpg"
     },
     {
       "id": "blueberry",
       "name": "Blueberry",
       "subtitle": "Tiny & sweet",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Blueberry"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Blueberries.jpg/500px-Blueberries.jpg"
     },
     {
       "id": "pineapple-fruit",
@@ -52,7 +52,7 @@
       "id": "apple",
       "name": "Apple",
       "subtitle": "Crisp & versatile",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Apple"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Pink_lady_and_cross_section.jpg/500px-Pink_lady_and_cross_section.jpg"
     },
     {
       "id": "grape",
@@ -94,7 +94,7 @@
       "id": "coconut-fruit",
       "name": "Coconut",
       "subtitle": "Tropical drupe",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Coconut"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Cocos_nucifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-187.jpg/500px-Cocos_nucifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-187.jpg"
     }
   ]
 }

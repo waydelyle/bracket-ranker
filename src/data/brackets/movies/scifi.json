@@ -58,7 +58,7 @@
       "id": "arrival",
       "name": "Arrival",
       "subtitle": "2016",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Arrival&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg"
     },
     {
       "id": "blade-runner-2049",
@@ -70,13 +70,13 @@
       "id": "et",
       "name": "E.T. the Extra-Terrestrial",
       "subtitle": "1982",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=E.T.+the+Extra-Terrestrial&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/66/E_t_the_extra_terrestrial_ver3.jpg"
     },
     {
       "id": "the-terminator",
       "name": "The Terminator",
       "subtitle": "1984",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Terminator&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6d/The_Terminator.png"
     },
     {
       "id": "back-to-the-future",
@@ -88,7 +88,7 @@
       "id": "jurassic-park-scifi",
       "name": "Jurassic Park",
       "subtitle": "1993",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Jurassic+Park&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg"
     },
     {
       "id": "dune-2021",
@@ -100,25 +100,25 @@
       "id": "close-encounters",
       "name": "Close Encounters of the Third Kind",
       "subtitle": "1977",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Close+Encounters+of+the+Third+Kind"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/ba/Close_Encounters_of_the_Third_Kind_%281977%29_theatrical_poster.jpg"
     },
     {
       "id": "the-fifth-element-scifi",
       "name": "The Fifth Element",
       "subtitle": "1997",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Fifth+Element"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/65/Fifth_element_poster_%281997%29.jpg"
     },
     {
       "id": "district-9",
       "name": "District 9",
       "subtitle": "2009",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=District+9"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d7/District_nine_ver2.jpg"
     },
     {
       "id": "ex-machina",
       "name": "Ex Machina",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Ex+Machina&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Ex-machina-uk-poster.jpg/500px-Ex-machina-uk-poster.jpg"
     },
     {
       "id": "moon",
@@ -130,13 +130,13 @@
       "id": "the-martian",
       "name": "The Martian",
       "subtitle": "2015",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Martian"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/cd/The_Martian_film_poster.jpg"
     },
     {
       "id": "annihilation",
       "name": "Annihilation",
       "subtitle": "2018",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Annihilation"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f6/Annihilation_%28film%29.png"
     },
     {
       "id": "gravity",
@@ -178,13 +178,13 @@
       "id": "minority-report",
       "name": "Minority Report",
       "subtitle": "2002",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Minority+Report"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/44/Minority_Report_Poster.jpg"
     },
     {
       "id": "the-fly",
       "name": "The Fly",
       "subtitle": "1986",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Fly"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/aa/Fly_poster.jpg"
     },
     {
       "id": "dune-part-two",

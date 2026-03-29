@@ -28,7 +28,7 @@
       "id": "new-kids-on-the-block",
       "name": "New Kids on the Block",
       "subtitle": "1984-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=New+Kids+on+the+Block"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/NKOTB_2008-11-06.jpg/500px-NKOTB_2008-11-06.jpg"
     },
     {
       "id": "boyz-ii-men",
@@ -40,7 +40,7 @@
       "id": "new-edition",
       "name": "New Edition",
       "subtitle": "1978-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=New+Edition"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/New_Edition_on_Sister_Circle_Live.jpg/500px-New_Edition_on_Sister_Circle_Live.jpg"
     },
     {
       "id": "the-jackson-5",
@@ -52,13 +52,13 @@
       "id": "98-degrees",
       "name": "98 Degrees",
       "subtitle": "1996-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=98+Degrees"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/98_Degrees_Package_Tour_2013-2.jpg/500px-98_Degrees_Package_Tour_2013-2.jpg"
     },
     {
       "id": "the-jonas-brothers",
       "name": "Jonas Brothers",
       "subtitle": "2005-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Jonas+Brothers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Jonas_Brothers_4th_of_July_Show_Taping_in_Cleveland_%2851277060141%29.jpg/500px-Jonas_Brothers_4th_of_July_Show_Taping_in_Cleveland_%2851277060141%29.jpg"
     },
     {
       "id": "big-time-rush",
@@ -70,7 +70,7 @@
       "id": "the-wanted",
       "name": "The Wanted",
       "subtitle": "2009-2014",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Wanted"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/The_Wanted_By_Daniel_%C3%85hs_Karlsson.jpg/500px-The_Wanted_By_Daniel_%C3%85hs_Karlsson.jpg"
     },
     {
       "id": "menudo",
@@ -94,7 +94,7 @@
       "id": "take-that",
       "name": "Take That",
       "subtitle": "1990-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Take+That"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Take_That_performing_in_Glasgow%2C_2017.jpg/500px-Take_That_performing_in_Glasgow%2C_2017.jpg"
     }
   ]
 }

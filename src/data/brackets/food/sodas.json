@@ -4,7 +4,7 @@
       "id": "coca-cola",
       "name": "Coca-Cola",
       "subtitle": "The original",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Coca-Cola"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Coca_Cola_Flasche_-_Original_Taste.jpg/500px-Coca_Cola_Flasche_-_Original_Taste.jpg"
     },
     {
       "id": "pepsi",
@@ -34,7 +34,7 @@
       "id": "root-beer",
       "name": "A&W Root Beer",
       "subtitle": "Creamy classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=A%26W+Root+Beer"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/A%26W_Root_Beer_logo.svg/500px-A%26W_Root_Beer_logo.svg.png"
     },
     {
       "id": "ginger-ale",
@@ -94,7 +94,7 @@
       "id": "birch-beer",
       "name": "Birch Beer",
       "subtitle": "Regional favorite",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Birch+Beer"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Birch_beer_still.jpg/500px-Birch_beer_still.jpg"
     }
   ]
 }

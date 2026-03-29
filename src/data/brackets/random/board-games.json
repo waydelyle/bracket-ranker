@@ -4,7 +4,7 @@
       "id": "monopoly",
       "name": "Monopoly",
       "subtitle": "Real estate trading",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Monopoly"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Monopoly_board_on_white_bg.jpg/500px-Monopoly_board_on_white_bg.jpg"
     },
     {
       "id": "settlers-of-catan",
@@ -16,7 +16,7 @@
       "id": "chess",
       "name": "Chess",
       "subtitle": "Strategic classic",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Chess"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/ChessSet.jpg/500px-ChessSet.jpg"
     },
     {
       "id": "scrabble",
@@ -100,7 +100,7 @@
       "id": "sorry",
       "name": "Sorry!",
       "subtitle": "Slide pursuit",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Sorry!"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sorry_diamond_edit.jpg/500px-Sorry_diamond_edit.jpg"
     },
     {
       "id": "life",
@@ -130,13 +130,13 @@
       "id": "backgammon",
       "name": "Backgammon",
       "subtitle": "Ancient strategy",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Backgammon"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Backgammon_lg.png/500px-Backgammon_lg.png"
     },
     {
       "id": "wing-span",
       "name": "Wingspan",
       "subtitle": "Bird-themed engine building",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Wingspan"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/3d-wingspan-768x752.png"
     },
     {
       "id": "azul",

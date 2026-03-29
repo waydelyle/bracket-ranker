@@ -4,13 +4,13 @@
       "id": "dark-side-of-the-moon",
       "name": "The Dark Side of the Moon",
       "subtitle": "Pink Floyd - 1973",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Dark+Side+of+the+Moon"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/The_Dark_Side_of_the_Moon_cover.svg/500px-The_Dark_Side_of_the_Moon_cover.svg.png"
     },
     {
       "id": "abbey-road",
       "name": "Abbey Road",
       "subtitle": "The Beatles - 1969",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Abbey+Road"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Beatles_Abbey_Road_album_cover.jpg/500px-The_Beatles_Abbey_Road_album_cover.jpg"
     },
     {
       "id": "nevermind",
@@ -34,7 +34,7 @@
       "id": "unknown-pleasures",
       "name": "Unknown Pleasures",
       "subtitle": "Joy Division - 1979",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Unknown+Pleasures"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5a/UnknownPleasuresVinyl.jpg"
     },
     {
       "id": "thriller",
@@ -46,7 +46,7 @@
       "id": "london-calling",
       "name": "London Calling",
       "subtitle": "The Clash - 1979",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=London+Calling"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/00/TheClashLondonCallingalbumcover.jpg"
     },
     {
       "id": "wish-you-were-here-album",
@@ -64,7 +64,7 @@
       "id": "kid-a",
       "name": "Kid A",
       "subtitle": "Radiohead - 2000",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kid+A"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/02/Radioheadkida.png"
     },
     {
       "id": "born-in-the-usa",
@@ -76,7 +76,7 @@
       "id": "rumours",
       "name": "Rumours",
       "subtitle": "Fleetwood Mac - 1977",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Rumours"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fb/FMacRumours.PNG"
     },
     {
       "id": "appetite-for-destruction",
@@ -100,7 +100,7 @@
       "id": "is-this-it",
       "name": "Is This It",
       "subtitle": "The Strokes - 2001",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Is+This+It"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/09/The_Strokes_-_Is_This_It_cover.png"
     },
     {
       "id": "mbdtf-cover",
@@ -112,7 +112,7 @@
       "id": "in-utero",
       "name": "In Utero",
       "subtitle": "Nirvana - 1993",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=In+Utero"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e5/In_Utero_%28Nirvana%29_album_cover.jpg"
     },
     {
       "id": "igor-cover",
@@ -124,7 +124,7 @@
       "id": "sticky-fingers",
       "name": "Sticky Fingers",
       "subtitle": "The Rolling Stones - 1971",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sticky+Fingers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Rolling_Stones_-_Sticky_Fingers.png"
     },
     {
       "id": "the-wall",
@@ -136,7 +136,7 @@
       "id": "channel-orange",
       "name": "Channel Orange",
       "subtitle": "Frank Ocean - 2012",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Channel+Orange"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/28/Channel_ORANGE.jpg"
     },
     {
       "id": "blonde",
@@ -184,7 +184,7 @@
       "id": "lemonade",
       "name": "Lemonade",
       "subtitle": "Beyonce - 2016",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Lemonade"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/53/Beyonce_-_Lemonade_%28Official_Album_Cover%29.png"
     },
     {
       "id": "when-we-all-fall-asleep",

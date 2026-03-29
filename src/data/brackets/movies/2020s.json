@@ -40,7 +40,7 @@
       "id": "dune-part-two-20s",
       "name": "Dune: Part Two",
       "subtitle": "2024",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Dune%3A+Part+Two"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/52/Dune_Part_Two_poster.jpeg"
     },
     {
       "id": "barbie-20s",
@@ -58,7 +58,7 @@
       "id": "the-batman",
       "name": "The Batman",
       "subtitle": "2022",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Batman&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/ff/The_Batman_%28film%29_poster.jpg"
     },
     {
       "id": "soul-20s",
@@ -76,25 +76,25 @@
       "id": "killers-of-the-flower-moon-20s",
       "name": "Killers of the Flower Moon",
       "subtitle": "2023",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Killers+of+the+Flower+Moon"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/88/Killers_of_the_Flower_Moon_film_poster.jpg"
     },
     {
       "id": "past-lives-20s",
       "name": "Past Lives",
       "subtitle": "2023",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Past+Lives"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/da/Past_Lives_film_poster.png"
     },
     {
       "id": "puss-in-boots-last-wish-20s",
       "name": "Puss in Boots: The Last Wish",
       "subtitle": "2022",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Puss+in+Boots%3A+The+Last+Wish"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/78/Puss_in_Boots_The_Last_Wish_poster.jpg"
     },
     {
       "id": "anora-20s",
       "name": "Anora",
       "subtitle": "2024",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Anora"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2b/Anora_%282024_film%29_poster.jpg"
     }
   ]
 }

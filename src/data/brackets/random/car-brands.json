@@ -22,13 +22,13 @@
       "id": "toyota",
       "name": "Toyota",
       "subtitle": "Japanese reliability",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Toyota"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Headquarter_of_Toyota_Motor_Corporation_3.JPG/500px-Headquarter_of_Toyota_Motor_Corporation_3.JPG"
     },
     {
       "id": "porsche",
       "name": "Porsche",
       "subtitle": "German sports cars",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Porsche"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Porsche_headquarter_Stuttgart-Zuffenhausen_Werk_II.jpg/500px-Porsche_headquarter_Stuttgart-Zuffenhausen_Werk_II.jpg"
     },
     {
       "id": "ferrari",
@@ -52,7 +52,7 @@
       "id": "honda",
       "name": "Honda",
       "subtitle": "Japanese reliability",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Honda"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Toranomon_Alcea_Tower_At_Day.jpg/500px-Toranomon_Alcea_Tower_At_Day.jpg"
     },
     {
       "id": "audi",
@@ -76,13 +76,13 @@
       "id": "subaru",
       "name": "Subaru",
       "subtitle": "All-wheel drive",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Subaru"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Subaru_logo_%28transparent%29.svg/500px-Subaru_logo_%28transparent%29.svg.png"
     },
     {
       "id": "mazda",
       "name": "Mazda",
       "subtitle": "Japanese style",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mazda"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Mazda_logo_2024_%28vertical%29.svg/500px-Mazda_logo_2024_%28vertical%29.svg.png"
     },
     {
       "id": "hyundai",

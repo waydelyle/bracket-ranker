@@ -82,7 +82,7 @@
       "id": "steins-gate",
       "name": "Steins;Gate",
       "subtitle": "2011",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Steins%3BGate&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e4/Steins%3BGate_cover_art.jpg"
     },
     {
       "id": "mob-psycho-100",
@@ -100,7 +100,7 @@
       "id": "chainsaw-man",
       "name": "Chainsaw Man",
       "subtitle": "2022-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Chainsaw+Man"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/24/Chainsawman.jpg"
     },
     {
       "id": "vinland-saga",
@@ -154,7 +154,7 @@
       "id": "bleach",
       "name": "Bleach",
       "subtitle": "2004-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Bleach"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/72/Bleachanime.png"
     },
     {
       "id": "naruto",
@@ -172,13 +172,13 @@
       "id": "re-zero",
       "name": "Re:Zero",
       "subtitle": "2016-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Re%3AZero"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3c/Re-Zero_kara_Hajimeru_Isekai_Seikatsu_light_novel_volume_1_cover.jpg"
     },
     {
       "id": "the-promised-neverland",
       "name": "The Promised Neverland",
       "subtitle": "2019-2021",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Promised+Neverland"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/44/The_Promised_Neverland%2C_Volume_1.jpg"
     },
     {
       "id": "erased",

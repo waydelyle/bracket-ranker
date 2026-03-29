@@ -40,13 +40,13 @@
       "id": "john-oliver",
       "name": "John Oliver",
       "subtitle": "Last Week Tonight",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=John+Oliver"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/John_Oliver_November_2016.jpg/500px-John_Oliver_November_2016.jpg"
     },
     {
       "id": "jon-stewart",
       "name": "Jon Stewart",
       "subtitle": "The Daily Show",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jon+Stewart"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Jon-stewart-cropped-portrait-2025.jpg/500px-Jon-stewart-cropped-portrait-2025.jpg"
     },
     {
       "id": "stephen-colbert",
@@ -58,7 +58,7 @@
       "id": "seth-meyers",
       "name": "Seth Meyers",
       "subtitle": "Late Night",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Seth+Meyers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Seth_Meyers_by_Gage_Skidmore.jpg/500px-Seth_Meyers_by_Gage_Skidmore.jpg"
     },
     {
       "id": "ellen-degeneres",
@@ -70,7 +70,7 @@
       "id": "graham-norton",
       "name": "Graham Norton",
       "subtitle": "The Graham Norton Show",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Graham+Norton"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/GrahamNorton-byPhilipRomano.jpg/500px-GrahamNorton-byPhilipRomano.jpg"
     },
     {
       "id": "trevor-noah",
@@ -94,7 +94,7 @@
       "id": "jay-leno",
       "name": "Jay Leno",
       "subtitle": "The Tonight Show",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jay+Leno"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Jay_Leno_2019_crop.jpg/500px-Jay_Leno_2019_crop.jpg"
     }
   ]
 }

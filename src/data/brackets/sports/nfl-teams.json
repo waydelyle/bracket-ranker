@@ -16,13 +16,13 @@
       "id": "green-bay-packers",
       "name": "Green Bay Packers",
       "subtitle": "NFC North",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Green+Bay+Packers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Green_Bay_Packers_logo.svg/500px-Green_Bay_Packers_logo.svg.png"
     },
     {
       "id": "kansas-city-chiefs",
       "name": "Kansas City Chiefs",
       "subtitle": "AFC West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kansas+City+Chiefs"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Kansas_City_Chiefs_logo.svg/500px-Kansas_City_Chiefs_logo.svg.png"
     },
     {
       "id": "san-francisco-49ers",
@@ -178,7 +178,7 @@
       "id": "new-york-jets",
       "name": "New York Jets",
       "subtitle": "AFC East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+York+Jets"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/New_York_Jets_2024.svg/500px-New_York_Jets_2024.svg.png"
     },
     {
       "id": "tennessee-titans",

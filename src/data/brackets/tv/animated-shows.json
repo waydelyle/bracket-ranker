@@ -22,13 +22,13 @@
       "id": "avatar-last-airbender",
       "name": "Avatar: The Last Airbender",
       "subtitle": "2005-2008",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Avatar%3A+The+Last+Airbender&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Avatar_The_Last_Airbender_logo.svg/500px-Avatar_The_Last_Airbender_logo.svg.png"
     },
     {
       "id": "futurama",
       "name": "Futurama",
       "subtitle": "1999-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Futurama&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Futurama_1999_logo.svg/500px-Futurama_1999_logo.svg.png"
     },
     {
       "id": "family-guy",
@@ -46,7 +46,7 @@
       "id": "bojack-horseman-anim",
       "name": "BoJack Horseman",
       "subtitle": "2014-2020",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=BoJack+Horseman&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BoJack_Horseman_Logo.svg/500px-BoJack_Horseman_Logo.svg.png"
     },
     {
       "id": "arcane",
@@ -58,13 +58,13 @@
       "id": "adventure-time",
       "name": "Adventure Time",
       "subtitle": "2010-2018",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Adventure+Time&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Adventure_Time_-_Title_card.png/500px-Adventure_Time_-_Title_card.png"
     },
     {
       "id": "gravity-falls",
       "name": "Gravity Falls",
       "subtitle": "2012-2016",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Gravity+Falls&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Gravity_Falls_logo.png/500px-Gravity_Falls_logo.png"
     },
     {
       "id": "spongebob",
@@ -88,13 +88,13 @@
       "id": "american-dad",
       "name": "American Dad!",
       "subtitle": "2005-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=American+Dad!"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/American_dad_logo.svg/500px-American_dad_logo.svg.png"
     },
     {
       "id": "the-legend-of-korra",
       "name": "The Legend of Korra",
       "subtitle": "2012-2014",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Legend+of+Korra"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Legend_of_Korra_logo.png/500px-Legend_of_Korra_logo.png"
     },
     {
       "id": "regular-show",
@@ -106,7 +106,7 @@
       "id": "the-boondocks",
       "name": "The Boondocks",
       "subtitle": "2005-2014",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Boondocks"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/The_Boondocks.png/500px-The_Boondocks.png"
     },
     {
       "id": "big-mouth",
@@ -118,13 +118,13 @@
       "id": "clone-wars",
       "name": "Star Wars: The Clone Wars",
       "subtitle": "2008-2020",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Star+Wars%3A+The+Clone+Wars"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Star_Wars_The_Clone_Wars.svg/500px-Star_Wars_The_Clone_Wars.svg.png"
     },
     {
       "id": "batman-animated-series",
       "name": "Batman: The Animated Series",
       "subtitle": "1992-1995",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Batman%3A+The+Animated+Series&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Batman-_The_Animated_Series_logo.svg/500px-Batman-_The_Animated_Series_logo.svg.png"
     },
     {
       "id": "cowboy-bebop-show",
@@ -136,13 +136,13 @@
       "id": "castlevania",
       "name": "Castlevania",
       "subtitle": "2017-2021",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Castlevania"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Castlevania_netflix_titlecard.png"
     },
     {
       "id": "the-venture-bros",
       "name": "The Venture Bros.",
       "subtitle": "2003-2018",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Venture+Bros."
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/The_Venture_Bros_logo.svg/500px-The_Venture_Bros_logo.svg.png"
     },
     {
       "id": "king-of-the-hill-anim",
@@ -154,31 +154,31 @@
       "id": "primal",
       "name": "Primal",
       "subtitle": "2019-2022",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Primal"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Primal_logo.svg/500px-Primal_logo.svg.png"
     },
     {
       "id": "teen-titans",
       "name": "Teen Titans",
       "subtitle": "2003-2006",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Teen+Titans"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Teen_Titans.svg/500px-Teen_Titans.svg.png"
     },
     {
       "id": "x-men-97",
       "name": "X-Men '97",
       "subtitle": "2024-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=X-Men+'97"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/X-Men_%2797_logo.png/500px-X-Men_%2797_logo.png"
     },
     {
       "id": "the-owl-house",
       "name": "The Owl House",
       "subtitle": "2020-2023",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Owl+House"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/93/The_Owl_House_logo.png"
     },
     {
       "id": "scooby-doo",
       "name": "Scooby-Doo, Where Are You!",
       "subtitle": "1969-1970",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Scooby-Doo%2C+Where+Are+You!"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Scooby-Doo%2C_Where_Are_You_%28animated_television_series%29.jpg/500px-Scooby-Doo%2C_Where_Are_You_%28animated_television_series%29.jpg"
     },
     {
       "id": "dbz-show",

@@ -4,37 +4,37 @@
       "id": "lakers",
       "name": "Los Angeles Lakers",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Los+Angeles+Lakers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/500px-Los_Angeles_Lakers_logo.svg.png"
     },
     {
       "id": "celtics",
       "name": "Boston Celtics",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Boston+Celtics"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Boston_Celtics.svg/500px-Boston_Celtics.svg.png"
     },
     {
       "id": "warriors",
       "name": "Golden State Warriors",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Golden+State+Warriors"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/500px-Golden_State_Warriors_logo.svg.png"
     },
     {
       "id": "bulls",
       "name": "Chicago Bulls",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Chicago+Bulls"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Chicago_Bulls_logo.svg/500px-Chicago_Bulls_logo.svg.png"
     },
     {
       "id": "heat",
       "name": "Miami Heat",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Miami+Heat"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Miami_Heat_logo.svg/500px-Miami_Heat_logo.svg.png"
     },
     {
       "id": "knicks",
       "name": "New York Knicks",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+York+Knicks"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/New_York_Knicks_logo.svg/500px-New_York_Knicks_logo.svg.png"
     },
     {
       "id": "76ers",
@@ -46,13 +46,13 @@
       "id": "spurs",
       "name": "San Antonio Spurs",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=San+Antonio+Spurs"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/San_Antonio_Spurs.svg/500px-San_Antonio_Spurs.svg.png"
     },
     {
       "id": "bucks",
       "name": "Milwaukee Bucks",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Milwaukee+Bucks"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Milwaukee_Bucks_logo.svg/500px-Milwaukee_Bucks_logo.svg.png"
     },
     {
       "id": "nuggets",
@@ -64,7 +64,7 @@
       "id": "suns",
       "name": "Phoenix Suns",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Phoenix+Suns"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Phoenix_Suns_logo.svg/500px-Phoenix_Suns_logo.svg.png"
     },
     {
       "id": "mavericks",
@@ -76,13 +76,13 @@
       "id": "nets",
       "name": "Brooklyn Nets",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Brooklyn+Nets"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Brooklyn_Nets_primary_icon_logo_2024.svg/500px-Brooklyn_Nets_primary_icon_logo_2024.svg.png"
     },
     {
       "id": "clippers",
       "name": "Los Angeles Clippers",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Los+Angeles+Clippers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Los_Angeles_Clippers_%282024%29.svg/500px-Los_Angeles_Clippers_%282024%29.svg.png"
     },
     {
       "id": "raptors",
@@ -94,19 +94,19 @@
       "id": "cavaliers",
       "name": "Cleveland Cavaliers",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Cleveland+Cavaliers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cleveland_Cavaliers_logo.svg/500px-Cleveland_Cavaliers_logo.svg.png"
     },
     {
       "id": "thunder",
       "name": "Oklahoma City Thunder",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Oklahoma+City+Thunder"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Oklahoma_City_Thunder.svg/500px-Oklahoma_City_Thunder.svg.png"
     },
     {
       "id": "timberwolves",
       "name": "Minnesota Timberwolves",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Minnesota+Timberwolves"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Minnesota_Timberwolves_logo.svg/500px-Minnesota_Timberwolves_logo.svg.png"
     },
     {
       "id": "rockets",
@@ -118,37 +118,37 @@
       "id": "hawks",
       "name": "Atlanta Hawks",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Atlanta+Hawks"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Atlanta_Hawks_logo.svg/500px-Atlanta_Hawks_logo.svg.png"
     },
     {
       "id": "blazers",
       "name": "Portland Trail Blazers",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Portland+Trail+Blazers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Portland_Trail_Blazers_logo.svg/500px-Portland_Trail_Blazers_logo.svg.png"
     },
     {
       "id": "pacers",
       "name": "Indiana Pacers",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Indiana+Pacers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Indiana_Pacers.svg/500px-Indiana_Pacers.svg.png"
     },
     {
       "id": "kings",
       "name": "Sacramento Kings",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Sacramento+Kings"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/SacramentoKings.svg/500px-SacramentoKings.svg.png"
     },
     {
       "id": "grizzlies",
       "name": "Memphis Grizzlies",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Memphis+Grizzlies"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Memphis_Grizzlies.svg/500px-Memphis_Grizzlies.svg.png"
     },
     {
       "id": "pelicans",
       "name": "New Orleans Pelicans",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+Orleans+Pelicans"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/New_Orleans_Pelicans_logo.svg/500px-New_Orleans_Pelicans_logo.svg.png"
     },
     {
       "id": "magic",
@@ -160,31 +160,31 @@
       "id": "jazz",
       "name": "Utah Jazz",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Utah+Jazz"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Utah_Jazz_logo_2025.svg/500px-Utah_Jazz_logo_2025.svg.png"
     },
     {
       "id": "pistons",
       "name": "Detroit Pistons",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Detroit+Pistons"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Logo_of_the_Detroit_Pistons.svg/500px-Logo_of_the_Detroit_Pistons.svg.png"
     },
     {
       "id": "wizards",
       "name": "Washington Wizards",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Washington+Wizards"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Washington_Wizards_logo.svg/500px-Washington_Wizards_logo.svg.png"
     },
     {
       "id": "hornets",
       "name": "Charlotte Hornets",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Charlotte+Hornets"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Charlotte_Hornets_%282014%29.svg/500px-Charlotte_Hornets_%282014%29.svg.png"
     },
     {
       "id": "wolves",
       "name": "Minnesota Timberwolves",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Minnesota+Timberwolves"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Minnesota_Timberwolves_logo.svg/500px-Minnesota_Timberwolves_logo.svg.png"
     },
     {
       "id": "lakers-legacy",

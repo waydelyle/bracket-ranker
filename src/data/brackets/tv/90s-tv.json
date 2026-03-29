@@ -10,31 +10,31 @@
       "id": "seinfeld-90s",
       "name": "Seinfeld",
       "subtitle": "1989-1998",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Seinfeld&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Seinfeld_logo.svg/500px-Seinfeld_logo.svg.png"
     },
     {
       "id": "the-sopranos-90s",
       "name": "The Sopranos",
       "subtitle": "1999-2007",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Sopranos&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Sopranos_titlescreen.png/500px-Sopranos_titlescreen.png"
     },
     {
       "id": "the-x-files-90s",
       "name": "The X-Files",
       "subtitle": "1993-2002",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+X-Files&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/The_X-Files_original_title_screen.webp/500px-The_X-Files_original_title_screen.webp.png"
     },
     {
       "id": "buffy",
       "name": "Buffy the Vampire Slayer",
       "subtitle": "1997-2003",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Buffy+the+Vampire+Slayer&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Buffy_the_vampire_slayer.svg/500px-Buffy_the_vampire_slayer.svg.png"
     },
     {
       "id": "fresh-prince-90s",
       "name": "The Fresh Prince of Bel-Air",
       "subtitle": "1990-1996",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Fresh+Prince+of+Bel-Air&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Fresh_Prince_Bel_Aire_logo.svg/500px-Fresh_Prince_Bel_Aire_logo.svg.png"
     },
     {
       "id": "the-simpsons-90s",
@@ -64,25 +64,25 @@
       "id": "er",
       "name": "ER",
       "subtitle": "1994-2009",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=ER"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/ER_%28Amblin_Television_series%29_logo_%284%29.svg/500px-ER_%28Amblin_Television_series%29_logo_%284%29.svg.png"
     },
     {
       "id": "frasier-90s",
       "name": "Frasier",
       "subtitle": "1993-2004",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Frasier"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Frasier_title_logo.svg/500px-Frasier_title_logo.svg.png"
     },
     {
       "id": "boy-meets-world",
       "name": "Boy Meets World",
       "subtitle": "1993-2000",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Boy+Meets+World"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Boy_Meets_World_-_ABC_Signature_logo.svg/500px-Boy_Meets_World_-_ABC_Signature_logo.svg.png"
     },
     {
       "id": "saved-by-the-bell",
       "name": "Saved by the Bell",
       "subtitle": "1989-1993",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Saved+by+the+Bell"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Saved_by_the_Bell_%28original_series%29_logo_%282%29.svg/500px-Saved_by_the_Bell_%28original_series%29_logo_%282%29.svg.png"
     },
     {
       "id": "dawsons-creek",
@@ -94,7 +94,7 @@
       "id": "that-70s-show-90s",
       "name": "That '70s Show",
       "subtitle": "1998-2006",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=That+'70s+Show"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/That_%2770s_Show_%28Carsey-Werner_Television%29_logo.svg/500px-That_%2770s_Show_%28Carsey-Werner_Television%29_logo.svg.png"
     },
     {
       "id": "will-and-grace-90s",
@@ -106,25 +106,25 @@
       "id": "the-nanny",
       "name": "The Nanny",
       "subtitle": "1993-1999",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Nanny"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/The_Nanny_%28TriStar_Television%29_logo.svg/500px-The_Nanny_%28TriStar_Television%29_logo.svg.png"
     },
     {
       "id": "home-improvement",
       "name": "Home Improvement",
       "subtitle": "1991-1999",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Home+Improvement"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Home_Improvement_%28TV_series_logo%29.svg/500px-Home_Improvement_%28TV_series_logo%29.svg.png"
     },
     {
       "id": "full-house",
       "name": "Full House",
       "subtitle": "1987-1995",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Full+House"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Full_House_1987_TV_series_logo.png/500px-Full_House_1987_TV_series_logo.png"
     },
     {
       "id": "everybody-loves-raymond-90s",
       "name": "Everybody Loves Raymond",
       "subtitle": "1996-2005",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Everybody+Loves+Raymond"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Everybody_Loves_Raymond_logo.svg/500px-Everybody_Loves_Raymond_logo.svg.png"
     },
     {
       "id": "the-west-wing-90s",
@@ -136,13 +136,13 @@
       "id": "oz",
       "name": "Oz",
       "subtitle": "1997-2003",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Oz"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b8/Oz_titlecard.png"
     },
     {
       "id": "sex-and-the-city",
       "name": "Sex and the City",
       "subtitle": "1998-2004",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Sex+and+the+City"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/SATC_Title.jpg/500px-SATC_Title.jpg"
     }
   ]
 }

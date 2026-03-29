@@ -4,7 +4,7 @@
       "id": "golden-retriever",
       "name": "Golden Retriever",
       "subtitle": "Friendly & devoted",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Golden+Retriever"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Golden_Retriever_Dukedestiny01_drvd.jpg/500px-Golden_Retriever_Dukedestiny01_drvd.jpg"
     },
     {
       "id": "labrador",
@@ -22,7 +22,7 @@
       "id": "french-bulldog",
       "name": "French Bulldog",
       "subtitle": "Adaptable & playful",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=French+Bulldog"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2008-07-28_Dog_at_Frolick_Field.jpg/500px-2008-07-28_Dog_at_Frolick_Field.jpg"
     },
     {
       "id": "poodle",
@@ -34,7 +34,7 @@
       "id": "bulldog",
       "name": "Bulldog",
       "subtitle": "Calm & courageous",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Bulldog"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Bulldog_inglese.jpg/500px-Bulldog_inglese.jpg"
     },
     {
       "id": "beagle",
@@ -76,7 +76,7 @@
       "id": "great-dane",
       "name": "Great Dane",
       "subtitle": "Friendly & patient",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Great+Dane"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Dog_niemiecki_%C5%BC%C3%B3%C5%82ty_LM980.jpg/500px-Dog_niemiecki_%C5%BC%C3%B3%C5%82ty_LM980.jpg"
     },
     {
       "id": "doberman",
@@ -154,7 +154,7 @@
       "id": "goldendoodle",
       "name": "Goldendoodle",
       "subtitle": "Golden + Poodle mix",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Goldendoodle"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Golden_Doodle_Standing_%28HD%29.jpg/500px-Golden_Doodle_Standing_%28HD%29.jpg"
     },
     {
       "id": "maltese",

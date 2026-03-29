@@ -4,7 +4,7 @@
       "id": "chocolate-chip",
       "name": "Chocolate Chip",
       "subtitle": "The OG cookie",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chocolate+Chip"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Semi-sweet_chocolate_chips.jpg/500px-Semi-sweet_chocolate_chips.jpg"
     },
     {
       "id": "oatmeal-raisin",
@@ -40,7 +40,7 @@
       "id": "macaron",
       "name": "Macaron",
       "subtitle": "French meringue cookie",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Macaron"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VanillaMacaron.jpg/500px-VanillaMacaron.jpg"
     },
     {
       "id": "shortbread",
@@ -64,13 +64,13 @@
       "id": "oreo-cookie",
       "name": "Oreo",
       "subtitle": "Milk's favorite",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Oreo"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Oreo-Two-Cookies.png/500px-Oreo-Two-Cookies.png"
     },
     {
       "id": "biscotti",
       "name": "Biscotti",
       "subtitle": "Twice-baked Italian",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Biscotti"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Cantuccini-Toscani.jpg/500px-Cantuccini-Toscani.jpg"
     },
     {
       "id": "thin-mints",

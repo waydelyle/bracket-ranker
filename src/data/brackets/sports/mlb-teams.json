@@ -10,13 +10,13 @@
       "id": "dodgers",
       "name": "Los Angeles Dodgers",
       "subtitle": "NL West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Los+Angeles+Dodgers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Los_Angeles_Dodgers_Logo.svg/500px-Los_Angeles_Dodgers_Logo.svg.png"
     },
     {
       "id": "red-sox",
       "name": "Boston Red Sox",
       "subtitle": "AL East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Boston+Red+Sox"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/RedSoxPrimary_HangingSocks.svg/500px-RedSoxPrimary_HangingSocks.svg.png"
     },
     {
       "id": "cubs",
@@ -34,13 +34,13 @@
       "id": "braves",
       "name": "Atlanta Braves",
       "subtitle": "NL East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Atlanta+Braves"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Atlanta_Braves_Insignia.svg/500px-Atlanta_Braves_Insignia.svg.png"
     },
     {
       "id": "giants-mlb",
       "name": "San Francisco Giants",
       "subtitle": "NL West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=San+Francisco+Giants"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/San_Francisco_Giants_Logo.svg/500px-San_Francisco_Giants_Logo.svg.png"
     },
     {
       "id": "astros",
@@ -100,19 +100,19 @@
       "id": "angels",
       "name": "Los Angeles Angels",
       "subtitle": "AL West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Los+Angeles+Angels"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Los_Angeles_Angels_of_Anaheim.svg/500px-Los_Angeles_Angels_of_Anaheim.svg.png"
     },
     {
       "id": "orioles",
       "name": "Baltimore Orioles",
       "subtitle": "AL East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Baltimore+Orioles"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Baltimore_Orioles_cap.svg/500px-Baltimore_Orioles_cap.svg.png"
     },
     {
       "id": "mariners",
       "name": "Seattle Mariners",
       "subtitle": "AL West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Seattle+Mariners"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Seattle_Mariners_logo_%28low_res%29.svg/500px-Seattle_Mariners_logo_%28low_res%29.svg.png"
     },
     {
       "id": "brewers",
@@ -130,7 +130,7 @@
       "id": "blue-jays",
       "name": "Toronto Blue Jays",
       "subtitle": "AL East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Toronto+Blue+Jays"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Toronto_Blue_Jay_Primary_Logo.svg/500px-Toronto_Blue_Jay_Primary_Logo.svg.png"
     },
     {
       "id": "pirates-mlb",
@@ -148,13 +148,13 @@
       "id": "athletics",
       "name": "Oakland Athletics",
       "subtitle": "AL West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Oakland+Athletics"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Oakland_A%27s_logo.svg/500px-Oakland_A%27s_logo.svg.png"
     },
     {
       "id": "guardians",
       "name": "Cleveland Guardians",
       "subtitle": "AL Central",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Cleveland+Guardians"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Guardians_winged_%22G%22.svg/500px-Guardians_winged_%22G%22.svg.png"
     },
     {
       "id": "royals",

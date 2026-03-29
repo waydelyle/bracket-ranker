@@ -16,7 +16,7 @@
       "id": "elf",
       "name": "Elf",
       "subtitle": "2003",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Elf&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/df/Elf_movie.jpg"
     },
     {
       "id": "its-a-wonderful-life",
@@ -34,7 +34,7 @@
       "id": "the-nightmare-before-christmas",
       "name": "The Nightmare Before Christmas",
       "subtitle": "1993",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Nightmare+Before+Christmas&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9a/The_nightmare_before_christmas_poster.jpg"
     },
     {
       "id": "love-actually",
@@ -46,13 +46,13 @@
       "id": "national-lampoons-christmas-vacation",
       "name": "National Lampoon's Christmas Vacation",
       "subtitle": "1989",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=National+Lampoon's+Christmas+Vacation&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/53/NationalLampoonsChristmasVacationPoster.JPG"
     },
     {
       "id": "the-polar-express",
       "name": "The Polar Express",
       "subtitle": "2004",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Polar+Express&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/24/The_Polar_Express_%282004%29_poster.jpg"
     },
     {
       "id": "how-the-grinch-stole-christmas",
@@ -106,7 +106,7 @@
       "id": "jingle-all-the-way",
       "name": "Jingle All the Way",
       "subtitle": "1996",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Jingle+All+the+Way"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c4/Jingle_All_the_Way_poster.JPG"
     },
     {
       "id": "bad-santa",
@@ -130,19 +130,19 @@
       "id": "a-christmas-carol-2009",
       "name": "A Christmas Carol",
       "subtitle": "2009",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=A+Christmas+Carol"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Charles_Dickens-A_Christmas_Carol-Cloth-First_Edition_1843.jpg/500px-Charles_Dickens-A_Christmas_Carol-Cloth-First_Edition_1843.jpg"
     },
     {
       "id": "home-alone-2",
       "name": "Home Alone 2: Lost in New York",
       "subtitle": "1992",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Home+Alone+2%3A+Lost+in+New+York"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Home_Alone_2.jpg"
     },
     {
       "id": "gremlins",
       "name": "Gremlins",
       "subtitle": "1984",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Gremlins"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3d/Gremlins1.jpg"
     }
   ]
 }

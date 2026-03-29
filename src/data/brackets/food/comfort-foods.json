@@ -34,7 +34,7 @@
       "id": "fried-chicken",
       "name": "Fried Chicken",
       "subtitle": "Crispy & juicy",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Fried+Chicken"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Fried-Chicken-Set.jpg/500px-Fried-Chicken-Set.jpg"
     },
     {
       "id": "lasagna",
@@ -94,7 +94,7 @@
       "id": "shepherds-pie",
       "name": "Shepherd's Pie",
       "subtitle": "Meat & potato casserole",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Shepherd's+Pie"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Homerton_College_-_Shepherd%27s_pie_%28cropped%29.jpg/500px-Homerton_College_-_Shepherd%27s_pie_%28cropped%29.jpg"
     },
     {
       "id": "chicken-tenders",

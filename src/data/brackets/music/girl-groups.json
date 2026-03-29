@@ -22,7 +22,7 @@
       "id": "the-supremes",
       "name": "The Supremes",
       "subtitle": "1959-1977",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Supremes"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/The_Supremes_1966.JPG/500px-The_Supremes_1966.JPG"
     },
     {
       "id": "en-vogue",
@@ -64,7 +64,7 @@
       "id": "the-bangles",
       "name": "The Bangles",
       "subtitle": "1981-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Bangles"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bangles_at_Festival_of_Friends_2012.jpg/500px-Bangles_at_Festival_of_Friends_2012.jpg"
     },
     {
       "id": "blackpink",
@@ -76,7 +76,7 @@
       "id": "fifth-harmony",
       "name": "Fifth Harmony",
       "subtitle": "2012-2018",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Fifth+Harmony"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Fifth_harmony.jpg/500px-Fifth_harmony.jpg"
     },
     {
       "id": "the-chicks",
@@ -88,13 +88,13 @@
       "id": "sugababes",
       "name": "Sugababes",
       "subtitle": "1998-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sugababes"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mutya_Keisha_Siobhan.jpg/500px-Mutya_Keisha_Siobhan.jpg"
     },
     {
       "id": "girls-aloud",
       "name": "Girls Aloud",
       "subtitle": "2002-2013",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Girls+Aloud"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Girls_Aloud_%40_The_O2%2C_2024_%28cropped%29.jpg/500px-Girls_Aloud_%40_The_O2%2C_2024_%28cropped%29.jpg"
     }
   ]
 }

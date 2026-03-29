@@ -4,13 +4,13 @@
       "id": "survivor",
       "name": "Survivor",
       "subtitle": "2000-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Survivor&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/500px-Survivor.borneo.logo.png/330px-400px-Survivor.borneo.logo.png"
     },
     {
       "id": "the-bachelor",
       "name": "The Bachelor",
       "subtitle": "2002-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Bachelor&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/The_Bachelor_usa_logo.png/500px-The_Bachelor_usa_logo.png"
     },
     {
       "id": "rupauls-drag-race",
@@ -22,13 +22,13 @@
       "id": "the-amazing-race",
       "name": "The Amazing Race",
       "subtitle": "2001-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Amazing+Race&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/19/The_Amazing_Race_23_logo.jpg"
     },
     {
       "id": "love-island",
       "name": "Love Island",
       "subtitle": "2015-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Love+Island"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Love_Island_USA.png/500px-Love_Island_USA.png"
     },
     {
       "id": "big-brother",
@@ -40,7 +40,7 @@
       "id": "american-idol",
       "name": "American Idol",
       "subtitle": "2002-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=American+Idol"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/American_Idol_ABC_logo.png"
     },
     {
       "id": "keeping-up-with-the-kardashians",
@@ -58,13 +58,13 @@
       "id": "the-great-british-bake-off",
       "name": "The Great British Bake Off",
       "subtitle": "2010-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Great+British+Bake+Off"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/The_Great_British_Bake_Off_title.jpg/500px-The_Great_British_Bake_Off_title.jpg"
     },
     {
       "id": "love-is-blind",
       "name": "Love Is Blind",
       "subtitle": "2020-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Love+Is+Blind"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Love_is_Blind_title_card.png/500px-Love_is_Blind_title_card.png"
     },
     {
       "id": "the-voice",
@@ -82,43 +82,43 @@
       "id": "shark-tank",
       "name": "Shark Tank",
       "subtitle": "2009-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Shark+Tank"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Shark_Tank_%28ABC_Network_reality_series%29_logo.svg/500px-Shark_Tank_%28ABC_Network_reality_series%29_logo.svg.png"
     },
     {
       "id": "the-circle",
       "name": "The Circle",
       "subtitle": "2020-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Circle"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/The_Circle_US.png/500px-The_Circle_US.png"
     },
     {
       "id": "jersey-shore",
       "name": "Jersey Shore",
       "subtitle": "2009-2012",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jersey+Shore"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Jerseyshore.png/500px-Jerseyshore.png"
     },
     {
       "id": "too-hot-to-handle",
       "name": "Too Hot to Handle",
       "subtitle": "2020-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Too+Hot+to+Handle"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Too_Hot_to_Handle_title_card.png/500px-Too_Hot_to_Handle_title_card.png"
     },
     {
       "id": "masterchef",
       "name": "MasterChef",
       "subtitle": "2010-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=MasterChef"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/MasterChef_current_logo_%26_wordmark.svg/500px-MasterChef_current_logo_%26_wordmark.svg.png"
     },
     {
       "id": "the-traitors",
       "name": "The Traitors",
       "subtitle": "2023-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Traitors"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9e/The_Traitors_UK_logo.png"
     },
     {
       "id": "dancing-with-the-stars",
       "name": "Dancing with the Stars",
       "subtitle": "2005-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dancing+with+the+Stars"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DWTS_New_Logo.png/500px-DWTS_New_Logo.png"
     },
     {
       "id": "top-chef",
@@ -136,7 +136,7 @@
       "id": "the-masked-singer",
       "name": "The Masked Singer",
       "subtitle": "2019-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Masked+Singer"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Masked_Singer_USA_Logo.png/500px-Masked_Singer_USA_Logo.png"
     },
     {
       "id": "queer-eye",

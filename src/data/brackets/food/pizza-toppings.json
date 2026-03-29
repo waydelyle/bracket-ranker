@@ -34,7 +34,7 @@
       "id": "onions",
       "name": "Onions",
       "subtitle": "Red or white",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Onions"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mixed_onions.jpg/500px-Mixed_onions.jpg"
     },
     {
       "id": "black-olives",
@@ -46,13 +46,13 @@
       "id": "bacon",
       "name": "Bacon",
       "subtitle": "Crispy pieces",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Bacon"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Made20bacon.png/500px-Made20bacon.png"
     },
     {
       "id": "pineapple",
       "name": "Pineapple",
       "subtitle": "The controversial one",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pineapple"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg/500px-%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg"
     },
     {
       "id": "ham",
@@ -64,13 +64,13 @@
       "id": "jalapenos",
       "name": "Jalapenos",
       "subtitle": "Spicy kick",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Jalapenos"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Immature_jalapeno_capsicum_annuum_var_annuum.jpeg/500px-Immature_jalapeno_capsicum_annuum_var_annuum.jpeg"
     },
     {
       "id": "spinach",
       "name": "Spinach",
       "subtitle": "Fresh or cooked",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Spinach"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Spinacia_oleracea_Spinazie_bloeiend.jpg/500px-Spinacia_oleracea_Spinazie_bloeiend.jpg"
     },
     {
       "id": "fresh-basil",

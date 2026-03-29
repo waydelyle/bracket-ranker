@@ -10,13 +10,13 @@
       "id": "the-wire",
       "name": "The Wire",
       "subtitle": "2002-2008",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Wire&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/The_Wire_logo.svg/500px-The_Wire_logo.svg.png"
     },
     {
       "id": "the-sopranos",
       "name": "The Sopranos",
       "subtitle": "1999-2007",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Sopranos&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Sopranos_titlescreen.png/500px-Sopranos_titlescreen.png"
     },
     {
       "id": "game-of-thrones",
@@ -40,13 +40,13 @@
       "id": "the-handmaids-tale",
       "name": "The Handmaid's Tale",
       "subtitle": "2017-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Handmaid's+Tale"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/The_Handmaid%27s_Tale_intertitle.png/500px-The_Handmaid%27s_Tale_intertitle.png"
     },
     {
       "id": "mad-men",
       "name": "Mad Men",
       "subtitle": "2007-2015",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Mad+Men&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/33/Mad-men-title-card.jpg"
     },
     {
       "id": "the-west-wing",
@@ -64,13 +64,13 @@
       "id": "house-of-the-dragon",
       "name": "House of the Dragon",
       "subtitle": "2022-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=House+of+the+Dragon&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/House_of_the_dragon_logo.png/500px-House_of_the_dragon_logo.png"
     },
     {
       "id": "the-americans",
       "name": "The Americans",
       "subtitle": "2013-2018",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Americans"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/The_americans_2013_title_logo.svg/500px-The_americans_2013_title_logo.svg.png"
     },
     {
       "id": "downton-abbey",
@@ -82,13 +82,13 @@
       "id": "lost",
       "name": "Lost",
       "subtitle": "2004-2010",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Lost&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Lost_main_title.svg/500px-Lost_main_title.svg.png"
     },
     {
       "id": "dexter",
       "name": "Dexter",
       "subtitle": "2006-2013",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dexter&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Dexter_Logo.svg/500px-Dexter_Logo.svg.png"
     },
     {
       "id": "yellowstone",
@@ -100,7 +100,7 @@
       "id": "peaky-blinders",
       "name": "Peaky Blinders",
       "subtitle": "2013-2022",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Peaky+Blinders"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Harry_Fowles_Peaky_Blinder.jpg/500px-Harry_Fowles_Peaky_Blinder.jpg"
     },
     {
       "id": "the-walking-dead",
@@ -130,37 +130,37 @@
       "id": "the-leftovers",
       "name": "The Leftovers",
       "subtitle": "2014-2017",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Leftovers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/LeftoversS2Logo.jpg/500px-LeftoversS2Logo.jpg"
     },
     {
       "id": "six-feet-under",
       "name": "Six Feet Under",
       "subtitle": "2001-2005",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Six+Feet+Under"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/23/Sixfeetunderlogo.jpg"
     },
     {
       "id": "friday-night-lights",
       "name": "Friday Night Lights",
       "subtitle": "2006-2011",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Friday+Night+Lights"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Friday_Night_Lights_title_card.png/500px-Friday_Night_Lights_title_card.png"
     },
     {
       "id": "the-shield",
       "name": "The Shield",
       "subtitle": "2002-2008",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Shield"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/69/TheShieldTitle.JPG"
     },
     {
       "id": "boardwalk-empire",
       "name": "Boardwalk Empire",
       "subtitle": "2010-2014",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Boardwalk+Empire"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Boardwalk_Empire_2010_Intertitle.png/500px-Boardwalk_Empire_2010_Intertitle.png"
     },
     {
       "id": "the-boys",
       "name": "The Boys",
       "subtitle": "2019-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Boys"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/The_Boys_TV_series_logo.svg/500px-The_Boys_TV_series_logo.svg.png"
     },
     {
       "id": "stranger-things-drama",

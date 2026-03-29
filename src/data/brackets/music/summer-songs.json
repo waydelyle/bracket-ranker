@@ -16,7 +16,7 @@
       "id": "cruel-summer-song",
       "name": "Cruel Summer",
       "subtitle": "Taylor Swift",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Cruel+Summer"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f8/Taylor_Swift_-_Cruel_Summer.png"
     },
     {
       "id": "summer-of-69",
@@ -34,7 +34,7 @@
       "id": "watermelon-sugar-summer",
       "name": "Watermelon Sugar",
       "subtitle": "Harry Styles",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Watermelon+Sugar"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bf/Watermelon_Sugar_-_Harry_Styles.png"
     },
     {
       "id": "boys-of-summer",
@@ -88,7 +88,7 @@
       "id": "in-the-summertime",
       "name": "In the Summertime",
       "subtitle": "Mungo Jerry",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=In+the+Summertime"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/19/MungoJerryInTheSummertime7InchSingleCover.jpg"
     },
     {
       "id": "steal-my-sunshine-summer",
@@ -106,13 +106,13 @@
       "id": "walking-on-sunshine-summer",
       "name": "Walking on Sunshine",
       "subtitle": "Katrina and the Waves",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Walking+on+Sunshine"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4d/Walkingonsunshine.jpg"
     },
     {
       "id": "lovely-day",
       "name": "Lovely Day",
       "subtitle": "Bill Withers",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Lovely+Day"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Lovely_day_by_bill_withers_side-B_late_1970s_reissue.png/500px-Lovely_day_by_bill_withers_side-B_late_1970s_reissue.png"
     },
     {
       "id": "island-in-the-sun",
@@ -130,7 +130,7 @@
       "id": "espresso-summer",
       "name": "Espresso",
       "subtitle": "Sabrina Carpenter",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Espresso"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/71/Espresso_-_Sabrina_Carpenter.png"
     },
     {
       "id": "levitating-summer",
@@ -142,7 +142,7 @@
       "id": "africa-summer",
       "name": "Africa",
       "subtitle": "Toto",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Africa"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/Toto_-_Africa.jpg"
     }
   ]
 }

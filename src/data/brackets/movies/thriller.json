@@ -16,7 +16,7 @@
       "id": "gone-girl",
       "name": "Gone Girl",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Gone+Girl&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/05/Gone_Girl_Poster.jpg"
     },
     {
       "id": "zodiac",
@@ -28,7 +28,7 @@
       "id": "no-country-for-old-men-thr",
       "name": "No Country for Old Men",
       "subtitle": "2007",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=No+Country+for+Old+Men&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8b/No_Country_for_Old_Men_poster.jpg"
     },
     {
       "id": "shutter-island",
@@ -46,7 +46,7 @@
       "id": "the-departed-thr",
       "name": "The Departed",
       "subtitle": "2006",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Departed&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg"
     },
     {
       "id": "prisoners",
@@ -58,19 +58,19 @@
       "id": "nightcrawler",
       "name": "Nightcrawler",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Nightcrawler&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d4/Nightcrawlerfilm.jpg"
     },
     {
       "id": "the-girl-with-the-dragon-tattoo",
       "name": "The Girl with the Dragon Tattoo",
       "subtitle": "2011",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Girl+with+the+Dragon+Tattoo"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/80/The_Girl_with_the_Dragon_Tattoo_Poster.jpg"
     },
     {
       "id": "oldboy",
       "name": "Oldboy",
       "subtitle": "2003",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Oldboy"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/67/Oldboykoreanposter.jpg"
     },
     {
       "id": "memento",
@@ -100,19 +100,19 @@
       "id": "vertigo",
       "name": "Vertigo",
       "subtitle": "1958",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Vertigo"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Vertigomovie_restoration.jpg/500px-Vertigomovie_restoration.jpg"
     },
     {
       "id": "rear-window",
       "name": "Rear Window",
       "subtitle": "1954",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Rear+Window"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Rear_Window_film_poster.jpg/500px-Rear_Window_film_poster.jpg"
     },
     {
       "id": "the-talented-mr-ripley",
       "name": "The Talented Mr. Ripley",
       "subtitle": "1999",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Talented+Mr.+Ripley"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/22/Talented_mr_ripley.jpg"
     },
     {
       "id": "cape-fear",
@@ -142,19 +142,19 @@
       "id": "whiplash",
       "name": "Whiplash",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Whiplash&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg"
     },
     {
       "id": "the-hand-of-god",
       "name": "The Handmaiden",
       "subtitle": "2016",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Handmaiden"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Handmaiden_film.png"
     },
     {
       "id": "a-simple-favor",
       "name": "A Simple Favor",
       "subtitle": "2018",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=A+Simple+Favor"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5c/A_Simple_Favor.png"
     },
     {
       "id": "knives-out",
@@ -178,19 +178,19 @@
       "id": "mulholland-drive",
       "name": "Mulholland Drive",
       "subtitle": "2001",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Mulholland+Drive"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Mulholland_Drive.png/500px-Mulholland_Drive.png"
     },
     {
       "id": "heat-thr",
       "name": "Heat",
       "subtitle": "1995",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Heat"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6c/Heatposter.jpg"
     },
     {
       "id": "the-sixth-sense-thr",
       "name": "The Sixth Sense",
       "subtitle": "1999",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Sixth+Sense"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a4/The_Sixth_Sense_poster.png"
     }
   ]
 }

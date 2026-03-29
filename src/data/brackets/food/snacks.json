@@ -16,7 +16,7 @@
       "id": "goldfish",
       "name": "Goldfish",
       "subtitle": "The snack that smiles back",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Goldfish"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Gold_fish1.jpg/500px-Gold_fish1.jpg"
     },
     {
       "id": "lays-classic",
@@ -34,7 +34,7 @@
       "id": "hot-cheetos",
       "name": "Flamin' Hot Cheetos",
       "subtitle": "Spicy cheese puffs",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Flamin'+Hot+Cheetos"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cheetos_logo.svg/500px-Cheetos_logo.svg.png"
     },
     {
       "id": "pretzels",
@@ -64,7 +64,7 @@
       "id": "trail-mix",
       "name": "Trail Mix",
       "subtitle": "Nuts & dried fruit",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Trail+Mix"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/2021-05-15_04_45_03_A_sample_of_Kirkland_Trail_Mix_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg/500px-2021-05-15_04_45_03_A_sample_of_Kirkland_Trail_Mix_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg"
     },
     {
       "id": "takis",
@@ -76,7 +76,7 @@
       "id": "popcorn",
       "name": "Popcorn",
       "subtitle": "Buttered classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Popcorn"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Popcorn_-_Studio_-_2011.jpg/500px-Popcorn_-_Studio_-_2011.jpg"
     },
     {
       "id": "chex-mix",
@@ -106,13 +106,13 @@
       "id": "chips-ahoy",
       "name": "Chips Ahoy!",
       "subtitle": "Chocolate chip cookies",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chips+Ahoy!"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Chips_ahoy_brandlogo.png"
     },
     {
       "id": "pop-tarts",
       "name": "Pop-Tarts",
       "subtitle": "Toaster pastries",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pop-Tarts"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Poptarts_brand_logo.png"
     },
     {
       "id": "fruit-snacks",
@@ -154,7 +154,7 @@
       "id": "combos",
       "name": "Combos",
       "subtitle": "Filled pretzel snacks",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Combos"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Combos_snacks_logo.png/500px-Combos_snacks_logo.png"
     },
     {
       "id": "granola-bars",

@@ -4,25 +4,25 @@
       "id": "the-legend-of-zelda-botw",
       "name": "The Legend of Zelda: Breath of the Wild",
       "subtitle": "2017 - Nintendo",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Legend+of+Zelda%3A+Breath+of+the+Wild"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
     },
     {
       "id": "minecraft",
       "name": "Minecraft",
       "subtitle": "2011 - Mojang",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Minecraft"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/Minecraft_2024_cover_art.png"
     },
     {
       "id": "the-witcher-3",
       "name": "The Witcher 3: Wild Hunt",
       "subtitle": "2015 - CD Projekt Red",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Witcher+3%3A+Wild+Hunt"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg"
     },
     {
       "id": "red-dead-redemption-2",
       "name": "Red Dead Redemption 2",
       "subtitle": "2018 - Rockstar",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Red+Dead+Redemption+2"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg"
     },
     {
       "id": "gta-v",
@@ -64,13 +64,13 @@
       "id": "dark-souls",
       "name": "Dark Souls",
       "subtitle": "2011 - FromSoftware",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Dark+Souls"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8d/Dark_Souls_Cover_Art.jpg"
     },
     {
       "id": "halo-reach",
       "name": "Halo: Reach",
       "subtitle": "2010 - Bungie",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Halo%3A+Reach"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5c/Halo-_Reach_box_art.png"
     },
     {
       "id": "portal-2",
@@ -82,13 +82,13 @@
       "id": "zelda-totk",
       "name": "The Legend of Zelda: Tears of the Kingdom",
       "subtitle": "2023 - Nintendo",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Legend+of+Zelda%3A+Tears+of+the+Kingdom"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg"
     },
     {
       "id": "super-smash-bros-ultimate",
       "name": "Super Smash Bros. Ultimate",
       "subtitle": "2018 - Nintendo",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Super+Smash+Bros.+Ultimate"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg"
     },
     {
       "id": "mario-kart-8",
@@ -100,7 +100,7 @@
       "id": "baldurs-gate-3",
       "name": "Baldur's Gate 3",
       "subtitle": "2023 - Larian",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Baldur's+Gate+3"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/12/Baldur%27s_Gate_3_cover_art.jpg"
     },
     {
       "id": "celeste",
@@ -112,25 +112,25 @@
       "id": "hollow-knight",
       "name": "Hollow Knight",
       "subtitle": "2017 - Team Cherry",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Hollow+Knight"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/de/Hollow_Knight_2026_cover_art.jpg"
     },
     {
       "id": "stardew-valley",
       "name": "Stardew Valley",
       "subtitle": "2016 - ConcernedApe",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Stardew+Valley"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fd/Logo_of_Stardew_Valley.png"
     },
     {
       "id": "horizon-zero-dawn",
       "name": "Horizon Zero Dawn",
       "subtitle": "2017 - Guerrilla",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Horizon+Zero+Dawn"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3e/Horizon_Zero_Dawn_cover_art.jpg"
     },
     {
       "id": "spider-man-ps4",
       "name": "Marvel's Spider-Man",
       "subtitle": "2018 - Insomniac",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Marvel's+Spider-Man"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Spider-Man_PS4_cover.jpg"
     },
     {
       "id": "ghost-of-tsushima",
@@ -160,19 +160,19 @@
       "id": "final-fantasy-vii",
       "name": "Final Fantasy VII",
       "subtitle": "1997 - Square",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Final+Fantasy+VII"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c2/Final_Fantasy_VII_Box_Art.jpg"
     },
     {
       "id": "mass-effect-2",
       "name": "Mass Effect 2",
       "subtitle": "2010 - BioWare",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mass+Effect+2"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/05/MassEffect2_cover.PNG"
     },
     {
       "id": "hades",
       "name": "Hades",
       "subtitle": "2020 - Supergiant",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Hades"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/cc/Hades_cover_art.jpg"
     },
     {
       "id": "bioshock",

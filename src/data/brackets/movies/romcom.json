@@ -4,19 +4,19 @@
       "id": "when-harry-met-sally",
       "name": "When Harry Met Sally",
       "subtitle": "1989",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=When+Harry+Met+Sally&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/WhenHarryMetSallyPoster.jpg"
     },
     {
       "id": "10-things-i-hate-about-you-rc",
       "name": "10 Things I Hate About You",
       "subtitle": "1999",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=10+Things+I+Hate+About+You&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/95/10_Things_I_Hate_About_You_film.jpg"
     },
     {
       "id": "pretty-woman",
       "name": "Pretty Woman",
       "subtitle": "1990",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Pretty+Woman&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/Pretty_woman_movie.jpg"
     },
     {
       "id": "the-notebook",
@@ -40,13 +40,13 @@
       "id": "notting-hill",
       "name": "Notting Hill",
       "subtitle": "1999",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Notting+Hill&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/38/NottingHillRobertsGrant.jpg"
     },
     {
       "id": "crazy-rich-asians",
       "name": "Crazy Rich Asians",
       "subtitle": "2018",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Crazy+Rich+Asians&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/ba/Crazy_Rich_Asians_poster.png"
     },
     {
       "id": "the-proposal",
@@ -64,7 +64,7 @@
       "id": "hitch",
       "name": "Hitch",
       "subtitle": "2005",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Hitch"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d4/Hitch_poster.JPG"
     },
     {
       "id": "my-big-fat-greek-wedding",
@@ -76,7 +76,7 @@
       "id": "how-to-lose-a-guy",
       "name": "How to Lose a Guy in 10 Days",
       "subtitle": "2003",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=How+to+Lose+a+Guy+in+10+Days"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/07/HowToLoseAGuyimp.jpg"
     },
     {
       "id": "four-weddings-and-a-funeral",
@@ -88,13 +88,13 @@
       "id": "50-first-dates",
       "name": "50 First Dates",
       "subtitle": "2004",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=50+First+Dates"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9d/50FirstDates.jpg"
     },
     {
       "id": "youve-got-mail",
       "name": "You've Got Mail",
       "subtitle": "1998",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=You've+Got+Mail"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ee/You%27ve_Got_Mail.jpg"
     },
     {
       "id": "groundhog-day-rc",
@@ -112,19 +112,19 @@
       "id": "legally-blonde",
       "name": "Legally Blonde",
       "subtitle": "2001",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Legally+Blonde"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Legally_Blonde_film_poster.png"
     },
     {
       "id": "mean-girls-rc",
       "name": "Mean Girls",
       "subtitle": "2004",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Mean+Girls&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ac/Mean_Girls_film_poster.png"
     },
     {
       "id": "set-it-up",
       "name": "Set It Up",
       "subtitle": "2018",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Set+It+Up"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2d/Set_It_Up_poster.jpg"
     },
     {
       "id": "to-all-the-boys",

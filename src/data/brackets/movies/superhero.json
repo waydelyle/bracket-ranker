@@ -4,7 +4,7 @@
       "id": "the-dark-knight-sh",
       "name": "The Dark Knight",
       "subtitle": "2008 - DC",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Dark+Knight&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg"
     },
     {
       "id": "spider-man-no-way-home-sh",
@@ -16,7 +16,7 @@
       "id": "avengers-endgame-sh",
       "name": "Avengers: Endgame",
       "subtitle": "2019 - Marvel",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Avengers%3A+Endgame&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg"
     },
     {
       "id": "spider-verse-sh",
@@ -34,7 +34,7 @@
       "id": "avengers-infinity-war-sh",
       "name": "Avengers: Infinity War",
       "subtitle": "2018 - Marvel",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Avengers%3A+Infinity+War&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg"
     },
     {
       "id": "logan",
@@ -52,19 +52,19 @@
       "id": "guardians-of-the-galaxy-sh",
       "name": "Guardians of the Galaxy",
       "subtitle": "2014 - Marvel",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Guardians+of+the+Galaxy&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/33/Guardians_of_the_Galaxy_%28film%29_poster.jpg"
     },
     {
       "id": "spider-man-2",
       "name": "Spider-Man 2",
       "subtitle": "2004 - Sony",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Spider-Man+2&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4e/Spider-Man_2_USA_poster.jpg"
     },
     {
       "id": "batman-begins-sh",
       "name": "Batman Begins",
       "subtitle": "2005 - DC",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Batman+Begins"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/af/Batman_Begins_Poster.jpg"
     },
     {
       "id": "the-batman-sh",
@@ -76,7 +76,7 @@
       "id": "x-men-days-of-future-past",
       "name": "X-Men: Days of Future Past",
       "subtitle": "2014 - Fox",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=X-Men%3A+Days+of+Future+Past"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/X-Men_Days_of_Future_Past_poster.jpg"
     },
     {
       "id": "wonder-woman",
@@ -106,7 +106,7 @@
       "id": "superman-1978",
       "name": "Superman",
       "subtitle": "1978 - DC",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Superman"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/35/Supermanflying.png"
     },
     {
       "id": "deadpool",
@@ -130,7 +130,7 @@
       "id": "x-men-first-class",
       "name": "X-Men: First Class",
       "subtitle": "2011 - Fox",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=X-Men%3A+First+Class"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/55/X-MenFirstClassMoviePoster.jpg"
     },
     {
       "id": "shazam",
@@ -172,13 +172,13 @@
       "id": "deadpool-wolverine",
       "name": "Deadpool & Wolverine",
       "subtitle": "2024 - Marvel",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Deadpool+%26+Wolverine"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4c/Deadpool_%26_Wolverine_poster.jpg"
     },
     {
       "id": "guardians-3-sh",
       "name": "Guardians of the Galaxy Vol. 3",
       "subtitle": "2023 - Marvel",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Guardians+of+the+Galaxy+Vol.+3"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/74/Guardians_of_the_Galaxy_Vol._3_poster.jpg"
     },
     {
       "id": "spider-man-homecoming-sh",
@@ -190,7 +190,7 @@
       "id": "x-men-2",
       "name": "X2: X-Men United",
       "subtitle": "2003 - Fox",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=X2%3A+X-Men+United"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3e/X2_poster.jpg"
     }
   ]
 }

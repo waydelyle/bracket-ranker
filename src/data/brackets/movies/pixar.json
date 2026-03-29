@@ -10,7 +10,7 @@
       "id": "finding-nemo",
       "name": "Finding Nemo",
       "subtitle": "2003",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Finding+Nemo&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg"
     },
     {
       "id": "up",
@@ -82,13 +82,13 @@
       "id": "brave",
       "name": "Brave",
       "subtitle": "2012",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Brave&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/96/Brave_Poster.jpg"
     },
     {
       "id": "cars",
       "name": "Cars",
       "subtitle": "2006",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Cars&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/1925_Ford_Model_T_touring.jpg/500px-1925_Ford_Model_T_touring.jpg"
     },
     {
       "id": "soul",
@@ -106,7 +106,7 @@
       "id": "turning-red",
       "name": "Turning Red",
       "subtitle": "2022",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Turning+Red&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9e/Turning_Red_poster.jpg"
     },
     {
       "id": "elemental",
@@ -142,7 +142,7 @@
       "id": "the-good-dinosaur",
       "name": "The Good Dinosaur",
       "subtitle": "2015",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Good+Dinosaur"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/80/The_Good_Dinosaur_poster.jpg"
     }
   ]
 }

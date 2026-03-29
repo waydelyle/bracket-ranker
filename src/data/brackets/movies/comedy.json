@@ -16,13 +16,13 @@
       "id": "anchorman",
       "name": "Anchorman: The Legend of Ron Burgundy",
       "subtitle": "2004",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Anchorman%3A+The+Legend+of+Ron+Burgundy&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/64/Movie_poster_Anchorman_The_Legend_of_Ron_Burgundy.jpg"
     },
     {
       "id": "the-hangover",
       "name": "The Hangover",
       "subtitle": "2009",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Hangover&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Hangoverposter09.jpg"
     },
     {
       "id": "step-brothers",
@@ -76,13 +76,13 @@
       "id": "mean-girls",
       "name": "Mean Girls",
       "subtitle": "2004",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Mean+Girls&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ac/Mean_Girls_film_poster.png"
     },
     {
       "id": "napoleon-dynamite",
       "name": "Napoleon Dynamite",
       "subtitle": "2004",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Napoleon+Dynamite&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/87/Napoleon_dynamite_post.jpg"
     },
     {
       "id": "ferris-buellers-day-off",
@@ -94,7 +94,7 @@
       "id": "ghostbusters",
       "name": "Ghostbusters",
       "subtitle": "1984",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Ghostbusters"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2f/Ghostbusters_%281984%29_theatrical_poster.png"
     },
     {
       "id": "caddyshack",
@@ -106,19 +106,19 @@
       "id": "shaun-of-the-dead",
       "name": "Shaun of the Dead",
       "subtitle": "2004",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Shaun+of+the+Dead&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Shaun_of_the_Dead_film_poster.jpg/500px-Shaun_of_the_Dead_film_poster.jpg"
     },
     {
       "id": "tropic-thunder",
       "name": "Tropic Thunder",
       "subtitle": "2008",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Tropic+Thunder"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Tropic_thunder_ver3.jpg"
     },
     {
       "id": "21-jump-street",
       "name": "21 Jump Street",
       "subtitle": "2012",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=21+Jump+Street"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/21_Jump_Street.png/500px-21_Jump_Street.png"
     },
     {
       "id": "this-is-spinal-tap",
@@ -130,19 +130,19 @@
       "id": "the-big-lebowski-comedy",
       "name": "The Big Lebowski",
       "subtitle": "1998",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Big+Lebowski&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/35/Biglebowskiposter.jpg"
     },
     {
       "id": "borat",
       "name": "Borat",
       "subtitle": "2006",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Borat"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/39/Borat_ver2.jpg"
     },
     {
       "id": "wedding-crashers",
       "name": "Wedding Crashers",
       "subtitle": "2005",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Wedding+Crashers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3e/Wedding_crashers_poster.jpg"
     },
     {
       "id": "rush-hour",
@@ -166,13 +166,13 @@
       "id": "the-nice-guys",
       "name": "The Nice Guys",
       "subtitle": "2016",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Nice+Guys"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e9/The_Nice_Guys_poster.png"
     },
     {
       "id": "hot-fuzz",
       "name": "Hot Fuzz",
       "subtitle": "2007",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Hot+Fuzz"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/HotFuzzUKposter.jpg/500px-HotFuzzUKposter.jpg"
     },
     {
       "id": "coming-to-america",

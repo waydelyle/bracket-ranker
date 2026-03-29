@@ -4,7 +4,7 @@
       "id": "ketchup",
       "name": "Ketchup",
       "subtitle": "Tomato classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ketchup"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Ketchup_20160918_181342_%28cropped%29.jpg/500px-Ketchup_20160918_181342_%28cropped%29.jpg"
     },
     {
       "id": "mustard",
@@ -64,7 +64,7 @@
       "id": "buffalo-sauce",
       "name": "Buffalo Sauce",
       "subtitle": "Spicy wing sauce",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Buffalo+Sauce"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Buffalo_wings-01.jpg/500px-Buffalo_wings-01.jpg"
     },
     {
       "id": "guacamole",

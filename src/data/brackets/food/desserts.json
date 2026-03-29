@@ -4,7 +4,7 @@
       "id": "chocolate-cake",
       "name": "Chocolate Cake",
       "subtitle": "Rich & decadent",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chocolate+Cake"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Chocolate_fudge_cake.jpg/500px-Chocolate_fudge_cake.jpg"
     },
     {
       "id": "apple-pie",
@@ -16,7 +16,7 @@
       "id": "cheesecake-dessert",
       "name": "Cheesecake",
       "subtitle": "Creamy & rich",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cheesecake"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Baked_cheesecake_with_raspberries_and_blueberries.jpg/500px-Baked_cheesecake_with_raspberries_and_blueberries.jpg"
     },
     {
       "id": "brownies",
@@ -40,7 +40,7 @@
       "id": "ice-cream-sundae",
       "name": "Ice Cream Sundae",
       "subtitle": "Topped & loaded",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ice+Cream+Sundae"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/StrawberrySundae.jpg/500px-StrawberrySundae.jpg"
     },
     {
       "id": "banana-split",
@@ -100,7 +100,7 @@
       "id": "cannoli",
       "name": "Cannoli",
       "subtitle": "Italian filled pastry",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cannoli"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg/500px-Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg"
     },
     {
       "id": "pecan-pie",
@@ -124,7 +124,7 @@
       "id": "panna-cotta",
       "name": "Panna Cotta",
       "subtitle": "Italian cream dessert",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Panna+Cotta"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Panna_Cotta_with_cream_and_garnish.jpg/500px-Panna_Cotta_with_cream_and_garnish.jpg"
     },
     {
       "id": "crepes",
@@ -136,7 +136,7 @@
       "id": "baklava",
       "name": "Baklava",
       "subtitle": "Layered filo & nuts",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Baklava"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Baklava%281%29.png/500px-Baklava%281%29.png"
     },
     {
       "id": "tres-leches",

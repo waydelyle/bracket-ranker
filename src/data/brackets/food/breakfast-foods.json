@@ -4,31 +4,31 @@
       "id": "pancakes",
       "name": "Pancakes",
       "subtitle": "Fluffy stacks",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pancakes"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Foodiesfeed.com_pouring-honey-on-pancakes-with-walnuts.jpg/500px-Foodiesfeed.com_pouring-honey-on-pancakes-with-walnuts.jpg"
     },
     {
       "id": "waffles",
       "name": "Waffles",
       "subtitle": "Crispy grid pattern",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Waffles"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Waffles_with_Strawberries.jpg/500px-Waffles_with_Strawberries.jpg"
     },
     {
       "id": "french-toast",
       "name": "French Toast",
       "subtitle": "Egg-dipped bread",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=French+Toast"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/FrenchToast.JPG/500px-FrenchToast.JPG"
     },
     {
       "id": "bacon-breakfast",
       "name": "Bacon",
       "subtitle": "Crispy strips",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Bacon"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Made20bacon.png/500px-Made20bacon.png"
     },
     {
       "id": "scrambled-eggs",
       "name": "Scrambled Eggs",
       "subtitle": "Fluffy & buttery",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Scrambled+Eggs"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Scrambed_eggs.jpg/500px-Scrambed_eggs.jpg"
     },
     {
       "id": "breakfast-burrito",
@@ -40,13 +40,13 @@
       "id": "avocado-toast",
       "name": "Avocado Toast",
       "subtitle": "Millennial classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Avocado+Toast"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Avocado_toast_at_Voyager_Espresso_%2833134505776%29.jpg/500px-Avocado_toast_at_Voyager_Espresso_%2833134505776%29.jpg"
     },
     {
       "id": "eggs-benedict",
       "name": "Eggs Benedict",
       "subtitle": "Poached eggs & hollandaise",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Eggs+Benedict"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Traditional_Eggs_Benedict.jpg/500px-Traditional_Eggs_Benedict.jpg"
     },
     {
       "id": "cereal-breakfast",
@@ -58,7 +58,7 @@
       "id": "omelette",
       "name": "Omelette",
       "subtitle": "Filled & folded",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Omelette"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Gorgonzola_%2B_Bacon_Omelette_%40_Omelegg_%40_Amsterdam_%2816600947041%29.jpg/500px-Gorgonzola_%2B_Bacon_Omelette_%40_Omelegg_%40_Amsterdam_%2816600947041%29.jpg"
     },
     {
       "id": "bagel-cream-cheese",
@@ -88,13 +88,13 @@
       "id": "biscuits-breakfast",
       "name": "Biscuits",
       "subtitle": "Flaky & buttery",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Biscuits"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Bourbon_and_Custard_Cream.jpeg/500px-Bourbon_and_Custard_Cream.jpeg"
     },
     {
       "id": "donuts",
       "name": "Donuts",
       "subtitle": "Glazed or filled",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Donuts"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/500px-Glazed-Donut.jpg"
     }
   ]
 }

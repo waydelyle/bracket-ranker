@@ -28,13 +28,13 @@
       "id": "smartphone",
       "name": "Smartphone",
       "subtitle": "2007 (iPhone)",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Smartphone"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Wikipedia_homepage_on_a_large_Android_phone%2C_2015-04-16.jpg/500px-Wikipedia_homepage_on_a_large_Android_phone%2C_2015-04-16.jpg"
     },
     {
       "id": "penicillin",
       "name": "Penicillin",
       "subtitle": "1928",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Penicillin"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Penicillin_core.svg/500px-Penicillin_core.svg.png"
     },
     {
       "id": "airplane",
@@ -52,7 +52,7 @@
       "id": "television",
       "name": "Television",
       "subtitle": "1927",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Television"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Cptvdisplay.jpg/500px-Cptvdisplay.jpg"
     },
     {
       "id": "automobile",
@@ -64,7 +64,7 @@
       "id": "computer",
       "name": "Computer",
       "subtitle": "1945",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Computer"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/ENIAC-changing_a_tube_%28cropped%29.jpg/500px-ENIAC-changing_a_tube_%28cropped%29.jpg"
     },
     {
       "id": "steam-engine",
@@ -88,7 +88,7 @@
       "id": "camera",
       "name": "Camera",
       "subtitle": "1816",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Camera"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/LEI0440_Leica_IIIf_chrom_-_Sn._580566_1951-52-M39_Blitzsynchron_front_view-6531_hf-.jpg/500px-LEI0440_Leica_IIIf_chrom_-_Sn._580566_1951-52-M39_Blitzsynchron_front_view-6531_hf-.jpg"
     },
     {
       "id": "gps",

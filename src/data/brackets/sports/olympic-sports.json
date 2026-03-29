@@ -22,7 +22,7 @@
       "id": "basketball-olympic",
       "name": "Basketball",
       "subtitle": "Team sport",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Basketball"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Steph_Curry_%2851915116957%29.jpg/500px-Steph_Curry_%2851915116957%29.jpg"
     },
     {
       "id": "soccer-olympic",
@@ -58,7 +58,7 @@
       "id": "volleyball",
       "name": "Volleyball",
       "subtitle": "Team sport",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Volleyball"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg/500px-Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg"
     },
     {
       "id": "fencing",
@@ -70,13 +70,13 @@
       "id": "archery",
       "name": "Archery",
       "subtitle": "Precision sport",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Archery"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/ArcheryGermanyEarly1980s-2.jpg/500px-ArcheryGermanyEarly1980s-2.jpg"
     },
     {
       "id": "boxing-olympic",
       "name": "Boxing",
       "subtitle": "Combat sport",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Boxing"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Boxing_Tournament_in_Aid_of_King_George%27s_Fund_For_Sailors_at_the_Royal_Naval_Air_Station%2C_Henstridge%2C_Somerset%2C_July_1945_A29806.jpg/500px-Boxing_Tournament_in_Aid_of_King_George%27s_Fund_For_Sailors_at_the_Royal_Naval_Air_Station%2C_Henstridge%2C_Somerset%2C_July_1945_A29806.jpg"
     },
     {
       "id": "rowing",
@@ -88,7 +88,7 @@
       "id": "track-marathon",
       "name": "Marathon",
       "subtitle": "Track & Field",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Marathon"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/BSK_CSOB_MARATON046_%2833791445325%29.jpg/500px-BSK_CSOB_MARATON046_%2833791445325%29.jpg"
     },
     {
       "id": "snowboarding",

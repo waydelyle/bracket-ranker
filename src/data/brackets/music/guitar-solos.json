@@ -10,13 +10,13 @@
       "id": "comfortably-numb-solo",
       "name": "Comfortably Numb",
       "subtitle": "Pink Floyd - David Gilmour",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Comfortably+Numb"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/49/Pink-Floyd-Comfortably-Numb-single.jpg"
     },
     {
       "id": "free-bird-solo",
       "name": "Free Bird",
       "subtitle": "Lynyrd Skynyrd - Allen Collins",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Free+Bird"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/Free_bird_lynyrd_skynyrd_US_single_1973_studio_side-A.png"
     },
     {
       "id": "eruption",
@@ -40,7 +40,7 @@
       "id": "bohemian-rhapsody-solo",
       "name": "Bohemian Rhapsody",
       "subtitle": "Queen - Brian May",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bohemian+Rhapsody"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Bohemian_Rhapsody.png"
     },
     {
       "id": "sweet-child-solo",
@@ -70,13 +70,13 @@
       "id": "texas-flood-solo",
       "name": "Texas Flood",
       "subtitle": "Stevie Ray Vaughan",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Texas+Flood"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d1/Texas_Flood_single_cover.jpg"
     },
     {
       "id": "sultans-of-swing-solo",
       "name": "Sultans of Swing",
       "subtitle": "Dire Straits - Mark Knopfler",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sultans+of+Swing"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0f/Dire_Straits_-_Sultans_Of_Swing_picture_cover.jpg"
     },
     {
       "id": "whole-lotta-love-solo",
@@ -100,7 +100,7 @@
       "id": "crazy-train-solo",
       "name": "Crazy Train",
       "subtitle": "Ozzy Osbourne - Randy Rhoads",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Crazy+Train"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/74/Crazy_Train_45.jpg"
     },
     {
       "id": "master-of-puppets-solo",
@@ -136,7 +136,7 @@
       "id": "shine-on-you-crazy-diamond-solo",
       "name": "Shine On You Crazy Diamond",
       "subtitle": "Pink Floyd - David Gilmour",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Shine+On+You+Crazy+Diamond"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b7/Shine_On_You_Crazy_Diamond_Part_One.jpg"
     },
     {
       "id": "one-metallica-solo",

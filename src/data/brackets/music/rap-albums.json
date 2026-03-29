@@ -10,7 +10,7 @@
       "id": "ready-to-die",
       "name": "Ready to Die",
       "subtitle": "The Notorious B.I.G. - 1994",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ready+to+Die"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/97/Ready_To_Die.jpg"
     },
     {
       "id": "mbdtf",
@@ -22,7 +22,7 @@
       "id": "to-pimp-a-butterfly",
       "name": "To Pimp a Butterfly",
       "subtitle": "Kendrick Lamar - 2015",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=To+Pimp+a+Butterfly"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f6/Kendrick_Lamar_-_To_Pimp_a_Butterfly.png"
     },
     {
       "id": "enter-the-wu-tang",
@@ -34,7 +34,7 @@
       "id": "the-miseducation",
       "name": "The Miseducation of Lauryn Hill",
       "subtitle": "Lauryn Hill - 1998",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Miseducation+of+Lauryn+Hill"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/99/The_Miseducation_of_Lauryn_Hill.png"
     },
     {
       "id": "aquemini",
@@ -58,7 +58,7 @@
       "id": "the-marshall-mathers-lp",
       "name": "The Marshall Mathers LP",
       "subtitle": "Eminem - 2000",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Marshall+Mathers+LP"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ae/The_Marshall_Mathers_LP.jpg"
     },
     {
       "id": "me-against-the-world",
@@ -70,7 +70,7 @@
       "id": "reasonable-doubt",
       "name": "Reasonable Doubt",
       "subtitle": "Jay-Z - 1996",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Reasonable+Doubt"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f5/Reasonable_Doubt_New.jpg"
     },
     {
       "id": "the-chronic",
@@ -82,7 +82,7 @@
       "id": "all-eyez-on-me",
       "name": "All Eyez on Me",
       "subtitle": "2Pac - 1996",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=All+Eyez+on+Me"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/16/Alleyezonme.jpg"
     },
     {
       "id": "midnight-marauders",
@@ -112,19 +112,19 @@
       "id": "doggystyle",
       "name": "Doggystyle",
       "subtitle": "Snoop Dogg - 1993",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Doggystyle"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/63/SnoopDoggyDoggDoggystyle.jpg"
     },
     {
       "id": "madvillainy",
       "name": "Madvillainy",
       "subtitle": "Madvillain - 2004",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Madvillainy"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Madvillainy_cover.png"
     },
     {
       "id": "the-college-dropout",
       "name": "The College Dropout",
       "subtitle": "Kanye West - 2004",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+College+Dropout"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a3/Kanyewest_collegedropout.jpg"
     },
     {
       "id": "it-takes-a-nation",
@@ -160,7 +160,7 @@
       "id": "take-care-album",
       "name": "Take Care",
       "subtitle": "Drake - 2011",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Take+Care"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ae/Drake_-_Take_Care_cover.jpg"
     },
     {
       "id": "igor",
@@ -172,7 +172,7 @@
       "id": "flower-boy",
       "name": "Flower Boy",
       "subtitle": "Tyler, the Creator - 2017",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Flower+Boy"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/Tyler%2C_the_Creator_-_Flower_Boy.png"
     },
     {
       "id": "sos",

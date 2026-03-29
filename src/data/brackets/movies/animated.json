@@ -22,13 +22,13 @@
       "id": "shrek",
       "name": "Shrek",
       "subtitle": "2001 - DreamWorks",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Shrek&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7b/Shrek_%282001_animated_feature_film%29.jpg"
     },
     {
       "id": "finding-nemo-anim",
       "name": "Finding Nemo",
       "subtitle": "2003 - Pixar",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Finding+Nemo&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg"
     },
     {
       "id": "spider-verse",
@@ -94,7 +94,7 @@
       "id": "beauty-and-the-beast-anim",
       "name": "Beauty and the Beast",
       "subtitle": "1991 - Disney",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Beauty+and+the+Beast&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Batten_-_Europa%27sFairyTales.jpg/500px-Batten_-_Europa%27sFairyTales.jpg"
     },
     {
       "id": "aladdin-anim",
@@ -124,7 +124,7 @@
       "id": "shrek-2",
       "name": "Shrek 2",
       "subtitle": "2004 - DreamWorks",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Shrek+2"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Shrek_2_poster.jpg"
     },
     {
       "id": "moana-anim",
@@ -154,13 +154,13 @@
       "id": "zootopia-anim",
       "name": "Zootopia",
       "subtitle": "2016 - Disney",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Zootopia&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/96/Zootopia_%28movie_poster%29.jpg"
     },
     {
       "id": "the-lego-movie",
       "name": "The Lego Movie",
       "subtitle": "2014 - Warner Bros",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Lego+Movie"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/10/The_Lego_Movie_poster.jpg"
     },
     {
       "id": "across-the-spider-verse",
@@ -178,7 +178,7 @@
       "id": "puss-in-boots-last-wish",
       "name": "Puss in Boots: The Last Wish",
       "subtitle": "2022 - DreamWorks",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Puss+in+Boots%3A+The+Last+Wish"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/78/Puss_in_Boots_The_Last_Wish_poster.jpg"
     },
     {
       "id": "megamind",
@@ -190,7 +190,7 @@
       "id": "coraline",
       "name": "Coraline",
       "subtitle": "2009 - Laika",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Coraline&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/61/Coraline.jpg"
     }
   ]
 }

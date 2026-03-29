@@ -4,37 +4,37 @@
       "id": "lucky-charms",
       "name": "Lucky Charms",
       "subtitle": "Magically delicious",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Lucky+Charms"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Lucky_charms_brand_logo.png"
     },
     {
       "id": "frosted-flakes",
       "name": "Frosted Flakes",
       "subtitle": "They're Gr-r-reat!",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Frosted+Flakes"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Frostedflakes_brand_logo.png/500px-Frostedflakes_brand_logo.png"
     },
     {
       "id": "cinnamon-toast-crunch",
       "name": "Cinnamon Toast Crunch",
       "subtitle": "The taste you can see",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cinnamon+Toast+Crunch"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Cinnamon_toastcrunch_logo.png/500px-Cinnamon_toastcrunch_logo.png"
     },
     {
       "id": "honey-nut-cheerios",
       "name": "Honey Nut Cheerios",
       "subtitle": "Bee happy, bee healthy",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Honey+Nut+Cheerios"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c4/Honey_nut_cheerios_%28revised%29.jpg"
     },
     {
       "id": "fruit-loops",
       "name": "Froot Loops",
       "subtitle": "Follow your nose",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Froot+Loops"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9d/Frootloops_brand_logo.png"
     },
     {
       "id": "cocoa-puffs",
       "name": "Cocoa Puffs",
       "subtitle": "I'm cuckoo for Cocoa Puffs",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cocoa+Puffs"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/ff/Cocoa_Puffs_logo.png"
     },
     {
       "id": "frosted-mini-wheats",
@@ -46,19 +46,19 @@
       "id": "captain-crunch",
       "name": "Cap'n Crunch",
       "subtitle": "Crunchatize me, Cap'n",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cap'n+Crunch"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Capcrunch_textlogo.png/500px-Capcrunch_textlogo.png"
     },
     {
       "id": "rice-krispies",
       "name": "Rice Krispies",
       "subtitle": "Snap! Crackle! Pop!",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Rice+Krispies"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Rice_Krispies_logo.svg/500px-Rice_Krispies_logo.svg.png"
     },
     {
       "id": "apple-jacks",
       "name": "Apple Jacks",
       "subtitle": "Apple & cinnamon",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Apple+Jacks"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/41/Kellogg%27s_Apple_Jacks.png"
     },
     {
       "id": "reeses-puffs",
@@ -76,7 +76,7 @@
       "id": "life-cereal",
       "name": "Life",
       "subtitle": "Mikey likes it!",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Life"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Coral_reef..._South_end_of_my_area_%2814119221571%29.jpg/500px-Coral_reef..._South_end_of_my_area_%2814119221571%29.jpg"
     },
     {
       "id": "corn-flakes",
@@ -94,7 +94,7 @@
       "id": "golden-grahams",
       "name": "Golden Grahams",
       "subtitle": "Graham cracker cereal",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Golden+Grahams"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9d/Golden_Grahams_logo.png"
     },
     {
       "id": "cookie-crisp",
@@ -136,7 +136,7 @@
       "id": "cocoa-krispies",
       "name": "Cocoa Krispies",
       "subtitle": "Chocolate rice cereal",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cocoa+Krispies"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Cocoakrispies_brand_logo.png"
     },
     {
       "id": "fruity-pebbles",
@@ -160,13 +160,13 @@
       "id": "chex",
       "name": "Chex",
       "subtitle": "Rice, corn, or wheat",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chex"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4c/Corn-chex-box.jpg"
     },
     {
       "id": "waffle-crisp",
       "name": "Waffle Crisp",
       "subtitle": "Waffle-shaped cereal",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Waffle+Crisp"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Waffle_crisp_logo.png/500px-Waffle_crisp_logo.png"
     },
     {
       "id": "crunch-berries",
@@ -178,19 +178,19 @@
       "id": "pops",
       "name": "Corn Pops",
       "subtitle": "Gotta have my Pops",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Corn+Pops"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Corn_Pops_logo.svg/500px-Corn_Pops_logo.svg.png"
     },
     {
       "id": "smacks",
       "name": "Honey Smacks",
       "subtitle": "Sweetened puffed wheat",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Honey+Smacks"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Honeymacks_brand_logo.png"
     },
     {
       "id": "french-toast-crunch",
       "name": "French Toast Crunch",
       "subtitle": "Toast-shaped cereal",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=French+Toast+Crunch"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2f/French-Toast-Crunch-Box.jpg"
     }
   ]
 }

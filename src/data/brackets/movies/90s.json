@@ -28,7 +28,7 @@
       "id": "the-shawshank-redemption",
       "name": "The Shawshank Redemption",
       "subtitle": "1994",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Shawshank+Redemption&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg"
     },
     {
       "id": "fight-club",
@@ -40,7 +40,7 @@
       "id": "good-will-hunting",
       "name": "Good Will Hunting",
       "subtitle": "1997",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Good+Will+Hunting&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/52/Good_Will_Hunting.png"
     },
     {
       "id": "jurassic-park",
@@ -70,7 +70,7 @@
       "id": "the-big-lebowski",
       "name": "The Big Lebowski",
       "subtitle": "1998",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Big+Lebowski&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/35/Biglebowskiposter.jpg"
     },
     {
       "id": "american-beauty",
@@ -82,13 +82,13 @@
       "id": "braveheart",
       "name": "Braveheart",
       "subtitle": "1995",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Braveheart&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Braveheart_film_poster.png"
     },
     {
       "id": "fargo",
       "name": "Fargo",
       "subtitle": "1996",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Fargo"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/33/Fargo_%281996_movie_poster%29.jpg"
     },
     {
       "id": "se7en",
@@ -106,7 +106,7 @@
       "id": "heat",
       "name": "Heat",
       "subtitle": "1995",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Heat"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6c/Heatposter.jpg"
     },
     {
       "id": "goodfellas",
@@ -130,13 +130,13 @@
       "id": "independence-day",
       "name": "Independence Day",
       "subtitle": "1996",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Independence+Day"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bb/Independence_day_movieposter.jpg"
     },
     {
       "id": "leon-the-professional",
       "name": "Leon: The Professional",
       "subtitle": "1994",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Leon%3A+The+Professional"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/03/Leon-poster.jpg"
     },
     {
       "id": "the-silence-of-the-lambs-90s",
@@ -166,13 +166,13 @@
       "id": "10-things-i-hate-about-you",
       "name": "10 Things I Hate About You",
       "subtitle": "1999",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=10+Things+I+Hate+About+You&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/95/10_Things_I_Hate_About_You_film.jpg"
     },
     {
       "id": "the-fifth-element",
       "name": "The Fifth Element",
       "subtitle": "1997",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Fifth+Element&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/65/Fifth_element_poster_%281997%29.jpg"
     },
     {
       "id": "dazed-and-confused",
@@ -184,13 +184,13 @@
       "id": "speed",
       "name": "Speed",
       "subtitle": "1994",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Speed"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Motorcyclist_in_Midtown_Manhattan-L1002704.jpg/500px-Motorcyclist_in_Midtown_Manhattan-L1002704.jpg"
     },
     {
       "id": "eyes-wide-shut",
       "name": "Eyes Wide Shut",
       "subtitle": "1999",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Eyes+Wide+Shut"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/73/Eyes_Wide_Shut_%281999%29.png"
     }
   ]
 }

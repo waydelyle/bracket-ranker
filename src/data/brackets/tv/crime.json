@@ -10,19 +10,19 @@
       "id": "the-wire-crime",
       "name": "The Wire",
       "subtitle": "2002-2008",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Wire&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/The_Wire_logo.svg/500px-The_Wire_logo.svg.png"
     },
     {
       "id": "the-sopranos-crime",
       "name": "The Sopranos",
       "subtitle": "1999-2007",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Sopranos&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Sopranos_titlescreen.png/500px-Sopranos_titlescreen.png"
     },
     {
       "id": "true-detective",
       "name": "True Detective",
       "subtitle": "2014-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=True+Detective&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5a/True_Detective_2014_Intertitle.jpg"
     },
     {
       "id": "mindhunter-crime",
@@ -58,25 +58,25 @@
       "id": "peaky-blinders-crime",
       "name": "Peaky Blinders",
       "subtitle": "2013-2022",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Peaky+Blinders"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Harry_Fowles_Peaky_Blinder.jpg/500px-Harry_Fowles_Peaky_Blinder.jpg"
     },
     {
       "id": "line-of-duty",
       "name": "Line of Duty",
       "subtitle": "2012-2021",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Line+of+Duty"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Line_of_Duty_%28TV_series%29_Titlecard.JPG/500px-Line_of_Duty_%28TV_series%29_Titlecard.JPG"
     },
     {
       "id": "dexter-crime",
       "name": "Dexter",
       "subtitle": "2006-2013",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dexter&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Dexter_Logo.svg/500px-Dexter_Logo.svg.png"
     },
     {
       "id": "luther",
       "name": "Luther",
       "subtitle": "2010-2019",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Luther"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/LutherTitleScreen.png/500px-LutherTitleScreen.png"
     },
     {
       "id": "law-and-order-svu",
@@ -100,13 +100,13 @@
       "id": "csi",
       "name": "CSI: Crime Scene Investigation",
       "subtitle": "2000-2015",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=CSI%3A+Crime+Scene+Investigation"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/CSI-LV.main.jpg/500px-CSI-LV.main.jpg"
     },
     {
       "id": "broadchurch",
       "name": "Broadchurch",
       "subtitle": "2013-2017",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Broadchurch"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/Broadchurch_titlecard.jpg"
     },
     {
       "id": "killing-eve",
@@ -130,19 +130,19 @@
       "id": "mare-of-easttown",
       "name": "Mare of Easttown",
       "subtitle": "2021",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Mare+of+Easttown&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Mare_of_Easttown_2021_Television_Series_poster.png"
     },
     {
       "id": "the-shield-crime",
       "name": "The Shield",
       "subtitle": "2002-2008",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Shield"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/69/TheShieldTitle.JPG"
     },
     {
       "id": "only-murders-in-the-building",
       "name": "Only Murders in the Building",
       "subtitle": "2021-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Only+Murders+in+the+Building"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Only_Murders_logo.jpeg/500px-Only_Murders_logo.jpeg"
     }
   ]
 }

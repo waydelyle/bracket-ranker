@@ -4,19 +4,19 @@
       "id": "michael-jordan-goat",
       "name": "Michael Jordan",
       "subtitle": "Basketball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Michael+Jordan"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Michael_Jordan_in_2014.jpg/500px-Michael_Jordan_in_2014.jpg"
     },
     {
       "id": "serena-williams",
       "name": "Serena Williams",
       "subtitle": "Tennis",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Serena+Williams"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Serena_Williams_at_the_2025_International_Tennis_Hall_of_Fame_Induction_Ceremony_Press_Conference_%28cropped%29.jpg/500px-Serena_Williams_at_the_2025_International_Tennis_Hall_of_Fame_Induction_Ceremony_Press_Conference_%28cropped%29.jpg"
     },
     {
       "id": "muhammad-ali",
       "name": "Muhammad Ali",
       "subtitle": "Boxing",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Muhammad+Ali"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/500px-Muhammad_Ali_NYWTS.jpg"
     },
     {
       "id": "lionel-messi-goat",
@@ -52,13 +52,13 @@
       "id": "lebron-james-goat",
       "name": "LeBron James",
       "subtitle": "Basketball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=LeBron+James"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/500px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg"
     },
     {
       "id": "tiger-woods",
       "name": "Tiger Woods",
       "subtitle": "Golf",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tiger+Woods"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_%2854341713089%29_%28cropped%29.jpg/500px-President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_%2854341713089%29_%28cropped%29.jpg"
     },
     {
       "id": "babe-ruth",
@@ -100,19 +100,19 @@
       "id": "cristiano-ronaldo-goat",
       "name": "Cristiano Ronaldo",
       "subtitle": "Soccer",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Cristiano+Ronaldo"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Cristiano_Ronaldo_2275_%28cropped%29.jpg/500px-Cristiano_Ronaldo_2275_%28cropped%29.jpg"
     },
     {
       "id": "mike-tyson",
       "name": "Mike Tyson",
       "subtitle": "Boxing",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Mike+Tyson"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg/500px-Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg"
     },
     {
       "id": "bo-jackson",
       "name": "Bo Jackson",
       "subtitle": "Football / Baseball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Bo+Jackson"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Bo_Jackson%2C_2011_NCAA_Honors_Celebration%2C_San_Antonio%2C_TX.jpg/500px-Bo_Jackson%2C_2011_NCAA_Honors_Celebration%2C_San_Antonio%2C_TX.jpg"
     },
     {
       "id": "jackie-robinson",
@@ -124,7 +124,7 @@
       "id": "shaquille-oneal-goat",
       "name": "Shaquille O'Neal",
       "subtitle": "Basketball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Shaquille+O'Neal"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/TechCrunch_Disrupt_2023_-_Day_1_%28cropped%29.jpg/500px-TechCrunch_Disrupt_2023_-_Day_1_%28cropped%29.jpg"
     },
     {
       "id": "jesse-owens",
@@ -154,13 +154,13 @@
       "id": "diego-maradona-goat",
       "name": "Diego Maradona",
       "subtitle": "Soccer",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Diego+Maradona"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Argentina_celebrando_copa_%28cropped%29.jpg/500px-Argentina_celebrando_copa_%28cropped%29.jpg"
     },
     {
       "id": "kobe-bryant-goat",
       "name": "Kobe Bryant",
       "subtitle": "Basketball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kobe+Bryant"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Kobe_Bryant_Dec_2014.jpg/500px-Kobe_Bryant_Dec_2014.jpg"
     },
     {
       "id": "lewis-hamilton",
@@ -172,7 +172,7 @@
       "id": "jack-nicklaus",
       "name": "Jack Nicklaus",
       "subtitle": "Golf",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Jack+Nicklaus"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Jack_Nicklaus_2019_Jenkins_Medal_Awards_%28cropped%29.jpg/500px-Jack_Nicklaus_2019_Jenkins_Medal_Awards_%28cropped%29.jpg"
     },
     {
       "id": "carl-lewis",
@@ -184,7 +184,7 @@
       "id": "stephen-curry-goat",
       "name": "Stephen Curry",
       "subtitle": "Basketball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Stephen+Curry"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Steph_Curry_P20230117AS-1347_%28cropped%29.jpg/500px-Steph_Curry_P20230117AS-1347_%28cropped%29.jpg"
     },
     {
       "id": "connor-mcdavid",

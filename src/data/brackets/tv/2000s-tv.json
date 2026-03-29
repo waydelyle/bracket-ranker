@@ -4,13 +4,13 @@
       "id": "the-wire-00s",
       "name": "The Wire",
       "subtitle": "2002-2008",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Wire&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/The_Wire_logo.svg/500px-The_Wire_logo.svg.png"
     },
     {
       "id": "lost-00s",
       "name": "Lost",
       "subtitle": "2004-2010",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Lost&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Lost_main_title.svg/500px-Lost_main_title.svg.png"
     },
     {
       "id": "the-office-00s",
@@ -28,37 +28,37 @@
       "id": "mad-men-00s",
       "name": "Mad Men",
       "subtitle": "2007-2015",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Mad+Men&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/33/Mad-men-title-card.jpg"
     },
     {
       "id": "dexter-00s",
       "name": "Dexter",
       "subtitle": "2006-2013",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dexter&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Dexter_Logo.svg/500px-Dexter_Logo.svg.png"
     },
     {
       "id": "the-shield-00s",
       "name": "The Shield",
       "subtitle": "2002-2008",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Shield"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/69/TheShieldTitle.JPG"
     },
     {
       "id": "arrested-development-00s",
       "name": "Arrested Development",
       "subtitle": "2003-2006",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Arrested+Development"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Arrested_Development.svg/500px-Arrested_Development.svg.png"
     },
     {
       "id": "how-i-met-00s",
       "name": "How I Met Your Mother",
       "subtitle": "2005-2014",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=How+I+Met+Your+Mother"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/HowIMetYourMother.svg/500px-HowIMetYourMother.svg.png"
     },
     {
       "id": "its-always-sunny-00s",
       "name": "It's Always Sunny in Philadelphia",
       "subtitle": "2005-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=It's+Always+Sunny+in+Philadelphia"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/IASIPTC.svg/500px-IASIPTC.svg.png"
     },
     {
       "id": "scrubs-00s",
@@ -70,7 +70,7 @@
       "id": "24",
       "name": "24",
       "subtitle": "2001-2014",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=24"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/24-Logo.svg/500px-24-Logo.svg.png"
     },
     {
       "id": "house",
@@ -88,7 +88,7 @@
       "id": "six-feet-under-00s",
       "name": "Six Feet Under",
       "subtitle": "2001-2005",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Six+Feet+Under"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/23/Sixfeetunderlogo.jpg"
     },
     {
       "id": "curb-00s",
@@ -100,7 +100,7 @@
       "id": "deadwood",
       "name": "Deadwood",
       "subtitle": "2004-2006",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Deadwood"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Deadwood_titleimage.jpg/500px-Deadwood_titleimage.jpg"
     },
     {
       "id": "battlestar-00s",
@@ -118,31 +118,31 @@
       "id": "friday-night-lights-00s",
       "name": "Friday Night Lights",
       "subtitle": "2006-2011",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Friday+Night+Lights"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Friday_Night_Lights_title_card.png/500px-Friday_Night_Lights_title_card.png"
     },
     {
       "id": "the-oc",
       "name": "The O.C.",
       "subtitle": "2003-2007",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+O.C."
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/The_O.C_Intro.jpg/500px-The_O.C_Intro.jpg"
     },
     {
       "id": "gossip-girl",
       "name": "Gossip Girl",
       "subtitle": "2007-2012",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Gossip+Girl"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Gossip_girl_titlecard.svg/500px-Gossip_girl_titlecard.svg.png"
     },
     {
       "id": "heroes",
       "name": "Heroes",
       "subtitle": "2006-2010",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Heroes"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Heroes_%28NBC_television_series%29_logo_%282%29.svg/500px-Heroes_%28NBC_television_series%29_logo_%282%29.svg.png"
     },
     {
       "id": "prison-break",
       "name": "Prison Break",
       "subtitle": "2005-2017",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Prison+Break"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d3/Prison-break-s1-intro.jpg"
     }
   ]
 }

@@ -4,19 +4,19 @@
       "id": "muhammad-ali-combat",
       "name": "Muhammad Ali",
       "subtitle": "Boxing - Heavyweight",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Muhammad+Ali"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/500px-Muhammad_Ali_NYWTS.jpg"
     },
     {
       "id": "mike-tyson-combat",
       "name": "Mike Tyson",
       "subtitle": "Boxing - Heavyweight",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Mike+Tyson"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg/500px-Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg"
     },
     {
       "id": "floyd-mayweather",
       "name": "Floyd Mayweather Jr.",
       "subtitle": "Boxing - Welterweight",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Floyd+Mayweather+Jr."
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Floyd_Mayweather_Jr_2011.jpg/500px-Floyd_Mayweather_Jr_2011.jpg"
     },
     {
       "id": "manny-pacquiao",
@@ -28,7 +28,7 @@
       "id": "conor-mcgregor",
       "name": "Conor McGregor",
       "subtitle": "MMA - UFC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Conor+McGregor"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Conor_McGregor_2025.jpeg/500px-Conor_McGregor_2025.jpeg"
     },
     {
       "id": "khabib-nurmagomedov",
@@ -52,7 +52,7 @@
       "id": "jon-jones",
       "name": "Jon Jones",
       "subtitle": "MMA - UFC Heavyweight",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Jon+Jones"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Jon_Jones_-_Supporting_Brain_Health_Study.jpg/500px-Jon_Jones_-_Supporting_Brain_Health_Study.jpg"
     },
     {
       "id": "sugar-ray-leonard",
@@ -94,7 +94,7 @@
       "id": "bruce-lee",
       "name": "Bruce Lee",
       "subtitle": "Martial Arts Legend",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Bruce+Lee"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bruce_Lee_as_Chen_Zhen_%284x5_cropped%29.jpg/500px-Bruce_Lee_as_Chen_Zhen_%284x5_cropped%29.jpg"
     }
   ]
 }

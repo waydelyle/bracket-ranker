@@ -4,13 +4,13 @@
       "id": "league-of-legends",
       "name": "League of Legends",
       "subtitle": "MOBA - Riot Games",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=League+of+Legends"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/League_of_Legends_2019_vector.svg/500px-League_of_Legends_2019_vector.svg.png"
     },
     {
       "id": "counter-strike",
       "name": "Counter-Strike 2",
       "subtitle": "FPS - Valve",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Counter-Strike+2"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f2/CS2_Cover_Art.jpg"
     },
     {
       "id": "valorant",
@@ -46,7 +46,7 @@
       "id": "super-smash-bros",
       "name": "Super Smash Bros. Ultimate",
       "subtitle": "Fighting - Nintendo",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Super+Smash+Bros.+Ultimate"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg"
     },
     {
       "id": "street-fighter-6",
@@ -76,7 +76,7 @@
       "id": "call-of-duty",
       "name": "Call of Duty",
       "subtitle": "FPS - Activision",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Call+of+Duty"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7c/Call_Of_Duty_%282003%29%2CCover%2CUpdated.jpg"
     },
     {
       "id": "fifa-ea-fc",
@@ -88,7 +88,7 @@
       "id": "tekken-8",
       "name": "Tekken 8",
       "subtitle": "Fighting - Bandai Namco",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tekken+8"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tekken_8_cover_art.jpg"
     },
     {
       "id": "pubg",

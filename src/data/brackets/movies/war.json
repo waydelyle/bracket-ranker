@@ -16,7 +16,7 @@
       "id": "apocalypse-now",
       "name": "Apocalypse Now",
       "subtitle": "1979",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Apocalypse+Now&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c2/Apocalypse_Now_poster.jpg"
     },
     {
       "id": "schindlers-list-war",
@@ -28,19 +28,19 @@
       "id": "1917-war",
       "name": "1917",
       "subtitle": "2019",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=1917&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/1917_%282019%29_Film_Poster.jpeg/500px-1917_%282019%29_Film_Poster.jpeg"
     },
     {
       "id": "full-metal-jacket",
       "name": "Full Metal Jacket",
       "subtitle": "1987",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Full+Metal+Jacket&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/99/Full_Metal_Jacket_poster.jpg"
     },
     {
       "id": "platoon",
       "name": "Platoon",
       "subtitle": "1986",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Platoon&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/Platoon_posters_86.jpg"
     },
     {
       "id": "hacksaw-ridge",
@@ -52,7 +52,7 @@
       "id": "black-hawk-down",
       "name": "Black Hawk Down",
       "subtitle": "2001",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Black+Hawk+Down&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/Black_hawk_down_ver1.jpg"
     },
     {
       "id": "the-thin-red-line",
@@ -88,7 +88,7 @@
       "id": "letters-from-iwo-jima",
       "name": "Letters from Iwo Jima",
       "subtitle": "2006",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Letters+from+Iwo+Jima&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/87/Letters_from_Iwo_Jima.jpg"
     },
     {
       "id": "the-pianist",
@@ -100,7 +100,7 @@
       "id": "the-great-escape",
       "name": "The Great Escape",
       "subtitle": "1963",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Great+Escape"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ac/The_Great_Escape_%28film%29_poster.jpg"
     },
     {
       "id": "paths-of-glory",
@@ -118,25 +118,25 @@
       "id": "american-sniper",
       "name": "American Sniper",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=American+Sniper"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/10/American_Sniper_poster.jpg"
     },
     {
       "id": "we-were-soldiers",
       "name": "We Were Soldiers",
       "subtitle": "2002",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=We+Were+Soldiers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9d/Weweresoldiers_poster.jpg"
     },
     {
       "id": "the-hurt-locker-war",
       "name": "The Hurt Locker",
       "subtitle": "2008",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Hurt+Locker&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6c/HLposterUSA2.jpg"
     },
     {
       "id": "braveheart-war",
       "name": "Braveheart",
       "subtitle": "1995",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Braveheart&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Braveheart_film_poster.png"
     },
     {
       "id": "all-quiet-on-the-western-front",

@@ -10,7 +10,7 @@
       "id": "cersei-lannister",
       "name": "Cersei Lannister",
       "subtitle": "Game of Thrones",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Cersei+Lannister"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/22/Cersei_Lannister_in_Black_Dress_in_Season_5.jpg"
     },
     {
       "id": "gustavo-fring",
@@ -22,7 +22,7 @@
       "id": "negan",
       "name": "Negan",
       "subtitle": "The Walking Dead",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Negan"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Negan-JDM_TWD.png/500px-Negan-JDM_TWD.png"
     },
     {
       "id": "joffrey-baratheon",
@@ -40,7 +40,7 @@
       "id": "homelander",
       "name": "Homelander",
       "subtitle": "The Boys",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Homelander"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Homelander-comic-vs-tv-series.jpg/500px-Homelander-comic-vs-tv-series.jpg"
     },
     {
       "id": "ramsay-bolton",
@@ -70,7 +70,7 @@
       "id": "logan-roy",
       "name": "Logan Roy",
       "subtitle": "Succession",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Logan+Roy"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Logan_Roy.jpg"
     },
     {
       "id": "villanelle",
@@ -130,19 +130,19 @@
       "id": "hannibal-lecter-tv",
       "name": "Hannibal Lecter",
       "subtitle": "Hannibal",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Hannibal+Lecter"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Hannibal_Lecter_in_Silence_of_the_Lambs.jpg/500px-Hannibal_Lecter_in_Silence_of_the_Lambs.jpg"
     },
     {
       "id": "dexter-morgan",
       "name": "Dexter Morgan",
       "subtitle": "Dexter",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dexter+Morgan"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/56/Michael_C._Hall_as_Dexter_Morgan_publicity_photo%2C_2012.webp"
     },
     {
       "id": "omni-man",
       "name": "Omni-Man",
       "subtitle": "Invincible",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Omni-Man"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/22/Omni-Man.jpg"
     }
   ]
 }

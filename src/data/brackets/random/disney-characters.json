@@ -4,13 +4,13 @@
       "id": "mickey-mouse",
       "name": "Mickey Mouse",
       "subtitle": "Steamboat Willie",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mickey+Mouse"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Mickey_Mouse_%28poster_version%29.svg/500px-Mickey_Mouse_%28poster_version%29.svg.png"
     },
     {
       "id": "simba",
       "name": "Simba",
       "subtitle": "The Lion King",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Simba"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/94/Simba_%28_Disney_character_-_adult%29.png"
     },
     {
       "id": "elsa",
@@ -28,7 +28,7 @@
       "id": "buzz-lightyear",
       "name": "Buzz Lightyear",
       "subtitle": "Toy Story",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Buzz+Lightyear"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Buzz_Lightyear_sculpture_of_Toy_Story_Hotel_Shanghai_%28cropped%29.jpg/500px-Buzz_Lightyear_sculpture_of_Toy_Story_Hotel_Shanghai_%28cropped%29.jpg"
     },
     {
       "id": "ariel",
@@ -88,7 +88,7 @@
       "id": "moana-char",
       "name": "Moana",
       "subtitle": "Moana",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Moana"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/56/Moana_%28character%29.png"
     },
     {
       "id": "donald-duck",
@@ -112,13 +112,13 @@
       "id": "cinderella-char",
       "name": "Cinderella",
       "subtitle": "Cinderella",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Cinderella"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Cendrillon.jpg/500px-Cendrillon.jpg"
     },
     {
       "id": "pocahontas-char",
       "name": "Pocahontas",
       "subtitle": "Pocahontas",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Pocahontas"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Pocahontas_by_Simon_van_de_Passe_%281616%29.png/500px-Pocahontas_by_Simon_van_de_Passe_%281616%29.png"
     },
     {
       "id": "timon",
@@ -160,7 +160,7 @@
       "id": "pluto",
       "name": "Pluto",
       "subtitle": "Classic Disney",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Pluto"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Pluto_in_True_Color_-_High-Res.png/500px-Pluto_in_True_Color_-_High-Res.png"
     },
     {
       "id": "tiana",
@@ -178,13 +178,13 @@
       "id": "peter-pan-char",
       "name": "Peter Pan",
       "subtitle": "Peter Pan",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Peter+Pan"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Peter_pan_1911_pipes_%28cropped%29.jpg/500px-Peter_pan_1911_pipes_%28cropped%29.jpg"
     },
     {
       "id": "mushu",
       "name": "Mushu",
       "subtitle": "Mulan",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mushu"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Mushu.png"
     },
     {
       "id": "hades-char",

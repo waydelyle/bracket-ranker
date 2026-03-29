@@ -16,19 +16,19 @@
       "id": "frozen",
       "name": "Frozen",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Frozen&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/05/Frozen_%282013_film%29_poster.jpg"
     },
     {
       "id": "the-little-mermaid",
       "name": "The Little Mermaid",
       "subtitle": "1989",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Little+Mermaid&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c0/The_Little_Mermaid_%28Official_1989_Film_Poster%29.png"
     },
     {
       "id": "beauty-and-the-beast",
       "name": "Beauty and the Beast",
       "subtitle": "1991",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Beauty+and+the+Beast&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Beauty_and_the_Beast_%281991_film%29_poster.jpg"
     },
     {
       "id": "moana",
@@ -46,37 +46,37 @@
       "id": "tangled",
       "name": "Tangled",
       "subtitle": "2010",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Tangled&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a8/Tangled_poster.jpg"
     },
     {
       "id": "the-jungle-book",
       "name": "The Jungle Book",
       "subtitle": "1967",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Jungle+Book"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/Thejunglebook_movieposter.jpg"
     },
     {
       "id": "cinderella",
       "name": "Cinderella",
       "subtitle": "1950",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Cinderella&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Cendrillon.jpg/500px-Cendrillon.jpg"
     },
     {
       "id": "snow-white",
       "name": "Snow White and the Seven Dwarfs",
       "subtitle": "1937",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Snow+White+and+the+Seven+Dwarfs&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Snow_White_and_the_Seven_Dwarfs_%28Style_B%29_poster.jpg/500px-Snow_White_and_the_Seven_Dwarfs_%28Style_B%29_poster.jpg"
     },
     {
       "id": "sleeping-beauty",
       "name": "Sleeping Beauty",
       "subtitle": "1959",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Sleeping+Beauty&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Sleeping_Beauty_%281959_poster_-_Style_A%29.jpg/500px-Sleeping_Beauty_%281959_poster_-_Style_A%29.jpg"
     },
     {
       "id": "pocahontas",
       "name": "Pocahontas",
       "subtitle": "1995",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Pocahontas&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Pocahontas_by_Simon_van_de_Passe_%281616%29.png/500px-Pocahontas_by_Simon_van_de_Passe_%281616%29.png"
     },
     {
       "id": "hercules",
@@ -100,25 +100,25 @@
       "id": "the-emperors-new-groove",
       "name": "The Emperor's New Groove",
       "subtitle": "2000",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Emperor's+New+Groove&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/69/Grooveposter.jpg"
     },
     {
       "id": "101-dalmatians",
       "name": "101 Dalmatians",
       "subtitle": "1961",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=101+Dalmatians"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/cd/One_Hundred_and_One_Dalmatians_movie_poster.jpg"
     },
     {
       "id": "peter-pan",
       "name": "Peter Pan",
       "subtitle": "1953",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Peter+Pan"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Peter_Pan_%281953_poster%29.jpg/500px-Peter_Pan_%281953_poster%29.jpg"
     },
     {
       "id": "bambi",
       "name": "Bambi",
       "subtitle": "1942",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Bambi&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/88/Walt_Disney%27s_Bambi_poster.jpg"
     },
     {
       "id": "wreck-it-ralph",
@@ -130,13 +130,13 @@
       "id": "big-hero-6",
       "name": "Big Hero 6",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Big+Hero+6&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/Big_Hero_6_%28film%29_poster.jpg"
     },
     {
       "id": "zootopia",
       "name": "Zootopia",
       "subtitle": "2016",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Zootopia&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/96/Zootopia_%28movie_poster%29.jpg"
     },
     {
       "id": "encanto",
@@ -148,13 +148,13 @@
       "id": "the-princess-and-the-frog",
       "name": "The Princess and the Frog",
       "subtitle": "2009",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Princess+and+the+Frog"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/81/The_Princess_and_the_Frog_poster.jpg"
     },
     {
       "id": "alice-in-wonderland",
       "name": "Alice in Wonderland",
       "subtitle": "1951",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Alice+in+Wonderland"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c1/Alice_in_Wonderland_%281951_film%29_poster.jpg"
     },
     {
       "id": "dumbo",
@@ -166,7 +166,7 @@
       "id": "robin-hood",
       "name": "Robin Hood",
       "subtitle": "1973",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Robin+Hood"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Robin_Hood_on_a_Horse.jpg/500px-Robin_Hood_on_a_Horse.jpg"
     },
     {
       "id": "the-hunchback-of-notre-dame",
@@ -178,7 +178,7 @@
       "id": "lady-and-the-tramp",
       "name": "Lady and the Tramp",
       "subtitle": "1955",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Lady+and+the+Tramp"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/39/Lady-and-tramp-1955-poster.jpg"
     },
     {
       "id": "treasure-planet",
@@ -190,7 +190,7 @@
       "id": "fantasia",
       "name": "Fantasia",
       "subtitle": "1940",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Fantasia"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/Fantasia1940.jpg"
     }
   ]
 }

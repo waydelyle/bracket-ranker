@@ -4,7 +4,7 @@
       "id": "star-wars",
       "name": "Star Wars",
       "subtitle": "11 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Star+Wars&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Star_wars2.svg/500px-Star_wars2.svg.png"
     },
     {
       "id": "marvel-cinematic-universe",
@@ -28,7 +28,7 @@
       "id": "james-bond",
       "name": "James Bond",
       "subtitle": "25 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=James+Bond&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c5/Fleming007impression.jpg"
     },
     {
       "id": "fast-and-furious",
@@ -76,7 +76,7 @@
       "id": "pixar-franchise",
       "name": "Pixar",
       "subtitle": "28 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Pixar"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Pixar_animation_studios1.png/500px-Pixar_animation_studios1.png"
     },
     {
       "id": "dc-extended",
@@ -88,7 +88,7 @@
       "id": "transformers",
       "name": "Transformers",
       "subtitle": "7 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Transformers&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/66/Transformers07.jpg"
     },
     {
       "id": "alien-franchise",
@@ -142,7 +142,7 @@
       "id": "mad-max-franchise",
       "name": "Mad Max",
       "subtitle": "5 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Mad+Max"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5a/MadMazAus.jpg"
     },
     {
       "id": "shrek-franchise",
@@ -154,7 +154,7 @@
       "id": "the-hunger-games",
       "name": "The Hunger Games",
       "subtitle": "5 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Hunger+Games"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg"
     },
     {
       "id": "back-to-the-future-franchise",

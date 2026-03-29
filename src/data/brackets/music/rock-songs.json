@@ -10,7 +10,7 @@
       "id": "bohemian-rhapsody",
       "name": "Bohemian Rhapsody",
       "subtitle": "Queen",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bohemian+Rhapsody"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Bohemian_Rhapsody.png"
     },
     {
       "id": "hotel-california",
@@ -34,7 +34,7 @@
       "id": "comfortably-numb",
       "name": "Comfortably Numb",
       "subtitle": "Pink Floyd",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Comfortably+Numb"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/49/Pink-Floyd-Comfortably-Numb-single.jpg"
     },
     {
       "id": "november-rain",
@@ -58,7 +58,7 @@
       "id": "free-bird",
       "name": "Free Bird",
       "subtitle": "Lynyrd Skynyrd",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Free+Bird"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/Free_bird_lynyrd_skynyrd_US_single_1973_studio_side-A.png"
     },
     {
       "id": "thunderstruck",
@@ -70,13 +70,13 @@
       "id": "enter-sandman",
       "name": "Enter Sandman",
       "subtitle": "Metallica",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Enter+Sandman"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c8/Metallica_-_Enter_Sandman_cover.jpg"
     },
     {
       "id": "paint-it-black",
       "name": "Paint It Black",
       "subtitle": "The Rolling Stones",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Paint+It+Black"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/58/Paint_It_Black_UK_sleeve.jpg"
     },
     {
       "id": "satisfaction",
@@ -106,7 +106,7 @@
       "id": "dont-stop-believin",
       "name": "Don't Stop Believin'",
       "subtitle": "Journey",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Don't+Stop+Believin'"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/66/Don%27t_Stop_Believin%27.jpg"
     },
     {
       "id": "purple-haze",
@@ -118,13 +118,13 @@
       "id": "livin-on-a-prayer",
       "name": "Livin' on a Prayer",
       "subtitle": "Bon Jovi",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Livin'+on+a+Prayer"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/LivinOnAPrayer%28hq%29.jpg"
     },
     {
       "id": "under-pressure",
       "name": "Under Pressure",
       "subtitle": "Queen & David Bowie",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Under+Pressure"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Queen_%26_David_Bowie_-_Under_Pressure.jpeg/500px-Queen_%26_David_Bowie_-_Under_Pressure.jpeg"
     },
     {
       "id": "kashmir",
@@ -154,7 +154,7 @@
       "id": "crazy-train",
       "name": "Crazy Train",
       "subtitle": "Ozzy Osbourne",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Crazy+Train"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/74/Crazy_Train_45.jpg"
     },
     {
       "id": "baba-oriley",

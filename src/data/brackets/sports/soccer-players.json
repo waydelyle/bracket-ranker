@@ -10,7 +10,7 @@
       "id": "cristiano-ronaldo",
       "name": "Cristiano Ronaldo",
       "subtitle": "Al Nassr / Man Utd / Real Madrid / Portugal",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Cristiano+Ronaldo"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Cristiano_Ronaldo_2275_%28cropped%29.jpg/500px-Cristiano_Ronaldo_2275_%28cropped%29.jpg"
     },
     {
       "id": "pele",
@@ -22,19 +22,19 @@
       "id": "diego-maradona",
       "name": "Diego Maradona",
       "subtitle": "Napoli / Barcelona / Argentina",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Diego+Maradona"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Argentina_celebrando_copa_%28cropped%29.jpg/500px-Argentina_celebrando_copa_%28cropped%29.jpg"
     },
     {
       "id": "zinedine-zidane",
       "name": "Zinedine Zidane",
       "subtitle": "Real Madrid / Juventus / France",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Zinedine+Zidane"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg/500px-Zinedine_Zidane_by_Tasnim_03.jpg"
     },
     {
       "id": "ronaldinho",
       "name": "Ronaldinho",
       "subtitle": "Barcelona / AC Milan / Brazil",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Ronaldinho"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Ronaldinho_in_2019.jpg/500px-Ronaldinho_in_2019.jpg"
     },
     {
       "id": "neymar",
@@ -64,7 +64,7 @@
       "id": "thierry-henry",
       "name": "Thierry Henry",
       "subtitle": "Arsenal / Barcelona / France",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Thierry+Henry"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Thierry_Henry_%2851649035951%29_%28cropped%29.jpg/500px-Thierry_Henry_%2851649035951%29_%28cropped%29.jpg"
     },
     {
       "id": "johan-cruyff",
@@ -76,19 +76,19 @@
       "id": "franz-beckenbauer",
       "name": "Franz Beckenbauer",
       "subtitle": "Bayern Munich / Germany",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Franz+Beckenbauer"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Franz_Beckenbauer_%281975%29.jpg/500px-Franz_Beckenbauer_%281975%29.jpg"
     },
     {
       "id": "paolo-maldini",
       "name": "Paolo Maldini",
       "subtitle": "AC Milan / Italy",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Paolo+Maldini"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Paolo_Maldini_AC_Milan_Technical_director_2018.jpg/500px-Paolo_Maldini_AC_Milan_Technical_director_2018.jpg"
     },
     {
       "id": "george-best",
       "name": "George Best",
       "subtitle": "Man Utd / N. Ireland",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=George+Best"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/George_best_1976.jpg/500px-George_best_1976.jpg"
     },
     {
       "id": "michel-platini",
@@ -130,19 +130,19 @@
       "id": "virgil-van-dijk",
       "name": "Virgil van Dijk",
       "subtitle": "Liverpool / Netherlands",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Virgil+van+Dijk"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/20160604_AUT_NED_8876_%28cropped%29.jpg/500px-20160604_AUT_NED_8876_%28cropped%29.jpg"
     },
     {
       "id": "robert-lewandowski",
       "name": "Robert Lewandowski",
       "subtitle": "Barcelona / Bayern / Poland",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Robert+Lewandowski"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/2019147183134_2019-05-27_Fussball_1.FC_Kaiserslautern_vs_FC_Bayern_M%C3%BCnchen_-_Sven_-_1D_X_MK_II_-_0228_-_B70I8527_%28cropped%29.jpg/500px-2019147183134_2019-05-27_Fussball_1.FC_Kaiserslautern_vs_FC_Bayern_M%C3%BCnchen_-_Sven_-_1D_X_MK_II_-_0228_-_B70I8527_%28cropped%29.jpg"
     },
     {
       "id": "jude-bellingham",
       "name": "Jude Bellingham",
       "subtitle": "Real Madrid / England",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Jude+Bellingham"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/25th_Laureus_World_Sports_Awards_-_240422_205212_%28cropped%29.jpg/500px-25th_Laureus_World_Sports_Awards_-_240422_205212_%28cropped%29.jpg"
     },
     {
       "id": "vinicius-jr",
@@ -154,13 +154,13 @@
       "id": "kevin-de-bruyne",
       "name": "Kevin De Bruyne",
       "subtitle": "Man City / Belgium",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kevin+De+Bruyne"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Kevin_De_Bruyne-December_2021.png/500px-Kevin_De_Bruyne-December_2021.png"
     },
     {
       "id": "toni-kroos",
       "name": "Toni Kroos",
       "subtitle": "Real Madrid / Germany",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Toni+Kroos"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Toni_Kroos_Real_Madrid_2021.jpg/500px-Toni_Kroos_Real_Madrid_2021.jpg"
     },
     {
       "id": "zlatan-ibrahimovic",

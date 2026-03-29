@@ -64,7 +64,7 @@
       "id": "arrival-10s",
       "name": "Arrival",
       "subtitle": "2016",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Arrival&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg"
     },
     {
       "id": "blade-runner-2049-10s",
@@ -82,7 +82,7 @@
       "id": "the-grand-budapest-10s",
       "name": "The Grand Budapest Hotel",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Grand+Budapest+Hotel&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Grand_Budapest_Hotel.png"
     },
     {
       "id": "avengers-endgame-10s",
@@ -106,31 +106,31 @@
       "id": "ex-machina-10s",
       "name": "Ex Machina",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Ex+Machina"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Ex-machina-uk-poster.jpg/500px-Ex-machina-uk-poster.jpg"
     },
     {
       "id": "gone-girl-10s",
       "name": "Gone Girl",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Gone+Girl&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/05/Gone_Girl_Poster.jpg"
     },
     {
       "id": "12-years-a-slave-10s",
       "name": "12 Years a Slave",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=12+Years+a+Slave"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5c/12_Years_a_Slave_film_poster.jpg"
     },
     {
       "id": "hereditary-10s",
       "name": "Hereditary",
       "subtitle": "2018",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Hereditary&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d9/Hereditary.png"
     },
     {
       "id": "the-revenant",
       "name": "The Revenant",
       "subtitle": "2015",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Revenant"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/The_Revenant_2015_film_poster.jpg"
     },
     {
       "id": "1917-10s",
@@ -154,7 +154,7 @@
       "id": "frozen-10s",
       "name": "Frozen",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Frozen&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/05/Frozen_%282013_film%29_poster.jpg"
     },
     {
       "id": "her-10s",
@@ -178,7 +178,7 @@
       "id": "the-wolf-of-wall-street",
       "name": "The Wolf of Wall Street",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Wolf+of+Wall+Street"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png"
     },
     {
       "id": "coco-10s",

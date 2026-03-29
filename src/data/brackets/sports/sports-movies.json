@@ -4,7 +4,7 @@
       "id": "rocky",
       "name": "Rocky",
       "subtitle": "1976 - Boxing",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Rocky"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/18/Rocky_poster.jpg"
     },
     {
       "id": "remember-the-titans",
@@ -22,7 +22,7 @@
       "id": "the-sandlot",
       "name": "The Sandlot",
       "subtitle": "1993 - Baseball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=The+Sandlot"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d4/Sandlot_poster.jpg"
     },
     {
       "id": "field-of-dreams",
@@ -40,7 +40,7 @@
       "id": "space-jam",
       "name": "Space Jam",
       "subtitle": "1996 - Basketball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Space+Jam"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/14/Space_jam.jpg"
     },
     {
       "id": "raging-bull",
@@ -70,7 +70,7 @@
       "id": "creed",
       "name": "Creed",
       "subtitle": "2015 - Boxing",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Creed"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Nicaea_icon.jpg/500px-Nicaea_icon.jpg"
     },
     {
       "id": "a-league-of-their-own",
@@ -100,13 +100,13 @@
       "id": "major-league",
       "name": "Major League",
       "subtitle": "1989 - Baseball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Major+League"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/Major_league_movie.jpeg"
     },
     {
       "id": "bend-it-like-beckham",
       "name": "Bend It Like Beckham",
       "subtitle": "2002 - Soccer",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Bend+It+Like+Beckham"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Bend_It_Like_Beckham_movie.jpg"
     },
     {
       "id": "jerry-maguire",

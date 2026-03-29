@@ -10,7 +10,7 @@
       "id": "cappuccino",
       "name": "Cappuccino",
       "subtitle": "Equal parts espresso, milk, foam",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cappuccino"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Cappuccino_in_original.jpg/500px-Cappuccino_in_original.jpg"
     },
     {
       "id": "iced-coffee",
@@ -28,7 +28,7 @@
       "id": "espresso",
       "name": "Espresso",
       "subtitle": "Concentrated shot",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Espresso"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg/500px-Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg"
     },
     {
       "id": "americano",
@@ -64,7 +64,7 @@
       "id": "french-press",
       "name": "French Press",
       "subtitle": "Full-bodied brew",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=French+Press"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/French_press_2020.jpg/500px-French_press_2020.jpg"
     },
     {
       "id": "pour-over",

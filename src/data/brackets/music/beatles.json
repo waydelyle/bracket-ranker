@@ -10,7 +10,7 @@
       "id": "let-it-be",
       "name": "Let It Be",
       "subtitle": "1970",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Let+It+Be"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/TheBeatles-LetItBe%282011VinylReissue%29.png"
     },
     {
       "id": "come-together",
@@ -46,7 +46,7 @@
       "id": "in-my-life",
       "name": "In My Life",
       "subtitle": "Rubber Soul",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=In+My+Life"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c1/In_My_Life_-_The_Beatles.jpg"
     },
     {
       "id": "while-my-guitar-gently-weeps",
@@ -118,7 +118,7 @@
       "id": "all-you-need-is-love",
       "name": "All You Need Is Love",
       "subtitle": "1967",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=All+You+Need+Is+Love"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/10/All_You_Need_Is_Love_%28Beatles_single_-_cover_art%29.jpg"
     },
     {
       "id": "across-the-universe",
@@ -184,7 +184,7 @@
       "id": "she-loves-you",
       "name": "She Loves You",
       "subtitle": "1963",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=She+Loves+You"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/31/Beatles_She_Loves_You.jpg"
     },
     {
       "id": "taxman",

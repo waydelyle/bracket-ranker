@@ -16,7 +16,7 @@
       "id": "bridgerton",
       "name": "Bridgerton",
       "subtitle": "2020-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Bridgerton&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Bridgerton_Title_Card.png/500px-Bridgerton_Title_Card.png"
     },
     {
       "id": "the-witcher",
@@ -46,7 +46,7 @@
       "id": "you",
       "name": "You",
       "subtitle": "2018-2024",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=You"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/YOU_Tv_Series_LOGO.png/500px-YOU_Tv_Series_LOGO.png"
     },
     {
       "id": "narcos",
@@ -64,7 +64,7 @@
       "id": "cobra-kai",
       "name": "Cobra Kai",
       "subtitle": "2018-2025",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Cobra+Kai&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/CobraKaiTitleScreen.png/500px-CobraKaiTitleScreen.png"
     },
     {
       "id": "dark",
@@ -88,13 +88,13 @@
       "id": "the-umbrella-academy",
       "name": "The Umbrella Academy",
       "subtitle": "2019-2024",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Umbrella+Academy"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/The_Umbrella_Academy_logo.svg/500px-The_Umbrella_Academy_logo.svg.png"
     },
     {
       "id": "never-have-i-ever",
       "name": "Never Have I Ever",
       "subtitle": "2020-2023",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Never+Have+I+Ever"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Never_Have_I_Ever_Title_Card.png/500px-Never_Have_I_Ever_Title_Card.png"
     },
     {
       "id": "lupin",
@@ -124,7 +124,7 @@
       "id": "house-of-cards",
       "name": "House of Cards",
       "subtitle": "2013-2018",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=House+of+Cards"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/House_of_Cards_title_card.png/500px-House_of_Cards_title_card.png"
     },
     {
       "id": "mindhunter",
@@ -136,7 +136,7 @@
       "id": "bojack-horseman",
       "name": "BoJack Horseman",
       "subtitle": "2014-2020",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=BoJack+Horseman&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BoJack_Horseman_Logo.svg/500px-BoJack_Horseman_Logo.svg.png"
     },
     {
       "id": "unbreakable-kimmy-schmidt",
@@ -148,7 +148,7 @@
       "id": "beef",
       "name": "Beef",
       "subtitle": "2023",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Beef"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Beef_TV_series_%28logo%29.svg/500px-Beef_TV_series_%28logo%29.svg.png"
     },
     {
       "id": "dahmer",
@@ -160,19 +160,19 @@
       "id": "the-night-agent",
       "name": "The Night Agent",
       "subtitle": "2023-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Night+Agent"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f2/The_Night_Agent.png"
     },
     {
       "id": "ginny-and-georgia",
       "name": "Ginny & Georgia",
       "subtitle": "2021-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Ginny+%26+Georgia"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ginny_%26_Georgia_title_card.png/500px-Ginny_%26_Georgia_title_card.png"
     },
     {
       "id": "the-sandman",
       "name": "The Sandman",
       "subtitle": "2022-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Sandman"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/The_Sandman_Netflix.jpg/500px-The_Sandman_Netflix.jpg"
     },
     {
       "id": "alice-in-borderland",
@@ -184,13 +184,13 @@
       "id": "daredevil",
       "name": "Daredevil",
       "subtitle": "2015-2018",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Daredevil"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Daredevil_%28TV_series%29_logo.jpg/500px-Daredevil_%28TV_series%29_logo.jpg"
     },
     {
       "id": "master-of-none",
       "name": "Master of None",
       "subtitle": "2015-2021",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Master+of+None"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Master_of_None_Logo.svg/500px-Master_of_None_Logo.svg.png"
     }
   ]
 }

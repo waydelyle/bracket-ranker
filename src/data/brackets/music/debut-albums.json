@@ -10,13 +10,13 @@
       "id": "ready-to-die-debut",
       "name": "Ready to Die",
       "subtitle": "The Notorious B.I.G. - 1994",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ready+to+Die"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/97/Ready_To_Die.jpg"
     },
     {
       "id": "the-college-dropout-debut",
       "name": "The College Dropout",
       "subtitle": "Kanye West - 2004",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+College+Dropout"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a3/Kanyewest_collegedropout.jpg"
     },
     {
       "id": "born-to-run-debut",
@@ -46,7 +46,7 @@
       "id": "is-this-it-debut",
       "name": "Is This It",
       "subtitle": "The Strokes - 2001",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Is+This+It"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/09/The_Strokes_-_Is_This_It_cover.png"
     },
     {
       "id": "nevermind-debut",
@@ -64,19 +64,19 @@
       "id": "when-we-all-fall-asleep-debut",
       "name": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
       "subtitle": "Billie Eilish - 2019",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=WHEN+WE+ALL+FALL+ASLEEP%2C+WHERE+DO+WE+GO%3F"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/38/When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png"
     },
     {
       "id": "pablo-honey",
       "name": "Pablo Honey",
       "subtitle": "Radiohead - 1993",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Pablo+Honey"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0f/Radiohead.pablohoney.albumart.jpg"
     },
     {
       "id": "taylor-swift-debut",
       "name": "Taylor Swift",
       "subtitle": "Taylor Swift - 2006",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Taylor+Swift"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/500px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png"
     },
     {
       "id": "sour",
@@ -106,13 +106,13 @@
       "id": "reasonable-doubt-debut",
       "name": "Reasonable Doubt",
       "subtitle": "Jay-Z - 1996",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Reasonable+Doubt"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f5/Reasonable_Doubt_New.jpg"
     },
     {
       "id": "the-slim-shady-lp",
       "name": "The Slim Shady LP",
       "subtitle": "Eminem - 1999",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Slim+Shady+LP"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/35/Eminem_-_The_Slim_Shady_LP_CD_cover.jpg"
     },
     {
       "id": "21",
@@ -124,7 +124,7 @@
       "id": "lauryn-hill-debut",
       "name": "The Miseducation of Lauryn Hill",
       "subtitle": "Lauryn Hill - 1998",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Miseducation+of+Lauryn+Hill"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/99/The_Miseducation_of_Lauryn_Hill.png"
     },
     {
       "id": "hot-fuss",

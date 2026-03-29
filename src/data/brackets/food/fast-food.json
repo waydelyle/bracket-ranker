@@ -4,13 +4,13 @@
       "id": "mcdonalds",
       "name": "McDonald's",
       "subtitle": "Burgers & Fries",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=McDonald's"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/500px-McDonald%27s_Golden_Arches.svg.png"
     },
     {
       "id": "chick-fil-a",
       "name": "Chick-fil-A",
       "subtitle": "Chicken Sandwiches",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chick-fil-A"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Chick-fil-A.jpg/500px-Chick-fil-A.jpg"
     },
     {
       "id": "in-n-out",
@@ -34,7 +34,7 @@
       "id": "chipotle",
       "name": "Chipotle",
       "subtitle": "Burritos & Bowls",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chipotle"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Capsicum_annuum_chipotle_dried.jpg/500px-Capsicum_annuum_chipotle_dried.jpg"
     },
     {
       "id": "five-guys",
@@ -64,7 +64,7 @@
       "id": "whataburger",
       "name": "Whataburger",
       "subtitle": "Burgers",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Whataburger"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Whataburger_logo.svg/500px-Whataburger_logo.svg.png"
     },
     {
       "id": "subway",
@@ -88,13 +88,13 @@
       "id": "shake-shack",
       "name": "Shake Shack",
       "subtitle": "Burgers & Shakes",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Shake+Shack"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Shake_Shack_Madison_Square.jpg/500px-Shake_Shack_Madison_Square.jpg"
     },
     {
       "id": "sonic",
       "name": "Sonic Drive-In",
       "subtitle": "Burgers & Drinks",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Sonic+Drive-In"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/SONIC_New_Logo_2020.svg/500px-SONIC_New_Logo_2020.svg.png"
     }
   ]
 }

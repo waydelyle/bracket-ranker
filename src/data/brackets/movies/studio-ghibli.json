@@ -52,7 +52,7 @@
       "id": "porco-rosso",
       "name": "Porco Rosso",
       "subtitle": "1992",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Porco+Rosso&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fc/Porco_Rosso_%28Movie_Poster%29.jpg"
     },
     {
       "id": "the-wind-rises",
@@ -76,13 +76,13 @@
       "id": "whisper-of-the-heart",
       "name": "Whisper of the Heart",
       "subtitle": "1995",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Whisper+of+the+Heart&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/93/Whisper_of_the_Heart_%28Movie_Poster%29.jpg"
     },
     {
       "id": "the-cat-returns",
       "name": "The Cat Returns",
       "subtitle": "2002",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Cat+Returns&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8e/Cat_Returns.jpg"
     },
     {
       "id": "arrietty",
@@ -112,13 +112,13 @@
       "id": "only-yesterday",
       "name": "Only Yesterday",
       "subtitle": "1991",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Only+Yesterday"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/46/OYpost.jpg"
     },
     {
       "id": "ocean-waves",
       "name": "Ocean Waves",
       "subtitle": "1993",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Ocean+Waves"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ea/Umigakikoeru_poster.jpg"
     },
     {
       "id": "tales-from-earthsea",

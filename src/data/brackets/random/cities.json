@@ -16,7 +16,7 @@
       "id": "tokyo",
       "name": "Tokyo",
       "subtitle": "Japan",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Tokyo"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg/500px-Skyscrapers_of_Shinjuku_2009_January.jpg"
     },
     {
       "id": "paris",
@@ -34,25 +34,25 @@
       "id": "barcelona",
       "name": "Barcelona",
       "subtitle": "Spain",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Barcelona"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Aerial_view_of_Barcelona%2C_Spain_%2851227309370%29_edited.jpg/500px-Aerial_view_of_Barcelona%2C_Spain_%2851227309370%29_edited.jpg"
     },
     {
       "id": "amsterdam",
       "name": "Amsterdam",
       "subtitle": "Netherlands",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Amsterdam"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Imagen_de_los_canales_conc%C3%A9ntricos_en_%C3%81msterdam.png/500px-Imagen_de_los_canales_conc%C3%A9ntricos_en_%C3%81msterdam.png"
     },
     {
       "id": "sydney",
       "name": "Sydney",
       "subtitle": "Australia",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Sydney"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg/500px-Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg"
     },
     {
       "id": "rome",
       "name": "Rome",
       "subtitle": "Italy",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Rome"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Trevi_Fountain%2C_Rome%2C_Italy_2_-_May_2007.jpg/500px-Trevi_Fountain%2C_Rome%2C_Italy_2_-_May_2007.jpg"
     },
     {
       "id": "berlin",
@@ -64,19 +64,19 @@
       "id": "san-francisco",
       "name": "San Francisco",
       "subtitle": "USA",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=San+Francisco"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/San_Francisco_Downtown_Aerial%2C_August_2025.jpg/500px-San_Francisco_Downtown_Aerial%2C_August_2025.jpg"
     },
     {
       "id": "singapore",
       "name": "Singapore",
       "subtitle": "Singapore",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Singapore"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/500px-Flag_of_Singapore.svg.png"
     },
     {
       "id": "dubai",
       "name": "Dubai",
       "subtitle": "UAE",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Dubai"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Burj_Khalifa_2021.jpg/500px-Burj_Khalifa_2021.jpg"
     },
     {
       "id": "toronto",
@@ -88,7 +88,7 @@
       "id": "seoul",
       "name": "Seoul",
       "subtitle": "South Korea",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Seoul"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%EC%A4%91%ED%99%94%EC%A0%84%EC%9D%98_%EB%82%AE.jpg/500px-%EC%A4%91%ED%99%94%EC%A0%84%EC%9D%98_%EB%82%AE.jpg"
     },
     {
       "id": "chicago",
@@ -106,13 +106,13 @@
       "id": "bangkok",
       "name": "Bangkok",
       "subtitle": "Thailand",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Bangkok"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Wat_Benjamabophit1.jpg/500px-Wat_Benjamabophit1.jpg"
     },
     {
       "id": "lisbon",
       "name": "Lisbon",
       "subtitle": "Portugal",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Lisbon"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Lisboa_-_Portugal_%2852597836992%29.jpg/500px-Lisboa_-_Portugal_%2852597836992%29.jpg"
     },
     {
       "id": "prague",
@@ -124,13 +124,13 @@
       "id": "copenhagen",
       "name": "Copenhagen",
       "subtitle": "Denmark",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Copenhagen"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/2018_-_Christiansborg_from_the_Marble_Bridge.jpg/500px-2018_-_Christiansborg_from_the_Marble_Bridge.jpg"
     },
     {
       "id": "melbourne",
       "name": "Melbourne",
       "subtitle": "Australia",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Melbourne"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Melburnian_Skyline.jpg/500px-Melburnian_Skyline.jpg"
     },
     {
       "id": "buenos-aires",

@@ -4,7 +4,7 @@
       "id": "dominos",
       "name": "Domino's",
       "subtitle": "Delivery king",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Domino's"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Domino%27s_Pizza_Lobby_Entrance_Domino%27s_Farms_Ann_Arbor_Township_Michigan.JPG/500px-Domino%27s_Pizza_Lobby_Entrance_Domino%27s_Farms_Ann_Arbor_Township_Michigan.JPG"
     },
     {
       "id": "pizza-hut",
@@ -40,7 +40,7 @@
       "id": "jets-pizza",
       "name": "Jet's Pizza",
       "subtitle": "Detroit-style",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Jet's+Pizza"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Jet%27s_Pizza_Store%2C_Ypsilanti_Township%2C_Michigan.JPG/500px-Jet%27s_Pizza_Store%2C_Ypsilanti_Township%2C_Michigan.JPG"
     },
     {
       "id": "round-table",

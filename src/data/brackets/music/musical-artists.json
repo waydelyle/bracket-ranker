@@ -34,13 +34,13 @@
       "id": "prince",
       "name": "Prince",
       "subtitle": "Pop/R&B",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Prince"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Louis_II_de_Bourbon_Cond%C3%A9_and_his_son_Henri-Jules%2C_Duke_of_Enghien_-_Versailles%2C_MV_8449.jpg/500px-Louis_II_de_Bourbon_Cond%C3%A9_and_his_son_Henri-Jules%2C_Duke_of_Enghien_-_Versailles%2C_MV_8449.jpg"
     },
     {
       "id": "madonna",
       "name": "Madonna",
       "subtitle": "Pop",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Madonna"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg/500px-MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg"
     },
     {
       "id": "led-zeppelin",
@@ -52,7 +52,7 @@
       "id": "beyonce",
       "name": "Beyonce",
       "subtitle": "R&B/Pop",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Beyonce"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg/500px-Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg"
     },
     {
       "id": "bob-dylan",
@@ -64,25 +64,25 @@
       "id": "stevie-wonder",
       "name": "Stevie Wonder",
       "subtitle": "R&B/Soul",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Stevie+Wonder"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/SWonderBSTHyde060719-72_%28cropped%29.jpg/500px-SWonderBSTHyde060719-72_%28cropped%29.jpg"
     },
     {
       "id": "whitney-houston",
       "name": "Whitney Houston",
       "subtitle": "Pop/R&B",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Whitney+Houston"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Whitney_Houston_by_Richard_Avedon_%28cropped%29.jpg/500px-Whitney_Houston_by_Richard_Avedon_%28cropped%29.jpg"
     },
     {
       "id": "aretha-franklin",
       "name": "Aretha Franklin",
       "subtitle": "Soul",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Aretha+Franklin"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Aretha_Franklin_1968.jpg/500px-Aretha_Franklin_1968.jpg"
     },
     {
       "id": "taylor-swift-artist",
       "name": "Taylor Swift",
       "subtitle": "Pop/Country",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Taylor+Swift"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/500px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png"
     },
     {
       "id": "pink-floyd",
@@ -124,7 +124,7 @@
       "id": "elton-john",
       "name": "Elton John",
       "subtitle": "Pop/Rock",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Elton+John"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg/500px-EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg"
     },
     {
       "id": "jimi-hendrix",
@@ -160,37 +160,37 @@
       "id": "kanye-west-artist",
       "name": "Kanye West",
       "subtitle": "Hip-Hop",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kanye+West"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kanye_West_at_the_2009_Tribeca_Film_Festival_%28crop_2%29.jpg/500px-Kanye_West_at_the_2009_Tribeca_Film_Festival_%28crop_2%29.jpg"
     },
     {
       "id": "drake-artist",
       "name": "Drake",
       "subtitle": "Hip-Hop/R&B",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Drake"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg/500px-Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg"
     },
     {
       "id": "kendrick-lamar",
       "name": "Kendrick Lamar",
       "subtitle": "Hip-Hop",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kendrick+Lamar"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg/500px-KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg"
     },
     {
       "id": "eminem",
       "name": "Eminem",
       "subtitle": "Hip-Hop",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Eminem"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Eminem_2021_Color_Corrected.jpg/500px-Eminem_2021_Color_Corrected.jpg"
     },
     {
       "id": "billie-eilish",
       "name": "Billie Eilish",
       "subtitle": "Pop",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Billie+Eilish"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg/500px-BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg"
     },
     {
       "id": "the-weeknd",
       "name": "The Weeknd",
       "subtitle": "R&B/Pop",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Weeknd"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/500px-The_Weeknd_Portrait_by_Brian_Ziff.jpg"
     }
   ]
 }

@@ -4,7 +4,7 @@
       "id": "blt",
       "name": "BLT",
       "subtitle": "Bacon, lettuce and tomato",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=BLT"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Mmm..._BLT_for_me%21_%285487341380%29.jpg/500px-Mmm..._BLT_for_me%21_%285487341380%29.jpg"
     },
     {
       "id": "club-sandwich",
@@ -22,7 +22,7 @@
       "id": "philly-cheesesteak",
       "name": "Philly Cheesesteak",
       "subtitle": "Sliced beef and cheese",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Philly+Cheesesteak"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/PatsCheesesteak.jpg/500px-PatsCheesesteak.jpg"
     },
     {
       "id": "cuban",
@@ -64,7 +64,7 @@
       "id": "banh-mi",
       "name": "Banh Mi",
       "subtitle": "Vietnamese baguette",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Banh+Mi"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png/500px-B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png"
     },
     {
       "id": "pulled-pork",
@@ -94,7 +94,7 @@
       "id": "lobster-roll",
       "name": "Lobster Roll",
       "subtitle": "New England delicacy",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Lobster+Roll"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Lobster_Roll.png/500px-Lobster_Roll.png"
     }
   ]
 }

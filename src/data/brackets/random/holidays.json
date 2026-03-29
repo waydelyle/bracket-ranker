@@ -4,7 +4,7 @@
       "id": "christmas",
       "name": "Christmas",
       "subtitle": "December 25",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Christmas"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/NativityChristmasLights2.jpg/500px-NativityChristmasLights2.jpg"
     },
     {
       "id": "halloween",
@@ -40,7 +40,7 @@
       "id": "easter",
       "name": "Easter",
       "subtitle": "Spring",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Easter"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Chora_Anastasis2.jpg/500px-Chora_Anastasis2.jpg"
     },
     {
       "id": "mothers-day",
@@ -70,7 +70,7 @@
       "id": "labor-day",
       "name": "Labor Day",
       "subtitle": "1st Monday in September",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Labor+Day"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/First_United_States_Labor_Day_Parade%2C_September_5%2C_1882_in_New_York_City.jpg/500px-First_United_States_Labor_Day_Parade%2C_September_5%2C_1882_in_New_York_City.jpg"
     },
     {
       "id": "cinco-de-mayo",

@@ -28,13 +28,13 @@
       "id": "toblerone",
       "name": "Toblerone",
       "subtitle": "Swiss triangles",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Toblerone"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Toblerone_3362.jpg/500px-Toblerone_3362.jpg"
     },
     {
       "id": "cadbury",
       "name": "Cadbury",
       "subtitle": "British milk chocolate",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cadbury"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Cadbury_%282020%29.svg/500px-Cadbury_%282020%29.svg.png"
     },
     {
       "id": "hersheys",
@@ -46,7 +46,7 @@
       "id": "milka",
       "name": "Milka",
       "subtitle": "Alpine milk chocolate",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Milka"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Milka_purple_logo18.svg/500px-Milka_purple_logo18.svg.png"
     },
     {
       "id": "ferrero-rocher",
@@ -64,19 +64,19 @@
       "id": "kit-kat-choc",
       "name": "Kit Kat",
       "subtitle": "Break me off a piece",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Kit+Kat"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo_of_the_KitKat.svg/500px-Logo_of_the_KitKat.svg.png"
     },
     {
       "id": "snickers-choc",
       "name": "Snickers",
       "subtitle": "Satisfies",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Snickers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Snickers-broken.png/500px-Snickers-broken.png"
     },
     {
       "id": "twix-choc",
       "name": "Twix",
       "subtitle": "Left or right?",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Twix"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Twix_brand_logo.png/500px-Twix_brand_logo.png"
     },
     {
       "id": "dark-chocolate",
@@ -94,7 +94,7 @@
       "id": "m-and-ms-choc",
       "name": "M&M's",
       "subtitle": "Melts in your mouth",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=M%26M's"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Plain-M%26Ms-Pile.jpg/500px-Plain-M%26Ms-Pile.jpg"
     }
   ]
 }

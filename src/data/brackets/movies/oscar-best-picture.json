@@ -4,7 +4,7 @@
       "id": "everything-everywhere-all-at-once",
       "name": "Everything Everywhere All at Once",
       "subtitle": "2023 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Everything+Everywhere+All+at+Once&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1e/Everything_Everywhere_All_at_Once.jpg"
     },
     {
       "id": "oppenheimer",
@@ -40,7 +40,7 @@
       "id": "the-shape-of-water",
       "name": "The Shape of Water",
       "subtitle": "2018 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Shape+of+Water&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/37/The_Shape_of_Water_%28film%29.png"
     },
     {
       "id": "green-book",
@@ -64,7 +64,7 @@
       "id": "12-years-a-slave",
       "name": "12 Years a Slave",
       "subtitle": "2014 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=12+Years+a+Slave&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5c/12_Years_a_Slave_film_poster.jpg"
     },
     {
       "id": "argo",
@@ -88,19 +88,19 @@
       "id": "the-hurt-locker",
       "name": "The Hurt Locker",
       "subtitle": "2010 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Hurt+Locker&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6c/HLposterUSA2.jpg"
     },
     {
       "id": "no-country-for-old-men",
       "name": "No Country for Old Men",
       "subtitle": "2008 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=No+Country+for+Old+Men&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8b/No_Country_for_Old_Men_poster.jpg"
     },
     {
       "id": "anora",
       "name": "Anora",
       "subtitle": "2025 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Anora"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2b/Anora_%282024_film%29_poster.jpg"
     },
     {
       "id": "the-departed",
@@ -148,7 +148,7 @@
       "id": "killers-of-the-flower-moon",
       "name": "Killers of the Flower Moon",
       "subtitle": "2024 Nominee",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Killers+of+the+Flower+Moon"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/88/Killers_of_the_Flower_Moon_film_poster.jpg"
     },
     {
       "id": "barbie",
@@ -160,13 +160,13 @@
       "id": "the-holdovers",
       "name": "The Holdovers",
       "subtitle": "2024 Nominee",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Holdovers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/62/Holdovers_film_poster.jpg"
     },
     {
       "id": "past-lives",
       "name": "Past Lives",
       "subtitle": "2024 Nominee",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Past+Lives&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/da/Past_Lives_film_poster.png"
     },
     {
       "id": "anatomy-of-a-fall",
@@ -184,7 +184,7 @@
       "id": "the-zone-of-interest",
       "name": "The Zone of Interest",
       "subtitle": "2024 Nominee",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Zone+of+Interest"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/24/The_Zone_of_Interest_film_poster.jpg"
     },
     {
       "id": "maestro",
