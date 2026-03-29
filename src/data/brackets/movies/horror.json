@@ -28,7 +28,7 @@
       "id": "halloween",
       "name": "Halloween",
       "subtitle": "1978",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Halloween&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/af/Halloween_%281978%29_theatrical_poster.jpg"
     },
     {
       "id": "a-nightmare-on-elm-street",
@@ -46,13 +46,13 @@
       "id": "the-texas-chain-saw-massacre",
       "name": "The Texas Chain Saw Massacre",
       "subtitle": "1974",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Texas+Chain+Saw+Massacre&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/The_Texas_Chain_Saw_Massacre_%281974%29_theatrical_poster.jpg"
     },
     {
       "id": "psycho",
       "name": "Psycho",
       "subtitle": "1960",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Psycho&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Psycho_%281960%29_theatrical_poster_%28retouched%29.jpg/500px-Psycho_%281960%29_theatrical_poster_%28retouched%29.jpg"
     },
     {
       "id": "it",
@@ -88,7 +88,7 @@
       "id": "us",
       "name": "Us",
       "subtitle": "2019",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Us&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/00/Us_%282019%29_theatrical_poster.png"
     },
     {
       "id": "the-silence-of-the-lambs",
@@ -100,7 +100,7 @@
       "id": "jaws",
       "name": "Jaws",
       "subtitle": "1975",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Jaws"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Jaws_movie_poster.jpg/500px-Jaws_movie_poster.jpg"
     },
     {
       "id": "the-thing",
@@ -112,7 +112,7 @@
       "id": "rosemarys-baby",
       "name": "Rosemary's Baby",
       "subtitle": "1968",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Rosemary's+Baby"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ef/Rosemarys_baby_poster.jpg"
     },
     {
       "id": "the-babadook",
@@ -148,25 +148,25 @@
       "id": "nope",
       "name": "Nope",
       "subtitle": "2022",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Nope"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9c/Noise_%282022_film%29_poster.jpg"
     },
     {
       "id": "poltergeist",
       "name": "Poltergeist",
       "subtitle": "1982",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Poltergeist"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e4/Poltergeist_%281982%29.png"
     },
     {
       "id": "candyman",
       "name": "Candyman",
       "subtitle": "1992",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Candyman"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/89/Candymanposter.jpg"
     },
     {
       "id": "28-days-later",
       "name": "28 Days Later",
       "subtitle": "2002",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=28+Days+Later"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7a/28_Days_Later_franchise_logo.png"
     },
     {
       "id": "saw",
@@ -184,13 +184,13 @@
       "id": "paranormal-activity",
       "name": "Paranormal Activity",
       "subtitle": "2007",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Paranormal+Activity"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/54/Paranormal_Activity_poster.jpg"
     },
     {
       "id": "suspiria",
       "name": "Suspiria",
       "subtitle": "1977",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Suspiria"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/cd/SuspiriaItaly.jpg"
     }
   ]
 }

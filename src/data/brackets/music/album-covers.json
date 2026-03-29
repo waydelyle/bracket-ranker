@@ -16,19 +16,19 @@
       "id": "nevermind",
       "name": "Nevermind",
       "subtitle": "Nirvana - 1991",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Nevermind"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Namie_Amuro_Never_End.jpg"
     },
     {
       "id": "sgt-peppers",
       "name": "Sgt. Pepper's Lonely Hearts Club Band",
       "subtitle": "The Beatles - 1967",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sgt.+Pepper's+Lonely+Hearts+Club+Band"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1a/Smsgtpep.jpg"
     },
     {
       "id": "the-velvet-underground",
       "name": "The Velvet Underground & Nico",
       "subtitle": "The Velvet Underground - 1967",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Velvet+Underground+%26+Nico"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/Velvet_Underground_and_Nico.jpg"
     },
     {
       "id": "unknown-pleasures",
@@ -40,7 +40,7 @@
       "id": "thriller",
       "name": "Thriller",
       "subtitle": "Michael Jackson - 1982",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Thriller"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/89/Michael_jackson_thriller_12_inch_single_USA.jpg"
     },
     {
       "id": "london-calling",
@@ -52,13 +52,13 @@
       "id": "wish-you-were-here-album",
       "name": "Wish You Were Here",
       "subtitle": "Pink Floyd - 1975",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Wish+You+Were+Here"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/59/Wish_That_You_Were_Here_soundtrack.jpg"
     },
     {
       "id": "ok-computer",
       "name": "OK Computer",
       "subtitle": "Radiohead - 1997",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=OK+Computer"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/ba/Radioheadokcomputer.png"
     },
     {
       "id": "kid-a",
@@ -70,7 +70,7 @@
       "id": "born-in-the-usa",
       "name": "Born in the U.S.A.",
       "subtitle": "Bruce Springsteen - 1984",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Born+in+the+U.S.A."
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f8/BornInTheUSAsinglecover.jpg"
     },
     {
       "id": "rumours",
@@ -82,19 +82,19 @@
       "id": "appetite-for-destruction",
       "name": "Appetite for Destruction",
       "subtitle": "Guns N' Roses - 1987",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Appetite+for+Destruction"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/06/Appetite_for_Destruction.jpg"
     },
     {
       "id": "led-zeppelin-iv",
       "name": "Led Zeppelin IV",
       "subtitle": "Led Zeppelin - 1971",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Led+Zeppelin+IV"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/LedZeppelinChicago75_2.jpg/500px-LedZeppelinChicago75_2.jpg"
     },
     {
       "id": "the-rise-and-fall-ziggy-stardust",
       "name": "The Rise and Fall of Ziggy Stardust",
       "subtitle": "David Bowie - 1972",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Rise+and+Fall+of+Ziggy+Stardust"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/01/ZiggyStardust.jpg"
     },
     {
       "id": "is-this-it",
@@ -106,7 +106,7 @@
       "id": "mbdtf-cover",
       "name": "My Beautiful Dark Twisted Fantasy",
       "subtitle": "Kanye West - 2010",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=My+Beautiful+Dark+Twisted+Fantasy"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/My_Beautiful_Dark_Twisted_Fantasy.jpg"
     },
     {
       "id": "in-utero",
@@ -118,7 +118,7 @@
       "id": "igor-cover",
       "name": "IGOR",
       "subtitle": "Tyler, the Creator - 2019",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=IGOR"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Sikorsky%2C_Igor.jpg/500px-Sikorsky%2C_Igor.jpg"
     },
     {
       "id": "sticky-fingers",
@@ -130,7 +130,7 @@
       "id": "the-wall",
       "name": "The Wall",
       "subtitle": "Pink Floyd - 1979",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Wall"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/The_War_Song.jpg"
     },
     {
       "id": "channel-orange",
@@ -142,43 +142,43 @@
       "id": "blonde",
       "name": "Blonde",
       "subtitle": "Frank Ocean - 2016",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Blonde"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/38/Bob_Dylan_-_Blonde_on_Blonde.jpg"
     },
     {
       "id": "random-access-memories",
       "name": "Random Access Memories",
       "subtitle": "Daft Punk - 2013",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Random+Access+Memories"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Daft_Punk_-_Random_Access_Memories.png"
     },
     {
       "id": "purple-rain",
       "name": "Purple Rain",
       "subtitle": "Prince - 1984",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Purple+Rain"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/86/Purple-rain-cover.jpg"
     },
     {
       "id": "back-in-black-album",
       "name": "Back in Black",
       "subtitle": "AC/DC - 1980",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Back+in+Black"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Back_in_black_by_acdc_US_7-inch_single_side-A.png/500px-Back_in_black_by_acdc_US_7-inch_single_side-A.png"
     },
     {
       "id": "the-miseducation-cover",
       "name": "The Miseducation of Lauryn Hill",
       "subtitle": "Lauryn Hill - 1998",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Miseducation+of+Lauryn+Hill"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/99/The_Miseducation_of_Lauryn_Hill.png"
     },
     {
       "id": "AM",
       "name": "AM",
       "subtitle": "Arctic Monkeys - 2013",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=AM"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/GastonAmson.jpg/500px-GastonAmson.jpg"
     },
     {
       "id": "good-kid-cover",
       "name": "good kid, m.A.A.d city",
       "subtitle": "Kendrick Lamar - 2012",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=good+kid%2C+m.A.A.d+city"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/93/KendrickGKMC.jpg"
     },
     {
       "id": "lemonade",
@@ -190,7 +190,7 @@
       "id": "when-we-all-fall-asleep",
       "name": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
       "subtitle": "Billie Eilish - 2019",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=WHEN+WE+ALL+FALL+ASLEEP%2C+WHERE+DO+WE+GO%3F"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/38/When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png"
     }
   ]
 }

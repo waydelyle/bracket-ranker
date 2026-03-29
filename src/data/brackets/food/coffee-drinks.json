@@ -4,7 +4,7 @@
       "id": "latte",
       "name": "Latte",
       "subtitle": "Espresso + steamed milk",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Latte"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Caffe_Latte_at_Pulse_Cafe.jpg/500px-Caffe_Latte_at_Pulse_Cafe.jpg"
     },
     {
       "id": "cappuccino",
@@ -16,13 +16,13 @@
       "id": "iced-coffee",
       "name": "Iced Coffee",
       "subtitle": "Chilled & refreshing",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Iced+Coffee"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Affogato_al_Caffe.jpg/500px-Affogato_al_Caffe.jpg"
     },
     {
       "id": "cold-brew",
       "name": "Cold Brew",
       "subtitle": "Slow-steeped & smooth",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cold+Brew"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/ColdBrewCoffeein_Cans.png/500px-ColdBrewCoffeein_Cans.png"
     },
     {
       "id": "espresso",
@@ -34,31 +34,31 @@
       "id": "americano",
       "name": "Americano",
       "subtitle": "Espresso + hot water",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Americano"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/86/Lady_Gaga_-_Americano_%28vinyl%29.jpg"
     },
     {
       "id": "mocha",
       "name": "Mocha",
       "subtitle": "Chocolate + espresso",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mocha"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Mocha_Uson_2017.jpg"
     },
     {
       "id": "macchiato",
       "name": "Macchiato",
       "subtitle": "Stained with milk",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Macchiato"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Ralph-Macchio-Teases-Potential-Cobra-Kai-Season-Six-Feature_%28cropped_headshot%29.jpg/500px-Ralph-Macchio-Teases-Potential-Cobra-Kai-Season-Six-Feature_%28cropped_headshot%29.jpg"
     },
     {
       "id": "frappuccino",
       "name": "Frappuccino",
       "subtitle": "Blended iced coffee",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Frappuccino"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Strawberry_Delight_Frappuccino.JPG/500px-Strawberry_Delight_Frappuccino.JPG"
     },
     {
       "id": "flat-white",
       "name": "Flat White",
       "subtitle": "Smooth microfoam",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Flat+White"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Flat_white_coffee_with_pretty_feather_pattern.jpg/500px-Flat_white_coffee_with_pretty_feather_pattern.jpg"
     },
     {
       "id": "french-press",
@@ -70,31 +70,31 @@
       "id": "pour-over",
       "name": "Pour Over",
       "subtitle": "Clean & bright",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pour+Over"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Shakespeare-Testament.jpg/500px-Shakespeare-Testament.jpg"
     },
     {
       "id": "irish-coffee",
       "name": "Irish Coffee",
       "subtitle": "Coffee + whiskey + cream",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Irish+Coffee"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Irish_coffee_glass.jpg/500px-Irish_coffee_glass.jpg"
     },
     {
       "id": "pumpkin-spice-latte",
       "name": "Pumpkin Spice Latte",
       "subtitle": "Seasonal favorite",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pumpkin+Spice+Latte"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Pumpkin_Spice_%2848986157673%29_cropped.png/500px-Pumpkin_Spice_%2848986157673%29_cropped.png"
     },
     {
       "id": "affogato",
       "name": "Affogato",
       "subtitle": "Espresso + ice cream",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Affogato"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Vinoteca%2C_Smithfield%2C_London_%284485849609%29.jpg/500px-Vinoteca%2C_Smithfield%2C_London_%284485849609%29.jpg"
     },
     {
       "id": "chai-latte",
       "name": "Chai Latte",
       "subtitle": "Spiced tea latte",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chai+Latte"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Chai_In_Sakora.jpg/500px-Chai_In_Sakora.jpg"
     }
   ]
 }

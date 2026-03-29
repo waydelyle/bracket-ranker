@@ -16,7 +16,7 @@
       "id": "watermelon",
       "name": "Watermelon",
       "subtitle": "Summer staple",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Watermelon"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg/500px-Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg"
     },
     {
       "id": "banana",
@@ -40,13 +40,13 @@
       "id": "pineapple-fruit",
       "name": "Pineapple",
       "subtitle": "Tropical tang",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pineapple"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg/500px-%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg"
     },
     {
       "id": "raspberry",
       "name": "Raspberry",
       "subtitle": "Delicate & tart",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Raspberry"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Raspberry_-_halved_%28Rubus_idaeus%29.jpg/500px-Raspberry_-_halved_%28Rubus_idaeus%29.jpg"
     },
     {
       "id": "apple",
@@ -58,37 +58,37 @@
       "id": "grape",
       "name": "Grape",
       "subtitle": "Red or green",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Grape"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Grapes%2C_Rostov-on-Don%2C_Russia.jpg/500px-Grapes%2C_Rostov-on-Don%2C_Russia.jpg"
     },
     {
       "id": "cherry",
       "name": "Cherry",
       "subtitle": "Sweet or tart",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cherry"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Cherry_season_%2848216568227%29.jpg/500px-Cherry_season_%2848216568227%29.jpg"
     },
     {
       "id": "orange",
       "name": "Orange",
       "subtitle": "Citrus classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Orange"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/North_Laguna_Aerial_photo_by_D_Ramey_Logan_alt.jpg/500px-North_Laguna_Aerial_photo_by_D_Ramey_Logan_alt.jpg"
     },
     {
       "id": "kiwi",
       "name": "Kiwi",
       "subtitle": "Fuzzy green inside",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Kiwi"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Actinidia_fruits.jpg/500px-Actinidia_fruits.jpg"
     },
     {
       "id": "pomegranate",
       "name": "Pomegranate",
       "subtitle": "Ruby seeds",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pomegranate"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Pomegranate_Juice_%282019%29.jpg/500px-Pomegranate_Juice_%282019%29.jpg"
     },
     {
       "id": "lemon",
       "name": "Lemon",
       "subtitle": "Tart & zesty",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Lemon"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/P1030323.JPG/500px-P1030323.JPG"
     },
     {
       "id": "coconut-fruit",

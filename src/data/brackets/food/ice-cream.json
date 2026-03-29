@@ -4,31 +4,31 @@
       "id": "chocolate",
       "name": "Chocolate",
       "subtitle": "The classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chocolate"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Three_Bars_%281%29.jpg/500px-Three_Bars_%281%29.jpg"
     },
     {
       "id": "vanilla",
       "name": "Vanilla",
       "subtitle": "Timeless favorite",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Vanilla"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vanilla_planifolia_%286998639597%29.jpg/500px-Vanilla_planifolia_%286998639597%29.jpg"
     },
     {
       "id": "cookies-and-cream",
       "name": "Cookies & Cream",
       "subtitle": "Oreo pieces",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cookies+%26+Cream"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Cookies_and_cream.JPG/500px-Cookies_and_cream.JPG"
     },
     {
       "id": "mint-chocolate-chip",
       "name": "Mint Chocolate Chip",
       "subtitle": "Green & refreshing",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mint+Chocolate+Chip"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/2020-04-27_18_23_07_A_spoonful_of_Friendly%27s_Mint_Chocolate_Chip_Ice_Cream_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg/500px-2020-04-27_18_23_07_A_spoonful_of_Friendly%27s_Mint_Chocolate_Chip_Ice_Cream_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg"
     },
     {
       "id": "cookie-dough",
       "name": "Cookie Dough",
       "subtitle": "Raw dough chunks",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cookie+Dough"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Cookiedough.jpg/500px-Cookiedough.jpg"
     },
     {
       "id": "strawberry",
@@ -40,7 +40,7 @@
       "id": "rocky-road",
       "name": "Rocky Road",
       "subtitle": "Chocolate, nuts & marshmallows",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Rocky+Road"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Rocky_Road_TV_series_logo.jpg/500px-Rocky_Road_TV_series_logo.jpg"
     },
     {
       "id": "butter-pecan",
@@ -52,13 +52,13 @@
       "id": "salted-caramel",
       "name": "Salted Caramel",
       "subtitle": "Sweet & salty",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Salted+Caramel"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Caramel-2.jpg/500px-Caramel-2.jpg"
     },
     {
       "id": "pistachio",
       "name": "Pistachio",
       "subtitle": "Green & nutty",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pistachio"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Pistachio_vera.jpg/500px-Pistachio_vera.jpg"
     },
     {
       "id": "coffee",
@@ -76,7 +76,7 @@
       "id": "neapolitan",
       "name": "Neapolitan",
       "subtitle": "Three-in-one",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Neapolitan"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Neapolitan_languages-it.svg/500px-Neapolitan_languages-it.svg.png"
     },
     {
       "id": "mango",
@@ -88,43 +88,43 @@
       "id": "cotton-candy",
       "name": "Cotton Candy",
       "subtitle": "Sweet & colorful",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cotton+Candy"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Cotton_candy_%CE%9C%CE%B1%CE%BB%CE%BB%CE%AF_%CF%84%CE%B7%CF%82_%CE%B3%CF%81%CE%B9%CE%AC%CF%82.JPG/500px-Cotton_candy_%CE%9C%CE%B1%CE%BB%CE%BB%CE%AF_%CF%84%CE%B7%CF%82_%CE%B3%CF%81%CE%B9%CE%AC%CF%82.JPG"
     },
     {
       "id": "birthday-cake",
       "name": "Birthday Cake",
       "subtitle": "Sprinkles & vanilla",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Birthday+Cake"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Delicious_Birthday_Cake_%2814346969741%29.jpg/500px-Delicious_Birthday_Cake_%2814346969741%29.jpg"
     },
     {
       "id": "dulce-de-leche",
       "name": "Dulce de Leche",
       "subtitle": "Caramelized milk",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Dulce+de+Leche"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DulceDeLeche.jpg/500px-DulceDeLeche.jpg"
     },
     {
       "id": "black-cherry",
       "name": "Black Cherry",
       "subtitle": "Rich cherry flavor",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Black+Cherry"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5b/GoldfrappBlackCherry.PNG"
     },
     {
       "id": "brownie-batter",
       "name": "Brownie Batter",
       "subtitle": "Chocolate fudge",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Brownie+Batter"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Brownie_Baker.jpg/500px-Brownie_Baker.jpg"
     },
     {
       "id": "matcha",
       "name": "Matcha Green Tea",
       "subtitle": "Japanese-inspired",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Matcha+Green+Tea"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Matcha_Scoop.jpg/500px-Matcha_Scoop.jpg"
     },
     {
       "id": "rum-raisin",
       "name": "Rum Raisin",
       "subtitle": "Boozy & fruity",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Rum+Raisin"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/MOW_PRIME_Gold_Rum_Raisin_-_2.jpg/500px-MOW_PRIME_Gold_Rum_Raisin_-_2.jpg"
     },
     {
       "id": "coconut",

@@ -16,7 +16,7 @@
       "id": "cant-help-falling-in-love",
       "name": "Can't Help Falling in Love",
       "subtitle": "Elvis Presley",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Can't+Help+Falling+in+Love"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3c/Can%27t_Help_Falling_in_Love_by_Elvis_Presley_US_picture_sleeve.png"
     },
     {
       "id": "make-you-feel-my-love",
@@ -28,19 +28,19 @@
       "id": "thinking-out-loud-ls",
       "name": "Thinking Out Loud",
       "subtitle": "Ed Sheeran",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Thinking+Out+Loud"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3e/Thinking_Out_Loud_cover.png"
     },
     {
       "id": "unchained-melody-ls",
       "name": "Unchained Melody",
       "subtitle": "The Righteous Brothers",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Unchained+Melody"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/62/Theearlyyears.jpg"
     },
     {
       "id": "all-of-me",
       "name": "All of Me",
       "subtitle": "John Legend",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=All+of+Me"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4f/Allofmejohnlegend.jpg"
     },
     {
       "id": "my-girl",
@@ -58,49 +58,49 @@
       "id": "something-beatles",
       "name": "Something",
       "subtitle": "The Beatles",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Something"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8c/Come_Together-Something_%28single_cover%29.jpg"
     },
     {
       "id": "your-song",
       "name": "Your Song",
       "subtitle": "Elton John",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Your+Song"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Your_song_by_elton_john_US_single_variant_A.png/500px-Your_song_by_elton_john_US_single_variant_A.png"
     },
     {
       "id": "just-the-way-you-are",
       "name": "Just the Way You Are",
       "subtitle": "Bruno Mars",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Just+the+Way+You+Are"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fa/Bruno-mars-just-the-way-you-are.jpg"
     },
     {
       "id": "i-dont-want-to-miss-a-thing",
       "name": "I Don't Want to Miss a Thing",
       "subtitle": "Aerosmith",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=I+Don't+Want+to+Miss+a+Thing"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d2/Idontwanttomissathing.jpg"
     },
     {
       "id": "wonderful-tonight",
       "name": "Wonderful Tonight",
       "subtitle": "Eric Clapton",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Wonderful+Tonight"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/93/Wonderful_Tonight_cover.jpg"
     },
     {
       "id": "perfect",
       "name": "Perfect",
       "subtitle": "Ed Sheeran",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Perfect"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/80/Ed_Sheeran_Perfect_Single_cover.jpg"
     },
     {
       "id": "lets-stay-together-ls",
       "name": "Let's Stay Together",
       "subtitle": "Al Green",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Let's+Stay+Together"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Lets_stay_together_al_green_US_single_var_B.webp/500px-Lets_stay_together_al_green_US_single_var_B.webp.png"
     },
     {
       "id": "when-a-man-loves-a-woman",
       "name": "When a Man Loves a Woman",
       "subtitle": "Percy Sledge",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=When+a+Man+Loves+a+Woman"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/When_a_Man_Loves_a_Woman_by_Percy_Sledge_US_vinyl.png/500px-When_a_Man_Loves_a_Woman_by_Percy_Sledge_US_vinyl.png"
     },
     {
       "id": "crazy-in-love-ls",
@@ -112,37 +112,37 @@
       "id": "a-thousand-years",
       "name": "A Thousand Years",
       "subtitle": "Christina Perri",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=A+Thousand+Years"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8f/AThousand_Years.jpg"
     },
     {
       "id": "love-on-top",
       "name": "Love on Top",
       "subtitle": "Beyonce",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Love+on+Top"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Beyonce_-_Love_on_Top_%28single%29.png"
     },
     {
       "id": "god-only-knows",
       "name": "God Only Knows",
       "subtitle": "The Beach Boys",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=God+Only+Knows"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3c/God_Only_Knows_single_cover.png"
     },
     {
       "id": "aint-no-mountain-high-enough",
       "name": "Ain't No Mountain High Enough",
       "subtitle": "Marvin Gaye & Tammi Terrell",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ain't+No+Mountain+High+Enough"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/Anhme1967.jpg"
     },
     {
       "id": "the-way-you-look-tonight",
       "name": "The Way You Look Tonight",
       "subtitle": "Frank Sinatra",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Way+You+Look+Tonight"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/82/The_Way_You_Look_Tonight_%28Fred_Astaire_%2C_1936%29_record_label.jpg"
     },
     {
       "id": "die-with-a-smile",
       "name": "Die With a Smile",
       "subtitle": "Lady Gaga & Bruno Mars",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Die+With+a+Smile"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/12/Lady_Gaga_and_Bruno_Mars_-_Die_with_a_Smile.png"
     },
     {
       "id": "somebody-to-love",
@@ -154,43 +154,43 @@
       "id": "you-are-the-sunshine",
       "name": "You Are the Sunshine of My Life",
       "subtitle": "Stevie Wonder",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=You+Are+the+Sunshine+of+My+Life"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Steviesunshine.jpg"
     },
     {
       "id": "stand-by-me",
       "name": "Stand by Me",
       "subtitle": "Ben E. King",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Stand+by+Me"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/55/%22Stand_by_Me%22_by_Ben_E_King_US_vinyl_Side-A.png"
     },
     {
       "id": "i-got-you-babe",
       "name": "I Got You Babe",
       "subtitle": "Sonny & Cher",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=I+Got+You+Babe"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/90/Bo-Selecta-I-Got-You-Babe-310597.jpg"
     },
     {
       "id": "truly-madly-deeply",
       "name": "Truly Madly Deeply",
       "subtitle": "Savage Garden",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Truly+Madly+Deeply"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/77/Savage_garden_truly_madly.jpg"
     },
     {
       "id": "everything-i-do",
       "name": "(Everything I Do) I Do It for You",
       "subtitle": "Bryan Adams",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=(Everything+I+Do)+I+Do+It+for+You"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/09/Everythingido_Idoitforyou.png"
     },
     {
       "id": "if-i-aint-got-you-ls",
       "name": "If I Ain't Got You",
       "subtitle": "Alicia Keys",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=If+I+Ain't+Got+You"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Alicia_Keys_-_If_I_Ain%27t_Got_You_%28single_cover%29.jpg"
     },
     {
       "id": "then",
       "name": "Then",
       "subtitle": "Brad Paisley",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Then"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f2/Brad_Paisley_-_Then.jpg"
     }
   ]
 }

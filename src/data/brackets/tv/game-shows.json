@@ -4,13 +4,13 @@
       "id": "jeopardy",
       "name": "Jeopardy!",
       "subtitle": "1964-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jeopardy!"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/JeopardyMastersLogo.png"
     },
     {
       "id": "wheel-of-fortune",
       "name": "Wheel of Fortune",
       "subtitle": "1975-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Wheel+of+Fortune"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Wheel_of_Fortune_logo_stacked.svg/500px-Wheel_of_Fortune_logo_stacked.svg.png"
     },
     {
       "id": "the-price-is-right",
@@ -22,13 +22,13 @@
       "id": "who-wants-to-be-a-millionaire",
       "name": "Who Wants to Be a Millionaire",
       "subtitle": "1998-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Who+Wants+to+Be+a+Millionaire"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4e/WWTBAMUS2020Logo.png"
     },
     {
       "id": "deal-or-no-deal",
       "name": "Deal or No Deal",
       "subtitle": "2005-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Deal+or+No+Deal"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Deal_or_No_Deal_Official_Title_Card_%282018%29.png/500px-Deal_or_No_Deal_Official_Title_Card_%282018%29.png"
     },
     {
       "id": "family-feud",
@@ -40,13 +40,13 @@
       "id": "the-weakest-link",
       "name": "The Weakest Link",
       "subtitle": "2000-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Weakest+Link"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/The_Weakest_Link_revival.jpeg/500px-The_Weakest_Link_revival.jpeg"
     },
     {
       "id": "are-you-smarter-than-a-5th-grader",
       "name": "Are You Smarter Than a 5th Grader?",
       "subtitle": "2007-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Are+You+Smarter+Than+a+5th+Grader%3F"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/50/AYSTA5G2019Logo.png"
     },
     {
       "id": "press-your-luck",
@@ -58,43 +58,43 @@
       "id": "lets-make-a-deal",
       "name": "Let's Make a Deal",
       "subtitle": "1963-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Let's+Make+a+Deal"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/LMADlogo2011.jpg/500px-LMADlogo2011.jpg"
     },
     {
       "id": "the-chase",
       "name": "The Chase",
       "subtitle": "2009-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Chase"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/14/The_Chaser-poster.jpg"
     },
     {
       "id": "the-floor",
       "name": "The Floor",
       "subtitle": "2024-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Floor"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/The_Floor_%28American_game_show%29.jpg"
     },
     {
       "id": "password",
       "name": "Password",
       "subtitle": "1961-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Password"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Mediawiki_1.25_sign_in_form.png/500px-Mediawiki_1.25_sign_in_form.png"
     },
     {
       "id": "the-wall",
       "name": "The Wall",
       "subtitle": "2016-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Wall"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/The_Fall_%28TV_Series%29.png"
     },
     {
       "id": "cash-cab",
       "name": "Cash Cab",
       "subtitle": "2005-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Cash+Cab"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b7/Cashcabcanadalogo.png"
     },
     {
       "id": "the-match-game",
       "name": "Match Game",
       "subtitle": "1962-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Match+Game"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Match_Game_2016_logo.png/500px-Match_Game_2016_logo.png"
     }
   ]
 }

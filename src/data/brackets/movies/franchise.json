@@ -10,7 +10,7 @@
       "id": "marvel-cinematic-universe",
       "name": "Marvel Cinematic Universe",
       "subtitle": "33 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Marvel+Cinematic+Universe"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Marvel_Cinematic_Universe_Infinity_Saga_artwork.jpeg/500px-Marvel_Cinematic_Universe_Infinity_Saga_artwork.jpeg"
     },
     {
       "id": "harry-potter",
@@ -40,13 +40,13 @@
       "id": "jurassic-park-fr",
       "name": "Jurassic Park / World",
       "subtitle": "6 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Jurassic+Park+%2F+World"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6e/Jurassic_World_poster.jpg"
     },
     {
       "id": "batman-franchise",
       "name": "Batman",
       "subtitle": "9 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Batman&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Batman_live_action_actors.png/500px-Batman_live_action_actors.png"
     },
     {
       "id": "mission-impossible",
@@ -58,19 +58,19 @@
       "id": "indiana-jones",
       "name": "Indiana Jones",
       "subtitle": "5 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Indiana+Jones&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/Indiana_Jones_and_the_Dial_of_Destiny_theatrical_poster.jpg"
     },
     {
       "id": "spider-man-franchise",
       "name": "Spider-Man",
       "subtitle": "9 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Spider-Man"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Spider-Man_actors.jpg/500px-Spider-Man_actors.jpg"
     },
     {
       "id": "x-men",
       "name": "X-Men",
       "subtitle": "13 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=X-Men&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/81/X-MenfilmPoster.jpg"
     },
     {
       "id": "pixar-franchise",
@@ -82,7 +82,7 @@
       "id": "dc-extended",
       "name": "DC Extended Universe",
       "subtitle": "15 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=DC+Extended+Universe"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/DC_Comics_logo.svg/500px-DC_Comics_logo.svg.png"
     },
     {
       "id": "transformers",
@@ -100,13 +100,13 @@
       "id": "planet-of-the-apes",
       "name": "Planet of the Apes",
       "subtitle": "10 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Planet+of+the+Apes"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Planet_of_the_Apes_%28logo%29.svg/500px-Planet_of_the_Apes_%28logo%29.svg.png"
     },
     {
       "id": "terminator",
       "name": "Terminator",
       "subtitle": "6 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Terminator"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6d/The_Terminator.png"
     },
     {
       "id": "john-wick-franchise",
@@ -118,7 +118,7 @@
       "id": "pirates-of-the-caribbean",
       "name": "Pirates of the Caribbean",
       "subtitle": "5 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Pirates+of+the+Caribbean&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/89/Pirates_of_the_Caribbean_-_The_Curse_of_the_Black_Pearl.png"
     },
     {
       "id": "toy-story-franchise",
@@ -136,7 +136,7 @@
       "id": "rocky-creed",
       "name": "Rocky / Creed",
       "subtitle": "9 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Rocky+%2F+Creed"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/24/Creed_poster.jpg"
     },
     {
       "id": "mad-max-franchise",
@@ -166,7 +166,7 @@
       "id": "the-conjuring-universe",
       "name": "The Conjuring Universe",
       "subtitle": "8 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Conjuring+Universe"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/The_Conjuring_Universe_logo.jpg/500px-The_Conjuring_Universe_logo.jpg"
     },
     {
       "id": "dune-franchise",
@@ -178,19 +178,19 @@
       "id": "godzilla-monsterverse",
       "name": "Godzilla / MonsterVerse",
       "subtitle": "5 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Godzilla+%2F+MonsterVerse"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3c/Godzilla_Empire_Reveal.jpg"
     },
     {
       "id": "disney-renaissance",
       "name": "Disney Renaissance",
       "subtitle": "10 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Disney+Renaissance"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Disney_Renaissance_Films.jpg/500px-Disney_Renaissance_Films.jpg"
     },
     {
       "id": "twilight",
       "name": "Twilight",
       "subtitle": "5 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Twilight&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Twilight2.png/500px-Twilight2.png"
     }
   ]
 }

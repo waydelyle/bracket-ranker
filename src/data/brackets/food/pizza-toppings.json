@@ -4,19 +4,19 @@
       "id": "pepperoni",
       "name": "Pepperoni",
       "subtitle": "Classic meat topping",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pepperoni"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Pepperoni_Pizza_%2829204589095%29.jpg/500px-Pepperoni_Pizza_%2829204589095%29.jpg"
     },
     {
       "id": "mushrooms",
       "name": "Mushrooms",
       "subtitle": "Sliced or diced",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mushrooms"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Sparrige_Sch%C3%BCppling_%28Pholiota_squarrosa%29.jpg/500px-Sparrige_Sch%C3%BCppling_%28Pholiota_squarrosa%29.jpg"
     },
     {
       "id": "sausage",
       "name": "Italian Sausage",
       "subtitle": "Crumbled or sliced",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Italian+Sausage"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Salsiccia_Italian_pork_sausage.jpg/500px-Salsiccia_Italian_pork_sausage.jpg"
     },
     {
       "id": "extra-cheese",
@@ -28,7 +28,7 @@
       "id": "green-peppers",
       "name": "Green Peppers",
       "subtitle": "Bell peppers",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Green+Peppers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Piper_nigrum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-107.jpg/500px-Piper_nigrum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-107.jpg"
     },
     {
       "id": "onions",
@@ -40,7 +40,7 @@
       "id": "black-olives",
       "name": "Black Olives",
       "subtitle": "Sliced",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Black+Olives"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Olivesfromjordan.jpg/500px-Olivesfromjordan.jpg"
     },
     {
       "id": "bacon",
@@ -58,7 +58,7 @@
       "id": "ham",
       "name": "Ham",
       "subtitle": "Diced or sliced",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ham"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Ham_%284%29.jpg/500px-Ham_%284%29.jpg"
     },
     {
       "id": "jalapenos",
@@ -76,25 +76,25 @@
       "id": "fresh-basil",
       "name": "Fresh Basil",
       "subtitle": "Classic Italian",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Fresh+Basil"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Pavillon_frais_%282%29.jpg/500px-Pavillon_frais_%282%29.jpg"
     },
     {
       "id": "buffalo-chicken",
       "name": "Buffalo Chicken",
       "subtitle": "Spicy chicken",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Buffalo+Chicken"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Buffalo_wings-01.jpg/500px-Buffalo_wings-01.jpg"
     },
     {
       "id": "bbq-chicken",
       "name": "BBQ Chicken",
       "subtitle": "Sweet & smoky",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=BBQ+Chicken"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Chicken_BBQ.jpg/500px-Chicken_BBQ.jpg"
     },
     {
       "id": "anchovies",
       "name": "Anchovies",
       "subtitle": "Love 'em or hate 'em",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Anchovies"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Anchovy_closeup.jpg/500px-Anchovy_closeup.jpg"
     }
   ]
 }

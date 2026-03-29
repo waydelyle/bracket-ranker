@@ -4,13 +4,13 @@
       "id": "spider-man-char",
       "name": "Spider-Man",
       "subtitle": "Peter Parker",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Spider-Man"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png"
     },
     {
       "id": "iron-man-char",
       "name": "Iron Man",
       "subtitle": "Tony Stark",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Iron+Man"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/47/Iron_Man_%28circa_2018%29.png"
     },
     {
       "id": "wolverine",
@@ -22,49 +22,49 @@
       "id": "captain-america-char",
       "name": "Captain America",
       "subtitle": "Steve Rogers",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Captain+America"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/53/Captain_America_Civil_War_poster.jpg"
     },
     {
       "id": "thor-char",
       "name": "Thor",
       "subtitle": "God of Thunder",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Thor"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/M%C3%A5rten_Eskil_Winge_-_Tor%27s_Fight_with_the_Giants_-_Google_Art_Project.jpg/500px-M%C3%A5rten_Eskil_Winge_-_Tor%27s_Fight_with_the_Giants_-_Google_Art_Project.jpg"
     },
     {
       "id": "black-panther-char",
       "name": "Black Panther",
       "subtitle": "T'Challa",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Black+Panther"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Black_Panther_%28film%29_poster.jpg"
     },
     {
       "id": "hulk",
       "name": "Hulk",
       "subtitle": "Bruce Banner",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Hulk"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/aa/Hulk_%28circa_2019%29.png"
     },
     {
       "id": "doctor-strange-char",
       "name": "Doctor Strange",
       "subtitle": "Stephen Strange",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Doctor+Strange"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4f/Doctor_Strange_Vol_4_2_Ross_Variant_Textless.jpg"
     },
     {
       "id": "deadpool-char",
       "name": "Deadpool",
       "subtitle": "Wade Wilson",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Deadpool"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/ca/Deadpool.png"
     },
     {
       "id": "scarlet-witch",
       "name": "Scarlet Witch",
       "subtitle": "Wanda Maximoff",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Scarlet+Witch"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ec/Scarlet_Witch_Various_incarnations_2021.jpg"
     },
     {
       "id": "black-widow-char",
       "name": "Black Widow",
       "subtitle": "Natasha Romanoff",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Black+Widow"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg"
     },
     {
       "id": "thanos",
@@ -76,19 +76,19 @@
       "id": "loki-char",
       "name": "Loki",
       "subtitle": "God of Mischief",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Loki"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Processed_SAM_loki.jpg/500px-Processed_SAM_loki.jpg"
     },
     {
       "id": "groot",
       "name": "Groot",
       "subtitle": "I Am Groot",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Groot"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Groot.png"
     },
     {
       "id": "rocket-raccoon",
       "name": "Rocket Raccoon",
       "subtitle": "Guardians of the Galaxy",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Rocket+Raccoon"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Rocketraccoon.png"
     },
     {
       "id": "storm",
@@ -100,37 +100,37 @@
       "id": "gamora",
       "name": "Gamora",
       "subtitle": "Guardians of the Galaxy",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Gamora"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/08/Gamora-cover.jpg"
     },
     {
       "id": "vision",
       "name": "Vision",
       "subtitle": "Synthezoid",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Vision"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3d/Vision_%28Marvel_Comics%29.png"
     },
     {
       "id": "hawkeye",
       "name": "Hawkeye",
       "subtitle": "Clint Barton",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Hawkeye"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Hawkeye_%28miniseries%29_logo.png/500px-Hawkeye_%28miniseries%29_logo.png"
     },
     {
       "id": "ant-man-char",
       "name": "Ant-Man",
       "subtitle": "Scott Lang",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Ant-Man"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/Irredeemable_Ant-Man_Vol_1_5_Textless.jpg"
     },
     {
       "id": "nick-fury",
       "name": "Nick Fury",
       "subtitle": "Director of SHIELD",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Nick+Fury"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/71/Nick_Fury_I.png"
     },
     {
       "id": "war-machine",
       "name": "War Machine",
       "subtitle": "James Rhodes",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=War+Machine"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e6/War_Machine_%28James_Rhodes%29.png"
     },
     {
       "id": "falcon",
@@ -142,19 +142,19 @@
       "id": "winter-soldier",
       "name": "Winter Soldier",
       "subtitle": "Bucky Barnes",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Winter+Soldier"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/87/CaptainAmericaVol5Iss14.png"
     },
     {
       "id": "star-lord",
       "name": "Star-Lord",
       "subtitle": "Peter Quill",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Star-Lord"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/15/ST1.PNG"
     },
     {
       "id": "drax",
       "name": "Drax",
       "subtitle": "The Destroyer",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Drax"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Northeast_of_Drax_-_geograph.org.uk_-_581958.jpg/500px-Northeast_of_Drax_-_geograph.org.uk_-_581958.jpg"
     },
     {
       "id": "miles-morales",
@@ -166,25 +166,25 @@
       "id": "magneto",
       "name": "Magneto",
       "subtitle": "Erik Lehnsherr",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Magneto"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Magneto-electric_machine-MHS_642-IMG_3851-gradient.jpg/500px-Magneto-electric_machine-MHS_642-IMG_3851-gradient.jpg"
     },
     {
       "id": "professor-x",
       "name": "Professor X",
       "subtitle": "Charles Xavier",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Professor+X"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a8/Professor_X.png"
     },
     {
       "id": "jean-grey",
       "name": "Jean Grey",
       "subtitle": "Phoenix",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Jean+Grey"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8c/Jean_Grey_%28Modern%29.webp"
     },
     {
       "id": "cyclops",
       "name": "Cyclops",
       "subtitle": "Scott Summers",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Cyclops"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Head_of_a_Cyclops_Colosseum.jpg/500px-Head_of_a_Cyclops_Colosseum.jpg"
     },
     {
       "id": "shang-chi-char",

@@ -10,19 +10,19 @@
       "id": "big-mac",
       "name": "Big Mac",
       "subtitle": "McDonald's",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Big+Mac"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/McD_Big_Mac.png/500px-McD_Big_Mac.png"
     },
     {
       "id": "whopper",
       "name": "Whopper",
       "subtitle": "Burger King",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Whopper"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/WHOPPER_with_Cheese%2C_at_Burger_King_%282014.05.04%29.jpg/500px-WHOPPER_with_Cheese%2C_at_Burger_King_%282014.05.04%29.jpg"
     },
     {
       "id": "baconator",
       "name": "Baconator",
       "subtitle": "Wendy's",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Baconator"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Baconator.jpg/500px-Baconator.jpg"
     },
     {
       "id": "five-guys-burger",
@@ -40,19 +40,19 @@
       "id": "shake-shack-burger",
       "name": "ShackBurger",
       "subtitle": "Shake Shack",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=ShackBurger"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Schalk_Burger.jpg/500px-Schalk_Burger.jpg"
     },
     {
       "id": "quarter-pounder",
       "name": "Quarter Pounder with Cheese",
       "subtitle": "McDonald's",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Quarter+Pounder+with+Cheese"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/McDonald%27s_Quarter_Pounder_with_Cheese%2C_United_States.jpg/500px-McDonald%27s_Quarter_Pounder_with_Cheese%2C_United_States.jpg"
     },
     {
       "id": "wendys-classic",
       "name": "Dave's Single",
       "subtitle": "Wendy's",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Dave's+Single"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/500px-Wendy%27s_full_logo_2012.svg.png"
     },
     {
       "id": "whataburger-classic",
@@ -70,7 +70,7 @@
       "id": "mcdouble",
       "name": "McDouble",
       "subtitle": "McDonald's",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=McDouble"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/McDonald%27s_McDouble_burger.jpg/500px-McDonald%27s_McDouble_burger.jpg"
     },
     {
       "id": "rodeo-burger",
@@ -94,7 +94,7 @@
       "id": "hardees-thickburger",
       "name": "Thickburger",
       "subtitle": "Hardee's",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Thickburger"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Hardee%27s_fast-food_restaurant_in_Franklin%2C_North_Carolina.jpg/500px-Hardee%27s_fast-food_restaurant_in_Franklin%2C_North_Carolina.jpg"
     }
   ]
 }

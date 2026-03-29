@@ -10,37 +10,37 @@
       "id": "red-heart",
       "name": "❤️",
       "subtitle": "Red Heart",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%E2%9D%A4%EF%B8%8F"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/70/MichaelBubleLove.png"
     },
     {
       "id": "fire",
       "name": "🔥",
       "subtitle": "Fire",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%94%A5"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Large_bonfire.jpg/500px-Large_bonfire.jpg"
     },
     {
       "id": "skull",
       "name": "💀",
       "subtitle": "Skull",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%92%80"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Noto_Emoji_v2.034_1f480.svg/500px-Noto_Emoji_v2.034_1f480.svg.png"
     },
     {
       "id": "thumbs-up",
       "name": "👍",
       "subtitle": "Thumbs Up",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%91%8D"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Jempol_Ngadep_Atas_%28cropped%29.jpg/500px-Jempol_Ngadep_Atas_%28cropped%29.jpg"
     },
     {
       "id": "crying-face",
       "name": "😭",
       "subtitle": "Loudly Crying Face",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%98%AD"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Crying-girl.jpg/500px-Crying-girl.jpg"
     },
     {
       "id": "sparkles",
       "name": "✨",
       "subtitle": "Sparkles",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%E2%9C%A8"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Twemoji12_2728.svg/500px-Twemoji12_2728.svg.png"
     },
     {
       "id": "heart-eyes",
@@ -52,13 +52,13 @@
       "id": "clapping",
       "name": "👏",
       "subtitle": "Clapping Hands",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%91%8F"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Clapping_hand.jpg/500px-Clapping_hand.jpg"
     },
     {
       "id": "thinking",
       "name": "🤔",
       "subtitle": "Thinking Face",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%A4%94"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Jardin_du_Musee_Rodin_Paris_Le_Penseur_20050402_%2802%29.jpg/500px-Jardin_du_Musee_Rodin_Paris_Le_Penseur_20050402_%2802%29.jpg"
     },
     {
       "id": "sunglasses",
@@ -82,25 +82,25 @@
       "id": "rocket",
       "name": "🚀",
       "subtitle": "Rocket",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%9A%80"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Soyuz_TMA-9_launch.jpg/500px-Soyuz_TMA-9_launch.jpg"
     },
     {
       "id": "eyes",
       "name": "👀",
       "subtitle": "Eyes",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%91%80"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Human_eye%2C_anterior_view.jpg/500px-Human_eye%2C_anterior_view.jpg"
     },
     {
       "id": "party",
       "name": "🎉",
       "subtitle": "Party Popper",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%8E%89"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Party_poppers.jpg/500px-Party_poppers.jpg"
     },
     {
       "id": "wave",
       "name": "👋",
       "subtitle": "Waving Hand",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%91%8B"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Waving_RCMP_%287612733982%29_%28cropped%29.jpg/500px-Waving_RCMP_%287612733982%29_%28cropped%29.jpg"
     },
     {
       "id": "star-struck",
@@ -112,7 +112,7 @@
       "id": "rolling-eyes",
       "name": "🙄",
       "subtitle": "Face with Rolling Eyes",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%99%84"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Emojione_BW_1F644.svg/500px-Emojione_BW_1F644.svg.png"
     },
     {
       "id": "pleading-face",
@@ -124,49 +124,49 @@
       "id": "laughing",
       "name": "🤣",
       "subtitle": "Rolling on the Floor Laughing",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%A4%A3"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Lol_message_in_convo.jpg/500px-Lol_message_in_convo.jpg"
     },
     {
       "id": "nail-polish",
       "name": "💅",
       "subtitle": "Nail Polish",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%92%85"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Polished_purple_nails_with_nail_art_on.jpg/500px-Polished_purple_nails_with_nail_art_on.jpg"
     },
     {
       "id": "shrug",
       "name": "🤷",
       "subtitle": "Person Shrugging",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%A4%B7"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Shrug.jpg/500px-Shrug.jpg"
     },
     {
       "id": "muscle",
       "name": "💪",
       "subtitle": "Flexed Biceps",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%92%AA"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/1120_Muscles_that_Move_the_Forearm_Humerus_Flex_Sin.png/500px-1120_Muscles_that_Move_the_Forearm_Humerus_Flex_Sin.png"
     },
     {
       "id": "sob",
       "name": "😩",
       "subtitle": "Weary Face",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%98%A9"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Cfs_woman_sketch.jpg/500px-Cfs_woman_sketch.jpg"
     },
     {
       "id": "crown",
       "name": "👑",
       "subtitle": "Crown",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%91%91"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Saint_Edward%27s_Crown.jpg/500px-Saint_Edward%27s_Crown.jpg"
     },
     {
       "id": "peach",
       "name": "🍑",
       "subtitle": "Peach",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%8D%91"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Twemoji_1f351.svg/500px-Twemoji_1f351.svg.png"
     },
     {
       "id": "ghost",
       "name": "👻",
       "subtitle": "Ghost",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%91%BB"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Hammersmith_Ghost.PNG/500px-Hammersmith_Ghost.PNG"
     },
     {
       "id": "alien",
@@ -178,19 +178,19 @@
       "id": "rainbow",
       "name": "🌈",
       "subtitle": "Rainbow",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%8C%88"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/500px-Double-alaskan-rainbow.jpg"
     },
     {
       "id": "pizza-emoji",
       "name": "🍕",
       "subtitle": "Pizza",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%8D%95"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/500px-Pizza-3007395.jpg"
     },
     {
       "id": "clown",
       "name": "🤡",
       "subtitle": "Clown Face",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%A4%A1"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Auguste_clown_reading_a_book_upside-down.jpg/500px-Auguste_clown_reading_a_book_upside-down.jpg"
     }
   ]
 }

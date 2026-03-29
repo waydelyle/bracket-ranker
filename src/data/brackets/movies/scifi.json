@@ -4,7 +4,7 @@
       "id": "star-wars-new-hope",
       "name": "Star Wars: A New Hope",
       "subtitle": "1977",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Star+Wars%3A+A+New+Hope&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg"
     },
     {
       "id": "blade-runner",
@@ -34,19 +34,19 @@
       "id": "2001-a-space-odyssey",
       "name": "2001: A Space Odyssey",
       "subtitle": "1968",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=2001%3A+A+Space+Odyssey&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/11/2001_A_Space_Odyssey_%281968%29.png"
     },
     {
       "id": "empire-strikes-back",
       "name": "The Empire Strikes Back",
       "subtitle": "1980",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Empire+Strikes+Back&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3f/The_Empire_Strikes_Back_%281980_film%29.jpg"
     },
     {
       "id": "terminator-2-scifi",
       "name": "Terminator 2: Judgment Day",
       "subtitle": "1991",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Terminator+2%3A+Judgment+Day&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Terminator_2-Judgment_Day.png"
     },
     {
       "id": "inception",
@@ -124,7 +124,7 @@
       "id": "moon",
       "name": "Moon",
       "subtitle": "2009",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Moon"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/af/Moon_%282009_film%29.jpg"
     },
     {
       "id": "the-martian",
@@ -142,31 +142,31 @@
       "id": "gravity",
       "name": "Gravity",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Gravity&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f6/Gravity_Poster.jpg"
     },
     {
       "id": "her",
       "name": "Her",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Her"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/44/Her2013Poster.jpg"
     },
     {
       "id": "edge-of-tomorrow",
       "name": "Edge of Tomorrow",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Edge+of+Tomorrow"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f9/Edge_of_Tomorrow_Poster.jpg"
     },
     {
       "id": "war-of-the-worlds",
       "name": "War of the Worlds",
       "subtitle": "2005",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=War+of+the+Worlds"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/83/War_of_the_Worlds_2005_poster.jpg"
     },
     {
       "id": "solaris",
       "name": "Solaris",
       "subtitle": "1972",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Solaris"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/54/Solyaris_ussr_poster.jpg"
     },
     {
       "id": "everything-everywhere",

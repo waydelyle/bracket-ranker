@@ -10,7 +10,7 @@
       "id": "aladdin",
       "name": "Aladdin",
       "subtitle": "1992",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Aladdin&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Aladdin_golden_films.jpg/500px-Aladdin_golden_films.jpg"
     },
     {
       "id": "frozen",
@@ -34,13 +34,13 @@
       "id": "moana",
       "name": "Moana",
       "subtitle": "2016",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Moana&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Moana_Teaser_Poster.jpg"
     },
     {
       "id": "mulan",
       "name": "Mulan",
       "subtitle": "1998",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Mulan&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a3/Movie_poster_mulan.JPG"
     },
     {
       "id": "tangled",
@@ -82,19 +82,19 @@
       "id": "hercules",
       "name": "Hercules",
       "subtitle": "1997",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Hercules&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/65/Hercules_%281997_film%29_poster.jpg"
     },
     {
       "id": "tarzan",
       "name": "Tarzan",
       "subtitle": "1999",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Tarzan&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4f/Tarzan_%281999_film%29_-_theatrical_poster.jpg"
     },
     {
       "id": "lilo-and-stitch",
       "name": "Lilo & Stitch",
       "subtitle": "2002",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Lilo+%26+Stitch&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/LiloandStitchmovieposter.jpg"
     },
     {
       "id": "the-emperors-new-groove",
@@ -124,7 +124,7 @@
       "id": "wreck-it-ralph",
       "name": "Wreck-It Ralph",
       "subtitle": "2012",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Wreck-It+Ralph&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Wreck-It_Ralph_logo.svg/500px-Wreck-It_Ralph_logo.svg.png"
     },
     {
       "id": "big-hero-6",
@@ -160,7 +160,7 @@
       "id": "dumbo",
       "name": "Dumbo",
       "subtitle": "1941",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Dumbo"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a7/Dumbo-1941-poster.jpg"
     },
     {
       "id": "robin-hood",
@@ -172,7 +172,7 @@
       "id": "the-hunchback-of-notre-dame",
       "name": "The Hunchback of Notre Dame",
       "subtitle": "1996",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Hunchback+of+Notre+Dame"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/26/The_Hunchback_of_Notre_Dame_1996_poster.jpg"
     },
     {
       "id": "lady-and-the-tramp",
@@ -184,7 +184,7 @@
       "id": "treasure-planet",
       "name": "Treasure Planet",
       "subtitle": "2002",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Treasure+Planet"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/Treasure_Planet_poster.jpg"
     },
     {
       "id": "fantasia",

@@ -4,7 +4,7 @@
       "id": "yankees",
       "name": "New York Yankees",
       "subtitle": "AL East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+York+Yankees"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/New_York_Yankees_Primary_Logo.svg/500px-New_York_Yankees_Primary_Logo.svg.png"
     },
     {
       "id": "dodgers",
@@ -22,13 +22,13 @@
       "id": "cubs",
       "name": "Chicago Cubs",
       "subtitle": "NL Central",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Chicago+Cubs"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Chicago_Cubs_logo.svg/500px-Chicago_Cubs_logo.svg.png"
     },
     {
       "id": "cardinals",
       "name": "St. Louis Cardinals",
       "subtitle": "NL Central",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=St.+Louis+Cardinals"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/St._Louis_Cardinals_logo.svg/500px-St._Louis_Cardinals_logo.svg.png"
     },
     {
       "id": "braves",
@@ -46,55 +46,55 @@
       "id": "astros",
       "name": "Houston Astros",
       "subtitle": "AL West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Houston+Astros"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Houston-Astros-Logo.svg/500px-Houston-Astros-Logo.svg.png"
     },
     {
       "id": "phillies",
       "name": "Philadelphia Phillies",
       "subtitle": "NL East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Philadelphia+Phillies"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Philadelphia_Phillies_%282019%29_logo.svg/500px-Philadelphia_Phillies_%282019%29_logo.svg.png"
     },
     {
       "id": "mets",
       "name": "New York Mets",
       "subtitle": "NL East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+York+Mets"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/New_York_Mets.svg/500px-New_York_Mets.svg.png"
     },
     {
       "id": "white-sox",
       "name": "Chicago White Sox",
       "subtitle": "AL Central",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Chicago+White+Sox"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Chicago_White_Sox.svg/500px-Chicago_White_Sox.svg.png"
     },
     {
       "id": "rangers",
       "name": "Texas Rangers",
       "subtitle": "AL West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Texas+Rangers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d9/TX_-_Ranger.png"
     },
     {
       "id": "twins",
       "name": "Minnesota Twins",
       "subtitle": "AL Central",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Minnesota+Twins"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Minnesota_Twins_New_Logo.svg/500px-Minnesota_Twins_New_Logo.svg.png"
     },
     {
       "id": "tigers",
       "name": "Detroit Tigers",
       "subtitle": "AL Central",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Detroit+Tigers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Detroit_Tigers_logo.svg/500px-Detroit_Tigers_logo.svg.png"
     },
     {
       "id": "reds",
       "name": "Cincinnati Reds",
       "subtitle": "NL Central",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Cincinnati+Reds"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Cincinnati_Reds_Logo.svg/500px-Cincinnati_Reds_Logo.svg.png"
     },
     {
       "id": "padres",
       "name": "San Diego Padres",
       "subtitle": "NL West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=San+Diego+Padres"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/SD_Logo_Brown.svg/500px-SD_Logo_Brown.svg.png"
     },
     {
       "id": "angels",
@@ -118,13 +118,13 @@
       "id": "brewers",
       "name": "Milwaukee Brewers",
       "subtitle": "NL Central",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Milwaukee+Brewers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Milwaukee_Brewers_logo.svg/500px-Milwaukee_Brewers_logo.svg.png"
     },
     {
       "id": "rays",
       "name": "Tampa Bay Rays",
       "subtitle": "AL East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tampa+Bay+Rays"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Tampa_Bay_Rays_Logo.svg/500px-Tampa_Bay_Rays_Logo.svg.png"
     },
     {
       "id": "blue-jays",
@@ -136,13 +136,13 @@
       "id": "pirates-mlb",
       "name": "Pittsburgh Pirates",
       "subtitle": "NL Central",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Pittsburgh+Pirates"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Pittsburgh_Pirates_logo_2014.svg/500px-Pittsburgh_Pirates_logo_2014.svg.png"
     },
     {
       "id": "nationals",
       "name": "Washington Nationals",
       "subtitle": "NL East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Washington+Nationals"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Washington_Nationals_logo.svg/500px-Washington_Nationals_logo.svg.png"
     },
     {
       "id": "athletics",
@@ -160,25 +160,25 @@
       "id": "royals",
       "name": "Kansas City Royals",
       "subtitle": "AL Central",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kansas+City+Royals"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Kansas_City_Royals_Primary_Logo.svg/500px-Kansas_City_Royals_Primary_Logo.svg.png"
     },
     {
       "id": "rockies",
       "name": "Colorado Rockies",
       "subtitle": "NL West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Colorado+Rockies"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Colorado_Rockies_full_logo.svg/500px-Colorado_Rockies_full_logo.svg.png"
     },
     {
       "id": "dbacks",
       "name": "Arizona Diamondbacks",
       "subtitle": "NL West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Arizona+Diamondbacks"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Arizona_Diamondbacks_logo_teal.svg/500px-Arizona_Diamondbacks_logo_teal.svg.png"
     },
     {
       "id": "marlins",
       "name": "Miami Marlins",
       "subtitle": "NL East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Miami+Marlins"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Marlins_team_logo.svg/500px-Marlins_team_logo.svg.png"
     },
     {
       "id": "reds-legacy",
@@ -190,7 +190,7 @@
       "id": "yankees-27",
       "name": "1927 Yankees",
       "subtitle": "Historic Dynasty",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=1927+Yankees"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ny_yankees_team_1927.jpg/500px-Ny_yankees_team_1927.jpg"
     }
   ]
 }

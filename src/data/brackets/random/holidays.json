@@ -10,31 +10,31 @@
       "id": "halloween",
       "name": "Halloween",
       "subtitle": "October 31",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Halloween"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Jack-o%27-Lantern_2003-10-31.jpg/500px-Jack-o%27-Lantern_2003-10-31.jpg"
     },
     {
       "id": "thanksgiving",
       "name": "Thanksgiving",
       "subtitle": "4th Thursday in November",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Thanksgiving"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Our_%28Almost_Traditional%29_Thanksgiving_Dinner.jpg/500px-Our_%28Almost_Traditional%29_Thanksgiving_Dinner.jpg"
     },
     {
       "id": "new-years",
       "name": "New Year's Eve/Day",
       "subtitle": "December 31 / January 1",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=New+Year's+Eve%2FDay"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Fireworks_on_New_Year%27s_Eve_in_a_small_Swabian_village_%281%29%2C_brightened.jpg/500px-Fireworks_on_New_Year%27s_Eve_in_a_small_Swabian_village_%281%29%2C_brightened.jpg"
     },
     {
       "id": "independence-day",
       "name": "4th of July",
       "subtitle": "July 4",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=4th+of+July"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Fourth_of_July_fireworks_behind_the_Washington_Monument%2C_1986.jpg/500px-Fourth_of_July_fireworks_behind_the_Washington_Monument%2C_1986.jpg"
     },
     {
       "id": "valentines-day",
       "name": "Valentine's Day",
       "subtitle": "February 14",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Valentine's+Day"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Antique_Valentine_1909_01.jpg/500px-Antique_Valentine_1909_01.jpg"
     },
     {
       "id": "easter",
@@ -46,25 +46,25 @@
       "id": "mothers-day",
       "name": "Mother's Day",
       "subtitle": "2nd Sunday in May",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mother's+Day"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/William-Adolphe_Bouguereau_%281825-1905%29_-_Maternal_Admiration_%281869%29.jpg/500px-William-Adolphe_Bouguereau_%281825-1905%29_-_Maternal_Admiration_%281869%29.jpg"
     },
     {
       "id": "fathers-day",
       "name": "Father's Day",
       "subtitle": "3rd Sunday in June",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Father's+Day"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Josephus_Laurentius_Dyckmans_-_Paternal_advice.jpg/500px-Josephus_Laurentius_Dyckmans_-_Paternal_advice.jpg"
     },
     {
       "id": "st-patricks-day",
       "name": "St. Patrick's Day",
       "subtitle": "March 17",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=St.+Patrick's+Day"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kilbennan_St._Benin%27s_Church_Window_St._Patrick_Detail_2010_09_16.jpg/500px-Kilbennan_St._Benin%27s_Church_Window_St._Patrick_Detail_2010_09_16.jpg"
     },
     {
       "id": "memorial-day",
       "name": "Memorial Day",
       "subtitle": "Last Monday in May",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Memorial+Day"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG/500px-Graves_at_Arlington_on_Memorial_Day.JPG"
     },
     {
       "id": "labor-day",
@@ -76,25 +76,25 @@
       "id": "cinco-de-mayo",
       "name": "Cinco de Mayo",
       "subtitle": "May 5",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Cinco+de+Mayo"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Batalla_de_Puebla.png/500px-Batalla_de_Puebla.png"
     },
     {
       "id": "mardi-gras",
       "name": "Mardi Gras",
       "subtitle": "Before Lent",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mardi+Gras"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/KosmicFrenchmenPurpleFaceMardiGras2009.JPG/500px-KosmicFrenchmenPurpleFaceMardiGras2009.JPG"
     },
     {
       "id": "groundhog-day-holiday",
       "name": "Groundhog Day",
       "subtitle": "February 2",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Groundhog+Day"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Punxsutawney_Phil_Groundhog_Day_2022_Pennsylvania_%2851858203861%29.jpg/500px-Punxsutawney_Phil_Groundhog_Day_2022_Pennsylvania_%2851858203861%29.jpg"
     },
     {
       "id": "black-friday",
       "name": "Black Friday",
       "subtitle": "Day after Thanksgiving",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Black+Friday"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Black_Friday_by_Powhusku.jpg/500px-Black_Friday_by_Powhusku.jpg"
     }
   ]
 }

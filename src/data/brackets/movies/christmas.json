@@ -22,13 +22,13 @@
       "id": "its-a-wonderful-life",
       "name": "It's a Wonderful Life",
       "subtitle": "1946",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=It's+a+Wonderful+Life&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/It%27s_a_Wonderful_Life_%281946_poster%29.jpeg/500px-It%27s_a_Wonderful_Life_%281946_poster%29.jpeg"
     },
     {
       "id": "a-christmas-story",
       "name": "A Christmas Story",
       "subtitle": "1983",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=A+Christmas+Story&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/65/A_Christmas_Story_film_poster.jpg"
     },
     {
       "id": "the-nightmare-before-christmas",
@@ -40,7 +40,7 @@
       "id": "love-actually",
       "name": "Love Actually",
       "subtitle": "2003",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Love+Actually&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/eb/Love_Actually_movie.jpg"
     },
     {
       "id": "national-lampoons-christmas-vacation",
@@ -58,49 +58,49 @@
       "id": "how-the-grinch-stole-christmas",
       "name": "How the Grinch Stole Christmas",
       "subtitle": "2000",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=How+the+Grinch+Stole+Christmas&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e7/How_the_Grinch_Stole_Christmas_film_poster.jpg"
     },
     {
       "id": "a-charlie-brown-christmas",
       "name": "A Charlie Brown Christmas",
       "subtitle": "1965",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=A+Charlie+Brown+Christmas"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Charlie_Brown_Christmas.jpg/500px-Charlie_Brown_Christmas.jpg"
     },
     {
       "id": "rudolph-the-red-nosed-reindeer",
       "name": "Rudolph the Red-Nosed Reindeer",
       "subtitle": "1964",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Rudolph+the+Red-Nosed+Reindeer"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Rudolph_the_Red-Nosed_Reindeer_defective_copyright_notice.jpg/500px-Rudolph_the_Red-Nosed_Reindeer_defective_copyright_notice.jpg"
     },
     {
       "id": "the-santa-clause",
       "name": "The Santa Clause",
       "subtitle": "1994",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Santa+Clause"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/The_Santa_Clause_franchise_logo.jpg/500px-The_Santa_Clause_franchise_logo.jpg"
     },
     {
       "id": "miracle-on-34th-street",
       "name": "Miracle on 34th Street",
       "subtitle": "1947",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Miracle+on+34th+Street"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Miracle_on_34th_Street_%281947_film_poster%29.jpg/500px-Miracle_on_34th_Street_%281947_film_poster%29.jpg"
     },
     {
       "id": "white-christmas",
       "name": "White Christmas",
       "subtitle": "1954",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=White+Christmas"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/67/White_Christmas_film.jpg"
     },
     {
       "id": "scrooged",
       "name": "Scrooged",
       "subtitle": "1988",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Scrooged"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a1/Scrooged_film_poster.JPG"
     },
     {
       "id": "the-muppet-christmas-carol",
       "name": "The Muppet Christmas Carol",
       "subtitle": "1992",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Muppet+Christmas+Carol"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/95/Muppet_christmas_carol.jpg"
     },
     {
       "id": "jingle-all-the-way",
@@ -112,19 +112,19 @@
       "id": "bad-santa",
       "name": "Bad Santa",
       "subtitle": "2003",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Bad+Santa"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Poster_de_Basant_%281942%29.jpg"
     },
     {
       "id": "the-holiday",
       "name": "The Holiday",
       "subtitle": "2006",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Holiday"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/60/Theholidayposter.jpg"
     },
     {
       "id": "klaus",
       "name": "Klaus",
       "subtitle": "2019",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Klaus"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Klaus_poster.jpeg"
     },
     {
       "id": "a-christmas-carol-2009",

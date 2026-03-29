@@ -4,13 +4,13 @@
       "id": "doritos",
       "name": "Doritos",
       "subtitle": "Tortilla chips",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Doritos"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Doritos_Logo_%282013%29.png/500px-Doritos_Logo_%282013%29.png"
     },
     {
       "id": "cheez-its",
       "name": "Cheez-Its",
       "subtitle": "Cheese crackers",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cheez-Its"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cheez-It-Crackers.jpg/500px-Cheez-It-Crackers.jpg"
     },
     {
       "id": "goldfish",
@@ -28,7 +28,7 @@
       "id": "oreos",
       "name": "Oreos",
       "subtitle": "Sandwich cookies",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Oreos"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Oreo-Two-Cookies.png/500px-Oreo-Two-Cookies.png"
     },
     {
       "id": "hot-cheetos",
@@ -40,25 +40,25 @@
       "id": "pretzels",
       "name": "Pretzels",
       "subtitle": "Salted & twisted",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pretzels"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/BrezelnSalz02_%28cropped%29.JPG/500px-BrezelnSalz02_%28cropped%29.JPG"
     },
     {
       "id": "cheetos-puffs",
       "name": "Cheetos Puffs",
       "subtitle": "Cheese puffs",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cheetos+Puffs"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cheetos_logo.svg/500px-Cheetos_logo.svg.png"
     },
     {
       "id": "pringles",
       "name": "Pringles",
       "subtitle": "Stackable crisps",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pringles"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Pringles_2021.svg/500px-Pringles_2021.svg.png"
     },
     {
       "id": "ritz-crackers",
       "name": "Ritz Crackers",
       "subtitle": "Buttery crackers",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ritz+Crackers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ritz_crackers_logo.png/500px-Ritz_crackers_logo.png"
     },
     {
       "id": "trail-mix",
@@ -70,7 +70,7 @@
       "id": "takis",
       "name": "Takis",
       "subtitle": "Rolled tortilla chips",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Takis"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/82/Takis_logo.png"
     },
     {
       "id": "popcorn",
@@ -82,13 +82,13 @@
       "id": "chex-mix",
       "name": "Chex Mix",
       "subtitle": "Snack mix",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chex+Mix"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/98/Traditional_Chex_Mix.png"
     },
     {
       "id": "cheese-puffs",
       "name": "Pirate's Booty",
       "subtitle": "White cheddar puffs",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pirate's+Booty"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Robert%27s_American_Gourmet_Pirate%27s_Booty.JPG/500px-Robert%27s_American_Gourmet_Pirate%27s_Booty.JPG"
     },
     {
       "id": "sour-cream-onion",
@@ -100,7 +100,7 @@
       "id": "sun-chips",
       "name": "SunChips",
       "subtitle": "Multigrain chips",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=SunChips"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bc/SunChips_Logo.png"
     },
     {
       "id": "chips-ahoy",
@@ -118,37 +118,37 @@
       "id": "fruit-snacks",
       "name": "Fruit Snacks",
       "subtitle": "Gummy fruit shapes",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Fruit+Snacks"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Welch%27s_Fruit_Snacks_%284239096810%29.jpg/500px-Welch%27s_Fruit_Snacks_%284239096810%29.jpg"
     },
     {
       "id": "wheat-thins",
       "name": "Wheat Thins",
       "subtitle": "Wheat crackers",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Wheat+Thins"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fa/Wheat_thins_logo.png"
     },
     {
       "id": "cheese-nips",
       "name": "Better Cheddars",
       "subtitle": "Cheese crackers",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Better+Cheddars"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Bettercheddars_brand_logo.png"
     },
     {
       "id": "animal-crackers",
       "name": "Animal Crackers",
       "subtitle": "Sweet crackers",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Animal+Crackers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Animal_Crackers_Movie_Poster_%28Better_Quality%29.jpg/500px-Animal_Crackers_Movie_Poster_%28Better_Quality%29.jpg"
     },
     {
       "id": "funyuns",
       "name": "Funyuns",
       "subtitle": "Onion ring snacks",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Funyuns"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Funyuns_brand_logo.png/500px-Funyuns_brand_logo.png"
     },
     {
       "id": "bugles",
       "name": "Bugles",
       "subtitle": "Corn snacks",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Bugles"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bugle_in_C_MET_DP-12679-123.jpg/500px-Bugle_in_C_MET_DP-12679-123.jpg"
     },
     {
       "id": "combos",
@@ -160,37 +160,37 @@
       "id": "granola-bars",
       "name": "Granola Bars",
       "subtitle": "Nature Valley style",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Granola+Bars"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Granola%2C_yogurt%2C_fruit._%2816696981528%29.jpg/500px-Granola%2C_yogurt%2C_fruit._%2816696981528%29.jpg"
     },
     {
       "id": "rice-krispies-treats",
       "name": "Rice Krispies Treats",
       "subtitle": "Marshmallow cereal bars",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Rice+Krispies+Treats"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Ricekrispiestreats_brand_logo.png/500px-Ricekrispiestreats_brand_logo.png"
     },
     {
       "id": "fig-newtons",
       "name": "Fig Newtons",
       "subtitle": "Fig-filled cookies",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Fig+Newtons"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/2020-07-01_21_36_31_An_individual_Nabisco_Fig_Newton_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg/500px-2020-07-01_21_36_31_An_individual_Nabisco_Fig_Newton_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg"
     },
     {
       "id": "nutter-butters",
       "name": "Nutter Butters",
       "subtitle": "Peanut butter cookies",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Nutter+Butters"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Nutterbutter_brand_logo.png/500px-Nutterbutter_brand_logo.png"
     },
     {
       "id": "string-cheese",
       "name": "String Cheese",
       "subtitle": "Pull-apart mozzarella",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=String+Cheese"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%C3%9Aden%C3%BD_korb%C3%A1%C4%8Dik_%28Slovakia%29.jpg/500px-%C3%9Aden%C3%BD_korb%C3%A1%C4%8Dik_%28Slovakia%29.jpg"
     },
     {
       "id": "beef-jerky",
       "name": "Beef Jerky",
       "subtitle": "Dried meat snack",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Beef+Jerky"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7d/Beef_Jerky_label.jpg"
     }
   ]
 }

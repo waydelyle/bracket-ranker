@@ -4,7 +4,7 @@
       "id": "hey-jude",
       "name": "Hey Jude",
       "subtitle": "1968",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Hey+Jude"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/Heyjude1.png"
     },
     {
       "id": "let-it-be",
@@ -16,31 +16,31 @@
       "id": "come-together",
       "name": "Come Together",
       "subtitle": "Abbey Road",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Come+Together"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8c/Come_Together-Something_%28single_cover%29.jpg"
     },
     {
       "id": "yesterday",
       "name": "Yesterday",
       "subtitle": "Help!",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Yesterday"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/eb/Franks_cover.jpg"
     },
     {
       "id": "here-comes-the-sun",
       "name": "Here Comes the Sun",
       "subtitle": "Abbey Road",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Here+Comes+the+Sun"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/41/Thebeatles_here_comes_the_sun.jpg"
     },
     {
       "id": "a-day-in-the-life",
       "name": "A Day in the Life",
       "subtitle": "Sgt. Pepper's",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=A+Day+in+the+Life"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/02/%22A_Day_in_the_Life%22_US_sheet_music_cover.jpg"
     },
     {
       "id": "strawberry-fields-forever",
       "name": "Strawberry Fields Forever",
       "subtitle": "1967",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Strawberry+Fields+Forever"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/69/Pennystrawps.jpg"
     },
     {
       "id": "in-my-life",
@@ -52,67 +52,67 @@
       "id": "while-my-guitar-gently-weeps",
       "name": "While My Guitar Gently Weeps",
       "subtitle": "White Album",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=While+My+Guitar+Gently+Weeps"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ee/The_Beatles%27_While_My_Guitar_Gently_Weeps_sheet_music_cover.jpg"
     },
     {
       "id": "blackbird",
       "name": "Blackbird",
       "subtitle": "White Album",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Blackbird"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Lee_DeWyze.jpg/500px-Lee_DeWyze.jpg"
     },
     {
       "id": "eleanor-rigby",
       "name": "Eleanor Rigby",
       "subtitle": "Revolver",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Eleanor+Rigby"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/82/Eleanor_rigby_single_usa.jpg"
     },
     {
       "id": "twist-and-shout",
       "name": "Twist and Shout",
       "subtitle": "Please Please Me",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Twist+and+Shout"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Twist_and_Shout_by_The_Top_Notes_B-side_US_vinyl_label.jpg/500px-Twist_and_Shout_by_The_Top_Notes_B-side_US_vinyl_label.jpg"
     },
     {
       "id": "something",
       "name": "Something",
       "subtitle": "Abbey Road",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Something"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ae/RT-...SomethingTobe.jpg"
     },
     {
       "id": "i-want-to-hold-your-hand",
       "name": "I Want to Hold Your Hand",
       "subtitle": "1963",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=I+Want+to+Hold+Your+Hand"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e5/03_iwantoholdyourhand.jpg"
     },
     {
       "id": "help",
       "name": "Help!",
       "subtitle": "Help!",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Help!"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Help%21_Help%21_Police%21_%281919%29_-_Ad_1.jpg/500px-Help%21_Help%21_Police%21_%281919%29_-_Ad_1.jpg"
     },
     {
       "id": "penny-lane",
       "name": "Penny Lane",
       "subtitle": "1967",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Penny+Lane"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/69/Pennystrawps.jpg"
     },
     {
       "id": "nowhere-man",
       "name": "Nowhere Man",
       "subtitle": "Rubber Soul",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Nowhere+Man"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5b/Nowhere_man_single.PNG"
     },
     {
       "id": "norwegian-wood",
       "name": "Norwegian Wood",
       "subtitle": "Rubber Soul",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Norwegian+Wood"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bf/Norwegian_wood_upload_wizard.PNG"
     },
     {
       "id": "lucy-in-the-sky",
       "name": "Lucy in the Sky with Diamonds",
       "subtitle": "Sgt. Pepper's",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Lucy+in+the+Sky+with+Diamonds"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/Lucy_in_the_Sky_with_Diamonds_US_sheet_music_cover.jpg"
     },
     {
       "id": "all-you-need-is-love",
@@ -124,61 +124,61 @@
       "id": "across-the-universe",
       "name": "Across the Universe",
       "subtitle": "Let It Be",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Across+the+Universe"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/af/Across_the_universe_%282007_film%29_poster.jpg"
     },
     {
       "id": "dont-let-me-down",
       "name": "Don't Let Me Down",
       "subtitle": "1969",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Don't+Let+Me+Down"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/64/Bedknobs_and_Broomsticks_poster.jpg"
     },
     {
       "id": "ticket-to-ride",
       "name": "Ticket to Ride",
       "subtitle": "Help!",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ticket+to+Ride"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/Ticket_to_Ride.jpg"
     },
     {
       "id": "day-tripper",
       "name": "Day Tripper",
       "subtitle": "1965",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Day+Tripper"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/99/%22We_Can_Work_It_Out%22_and_%22Day_Tripper%22_%28Beatles_single_-_cover_art%29.jpg"
     },
     {
       "id": "get-back",
       "name": "Get Back",
       "subtitle": "Let It Be",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Get+Back"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Beatles_-_Let_It_Be.png/500px-The_Beatles_-_Let_It_Be.png"
     },
     {
       "id": "revolution",
       "name": "Revolution",
       "subtitle": "1968",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Revolution"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c0/Revolution_%281968%29_poster.jpg"
     },
     {
       "id": "we-can-work-it-out",
       "name": "We Can Work It Out",
       "subtitle": "1965",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=We+Can+Work+It+Out"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/99/%22We_Can_Work_It_Out%22_and_%22Day_Tripper%22_%28Beatles_single_-_cover_art%29.jpg"
     },
     {
       "id": "golden-slumbers",
       "name": "Golden Slumbers",
       "subtitle": "Abbey Road",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Golden+Slumbers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c8/Golden_slumber_sheet_music.PNG"
     },
     {
       "id": "the-long-and-winding-road",
       "name": "The Long and Winding Road",
       "subtitle": "Let It Be",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Long+and+Winding+Road"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bf/The_long_and_winding_road.png"
     },
     {
       "id": "i-am-the-walrus",
       "name": "I Am the Walrus",
       "subtitle": "Magical Mystery Tour",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=I+Am+the+Walrus"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f7/I_Am_the_Walrus_picture_sleeve.jpg"
     },
     {
       "id": "she-loves-you",
@@ -190,7 +190,7 @@
       "id": "taxman",
       "name": "Taxman",
       "subtitle": "Revolver",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Taxman"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e3/Taxman_sheet_music_cover.jpg"
     }
   ]
 }

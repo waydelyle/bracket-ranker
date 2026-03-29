@@ -4,31 +4,31 @@
       "id": "mac-and-cheese",
       "name": "Mac & Cheese",
       "subtitle": "Cheesy pasta perfection",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mac+%26+Cheese"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Original_Mac_n_Cheese_.jpg/500px-Original_Mac_n_Cheese_.jpg"
     },
     {
       "id": "grilled-cheese",
       "name": "Grilled Cheese",
       "subtitle": "Buttery & melty",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Grilled+Cheese"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Classic_Grilled_Cheese_Sandwich_%2825791331763%29_%28cropped%29.jpg/500px-Classic_Grilled_Cheese_Sandwich_%2825791331763%29_%28cropped%29.jpg"
     },
     {
       "id": "chicken-noodle-soup",
       "name": "Chicken Noodle Soup",
       "subtitle": "Feel-better food",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chicken+Noodle+Soup"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Chicken_Noodle_Soup.jpg/500px-Chicken_Noodle_Soup.jpg"
     },
     {
       "id": "pizza-comfort",
       "name": "Pizza",
       "subtitle": "Everyone's favorite",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pizza"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/500px-Pizza-3007395.jpg"
     },
     {
       "id": "mashed-potatoes",
       "name": "Mashed Potatoes",
       "subtitle": "Creamy & buttery",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mashed+Potatoes"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Sous_vide_mashed_potatoes.jpg/500px-Sous_vide_mashed_potatoes.jpg"
     },
     {
       "id": "fried-chicken",
@@ -40,55 +40,55 @@
       "id": "lasagna",
       "name": "Lasagna",
       "subtitle": "Layered Italian comfort",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Lasagna"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Lasagna_bolognese.jpg/500px-Lasagna_bolognese.jpg"
     },
     {
       "id": "chicken-pot-pie",
       "name": "Chicken Pot Pie",
       "subtitle": "Flaky & hearty",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chicken+Pot+Pie"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/ChickenpotpieswholeFeb09.jpg/500px-ChickenpotpieswholeFeb09.jpg"
     },
     {
       "id": "meatloaf",
       "name": "Meatloaf",
       "subtitle": "Classic American",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Meatloaf"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/MeatloafWithSauce.jpg/500px-MeatloafWithSauce.jpg"
     },
     {
       "id": "chili",
       "name": "Chili",
       "subtitle": "Warm & spicy",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chili"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Madame_Jeanette_and_other_chillies.jpg/500px-Madame_Jeanette_and_other_chillies.jpg"
     },
     {
       "id": "pot-roast",
       "name": "Pot Roast",
       "subtitle": "Slow-cooked perfection",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pot+Roast"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/American_pot_roast.jpg/500px-American_pot_roast.jpg"
     },
     {
       "id": "tomato-soup",
       "name": "Tomato Soup",
       "subtitle": "Pair with grilled cheese",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Tomato+Soup"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Tomato_soup%2C_plant-based_%2844040252791%29.jpg/500px-Tomato_soup%2C_plant-based_%2844040252791%29.jpg"
     },
     {
       "id": "french-fries",
       "name": "French Fries",
       "subtitle": "Salty & crispy",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=French+Fries"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/French_Fries.JPG/500px-French_Fries.JPG"
     },
     {
       "id": "spaghetti-meatballs",
       "name": "Spaghetti & Meatballs",
       "subtitle": "Italian-American classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Spaghetti+%26+Meatballs"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Spaghetti_and_meatballs_1.jpg/500px-Spaghetti_and_meatballs_1.jpg"
     },
     {
       "id": "biscuits-and-gravy",
       "name": "Biscuits & Gravy",
       "subtitle": "Southern staple",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Biscuits+%26+Gravy"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Biscuits-and-gravy.jpg/500px-Biscuits-and-gravy.jpg"
     },
     {
       "id": "shepherds-pie",
@@ -100,49 +100,49 @@
       "id": "chicken-tenders",
       "name": "Chicken Tenders",
       "subtitle": "Crispy strips",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chicken+Tenders"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Crispy_Chicken_Strips_-_FotoosVanRobin.jpg/500px-Crispy_Chicken_Strips_-_FotoosVanRobin.jpg"
     },
     {
       "id": "cornbread",
       "name": "Cornbread",
       "subtitle": "Sweet & crumbly",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cornbread"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Skillet_cornbread_%28cropped%29.jpg/500px-Skillet_cornbread_%28cropped%29.jpg"
     },
     {
       "id": "beef-stew",
       "name": "Beef Stew",
       "subtitle": "Hearty & rich",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Beef+Stew"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Lamb-stew.jpg/500px-Lamb-stew.jpg"
     },
     {
       "id": "tater-tots",
       "name": "Tater Tots",
       "subtitle": "Crispy potato nuggets",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Tater+Tots"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Tater_Tots_Close_Up_%2824782852665%29.jpg/500px-Tater_Tots_Close_Up_%2824782852665%29.jpg"
     },
     {
       "id": "loaded-baked-potato",
       "name": "Loaded Baked Potato",
       "subtitle": "Cheese, bacon & sour cream",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Loaded+Baked+Potato"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/BakedPotatoWithButter.jpg/500px-BakedPotatoWithButter.jpg"
     },
     {
       "id": "chicken-and-waffles",
       "name": "Chicken & Waffles",
       "subtitle": "Sweet meets savory",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chicken+%26+Waffles"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Chicken_and_waffles_with_peaches_and_cream.jpg/500px-Chicken_and_waffles_with_peaches_and_cream.jpg"
     },
     {
       "id": "ramen-comfort",
       "name": "Ramen",
       "subtitle": "Warm noodle bowl",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ramen"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Shoyu_ramen%2C_at_Kasukabe_Station_%282014.05.05%29_1.jpg/500px-Shoyu_ramen%2C_at_Kasukabe_Station_%282014.05.05%29_1.jpg"
     },
     {
       "id": "pho",
       "name": "Pho",
       "subtitle": "Vietnamese noodle soup",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pho"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Bowl_of_Meatball_pho.jpg/500px-Bowl_of_Meatball_pho.jpg"
     }
   ]
 }

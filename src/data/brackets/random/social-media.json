@@ -4,43 +4,43 @@
       "id": "instagram",
       "name": "Instagram",
       "subtitle": "Photo & video sharing",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Instagram"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/500px-Instagram_logo_2022.svg.png"
     },
     {
       "id": "tiktok",
       "name": "TikTok",
       "subtitle": "Short-form video",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=TikTok"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/TikTok.com_Screenshot.png/500px-TikTok.com_Screenshot.png"
     },
     {
       "id": "youtube",
       "name": "YouTube",
       "subtitle": "Video platform",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=YouTube"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Youtube_interface%2C_showing_search_results_of_Burger_Recipe.png/500px-Youtube_interface%2C_showing_search_results_of_Burger_Recipe.png"
     },
     {
       "id": "twitter-x",
       "name": "X (Twitter)",
       "subtitle": "Microblogging",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=X+(Twitter)"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/X_%28formerly_Twitter%29_logo_late_2025.svg/500px-X_%28formerly_Twitter%29_logo_late_2025.svg.png"
     },
     {
       "id": "reddit",
       "name": "Reddit",
       "subtitle": "Forum communities",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Reddit"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Reddit_screenshot_%28new%29.png/500px-Reddit_screenshot_%28new%29.png"
     },
     {
       "id": "snapchat",
       "name": "Snapchat",
       "subtitle": "Disappearing messages",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Snapchat"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Is_this_me_mental_disorder_of_looking.jpg/500px-Is_this_me_mental_disorder_of_looking.jpg"
     },
     {
       "id": "facebook",
       "name": "Facebook",
       "subtitle": "Social networking",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Facebook"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/64/Facebook_user_page.png"
     },
     {
       "id": "linkedin",
@@ -52,7 +52,7 @@
       "id": "pinterest",
       "name": "Pinterest",
       "subtitle": "Visual bookmarking",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Pinterest"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Pinterest_home.png/500px-Pinterest_home.png"
     },
     {
       "id": "discord",
@@ -64,37 +64,37 @@
       "id": "twitch",
       "name": "Twitch",
       "subtitle": "Live streaming",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Twitch"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Twitch_Website_Screenshot.png/500px-Twitch_Website_Screenshot.png"
     },
     {
       "id": "whatsapp",
       "name": "WhatsApp",
       "subtitle": "Messaging",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=WhatsApp"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/WhatsApp_Logo_green.svg/500px-WhatsApp_Logo_green.svg.png"
     },
     {
       "id": "telegram",
       "name": "Telegram",
       "subtitle": "Messaging",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Telegram"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Western_Union_Telegram_RCC_Eisenhower_Sept_26_1955.jpg/500px-Western_Union_Telegram_RCC_Eisenhower_Sept_26_1955.jpg"
     },
     {
       "id": "threads",
       "name": "Threads",
       "subtitle": "Text-based social",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Threads"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Threads_%28app%29.svg/500px-Threads_%28app%29.svg.png"
     },
     {
       "id": "bluesky",
       "name": "Bluesky",
       "subtitle": "Decentralized social",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Bluesky"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/500px-Bluesky_Logo.svg.png"
     },
     {
       "id": "spotify",
       "name": "Spotify",
       "subtitle": "Music streaming",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Spotify"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/24/Spotify_Live_Screenshot.png"
     }
   ]
 }

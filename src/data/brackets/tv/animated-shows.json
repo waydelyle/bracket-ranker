@@ -34,13 +34,13 @@
       "id": "family-guy",
       "name": "Family Guy",
       "subtitle": "1999-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Family+Guy&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Family_Guy_Logo.svg/500px-Family_Guy_Logo.svg.png"
     },
     {
       "id": "bobs-burgers",
       "name": "Bob's Burgers",
       "subtitle": "2011-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Bob's+Burgers&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/04/Bob%27s_Burgers_Movie_poster.jpg"
     },
     {
       "id": "bojack-horseman-anim",
@@ -52,7 +52,7 @@
       "id": "arcane",
       "name": "Arcane",
       "subtitle": "2021-2024",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Arcane"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/ArcadeTitleCard.png/500px-ArcadeTitleCard.png"
     },
     {
       "id": "adventure-time",
@@ -70,19 +70,19 @@
       "id": "spongebob",
       "name": "SpongeBob SquarePants",
       "subtitle": "1999-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=SpongeBob+SquarePants"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/SpongeBob_SquarePants_logo_by_Nickelodeon.svg/500px-SpongeBob_SquarePants_logo_by_Nickelodeon.svg.png"
     },
     {
       "id": "invincible",
       "name": "Invincible",
       "subtitle": "2021-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Invincible"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Doug_Liman_avp_2014.jpg/500px-Doug_Liman_avp_2014.jpg"
     },
     {
       "id": "archer",
       "name": "Archer",
       "subtitle": "2009-2023",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Archer&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/ArthurTVLogo.svg/500px-ArthurTVLogo.svg.png"
     },
     {
       "id": "american-dad",
@@ -100,7 +100,7 @@
       "id": "regular-show",
       "name": "Regular Show",
       "subtitle": "2010-2017",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Regular+Show"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1a/Regular_Show_the_Movie.jpg"
     },
     {
       "id": "the-boondocks",
@@ -112,7 +112,7 @@
       "id": "big-mouth",
       "name": "Big Mouth",
       "subtitle": "2017-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Big+Mouth"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bb/Big_Mouth_%28South_Korean_TV_series%29.jpg"
     },
     {
       "id": "clone-wars",
@@ -130,7 +130,7 @@
       "id": "cowboy-bebop-show",
       "name": "Cowboy Bebop",
       "subtitle": "1998-1999",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Cowboy+Bebop&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/Cowboy_Bebop_key_visual.jpg"
     },
     {
       "id": "castlevania",
@@ -184,13 +184,13 @@
       "id": "dbz-show",
       "name": "Dragon Ball Z",
       "subtitle": "1989-1996",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dragon+Ball+Z&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Dragon_Ball_anime_logo.png/500px-Dragon_Ball_anime_logo.png"
     },
     {
       "id": "samurai-jack",
       "name": "Samurai Jack",
       "subtitle": "2001-2017",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Samurai+Jack"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e9/Samurai_Jack_Season_5_DVD.jpeg"
     }
   ]
 }

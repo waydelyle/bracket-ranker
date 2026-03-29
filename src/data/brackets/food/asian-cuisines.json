@@ -4,61 +4,61 @@
       "id": "japanese",
       "name": "Japanese",
       "subtitle": "Sushi, ramen, tempura",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Japanese"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Nihongo.svg/500px-Nihongo.svg.png"
     },
     {
       "id": "thai",
       "name": "Thai",
       "subtitle": "Pad thai, curries, tom yum",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Thai"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/500px-Flag_of_Thailand.svg.png"
     },
     {
       "id": "chinese",
       "name": "Chinese",
       "subtitle": "Dim sum, stir fry, dumplings",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chinese"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Chineselanguage.svg/500px-Chineselanguage.svg.png"
     },
     {
       "id": "korean",
       "name": "Korean",
       "subtitle": "BBQ, bibimbap, kimchi",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Korean"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Chosin.jpg/500px-Chosin.jpg"
     },
     {
       "id": "indian",
       "name": "Indian",
       "subtitle": "Curry, naan, biryani",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Indian"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/KandaharHijacking.jpg/500px-KandaharHijacking.jpg"
     },
     {
       "id": "vietnamese",
       "name": "Vietnamese",
       "subtitle": "Pho, banh mi, spring rolls",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Vietnamese"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Natively_Vietnamese-speaking_areas.png/500px-Natively_Vietnamese-speaking_areas.png"
     },
     {
       "id": "filipino",
       "name": "Filipino",
       "subtitle": "Adobo, lumpia, sinigang",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Filipino"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Map_of_the_Filipino_Diaspora_in_the_World.svg/500px-Map_of_the_Filipino_Diaspora_in_the_World.svg.png"
     },
     {
       "id": "indonesian",
       "name": "Indonesian",
       "subtitle": "Nasi goreng, satay, rendang",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Indonesian"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8d/Indonesian_killings_1965.jpg"
     },
     {
       "id": "malaysian",
       "name": "Malaysian",
       "subtitle": "Laksa, nasi lemak, roti canai",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Malaysian"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/MAS_plane.jpg/500px-MAS_plane.jpg"
     },
     {
       "id": "taiwanese",
       "name": "Taiwanese",
       "subtitle": "Beef noodle soup, bubble tea",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Taiwanese"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/08.15_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C2016%E4%B8%89%E5%9C%B0%E9%96%80%E9%84%89%E8%81%AF%E5%90%88%E6%94%B6%E7%A9%AB%E7%A5%AD%E3%80%8D_%2828706865630%29.jpg/500px-08.15_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C2016%E4%B8%89%E5%9C%B0%E9%96%80%E9%84%89%E8%81%AF%E5%90%88%E6%94%B6%E7%A9%AB%E7%A5%AD%E3%80%8D_%2828706865630%29.jpg"
     },
     {
       "id": "singaporean",
@@ -70,19 +70,19 @@
       "id": "burmese",
       "name": "Burmese",
       "subtitle": "Mohinga, tea leaf salad",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Burmese"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Idioma_birmano.png"
     },
     {
       "id": "nepali",
       "name": "Nepali",
       "subtitle": "Momos, dal bhat",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Nepali"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Nepali_language_Devanagari.svg/500px-Nepali_language_Devanagari.svg.png"
     },
     {
       "id": "sri-lankan",
       "name": "Sri Lankan",
       "subtitle": "Hoppers, kottu roti",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Sri+Lankan"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Sri_Lanka_North_Eastern_Province_locator_map.svg/500px-Sri_Lanka_North_Eastern_Province_locator_map.svg.png"
     },
     {
       "id": "pakistani",

@@ -4,97 +4,97 @@
       "id": "nike",
       "name": "Nike",
       "subtitle": "Just Do It",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Nike"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Nike_Campus%2C_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg/500px-Nike_Campus%2C_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg"
     },
     {
       "id": "adidas",
       "name": "Adidas",
       "subtitle": "Impossible Is Nothing",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Adidas"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Adidas_2022_logo.svg/500px-Adidas_2022_logo.svg.png"
     },
     {
       "id": "jordan",
       "name": "Air Jordan",
       "subtitle": "Nike subsidiary",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Air+Jordan"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Jumpman_logo.svg/500px-Jumpman_logo.svg.png"
     },
     {
       "id": "under-armour",
       "name": "Under Armour",
       "subtitle": "I Will",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Under+Armour"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Under_armour_logo.svg/500px-Under_armour_logo.svg.png"
     },
     {
       "id": "puma",
       "name": "Puma",
       "subtitle": "Forever Faster",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Puma"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Club_Universidad_Nacional_logo.svg/500px-Club_Universidad_Nacional_logo.svg.png"
     },
     {
       "id": "new-balance",
       "name": "New Balance",
       "subtitle": "Fearlessly Independent",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+Balance"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/New_Balance_logo.svg/500px-New_Balance_logo.svg.png"
     },
     {
       "id": "reebok",
       "name": "Reebok",
       "subtitle": "Life is Not a Spectator Sport",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Reebok"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/89/Reebok_human_rights_logo.png"
     },
     {
       "id": "converse",
       "name": "Converse",
       "subtitle": "Chuck Taylor classics",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Converse"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Converse_logo.svg/500px-Converse_logo.svg.png"
     },
     {
       "id": "north-face",
       "name": "The North Face",
       "subtitle": "Never Stop Exploring",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=The+North+Face"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/The_North_Face.png/500px-The_North_Face.png"
     },
     {
       "id": "lululemon",
       "name": "Lululemon",
       "subtitle": "Athletic apparel",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Lululemon"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Lululemon_Athletica_logo.svg/500px-Lululemon_Athletica_logo.svg.png"
     },
     {
       "id": "asics",
       "name": "ASICS",
       "subtitle": "Sound Mind, Sound Body",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=ASICS"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Headquarters_of_ASICS_Corporation.JPG/500px-Headquarters_of_ASICS_Corporation.JPG"
     },
     {
       "id": "champion",
       "name": "Champion",
       "subtitle": "Athletic wear",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Champion"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Beowulf_-_cempan.jpg"
     },
     {
       "id": "fila",
       "name": "FILA",
       "subtitle": "Italian sport brand",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=FILA"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/HK_TPD_%E5%A4%A7%E5%9F%94_Tai_Po_%E5%A4%A7%E5%9F%94%E8%B6%85%E7%B4%9A%E5%9F%8E_Tai_Po_Mega_Mall_zone_A_July_2021_S64_125_FILA_Clothing_Store.jpg/500px-HK_TPD_%E5%A4%A7%E5%9F%94_Tai_Po_%E5%A4%A7%E5%9F%94%E8%B6%85%E7%B4%9A%E5%9F%8E_Tai_Po_Mega_Mall_zone_A_July_2021_S64_125_FILA_Clothing_Store.jpg"
     },
     {
       "id": "on-running",
       "name": "On Running",
       "subtitle": "Swiss performance",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=On+Running"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/On-cloud-logo-white-background.svg/500px-On-cloud-logo-white-background.svg.png"
     },
     {
       "id": "hoka",
       "name": "HOKA",
       "subtitle": "Fly human fly",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=HOKA"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Map_of_Japan_with_highlight_on_02edit_Hokkaido_prefecture.svg/500px-Map_of_Japan_with_highlight_on_02edit_Hokkaido_prefecture.svg.png"
     },
     {
       "id": "yeezy",
       "name": "Yeezy",
       "subtitle": "Kanye West brand",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Yeezy"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/97/YeezyGlobeLogo.png"
     }
   ]
 }

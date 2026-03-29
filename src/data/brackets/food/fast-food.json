@@ -16,19 +16,19 @@
       "id": "in-n-out",
       "name": "In-N-Out Burger",
       "subtitle": "Burgers",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=In-N-Out+Burger"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/InNOut_2021_logo.svg/500px-InNOut_2021_logo.svg.png"
     },
     {
       "id": "wendys",
       "name": "Wendy's",
       "subtitle": "Burgers & Frosties",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Wendy's"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Wendy%27s_full_logo_2012.svg/500px-Wendy%27s_full_logo_2012.svg.png"
     },
     {
       "id": "taco-bell",
       "name": "Taco Bell",
       "subtitle": "Mexican-Inspired",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Taco+Bell"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Taco_Bell_2023.svg/500px-Taco_Bell_2023.svg.png"
     },
     {
       "id": "chipotle",
@@ -40,25 +40,25 @@
       "id": "five-guys",
       "name": "Five Guys",
       "subtitle": "Burgers & Fries",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Five+Guys"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Five_Guys%2C_Merritt_Island.JPG/500px-Five_Guys%2C_Merritt_Island.JPG"
     },
     {
       "id": "popeyes",
       "name": "Popeyes",
       "subtitle": "Fried Chicken",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Popeyes"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Popeyes_Louisiana_Kitchen_%2851195358373%29.jpg/500px-Popeyes_Louisiana_Kitchen_%2851195358373%29.jpg"
     },
     {
       "id": "burger-king",
       "name": "Burger King",
       "subtitle": "Burgers",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Burger+King"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Burger_King_2020.svg/500px-Burger_King_2020.svg.png"
     },
     {
       "id": "raising-canes",
       "name": "Raising Cane's",
       "subtitle": "Chicken Fingers",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Raising+Cane's"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Raising_Cane%27s_Chicken_Fingers_logo.svg/500px-Raising_Cane%27s_Chicken_Fingers_logo.svg.png"
     },
     {
       "id": "whataburger",
@@ -70,19 +70,19 @@
       "id": "subway",
       "name": "Subway",
       "subtitle": "Subs & Sandwiches",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Subway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/A_Subway_restaurant_in_a_strip_mall_in_Franklin%2C_North_Carolina%2C_United_States.jpg/500px-A_Subway_restaurant_in_a_strip_mall_in_Franklin%2C_North_Carolina%2C_United_States.jpg"
     },
     {
       "id": "panda-express",
       "name": "Panda Express",
       "subtitle": "Chinese-American",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Panda+Express"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Panda_Express_Storefront_%2848128044623%29.jpg/500px-Panda_Express_Storefront_%2848128044623%29.jpg"
     },
     {
       "id": "kfc",
       "name": "KFC",
       "subtitle": "Fried Chicken",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=KFC"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/KFC_logo-image.svg/500px-KFC_logo-image.svg.png"
     },
     {
       "id": "shake-shack",

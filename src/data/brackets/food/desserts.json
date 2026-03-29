@@ -10,7 +10,7 @@
       "id": "apple-pie",
       "name": "Apple Pie",
       "subtitle": "American classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Apple+Pie"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Lattice_apple_pie.png/500px-Lattice_apple_pie.png"
     },
     {
       "id": "cheesecake-dessert",
@@ -22,19 +22,19 @@
       "id": "brownies",
       "name": "Brownies",
       "subtitle": "Fudgy chocolate squares",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Brownies"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Coccinelle_Volo_Regionale_Lombardo_2007.jpg/500px-Coccinelle_Volo_Regionale_Lombardo_2007.jpg"
     },
     {
       "id": "tiramisu",
       "name": "Tiramisu",
       "subtitle": "Coffee-soaked Italian",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Tiramisu"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tiramisu_-_Raffaele_Diomede.jpg/500px-Tiramisu_-_Raffaele_Diomede.jpg"
     },
     {
       "id": "creme-brulee",
       "name": "Creme Brulee",
       "subtitle": "Caramelized custard",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Creme+Brulee"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/2014_0531_Cr%C3%A8me_br%C3%BBl%C3%A9e_Doi_Mae_Salong_%28cropped%29.jpg/500px-2014_0531_Cr%C3%A8me_br%C3%BBl%C3%A9e_Doi_Mae_Salong_%28cropped%29.jpg"
     },
     {
       "id": "ice-cream-sundae",
@@ -46,49 +46,49 @@
       "id": "banana-split",
       "name": "Banana Split",
       "subtitle": "Three scoops classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Banana+Split"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Banana_split_1.jpg/500px-Banana_split_1.jpg"
     },
     {
       "id": "red-velvet-cake",
       "name": "Red Velvet Cake",
       "subtitle": "Cream cheese frosting",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Red+Velvet+Cake"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Red_Velvet_Cake_Waldorf_Astoria.jpg/500px-Red_Velvet_Cake_Waldorf_Astoria.jpg"
     },
     {
       "id": "key-lime-pie",
       "name": "Key Lime Pie",
       "subtitle": "Tart & tangy",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Key+Lime+Pie"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Slice_of_Key_Lime_Pie.jpg/500px-Slice_of_Key_Lime_Pie.jpg"
     },
     {
       "id": "pumpkin-pie",
       "name": "Pumpkin Pie",
       "subtitle": "Thanksgiving staple",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pumpkin+Pie"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Pumpkin-Pie-Whole-Slice.jpg/500px-Pumpkin-Pie-Whole-Slice.jpg"
     },
     {
       "id": "chocolate-chip-cookies-dessert",
       "name": "Chocolate Chip Cookies",
       "subtitle": "Warm & gooey",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Chocolate+Chip+Cookies"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Choco_chip_cookie.png/500px-Choco_chip_cookie.png"
     },
     {
       "id": "carrot-cake",
       "name": "Carrot Cake",
       "subtitle": "Spiced & frosted",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Carrot+Cake"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Carrot_cake_at_America_Graffiti_%28cropped%29.jpg/500px-Carrot_cake_at_America_Graffiti_%28cropped%29.jpg"
     },
     {
       "id": "banana-pudding",
       "name": "Banana Pudding",
       "subtitle": "Southern layered dessert",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Banana+Pudding"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Banana_pudding%2C_homemade.jpg/500px-Banana_pudding%2C_homemade.jpg"
     },
     {
       "id": "churros",
       "name": "Churros",
       "subtitle": "Fried & cinnamon-sugar",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Churros"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Chocolate_con_churros_%2827343655726%29.jpg/500px-Chocolate_con_churros_%2827343655726%29.jpg"
     },
     {
       "id": "lava-cake",
@@ -106,19 +106,19 @@
       "id": "pecan-pie",
       "name": "Pecan Pie",
       "subtitle": "Nutty & sweet",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pecan+Pie"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Pecan_pie%2C_November_2010.jpg/500px-Pecan_pie%2C_November_2010.jpg"
     },
     {
       "id": "bread-pudding",
       "name": "Bread Pudding",
       "subtitle": "Warm & custardy",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Bread+Pudding"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Rew13c05-745a_Bread_Pudding.JPG/500px-Rew13c05-745a_Bread_Pudding.JPG"
     },
     {
       "id": "macarons-dessert",
       "name": "Macarons",
       "subtitle": "French meringue cookies",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Macarons"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VanillaMacaron.jpg/500px-VanillaMacaron.jpg"
     },
     {
       "id": "panna-cotta",
@@ -130,7 +130,7 @@
       "id": "crepes",
       "name": "Crepes",
       "subtitle": "Thin French pancakes",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Crepes"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Crepes_dsc07085.jpg/500px-Crepes_dsc07085.jpg"
     },
     {
       "id": "baklava",
@@ -142,7 +142,7 @@
       "id": "tres-leches",
       "name": "Tres Leches Cake",
       "subtitle": "Three-milk soaked cake",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Tres+Leches+Cake"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Pastel_de_Tres_Leches.jpg/500px-Pastel_de_Tres_Leches.jpg"
     }
   ]
 }

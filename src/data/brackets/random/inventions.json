@@ -4,25 +4,25 @@
       "id": "internet",
       "name": "The Internet",
       "subtitle": "1983",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Internet"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Internet_map_1024_-_transparent%2C_inverted.png/500px-Internet_map_1024_-_transparent%2C_inverted.png"
     },
     {
       "id": "printing-press",
       "name": "Printing Press",
       "subtitle": "1440",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Printing+Press"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/PrintMus_038.jpg/500px-PrintMus_038.jpg"
     },
     {
       "id": "electricity",
       "name": "Electricity",
       "subtitle": "1879 (light bulb)",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Electricity"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/London_MMB_%C2%BB1E6_Lightning.jpg/500px-London_MMB_%C2%BB1E6_Lightning.jpg"
     },
     {
       "id": "wheel",
       "name": "The Wheel",
       "subtitle": "~3500 BC",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Wheel"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/00/WoT01_TheEyeOfTheWorld.jpg"
     },
     {
       "id": "smartphone",
@@ -40,13 +40,13 @@
       "id": "airplane",
       "name": "Airplane",
       "subtitle": "1903",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Airplane"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/United_Airlines_Boeing_777-200_Meulemans.jpg/500px-United_Airlines_Boeing_777-200_Meulemans.jpg"
     },
     {
       "id": "telephone",
       "name": "Telephone",
       "subtitle": "1876",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Telephone"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Telefon_BW_2012-02-18_13-44-32.JPG/500px-Telefon_BW_2012-02-18_13-44-32.JPG"
     },
     {
       "id": "television",
@@ -58,7 +58,7 @@
       "id": "automobile",
       "name": "Automobile",
       "subtitle": "1886",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Automobile"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/1925_Ford_Model_T_touring.jpg/500px-1925_Ford_Model_T_touring.jpg"
     },
     {
       "id": "computer",
@@ -70,19 +70,19 @@
       "id": "steam-engine",
       "name": "Steam Engine",
       "subtitle": "1712",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Steam+Engine"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Steam_locomotive_gear_%28J%C5%BD_06-018%3B_Slovenia%29.jpg/500px-Steam_locomotive_gear_%28J%C5%BD_06-018%3B_Slovenia%29.jpg"
     },
     {
       "id": "vaccines",
       "name": "Vaccines",
       "subtitle": "1796",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Vaccines"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Smallpox_vaccine.jpg/500px-Smallpox_vaccine.jpg"
     },
     {
       "id": "compass",
       "name": "Compass",
       "subtitle": "~1100",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Compass"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2016_Busola.JPG/500px-2016_Busola.JPG"
     },
     {
       "id": "camera",
@@ -94,7 +94,7 @@
       "id": "gps",
       "name": "GPS",
       "subtitle": "1978",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=GPS"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/GPS_Block_IIIA.jpg/500px-GPS_Block_IIIA.jpg"
     }
   ]
 }

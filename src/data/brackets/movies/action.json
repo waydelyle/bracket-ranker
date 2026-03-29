@@ -4,7 +4,7 @@
       "id": "mad-max-fury-road",
       "name": "Mad Max: Fury Road",
       "subtitle": "2015",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Mad+Max%3A+Fury+Road&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6e/Mad_Max_Fury_Road.jpg"
     },
     {
       "id": "john-wick",
@@ -28,13 +28,13 @@
       "id": "terminator-2-action",
       "name": "Terminator 2: Judgment Day",
       "subtitle": "1991",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Terminator+2%3A+Judgment+Day&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Terminator_2-Judgment_Day.png"
     },
     {
       "id": "raiders-of-the-lost-ark",
       "name": "Raiders of the Lost Ark",
       "subtitle": "1981",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Raiders+of+the+Lost+Ark"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a6/Raiders_of_the_Lost_Ark_Theatrical_Poster.jpg"
     },
     {
       "id": "gladiator",
@@ -52,7 +52,7 @@
       "id": "mission-impossible-fallout",
       "name": "Mission: Impossible - Fallout",
       "subtitle": "2018",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Mission%3A+Impossible+-+Fallout"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/ff/MI_%E2%80%93_Fallout.jpg"
     },
     {
       "id": "kill-bill-vol-1",
@@ -64,25 +64,25 @@
       "id": "top-gun-maverick",
       "name": "Top Gun: Maverick",
       "subtitle": "2022",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Top+Gun%3A+Maverick&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/13/Top_Gun_Maverick_Poster.jpg"
     },
     {
       "id": "the-bourne-identity",
       "name": "The Bourne Identity",
       "subtitle": "2002",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Bourne+Identity&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ae/BourneIdentityfilm.jpg"
     },
     {
       "id": "predator",
       "name": "Predator",
       "subtitle": "1987",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Predator"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/95/Predator_Movie.jpg"
     },
     {
       "id": "lethal-weapon",
       "name": "Lethal Weapon",
       "subtitle": "1987",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Lethal+Weapon"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d9/Lethal_weapon1.jpg"
     },
     {
       "id": "the-raid",
@@ -94,13 +94,13 @@
       "id": "crouching-tiger-hidden-dragon",
       "name": "Crouching Tiger, Hidden Dragon",
       "subtitle": "2000",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Crouching+Tiger%2C+Hidden+Dragon"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/27/Crouching_Tiger%2C_Hidden_Dragon_%28Chinese_poster%29.png"
     },
     {
       "id": "fury-road",
       "name": "The Road Warrior",
       "subtitle": "1981",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Road+Warrior"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f7/Mad_max_two_the_road_warrior.jpg"
     },
     {
       "id": "300",
@@ -124,7 +124,7 @@
       "id": "point-break",
       "name": "Point Break",
       "subtitle": "1991",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Point+Break"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/Pointbreaktheatrical.jpg"
     },
     {
       "id": "total-recall",
@@ -136,7 +136,7 @@
       "id": "robocop",
       "name": "RoboCop",
       "subtitle": "1987",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=RoboCop"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/16/RoboCop_%281987%29_theatrical_poster.jpg"
     },
     {
       "id": "the-fugitive",
@@ -154,19 +154,19 @@
       "id": "casino-royale",
       "name": "Casino Royale",
       "subtitle": "2006",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Casino+Royale"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Casino_Royale_%282006_film_poster%29.jpg/500px-Casino_Royale_%282006_film_poster%29.jpg"
     },
     {
       "id": "the-rock",
       "name": "The Rock",
       "subtitle": "1996",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Rock"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/82/The_Rock_%28movie%29.jpg"
     },
     {
       "id": "fast-five",
       "name": "Fast Five",
       "subtitle": "2011",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Fast+Five"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/Fast_Five_poster.jpg"
     },
     {
       "id": "aliens",
@@ -178,7 +178,7 @@
       "id": "extraction",
       "name": "Extraction",
       "subtitle": "2020",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Extraction"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/89/Extraction_%282020_film%29.png"
     },
     {
       "id": "first-blood",

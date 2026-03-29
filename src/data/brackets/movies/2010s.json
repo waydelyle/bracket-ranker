@@ -34,13 +34,13 @@
       "id": "get-out-10s",
       "name": "Get Out",
       "subtitle": "2017",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Get+Out&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a3/Get_Out_poster.png"
     },
     {
       "id": "the-social-network",
       "name": "The Social Network",
       "subtitle": "2010",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Social+Network&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Social_Network_film_poster.png"
     },
     {
       "id": "django-unchained",
@@ -88,7 +88,7 @@
       "id": "avengers-endgame-10s",
       "name": "Avengers: Endgame",
       "subtitle": "2019",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Avengers%3A+Endgame&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg"
     },
     {
       "id": "black-panther-10s",
@@ -136,13 +136,13 @@
       "id": "1917-10s",
       "name": "1917",
       "subtitle": "2019",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=1917&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/1917_%282019%29_Film_Poster.jpeg/500px-1917_%282019%29_Film_Poster.jpeg"
     },
     {
       "id": "gravity-10s",
       "name": "Gravity",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Gravity"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f6/Gravity_Poster.jpg"
     },
     {
       "id": "inside-out-10s",
@@ -160,13 +160,13 @@
       "id": "her-10s",
       "name": "Her",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Her"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/44/Her2013Poster.jpg"
     },
     {
       "id": "toy-story-3-10s",
       "name": "Toy Story 3",
       "subtitle": "2010",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Toy+Story+3&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4c/Toy_Story_4_poster.jpg"
     },
     {
       "id": "dunkirk",

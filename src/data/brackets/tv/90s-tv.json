@@ -46,7 +46,7 @@
       "id": "twin-peaks",
       "name": "Twin Peaks",
       "subtitle": "1990-1991",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Twin+Peaks&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/eb/Twin_Peaks_2017_Poster.jpg"
     },
     {
       "id": "south-park-90s",
@@ -58,7 +58,7 @@
       "id": "law-and-order",
       "name": "Law & Order",
       "subtitle": "1990-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Law+%26+Order"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/14/Law_and_order_uk_series_1_dvd.jpg"
     },
     {
       "id": "er",
@@ -88,7 +88,7 @@
       "id": "dawsons-creek",
       "name": "Dawson's Creek",
       "subtitle": "1998-2003",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dawson's+Creek"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mile_Zero_Post.jpg/500px-Mile_Zero_Post.jpg"
     },
     {
       "id": "that-70s-show-90s",
@@ -100,7 +100,7 @@
       "id": "will-and-grace-90s",
       "name": "Will & Grace",
       "subtitle": "1998-2006",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Will+%26+Grace"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/82/Will_%26_Grace_Season_4.jpg"
     },
     {
       "id": "the-nanny",
@@ -130,7 +130,7 @@
       "id": "the-west-wing-90s",
       "name": "The West Wing",
       "subtitle": "1999-2006",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+West+Wing"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/19/The_West_Wing_season_7_DVD.jpg"
     },
     {
       "id": "oz",

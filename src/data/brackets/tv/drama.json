@@ -28,7 +28,7 @@
       "id": "succession",
       "name": "Succession",
       "subtitle": "2018-2023",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Succession&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Sovereign%27s_Throne%2C_House_of_Lords.jpg/500px-Sovereign%27s_Throne%2C_House_of_Lords.jpg"
     },
     {
       "id": "better-call-saul",
@@ -52,7 +52,7 @@
       "id": "the-west-wing",
       "name": "The West Wing",
       "subtitle": "1999-2006",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+West+Wing"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/19/The_West_Wing_season_7_DVD.jpg"
     },
     {
       "id": "the-last-of-us",
@@ -76,7 +76,7 @@
       "id": "downton-abbey",
       "name": "Downton Abbey",
       "subtitle": "2010-2015",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Downton+Abbey"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e5/Downton_Abbey_Series_2.jpg"
     },
     {
       "id": "lost",
@@ -106,25 +106,25 @@
       "id": "the-walking-dead",
       "name": "The Walking Dead",
       "subtitle": "2010-2022",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Walking+Dead&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/07/The_Walking_Dead_Original_Soundtrack%2C_Vol._1_cover_artwork.jpg"
     },
     {
       "id": "greys-anatomy",
       "name": "Grey's Anatomy",
       "subtitle": "2005-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Grey's+Anatomy"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5b/Grey%27s_Anatomy_Season_Two_DVD_Cover.jpg"
     },
     {
       "id": "this-is-us",
       "name": "This Is Us",
       "subtitle": "2016-2022",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=This+Is+Us"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d2/ThisIsUs_S1_e.jpg"
     },
     {
       "id": "mr-robot",
       "name": "Mr. Robot",
       "subtitle": "2015-2019",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Mr.+Robot"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b7/Mr._Roboto.JPG"
     },
     {
       "id": "the-leftovers",
@@ -172,7 +172,7 @@
       "id": "shogun",
       "name": "Shogun",
       "subtitle": "2024",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Shogun"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/71/Shogun_Total_War.jpg"
     },
     {
       "id": "severance",
@@ -184,13 +184,13 @@
       "id": "slow-horses",
       "name": "Slow Horses",
       "subtitle": "2022-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Slow+Horses"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/72/Slow_Horses_Cover.jpg"
     },
     {
       "id": "the-white-lotus",
       "name": "The White Lotus",
       "subtitle": "2021-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+White+Lotus"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/12/The_White_Lotus_Season_2.png"
     }
   ]
 }

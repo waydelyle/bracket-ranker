@@ -4,61 +4,61 @@
       "id": "tacos",
       "name": "Tacos",
       "subtitle": "Mexican street classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Tacos"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/500px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg"
     },
     {
       "id": "hot-dogs",
       "name": "Hot Dogs",
       "subtitle": "American classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Hot+Dogs"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Hot_dog_with_mustard.png/500px-Hot_dog_with_mustard.png"
     },
     {
       "id": "gyros",
       "name": "Gyros",
       "subtitle": "Greek meat wrap",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Gyros"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pita_giros.JPG/500px-Pita_giros.JPG"
     },
     {
       "id": "falafel",
       "name": "Falafel",
       "subtitle": "Fried chickpea balls",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Falafel"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Falafels_2.jpg/500px-Falafels_2.jpg"
     },
     {
       "id": "empanadas",
       "name": "Empanadas",
       "subtitle": "Stuffed pastry pockets",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Empanadas"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Tapa_de_empanadillitas.JPG/500px-Tapa_de_empanadillitas.JPG"
     },
     {
       "id": "pretzels-street",
       "name": "Soft Pretzels",
       "subtitle": "Twisted & salted",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Soft+Pretzels"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/BrezelnSalz02_%28cropped%29.JPG/500px-BrezelnSalz02_%28cropped%29.JPG"
     },
     {
       "id": "elote",
       "name": "Elote",
       "subtitle": "Mexican street corn",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Elote"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/CookedCornOnTheCob.JPG/500px-CookedCornOnTheCob.JPG"
     },
     {
       "id": "kebabs",
       "name": "Kebabs",
       "subtitle": "Grilled meat skewers",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Kebabs"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Lula_kebab_2.jpg/500px-Lula_kebab_2.jpg"
     },
     {
       "id": "pad-thai-street",
       "name": "Pad Thai",
       "subtitle": "Thai stir-fried noodles",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pad+Thai"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg/500px-Phat_Thai_kung_Chang_Khien_street_stall.jpg"
     },
     {
       "id": "arepa",
       "name": "Arepas",
       "subtitle": "Venezuelan corn cakes",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Arepas"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Arepas_Tradicionales.jpg/500px-Arepas_Tradicionales.jpg"
     },
     {
       "id": "dim-sum",
@@ -76,25 +76,25 @@
       "id": "crepes-street",
       "name": "Crepes",
       "subtitle": "French street pancakes",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Crepes"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Crepes_dsc07085.jpg/500px-Crepes_dsc07085.jpg"
     },
     {
       "id": "jerk-chicken",
       "name": "Jerk Chicken",
       "subtitle": "Jamaican spiced chicken",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Jerk+Chicken"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/BBQJerk_Chicken.jpg/500px-BBQJerk_Chicken.jpg"
     },
     {
       "id": "currywurst",
       "name": "Currywurst",
       "subtitle": "German curry sausage",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Currywurst"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/20220430_currywurst.jpg/500px-20220430_currywurst.jpg"
     },
     {
       "id": "churros-street",
       "name": "Churros",
       "subtitle": "Spanish fried dough",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Churros"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Chocolate_con_churros_%2827343655726%29.jpg/500px-Chocolate_con_churros_%2827343655726%29.jpg"
     }
   ]
 }

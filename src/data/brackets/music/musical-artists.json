@@ -4,31 +4,31 @@
       "id": "the-beatles",
       "name": "The Beatles",
       "subtitle": "Rock",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Beatles"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0f/The_Beatles_Rock_Band_box_art.jpg"
     },
     {
       "id": "michael-jackson",
       "name": "Michael Jackson",
       "subtitle": "Pop",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Michael+Jackson"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Michael_Jackson_Impersonator_Billie_Jean.jpg/500px-Michael_Jackson_Impersonator_Billie_Jean.jpg"
     },
     {
       "id": "elvis-presley",
       "name": "Elvis Presley",
       "subtitle": "Rock & Roll",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Elvis+Presley"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Elvis_Presley_-_Modern_Screen%2C_June_1958.jpg/500px-Elvis_Presley_-_Modern_Screen%2C_June_1958.jpg"
     },
     {
       "id": "queen",
       "name": "Queen",
       "subtitle": "Rock",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Queen"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/66/Queen_Rock_Montreal.jpg"
     },
     {
       "id": "david-bowie",
       "name": "David Bowie",
       "subtitle": "Rock",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=David+Bowie"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c8/PhishJunta88.jpg"
     },
     {
       "id": "prince",
@@ -46,7 +46,7 @@
       "id": "led-zeppelin",
       "name": "Led Zeppelin",
       "subtitle": "Rock",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Led+Zeppelin"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/LZTR_%28Majority%29_%283%29.JPG/500px-LZTR_%28Majority%29_%283%29.JPG"
     },
     {
       "id": "beyonce",
@@ -58,7 +58,7 @@
       "id": "bob-dylan",
       "name": "Bob Dylan",
       "subtitle": "Folk/Rock",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bob+Dylan"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5c/Fall_Out_Boy_-_Believers_Never_Die_Volume_Two.png"
     },
     {
       "id": "stevie-wonder",
@@ -88,37 +88,37 @@
       "id": "pink-floyd",
       "name": "Pink Floyd",
       "subtitle": "Rock",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Pink+Floyd"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Pink_Floyd_-_all_members.jpg"
     },
     {
       "id": "rolling-stones",
       "name": "The Rolling Stones",
       "subtitle": "Rock",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Rolling+Stones"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ee/The_Rolling_Stones_Rock-and-Roll_Circus_poster_300x417px.jpg"
     },
     {
       "id": "bob-marley",
       "name": "Bob Marley",
       "subtitle": "Reggae",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bob+Marley"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0f/BobMarleyDeanBrody.jpg"
     },
     {
       "id": "nirvana",
       "name": "Nirvana",
       "subtitle": "Grunge",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Nirvana"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5b/Nirvana-usa-sliver-sub-pop-s.jpg"
     },
     {
       "id": "adele",
       "name": "Adele",
       "subtitle": "Pop/Soul",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Adele"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a8/Adele_-_One_Night_Only.jpeg"
     },
     {
       "id": "bruce-springsteen",
       "name": "Bruce Springsteen",
       "subtitle": "Rock",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bruce+Springsteen"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Bruce_springsteen_tracks.jpg/500px-Bruce_springsteen_tracks.jpg"
     },
     {
       "id": "elton-john",
@@ -130,31 +130,31 @@
       "id": "jimi-hendrix",
       "name": "Jimi Hendrix",
       "subtitle": "Rock",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Jimi+Hendrix"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Rock_Band_logo.svg/500px-Rock_Band_logo.svg.png"
     },
     {
       "id": "frank-sinatra",
       "name": "Frank Sinatra",
       "subtitle": "Jazz/Pop",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Frank+Sinatra"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9e/Sinatraonlythelonely.jpg"
     },
     {
       "id": "mariah-carey",
       "name": "Mariah Carey",
       "subtitle": "Pop/R&B",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Mariah+Carey"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/A_No_No_Remix_%28featuring_Stefflon_Don%29_-_Mariah_Carey_%28Official_Single_Cover%29.png"
     },
     {
       "id": "radiohead",
       "name": "Radiohead",
       "subtitle": "Alt Rock",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Radiohead"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Talking_Heads_-_True_Stories.svg/500px-Talking_Heads_-_True_Stories.svg.png"
     },
     {
       "id": "u2",
       "name": "U2",
       "subtitle": "Rock",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=U2"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Rock_Challenge.jpg"
     },
     {
       "id": "kanye-west-artist",

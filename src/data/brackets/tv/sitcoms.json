@@ -22,7 +22,7 @@
       "id": "parks-and-rec",
       "name": "Parks and Recreation",
       "subtitle": "2009-2015",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Parks+and+Recreation&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Parks_and_recreation_season_1_dvd_cover.jpg"
     },
     {
       "id": "brooklyn-nine-nine",
@@ -46,7 +46,7 @@
       "id": "schitts-creek",
       "name": "Schitt's Creek",
       "subtitle": "2015-2020",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Schitt's+Creek"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Schitt%27s_Creek_logo.svg/500px-Schitt%27s_Creek_logo.svg.png"
     },
     {
       "id": "arrested-development",
@@ -58,7 +58,7 @@
       "id": "curb-your-enthusiasm",
       "name": "Curb Your Enthusiasm",
       "subtitle": "2000-2024",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Curb+Your+Enthusiasm"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/48/Curb_Your_Enthusiasm_season_3.png"
     },
     {
       "id": "the-good-place",
@@ -76,7 +76,7 @@
       "id": "modern-family",
       "name": "Modern Family",
       "subtitle": "2009-2020",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Modern+Family"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Modern_Family_season_11_poster.jpg"
     },
     {
       "id": "the-big-bang-theory",
@@ -88,13 +88,13 @@
       "id": "community",
       "name": "Community",
       "subtitle": "2009-2015",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Community"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/60/CommunionTVseriesPoster.jpg"
     },
     {
       "id": "30-rock",
       "name": "30 Rock",
       "subtitle": "2006-2013",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=30+Rock"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/30Rock_logo.svg/500px-30Rock_logo.svg.png"
     },
     {
       "id": "frasier",
@@ -124,7 +124,7 @@
       "id": "two-and-a-half-men",
       "name": "Two and a Half Men",
       "subtitle": "2003-2015",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Two+and+a+Half+Men"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c9/Twoandahalfmen1.jpg"
     },
     {
       "id": "ted-lasso",
@@ -160,7 +160,7 @@
       "id": "scrubs",
       "name": "Scrubs",
       "subtitle": "2001-2010",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Scrubs"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Scruff.jpg/500px-Scruff.jpg"
     },
     {
       "id": "that-70s-show",
@@ -172,13 +172,13 @@
       "id": "veep",
       "name": "Veep",
       "subtitle": "2012-2019",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Veep"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8d/Vera_tv_series_titlecard.JPG"
     },
     {
       "id": "will-and-grace",
       "name": "Will & Grace",
       "subtitle": "1998-2020",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Will+%26+Grace"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/82/Will_%26_Grace_Season_4.jpg"
     },
     {
       "id": "king-of-the-hill",
@@ -190,7 +190,7 @@
       "id": "superstore",
       "name": "Superstore",
       "subtitle": "2015-2021",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Superstore"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Idols_2013_logo.png/500px-Idols_2013_logo.png"
     }
   ]
 }

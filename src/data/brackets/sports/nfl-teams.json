@@ -4,13 +4,13 @@
       "id": "dallas-cowboys",
       "name": "Dallas Cowboys",
       "subtitle": "NFC East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Dallas+Cowboys"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Dallas_Cowboys.svg/500px-Dallas_Cowboys.svg.png"
     },
     {
       "id": "new-england-patriots",
       "name": "New England Patriots",
       "subtitle": "AFC East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+England+Patriots"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/New_England_Patriots_logo.svg/500px-New_England_Patriots_logo.svg.png"
     },
     {
       "id": "green-bay-packers",
@@ -28,151 +28,151 @@
       "id": "san-francisco-49ers",
       "name": "San Francisco 49ers",
       "subtitle": "NFC West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=San+Francisco+49ers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/San_Francisco_49ers_logo.svg/500px-San_Francisco_49ers_logo.svg.png"
     },
     {
       "id": "pittsburgh-steelers",
       "name": "Pittsburgh Steelers",
       "subtitle": "AFC North",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Pittsburgh+Steelers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Pittsburgh_Steelers_logo.svg/500px-Pittsburgh_Steelers_logo.svg.png"
     },
     {
       "id": "buffalo-bills",
       "name": "Buffalo Bills",
       "subtitle": "AFC East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Buffalo+Bills"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Buffalo_Bills_logo.svg/500px-Buffalo_Bills_logo.svg.png"
     },
     {
       "id": "philadelphia-eagles",
       "name": "Philadelphia Eagles",
       "subtitle": "NFC East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Philadelphia+Eagles"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Philadelphia_Eagles_logo.svg/500px-Philadelphia_Eagles_logo.svg.png"
     },
     {
       "id": "detroit-lions",
       "name": "Detroit Lions",
       "subtitle": "NFC North",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Detroit+Lions"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Detroit_Lions_logo.svg/500px-Detroit_Lions_logo.svg.png"
     },
     {
       "id": "baltimore-ravens",
       "name": "Baltimore Ravens",
       "subtitle": "AFC North",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Baltimore+Ravens"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Baltimore_Ravens_logo.svg/500px-Baltimore_Ravens_logo.svg.png"
     },
     {
       "id": "miami-dolphins",
       "name": "Miami Dolphins",
       "subtitle": "AFC East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Miami+Dolphins"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Miami_Dolphins_logo.svg/500px-Miami_Dolphins_logo.svg.png"
     },
     {
       "id": "seattle-seahawks",
       "name": "Seattle Seahawks",
       "subtitle": "NFC West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Seattle+Seahawks"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Seattle_Seahawks_logo.svg/500px-Seattle_Seahawks_logo.svg.png"
     },
     {
       "id": "tampa-bay-buccaneers",
       "name": "Tampa Bay Buccaneers",
       "subtitle": "NFC South",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tampa+Bay+Buccaneers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Tampa_Bay_Buccaneers_logo.svg/500px-Tampa_Bay_Buccaneers_logo.svg.png"
     },
     {
       "id": "las-vegas-raiders",
       "name": "Las Vegas Raiders",
       "subtitle": "AFC West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Las+Vegas+Raiders"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Las_Vegas_Raiders_logo.svg/500px-Las_Vegas_Raiders_logo.svg.png"
     },
     {
       "id": "denver-broncos",
       "name": "Denver Broncos",
       "subtitle": "AFC West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Denver+Broncos"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Denver_Broncos_logo.svg/500px-Denver_Broncos_logo.svg.png"
     },
     {
       "id": "new-york-giants",
       "name": "New York Giants",
       "subtitle": "NFC East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+York+Giants"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/New_York_Giants_logo.svg/500px-New_York_Giants_logo.svg.png"
     },
     {
       "id": "chicago-bears",
       "name": "Chicago Bears",
       "subtitle": "NFC North",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Chicago+Bears"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Chicago_Bears_logo_primary.svg/500px-Chicago_Bears_logo_primary.svg.png"
     },
     {
       "id": "minnesota-vikings",
       "name": "Minnesota Vikings",
       "subtitle": "NFC North",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Minnesota+Vikings"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Minnesota_Vikings_logo.svg/500px-Minnesota_Vikings_logo.svg.png"
     },
     {
       "id": "new-orleans-saints",
       "name": "New Orleans Saints",
       "subtitle": "NFC South",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=New+Orleans+Saints"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/New_Orleans_Saints_logo.svg/500px-New_Orleans_Saints_logo.svg.png"
     },
     {
       "id": "los-angeles-rams",
       "name": "Los Angeles Rams",
       "subtitle": "NFC West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Los+Angeles+Rams"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Los_Angeles_Rams_logo.svg/500px-Los_Angeles_Rams_logo.svg.png"
     },
     {
       "id": "cincinnati-bengals",
       "name": "Cincinnati Bengals",
       "subtitle": "AFC North",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Cincinnati+Bengals"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Cincinnati_Bengals_logo.svg/500px-Cincinnati_Bengals_logo.svg.png"
     },
     {
       "id": "jacksonville-jaguars",
       "name": "Jacksonville Jaguars",
       "subtitle": "AFC South",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Jacksonville+Jaguars"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Jacksonville_Jaguars_logo.svg/500px-Jacksonville_Jaguars_logo.svg.png"
     },
     {
       "id": "houston-texans",
       "name": "Houston Texans",
       "subtitle": "AFC South",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Houston+Texans"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Houston_Texans_logo.svg/500px-Houston_Texans_logo.svg.png"
     },
     {
       "id": "indianapolis-colts",
       "name": "Indianapolis Colts",
       "subtitle": "AFC South",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Indianapolis+Colts"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Indianapolis_Colts_logo.svg/500px-Indianapolis_Colts_logo.svg.png"
     },
     {
       "id": "washington-commanders",
       "name": "Washington Commanders",
       "subtitle": "NFC East",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Washington+Commanders"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Washington_Commanders_logo.svg/500px-Washington_Commanders_logo.svg.png"
     },
     {
       "id": "arizona-cardinals",
       "name": "Arizona Cardinals",
       "subtitle": "NFC West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Arizona+Cardinals"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Arizona_Cardinals_logo.svg/500px-Arizona_Cardinals_logo.svg.png"
     },
     {
       "id": "carolina-panthers",
       "name": "Carolina Panthers",
       "subtitle": "NFC South",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Carolina+Panthers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Carolina_Panthers_logo.svg/500px-Carolina_Panthers_logo.svg.png"
     },
     {
       "id": "atlanta-falcons",
       "name": "Atlanta Falcons",
       "subtitle": "NFC South",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Atlanta+Falcons"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Atlanta_Falcons_logo.svg/500px-Atlanta_Falcons_logo.svg.png"
     },
     {
       "id": "los-angeles-chargers",
       "name": "Los Angeles Chargers",
       "subtitle": "AFC West",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Los+Angeles+Chargers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Los_Angeles_Chargers_logo.svg/500px-Los_Angeles_Chargers_logo.svg.png"
     },
     {
       "id": "new-york-jets",
@@ -184,13 +184,13 @@
       "id": "tennessee-titans",
       "name": "Tennessee Titans",
       "subtitle": "AFC South",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tennessee+Titans"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Tennessee_Titans_Logo_2026.svg/500px-Tennessee_Titans_Logo_2026.svg.png"
     },
     {
       "id": "cleveland-browns",
       "name": "Cleveland Browns",
       "subtitle": "AFC North",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Cleveland+Browns"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Cleveland_Browns_logo.svg/500px-Cleveland_Browns_logo.svg.png"
     }
   ]
 }

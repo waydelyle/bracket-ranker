@@ -28,13 +28,13 @@
       "id": "mr-brightside",
       "name": "Mr. Brightside",
       "subtitle": "The Killers",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Mr.+Brightside"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d1/Mr.-Brightside.jpg"
     },
     {
       "id": "dancing-queen",
       "name": "Dancing Queen",
       "subtitle": "ABBA",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Dancing+Queen"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/07/Cher_-_Dancing_Queen.png"
     },
     {
       "id": "i-want-it-that-way",
@@ -46,43 +46,43 @@
       "id": "total-eclipse-of-the-heart",
       "name": "Total Eclipse of the Heart",
       "subtitle": "Bonnie Tyler",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Total+Eclipse+of+the+Heart"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/09/Total_Eclipse_of_the_Heart_-_single_cover.jpg"
     },
     {
       "id": "take-me-home-country-roads-kr",
       "name": "Take Me Home, Country Roads",
       "subtitle": "John Denver",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Take+Me+Home%2C+Country+Roads"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/John_Denver_with_Fat_City_take_me_home_country_roads_1971_A-side_US_vinyl.jpg/500px-John_Denver_with_Fat_City_take_me_home_country_roads_1971_A-side_US_vinyl.jpg"
     },
     {
       "id": "dont-stop-me-now",
       "name": "Don't Stop Me Now",
       "subtitle": "Queen",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Don't+Stop+Me+Now"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/97/Queen-dont-stop-me-now-1979-6-s.jpg"
     },
     {
       "id": "build-me-up-buttercup",
       "name": "Build Me Up Buttercup",
       "subtitle": "The Foundations",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Build+Me+Up+Buttercup"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Build_Me_Up_Buttercup_by_The_Foundations_UK_vinyl_Side-A.png/500px-Build_Me_Up_Buttercup_by_The_Foundations_UK_vinyl_Side-A.png"
     },
     {
       "id": "since-u-been-gone",
       "name": "Since U Been Gone",
       "subtitle": "Kelly Clarkson",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Since+U+Been+Gone"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/da/Since_U_Been_Gone_Single.PNG"
     },
     {
       "id": "summer-nights",
       "name": "Summer Nights",
       "subtitle": "Grease",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Summer+Nights"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/df/Summer_Nights_by_John_Travolta%2C_Olivia_Newton-John%2C_and_cast_Australian_vinyl_Side-A.png"
     },
     {
       "id": "bye-bye-bye",
       "name": "Bye Bye Bye",
       "subtitle": "*NSYNC",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bye+Bye+Bye"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/14/Bye_Bye_Bye.png"
     },
     {
       "id": "baby-one-more-time",
@@ -106,7 +106,7 @@
       "id": "hotel-california-kr",
       "name": "Hotel California",
       "subtitle": "Eagles",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Hotel+California"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg"
     },
     {
       "id": "africa",
@@ -118,19 +118,19 @@
       "id": "shake-it-off-kr",
       "name": "Shake It Off",
       "subtitle": "Taylor Swift",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Shake+It+Off"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c4/Taylor_Swift_-_Shake_It_Off.png"
     },
     {
       "id": "man-i-feel-like-a-woman-kr",
       "name": "Man! I Feel Like a Woman!",
       "subtitle": "Shania Twain",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Man!+I+Feel+Like+a+Woman!"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Man%21_I_Feel_Like_a_Woman%21.jpg/500px-Man%21_I_Feel_Like_a_Woman%21.jpg"
     },
     {
       "id": "respect",
       "name": "Respect",
       "subtitle": "Aretha Franklin",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Respect"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3a/ArethaRespect.jpg"
     },
     {
       "id": "uptown-funk-kr",
@@ -148,31 +148,31 @@
       "id": "hey-ya",
       "name": "Hey Ya!",
       "subtitle": "OutKast",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Hey+Ya!"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Sarsaparilla-Hey-Song-4294.jpg"
     },
     {
       "id": "aint-no-mountain-kr",
       "name": "Ain't No Mountain High Enough",
       "subtitle": "Marvin Gaye",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ain't+No+Mountain+High+Enough"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/Anhme1967.jpg"
     },
     {
       "id": "hallelujah",
       "name": "Hallelujah",
       "subtitle": "Leonard Cohen",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Hallelujah"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/45/Cohen_Hallelujah_single.jpg"
     },
     {
       "id": "piano-man",
       "name": "Piano Man",
       "subtitle": "Billy Joel",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Piano+Man"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Billy_Joel_-_Piano_Man.jpg/500px-Billy_Joel_-_Piano_Man.jpg"
     },
     {
       "id": "wonderwall",
       "name": "Wonderwall",
       "subtitle": "Oasis",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Wonderwall"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/17/Wonderwall_cover.jpg"
     },
     {
       "id": "under-pressure-kr",
@@ -184,13 +184,13 @@
       "id": "love-shack",
       "name": "Love Shack",
       "subtitle": "The B-52's",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Love+Shack"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/63/Love_is_Back_-_Celeste_single_cover.jpg"
     },
     {
       "id": "take-on-me-kr",
       "name": "Take On Me",
       "subtitle": "a-ha",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Take+On+Me"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d5/A-ha_take_on_me-1stcover.jpg"
     }
   ]
 }

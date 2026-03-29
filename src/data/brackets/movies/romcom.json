@@ -22,19 +22,19 @@
       "id": "the-notebook",
       "name": "The Notebook",
       "subtitle": "2004",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Notebook&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/86/Posternotebook.jpg"
     },
     {
       "id": "sleepless-in-seattle",
       "name": "Sleepless in Seattle",
       "subtitle": "1993",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Sleepless+in+Seattle"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Sleepless_in_seattle.jpg"
     },
     {
       "id": "bridget-joness-diary",
       "name": "Bridget Jones's Diary",
       "subtitle": "2001",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Bridget+Jones's+Diary&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/17/BridgetJonesDiaryMoviePoster.jpg"
     },
     {
       "id": "notting-hill",
@@ -52,13 +52,13 @@
       "id": "the-proposal",
       "name": "The Proposal",
       "subtitle": "2009",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Proposal"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/02/The_Proposal.jpg"
     },
     {
       "id": "clueless-rc",
       "name": "Clueless",
       "subtitle": "1995",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Clueless"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5a/Clueless_film_poster.png"
     },
     {
       "id": "hitch",
@@ -70,7 +70,7 @@
       "id": "my-big-fat-greek-wedding",
       "name": "My Big Fat Greek Wedding",
       "subtitle": "2002",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=My+Big+Fat+Greek+Wedding&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/My_Big_Fat_Greek_Wedding_movie_poster.jpg"
     },
     {
       "id": "how-to-lose-a-guy",
@@ -82,7 +82,7 @@
       "id": "four-weddings-and-a-funeral",
       "name": "Four Weddings and a Funeral",
       "subtitle": "1994",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Four+Weddings+and+a+Funeral"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/35/Four_weddings_poster.jpg"
     },
     {
       "id": "50-first-dates",
@@ -100,13 +100,13 @@
       "id": "groundhog-day-rc",
       "name": "Groundhog Day",
       "subtitle": "1993",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Groundhog+Day&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Groundhog_Day_%28movie_poster%29.jpg"
     },
     {
       "id": "the-big-sick",
       "name": "The Big Sick",
       "subtitle": "2017",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Big+Sick"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/69/The_Big_Sick.jpg"
     },
     {
       "id": "legally-blonde",
@@ -130,19 +130,19 @@
       "id": "to-all-the-boys",
       "name": "To All the Boys I've Loved Before",
       "subtitle": "2018",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=To+All+the+Boys+I've+Loved+Before"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b8/To_All_the_Boys_I%27ve_Loved_Before_poster.jpg"
     },
     {
       "id": "the-princess-bride",
       "name": "The Princess Bride",
       "subtitle": "1987",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Princess+Bride&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/db/Princess_bride.jpg"
     },
     {
       "id": "about-time",
       "name": "About Time",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=About+Time"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7c/About_Time_%282013_film%29_Poster.jpg"
     }
   ]
 }

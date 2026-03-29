@@ -22,13 +22,13 @@
       "id": "nomadland",
       "name": "Nomadland",
       "subtitle": "2021 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Nomadland&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Nomadland_poster.jpeg"
     },
     {
       "id": "coda",
       "name": "CODA",
       "subtitle": "2022 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=CODA&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/89/Coda_poster.jpeg"
     },
     {
       "id": "moonlight",
@@ -52,13 +52,13 @@
       "id": "spotlight",
       "name": "Spotlight",
       "subtitle": "2016 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Spotlight&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f3/Spotlight_%28film%29_poster.jpg"
     },
     {
       "id": "birdman",
       "name": "Birdman",
       "subtitle": "2015 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Birdman&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/63/Birdman_poster.png"
     },
     {
       "id": "12-years-a-slave",
@@ -70,19 +70,19 @@
       "id": "argo",
       "name": "Argo",
       "subtitle": "2013 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Argo&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/21/ArgoFilms_Company_Logo.jpg"
     },
     {
       "id": "the-artist",
       "name": "The Artist",
       "subtitle": "2012 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Artist&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a4/The_Artist_Poster.jpg"
     },
     {
       "id": "the-kings-speech",
       "name": "The King's Speech",
       "subtitle": "2011 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+King's+Speech&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/The_King%27s_Speech_poster.jpg"
     },
     {
       "id": "the-hurt-locker",
@@ -106,7 +106,7 @@
       "id": "the-departed",
       "name": "The Departed",
       "subtitle": "2007 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Departed&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg"
     },
     {
       "id": "la-la-land",
@@ -136,13 +136,13 @@
       "id": "the-fabelmans",
       "name": "The Fabelmans",
       "subtitle": "2023 Nominee",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Fabelmans"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/ba/Fabelmansposter.jpeg"
     },
     {
       "id": "tar",
       "name": "Tar",
       "subtitle": "2023 Nominee",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Tar&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/19/T%C3%A1r_poster.jpg"
     },
     {
       "id": "killers-of-the-flower-moon",
@@ -172,13 +172,13 @@
       "id": "anatomy-of-a-fall",
       "name": "Anatomy of a Fall",
       "subtitle": "2024 Nominee",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Anatomy+of+a+Fall"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/88/Anatomy_of_a_Fall_%282023%29_film_poster.jpg"
     },
     {
       "id": "american-fiction",
       "name": "American Fiction",
       "subtitle": "2024 Nominee",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=American+Fiction"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d7/American_fiction_xxlg.jpg"
     },
     {
       "id": "the-zone-of-interest",
@@ -190,7 +190,7 @@
       "id": "maestro",
       "name": "Maestro",
       "subtitle": "2024 Nominee",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Maestro"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Maestra_film_poster.jpg"
     }
   ]
 }

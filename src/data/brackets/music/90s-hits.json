@@ -4,7 +4,7 @@
       "id": "smells-like-teen-spirit-90s",
       "name": "Smells Like Teen Spirit",
       "subtitle": "Nirvana",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Smells+Like+Teen+Spirit"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3c/Smells_Like_Teen_Spirit.jpg"
     },
     {
       "id": "baby-one-more-time-90s",
@@ -40,13 +40,13 @@
       "id": "no-diggity-90s",
       "name": "No Diggity",
       "subtitle": "Blackstreet",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=No+Diggity"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bc/No_Diggity.jpg"
     },
     {
       "id": "creep-90s",
       "name": "Creep",
       "subtitle": "TLC",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Creep"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/af/TLC_-_Creep.png"
     },
     {
       "id": "i-want-it-that-way-90s",
@@ -58,13 +58,13 @@
       "id": "killing-me-softly-90s",
       "name": "Killing Me Softly",
       "subtitle": "Fugees",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Killing+Me+Softly"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Lieberman_-_Killing_Me_Softly_-_1972_single.jpg/500px-Lieberman_-_Killing_Me_Softly_-_1972_single.jpg"
     },
     {
       "id": "ice-ice-baby-90s",
       "name": "Ice Ice Baby",
       "subtitle": "Vanilla Ice",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ice+Ice+Baby"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3f/Vanilla_Ice_-_Ice_Ice_Baby.jpg"
     },
     {
       "id": "gangsta-s-paradise",
@@ -76,31 +76,31 @@
       "id": "jump-around",
       "name": "Jump Around",
       "subtitle": "House of Pain",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Jump+Around"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7b/Jump_Around_HOP.jpg"
     },
     {
       "id": "california-love",
       "name": "California Love",
       "subtitle": "2Pac ft. Dr. Dre",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=California+Love"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8f/Lorde_-_Solar_Power.png"
     },
     {
       "id": "juicy",
       "name": "Juicy",
       "subtitle": "The Notorious B.I.G.",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Juicy"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/13/The_Notorious_B.I.G._-_Juicy.jpeg"
     },
     {
       "id": "u-cant-touch-this",
       "name": "U Can't Touch This",
       "subtitle": "MC Hammer",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=U+Can't+Touch+This"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d0/Hammer_Touch.jpg"
     },
     {
       "id": "end-of-the-road-90s",
       "name": "End of the Road",
       "subtitle": "Boyz II Men",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=End+of+the+Road"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b8/Boyz_II_Men_End_of_the_Road_USA_commercial_cassette.jpg"
     },
     {
       "id": "return-of-the-mack",
@@ -112,49 +112,49 @@
       "id": "its-gonna-be-me",
       "name": "It's Gonna Be Me",
       "subtitle": "*NSYNC",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=It's+Gonna+Be+Me"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f2/ItsGonnaBeMe.jpg"
     },
     {
       "id": "i-want-you-back-90s",
       "name": "Quit Playing Games (With My Heart)",
       "subtitle": "Backstreet Boys",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Quit+Playing+Games+(With+My+Heart)"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/81/Quit_Playin_Games.jpg"
     },
     {
       "id": "semi-charmed-life",
       "name": "Semi-Charmed Life",
       "subtitle": "Third Eye Blind",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Semi-Charmed+Life"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ea/Semi-Charmed_Life.jpg"
     },
     {
       "id": "kiss-from-a-rose-90s",
       "name": "Kiss from a Rose",
       "subtitle": "Seal",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kiss+from+a+Rose"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/56/Seal_-_Kiss_From_A_Rose_%28single%29.jpg"
     },
     {
       "id": "this-is-how-we-do-it",
       "name": "This Is How We Do It",
       "subtitle": "Montell Jordan",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=This+Is+How+We+Do+It"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c9/ThisIsHowWeDoIt.jpg"
     },
     {
       "id": "my-name-is",
       "name": "My Name Is",
       "subtitle": "Eminem",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=My+Name+Is"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/63/My_Name_Is_Jonas_Promo_CD.png"
     },
     {
       "id": "genie-in-a-bottle",
       "name": "Genie in a Bottle",
       "subtitle": "Christina Aguilera",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Genie+in+a+Bottle"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/42/Genie_in_a_Bottle.png"
     },
     {
       "id": "say-my-name-90s",
       "name": "Say My Name",
       "subtitle": "Destiny's Child",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Say+My+Name"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/73/Say_My_Name_%281999_single%29.jpg"
     },
     {
       "id": "iris",
@@ -178,19 +178,19 @@
       "id": "bitter-sweet-symphony",
       "name": "Bitter Sweet Symphony",
       "subtitle": "The Verve",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bitter+Sweet+Symphony"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/The_Verve_-_Bitter_Sweet_Symphony_CD1.jpg/500px-The_Verve_-_Bitter_Sweet_Symphony_CD1.jpg"
     },
     {
       "id": "torn",
       "name": "Torn",
       "subtitle": "Natalie Imbruglia",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Torn"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/99/Single_Ednaswap_Torn_Cover.png"
     },
     {
       "id": "finally",
       "name": "Finally",
       "subtitle": "CeCe Peniston",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Finally"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/74/Finally_CeCe_Peniston_US_cover_art.jpg"
     }
   ]
 }

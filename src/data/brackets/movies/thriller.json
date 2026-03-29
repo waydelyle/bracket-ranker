@@ -10,7 +10,7 @@
       "id": "silence-of-the-lambs-thr",
       "name": "The Silence of the Lambs",
       "subtitle": "1991",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Silence+of+the+Lambs&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Silence_of_the_Lambs_poster.jpg"
     },
     {
       "id": "gone-girl",
@@ -22,7 +22,7 @@
       "id": "zodiac",
       "name": "Zodiac",
       "subtitle": "2007",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Zodiac&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3a/Zodiac2007Poster.jpg"
     },
     {
       "id": "no-country-for-old-men-thr",
@@ -34,7 +34,7 @@
       "id": "shutter-island",
       "name": "Shutter Island",
       "subtitle": "2010",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Shutter+Island&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/76/Shutterislandposter.jpg"
     },
     {
       "id": "parasite-thr",
@@ -52,7 +52,7 @@
       "id": "prisoners",
       "name": "Prisoners",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Prisoners&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/63/Prisoners2013Poster.jpg"
     },
     {
       "id": "nightcrawler",
@@ -82,19 +82,19 @@
       "id": "the-usual-suspects-thr",
       "name": "The Usual Suspects",
       "subtitle": "1995",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Usual+Suspects"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9c/Usual_suspects_ver1.jpg"
     },
     {
       "id": "sicario",
       "name": "Sicario",
       "subtitle": "2015",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Sicario&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/Sicario_poster.jpg"
     },
     {
       "id": "psycho-thr",
       "name": "Psycho",
       "subtitle": "1960",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Psycho"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Psycho_%281960%29_theatrical_poster_%28retouched%29.jpg/500px-Psycho_%281960%29_theatrical_poster_%28retouched%29.jpg"
     },
     {
       "id": "vertigo",
@@ -118,25 +118,25 @@
       "id": "cape-fear",
       "name": "Cape Fear",
       "subtitle": "1991",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Cape+Fear"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Cape_fear_91.jpg"
     },
     {
       "id": "misery",
       "name": "Misery",
       "subtitle": "1990",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Misery"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0a/L%27avaro.jpg"
     },
     {
       "id": "black-swan",
       "name": "Black Swan",
       "subtitle": "2010",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Black+Swan"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/68/Black_Swan_poster.jpg"
     },
     {
       "id": "uncut-gems",
       "name": "Uncut Gems",
       "subtitle": "2019",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Uncut+Gems"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a7/Uncut_Gems_poster.jpg"
     },
     {
       "id": "whiplash",
@@ -172,7 +172,7 @@
       "id": "the-game",
       "name": "The Game",
       "subtitle": "1997",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Game"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/22/The_Game_film_poster.jpg"
     },
     {
       "id": "mulholland-drive",

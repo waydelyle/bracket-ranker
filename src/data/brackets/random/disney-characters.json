@@ -16,13 +16,13 @@
       "id": "elsa",
       "name": "Elsa",
       "subtitle": "Frozen",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Elsa"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Elsa_from_Disney%27s_Frozen.png"
     },
     {
       "id": "woody",
       "name": "Woody",
       "subtitle": "Toy Story",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Woody"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Woody_Allen_Cannes_2016.jpg/500px-Woody_Allen_Cannes_2016.jpg"
     },
     {
       "id": "buzz-lightyear",
@@ -34,55 +34,55 @@
       "id": "ariel",
       "name": "Ariel",
       "subtitle": "The Little Mermaid",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Ariel"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Ariel_Sharon_official_portrait_2001.webp/500px-Ariel_Sharon_official_portrait_2001.webp.png"
     },
     {
       "id": "mulan-char",
       "name": "Mulan",
       "subtitle": "Mulan",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mulan"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/%E7%95%AB%E9%BA%97%E7%8F%A0%E8%90%83%E7%A7%80_Gathering_Gems_of_Beauty_%28%E6%A2%81%E6%9C%A8%E8%98%AD%29_2.jpg/500px-%E7%95%AB%E9%BA%97%E7%8F%A0%E8%90%83%E7%A7%80_Gathering_Gems_of_Beauty_%28%E6%A2%81%E6%9C%A8%E8%98%AD%29_2.jpg"
     },
     {
       "id": "aladdin-char",
       "name": "Aladdin",
       "subtitle": "Aladdin",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Aladdin"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Alad.jpg/500px-Alad.jpg"
     },
     {
       "id": "genie",
       "name": "Genie",
       "subtitle": "Aladdin",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Genie"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Shah_Namah%2C_the_Persian_Epic_of_the_Kings_Wellcome_L0035191.jpg/500px-Shah_Namah%2C_the_Persian_Epic_of_the_Kings_Wellcome_L0035191.jpg"
     },
     {
       "id": "rapunzel",
       "name": "Rapunzel",
       "subtitle": "Tangled",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Rapunzel"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Rapunzel-Paul-Hey.jpg/500px-Rapunzel-Paul-Hey.jpg"
     },
     {
       "id": "stitch",
       "name": "Stitch",
       "subtitle": "Lilo & Stitch",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Stitch"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Stitch_%28Lilo_%26_Stitch%29.svg/500px-Stitch_%28Lilo_%26_Stitch%29.svg.png"
     },
     {
       "id": "nemo",
       "name": "Nemo",
       "subtitle": "Finding Nemo",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Nemo"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CelegansGoldsteinLabUNC.jpg/500px-CelegansGoldsteinLabUNC.jpg"
     },
     {
       "id": "dory",
       "name": "Dory",
       "subtitle": "Finding Nemo",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Dory"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dorie_Miller_-_Restoration%2C_full.jpg/500px-Dorie_Miller_-_Restoration%2C_full.jpg"
     },
     {
       "id": "baymax",
       "name": "Baymax",
       "subtitle": "Big Hero 6",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Baymax"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Baymax_%28Marvel_Comics%29.jpg"
     },
     {
       "id": "moana-char",
@@ -94,19 +94,19 @@
       "id": "donald-duck",
       "name": "Donald Duck",
       "subtitle": "Classic Disney",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Donald+Duck"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Donald_Duck_angry_transparent_background.png"
     },
     {
       "id": "goofy",
       "name": "Goofy",
       "subtitle": "Classic Disney",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Goofy"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Goofy_Duckipedia.png"
     },
     {
       "id": "belle",
       "name": "Belle",
       "subtitle": "Beauty and the Beast",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Belle"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/1_hector_bellerin_2015.jpg/500px-1_hector_bellerin_2015.jpg"
     },
     {
       "id": "cinderella-char",
@@ -124,37 +124,37 @@
       "id": "timon",
       "name": "Timon",
       "subtitle": "The Lion King",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Timon"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/91/Pumbaa.png"
     },
     {
       "id": "pumbaa",
       "name": "Pumbaa",
       "subtitle": "The Lion King",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Pumbaa"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/91/Pumbaa.png"
     },
     {
       "id": "olaf",
       "name": "Olaf",
       "subtitle": "Frozen",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Olaf"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Olav_der_Heilige07.jpg/500px-Olav_der_Heilige07.jpg"
     },
     {
       "id": "scar",
       "name": "Scar",
       "subtitle": "The Lion King",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Scar"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Scar_%28xndr%29.jpg/500px-Scar_%28xndr%29.jpg"
     },
     {
       "id": "maleficent",
       "name": "Maleficent",
       "subtitle": "Sleeping Beauty",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Maleficent"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Malefica.jpg/500px-Malefica.jpg"
     },
     {
       "id": "ursula",
       "name": "Ursula",
       "subtitle": "The Little Mermaid",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Ursula"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ursula_Le_Guin_%283551195631%29_-_Restoration.jpg/500px-Ursula_Le_Guin_%283551195631%29_-_Restoration.jpg"
     },
     {
       "id": "pluto",
@@ -166,13 +166,13 @@
       "id": "tiana",
       "name": "Tiana",
       "subtitle": "The Princess and the Frog",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Tiana"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Ud%C3%A1losti_na_n%C3%A1m%C4%9Bst%C3%AD_Tian_an_men%2C_%C4%8C%C3%ADna_1989%2C_foto_Ji%C5%99%C3%AD_Tondl.jpg"
     },
     {
       "id": "mirabel",
       "name": "Mirabel",
       "subtitle": "Encanto",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mirabel"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e7/Mirabel_Madrigal.png"
     },
     {
       "id": "peter-pan-char",
@@ -190,7 +190,7 @@
       "id": "hades-char",
       "name": "Hades",
       "subtitle": "Hercules",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Hades"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg/500px-Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg"
     }
   ]
 }

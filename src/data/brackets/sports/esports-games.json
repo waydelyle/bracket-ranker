@@ -16,31 +16,31 @@
       "id": "valorant",
       "name": "VALORANT",
       "subtitle": "FPS - Riot Games",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=VALORANT"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/500px-Valorant_logo_-_pink_color_version.svg.png"
     },
     {
       "id": "dota-2",
       "name": "Dota 2",
       "subtitle": "MOBA - Valve",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Dota+2"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/31/Dota_2_Steam_artwork.jpg"
     },
     {
       "id": "fortnite-esports",
       "name": "Fortnite",
       "subtitle": "Battle Royale - Epic Games",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Fortnite"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ae/Fortnite_Save_The_World.jpg"
     },
     {
       "id": "overwatch-2",
       "name": "Overwatch 2",
       "subtitle": "FPS - Blizzard",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Overwatch+2"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/89/Overwatch_2_Steam_artwork.jpg"
     },
     {
       "id": "rocket-league",
       "name": "Rocket League",
       "subtitle": "Sports - Psyonix",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Rocket+League"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Rocket_League_coverart.jpg/500px-Rocket_League_coverart.jpg"
     },
     {
       "id": "super-smash-bros",
@@ -52,25 +52,25 @@
       "id": "street-fighter-6",
       "name": "Street Fighter 6",
       "subtitle": "Fighting - Capcom",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Street+Fighter+6"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/94/Street_Fighter_6_box_art.jpg"
     },
     {
       "id": "apex-legends",
       "name": "Apex Legends",
       "subtitle": "Battle Royale - Respawn",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Apex+Legends"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/db/Apex_legends_cover.jpg"
     },
     {
       "id": "rainbow-six-siege",
       "name": "Rainbow Six Siege",
       "subtitle": "FPS - Ubisoft",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Rainbow+Six+Siege"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/47/Tom_Clancy%27s_Rainbow_Six_Siege_cover_art.jpg"
     },
     {
       "id": "starcraft-2",
       "name": "StarCraft II",
       "subtitle": "RTS - Blizzard",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=StarCraft+II"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/StarCraft_II_Logo.webp/500px-StarCraft_II_Logo.webp.png"
     },
     {
       "id": "call-of-duty",
@@ -94,7 +94,7 @@
       "id": "pubg",
       "name": "PUBG",
       "subtitle": "Battle Royale - Krafton",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=PUBG"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Pubgbattlegrounds.png"
     }
   ]
 }

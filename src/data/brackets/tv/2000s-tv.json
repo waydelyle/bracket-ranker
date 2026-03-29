@@ -64,7 +64,7 @@
       "id": "scrubs-00s",
       "name": "Scrubs",
       "subtitle": "2001-2010",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Scrubs"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Scruff.jpg/500px-Scruff.jpg"
     },
     {
       "id": "24",
@@ -76,13 +76,13 @@
       "id": "house",
       "name": "House",
       "subtitle": "2004-2012",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=House"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Katsura_Imperial_Villa_in_Spring.jpg/500px-Katsura_Imperial_Villa_in_Spring.jpg"
     },
     {
       "id": "greys-anatomy-00s",
       "name": "Grey's Anatomy",
       "subtitle": "2005-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Grey's+Anatomy"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5b/Grey%27s_Anatomy_Season_Two_DVD_Cover.jpg"
     },
     {
       "id": "six-feet-under-00s",
@@ -94,7 +94,7 @@
       "id": "curb-00s",
       "name": "Curb Your Enthusiasm",
       "subtitle": "2000-2024",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Curb+Your+Enthusiasm"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/48/Curb_Your_Enthusiasm_season_3.png"
     },
     {
       "id": "deadwood",
@@ -106,13 +106,13 @@
       "id": "battlestar-00s",
       "name": "Battlestar Galactica",
       "subtitle": "2004-2009",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Battlestar+Galactica&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Battlestar_Galactica_%282004_TV_series%29_title_card.jpg/500px-Battlestar_Galactica_%282004_TV_series%29_title_card.jpg"
     },
     {
       "id": "30-rock-00s",
       "name": "30 Rock",
       "subtitle": "2006-2013",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=30+Rock"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/30Rock_logo.svg/500px-30Rock_logo.svg.png"
     },
     {
       "id": "friday-night-lights-00s",

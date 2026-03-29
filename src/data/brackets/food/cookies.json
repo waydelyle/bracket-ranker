@@ -10,31 +10,31 @@
       "id": "oatmeal-raisin",
       "name": "Oatmeal Raisin",
       "subtitle": "Love it or hate it",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Oatmeal+Raisin"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Archway_Oatmeal_Raisin_cookies.JPG/500px-Archway_Oatmeal_Raisin_cookies.JPG"
     },
     {
       "id": "snickerdoodle",
       "name": "Snickerdoodle",
       "subtitle": "Cinnamon sugar",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Snickerdoodle"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Pile_of_snickerdoodles.jpg/500px-Pile_of_snickerdoodles.jpg"
     },
     {
       "id": "peanut-butter-cookie",
       "name": "Peanut Butter",
       "subtitle": "Fork-pressed classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Peanut+Butter"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2020-03-24_20_57_22_An_open_jar_of_Skippy_Creamy_Peanut_Butter_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg/500px-2020-03-24_20_57_22_An_open_jar_of_Skippy_Creamy_Peanut_Butter_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg"
     },
     {
       "id": "sugar-cookie",
       "name": "Sugar Cookie",
       "subtitle": "Sweet & simple",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Sugar+Cookie"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Grannie_Gilbert%27s_Sugar_Cookies.jpg/500px-Grannie_Gilbert%27s_Sugar_Cookies.jpg"
     },
     {
       "id": "double-chocolate",
       "name": "Double Chocolate",
       "subtitle": "Chocolate on chocolate",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Double+Chocolate"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/58/Cookie_Crisp_USA_logo.png"
     },
     {
       "id": "macaron",
@@ -46,7 +46,7 @@
       "id": "shortbread",
       "name": "Shortbread",
       "subtitle": "Buttery & crumbly",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Shortbread"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Shortbread_House_round_biscuit_.jpg/500px-Shortbread_House_round_biscuit_.jpg"
     },
     {
       "id": "white-chocolate-macadamia",
@@ -58,7 +58,7 @@
       "id": "gingerbread",
       "name": "Gingerbread",
       "subtitle": "Spiced holiday cookie",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Gingerbread"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Mjuk_pepparkaka_med_lingon.jpg/500px-Mjuk_pepparkaka_med_lingon.jpg"
     },
     {
       "id": "oreo-cookie",
@@ -76,7 +76,7 @@
       "id": "thin-mints",
       "name": "Thin Mints",
       "subtitle": "Girl Scout classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Thin+Mints"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Girl_Scout_cookies_%28Girl_Scouts_of_the_USA%29.jpg/500px-Girl_Scout_cookies_%28Girl_Scouts_of_the_USA%29.jpg"
     },
     {
       "id": "samoa",
@@ -88,13 +88,13 @@
       "id": "red-velvet",
       "name": "Red Velvet",
       "subtitle": "Cream cheese filled",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Red+Velvet"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3%28Red_Velvet%29_%EC%BC%80%EC%9D%B4%EC%BD%98_%EC%9E%AC%ED%8C%AC_2024_%EB%A0%88%EB%93%9C%EC%B9%B4%ED%8E%AB_KCON_JAPAN_2024_%281%29.jpg/500px-%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3%28Red_Velvet%29_%EC%BC%80%EC%9D%B4%EC%BD%98_%EC%9E%AC%ED%8C%AC_2024_%EB%A0%88%EB%93%9C%EC%B9%B4%ED%8E%AB_KCON_JAPAN_2024_%281%29.jpg"
     },
     {
       "id": "linzer-cookie",
       "name": "Linzer Cookie",
       "subtitle": "Jam-filled Austrian",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Linzer+Cookie"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Foto.Linzertorte.JPG/500px-Foto.Linzertorte.JPG"
     }
   ]
 }

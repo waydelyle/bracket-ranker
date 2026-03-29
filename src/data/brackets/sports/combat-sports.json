@@ -22,7 +22,7 @@
       "id": "manny-pacquiao",
       "name": "Manny Pacquiao",
       "subtitle": "Boxing - Multi-weight",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Manny+Pacquiao"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Pacquiao_and_Didal_%28cropped%29.jpg/500px-Pacquiao_and_Didal_%28cropped%29.jpg"
     },
     {
       "id": "conor-mcgregor",
@@ -34,19 +34,19 @@
       "id": "khabib-nurmagomedov",
       "name": "Khabib Nurmagomedov",
       "subtitle": "MMA - UFC Lightweight",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Khabib+Nurmagomedov"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Khabib_nurmagomedov.jpg/500px-Khabib_nurmagomedov.jpg"
     },
     {
       "id": "anderson-silva",
       "name": "Anderson Silva",
       "subtitle": "MMA - UFC Middleweight",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Anderson+Silva"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Anderson_Silva.png"
     },
     {
       "id": "georges-st-pierre",
       "name": "Georges St-Pierre",
       "subtitle": "MMA - UFC Welterweight",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Georges+St-Pierre"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/2021_-_Centre_Stage_DG4_5765_%2851654942080%29_%28cropped%29.jpg/500px-2021_-_Centre_Stage_DG4_5765_%2851654942080%29_%28cropped%29.jpg"
     },
     {
       "id": "jon-jones",
@@ -58,37 +58,37 @@
       "id": "sugar-ray-leonard",
       "name": "Sugar Ray Leonard",
       "subtitle": "Boxing - Welterweight",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Sugar+Ray+Leonard"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sugar_Ray_Leonard.jpg/500px-Sugar_Ray_Leonard.jpg"
     },
     {
       "id": "canelo-alvarez",
       "name": "Canelo Alvarez",
       "subtitle": "Boxing - Super Middleweight",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Canelo+Alvarez"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Sa%C3%BAl_%C3%81lvarez.png/500px-Sa%C3%BAl_%C3%81lvarez.png"
     },
     {
       "id": "lennox-lewis",
       "name": "Lennox Lewis",
       "subtitle": "Boxing - Heavyweight",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Lennox+Lewis"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Lenox_Lewis_2010_cropped.jpg/500px-Lenox_Lewis_2010_cropped.jpg"
     },
     {
       "id": "ronda-rousey",
       "name": "Ronda Rousey",
       "subtitle": "MMA - UFC Bantamweight",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Ronda+Rousey"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Rousey_HOF_2018_%28cropped%29.jpg/500px-Rousey_HOF_2018_%28cropped%29.jpg"
     },
     {
       "id": "amanda-nunes",
       "name": "Amanda Nunes",
       "subtitle": "MMA - UFC Bantamweight",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Amanda+Nunes"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_%28cropped%29.jpg/500px-Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_%28cropped%29.jpg"
     },
     {
       "id": "sugar-ray-robinson",
       "name": "Sugar Ray Robinson",
       "subtitle": "Boxing - Middleweight",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Sugar+Ray+Robinson"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sugar_Ray_Robinson_1947.jpg/500px-Sugar_Ray_Robinson_1947.jpg"
     },
     {
       "id": "bruce-lee",

@@ -4,25 +4,25 @@
       "id": "reeses-choc",
       "name": "Reese's",
       "subtitle": "Peanut butter cups",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Reese's"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Reese%27s_logo.svg/500px-Reese%27s_logo.svg.png"
     },
     {
       "id": "lindt",
       "name": "Lindt",
       "subtitle": "Swiss chocolate",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Lindt"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Kilchberg_-_Lindt_%26_Spr%C3%BCngli_-_ZSG_Helvetia_2015-09-09_18-03-57.JPG/500px-Kilchberg_-_Lindt_%26_Spr%C3%BCngli_-_ZSG_Helvetia_2015-09-09_18-03-57.JPG"
     },
     {
       "id": "godiva",
       "name": "Godiva",
       "subtitle": "Belgian luxury",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Godiva"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/John_Collier_-_Lady_Godiva_-_c_1898_-_Herbert_Art_Gallery_and_Museum.jpg/500px-John_Collier_-_Lady_Godiva_-_c_1898_-_Herbert_Art_Gallery_and_Museum.jpg"
     },
     {
       "id": "ghirardelli",
       "name": "Ghirardelli",
       "subtitle": "San Francisco chocolate",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ghirardelli"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/49/Ghirardelli_Chocolate_Company_logo.webp"
     },
     {
       "id": "toblerone",
@@ -40,7 +40,7 @@
       "id": "hersheys",
       "name": "Hershey's",
       "subtitle": "American classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Hershey's"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Headshot_Hershey_Jan_2024.jpg/500px-Headshot_Hershey_Jan_2024.jpg"
     },
     {
       "id": "milka",
@@ -52,13 +52,13 @@
       "id": "ferrero-rocher",
       "name": "Ferrero Rocher",
       "subtitle": "Golden wrapped hazelnut",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ferrero+Rocher"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ferrerorocher_brand_logo.png/500px-Ferrerorocher_brand_logo.png"
     },
     {
       "id": "nutella",
       "name": "Nutella",
       "subtitle": "Hazelnut spread",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Nutella"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg/500px-Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg"
     },
     {
       "id": "kit-kat-choc",
@@ -88,7 +88,7 @@
       "id": "white-chocolate",
       "name": "White Chocolate",
       "subtitle": "Cocoa butter based",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=White+Chocolate"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Chopped_white_chocolate_chunks.jpg/500px-Chopped_white_chocolate_chunks.jpg"
     },
     {
       "id": "m-and-ms-choc",

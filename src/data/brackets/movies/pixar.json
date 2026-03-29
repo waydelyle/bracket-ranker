@@ -16,7 +16,7 @@
       "id": "up",
       "name": "Up",
       "subtitle": "2009",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Up&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/05/Up_%282009_film%29.jpg"
     },
     {
       "id": "the-incredibles",
@@ -52,31 +52,31 @@
       "id": "monsters-inc",
       "name": "Monsters, Inc.",
       "subtitle": "2001",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Monsters%2C+Inc.&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/63/Monsters_Inc.JPG"
     },
     {
       "id": "toy-story-3",
       "name": "Toy Story 3",
       "subtitle": "2010",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Toy+Story+3&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4c/Toy_Story_4_poster.jpg"
     },
     {
       "id": "toy-story-2",
       "name": "Toy Story 2",
       "subtitle": "1999",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Toy+Story+2&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c0/Toy_Story_2.jpg"
     },
     {
       "id": "a-bugs-life",
       "name": "A Bug's Life",
       "subtitle": "1998",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=A+Bug's+Life&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/cc/A_Bug%27s_Life.jpg"
     },
     {
       "id": "finding-dory",
       "name": "Finding Dory",
       "subtitle": "2016",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Finding+Dory&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3e/Finding_Dory.jpg"
     },
     {
       "id": "brave",
@@ -112,7 +112,7 @@
       "id": "elemental",
       "name": "Elemental",
       "subtitle": "2023",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Elemental&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4d/Elemental_final_poster.jpg"
     },
     {
       "id": "inside-out-2",
@@ -130,13 +130,13 @@
       "id": "the-incredibles-2",
       "name": "Incredibles 2",
       "subtitle": "2018",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Incredibles+2"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/Incredibles_2_%282018_animated_film%29.jpg"
     },
     {
       "id": "onward",
       "name": "Onward",
       "subtitle": "2020",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Onward&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/03/Onward_poster.jpg"
     },
     {
       "id": "the-good-dinosaur",

@@ -4,61 +4,61 @@
       "id": "real-madrid",
       "name": "Real Madrid",
       "subtitle": "La Liga - Spain",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Real+Madrid"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/500px-Real_Madrid_CF.svg.png"
     },
     {
       "id": "barcelona",
       "name": "FC Barcelona",
       "subtitle": "La Liga - Spain",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=FC+Barcelona"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/500px-FC_Barcelona_%28crest%29.svg.png"
     },
     {
       "id": "manchester-united",
       "name": "Manchester United",
       "subtitle": "Premier League - England",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Manchester+United"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/500px-Manchester_United_FC_crest.svg.png"
     },
     {
       "id": "liverpool",
       "name": "Liverpool",
       "subtitle": "Premier League - England",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Liverpool"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pier_Head%2C_Liverpool_-_geograph.org.uk_-_3059094.jpg/500px-Pier_Head%2C_Liverpool_-_geograph.org.uk_-_3059094.jpg"
     },
     {
       "id": "bayern-munich",
       "name": "Bayern Munich",
       "subtitle": "Bundesliga - Germany",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Bayern+Munich"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/500px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png"
     },
     {
       "id": "manchester-city",
       "name": "Manchester City",
       "subtitle": "Premier League - England",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Manchester+City"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/500px-Manchester_City_FC_badge.svg.png"
     },
     {
       "id": "arsenal",
       "name": "Arsenal",
       "subtitle": "Premier League - England",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Arsenal"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/View_of_the_entrance_to_the_Arsenal_by_Canaletto%2C_1732.jpg/500px-View_of_the_entrance_to_the_Arsenal_by_Canaletto%2C_1732.jpg"
     },
     {
       "id": "chelsea",
       "name": "Chelsea",
       "subtitle": "Premier League - England",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Chelsea"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/500px-Chelsea_FC.svg.png"
     },
     {
       "id": "psg",
       "name": "Paris Saint-Germain",
       "subtitle": "Ligue 1 - France",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Paris+Saint-Germain"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/500px-Paris_Saint-Germain_F.C..svg.png"
     },
     {
       "id": "juventus",
       "name": "Juventus",
       "subtitle": "Serie A - Italy",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Juventus"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg/500px-Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg.png"
     },
     {
       "id": "ac-milan",
@@ -76,7 +76,7 @@
       "id": "tottenham",
       "name": "Tottenham Hotspur",
       "subtitle": "Premier League - England",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tottenham+Hotspur"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/500px-Tottenham_Hotspur.svg.png"
     },
     {
       "id": "borussia-dortmund",
@@ -88,25 +88,25 @@
       "id": "atletico-madrid",
       "name": "Atletico Madrid",
       "subtitle": "La Liga - Spain",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Atletico+Madrid"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Atletico_Madrid_Logo_2024.svg/500px-Atletico_Madrid_Logo_2024.svg.png"
     },
     {
       "id": "ajax",
       "name": "Ajax",
       "subtitle": "Eredivisie - Netherlands",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Ajax"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Aerial_Photograph_of_Ajax%2C_Ontario_-_Discover_The_Town_Of_Ajax_%2801m08s%29_%28edited%29.jpg/500px-Aerial_Photograph_of_Ajax%2C_Ontario_-_Discover_The_Town_Of_Ajax_%2801m08s%29_%28edited%29.jpg"
     },
     {
       "id": "benfica",
       "name": "Benfica",
       "subtitle": "Primeira Liga - Portugal",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Benfica"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/SL_Benfica_logo.svg/500px-SL_Benfica_logo.svg.png"
     },
     {
       "id": "napoli",
       "name": "Napoli",
       "subtitle": "Serie A - Italy",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Napoli"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Napoli_-_Maschio_Angioino_-_202209302342_3.jpg/500px-Napoli_-_Maschio_Angioino_-_202209302342_3.jpg"
     },
     {
       "id": "roma",
@@ -124,55 +124,55 @@
       "id": "newcastle",
       "name": "Newcastle United",
       "subtitle": "Premier League - England",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Newcastle+United"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/500px-Newcastle_United_Logo.svg.png"
     },
     {
       "id": "aston-villa",
       "name": "Aston Villa",
       "subtitle": "Premier League - England",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Aston+Villa"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Aston_Villa_FC_new_crest.svg/500px-Aston_Villa_FC_new_crest.svg.png"
     },
     {
       "id": "west-ham",
       "name": "West Ham United",
       "subtitle": "Premier League - England",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=West+Ham+United"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/500px-West_Ham_United_FC_logo.svg.png"
     },
     {
       "id": "celtic",
       "name": "Celtic",
       "subtitle": "Scottish Premiership",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Celtic"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Celtic_FC_crest.svg/500px-Celtic_FC_crest.svg.png"
     },
     {
       "id": "river-plate",
       "name": "River Plate",
       "subtitle": "Argentina",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=River+Plate"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/HMS_Achilles_%2870%29.jpg/500px-HMS_Achilles_%2870%29.jpg"
     },
     {
       "id": "boca-juniors",
       "name": "Boca Juniors",
       "subtitle": "Argentina",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Boca+Juniors"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Boca_Juniors_logo18.svg/500px-Boca_Juniors_logo18.svg.png"
     },
     {
       "id": "flamengo",
       "name": "Flamengo",
       "subtitle": "Brazil",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Flamengo"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/500px-Clube_de_Regatas_do_Flamengo_logo.svg.png"
     },
     {
       "id": "santos",
       "name": "Santos",
       "subtitle": "Brazil",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Santos"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/500px-Santos_Logo.png"
     },
     {
       "id": "galatasaray",
       "name": "Galatasaray",
       "subtitle": "Turkey",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Galatasaray"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Galatasaray_Sports_Club_Logo.svg/500px-Galatasaray_Sports_Club_Logo.svg.png"
     },
     {
       "id": "sporting-cp",
@@ -184,13 +184,13 @@
       "id": "rb-leipzig",
       "name": "RB Leipzig",
       "subtitle": "Bundesliga - Germany",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=RB+Leipzig"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/RB_Leipzig_2014_logo.svg/500px-RB_Leipzig_2014_logo.svg.png"
     },
     {
       "id": "everton",
       "name": "Everton",
       "subtitle": "Premier League - England",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Everton"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Everton_FC_logo.svg/500px-Everton_FC_logo.svg.png"
     }
   ]
 }

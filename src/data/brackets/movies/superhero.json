@@ -82,13 +82,13 @@
       "id": "wonder-woman",
       "name": "Wonder Woman",
       "subtitle": "2017 - DC",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Wonder+Woman&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b0/Wonder_Woman_%282017_film%29_poster.jpg"
     },
     {
       "id": "captain-america-winter-soldier-sh",
       "name": "Captain America: The Winter Soldier",
       "subtitle": "2014 - Marvel",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Captain+America%3A+The+Winter+Soldier&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9e/Captain_America_The_Winter_Soldier_poster.jpg"
     },
     {
       "id": "thor-ragnarok-sh",
@@ -100,7 +100,7 @@
       "id": "the-incredibles-sh",
       "name": "The Incredibles",
       "subtitle": "2004 - Pixar",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Incredibles&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/27/The_Incredibles_%282004_animated_feature_film%29.jpg"
     },
     {
       "id": "superman-1978",
@@ -118,7 +118,7 @@
       "id": "spider-man-2002",
       "name": "Spider-Man",
       "subtitle": "2002 - Sony",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Spider-Man"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Spider-Man_actors.jpg/500px-Spider-Man_actors.jpg"
     },
     {
       "id": "joker-sh",
@@ -136,25 +136,25 @@
       "id": "shazam",
       "name": "Shazam!",
       "subtitle": "2019 - DC",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Shazam!"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c2/Shazam%21_%28film%29_poster.jpg"
     },
     {
       "id": "across-spider-verse-sh",
       "name": "Across the Spider-Verse",
       "subtitle": "2023 - Sony",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Across+the+Spider-Verse"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b4/Spider-Man-_Across_the_Spider-Verse_poster.jpg"
     },
     {
       "id": "doctor-strange-sh",
       "name": "Doctor Strange",
       "subtitle": "2016 - Marvel",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Doctor+Strange"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4f/Doctor_Strange_Vol_4_2_Ross_Variant_Textless.jpg"
     },
     {
       "id": "aquaman",
       "name": "Aquaman",
       "subtitle": "2018 - DC",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Aquaman"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ed/Aquaman_%28film%29_poster.jpg"
     },
     {
       "id": "the-avengers-sh",
@@ -166,7 +166,7 @@
       "id": "captain-america-civil-war-sh",
       "name": "Captain America: Civil War",
       "subtitle": "2016 - Marvel",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Captain+America%3A+Civil+War"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/53/Captain_America_Civil_War_poster.jpg"
     },
     {
       "id": "deadpool-wolverine",

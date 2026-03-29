@@ -4,19 +4,19 @@
       "id": "aries",
       "name": "Aries",
       "subtitle": "Mar 21 - Apr 19 | Fire",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Aries"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Austin_Aries_2013_%28cropped%29.jpg/500px-Austin_Aries_2013_%28cropped%29.jpg"
     },
     {
       "id": "taurus",
       "name": "Taurus",
       "subtitle": "Apr 20 - May 20 | Earth",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Taurus"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Taurus_ILA2006.JPG/500px-Taurus_ILA2006.JPG"
     },
     {
       "id": "gemini",
       "name": "Gemini",
       "subtitle": "May 21 - Jun 20 | Air",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Gemini"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Gemini_Ganesan_2006_stamp_of_India_%28cropped%29.jpg"
     },
     {
       "id": "cancer",
@@ -28,49 +28,49 @@
       "id": "leo",
       "name": "Leo",
       "subtitle": "Jul 23 - Aug 22 | Fire",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Leo"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/LeoPTABFI191125-28_%28cropped%29.jpg/500px-LeoPTABFI191125-28_%28cropped%29.jpg"
     },
     {
       "id": "virgo",
       "name": "Virgo",
       "subtitle": "Aug 23 - Sep 22 | Earth",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Virgo"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/VirgoDetectorAerialView.jpg/500px-VirgoDetectorAerialView.jpg"
     },
     {
       "id": "libra",
       "name": "Libra",
       "subtitle": "Sep 23 - Oct 22 | Air",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Libra"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ancientlibraryalex.jpg/500px-Ancientlibraryalex.jpg"
     },
     {
       "id": "scorpio",
       "name": "Scorpio",
       "subtitle": "Oct 23 - Nov 21 | Water",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Scorpio"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Scorpions_in_Melbourne%2C_Australia_17.10.2016.jpg/500px-Scorpions_in_Melbourne%2C_Australia_17.10.2016.jpg"
     },
     {
       "id": "sagittarius",
       "name": "Sagittarius",
       "subtitle": "Nov 22 - Dec 21 | Fire",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Sagittarius"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/EHT_Saggitarius_A_black_hole.tif/lossy-page1-330px-EHT_Saggitarius_A_black_hole.tif.jpg"
     },
     {
       "id": "capricorn",
       "name": "Capricorn",
       "subtitle": "Dec 22 - Jan 19 | Earth",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Capricorn"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Great_Keppel_Island.jpg/500px-Great_Keppel_Island.jpg"
     },
     {
       "id": "aquarius",
       "name": "Aquarius",
       "subtitle": "Jan 20 - Feb 18 | Air",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Aquarius"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Aquarius_on_NBC.jpg"
     },
     {
       "id": "pisces",
       "name": "Pisces",
       "subtitle": "Feb 19 - Mar 20 | Water",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Pisces"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Pisces_symbol_%28bold%29.svg/500px-Pisces_symbol_%28bold%29.svg.png"
     }
   ]
 }

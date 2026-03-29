@@ -40,7 +40,7 @@
       "id": "frozen-anim",
       "name": "Frozen",
       "subtitle": "2013 - Disney",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Frozen&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Frozen_logo.svg/500px-Frozen_logo.svg.png"
     },
     {
       "id": "wall-e-anim",
@@ -52,7 +52,7 @@
       "id": "up-anim",
       "name": "Up",
       "subtitle": "2009 - Pixar",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Up&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bc/University_of_the_Philippines_Film_Institute_logo.png"
     },
     {
       "id": "how-to-train-your-dragon",
@@ -64,7 +64,7 @@
       "id": "the-incredibles-anim",
       "name": "The Incredibles",
       "subtitle": "2004 - Pixar",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Incredibles&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/27/The_Incredibles_%282004_animated_feature_film%29.jpg"
     },
     {
       "id": "ratatouille-anim",
@@ -100,25 +100,25 @@
       "id": "aladdin-anim",
       "name": "Aladdin",
       "subtitle": "1992 - Disney",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Aladdin&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d2/Aladin_%282009_film%29.jpg"
     },
     {
       "id": "kung-fu-panda",
       "name": "Kung Fu Panda",
       "subtitle": "2008 - DreamWorks",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Kung+Fu+Panda&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/76/Kungfupanda.jpg"
     },
     {
       "id": "the-iron-giant",
       "name": "The Iron Giant",
       "subtitle": "1999 - Warner Bros",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Iron+Giant&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d3/The_Iron_Giant_poster.JPG"
     },
     {
       "id": "monsters-inc-anim",
       "name": "Monsters, Inc.",
       "subtitle": "2001 - Pixar",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Monsters%2C+Inc.&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/63/Monsters_Inc.JPG"
     },
     {
       "id": "shrek-2",
@@ -130,19 +130,19 @@
       "id": "moana-anim",
       "name": "Moana",
       "subtitle": "2016 - Disney",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Moana&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Moana_Teaser_Poster.jpg"
     },
     {
       "id": "akira",
       "name": "Akira",
       "subtitle": "1988 - TMS",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Akira"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5d/AKIRA_%281988_poster%29.jpg"
     },
     {
       "id": "the-nightmare-before-christmas-anim",
       "name": "The Nightmare Before Christmas",
       "subtitle": "1993 - Disney",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Nightmare+Before+Christmas&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9a/The_nightmare_before_christmas_poster.jpg"
     },
     {
       "id": "soul-anim",
@@ -166,13 +166,13 @@
       "id": "across-the-spider-verse",
       "name": "Across the Spider-Verse",
       "subtitle": "2023 - Sony",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Across+the+Spider-Verse"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b4/Spider-Man-_Across_the_Spider-Verse_poster.jpg"
     },
     {
       "id": "tangled-anim",
       "name": "Tangled",
       "subtitle": "2010 - Disney",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Tangled&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a8/Tangled_poster.jpg"
     },
     {
       "id": "puss-in-boots-last-wish",
@@ -184,7 +184,7 @@
       "id": "megamind",
       "name": "Megamind",
       "subtitle": "2010 - DreamWorks",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Megamind&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/89/Megamind2010Poster.jpg"
     },
     {
       "id": "coraline",

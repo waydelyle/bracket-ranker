@@ -10,7 +10,7 @@
       "id": "bridesmaids",
       "name": "Bridesmaids",
       "subtitle": "2011",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Bridesmaids&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/df/BridesmaidsPoster.jpg"
     },
     {
       "id": "anchorman",
@@ -28,25 +28,25 @@
       "id": "step-brothers",
       "name": "Step Brothers",
       "subtitle": "2008",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Step+Brothers&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d9/StepbrothersMP08.jpg"
     },
     {
       "id": "dumb-and-dumber",
       "name": "Dumb and Dumber",
       "subtitle": "1994",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Dumb+and+Dumber&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/64/Dumbanddumber.jpg"
     },
     {
       "id": "airplane",
       "name": "Airplane!",
       "subtitle": "1980",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Airplane!"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Airplane%21_%281980_film%29.jpg"
     },
     {
       "id": "monty-python-holy-grail",
       "name": "Monty Python and the Holy Grail",
       "subtitle": "1975",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Monty+Python+and+the+Holy+Grail&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Monty-Python-1975-poster.png/500px-Monty-Python-1975-poster.png"
     },
     {
       "id": "the-grand-budapest-hotel",
@@ -58,19 +58,19 @@
       "id": "knocked-up",
       "name": "Knocked Up",
       "subtitle": "2007",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Knocked+Up"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Knockedupmp.jpg"
     },
     {
       "id": "blazing-saddles",
       "name": "Blazing Saddles",
       "subtitle": "1974",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Blazing+Saddles"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7b/Blazing_saddles_movie_poster.jpg"
     },
     {
       "id": "the-40-year-old-virgin",
       "name": "The 40-Year-Old Virgin",
       "subtitle": "2005",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+40-Year-Old+Virgin&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/43/40-Year-OldVirginMoviePoster.jpg"
     },
     {
       "id": "mean-girls",
@@ -88,7 +88,7 @@
       "id": "ferris-buellers-day-off",
       "name": "Ferris Bueller's Day Off",
       "subtitle": "1986",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Ferris+Bueller's+Day+Off"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Ferris_Bueller%27s_Day_Off.jpg"
     },
     {
       "id": "ghostbusters",
@@ -100,7 +100,7 @@
       "id": "caddyshack",
       "name": "Caddyshack",
       "subtitle": "1980",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Caddyshack"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/84/Caddyshack_poster.jpg"
     },
     {
       "id": "shaun-of-the-dead",
@@ -124,7 +124,7 @@
       "id": "this-is-spinal-tap",
       "name": "This Is Spinal Tap",
       "subtitle": "1984",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=This+Is+Spinal+Tap"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c8/Thisisspinaltapposter.jpg"
     },
     {
       "id": "the-big-lebowski-comedy",
@@ -148,19 +148,19 @@
       "id": "rush-hour",
       "name": "Rush Hour",
       "subtitle": "1998",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Rush+Hour"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/49/Rush_Hour_poster.png"
     },
     {
       "id": "happy-gilmore",
       "name": "Happy Gilmore",
       "subtitle": "1996",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Happy+Gilmore"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Happygilmoreposter.jpg"
     },
     {
       "id": "old-school",
       "name": "Old School",
       "subtitle": "2003",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Old+School"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Old_s_poster.jpg"
     },
     {
       "id": "the-nice-guys",
@@ -178,19 +178,19 @@
       "id": "coming-to-america",
       "name": "Coming to America",
       "subtitle": "1988",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Coming+to+America"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/38/ComingtoAmerica1988MoviePoster.jpg"
     },
     {
       "id": "game-night",
       "name": "Game Night",
       "subtitle": "2018",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Game+Night"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a4/Game_Night_%28film%29.png"
     },
     {
       "id": "the-nice-guys-comedy",
       "name": "Mrs. Doubtfire",
       "subtitle": "1993",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Mrs.+Doubtfire"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5a/Mrs_Doubtfire.jpg"
     }
   ]
 }

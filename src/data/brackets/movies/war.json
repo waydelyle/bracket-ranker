@@ -46,7 +46,7 @@
       "id": "hacksaw-ridge",
       "name": "Hacksaw Ridge",
       "subtitle": "2016",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Hacksaw+Ridge&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8a/Hacksaw_Ridge_poster.png"
     },
     {
       "id": "black-hawk-down",
@@ -58,19 +58,19 @@
       "id": "the-thin-red-line",
       "name": "The Thin Red Line",
       "subtitle": "1998",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Thin+Red+Line&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ae/The_Thin_Red_Line_Poster.jpg"
     },
     {
       "id": "the-bridge-on-the-river-kwai",
       "name": "The Bridge on the River Kwai",
       "subtitle": "1957",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Bridge+on+the+River+Kwai"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/The_Bridge_on_the_River_Kwai_%281958_US_poster_-_Style_A%29.jpg/500px-The_Bridge_on_the_River_Kwai_%281958_US_poster_-_Style_A%29.jpg"
     },
     {
       "id": "the-deer-hunter",
       "name": "The Deer Hunter",
       "subtitle": "1978",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Deer+Hunter"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Deer_Hunter_poster.jpg"
     },
     {
       "id": "inglourious-basterds-war",
@@ -82,7 +82,7 @@
       "id": "fury",
       "name": "Fury",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Fury&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/17/Fury_2014_poster.jpg"
     },
     {
       "id": "letters-from-iwo-jima",
@@ -106,13 +106,13 @@
       "id": "paths-of-glory",
       "name": "Paths of Glory",
       "subtitle": "1957",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Paths+of+Glory"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Paths_of_Glory_%281957_poster%29.jpg/500px-Paths_of_Glory_%281957_poster%29.jpg"
     },
     {
       "id": "lone-survivor",
       "name": "Lone Survivor",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Lone+Survivor"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/Lone_Survivor_poster.jpg"
     },
     {
       "id": "american-sniper",
@@ -142,7 +142,7 @@
       "id": "all-quiet-on-the-western-front",
       "name": "All Quiet on the Western Front",
       "subtitle": "2022",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=All+Quiet+on+the+Western+Front"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/All_quiet_on_the_western_front_%282022_film%29.jpg"
     }
   ]
 }

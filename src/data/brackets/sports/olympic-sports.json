@@ -4,19 +4,19 @@
       "id": "track-100m",
       "name": "100m Sprint",
       "subtitle": "Track & Field",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=100m+Sprint"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/London_2012_Olympic_100m_final_start.jpg/500px-London_2012_Olympic_100m_final_start.jpg"
     },
     {
       "id": "swimming",
       "name": "Swimming",
       "subtitle": "Aquatics",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Swimming"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/40._Schwimmzonen-_und_Mastersmeeting_Enns_2017_100m_Brust_Herren_USC_Traun-9897.jpg/500px-40._Schwimmzonen-_und_Mastersmeeting_Enns_2017_100m_Brust_Herren_USC_Traun-9897.jpg"
     },
     {
       "id": "gymnastics",
       "name": "Artistic Gymnastics",
       "subtitle": "Floor, vault, bars, beam",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Artistic+Gymnastics"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Illia_Kovtun_performing_in_the_men%27s_parallel_bars_final_at_Paris_2024.png/500px-Illia_Kovtun_performing_in_the_men%27s_parallel_bars_final_at_Paris_2024.png"
     },
     {
       "id": "basketball-olympic",
@@ -28,31 +28,31 @@
       "id": "soccer-olympic",
       "name": "Soccer / Football",
       "subtitle": "Team sport",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Soccer+%2F+Football"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/500px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg"
     },
     {
       "id": "diving",
       "name": "Diving",
       "subtitle": "Aquatics",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Diving"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Campana_h%C3%BAmeda.JPG/500px-Campana_h%C3%BAmeda.JPG"
     },
     {
       "id": "figure-skating",
       "name": "Figure Skating",
       "subtitle": "Winter Olympics",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Figure+Skating"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/2019_Grand_Prix_Final_-_Yuzuru_Hanyu_FS_%285%29.jpg/500px-2019_Grand_Prix_Final_-_Yuzuru_Hanyu_FS_%285%29.jpg"
     },
     {
       "id": "alpine-skiing",
       "name": "Alpine Skiing",
       "subtitle": "Winter Olympics",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Alpine+Skiing"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Alpine_skiing_pictogram.svg/500px-Alpine_skiing_pictogram.svg.png"
     },
     {
       "id": "tennis-olympic",
       "name": "Tennis",
       "subtitle": "Racquet sport",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tennis"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/2013_Australian_Open_-_Guillaume_Rufin.jpg/500px-2013_Australian_Open_-_Guillaume_Rufin.jpg"
     },
     {
       "id": "volleyball",
@@ -64,7 +64,7 @@
       "id": "fencing",
       "name": "Fencing",
       "subtitle": "Combat sport",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Fencing"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Final_Trophee_Monal_2012_n08.jpg/500px-Final_Trophee_Monal_2012_n08.jpg"
     },
     {
       "id": "archery",
@@ -82,7 +82,7 @@
       "id": "rowing",
       "name": "Rowing",
       "subtitle": "Water sport",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Rowing"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Portland_Pudgy_safety_dinghy%2C_rowing.JPG/500px-Portland_Pudgy_safety_dinghy%2C_rowing.JPG"
     },
     {
       "id": "track-marathon",
@@ -94,55 +94,55 @@
       "id": "snowboarding",
       "name": "Snowboarding",
       "subtitle": "Winter Olympics",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Snowboarding"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Snowboarding.jpg/500px-Snowboarding.jpg"
     },
     {
       "id": "surfing",
       "name": "Surfing",
       "subtitle": "Added 2020",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Surfing"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mavericks_Surf_Contest_2010b.jpg/500px-Mavericks_Surf_Contest_2010b.jpg"
     },
     {
       "id": "skateboarding",
       "name": "Skateboarding",
       "subtitle": "Added 2020",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Skateboarding"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/BackSmithGrind.jpg/500px-BackSmithGrind.jpg"
     },
     {
       "id": "weightlifting",
       "name": "Weightlifting",
       "subtitle": "Strength sport",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Weightlifting"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/TwoDumbbells.JPG/500px-TwoDumbbells.JPG"
     },
     {
       "id": "wrestling",
       "name": "Wrestling",
       "subtitle": "Combat sport",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Wrestling"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Wrestling_at_the_2016_Summer_Olympics%2C_Gazyumov_vs_Andriitsev_6.jpg/500px-Wrestling_at_the_2016_Summer_Olympics%2C_Gazyumov_vs_Andriitsev_6.jpg"
     },
     {
       "id": "bmx",
       "name": "BMX Racing",
       "subtitle": "Cycling",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=BMX+Racing"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Renato_Rezende_em_2021.jpg/500px-Renato_Rezende_em_2021.jpg"
     },
     {
       "id": "ice-hockey",
       "name": "Ice Hockey",
       "subtitle": "Winter Olympics",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Ice+Hockey"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg/500px-Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg"
     },
     {
       "id": "table-tennis",
       "name": "Table Tennis",
       "subtitle": "Racquet sport",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Table+Tennis"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Mondial_Ping_-_Men%27s_Singles_-_Round_4_-_Kenta_Matsudaira-Vladimir_Samsonov_-_57.jpg/500px-Mondial_Ping_-_Men%27s_Singles_-_Round_4_-_Kenta_Matsudaira-Vladimir_Samsonov_-_57.jpg"
     },
     {
       "id": "beach-volleyball",
       "name": "Beach Volleyball",
       "subtitle": "Sand court",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Beach+Volleyball"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/ECSC_East_Coast_Surfing_Championships_Beach_Volleyball_women_open_finals_Pregowska_pro_FIVB.jpg/500px-ECSC_East_Coast_Surfing_Championships_Beach_Volleyball_women_open_finals_Pregowska_pro_FIVB.jpg"
     }
   ]
 }

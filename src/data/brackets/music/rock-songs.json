@@ -4,7 +4,7 @@
       "id": "stairway-to-heaven",
       "name": "Stairway to Heaven",
       "subtitle": "Led Zeppelin",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Stairway+to+Heaven"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b8/Stairway_Cole.jpg"
     },
     {
       "id": "bohemian-rhapsody",
@@ -16,19 +16,19 @@
       "id": "hotel-california",
       "name": "Hotel California",
       "subtitle": "Eagles",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Hotel+California"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg"
     },
     {
       "id": "smells-like-teen-spirit",
       "name": "Smells Like Teen Spirit",
       "subtitle": "Nirvana",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Smells+Like+Teen+Spirit"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3c/Smells_Like_Teen_Spirit.jpg"
     },
     {
       "id": "sweet-child-o-mine",
       "name": "Sweet Child O' Mine",
       "subtitle": "Guns N' Roses",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sweet+Child+O'+Mine"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/15/Guns_N%27_Roses_-_Sweet_Child_o%27_Mine.png"
     },
     {
       "id": "comfortably-numb",
@@ -40,19 +40,19 @@
       "id": "november-rain",
       "name": "November Rain",
       "subtitle": "Guns N' Roses",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=November+Rain"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/Novemberrain.jpg"
     },
     {
       "id": "back-in-black",
       "name": "Back in Black",
       "subtitle": "AC/DC",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Back+in+Black"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Back_in_black_by_acdc_US_7-inch_single_side-A.png/500px-Back_in_black_by_acdc_US_7-inch_single_side-A.png"
     },
     {
       "id": "dream-on",
       "name": "Dream On",
       "subtitle": "Aerosmith",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Dream+On"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/DreamOnsingle.jpg"
     },
     {
       "id": "free-bird",
@@ -64,7 +64,7 @@
       "id": "thunderstruck",
       "name": "Thunderstruck",
       "subtitle": "AC/DC",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Thunderstruck"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e4/ACDC-Thunderstruck.png"
     },
     {
       "id": "enter-sandman",
@@ -82,25 +82,25 @@
       "id": "satisfaction",
       "name": "(I Can't Get No) Satisfaction",
       "subtitle": "The Rolling Stones",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=(I+Can't+Get+No)+Satisfaction"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7f/Satisfaction-us.jpg"
     },
     {
       "id": "born-to-run",
       "name": "Born to Run",
       "subtitle": "Bruce Springsteen",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Born+to+Run"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fc/Born_to_run_single_art.jpg"
     },
     {
       "id": "layla",
       "name": "Layla",
       "subtitle": "Derek and the Dominos",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Layla"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Layla_by_Derek_and_the_Dominos_UK_vinyl_side-A.png/500px-Layla_by_Derek_and_the_Dominos_UK_vinyl_side-A.png"
     },
     {
       "id": "whole-lotta-love",
       "name": "Whole Lotta Love",
       "subtitle": "Led Zeppelin",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Whole+Lotta+Love"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/66/Wllsingle.jpg"
     },
     {
       "id": "dont-stop-believin",
@@ -112,7 +112,7 @@
       "id": "purple-haze",
       "name": "Purple Haze",
       "subtitle": "Jimi Hendrix",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Purple+Haze"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e4/Purple_Hat.jpg"
     },
     {
       "id": "livin-on-a-prayer",
@@ -130,25 +130,25 @@
       "id": "kashmir",
       "name": "Kashmir",
       "subtitle": "Led Zeppelin",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Kashmir"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Kashmir_region._LOC_2003626427_-_showing_sub-regions_administered_by_different_countries.jpg/500px-Kashmir_region._LOC_2003626427_-_showing_sub-regions_administered_by_different_countries.jpg"
     },
     {
       "id": "creep",
       "name": "Creep",
       "subtitle": "Radiohead",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Creep"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Creep_by_radiohead_reissue.png"
     },
     {
       "id": "black-dog",
       "name": "Black Dog",
       "subtitle": "Led Zeppelin",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Black+Dog"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ad/Black_Dog45.jpg"
     },
     {
       "id": "welcome-to-the-jungle",
       "name": "Welcome to the Jungle",
       "subtitle": "Guns N' Roses",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Welcome+to+the+Jungle"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Welcometothejungle.jpg"
     },
     {
       "id": "crazy-train",
@@ -160,37 +160,37 @@
       "id": "baba-oriley",
       "name": "Baba O'Riley",
       "subtitle": "The Who",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Baba+O'Riley"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5a/The_Who_-_Baba_cover.jpg"
     },
     {
       "id": "sympathy-for-the-devil",
       "name": "Sympathy for the Devil",
       "subtitle": "The Rolling Stones",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sympathy+for+the+Devil"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/35/One_Tree_Hill_Season_6.jpg"
     },
     {
       "id": "wish-you-were-here",
       "name": "Wish You Were Here",
       "subtitle": "Pink Floyd",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Wish+You+Were+Here"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a4/Pink_Floyd%2C_Wish_You_Were_Here_%281975%29.png"
     },
     {
       "id": "paranoid",
       "name": "Paranoid",
       "subtitle": "Black Sabbath",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Paranoid"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Paranoid-The_Wizard_1970_7.jpg"
     },
     {
       "id": "more-than-a-feeling",
       "name": "More Than a Feeling",
       "subtitle": "Boston",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=More+Than+a+Feeling"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/MoreThanAFeeling%28Boston%29.jpg"
     },
     {
       "id": "carry-on-wayward-son",
       "name": "Carry On Wayward Son",
       "subtitle": "Kansas",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Carry+On+Wayward+Son"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/43/Carry_On_Wayward_Son.jpg"
     }
   ]
 }

@@ -4,7 +4,7 @@
       "id": "tupac",
       "name": "2Pac",
       "subtitle": "1991-1996",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=2Pac"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/2PacGreatestHits.jpg"
     },
     {
       "id": "notorious-big",
@@ -16,7 +16,7 @@
       "id": "jay-z",
       "name": "Jay-Z",
       "subtitle": "1996-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Jay-Z"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Jay-Z-01-mika.jpg/500px-Jay-Z-01-mika.jpg"
     },
     {
       "id": "nas",
@@ -70,7 +70,7 @@
       "id": "lauryn-hill",
       "name": "Lauryn Hill",
       "subtitle": "1996-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Lauryn+Hill"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Lauryn_Hill_Kongsberg_Jazzfestival_2019_%28221758%29_%28cropped%29.jpg/500px-Lauryn_Hill_Kongsberg_Jazzfestival_2019_%28221758%29_%28cropped%29.jpg"
     },
     {
       "id": "snoop-dogg",
@@ -82,7 +82,7 @@
       "id": "rakim",
       "name": "Rakim",
       "subtitle": "1987-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Rakim"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Rakim_Sanders_21_FC_Barcelona_B%C3%A0squet_20180126.jpg/500px-Rakim_Sanders_21_FC_Barcelona_B%C3%A0squet_20180126.jpg"
     },
     {
       "id": "wu-tang-clan",
@@ -106,13 +106,13 @@
       "id": "missy-elliott",
       "name": "Missy Elliott",
       "subtitle": "1997-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Missy+Elliott"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Missy_Elliot.jpg/500px-Missy_Elliot.jpg"
     },
     {
       "id": "a-tribe-called-quest",
       "name": "A Tribe Called Quest",
       "subtitle": "1990-2016",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=A+Tribe+Called+Quest"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/A_Tribe_Called_Quest_montage.png/500px-A_Tribe_Called_Quest_montage.png"
     },
     {
       "id": "travis-scott",
@@ -130,7 +130,7 @@
       "id": "nicki-minaj",
       "name": "Nicki Minaj",
       "subtitle": "2010-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Nicki+Minaj"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nicki_Minaj_VMAs_2018_%282%29_%28cropped%29.jpg/500px-Nicki_Minaj_VMAs_2018_%282%29_%28cropped%29.jpg"
     },
     {
       "id": "future",
@@ -160,7 +160,7 @@
       "id": "ll-cool-j",
       "name": "LL Cool J",
       "subtitle": "1984-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=LL+Cool+J"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/LL_Cool_J_in_2023_%28cropped%29.jpg"
     },
     {
       "id": "dr-dre",

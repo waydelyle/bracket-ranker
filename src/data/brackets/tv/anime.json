@@ -10,25 +10,25 @@
       "id": "fullmetal-alchemist-brotherhood",
       "name": "Fullmetal Alchemist: Brotherhood",
       "subtitle": "2009-2010",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Fullmetal+Alchemist%3A+Brotherhood&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/Fullmetal_Alchemist_Brotherhood_key_visual.png"
     },
     {
       "id": "death-note",
       "name": "Death Note",
       "subtitle": "2006-2007",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Death+Note&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.jpg"
     },
     {
       "id": "naruto-shippuden",
       "name": "Naruto Shippuden",
       "subtitle": "2007-2017",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Naruto+Shippuden"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Logo_Naruto_Shipp%C5%ABden.svg/500px-Logo_Naruto_Shipp%C5%ABden.svg.png"
     },
     {
       "id": "one-piece",
       "name": "One Piece",
       "subtitle": "1999-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=One+Piece&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg"
     },
     {
       "id": "demon-slayer",
@@ -40,19 +40,19 @@
       "id": "dragon-ball-z",
       "name": "Dragon Ball Z",
       "subtitle": "1989-1996",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dragon+Ball+Z&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Dragon_Ball_anime_logo.png/500px-Dragon_Ball_anime_logo.png"
     },
     {
       "id": "hunter-x-hunter",
       "name": "Hunter x Hunter",
       "subtitle": "2011-2014",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Hunter+x+Hunter&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e8/Hunter_%C3%97_Hunter_vol._1.png"
     },
     {
       "id": "jujutsu-kaisen",
       "name": "Jujutsu Kaisen",
       "subtitle": "2020-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jujutsu+Kaisen&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Jujutsu_Kaisen_%28Japanese%29_logo.svg/500px-Jujutsu_Kaisen_%28Japanese%29_logo.svg.png"
     },
     {
       "id": "my-hero-academia",
@@ -64,19 +64,19 @@
       "id": "one-punch-man",
       "name": "One Punch Man",
       "subtitle": "2015-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=One+Punch+Man"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/OnePunchMan_manga_cover.png"
     },
     {
       "id": "cowboy-bebop",
       "name": "Cowboy Bebop",
       "subtitle": "1998-1999",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Cowboy+Bebop&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/Cowboy_Bebop_key_visual.jpg"
     },
     {
       "id": "neon-genesis-evangelion",
       "name": "Neon Genesis Evangelion",
       "subtitle": "1995-1996",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Neon+Genesis+Evangelion&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/72/Evangelion_retouched.png"
     },
     {
       "id": "steins-gate",
@@ -88,13 +88,13 @@
       "id": "mob-psycho-100",
       "name": "Mob Psycho 100",
       "subtitle": "2016-2023",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Mob+Psycho+100&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/Mob_Psycho_100_manga_vol_1.jpg"
     },
     {
       "id": "spy-x-family",
       "name": "SPY x FAMILY",
       "subtitle": "2022-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=SPY+x+FAMILY"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Spy_%C3%97_Family_logo.png/500px-Spy_%C3%97_Family_logo.png"
     },
     {
       "id": "chainsaw-man",
@@ -106,49 +106,49 @@
       "id": "vinland-saga",
       "name": "Vinland Saga",
       "subtitle": "2019-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Vinland+Saga&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8c/Vinland_Saga_key_visual.png"
     },
     {
       "id": "code-geass",
       "name": "Code Geass",
       "subtitle": "2006-2008",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Code+Geass"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/74/Code_Geass_R1_box_set_cover.jpg"
     },
     {
       "id": "made-in-abyss",
       "name": "Made in Abyss",
       "subtitle": "2017-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Made+in+Abyss"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9a/Made_in_Abyss_volume_1_cover.jpg"
     },
     {
       "id": "violet-evergarden",
       "name": "Violet Evergarden",
       "subtitle": "2018",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Violet+Evergarden"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Violet_Evergarden_light_novel_volume_1_cover.jpg"
     },
     {
       "id": "fruits-basket",
       "name": "Fruits Basket",
       "subtitle": "2019-2021",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Fruits+Basket"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e6/Fruits_Basket_manga.jpg"
     },
     {
       "id": "your-lie-in-april",
       "name": "Your Lie in April",
       "subtitle": "2014-2015",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Your+Lie+in+April"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/de/Your_Lie_in_April_Manga_cover.png"
     },
     {
       "id": "haikyuu",
       "name": "Haikyuu!!",
       "subtitle": "2014-2020",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Haikyuu!!"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/Haiky%C5%AB_Volume_1.jpg"
     },
     {
       "id": "tokyo-ghoul",
       "name": "Tokyo Ghoul",
       "subtitle": "2014-2018",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Tokyo+Ghoul"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e5/Tokyo_Ghoul_volume_1_cover.jpg"
     },
     {
       "id": "bleach",
@@ -166,7 +166,7 @@
       "id": "sword-art-online",
       "name": "Sword Art Online",
       "subtitle": "2012-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Sword+Art+Online"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3e/Sword_Art_Online_light_novel_volume_1_cover.jpg"
     },
     {
       "id": "re-zero",
@@ -184,13 +184,13 @@
       "id": "erased",
       "name": "Erased",
       "subtitle": "2016",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Erased"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/60/Boku_Dake_ga_Inai_Machi_vol1.jpg"
     },
     {
       "id": "parasyte",
       "name": "Parasyte: The Maxim",
       "subtitle": "2014-2015",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Parasyte%3A+The+Maxim"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/87/Parasyte_4.png"
     }
   ]
 }

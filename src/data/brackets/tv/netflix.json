@@ -28,7 +28,7 @@
       "id": "ozark",
       "name": "Ozark",
       "subtitle": "2017-2022",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Ozark&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Omar_%28TV_Series%29.jpg/500px-Omar_%28TV_Series%29.jpg"
     },
     {
       "id": "the-queens-gambit",
@@ -58,7 +58,7 @@
       "id": "the-crown",
       "name": "The Crown",
       "subtitle": "2016-2023",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Crown&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/The_Crown_Title_Card.jpg/500px-The_Crown_Title_Card.jpg"
     },
     {
       "id": "cobra-kai",
@@ -70,7 +70,7 @@
       "id": "dark",
       "name": "Dark",
       "subtitle": "2017-2020",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dark"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/IntoTheDark.png/500px-IntoTheDark.png"
     },
     {
       "id": "black-mirror",
@@ -82,7 +82,7 @@
       "id": "money-heist",
       "name": "Money Heist",
       "subtitle": "2017-2021",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Money+Heist"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Money_Heist_Korea_%E2%80%93_Joint_Economic_Area.jpg/500px-Money_Heist_Korea_%E2%80%93_Joint_Economic_Area.jpg"
     },
     {
       "id": "the-umbrella-academy",
@@ -100,25 +100,25 @@
       "id": "lupin",
       "name": "Lupin",
       "subtitle": "2021-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Lupin"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Ilumina_title_card.jpg"
     },
     {
       "id": "outer-banks",
       "name": "Outer Banks",
       "subtitle": "2020-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Outer+Banks"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/NCOuterBanks-EO.jpg/500px-NCOuterBanks-EO.jpg"
     },
     {
       "id": "all-of-us-are-dead",
       "name": "All of Us Are Dead",
       "subtitle": "2022-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=All+of+Us+Are+Dead"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/24/All_of_Us_Are_Dead.jpeg"
     },
     {
       "id": "orange-is-the-new-black",
       "name": "Orange Is the New Black",
       "subtitle": "2013-2019",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Orange+Is+the+New+Black"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Orange_is_the_new_Black_Logo.svg/500px-Orange_is_the_new_Black_Logo.svg.png"
     },
     {
       "id": "house-of-cards",
@@ -130,7 +130,7 @@
       "id": "mindhunter",
       "name": "Mindhunter",
       "subtitle": "2017-2019",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Mindhunter&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/Mindhunters_poster.jpg"
     },
     {
       "id": "bojack-horseman",
@@ -142,7 +142,7 @@
       "id": "unbreakable-kimmy-schmidt",
       "name": "Unbreakable Kimmy Schmidt",
       "subtitle": "2015-2019",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Unbreakable+Kimmy+Schmidt"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Unbreakable_Kimmy_Schmidt.png/500px-Unbreakable_Kimmy_Schmidt.png"
     },
     {
       "id": "beef",
@@ -154,7 +154,7 @@
       "id": "dahmer",
       "name": "Dahmer",
       "subtitle": "2022",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dahmer"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/28/Dahmer_netflix_series.jpg"
     },
     {
       "id": "the-night-agent",
@@ -178,7 +178,7 @@
       "id": "alice-in-borderland",
       "name": "Alice in Borderland",
       "subtitle": "2020-2022",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Alice+in+Borderland"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ab/Alice_in_Borderland_title_card.jpg"
     },
     {
       "id": "daredevil",

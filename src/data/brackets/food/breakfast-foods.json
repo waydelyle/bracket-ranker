@@ -34,7 +34,7 @@
       "id": "breakfast-burrito",
       "name": "Breakfast Burrito",
       "subtitle": "Wrapped perfection",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Breakfast+Burrito"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/New_Mexican_breakfast_burrito.jpg/500px-New_Mexican_breakfast_burrito.jpg"
     },
     {
       "id": "avocado-toast",
@@ -52,7 +52,7 @@
       "id": "cereal-breakfast",
       "name": "Cereal & Milk",
       "subtitle": "Classic morning bowl",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cereal+%26+Milk"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Cornflakes_with_milk_pouring_in.jpg/500px-Cornflakes_with_milk_pouring_in.jpg"
     },
     {
       "id": "omelette",
@@ -64,25 +64,25 @@
       "id": "bagel-cream-cheese",
       "name": "Bagel & Cream Cheese",
       "subtitle": "NY classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Bagel+%26+Cream+Cheese"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/NCI_cream_cheese_bagel.jpg/500px-NCI_cream_cheese_bagel.jpg"
     },
     {
       "id": "smoothie-bowl",
       "name": "Smoothie Bowl",
       "subtitle": "Fruity & fresh",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Smoothie+Bowl"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Kiwi_Smoothie.jpg/500px-Kiwi_Smoothie.jpg"
     },
     {
       "id": "cinnamon-rolls",
       "name": "Cinnamon Rolls",
       "subtitle": "Sweet & sticky",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cinnamon+Rolls"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Cinnamon_roll_in_Stockholm.jpg/500px-Cinnamon_roll_in_Stockholm.jpg"
     },
     {
       "id": "hash-browns",
       "name": "Hash Browns",
       "subtitle": "Crispy potato",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Hash+Browns"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mmm..._sliders_and_deep_fried_hash_browns_%287958927842%29.jpg/500px-Mmm..._sliders_and_deep_fried_hash_browns_%287958927842%29.jpg"
     },
     {
       "id": "biscuits-breakfast",

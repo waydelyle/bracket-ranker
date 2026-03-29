@@ -4,43 +4,43 @@
       "id": "levels",
       "name": "Levels",
       "subtitle": "Avicii",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Levels"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/Levelssong.jpg"
     },
     {
       "id": "strobe",
       "name": "Strobe",
       "subtitle": "deadmau5",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Strobe"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/52/Strobe.jpg"
     },
     {
       "id": "titanium",
       "name": "Titanium",
       "subtitle": "David Guetta ft. Sia",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Titanium"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Titan-crystal_bar.JPG/500px-Titan-crystal_bar.JPG"
     },
     {
       "id": "wake-me-up",
       "name": "Wake Me Up",
       "subtitle": "Avicii",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Wake+Me+Up"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/da/Avicii_Wake_Me_Up_Official_Single_Cover.png"
     },
     {
       "id": "lean-on-edm",
       "name": "Lean On",
       "subtitle": "Major Lazer & DJ Snake",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Lean+On"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ed/Major_Lazer_and_DJ_Snake_-_Lean_On_%28feat._M%C3%98%29.png"
     },
     {
       "id": "clarity",
       "name": "Clarity",
       "subtitle": "Zedd ft. Foxes",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Clarity"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/17/Skunk_anansie_charity2.jpg"
     },
     {
       "id": "scary-monsters",
       "name": "Scary Monsters and Nice Sprites",
       "subtitle": "Skrillex",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Scary+Monsters+and+Nice+Sprites"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/Skrillex_scary_monsters.jpg"
     },
     {
       "id": "one-more-time",
@@ -52,7 +52,7 @@
       "id": "sandstorm",
       "name": "Sandstorm",
       "subtitle": "Darude",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sandstorm"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/98/Sandstorm_single.jpg"
     },
     {
       "id": "animals",
@@ -64,7 +64,7 @@
       "id": "dont-you-worry-child",
       "name": "Don't You Worry Child",
       "subtitle": "Swedish House Mafia",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Don't+You+Worry+Child"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Dont-you-worry-child-swedish-house-mafia.png"
     },
     {
       "id": "faded",
@@ -76,7 +76,7 @@
       "id": "get-lucky",
       "name": "Get Lucky",
       "subtitle": "Daft Punk ft. Pharrell",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Get+Lucky"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/71/Get_Lucky.jpg"
     },
     {
       "id": "something-just-like-this",
@@ -88,13 +88,13 @@
       "id": "around-the-world",
       "name": "Around the World",
       "subtitle": "Daft Punk",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Around+the+World"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/cd/Aroundtheworld_DaftPunk.jpg"
     },
     {
       "id": "in-the-name-of-love",
       "name": "In the Name of Love",
       "subtitle": "Martin Garrix & Bebe Rexha",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=In+the+Name+of+Love"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/66/In_the_Name_of_Love_Cover_Art_by_Bebe_Rexha_and_Martin_Garrix.jpeg"
     },
     {
       "id": "spectrum",
@@ -106,19 +106,19 @@
       "id": "this-is-what-you-came-for",
       "name": "This Is What You Came For",
       "subtitle": "Calvin Harris ft. Rihanna",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=This+Is+What+You+Came+For"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a8/This_Is_What_You_Came_For_cover.png"
     },
     {
       "id": "waiting-for-love",
       "name": "Waiting for Love",
       "subtitle": "Avicii",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Waiting+for+Love"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/81/Avicii%27s_Waiting_For_Love%2C_Cover_Artwork.png"
     },
     {
       "id": "midnight-city",
       "name": "Midnight City",
       "subtitle": "M83",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Midnight+City"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1a/Midnight_city.jpeg"
     },
     {
       "id": "bangarang",
@@ -130,7 +130,7 @@
       "id": "where-are-u-now",
       "name": "Where Are U Now",
       "subtitle": "Jack U ft. Justin Bieber",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Where+Are+U+Now"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d3/Jack_U_Where_Are_U_Now_Remixes.jpg"
     },
     {
       "id": "the-nights",
@@ -142,7 +142,7 @@
       "id": "summer",
       "name": "Summer",
       "subtitle": "Calvin Harris",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Summer"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Calvin_Harris_-_Summer.png"
     }
   ]
 }

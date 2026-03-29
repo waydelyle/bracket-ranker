@@ -10,25 +10,25 @@
       "id": "pepsi",
       "name": "Pepsi",
       "subtitle": "The choice of a new generation",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pepsi"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pepsi_2023.svg/500px-Pepsi_2023.svg.png"
     },
     {
       "id": "dr-pepper",
       "name": "Dr Pepper",
       "subtitle": "23 flavors",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Dr+Pepper"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Dr_Pepper_modern.svg/500px-Dr_Pepper_modern.svg.png"
     },
     {
       "id": "sprite",
       "name": "Sprite",
       "subtitle": "Lemon-lime",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Sprite"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Sprite_lemon_lime_1.jpg/500px-Sprite_lemon_lime_1.jpg"
     },
     {
       "id": "mountain-dew",
       "name": "Mountain Dew",
       "subtitle": "Do the Dew",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mountain+Dew"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Mountain_Dew_2025_logo.svg/500px-Mountain_Dew_2025_logo.svg.png"
     },
     {
       "id": "root-beer",
@@ -40,55 +40,55 @@
       "id": "ginger-ale",
       "name": "Ginger Ale",
       "subtitle": "Canada Dry or Schweppes",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ginger+Ale"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Vernors_ginger_ale.jpg/500px-Vernors_ginger_ale.jpg"
     },
     {
       "id": "fanta-orange",
       "name": "Fanta Orange",
       "subtitle": "Fruity & bubbly",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Fanta+Orange"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Fanta_2023.svg/500px-Fanta_2023.svg.png"
     },
     {
       "id": "7up",
       "name": "7UP",
       "subtitle": "Lemon-lime",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=7UP"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/7up_1.jpg/500px-7up_1.jpg"
     },
     {
       "id": "cream-soda",
       "name": "Cream Soda",
       "subtitle": "Vanilla sweetness",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cream+Soda"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Drink_Hand_crafted_cream_soda_%2818705306063%29.jpg/500px-Drink_Hand_crafted_cream_soda_%2818705306063%29.jpg"
     },
     {
       "id": "orange-crush",
       "name": "Crush",
       "subtitle": "Orange soda",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Crush"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/190706_%EC%A7%9D%EA%BF%8D_%ED%8A%B9%EC%A7%91%21_%EB%B9%84%EC%99%80%EC%9D%B4X%ED%81%AC%EB%9F%AC%EC%89%AC%2C_%EC%8A%A4%EC%9B%A9%EB%84%98%EC%B9%98%EB%8A%94_%EB%B8%8C%EC%9D%B4_%28KBS_%ED%95%B4%ED%94%BC%ED%88%AC%EA%B2%8C%EB%8D%944_%EC%B6%9C%EA%B7%BC%EA%B8%B8%29_1m_31s.jpg/500px-190706_%EC%A7%9D%EA%BF%8D_%ED%8A%B9%EC%A7%91%21_%EB%B9%84%EC%99%80%EC%9D%B4X%ED%81%AC%EB%9F%AC%EC%89%AC%2C_%EC%8A%A4%EC%9B%A9%EB%84%98%EC%B9%98%EB%8A%94_%EB%B8%8C%EC%9D%B4_%28KBS_%ED%95%B4%ED%94%BC%ED%88%AC%EA%B2%8C%EB%8D%944_%EC%B6%9C%EA%B7%BC%EA%B8%B8%29_1m_31s.jpg"
     },
     {
       "id": "cherry-coke",
       "name": "Cherry Coke",
       "subtitle": "Cherry-flavored cola",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cherry+Coke"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Coca-Cola_Cherry_Poland.png/500px-Coca-Cola_Cherry_Poland.png"
     },
     {
       "id": "sunkist",
       "name": "Sunkist",
       "subtitle": "Orange soda",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Sunkist"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Sunkist_Headquarters.jpg/500px-Sunkist_Headquarters.jpg"
     },
     {
       "id": "diet-coke",
       "name": "Diet Coke",
       "subtitle": "Zero calorie cola",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Diet+Coke"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Diet_coke_1.jpg/500px-Diet_coke_1.jpg"
     },
     {
       "id": "mello-yello",
       "name": "Mello Yello",
       "subtitle": "Citrus soda",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mello+Yello"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_mello_yello.png"
     },
     {
       "id": "birch-beer",

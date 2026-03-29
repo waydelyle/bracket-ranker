@@ -4,7 +4,7 @@
       "id": "illmatic-debut",
       "name": "Illmatic",
       "subtitle": "Nas - 1994",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Illmatic"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/27/IllmaticNas.jpg"
     },
     {
       "id": "ready-to-die-debut",
@@ -22,25 +22,25 @@
       "id": "born-to-run-debut",
       "name": "Born to Run",
       "subtitle": "Bruce Springsteen - 1975",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Born+to+Run"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fc/Born_to_run_single_art.jpg"
     },
     {
       "id": "please-please-me",
       "name": "Please Please Me",
       "subtitle": "The Beatles - 1963",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Please+Please+Me"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c8/Pleasepleasemesingle.png"
     },
     {
       "id": "the-chronic-debut",
       "name": "The Chronic",
       "subtitle": "Dr. Dre - 1992",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Chronic"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/19/Dr.DreTheChronic.jpg"
     },
     {
       "id": "appetite-for-destruction-debut",
       "name": "Appetite for Destruction",
       "subtitle": "Guns N' Roses - 1987",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Appetite+for+Destruction"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/06/Appetite_for_Destruction.jpg"
     },
     {
       "id": "is-this-it-debut",
@@ -52,13 +52,13 @@
       "id": "nevermind-debut",
       "name": "Nevermind",
       "subtitle": "Nirvana - 1991",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Nevermind"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Namie_Amuro_Never_End.jpg"
     },
     {
       "id": "boy",
       "name": "Boy",
       "subtitle": "U2 - 1980",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Boy"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Demi_Moore_at_WWD_Style_Awards_2026.jpg/500px-Demi_Moore_at_WWD_Style_Awards_2026.jpg"
     },
     {
       "id": "when-we-all-fall-asleep-debut",
@@ -82,25 +82,25 @@
       "id": "sour",
       "name": "SOUR",
       "subtitle": "Olivia Rodrigo - 2021",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=SOUR"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a4/Limp_Bizkit_Three_Dollar_Bill_Y%27All.jpg"
     },
     {
       "id": "dangerously-in-love",
       "name": "Dangerously in Love",
       "subtitle": "Beyonce - 2003",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Dangerously+in+Love"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/84/Dangerously_In_Love_Album%282003%29.png"
     },
     {
       "id": "frank-debut",
       "name": "Frank",
       "subtitle": "Amy Winehouse - 2003",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Frank"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Frank_Sinatra_1961.jpg/500px-Frank_Sinatra_1961.jpg"
     },
     {
       "id": "ctrl",
       "name": "Ctrl",
       "subtitle": "SZA - 2017",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ctrl"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/CarlLong2018Johnsonville180.jpg/500px-CarlLong2018Johnsonville180.jpg"
     },
     {
       "id": "reasonable-doubt-debut",
@@ -118,7 +118,7 @@
       "id": "21",
       "name": "21",
       "subtitle": "Adele - 2011",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=21"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/SANDF_21_South_African_Infantry_emblem.jpg/500px-SANDF_21_South_African_Infantry_emblem.jpg"
     },
     {
       "id": "lauryn-hill-debut",
@@ -130,19 +130,19 @@
       "id": "hot-fuss",
       "name": "Hot Fuss",
       "subtitle": "The Killers - 2004",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Hot+Fuss"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/17/The_Killers_-_Hot_Fuss.png"
     },
     {
       "id": "section-80",
       "name": "Section.80",
       "subtitle": "Kendrick Lamar - 2011",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Section.80"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/33/ColleGroveCover.jpg"
     },
     {
       "id": "bastard",
       "name": "Bastard",
       "subtitle": "Tyler, the Creator - 2009",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Bastard"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Bastard%2C_Segar.jpg"
     }
   ]
 }

@@ -10,7 +10,7 @@
       "id": "band-of-brothers",
       "name": "Band of Brothers",
       "subtitle": "2001 - HBO",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Band+of+Brothers&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/BandofBrothersIntertitle.jpg/500px-BandofBrothersIntertitle.jpg"
     },
     {
       "id": "the-queens-gambit-mini",
@@ -40,7 +40,7 @@
       "id": "normal-people",
       "name": "Normal People",
       "subtitle": "2020 - Hulu",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Normal+People"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Normal_People_%28Rooney_novel%29.png"
     },
     {
       "id": "the-night-of",
@@ -58,7 +58,7 @@
       "id": "waco",
       "name": "Waco",
       "subtitle": "2018 - Paramount",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Waco"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/WacoTitleCard.png/500px-WacoTitleCard.png"
     },
     {
       "id": "devs-mini",
@@ -76,7 +76,7 @@
       "id": "midnight-mass",
       "name": "Midnight Mass",
       "subtitle": "2021 - Netflix",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Midnight+Mass"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/da/Midnight_Mass_Poster.jpg"
     },
     {
       "id": "the-haunting-of-hill-house",
@@ -88,13 +88,13 @@
       "id": "shogun-mini",
       "name": "Shogun",
       "subtitle": "2024 - FX",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Shogun"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/71/Shogun_Total_War.jpg"
     },
     {
       "id": "unbelievable",
       "name": "Unbelievable",
       "subtitle": "2019 - Netflix",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Unbelievable"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Unbelievable_%28miniseries%29_Title_Card.jpg"
     }
   ]
 }

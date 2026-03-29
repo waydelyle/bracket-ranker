@@ -4,19 +4,19 @@
       "id": "tesla",
       "name": "Tesla",
       "subtitle": "Electric vehicles",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Tesla"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/2024_Tesla_Cybertruck_Foundation_Series%2C_front_left_%28Greenwich%29.jpg/500px-2024_Tesla_Cybertruck_Foundation_Series%2C_front_left_%28Greenwich%29.jpg"
     },
     {
       "id": "bmw",
       "name": "BMW",
       "subtitle": "German luxury",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=BMW"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Logo_BMW_Group_2021.svg/500px-Logo_BMW_Group_2021.svg.png"
     },
     {
       "id": "mercedes",
       "name": "Mercedes-Benz",
       "subtitle": "German luxury",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mercedes-Benz"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Mercedes-Benz_Star_%281969-1986%2C_2025-%29.svg/500px-Mercedes-Benz_Star_%281969-1986%2C_2025-%29.svg.png"
     },
     {
       "id": "toyota",
@@ -34,19 +34,19 @@
       "id": "ferrari",
       "name": "Ferrari",
       "subtitle": "Italian supercars",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Ferrari"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Prancing_horse.svg/500px-Prancing_horse.svg.png"
     },
     {
       "id": "lamborghini",
       "name": "Lamborghini",
       "subtitle": "Italian supercars",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Lamborghini"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Lamborghini_Logo.svg/500px-Lamborghini_Logo.svg.png"
     },
     {
       "id": "ford",
       "name": "Ford",
       "subtitle": "American classic",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Ford"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Gerald_Ford_presidential_portrait_%28cropped%29.jpg/500px-Gerald_Ford_presidential_portrait_%28cropped%29.jpg"
     },
     {
       "id": "honda",
@@ -58,19 +58,19 @@
       "id": "audi",
       "name": "Audi",
       "subtitle": "German engineering",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Audi"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Das_Audi_Forum_Ingolstadt.JPG/500px-Das_Audi_Forum_Ingolstadt.JPG"
     },
     {
       "id": "chevrolet",
       "name": "Chevrolet",
       "subtitle": "American muscle",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Chevrolet"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Chevy_%2814467564735%29.jpg/500px-Chevy_%2814467564735%29.jpg"
     },
     {
       "id": "jeep",
       "name": "Jeep",
       "subtitle": "Off-road pioneer",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Jeep"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kelly_Jeep_Chrysler_Dealership.jpg/500px-Kelly_Jeep_Chrysler_Dealership.jpg"
     },
     {
       "id": "subaru",
@@ -88,13 +88,13 @@
       "id": "hyundai",
       "name": "Hyundai",
       "subtitle": "Korean value",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Hyundai"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Hyundai_Headquarter_Building%2C_Jongno-gu%2C_Seoul.jpg/500px-Hyundai_Headquarter_Building%2C_Jongno-gu%2C_Seoul.jpg"
     },
     {
       "id": "lexus",
       "name": "Lexus",
       "subtitle": "Japanese luxury",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Lexus"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2021_Lexus_IS300_F-Sport%2C_Front_Left%2C_10-10-2021.jpg/500px-2021_Lexus_IS300_F-Sport%2C_Front_Left%2C_10-10-2021.jpg"
     }
   ]
 }

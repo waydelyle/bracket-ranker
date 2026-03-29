@@ -10,19 +10,19 @@
       "id": "pizza-hut",
       "name": "Pizza Hut",
       "subtitle": "Pan pizza pioneers",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pizza+Hut"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Pizza_Hut_2025.svg/500px-Pizza_Hut_2025.svg.png"
     },
     {
       "id": "papa-johns",
       "name": "Papa John's",
       "subtitle": "Better ingredients",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Papa+John's"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Papa_Johns_New_HQ_in_Atlanta%2C_Georgia.jpg/500px-Papa_Johns_New_HQ_in_Atlanta%2C_Georgia.jpg"
     },
     {
       "id": "little-caesars",
       "name": "Little Caesars",
       "subtitle": "Hot-N-Ready",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Little+Caesars"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Little_Caesars_World_Headquarters_2.jpg/500px-Little_Caesars_World_Headquarters_2.jpg"
     },
     {
       "id": "costco-pizza",
@@ -34,7 +34,7 @@
       "id": "marcos-pizza",
       "name": "Marco's Pizza",
       "subtitle": "Fresh dough",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Marco's+Pizza"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Marco%27s_Pizza_Logo.svg/500px-Marco%27s_Pizza_Logo.svg.png"
     },
     {
       "id": "jets-pizza",
@@ -46,55 +46,55 @@
       "id": "round-table",
       "name": "Round Table Pizza",
       "subtitle": "West coast chain",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Round+Table+Pizza"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/MenloParkRoundTable.jpg/500px-MenloParkRoundTable.jpg"
     },
     {
       "id": "sbarro",
       "name": "Sbarro",
       "subtitle": "Mall pizza",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Sbarro"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Sbarro_LLC_logo.svg/500px-Sbarro_LLC_logo.svg.png"
     },
     {
       "id": "blaze-pizza",
       "name": "Blaze Pizza",
       "subtitle": "Fast-fired",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Blaze+Pizza"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Blaze_Pizza%2C_Tallahassee.jpg/500px-Blaze_Pizza%2C_Tallahassee.jpg"
     },
     {
       "id": "mod-pizza",
       "name": "MOD Pizza",
       "subtitle": "Build your own",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=MOD+Pizza"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/MOD_Pizza_logo.svg/500px-MOD_Pizza_logo.svg.png"
     },
     {
       "id": "hungry-howies",
       "name": "Hungry Howie's",
       "subtitle": "Flavored crust",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Hungry+Howie's"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Hungry_Howie%27s_on_Pensacola_Street%2C_Tallahassee%2C_Florida.jpg/500px-Hungry_Howie%27s_on_Pensacola_Street%2C_Tallahassee%2C_Florida.jpg"
     },
     {
       "id": "cicis",
       "name": "Cicis",
       "subtitle": "Pizza buffet",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cicis"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cicis_Pizza_at_Girvin_Plaza%2C_Jacksonville%2C_Florida.jpg/500px-Cicis_Pizza_at_Girvin_Plaza%2C_Jacksonville%2C_Florida.jpg"
     },
     {
       "id": "papa-murphys",
       "name": "Papa Murphy's",
       "subtitle": "Take & bake",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Papa+Murphy's"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/PapaMurphysKC.jpg/500px-PapaMurphysKC.jpg"
     },
     {
       "id": "mountain-mikes",
       "name": "Mountain Mike's",
       "subtitle": "Mountain-sized",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mountain+Mike's"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Mountain_Mike%27s_Pizza_logo.svg/500px-Mountain_Mike%27s_Pizza_logo.svg.png"
     },
     {
       "id": "giordanos",
       "name": "Giordano's",
       "subtitle": "Chicago deep dish",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Giordano's"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/MCPON_June_2017.jpg/500px-MCPON_June_2017.jpg"
     }
   ]
 }

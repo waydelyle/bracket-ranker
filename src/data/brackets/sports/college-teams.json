@@ -4,7 +4,7 @@
       "id": "alabama",
       "name": "Alabama Crimson Tide",
       "subtitle": "SEC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Alabama+Crimson+Tide"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Alabama_Athletics_logo.svg/500px-Alabama_Athletics_logo.svg.png"
     },
     {
       "id": "ohio-state",
@@ -16,13 +16,13 @@
       "id": "michigan",
       "name": "Michigan Wolverines",
       "subtitle": "Big Ten",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Michigan+Wolverines"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Michigan_Wolverines_logo.svg/500px-Michigan_Wolverines_logo.svg.png"
     },
     {
       "id": "clemson",
       "name": "Clemson Tigers",
       "subtitle": "ACC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Clemson+Tigers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Clemson_Tigers_logo.svg/500px-Clemson_Tigers_logo.svg.png"
     },
     {
       "id": "georgia",
@@ -34,37 +34,37 @@
       "id": "lsu",
       "name": "LSU Tigers",
       "subtitle": "SEC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=LSU+Tigers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/SEC_logo_in_LSU_colors.svg/500px-SEC_logo_in_LSU_colors.svg.png"
     },
     {
       "id": "texas",
       "name": "Texas Longhorns",
       "subtitle": "SEC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Texas+Longhorns"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Texas_Longhorns_logo.svg/500px-Texas_Longhorns_logo.svg.png"
     },
     {
       "id": "usc",
       "name": "USC Trojans",
       "subtitle": "Big Ten",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=USC+Trojans"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/USC_Trojans_logo.svg/500px-USC_Trojans_logo.svg.png"
     },
     {
       "id": "notre-dame",
       "name": "Notre Dame Fighting Irish",
       "subtitle": "Independent",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Notre+Dame+Fighting+Irish"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Nd_athletics_gold_logo_2015.svg/500px-Nd_athletics_gold_logo_2015.svg.png"
     },
     {
       "id": "oklahoma",
       "name": "Oklahoma Sooners",
       "subtitle": "SEC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Oklahoma+Sooners"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/SEC_logo_in_Oklahoma_colors.svg/500px-SEC_logo_in_Oklahoma_colors.svg.png"
     },
     {
       "id": "duke",
       "name": "Duke Blue Devils",
       "subtitle": "ACC - Basketball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Duke+Blue+Devils"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Duke_Athletics_logo.svg/500px-Duke_Athletics_logo.svg.png"
     },
     {
       "id": "unc",
@@ -76,91 +76,91 @@
       "id": "kentucky",
       "name": "Kentucky Wildcats",
       "subtitle": "SEC - Basketball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kentucky+Wildcats"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Kentucky_Wildcats_logo.svg/500px-Kentucky_Wildcats_logo.svg.png"
     },
     {
       "id": "kansas",
       "name": "Kansas Jayhawks",
       "subtitle": "Big 12 - Basketball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kansas+Jayhawks"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Kansas_Jayhawks_1946_logo.svg/500px-Kansas_Jayhawks_1946_logo.svg.png"
     },
     {
       "id": "penn-state",
       "name": "Penn State Nittany Lions",
       "subtitle": "Big Ten",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Penn+State+Nittany+Lions"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Penn_State_Nittany_Lions_logo.svg/500px-Penn_State_Nittany_Lions_logo.svg.png"
     },
     {
       "id": "florida",
       "name": "Florida Gators",
       "subtitle": "SEC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Florida+Gators"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Florida_Gators_gator_logo.svg/500px-Florida_Gators_gator_logo.svg.png"
     },
     {
       "id": "michigan-state",
       "name": "Michigan State Spartans",
       "subtitle": "Big Ten",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Michigan+State+Spartans"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Michigan_State_Athletics_logo.svg/500px-Michigan_State_Athletics_logo.svg.png"
     },
     {
       "id": "oregon",
       "name": "Oregon Ducks",
       "subtitle": "Big Ten",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Oregon+Ducks"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Oregon_Ducks_logo.svg/500px-Oregon_Ducks_logo.svg.png"
     },
     {
       "id": "auburn",
       "name": "Auburn Tigers",
       "subtitle": "SEC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Auburn+Tigers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Auburn_Tigers_logo.svg/500px-Auburn_Tigers_logo.svg.png"
     },
     {
       "id": "tennessee",
       "name": "Tennessee Volunteers",
       "subtitle": "SEC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Tennessee+Volunteers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tennessee_Volunteers_logo.svg/500px-Tennessee_Volunteers_logo.svg.png"
     },
     {
       "id": "wisconsin",
       "name": "Wisconsin Badgers",
       "subtitle": "Big Ten",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Wisconsin+Badgers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wisconsin_Badgers_logo.svg/500px-Wisconsin_Badgers_logo.svg.png"
     },
     {
       "id": "florida-state",
       "name": "Florida State Seminoles",
       "subtitle": "ACC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Florida+State+Seminoles"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Florida_State_Seminoles_logo.svg/500px-Florida_State_Seminoles_logo.svg.png"
     },
     {
       "id": "nebraska",
       "name": "Nebraska Cornhuskers",
       "subtitle": "Big Ten",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Nebraska+Cornhuskers"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nebraska_Cornhuskers_logo.svg/500px-Nebraska_Cornhuskers_logo.svg.png"
     },
     {
       "id": "gonzaga",
       "name": "Gonzaga Bulldogs",
       "subtitle": "WCC - Basketball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Gonzaga+Bulldogs"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Gonzaga_Bulldogs_logo.svg/500px-Gonzaga_Bulldogs_logo.svg.png"
     },
     {
       "id": "ucla",
       "name": "UCLA Bruins",
       "subtitle": "Big Ten",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=UCLA+Bruins"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/UCLA_Bruins_primary_logo.svg/500px-UCLA_Bruins_primary_logo.svg.png"
     },
     {
       "id": "iowa",
       "name": "Iowa Hawkeyes",
       "subtitle": "Big Ten",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Iowa+Hawkeyes"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Iowa_Hawkeyes_logo.svg/500px-Iowa_Hawkeyes_logo.svg.png"
     },
     {
       "id": "miami",
       "name": "Miami Hurricanes",
       "subtitle": "ACC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Miami+Hurricanes"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Miami_Hurricanes_logo.svg/500px-Miami_Hurricanes_logo.svg.png"
     },
     {
       "id": "texas-a-and-m",
@@ -178,19 +178,19 @@
       "id": "villanova",
       "name": "Villanova Wildcats",
       "subtitle": "Big East - Basketball",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Villanova+Wildcats"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Villanova_Wildcats_logo.svg/500px-Villanova_Wildcats_logo.svg.png"
     },
     {
       "id": "stanford",
       "name": "Stanford Cardinal",
       "subtitle": "ACC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Stanford+Cardinal"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Stanford_Cardinal_logo.svg/500px-Stanford_Cardinal_logo.svg.png"
     },
     {
       "id": "south-carolina",
       "name": "South Carolina Gamecocks",
       "subtitle": "SEC",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=South+Carolina+Gamecocks"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/South_Carolina_Gamecocks_logo.svg/500px-South_Carolina_Gamecocks_logo.svg.png"
     }
   ]
 }

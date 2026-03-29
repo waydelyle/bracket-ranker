@@ -10,7 +10,7 @@
       "id": "skittles",
       "name": "Skittles",
       "subtitle": "Taste the rainbow",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Skittles"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jan_Steen_-_Skittles_Players_Outside_an_Inn.jpg/500px-Jan_Steen_-_Skittles_Players_Outside_an_Inn.jpg"
     },
     {
       "id": "snickers",
@@ -52,7 +52,7 @@
       "id": "starburst",
       "name": "Starburst",
       "subtitle": "Fruit chews",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Starburst"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Antennae_galaxies_xl.jpg/500px-Antennae_galaxies_xl.jpg"
     },
     {
       "id": "twizzlers",
@@ -70,13 +70,13 @@
       "id": "hershey-bar",
       "name": "Hershey's Chocolate Bar",
       "subtitle": "Classic milk chocolate",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Hershey's+Chocolate+Bar"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Hershey_Factory.jpg/500px-Hershey_Factory.jpg"
     },
     {
       "id": "butterfingers",
       "name": "Butterfinger",
       "subtitle": "Crispy peanut butter",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Butterfinger"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/ButterfingersOfficial.jpg"
     },
     {
       "id": "jolly-ranchers",
@@ -94,7 +94,7 @@
       "id": "nerds",
       "name": "Nerds",
       "subtitle": "Tiny tangy crunchy",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Nerds"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nerds-Candies.jpg/500px-Nerds-Candies.jpg"
     },
     {
       "id": "airheads",
@@ -106,7 +106,7 @@
       "id": "three-musketeers",
       "name": "3 Musketeers",
       "subtitle": "Fluffy nougat",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=3+Musketeers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/61/3musketeersdvd.jpg"
     },
     {
       "id": "almond-joy",
@@ -124,7 +124,7 @@
       "id": "laffy-taffy",
       "name": "Laffy Taffy",
       "subtitle": "Stretchy taffy",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Laffy+Taffy"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/01/Laffy_Taffy.jpg"
     },
     {
       "id": "mike-and-ike",
@@ -142,7 +142,7 @@
       "id": "payday",
       "name": "PayDay",
       "subtitle": "Peanut & caramel",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=PayDay"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Payday_loan_shop_window.jpg/500px-Payday_loan_shop_window.jpg"
     },
     {
       "id": "candy-corn",
@@ -166,7 +166,7 @@
       "id": "crunch-bar",
       "name": "Crunch Bar",
       "subtitle": "Chocolate & crisped rice",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Crunch+Bar"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Nestl%C3%A9_Crunch.jpg/500px-Nestl%C3%A9_Crunch.jpg"
     },
     {
       "id": "ring-pop",
@@ -178,7 +178,7 @@
       "id": "warheads",
       "name": "Warheads",
       "subtitle": "Extreme sour candy",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Warheads"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0a/Warheads_Candy_Logo.jpeg"
     },
     {
       "id": "heath-bar",

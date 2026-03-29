@@ -10,61 +10,61 @@
       "id": "jolene",
       "name": "Jolene",
       "subtitle": "Dolly Parton",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Jolene"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Jolene_by_Dolly_Parton_US_single_side-A.png/500px-Jolene_by_Dolly_Parton_US_single_side-A.png"
     },
     {
       "id": "ring-of-fire",
       "name": "Ring of Fire",
       "subtitle": "Johnny Cash",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Ring+of+Fire"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/81/Ring_of_Fire_by_Johnny_Cash_US_picture_sleeve_A.png"
     },
     {
       "id": "take-me-home-country-roads",
       "name": "Take Me Home, Country Roads",
       "subtitle": "John Denver",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Take+Me+Home%2C+Country+Roads"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/John_Denver_with_Fat_City_take_me_home_country_roads_1971_A-side_US_vinyl.jpg/500px-John_Denver_with_Fat_City_take_me_home_country_roads_1971_A-side_US_vinyl.jpg"
     },
     {
       "id": "the-dance",
       "name": "The Dance",
       "subtitle": "Garth Brooks",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Dance"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/76/Garth_Brooks_-_The_Dance.jpg"
     },
     {
       "id": "before-he-cheats",
       "name": "Before He Cheats",
       "subtitle": "Carrie Underwood",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Before+He+Cheats"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/39/Before_He_Cheats.jpg"
     },
     {
       "id": "need-you-now",
       "name": "Need You Now",
       "subtitle": "Lady A",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Need+You+Now"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/60/Need_You_Now.jpg"
     },
     {
       "id": "cruise",
       "name": "Cruise",
       "subtitle": "Florida Georgia Line",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Cruise"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/14/Cruise_Florida_Georgia_Line.jpg"
     },
     {
       "id": "man-i-feel-like-a-woman",
       "name": "Man! I Feel Like a Woman!",
       "subtitle": "Shania Twain",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Man!+I+Feel+Like+a+Woman!"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Man%21_I_Feel_Like_a_Woman%21.jpg/500px-Man%21_I_Feel_Like_a_Woman%21.jpg"
     },
     {
       "id": "forever-and-ever-amen",
       "name": "Forever and Ever, Amen",
       "subtitle": "Randy Travis",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Forever+and+Ever%2C+Amen"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Randy_Travis_forever_and_ever.jpg"
     },
     {
       "id": "strawberry-wine",
       "name": "Strawberry Wine",
       "subtitle": "Deana Carter",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Strawberry+Wine"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/87/StrawberryWineDeanaCarter.png"
     },
     {
       "id": "wagon-wheel",
@@ -76,19 +76,19 @@
       "id": "tennessee-whiskey",
       "name": "Tennessee Whiskey",
       "subtitle": "Chris Stapleton",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Tennessee+Whiskey"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Whiskey_barrels.jpg/500px-Whiskey_barrels.jpg"
     },
     {
       "id": "humble-and-kind",
       "name": "Humble and Kind",
       "subtitle": "Tim McGraw",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Humble+and+Kind"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/HumbleandKind.jpg"
     },
     {
       "id": "9-to-5",
       "name": "9 to 5",
       "subtitle": "Dolly Parton",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=9+to+5"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/40/9to5sleeve.jpg"
     },
     {
       "id": "chicken-fried",
@@ -100,37 +100,37 @@
       "id": "live-like-you-were-dying",
       "name": "Live Like You Were Dying",
       "subtitle": "Tim McGraw",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Live+Like+You+Were+Dying"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Live_Like.jpg/500px-Live_Like.jpg"
     },
     {
       "id": "fancy-like",
       "name": "Fancy Like",
       "subtitle": "Walker Hayes",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Fancy+Like"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f9/Fancy_Like_cover_Kesha_remix.jpeg"
     },
     {
       "id": "body-like-a-back-road",
       "name": "Body Like a Back Road",
       "subtitle": "Sam Hunt",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Body+Like+a+Back+Road"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Body-Like-a-Back-Road-Cover-Art.jpg"
     },
     {
       "id": "meant-to-be",
       "name": "Meant to Be",
       "subtitle": "Bebe Rexha & Florida Georgia Line",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Meant+to+Be"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/da/Bebe_rexha-meant_to_be.png"
     },
     {
       "id": "remember-when",
       "name": "Remember When",
       "subtitle": "Alan Jackson",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Remember+When"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Remember_When_%28Alan_Jackson_single%29.png"
     },
     {
       "id": "i-walk-the-line",
       "name": "I Walk the Line",
       "subtitle": "Johnny Cash",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=I+Walk+the+Line"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d2/WalkTheLine1956.jpg"
     },
     {
       "id": "stand-by-your-man",
@@ -142,7 +142,7 @@
       "id": "fast-car",
       "name": "Fast Car",
       "subtitle": "Tracy Chapman",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Fast+Car"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/30/Fastcar_tchapman.jpg"
     }
   ]
 }

@@ -4,25 +4,25 @@
       "id": "jim-pam",
       "name": "Jim & Pam",
       "subtitle": "The Office",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jim+%26+Pam"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/94/Jim_%26_Andy_-_The_Great_Beyond.png"
     },
     {
       "id": "ross-rachel",
       "name": "Ross & Rachel",
       "subtitle": "Friends",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Ross+%26+Rachel"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/TalbotRossheadshot.jpg/500px-TalbotRossheadshot.jpg"
     },
     {
       "id": "leslie-ben",
       "name": "Leslie & Ben",
       "subtitle": "Parks and Recreation",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Leslie+%26+Ben"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Leslie_Benzies_%40_Everywhere_Game.jpg/500px-Leslie_Benzies_%40_Everywhere_Game.jpg"
     },
     {
       "id": "walt-jesse",
       "name": "Walt & Jesse",
       "subtitle": "Breaking Bad",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Walt+%26+Jesse"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Walter_Allward.jpg/500px-Walter_Allward.jpg"
     },
     {
       "id": "chandler-monica",
@@ -40,7 +40,7 @@
       "id": "david-patrick",
       "name": "David & Patrick",
       "subtitle": "Schitt's Creek",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=David+%26+Patrick"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/St.Jude_.jpg/500px-St.Jude_.jpg"
     },
     {
       "id": "meredith-derek",
@@ -52,19 +52,19 @@
       "id": "jake-amy",
       "name": "Jake & Amy",
       "subtitle": "Brooklyn Nine-Nine",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jake+%26+Amy"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/JakeandAmir.png/500px-JakeandAmir.png"
     },
     {
       "id": "nick-jess",
       "name": "Nick & Jess",
       "subtitle": "New Girl",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Nick+%26+Jess"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Stevie_Nicks_2017.jpg/500px-Stevie_Nicks_2017.jpg"
     },
     {
       "id": "randall-beth",
       "name": "Randall & Beth",
       "subtitle": "This Is Us",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Randall+%26+Beth"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Dr_Randall_Bell_Headshot.jpg/500px-Dr_Randall_Bell_Headshot.jpg"
     },
     {
       "id": "tim-coach",
@@ -76,73 +76,73 @@
       "id": "carrie-big",
       "name": "Carrie & Mr. Big",
       "subtitle": "Sex and the City",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Carrie+%26+Mr.+Big"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/15/Odie_Leigh_Carrier_Pigeon.jpeg"
     },
     {
       "id": "marshall-lily",
       "name": "Marshall & Lily",
       "subtitle": "How I Met Your Mother",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Marshall+%26+Lily"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Marshall_%26_Ilsley_%28logo%29.png"
     },
     {
       "id": "buffy-angel",
       "name": "Buffy & Angel",
       "subtitle": "Buffy the Vampire Slayer",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Buffy+%26+Angel"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a2/S514_Buffy.png"
     },
     {
       "id": "eleanor-chidi",
       "name": "Eleanor & Chidi",
       "subtitle": "The Good Place",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Eleanor+%26+Chidi"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/The_Chipettes_1987.jpg/500px-The_Chipettes_1987.jpg"
     },
     {
       "id": "ted-rebecca",
       "name": "Ted & Rebecca",
       "subtitle": "Ted Lasso",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Ted+%26+Rebecca"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Rebecca_Tegg.jpg/500px-Rebecca_Tegg.jpg"
     },
     {
       "id": "philip-elizabeth",
       "name": "Philip & Elizabeth",
       "subtitle": "The Americans",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Philip+%26+Elizabeth"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Portrait_presumed_to_be_of_Mademoiselle_de_Charolais_by_Jean-Marc_Nattier_%281731%29.jpg/500px-Portrait_presumed_to_be_of_Mademoiselle_de_Charolais_by_Jean-Marc_Nattier_%281731%29.jpg"
     },
     {
       "id": "turk-jd",
       "name": "Turk & J.D.",
       "subtitle": "Scrubs",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Turk+%26+J.D."
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Danilo_T%C3%BCrk_2010_%28cropped%29.jpg/500px-Danilo_T%C3%BCrk_2010_%28cropped%29.jpg"
     },
     {
       "id": "shiv-tom",
       "name": "Shiv & Tom",
       "subtitle": "Succession",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Shiv+%26+Tom"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Devon_Ke_Dev_Mahadev.JPEG/500px-Devon_Ke_Dev_Mahadev.JPEG"
     },
     {
       "id": "joel-ellie",
       "name": "Joel & Ellie",
       "subtitle": "The Last of Us",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Joel+%26+Ellie"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/AUT_vs._WAL_2016-10-06_%28172%29.jpg/500px-AUT_vs._WAL_2016-10-06_%28172%29.jpg"
     },
     {
       "id": "daphne-simon",
       "name": "Daphne & Simon",
       "subtitle": "Bridgerton",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Daphne+%26+Simon"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Daphn%C3%A9_Nji%C3%A8_Efunde.jpg/500px-Daphn%C3%A9_Nji%C3%A8_Efunde.jpg"
     },
     {
       "id": "walt-skyler",
       "name": "Walt & Skyler",
       "subtitle": "Breaking Bad",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Walt+%26+Skyler"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NLA%2C_HC_Lugano_vs._Gen%C3%A8ve-Servette_HC%2C_18th_October_2014_41.JPG/500px-NLA%2C_HC_Lugano_vs._Gen%C3%A8ve-Servette_HC%2C_18th_October_2014_41.JPG"
     },
     {
       "id": "eric-donna",
       "name": "Eric & Donna",
       "subtitle": "That '70s Show",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Eric+%26+Donna"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Erich_von_Daniken.jpg/500px-Erich_von_Daniken.jpg"
     }
   ]
 }

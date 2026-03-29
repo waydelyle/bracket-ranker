@@ -10,13 +10,13 @@
       "id": "labrador",
       "name": "Labrador Retriever",
       "subtitle": "Outgoing & active",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Labrador+Retriever"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Labrador_on_Quantock_%282175262184%29.jpg/500px-Labrador_on_Quantock_%282175262184%29.jpg"
     },
     {
       "id": "german-shepherd",
       "name": "German Shepherd",
       "subtitle": "Loyal & courageous",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=German+Shepherd"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg/500px-German_Shepherd_-_DSC_0346_%2810096362833%29.jpg"
     },
     {
       "id": "french-bulldog",
@@ -28,7 +28,7 @@
       "id": "poodle",
       "name": "Poodle",
       "subtitle": "Proud & intelligent",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Poodle"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/500px-Full_attention_%288067543690%29.jpg"
     },
     {
       "id": "bulldog",
@@ -40,37 +40,37 @@
       "id": "beagle",
       "name": "Beagle",
       "subtitle": "Merry & friendly",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Beagle"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Beagle_600.jpg/500px-Beagle_600.jpg"
     },
     {
       "id": "rottweiler",
       "name": "Rottweiler",
       "subtitle": "Loyal & confident",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Rottweiler"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Rottweiler_standing_facing_left.jpg/500px-Rottweiler_standing_facing_left.jpg"
     },
     {
       "id": "husky",
       "name": "Siberian Husky",
       "subtitle": "Outgoing & mischievous",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Siberian+Husky"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Husky_L.jpg/500px-Husky_L.jpg"
     },
     {
       "id": "dachshund",
       "name": "Dachshund",
       "subtitle": "Curious & clever",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Dachshund"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/%EB%8B%A5%EC%8A%A4%ED%9B%88%ED%8A%B8%28%EB%8B%A8%EB%AA%A8%EC%A2%85%29_%28Dachshund_%28Short%29%29.jpg/500px-%EB%8B%A5%EC%8A%A4%ED%9B%88%ED%8A%B8%28%EB%8B%A8%EB%AA%A8%EC%A2%85%29_%28Dachshund_%28Short%29%29.jpg"
     },
     {
       "id": "corgi",
       "name": "Pembroke Welsh Corgi",
       "subtitle": "Affectionate & smart",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Pembroke+Welsh+Corgi"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Welsh_Pembroke_Corgi.jpg/500px-Welsh_Pembroke_Corgi.jpg"
     },
     {
       "id": "boxer",
       "name": "Boxer",
       "subtitle": "Fun-loving & bright",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Boxer"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Taku_Forts_Landing.JPG/500px-Taku_Forts_Landing.JPG"
     },
     {
       "id": "great-dane",
@@ -82,73 +82,73 @@
       "id": "doberman",
       "name": "Doberman Pinscher",
       "subtitle": "Loyal & fearless",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Doberman+Pinscher"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Dobermann_handling.jpg/500px-Dobermann_handling.jpg"
     },
     {
       "id": "australian-shepherd",
       "name": "Australian Shepherd",
       "subtitle": "Smart & work-oriented",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Australian+Shepherd"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Australian_Shepherd_red_bi.JPG/500px-Australian_Shepherd_red_bi.JPG"
     },
     {
       "id": "shih-tzu",
       "name": "Shih Tzu",
       "subtitle": "Affectionate & playful",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Shih+Tzu"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Shihtzu_%28cropped%29.jpg/500px-Shihtzu_%28cropped%29.jpg"
     },
     {
       "id": "yorkshire-terrier",
       "name": "Yorkshire Terrier",
       "subtitle": "Sprightly & tomboyish",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Yorkshire+Terrier"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/%282_version%29_Grupp_3%2C_YORKSHIRETERRIER%2C_NO_UCH_SE_UCH_Oxzar_Amazing_Bel%E2%80%99s_Toffy_%2824310212305%29.jpg/500px-%282_version%29_Grupp_3%2C_YORKSHIRETERRIER%2C_NO_UCH_SE_UCH_Oxzar_Amazing_Bel%E2%80%99s_Toffy_%2824310212305%29.jpg"
     },
     {
       "id": "cavalier-king-charles",
       "name": "Cavalier King Charles Spaniel",
       "subtitle": "Gentle & graceful",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Cavalier+King+Charles+Spaniel"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CarterBIS.Tiki.13.6.09.jpg/500px-CarterBIS.Tiki.13.6.09.jpg"
     },
     {
       "id": "bernese-mountain-dog",
       "name": "Bernese Mountain Dog",
       "subtitle": "Good-natured & calm",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Bernese+Mountain+Dog"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/3-BerneseMountainDogInGrass.jpg/500px-3-BerneseMountainDogInGrass.jpg"
     },
     {
       "id": "pomeranian",
       "name": "Pomeranian",
       "subtitle": "Lively & bold",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Pomeranian"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Pomeranian_in_Poland_%28%2Brivers%29.svg/500px-Pomeranian_in_Poland_%28%2Brivers%29.svg.png"
     },
     {
       "id": "border-collie",
       "name": "Border Collie",
       "subtitle": "Energetic & smart",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Border+Collie"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Border_Collie_600.jpg/500px-Border_Collie_600.jpg"
     },
     {
       "id": "pit-bull",
       "name": "American Pit Bull Terrier",
       "subtitle": "Confident & smart",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=American+Pit+Bull+Terrier"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/001_American_Pit_Bull_Terrier.jpg/500px-001_American_Pit_Bull_Terrier.jpg"
     },
     {
       "id": "dalmatian",
       "name": "Dalmatian",
       "subtitle": "Dignified & smart",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Dalmatian"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sun_Dog_Dalmatian.jpg/500px-Sun_Dog_Dalmatian.jpg"
     },
     {
       "id": "chihuahua",
       "name": "Chihuahua",
       "subtitle": "Charming & graceful",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Chihuahua"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Sierra.madre.occidental.volcanics.JPG/500px-Sierra.madre.occidental.volcanics.JPG"
     },
     {
       "id": "saint-bernard",
       "name": "Saint Bernard",
       "subtitle": "Playful & charming",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Saint+Bernard"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Flag_of_Saint_Bernard%2C_Southern_Leyte.png/500px-Flag_of_Saint_Bernard%2C_Southern_Leyte.png"
     },
     {
       "id": "goldendoodle",
@@ -160,37 +160,37 @@
       "id": "maltese",
       "name": "Maltese",
       "subtitle": "Gentle & playful",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Maltese"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Idioma_malt%C3%A9s.PNG"
     },
     {
       "id": "cocker-spaniel",
       "name": "Cocker Spaniel",
       "subtitle": "Gentle & happy",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Cocker+Spaniel"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Gessa_d%27Aran_Copo_de_Nieve-_arancio_roano-_prop.Kalesa.jpg/500px-Gessa_d%27Aran_Copo_de_Nieve-_arancio_roano-_prop.Kalesa.jpg"
     },
     {
       "id": "jack-russell",
       "name": "Jack Russell Terrier",
       "subtitle": "Lively & clever",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Jack+Russell+Terrier"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Jack_Russell_Terrier_1.jpg/500px-Jack_Russell_Terrier_1.jpg"
     },
     {
       "id": "akita",
       "name": "Akita",
       "subtitle": "Courageous & dignified",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Akita"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Akita_Collage.png/500px-Akita_Collage.png"
     },
     {
       "id": "samoyed",
       "name": "Samoyed",
       "subtitle": "Adaptable & friendly",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Samoyed"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Samojed00.jpg/500px-Samojed00.jpg"
     },
     {
       "id": "shiba-inu",
       "name": "Shiba Inu",
       "subtitle": "Alert & attentive",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Shiba+Inu"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Taka_Shiba.jpg/500px-Taka_Shiba.jpg"
     }
   ]
 }

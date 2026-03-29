@@ -4,13 +4,13 @@
       "id": "new-york",
       "name": "New York City",
       "subtitle": "USA",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=New+York+City"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/500px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg"
     },
     {
       "id": "london",
       "name": "London",
       "subtitle": "United Kingdom",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=London"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/500px-London_Skyline_%28125508655%29.jpeg"
     },
     {
       "id": "tokyo",
@@ -22,13 +22,13 @@
       "id": "paris",
       "name": "Paris",
       "subtitle": "France",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Paris"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/500px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg"
     },
     {
       "id": "los-angeles",
       "name": "Los Angeles",
       "subtitle": "USA",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Los+Angeles"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hollywood_Sign_%28Zuschnitt%29.jpg/500px-Hollywood_Sign_%28Zuschnitt%29.jpg"
     },
     {
       "id": "barcelona",
@@ -58,7 +58,7 @@
       "id": "berlin",
       "name": "Berlin",
       "subtitle": "Germany",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Berlin"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Blue_Hour_in_Berlin.jpg/500px-Blue_Hour_in_Berlin.jpg"
     },
     {
       "id": "san-francisco",
@@ -82,7 +82,7 @@
       "id": "toronto",
       "name": "Toronto",
       "subtitle": "Canada",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Toronto"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Toronto_Skyline_from_Snake_Island%2C_February_28_2026_%2808%29.jpg/500px-Toronto_Skyline_from_Snake_Island%2C_February_28_2026_%2808%29.jpg"
     },
     {
       "id": "seoul",
@@ -94,13 +94,13 @@
       "id": "chicago",
       "name": "Chicago",
       "subtitle": "USA",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Chicago"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Chicago_River_ferry_b.jpg/500px-Chicago_River_ferry_b.jpg"
     },
     {
       "id": "mexico-city",
       "name": "Mexico City",
       "subtitle": "Mexico",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mexico+City"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sobrevuelos_CDMX_HJ2A4913_%2825514321687%29_%28cropped%29.jpg/500px-Sobrevuelos_CDMX_HJ2A4913_%2825514321687%29_%28cropped%29.jpg"
     },
     {
       "id": "bangkok",
@@ -118,7 +118,7 @@
       "id": "prague",
       "name": "Prague",
       "subtitle": "Czech Republic",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Prague"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Prague_%286365119737%29.jpg/500px-Prague_%286365119737%29.jpg"
     },
     {
       "id": "copenhagen",
@@ -136,61 +136,61 @@
       "id": "buenos-aires",
       "name": "Buenos Aires",
       "subtitle": "Argentina",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Buenos+Aires"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Puerto_Madero%2C_Buenos_Aires_%2826860888698%29_%28cropped%29.jpg/500px-Puerto_Madero%2C_Buenos_Aires_%2826860888698%29_%28cropped%29.jpg"
     },
     {
       "id": "austin",
       "name": "Austin",
       "subtitle": "USA",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Austin"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Austin_Downtown_2024.jpg/500px-Austin_Downtown_2024.jpg"
     },
     {
       "id": "nashville",
       "name": "Nashville",
       "subtitle": "USA",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Nashville"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Nashville%2C_TN_skyline.jpg/500px-Nashville%2C_TN_skyline.jpg"
     },
     {
       "id": "denver",
       "name": "Denver",
       "subtitle": "USA",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Denver"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Denver_Downtown_Aerial%2C_December_2025.jpg/500px-Denver_Downtown_Aerial%2C_December_2025.jpg"
     },
     {
       "id": "vienna",
       "name": "Vienna",
       "subtitle": "Austria",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Vienna"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Schoenbrunn_philharmoniker_2012.jpg/500px-Schoenbrunn_philharmoniker_2012.jpg"
     },
     {
       "id": "hong-kong",
       "name": "Hong Kong",
       "subtitle": "China",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Hong+Kong"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/500px-Flag_of_Hong_Kong.svg.png"
     },
     {
       "id": "istanbul",
       "name": "Istanbul",
       "subtitle": "Turkey",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Istanbul"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Historical_peninsula_and_modern_skyline_of_Istanbul.jpg/500px-Historical_peninsula_and_modern_skyline_of_Istanbul.jpg"
     },
     {
       "id": "cape-town",
       "name": "Cape Town",
       "subtitle": "South Africa",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Cape+Town"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Camps_bay_%2853460319478%29_%28cropped%29.jpg/500px-Camps_bay_%2853460319478%29_%28cropped%29.jpg"
     },
     {
       "id": "portland",
       "name": "Portland",
       "subtitle": "USA",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Portland"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Portland_Oregon_Aerial%2C_June_2025.jpg/500px-Portland_Oregon_Aerial%2C_June_2025.jpg"
     },
     {
       "id": "mumbai",
       "name": "Mumbai",
       "subtitle": "India",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mumbai"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/%E0%A6%93%E0%A6%B0%E0%A6%B2%E0%A6%BF%E0%A6%B0_%E0%A6%97%E0%A6%97%E0%A6%A8%E0%A6%B0%E0%A7%88%E0%A6%96%E0%A6%BF%E0%A6%95_%E0%A6%A6%E0%A7%83%E0%A6%B6%E0%A7%8D%E0%A6%AF.jpg/500px-%E0%A6%93%E0%A6%B0%E0%A6%B2%E0%A6%BF%E0%A6%B0_%E0%A6%97%E0%A6%97%E0%A6%A8%E0%A6%B0%E0%A7%88%E0%A6%96%E0%A6%BF%E0%A6%95_%E0%A6%A6%E0%A7%83%E0%A6%B6%E0%A7%8D%E0%A6%AF.jpg"
     }
   ]
 }

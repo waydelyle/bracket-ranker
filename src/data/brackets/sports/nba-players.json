@@ -34,13 +34,13 @@
       "id": "larry-bird",
       "name": "Larry Bird",
       "subtitle": "Celtics",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Larry+Bird"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Larrybird.jpg/500px-Larrybird.jpg"
     },
     {
       "id": "kareem-abdul-jabbar",
       "name": "Kareem Abdul-Jabbar",
       "subtitle": "Lakers / Bucks",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kareem+Abdul-Jabbar"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Kareem_Abdul-Jabbar_May_2014.jpg/500px-Kareem_Abdul-Jabbar_May_2014.jpg"
     },
     {
       "id": "shaquille-oneal",
@@ -58,7 +58,7 @@
       "id": "kevin-durant",
       "name": "Kevin Durant",
       "subtitle": "Suns / Nets / Warriors / Thunder",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kevin+Durant"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Kevin_Durant%2C_Paris_2024_%28cropped%29.jpg/500px-Kevin_Durant%2C_Paris_2024_%28cropped%29.jpg"
     },
     {
       "id": "giannis-antetokounmpo",
@@ -70,7 +70,7 @@
       "id": "wilt-chamberlain",
       "name": "Wilt Chamberlain",
       "subtitle": "Warriors / 76ers / Lakers",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Wilt+Chamberlain"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Wilt_Chamberlain_1960_%28cropped%29_%28cropped%29.jpg/500px-Wilt_Chamberlain_1960_%28cropped%29_%28cropped%29.jpg"
     },
     {
       "id": "bill-russell",
@@ -82,25 +82,25 @@
       "id": "hakeem-olajuwon",
       "name": "Hakeem Olajuwon",
       "subtitle": "Rockets",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Hakeem+Olajuwon"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Nigerian_President_Buhari_Stands_With_Secretary_Kerry%2C_U.S._Delegation_After_They_Attended_His_Inauguration_Ceremony_%28cropped%29.jpg/500px-Nigerian_President_Buhari_Stands_With_Secretary_Kerry%2C_U.S._Delegation_After_They_Attended_His_Inauguration_Ceremony_%28cropped%29.jpg"
     },
     {
       "id": "allen-iverson",
       "name": "Allen Iverson",
       "subtitle": "76ers",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Allen+Iverson"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Allen_Iverson_headshot.jpg/500px-Allen_Iverson_headshot.jpg"
     },
     {
       "id": "dirk-nowitzki",
       "name": "Dirk Nowitzki",
       "subtitle": "Mavericks",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Dirk+Nowitzki"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Dirk_Nowitzki_2_%28cropped%29.jpg/500px-Dirk_Nowitzki_2_%28cropped%29.jpg"
     },
     {
       "id": "dwyane-wade",
       "name": "Dwyane Wade",
       "subtitle": "Heat",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Dwyane+Wade"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Dwyane_Wade_e1.jpg/500px-Dwyane_Wade_e1.jpg"
     },
     {
       "id": "kevin-garnett",
@@ -112,25 +112,25 @@
       "id": "nikola-jokic",
       "name": "Nikola Jokic",
       "subtitle": "Nuggets",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Nikola+Jokic"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Nikola_Jokic_free_throw_%28cropped%29.jpg/500px-Nikola_Jokic_free_throw_%28cropped%29.jpg"
     },
     {
       "id": "luka-doncic",
       "name": "Luka Doncic",
       "subtitle": "Lakers / Mavericks",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Luka+Doncic"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Luka_Doncic_%2851914951721%29_%28cropped1%29.jpg/500px-Luka_Doncic_%2851914951721%29_%28cropped1%29.jpg"
     },
     {
       "id": "julius-erving",
       "name": "Julius Erving",
       "subtitle": "76ers / Nets",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Julius+Erving"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Julius_Erving_2016.jpg/500px-Julius_Erving_2016.jpg"
     },
     {
       "id": "charles-barkley",
       "name": "Charles Barkley",
       "subtitle": "76ers / Suns / Rockets",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Charles+Barkley"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/1_charles_barkley_2019_%28cropped%29.jpg/500px-1_charles_barkley_2019_%28cropped%29.jpg"
     },
     {
       "id": "karl-malone",
@@ -142,19 +142,19 @@
       "id": "oscar-robertson",
       "name": "Oscar Robertson",
       "subtitle": "Royals / Bucks",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Oscar+Robertson"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Oscar_Robertson_2024.jpg/500px-Oscar_Robertson_2024.jpg"
     },
     {
       "id": "jerry-west",
       "name": "Jerry West",
       "subtitle": "Lakers",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Jerry+West"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Jerry_West_1972.jpeg/500px-Jerry_West_1972.jpeg"
     },
     {
       "id": "isiah-thomas",
       "name": "Isiah Thomas",
       "subtitle": "Pistons",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Isiah+Thomas"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Isiah_Thomas_2007_%28cropped%29.jpg/500px-Isiah_Thomas_2007_%28cropped%29.jpg"
     },
     {
       "id": "kawhi-leonard",
@@ -166,7 +166,7 @@
       "id": "james-harden",
       "name": "James Harden",
       "subtitle": "Clippers / 76ers / Rockets",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=James+Harden"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Harden_dribbling_midcourt%2C_Cavaliers_vs_Nets_on_January_17%2C_2022_%28cropped%29.jpg/500px-Harden_dribbling_midcourt%2C_Cavaliers_vs_Nets_on_January_17%2C_2022_%28cropped%29.jpg"
     },
     {
       "id": "russell-westbrook",
@@ -178,7 +178,7 @@
       "id": "chris-paul",
       "name": "Chris Paul",
       "subtitle": "Hornets / Clippers / Rockets / Suns",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Chris+Paul"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Chris_Paul_%282022_All-Star_Weekend%29_%28cropped%29.jpg/500px-Chris_Paul_%282022_All-Star_Weekend%29_%28cropped%29.jpg"
     },
     {
       "id": "anthony-davis",

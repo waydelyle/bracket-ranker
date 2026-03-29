@@ -10,13 +10,13 @@
       "id": "stronger-workout",
       "name": "Stronger",
       "subtitle": "Kanye West",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Stronger"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d7/KW-Stronger.jpg"
     },
     {
       "id": "eye-of-the-tiger",
       "name": "Eye of the Tiger",
       "subtitle": "Survivor",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Eye+of+the+Tiger"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8e/Eye_of_the_Tiger_Survivor.jpg"
     },
     {
       "id": "till-i-collapse",
@@ -28,49 +28,49 @@
       "id": "power-workout",
       "name": "POWER",
       "subtitle": "Kanye West",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=POWER"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/81/Kanye_West_-_Power.png"
     },
     {
       "id": "thunderstruck-workout",
       "name": "Thunderstruck",
       "subtitle": "AC/DC",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Thunderstruck"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e4/ACDC-Thunderstruck.png"
     },
     {
       "id": "work-bitch",
       "name": "Work Bitch",
       "subtitle": "Britney Spears",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Work+Bitch"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Workbenchsongs.jpg"
     },
     {
       "id": "cant-hold-us",
       "name": "Can't Hold Us",
       "subtitle": "Macklemore & Ryan Lewis",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Can't+Hold+Us"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/61/Can%27t_Hold_Us.png"
     },
     {
       "id": "run-the-world",
       "name": "Run the World (Girls)",
       "subtitle": "Beyonce",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Run+the+World+(Girls)"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Beyonce_-_Run_the_World_%28Girls%29_%28single%29.png"
     },
     {
       "id": "pump-it",
       "name": "Pump It",
       "subtitle": "Black Eyed Peas",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Pump+It"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Tom_NovyHoH.JPG/500px-Tom_NovyHoH.JPG"
     },
     {
       "id": "physical",
       "name": "Physical",
       "subtitle": "Dua Lipa",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Physical"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fd/Dua_Lipa_-_Physical.png"
     },
     {
       "id": "remember-the-name",
       "name": "Remember the Name",
       "subtitle": "Fort Minor",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Remember+the+Name"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0e/Petrified_-_Remember_The_Name-USPromoCD.jpg"
     },
     {
       "id": "seven-nation-army",
@@ -82,37 +82,37 @@
       "id": "dont-stop-me-now-workout",
       "name": "Don't Stop Me Now",
       "subtitle": "Queen",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Don't+Stop+Me+Now"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/97/Queen-dont-stop-me-now-1979-6-s.jpg"
     },
     {
       "id": "run-boy-run",
       "name": "Run Boy Run",
       "subtitle": "Woodkid",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Run+Boy+Run"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/61/Run-boy-run-by-woodkid.jpg"
     },
     {
       "id": "humble",
       "name": "HUMBLE.",
       "subtitle": "Kendrick Lamar",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=HUMBLE."
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/58/Humble_kendrick_lamar.jpg"
     },
     {
       "id": "jumpman",
       "name": "Jumpman",
       "subtitle": "Drake & Future",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Jumpman"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Jammen.jpg"
     },
     {
       "id": "x-gon-give-it-to-ya",
       "name": "X Gon' Give It to Ya",
       "subtitle": "DMX",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=X+Gon'+Give+It+to+Ya"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e2/X_Gon%27_Give_It_to_Ya.jpg"
     },
     {
       "id": "levels-workout",
       "name": "Levels",
       "subtitle": "Avicii",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Levels"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/Levelssong.jpg"
     },
     {
       "id": "bangarang-workout",
@@ -124,25 +124,25 @@
       "id": "gods-plan-workout",
       "name": "God's Plan",
       "subtitle": "Drake",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=God's+Plan"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/af/God%27s_Plan.jpg"
     },
     {
       "id": "move-your-body",
       "name": "Move Your Body",
       "subtitle": "Sia",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Move+Your+Body"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d0/Sia_-_Move_Your_Body_Official_Single_Artwork.jpg"
     },
     {
       "id": "we-will-rock-you",
       "name": "We Will Rock You",
       "subtitle": "Queen",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=We+Will+Rock+You"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/18/We_Will_Rock_You_by_Queen_%281977_French_single%29.png"
     },
     {
       "id": "born-this-way",
       "name": "Born This Way",
       "subtitle": "Lady Gaga",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Born+This+Way"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/Born_This_Way_album_cover.png"
     }
   ]
 }

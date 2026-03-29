@@ -40,7 +40,7 @@
       "id": "76ers",
       "name": "Philadelphia 76ers",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Philadelphia+76ers"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Philadelphia_76ers_logo.svg/500px-Philadelphia_76ers_logo.svg.png"
     },
     {
       "id": "spurs",
@@ -58,7 +58,7 @@
       "id": "nuggets",
       "name": "Denver Nuggets",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Denver+Nuggets"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Denver_Nuggets.svg/500px-Denver_Nuggets.svg.png"
     },
     {
       "id": "suns",
@@ -70,7 +70,7 @@
       "id": "mavericks",
       "name": "Dallas Mavericks",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Dallas+Mavericks"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Dallas_Mavericks_logo.svg/500px-Dallas_Mavericks_logo.svg.png"
     },
     {
       "id": "nets",
@@ -88,7 +88,7 @@
       "id": "raptors",
       "name": "Toronto Raptors",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Toronto+Raptors"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Toronto_Raptors_logo.svg/500px-Toronto_Raptors_logo.svg.png"
     },
     {
       "id": "cavaliers",
@@ -112,7 +112,7 @@
       "id": "rockets",
       "name": "Houston Rockets",
       "subtitle": "Western Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Houston+Rockets"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Houston_Rockets.svg/500px-Houston_Rockets.svg.png"
     },
     {
       "id": "hawks",
@@ -154,7 +154,7 @@
       "id": "magic",
       "name": "Orlando Magic",
       "subtitle": "Eastern Conference",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Orlando+Magic"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Orlando_Magic_logo.svg/500px-Orlando_Magic_logo.svg.png"
     },
     {
       "id": "jazz",

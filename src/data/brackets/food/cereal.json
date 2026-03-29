@@ -40,7 +40,7 @@
       "id": "frosted-mini-wheats",
       "name": "Frosted Mini-Wheats",
       "subtitle": "Frosted wheat biscuits",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Frosted+Mini-Wheats"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Frosted_Mini-Wheats_logo.svg/500px-Frosted_Mini-Wheats_logo.svg.png"
     },
     {
       "id": "captain-crunch",
@@ -64,13 +64,13 @@
       "id": "reeses-puffs",
       "name": "Reese's Puffs",
       "subtitle": "Peanut butter chocolate",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Reese's+Puffs"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/Reese%27s_Puffs.png"
     },
     {
       "id": "cheerios",
       "name": "Cheerios",
       "subtitle": "The original",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cheerios"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Cheerios_with_Happy_Heart_Shapes.jpg/500px-Cheerios_with_Happy_Heart_Shapes.jpg"
     },
     {
       "id": "life-cereal",
@@ -82,13 +82,13 @@
       "id": "corn-flakes",
       "name": "Corn Flakes",
       "subtitle": "The classic",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Corn+Flakes"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d1/Kellogg%27s_Corn_Flakes.png"
     },
     {
       "id": "raisin-bran",
       "name": "Raisin Bran",
       "subtitle": "Two scoops of raisins",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Raisin+Bran"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Kellogg%27s_Raisin_Bran_%E2%80%93_Raisins_and_Toasted_Bran_Flakes_with_milk.jpg/500px-Kellogg%27s_Raisin_Bran_%E2%80%93_Raisins_and_Toasted_Bran_Flakes_with_milk.jpg"
     },
     {
       "id": "golden-grahams",
@@ -100,37 +100,37 @@
       "id": "cookie-crisp",
       "name": "Cookie Crisp",
       "subtitle": "Cookies for breakfast",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cookie+Crisp"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/58/Cookie_Crisp_USA_logo.png"
     },
     {
       "id": "trix",
       "name": "Trix",
       "subtitle": "Silly rabbit, Trix are for kids",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Trix"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Trixie_Mattel_%2849171875887%29_%28cropped%29.jpg/500px-Trixie_Mattel_%2849171875887%29_%28cropped%29.jpg"
     },
     {
       "id": "honey-bunches-of-oats",
       "name": "Honey Bunches of Oats",
       "subtitle": "Crispy flakes & oat clusters",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Honey+Bunches+of+Oats"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/08/Honey_bunches_oat_logo.png"
     },
     {
       "id": "count-chocula",
       "name": "Count Chocula",
       "subtitle": "Chocolate cereal",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Count+Chocula"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/33/Count-Chocula-Box-Small.jpg"
     },
     {
       "id": "grape-nuts",
       "name": "Grape-Nuts",
       "subtitle": "Dense & crunchy",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Grape-Nuts"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Grape_nuts_logo.png"
     },
     {
       "id": "special-k",
       "name": "Special K",
       "subtitle": "Light & crispy",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Special+K"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Specialk_brand_logo.png/500px-Specialk_brand_logo.png"
     },
     {
       "id": "cocoa-krispies",
@@ -142,19 +142,19 @@
       "id": "fruity-pebbles",
       "name": "Fruity Pebbles",
       "subtitle": "Yabba Dabba Doo!",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Fruity+Pebbles"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/62/Pebbles_cereal_brand_logo.png"
     },
     {
       "id": "cocoa-pebbles",
       "name": "Cocoa Pebbles",
       "subtitle": "Chocolate rice cereal",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Cocoa+Pebbles"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/62/Pebbles_cereal_brand_logo.png"
     },
     {
       "id": "kix",
       "name": "Kix",
       "subtitle": "Kid-tested, mother-approved",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Kix"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/KixBaltimore2009.jpg/500px-KixBaltimore2009.jpg"
     },
     {
       "id": "chex",

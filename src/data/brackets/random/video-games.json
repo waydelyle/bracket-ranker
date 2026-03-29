@@ -28,37 +28,37 @@
       "id": "gta-v",
       "name": "Grand Theft Auto V",
       "subtitle": "2013 - Rockstar",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Grand+Theft+Auto+V"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png"
     },
     {
       "id": "the-last-of-us",
       "name": "The Last of Us",
       "subtitle": "2013 - Naughty Dog",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Last+of+Us"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4f/TLOU_P2_Box_Art_2.png"
     },
     {
       "id": "elden-ring",
       "name": "Elden Ring",
       "subtitle": "2022 - FromSoftware",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Elden+Ring"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg"
     },
     {
       "id": "super-mario-odyssey",
       "name": "Super Mario Odyssey",
       "subtitle": "2017 - Nintendo",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Super+Mario+Odyssey"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg"
     },
     {
       "id": "god-of-war-2018",
       "name": "God of War (2018)",
       "subtitle": "2018 - Santa Monica",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=God+of+War+(2018)"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg"
     },
     {
       "id": "skyrim",
       "name": "The Elder Scrolls V: Skyrim",
       "subtitle": "2011 - Bethesda",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=The+Elder+Scrolls+V%3A+Skyrim"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png"
     },
     {
       "id": "dark-souls",
@@ -76,7 +76,7 @@
       "id": "portal-2",
       "name": "Portal 2",
       "subtitle": "2011 - Valve",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Portal+2"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f9/Portal2cover.jpg"
     },
     {
       "id": "zelda-totk",
@@ -94,7 +94,7 @@
       "id": "mario-kart-8",
       "name": "Mario Kart 8 Deluxe",
       "subtitle": "2017 - Nintendo",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Mario+Kart+8+Deluxe"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b5/MarioKart8Boxart.jpg"
     },
     {
       "id": "baldurs-gate-3",
@@ -106,7 +106,7 @@
       "id": "celeste",
       "name": "Celeste",
       "subtitle": "2018 - Maddy Makes Games",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Celeste"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Celeste_box_art_full.png/500px-Celeste_box_art_full.png"
     },
     {
       "id": "hollow-knight",
@@ -136,25 +136,25 @@
       "id": "ghost-of-tsushima",
       "name": "Ghost of Tsushima",
       "subtitle": "2020 - Sucker Punch",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Ghost+of+Tsushima"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/Ghost_of_Tsushima.jpg"
     },
     {
       "id": "sekiro",
       "name": "Sekiro: Shadows Die Twice",
       "subtitle": "2019 - FromSoftware",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Sekiro%3A+Shadows+Die+Twice"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6e/Sekiro_art.jpg"
     },
     {
       "id": "animal-crossing-nh",
       "name": "Animal Crossing: New Horizons",
       "subtitle": "2020 - Nintendo",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Animal+Crossing%3A+New+Horizons"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg"
     },
     {
       "id": "persona-5",
       "name": "Persona 5 Royal",
       "subtitle": "2019 - Atlus",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Persona+5+Royal"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b0/Persona_5_cover_art.jpg"
     },
     {
       "id": "final-fantasy-vii",
@@ -178,19 +178,19 @@
       "id": "bioshock",
       "name": "BioShock",
       "subtitle": "2007 - Irrational",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=BioShock"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6d/BioShock_cover.jpg"
     },
     {
       "id": "metal-gear-solid",
       "name": "Metal Gear Solid",
       "subtitle": "1998 - Konami",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Metal+Gear+Solid"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Metal_Gear_Solid_cover_art.png/500px-Metal_Gear_Solid_cover_art.png"
     },
     {
       "id": "resident-evil-4",
       "name": "Resident Evil 4",
       "subtitle": "2005 - Capcom",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Resident+Evil+4"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d9/Resi4-gc-cover.jpg"
     }
   ]
 }

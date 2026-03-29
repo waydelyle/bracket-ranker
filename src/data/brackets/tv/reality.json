@@ -16,7 +16,7 @@
       "id": "rupauls-drag-race",
       "name": "RuPaul's Drag Race",
       "subtitle": "2009-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=RuPaul's+Drag+Race&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8e/RuPaul%27s_Drag_Race_UK_series_4_poster.jpg"
     },
     {
       "id": "the-amazing-race",
@@ -34,7 +34,7 @@
       "id": "big-brother",
       "name": "Big Brother",
       "subtitle": "2000-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Big+Brother&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Big_Brother_%28Franchise%29_2019_Logo.jpg/500px-Big_Brother_%28Franchise%29_2019_Logo.jpg"
     },
     {
       "id": "american-idol",
@@ -52,7 +52,7 @@
       "id": "the-real-housewives",
       "name": "The Real Housewives",
       "subtitle": "2006-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Real+Housewives&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/REAL_HOUSEWIVES_OF_ATLANTA_NEW_LOGO.png/500px-REAL_HOUSEWIVES_OF_ATLANTA_NEW_LOGO.png"
     },
     {
       "id": "the-great-british-bake-off",
@@ -70,13 +70,13 @@
       "id": "the-voice",
       "name": "The Voice",
       "subtitle": "2011-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Voice"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/44/The_Voice_NBC_logo_blackwhite.png"
     },
     {
       "id": "project-runway",
       "name": "Project Runway",
       "subtitle": "2004-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Project+Runway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/95/Project_runway_fifth_season_DVD.png"
     },
     {
       "id": "shark-tank",
@@ -124,13 +124,13 @@
       "id": "top-chef",
       "name": "Top Chef",
       "subtitle": "2006-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Top+Chef"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/ce/Top_Chef_Season_23_cover.jpg"
     },
     {
       "id": "90-day-fiance",
       "name": "90 Day Fiance",
       "subtitle": "2014-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=90+Day+Fiance"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/90DayFiance_titlecard.jpg/500px-90DayFiance_titlecard.jpg"
     },
     {
       "id": "the-masked-singer",
@@ -142,7 +142,7 @@
       "id": "queer-eye",
       "name": "Queer Eye",
       "subtitle": "2018-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Queer+Eye"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/80/Queereyelogo2.jpg"
     }
   ]
 }

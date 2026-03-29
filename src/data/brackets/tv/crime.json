@@ -28,7 +28,7 @@
       "id": "mindhunter-crime",
       "name": "Mindhunter",
       "subtitle": "2017-2019",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Mindhunter&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/Mindhunters_poster.jpg"
     },
     {
       "id": "narcos-crime",
@@ -46,7 +46,7 @@
       "id": "ozark-crime",
       "name": "Ozark",
       "subtitle": "2017-2022",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Ozark&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Omar_%28TV_Series%29.jpg/500px-Omar_%28TV_Series%29.jpg"
     },
     {
       "id": "better-call-saul-crime",
@@ -82,19 +82,19 @@
       "id": "law-and-order-svu",
       "name": "Law & Order: SVU",
       "subtitle": "1999-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Law+%26+Order%3A+SVU"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/da/Law_%26_Order_Special_Victims_Unit_%28season_27_poster%29.png"
     },
     {
       "id": "criminal-minds",
       "name": "Criminal Minds",
       "subtitle": "2005-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Criminal+Minds"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/68/Criminal_Minds_%28season_12%29_DVD_cover.jpg"
     },
     {
       "id": "ncis",
       "name": "NCIS",
       "subtitle": "2003-present",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=NCIS"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e8/Noir_vol_1.jpg"
     },
     {
       "id": "csi",
@@ -112,13 +112,13 @@
       "id": "killing-eve",
       "name": "Killing Eve",
       "subtitle": "2018-2022",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Killing+Eve"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Killing_Eve_logo.svg/500px-Killing_Eve_logo.svg.png"
     },
     {
       "id": "the-blacklist",
       "name": "The Blacklist",
       "subtitle": "2013-2023",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Blacklist"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/20/BlacklistS2DVD.jpg"
     },
     {
       "id": "sherlock",

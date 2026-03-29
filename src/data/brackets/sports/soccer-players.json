@@ -4,7 +4,7 @@
       "id": "lionel-messi",
       "name": "Lionel Messi",
       "subtitle": "Inter Miami / Barcelona / Argentina",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Lionel+Messi"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Lionel_Messi_NE_Revolution_Inter_Miami_7.9.25-178.jpg/500px-Lionel_Messi_NE_Revolution_Inter_Miami_7.9.25-178.jpg"
     },
     {
       "id": "cristiano-ronaldo",
@@ -16,7 +16,7 @@
       "id": "pele",
       "name": "Pele",
       "subtitle": "Santos / Brazil",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Pele"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Pele_con_brasil_%28cropped%29.jpg/500px-Pele_con_brasil_%28cropped%29.jpg"
     },
     {
       "id": "diego-maradona",
@@ -40,25 +40,25 @@
       "id": "neymar",
       "name": "Neymar Jr.",
       "subtitle": "Santos / Barcelona / PSG / Brazil",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Neymar+Jr."
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Neymar_Jr._with_Al_Hilal%2C_3_October_2023_-_03_%28cropped%29.jpg/500px-Neymar_Jr._with_Al_Hilal%2C_3_October_2023_-_03_%28cropped%29.jpg"
     },
     {
       "id": "kylian-mbappe",
       "name": "Kylian Mbappe",
       "subtitle": "Real Madrid / PSG / France",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Kylian+Mbappe"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Picture_with_Mbapp%C3%A9_%28cropped_and_rotated%29.jpg/500px-Picture_with_Mbapp%C3%A9_%28cropped_and_rotated%29.jpg"
     },
     {
       "id": "erling-haaland",
       "name": "Erling Haaland",
       "subtitle": "Man City / Norway",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Erling+Haaland"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/500px-Erling_Haaland_June_2025.jpg"
     },
     {
       "id": "ronaldo-nazario",
       "name": "Ronaldo Nazario",
       "subtitle": "Real Madrid / Inter / Brazil",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Ronaldo+Nazario"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ronaldo_Lu%C3%ADs_Naz%C3%A1rio_de_Lima_2019_%283x4_cropped%29.jpg/500px-Ronaldo_Lu%C3%ADs_Naz%C3%A1rio_de_Lima_2019_%283x4_cropped%29.jpg"
     },
     {
       "id": "thierry-henry",
@@ -70,7 +70,7 @@
       "id": "johan-cruyff",
       "name": "Johan Cruyff",
       "subtitle": "Ajax / Barcelona / Netherlands",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Johan+Cruyff"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Johan_Cruijff_%281974%29.jpg/500px-Johan_Cruijff_%281974%29.jpg"
     },
     {
       "id": "franz-beckenbauer",
@@ -94,37 +94,37 @@
       "id": "michel-platini",
       "name": "Michel Platini",
       "subtitle": "Juventus / France",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Michel+Platini"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Michel_Platini_2010_%28cropped%29.jpg"
     },
     {
       "id": "wayne-rooney",
       "name": "Wayne Rooney",
       "subtitle": "Man Utd / England",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Wayne+Rooney"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg/500px-Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg"
     },
     {
       "id": "david-beckham",
       "name": "David Beckham",
       "subtitle": "Man Utd / Real Madrid / England",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=David+Beckham"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/David_Beckham_UNICEF_%28cropped2%29.jpg/500px-David_Beckham_UNICEF_%28cropped2%29.jpg"
     },
     {
       "id": "andres-iniesta",
       "name": "Andres Iniesta",
       "subtitle": "Barcelona / Spain",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Andres+Iniesta"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Andr%C3%A9s_Iniesta_%28cropped%29.jpg/500px-Andr%C3%A9s_Iniesta_%28cropped%29.jpg"
     },
     {
       "id": "xavi",
       "name": "Xavi",
       "subtitle": "Barcelona / Spain",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Xavi"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Xavier_University_seal.svg/500px-Xavier_University_seal.svg.png"
     },
     {
       "id": "luka-modric",
       "name": "Luka Modric",
       "subtitle": "Real Madrid / Croatia",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Luka+Modric"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ofrenda_de_la_Liga_y_la_Champions-57-L.Mill%C3%A1n_%2852109310843%29_%28Luka_Modri%C4%87%29.jpg/500px-Ofrenda_de_la_Liga_y_la_Champions-57-L.Mill%C3%A1n_%2852109310843%29_%28Luka_Modri%C4%87%29.jpg"
     },
     {
       "id": "virgil-van-dijk",
@@ -148,7 +148,7 @@
       "id": "vinicius-jr",
       "name": "Vinicius Jr.",
       "subtitle": "Real Madrid / Brazil",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Vinicius+Jr."
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/2023_05_06_Final_de_la_Copa_del_Rey_-_52879242230_%28cropped%29.jpg/500px-2023_05_06_Final_de_la_Copa_del_Rey_-_52879242230_%28cropped%29.jpg"
     },
     {
       "id": "kevin-de-bruyne",
@@ -166,31 +166,31 @@
       "id": "zlatan-ibrahimovic",
       "name": "Zlatan Ibrahimovic",
       "subtitle": "AC Milan / PSG / Sweden",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Zlatan+Ibrahimovic"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Zlatan_Ibrahimovi%C4%87_June_2018.jpg/500px-Zlatan_Ibrahimovi%C4%87_June_2018.jpg"
     },
     {
       "id": "gerd-muller",
       "name": "Gerd Muller",
       "subtitle": "Bayern Munich / Germany",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Gerd+Muller"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Gerd_M%C3%BCller_c1973_%28cropped%29.jpg/500px-Gerd_M%C3%BCller_c1973_%28cropped%29.jpg"
     },
     {
       "id": "alfredo-di-stefano",
       "name": "Alfredo Di Stefano",
       "subtitle": "Real Madrid / Argentina",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Alfredo+Di+Stefano"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Di_Stefano_1959.jpg/500px-Di_Stefano_1959.jpg"
     },
     {
       "id": "sergio-ramos",
       "name": "Sergio Ramos",
       "subtitle": "Real Madrid / Spain",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Sergio+Ramos"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Sergio_Ramos_Interview_2021_%28cropped%29.jpg/500px-Sergio_Ramos_Interview_2021_%28cropped%29.jpg"
     },
     {
       "id": "aitana-bonmati",
       "name": "Aitana Bonmati",
       "subtitle": "Barcelona / Spain",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Aitana+Bonmati"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/25th_Laureus_World_Sports_Awards_-_240422_214032.jpg/500px-25th_Laureus_World_Sports_Awards_-_240422_214032.jpg"
     }
   ]
 }

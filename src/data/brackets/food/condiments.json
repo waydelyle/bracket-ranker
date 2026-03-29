@@ -10,55 +10,55 @@
       "id": "mustard",
       "name": "Mustard",
       "subtitle": "Yellow or Dijon",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mustard"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Sulfur-mustard-3D-vdW.png/500px-Sulfur-mustard-3D-vdW.png"
     },
     {
       "id": "mayo",
       "name": "Mayonnaise",
       "subtitle": "Creamy spread",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Mayonnaise"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Mayonnaise_%281%29.jpg/500px-Mayonnaise_%281%29.jpg"
     },
     {
       "id": "hot-sauce",
       "name": "Hot Sauce",
       "subtitle": "Spicy kick",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Hot+Sauce"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Fermented_hot_sauce.jpg/500px-Fermented_hot_sauce.jpg"
     },
     {
       "id": "ranch",
       "name": "Ranch Dressing",
       "subtitle": "America's favorite dip",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Ranch+Dressing"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ranch_dressing.jpg/500px-Ranch_dressing.jpg"
     },
     {
       "id": "bbq-sauce",
       "name": "BBQ Sauce",
       "subtitle": "Sweet & smoky",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=BBQ+Sauce"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pork_steaks_cooking-1.jpg/500px-Pork_steaks_cooking-1.jpg"
     },
     {
       "id": "soy-sauce",
       "name": "Soy Sauce",
       "subtitle": "Salty umami",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Soy+Sauce"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Soy_sauce_2.jpg/500px-Soy_sauce_2.jpg"
     },
     {
       "id": "sriracha",
       "name": "Sriracha",
       "subtitle": "Rooster sauce",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Sriracha"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Siracha_sauce.jpg/500px-Siracha_sauce.jpg"
     },
     {
       "id": "salsa",
       "name": "Salsa",
       "subtitle": "Tomato-based dip",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Salsa"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/2006-06-03_Congas1.JPG/500px-2006-06-03_Congas1.JPG"
     },
     {
       "id": "honey-mustard",
       "name": "Honey Mustard",
       "subtitle": "Sweet & tangy",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Honey+Mustard"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/McDonald%27s_square_2020.svg/500px-McDonald%27s_square_2020.svg.png"
     },
     {
       "id": "buffalo-sauce",
@@ -70,31 +70,31 @@
       "id": "guacamole",
       "name": "Guacamole",
       "subtitle": "Avocado dip",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Guacamole"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Guacamole_IMGP1271.jpg/500px-Guacamole_IMGP1271.jpg"
     },
     {
       "id": "pesto",
       "name": "Pesto",
       "subtitle": "Basil & pine nuts",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Pesto"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/BasilPesto.JPG/500px-BasilPesto.JPG"
     },
     {
       "id": "hummus",
       "name": "Hummus",
       "subtitle": "Chickpea dip",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Hummus"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Lebanese_style_hummus.jpg/500px-Lebanese_style_hummus.jpg"
     },
     {
       "id": "teriyaki",
       "name": "Teriyaki Sauce",
       "subtitle": "Sweet soy glaze",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Teriyaki+Sauce"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/22nd_June_2012_Teriyaki_Duck.jpg/500px-22nd_June_2012_Teriyaki_Duck.jpg"
     },
     {
       "id": "aioli",
       "name": "Aioli",
       "subtitle": "Garlic mayo",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Aioli"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/A%C3%AFoli_maison.jpg/500px-A%C3%AFoli_maison.jpg"
     }
   ]
 }

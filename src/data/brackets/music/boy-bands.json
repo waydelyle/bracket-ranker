@@ -4,25 +4,25 @@
       "id": "nsync",
       "name": "*NSYNC",
       "subtitle": "1995-2002",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=*NSYNC"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/db/Nsync_tourpass.jpg"
     },
     {
       "id": "backstreet-boys",
       "name": "Backstreet Boys",
       "subtitle": "1993-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Backstreet+Boys"
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8f/ALAYLM1.PNG"
     },
     {
       "id": "bts",
       "name": "BTS",
       "subtitle": "2013-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=BTS"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/BTS_LG_G7_ThinQ_mobile_advertisement_%28cropped%29.jpg/500px-BTS_LG_G7_ThinQ_mobile_advertisement_%28cropped%29.jpg"
     },
     {
       "id": "one-direction",
       "name": "One Direction",
       "subtitle": "2010-2016",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=One+Direction"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fa/Dan_%2B_Shay_-_Good_Things.png"
     },
     {
       "id": "new-kids-on-the-block",
@@ -34,7 +34,7 @@
       "id": "boyz-ii-men",
       "name": "Boyz II Men",
       "subtitle": "1988-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Boyz+II+Men"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/61/Mozzy_-_Beyond_Bulletproof.png"
     },
     {
       "id": "new-edition",
@@ -46,7 +46,7 @@
       "id": "the-jackson-5",
       "name": "The Jackson 5",
       "subtitle": "1964-1990",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=The+Jackson+5"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Dream_of_Life_-_Patti_Smith.jpg"
     },
     {
       "id": "98-degrees",
@@ -64,7 +64,7 @@
       "id": "big-time-rush",
       "name": "Big Time Rush",
       "subtitle": "2009-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Big+Time+Rush"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Big_Time_Rush_%2823483451764%29_%28cropped%29.jpg/500px-Big_Time_Rush_%2823483451764%29_%28cropped%29.jpg"
     },
     {
       "id": "the-wanted",
@@ -76,19 +76,19 @@
       "id": "menudo",
       "name": "Menudo",
       "subtitle": "1977-2009",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Menudo"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Bowl_of_menudo_stew.jpg/500px-Bowl_of_menudo_stew.jpg"
     },
     {
       "id": "o-town",
       "name": "O-Town",
       "subtitle": "2000-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=O-Town"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5c/Philip_Lynott_Old_Town_single_cover.jpg"
     },
     {
       "id": "westlife",
       "name": "Westlife",
       "subtitle": "1998-present",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Westlife"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/21/If_%28Bread_song%29.jpg"
     },
     {
       "id": "take-that",

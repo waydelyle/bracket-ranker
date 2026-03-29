@@ -16,7 +16,7 @@
       "id": "my-neighbor-totoro",
       "name": "My Neighbor Totoro",
       "subtitle": "1988",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=My+Neighbor+Totoro&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/02/My_Neighbor_Totoro_-_Tonari_no_Totoro_%28Movie_Poster%29.jpg"
     },
     {
       "id": "howls-moving-castle",
@@ -28,25 +28,25 @@
       "id": "grave-of-the-fireflies",
       "name": "Grave of the Fireflies",
       "subtitle": "1988",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Grave+of+the+Fireflies&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grave_of_the_Fireflies_Japanese_poster.jpg"
     },
     {
       "id": "kiki-delivery-service",
       "name": "Kiki's Delivery Service",
       "subtitle": "1989",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Kiki's+Delivery+Service&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/07/Kiki%27s_Delivery_Service_%28Movie%29.jpg"
     },
     {
       "id": "castle-in-the-sky",
       "name": "Castle in the Sky",
       "subtitle": "1986",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Castle+in+the+Sky&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f5/Castle_in_the_Sky_%281986%29.png"
     },
     {
       "id": "nausicaa",
       "name": "Nausicaa of the Valley of the Wind",
       "subtitle": "1984",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Nausicaa+of+the+Valley+of+the+Wind&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bc/Nausicaaposter.jpg"
     },
     {
       "id": "porco-rosso",
@@ -58,19 +58,19 @@
       "id": "the-wind-rises",
       "name": "The Wind Rises",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Wind+Rises&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a3/Kaze_Tachinu_poster.jpg"
     },
     {
       "id": "ponyo",
       "name": "Ponyo",
       "subtitle": "2008",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Ponyo&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Ponyo.png"
     },
     {
       "id": "the-tale-of-princess-kaguya",
       "name": "The Tale of the Princess Kaguya",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Tale+of+the+Princess+Kaguya&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/68/The_Tale_of_the_Princess_Kaguya_%28poster%29.jpg"
     },
     {
       "id": "whisper-of-the-heart",
@@ -88,25 +88,25 @@
       "id": "arrietty",
       "name": "Arrietty",
       "subtitle": "2010",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Arrietty&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e7/Karigurashi_no_Arrietty_poster.png"
     },
     {
       "id": "when-marnie-was-there",
       "name": "When Marnie Was There",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=When+Marnie+Was+There&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a7/When_Marnie_Was_There.png"
     },
     {
       "id": "from-up-on-poppy-hill",
       "name": "From Up on Poppy Hill",
       "subtitle": "2011",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=From+Up+on+Poppy+Hill&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c9/From_Up_on_Poppy_Hill.png"
     },
     {
       "id": "pom-poko",
       "name": "Pom Poko",
       "subtitle": "1994",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Pom+Poko"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/99/Pompom84.jpg"
     },
     {
       "id": "only-yesterday",
@@ -124,25 +124,25 @@
       "id": "tales-from-earthsea",
       "name": "Tales from Earthsea",
       "subtitle": "2006",
-      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Tales+from+Earthsea&font=raleway"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e5/Gedo6sn.jpg"
     },
     {
       "id": "my-neighbors-the-yamadas",
       "name": "My Neighbors the Yamadas",
       "subtitle": "1999",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=My+Neighbors+the+Yamadas"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/My_Neighbors_the_Yamadas_%281999%29.jpg"
     },
     {
       "id": "the-boy-and-the-heron",
       "name": "The Boy and the Heron",
       "subtitle": "2023",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Boy+and+the+Heron"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/41/How_Do_You_Live_poster.jpg"
     },
     {
       "id": "earwig-and-the-witch",
       "name": "Earwig and the Witch",
       "subtitle": "2020",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Earwig+and+the+Witch"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d5/Earwig_and_the_Witch.png"
     }
   ]
 }

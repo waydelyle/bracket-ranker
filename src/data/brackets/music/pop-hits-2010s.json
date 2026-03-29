@@ -10,67 +10,67 @@
       "id": "shape-of-you",
       "name": "Shape of You",
       "subtitle": "Ed Sheeran",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Shape+of+You"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png"
     },
     {
       "id": "happy",
       "name": "Happy",
       "subtitle": "Pharrell Williams",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Happy"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/23/Pharrell_Williams_-_Happy.jpg"
     },
     {
       "id": "somebody-that-i-used-to-know",
       "name": "Somebody That I Used to Know",
       "subtitle": "Gotye",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Somebody+That+I+Used+to+Know"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c1/Gotye_featuring_Kimbra_-_Somebody_That_I_Used_to_Know.png"
     },
     {
       "id": "despacito",
       "name": "Despacito",
       "subtitle": "Luis Fonsi ft. Daddy Yankee",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Despacito"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c8/Luis_Fonsi_Feat._Daddy_Yankee_-_Despacito_%28Official_Single_Cover%29.png"
     },
     {
       "id": "rolling-in-the-deep",
       "name": "Rolling in the Deep",
       "subtitle": "Adele",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Rolling+in+the+Deep"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/74/Adele_-_Rolling_in_the_Deep.png"
     },
     {
       "id": "closer",
       "name": "Closer",
       "subtitle": "The Chainsmokers ft. Halsey",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Closer"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7b/Chromatics_-_Closer_to_Grey.png"
     },
     {
       "id": "thinking-out-loud",
       "name": "Thinking Out Loud",
       "subtitle": "Ed Sheeran",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Thinking+Out+Loud"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3e/Thinking_Out_Loud_cover.png"
     },
     {
       "id": "old-town-road",
       "name": "Old Town Road",
       "subtitle": "Lil Nas X",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Old+Town+Road"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Old_Town_Road_cover.jpg"
     },
     {
       "id": "cant-stop-the-feeling",
       "name": "Can't Stop the Feeling",
       "subtitle": "Justin Timberlake",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Can't+Stop+the+Feeling"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Justin_Timberlake_-_Can%27t_Stop_the_Feeling.png"
     },
     {
       "id": "chandelier",
       "name": "Chandelier",
       "subtitle": "Sia",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Chandelier"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/32/Sia_Chandelier.png"
     },
     {
       "id": "bad-guy",
       "name": "bad guy",
       "subtitle": "Billie Eilish",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=bad+guy"
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/33/Billie_Eilish_-_Bad_Guy.png"
     },
     {
       "id": "hello",
@@ -82,115 +82,115 @@
       "id": "sorry",
       "name": "Sorry",
       "subtitle": "Justin Bieber",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sorry"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/dc/Justin_Bieber_-_Sorry_%28Official_Single_Cover%29.png"
     },
     {
       "id": "sunflower",
       "name": "Sunflower",
       "subtitle": "Post Malone & Swae Lee",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Sunflower"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d0/Sunflower_promo.jpg"
     },
     {
       "id": "royals",
       "name": "Royals",
       "subtitle": "Lorde",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Royals"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d3/Lorde_-_Royals.png"
     },
     {
       "id": "thank-u-next",
       "name": "thank u, next",
       "subtitle": "Ariana Grande",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=thank+u%2C+next"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/dd/Thank_U%2C_Next_album_cover.png"
     },
     {
       "id": "we-found-love",
       "name": "We Found Love",
       "subtitle": "Rihanna",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=We+Found+Love"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2f/We_Found_Love.png"
     },
     {
       "id": "call-me-maybe",
       "name": "Call Me Maybe",
       "subtitle": "Carly Rae Jepsen",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Call+Me+Maybe"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ad/Carly_Rae_Jepsen_-_Call_Me_Maybe.png"
     },
     {
       "id": "radioactive",
       "name": "Radioactive",
       "subtitle": "Imagine Dragons",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Radioactive"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/91/Imagine_Dragons_-_%22Radioactive%22_%28Single%29.jpg"
     },
     {
       "id": "stressed-out",
       "name": "Stressed Out",
       "subtitle": "Twenty One Pilots",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Stressed+Out"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fc/Twenty_One_Pilots_-_Stressed_Out.png"
     },
     {
       "id": "shallow",
       "name": "Shallow",
       "subtitle": "Lady Gaga & Bradley Cooper",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Shallow"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Parvati_Shallow_001.jpg/500px-Parvati_Shallow_001.jpg"
     },
     {
       "id": "havana",
       "name": "Havana",
       "subtitle": "Camila Cabello",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Havana"
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/98/Havana_%28featuring_Young_Thug%29_%28Official_Single_Cover%29_by_Camila_Cabello.png"
     },
     {
       "id": "dance-monkey",
       "name": "Dance Monkey",
       "subtitle": "Tones and I",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Dance+Monkey"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/Dance_Monkey_by_Tones_and_I.jpg"
     },
     {
       "id": "señorita",
       "name": "Senorita",
       "subtitle": "Shawn Mendes & Camila Cabello",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Senorita"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Shawn_Mendes_and_Camila_Cabello_-_Se%C3%B1orita.png"
     },
     {
       "id": "cheap-thrills",
       "name": "Cheap Thrills",
       "subtitle": "Sia",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Cheap+Thrills"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fc/Sia_Cheap_Thrills.png"
     },
     {
       "id": "7-rings",
       "name": "7 rings",
       "subtitle": "Ariana Grande",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=7+rings"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b7/Ariana_Grande_-_7_rings.png"
     },
     {
       "id": "attention",
       "name": "Attention",
       "subtitle": "Charlie Puth",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Attention"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Attention_%28Charlie_Puth_song%29_single_cover.svg/500px-Attention_%28Charlie_Puth_song%29_single_cover.svg.png"
     },
     {
       "id": "lean-on",
       "name": "Lean On",
       "subtitle": "Major Lazer & DJ Snake",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Lean+On"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ed/Major_Lazer_and_DJ_Snake_-_Lean_On_%28feat._M%C3%98%29.png"
     },
     {
       "id": "darkside",
       "name": "Darkside",
       "subtitle": "Alan Walker",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Darkside"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/ba/Darkside_by_Alan_Walker.png"
     },
     {
       "id": "thunder",
       "name": "Thunder",
       "subtitle": "Imagine Dragons",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Thunder"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/28/Imagine_Dragons_Thunder.jpg"
     },
     {
       "id": "love-yourself",
       "name": "Love Yourself",
       "subtitle": "Justin Bieber",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Love+Yourself"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/JustinBieberLoveYourself.png"
     }
   ]
 }

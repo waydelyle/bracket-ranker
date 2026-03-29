@@ -4,7 +4,7 @@
       "id": "walter-white",
       "name": "Walter White",
       "subtitle": "Breaking Bad",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Walter+White"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/03/Walter_White_S5B.png"
     },
     {
       "id": "cersei-lannister",
@@ -16,7 +16,7 @@
       "id": "gustavo-fring",
       "name": "Gustavo Fring",
       "subtitle": "Breaking Bad / Better Call Saul",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Gustavo+Fring"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/69/Gustavo_Fring_BCS_S3E10.png"
     },
     {
       "id": "negan",
@@ -28,13 +28,13 @@
       "id": "joffrey-baratheon",
       "name": "Joffrey Baratheon",
       "subtitle": "Game of Thrones",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Joffrey+Baratheon"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/Joffrey_Baratheon-Jack_Gleeson.jpg"
     },
     {
       "id": "kilgrave",
       "name": "Kilgrave",
       "subtitle": "Jessica Jones",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Kilgrave"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e7/Purple_Man.jpg"
     },
     {
       "id": "homelander",
@@ -46,25 +46,25 @@
       "id": "ramsay-bolton",
       "name": "Ramsay Bolton",
       "subtitle": "Game of Thrones",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Ramsay+Bolton"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Ramsay_Bolton-_-Iwan_Rheon.jpg"
     },
     {
       "id": "tony-soprano",
       "name": "Tony Soprano",
       "subtitle": "The Sopranos",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Tony+Soprano"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Tony_Soprano_%28The_Sopranos_Family_Tree%29_cropped.jpg/500px-Tony_Soprano_%28The_Sopranos_Family_Tree%29_cropped.jpg"
     },
     {
       "id": "benjamin-linus",
       "name": "Benjamin Linus",
       "subtitle": "Lost",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Benjamin+Linus"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/Ben_Linus2.jpg"
     },
     {
       "id": "moriarty",
       "name": "Moriarty",
       "subtitle": "Sherlock",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Moriarty"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/The_Adventure_of_the_Final_Problem_03.jpg/500px-The_Adventure_of_the_Final_Problem_03.jpg"
     },
     {
       "id": "logan-roy",
@@ -76,7 +76,7 @@
       "id": "villanelle",
       "name": "Villanelle",
       "subtitle": "Killing Eve",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Villanelle"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Ferdinand_Chaigneau_-_Troupeau_de_moutons.jpg/500px-Ferdinand_Chaigneau_-_Troupeau_de_moutons.jpg"
     },
     {
       "id": "tuco-salamanca",
@@ -88,7 +88,7 @@
       "id": "vecna",
       "name": "Vecna",
       "subtitle": "Stranger Things",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Vecna"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Veena_%28TV_series%29.jpg/500px-Veena_%28TV_series%29.jpg"
     },
     {
       "id": "nellie-oleson",
@@ -100,31 +100,31 @@
       "id": "the-governor",
       "name": "The Governor",
       "subtitle": "The Walking Dead",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Governor"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Thegovernor.jpg/500px-Thegovernor.jpg"
     },
     {
       "id": "tywin-lannister",
       "name": "Tywin Lannister",
       "subtitle": "Game of Thrones",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Tywin+Lannister"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Tywin_Lannister_Profile_Charles_Dance.jpg"
     },
     {
       "id": "frank-underwood",
       "name": "Frank Underwood",
       "subtitle": "House of Cards",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Frank+Underwood"
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/Frank_Underwood_-_House_of_Cards.jpg"
     },
     {
       "id": "lorne-malvo",
       "name": "Lorne Malvo",
       "subtitle": "Fargo",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Lorne+Malvo"
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/54/Lorne_Malvo_Rifle.jpg"
     },
     {
       "id": "the-night-king",
       "name": "The Night King",
       "subtitle": "Game of Thrones",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Night+King"
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Night_King_at_Hardhome.jpg"
     },
     {
       "id": "hannibal-lecter-tv",
