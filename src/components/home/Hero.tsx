@@ -1,7 +1,5 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { buttonVariants } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
 
 export function Hero() {
   return (
@@ -25,10 +23,7 @@ export function Hero() {
 
         <Link
           href="#categories"
-          className={cn(
-            buttonVariants({ size: "lg" }),
-            "gap-2 rounded-full px-6 text-base"
-          )}
+          className="inline-flex h-11 items-center justify-center gap-2 rounded-full bg-primary px-6 text-base font-medium text-primary-foreground shadow-xs hover:bg-primary/90"
         >
           Browse Categories
           <ArrowRight className="size-4" />

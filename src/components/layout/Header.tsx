@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Plus } from "lucide-react";
-import { buttonVariants } from "@/components/ui/button";
 import { CategoryNav } from "./CategoryNav";
 import { MobileMenu } from "./MobileMenu";
 
@@ -24,7 +23,7 @@ export function Header() {
         <div className="hidden md:block">
           <Link
             href="/create"
-            className={buttonVariants({ size: "sm", className: "gap-1.5 rounded-full" })}
+            className="inline-flex h-9 items-center justify-center gap-1.5 rounded-full bg-primary px-4 text-sm font-medium text-primary-foreground shadow-xs hover:bg-primary/90"
           >
             <Plus className="size-4" />
             Create
