@@ -10,13 +10,13 @@
       "id": "fullmetal-alchemist-brotherhood",
       "name": "Fullmetal Alchemist: Brotherhood",
       "subtitle": "2009-2010",
-      "image": "https://image.tmdb.org/t/p/w500/4bKlMOMjSKkr1msjlSHePKH0LBL.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Fullmetal+Alchemist%3A+Brotherhood&font=raleway"
     },
     {
       "id": "death-note",
       "name": "Death Note",
       "subtitle": "2006-2007",
-      "image": "https://image.tmdb.org/t/p/w500/iigTJJskR1PcjjhqLSfsiK80yFH.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Death+Note&font=raleway"
     },
     {
       "id": "naruto-shippuden",
@@ -28,7 +28,7 @@
       "id": "one-piece",
       "name": "One Piece",
       "subtitle": "1999-present",
-      "image": "https://image.tmdb.org/t/p/w500/cMD9Ygz11zjJzAovURpO75Gnj7j.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=One+Piece&font=raleway"
     },
     {
       "id": "demon-slayer",
@@ -40,19 +40,19 @@
       "id": "dragon-ball-z",
       "name": "Dragon Ball Z",
       "subtitle": "1989-1996",
-      "image": "https://image.tmdb.org/t/p/w500/6VKOfMDAMhGPOVoTYBOaCwmhEhG.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dragon+Ball+Z&font=raleway"
     },
     {
       "id": "hunter-x-hunter",
       "name": "Hunter x Hunter",
       "subtitle": "2011-2014",
-      "image": "https://image.tmdb.org/t/p/w500/yXYaPO5qv8CDH3NjH4PKvL4TDeN.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Hunter+x+Hunter&font=raleway"
     },
     {
       "id": "jujutsu-kaisen",
       "name": "Jujutsu Kaisen",
       "subtitle": "2020-present",
-      "image": "https://image.tmdb.org/t/p/w500/hFWP5HkbVEe40hrSyVMRqoJHcpG.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jujutsu+Kaisen&font=raleway"
     },
     {
       "id": "my-hero-academia",
@@ -70,25 +70,25 @@
       "id": "cowboy-bebop",
       "name": "Cowboy Bebop",
       "subtitle": "1998-1999",
-      "image": "https://image.tmdb.org/t/p/w500/2lBbwXMOl3mazX5F6gXzifcnPLd.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Cowboy+Bebop&font=raleway"
     },
     {
       "id": "neon-genesis-evangelion",
       "name": "Neon Genesis Evangelion",
       "subtitle": "1995-1996",
-      "image": "https://image.tmdb.org/t/p/w500/wWxPHYrD5F5sNIJeuvVeFrT8GEG.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Neon+Genesis+Evangelion&font=raleway"
     },
     {
       "id": "steins-gate",
       "name": "Steins;Gate",
       "subtitle": "2011",
-      "image": "https://image.tmdb.org/t/p/w500/el7S2kNFIPp3M4To9UiD8l5n2WT.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Steins%3BGate&font=raleway"
     },
     {
       "id": "mob-psycho-100",
       "name": "Mob Psycho 100",
       "subtitle": "2016-2023",
-      "image": "https://image.tmdb.org/t/p/w500/vwD3RynHGwK3TVCimGJEgUINdIW.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Mob+Psycho+100&font=raleway"
     },
     {
       "id": "spy-x-family",
@@ -106,7 +106,7 @@
       "id": "vinland-saga",
       "name": "Vinland Saga",
       "subtitle": "2019-present",
-      "image": "https://image.tmdb.org/t/p/w500/bHXFZRdFjBIAsObeHfH4YDC7FwP.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Vinland+Saga&font=raleway"
     },
     {
       "id": "code-geass",

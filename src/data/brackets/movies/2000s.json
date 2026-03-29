@@ -4,7 +4,7 @@
       "id": "the-dark-knight-00s",
       "name": "The Dark Knight",
       "subtitle": "2008",
-      "image": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911kpWdfASJGnGT.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Dark+Knight&font=raleway"
     },
     {
       "id": "lord-of-the-rings-return",
@@ -22,7 +22,7 @@
       "id": "gladiator-00s",
       "name": "Gladiator",
       "subtitle": "2000",
-      "image": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgCLbm.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Gladiator&font=raleway"
     },
     {
       "id": "there-will-be-blood",
@@ -34,7 +34,7 @@
       "id": "no-country-00s",
       "name": "No Country for Old Men",
       "subtitle": "2007",
-      "image": "https://image.tmdb.org/t/p/w500/6d5XOczc226IdIfs4eFhFYJnQVw.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=No+Country+for+Old+Men&font=raleway"
     },
     {
       "id": "wall-e-00s",
@@ -52,7 +52,7 @@
       "id": "the-departed-00s",
       "name": "The Departed",
       "subtitle": "2006",
-      "image": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Dqv4k7VA.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Departed&font=raleway"
     },
     {
       "id": "city-of-god",
@@ -70,7 +70,7 @@
       "id": "finding-nemo-00s",
       "name": "Finding Nemo",
       "subtitle": "2003",
-      "image": "https://image.tmdb.org/t/p/w500/eHuGQ10FUzJ1cGgRnQ3Hy7PS3u9.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Finding+Nemo&font=raleway"
     },
     {
       "id": "lost-in-translation",
@@ -118,25 +118,25 @@
       "id": "batman-begins",
       "name": "Batman Begins",
       "subtitle": "2005",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Batman+Begins"
+      "image": "https://image.tmdb.org/t/p/w500/1P3ZyEq02wcTMd3iE4ebtLvncvH.jpg"
     },
     {
       "id": "the-incredibles-00s",
       "name": "The Incredibles",
       "subtitle": "2004",
-      "image": "https://image.tmdb.org/t/p/w500/2LqaLgk1MYR85FEOqNP4cQ3AJZJ.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Incredibles&font=raleway"
     },
     {
       "id": "zodiac-00s",
       "name": "Zodiac",
       "subtitle": "2007",
-      "image": "https://image.tmdb.org/t/p/w500/q8FELO3pXwhG6Jv0GqV7cxMbKJp.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Zodiac&font=raleway"
     },
     {
       "id": "slumdog-millionaire",
       "name": "Slumdog Millionaire",
       "subtitle": "2008",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Slumdog+Millionaire"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Slumdog+Millionaire&font=raleway"
     },
     {
       "id": "catch-me-if-you-can",
@@ -154,7 +154,7 @@
       "id": "up-00s",
       "name": "Up",
       "subtitle": "2009",
-      "image": "https://image.tmdb.org/t/p/w500/vpbaStTMt8qqXaEgnOR2yAAOFBR.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Up&font=raleway"
     },
     {
       "id": "ratatouille-00s",
@@ -190,7 +190,7 @@
       "id": "the-hangover-00s",
       "name": "The Hangover",
       "subtitle": "2009",
-      "image": "https://image.tmdb.org/t/p/w500/uluhlXubGu1VxkAB3lR9jqtC3Ql.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Hangover&font=raleway"
     }
   ]
 }

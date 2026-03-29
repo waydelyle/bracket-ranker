@@ -34,13 +34,13 @@
       "id": "get-out-10s",
       "name": "Get Out",
       "subtitle": "2017",
-      "image": "https://image.tmdb.org/t/p/w500/qbaIVgiFKTivC5YQjeFF7qPq14M.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Get+Out&font=raleway"
     },
     {
       "id": "the-social-network",
       "name": "The Social Network",
       "subtitle": "2010",
-      "image": "https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRhcFz7yR.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Social+Network&font=raleway"
     },
     {
       "id": "django-unchained",
@@ -64,7 +64,7 @@
       "id": "arrival-10s",
       "name": "Arrival",
       "subtitle": "2016",
-      "image": "https://image.tmdb.org/t/p/w500/x2FJsf1ElAgr63Y3LNxZq57Ro3S.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Arrival&font=raleway"
     },
     {
       "id": "blade-runner-2049-10s",
@@ -82,13 +82,13 @@
       "id": "the-grand-budapest-10s",
       "name": "The Grand Budapest Hotel",
       "subtitle": "2014",
-      "image": "https://image.tmdb.org/t/p/w500/eWDyQ92bge0mZEh7k1RVo0TMOS0.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Grand+Budapest+Hotel&font=raleway"
     },
     {
       "id": "avengers-endgame-10s",
       "name": "Avengers: Endgame",
       "subtitle": "2019",
-      "image": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9SlTR0xEYQ.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Avengers%3A+Endgame&font=raleway"
     },
     {
       "id": "black-panther-10s",
@@ -112,7 +112,7 @@
       "id": "gone-girl-10s",
       "name": "Gone Girl",
       "subtitle": "2014",
-      "image": "https://image.tmdb.org/t/p/w500/wPsq25hqZQe2kTJuclcFrJciKTc.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Gone+Girl&font=raleway"
     },
     {
       "id": "12-years-a-slave-10s",
@@ -124,7 +124,7 @@
       "id": "hereditary-10s",
       "name": "Hereditary",
       "subtitle": "2018",
-      "image": "https://image.tmdb.org/t/p/w500/p9fmuz3Iin5lEpkOaxPE9Cjpyqq.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Hereditary&font=raleway"
     },
     {
       "id": "the-revenant",
@@ -136,7 +136,7 @@
       "id": "1917-10s",
       "name": "1917",
       "subtitle": "2019",
-      "image": "https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFDufj2nS.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=1917&font=raleway"
     },
     {
       "id": "gravity-10s",
@@ -154,7 +154,7 @@
       "id": "frozen-10s",
       "name": "Frozen",
       "subtitle": "2013",
-      "image": "https://image.tmdb.org/t/p/w500/kgwjIb2JDHRhNk13lmSMyuMK8Ns.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Frozen&font=raleway"
     },
     {
       "id": "her-10s",
@@ -166,7 +166,7 @@
       "id": "toy-story-3-10s",
       "name": "Toy Story 3",
       "subtitle": "2010",
-      "image": "https://image.tmdb.org/t/p/w500/AbbXspMOwdvwWZgVN0nbNOj1qjt.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Toy+Story+3&font=raleway"
     },
     {
       "id": "dunkirk",

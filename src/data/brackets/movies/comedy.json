@@ -10,31 +10,31 @@
       "id": "bridesmaids",
       "name": "Bridesmaids",
       "subtitle": "2011",
-      "image": "https://image.tmdb.org/t/p/w500/1vfPOeYmMJhO14cMTh3UMiRPgsW.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Bridesmaids&font=raleway"
     },
     {
       "id": "anchorman",
       "name": "Anchorman: The Legend of Ron Burgundy",
       "subtitle": "2004",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Anchorman%3A+The+Legend+of+Ron+Burgundy"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Anchorman%3A+The+Legend+of+Ron+Burgundy&font=raleway"
     },
     {
       "id": "the-hangover",
       "name": "The Hangover",
       "subtitle": "2009",
-      "image": "https://image.tmdb.org/t/p/w500/uluhlXubGu1VxkAB3lR9jqtC3Ql.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Hangover&font=raleway"
     },
     {
       "id": "step-brothers",
       "name": "Step Brothers",
       "subtitle": "2008",
-      "image": "https://image.tmdb.org/t/p/w500/p8ehKorZwGMRjsJSkrKkqd8Cbfm.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Step+Brothers&font=raleway"
     },
     {
       "id": "dumb-and-dumber",
       "name": "Dumb and Dumber",
       "subtitle": "1994",
-      "image": "https://image.tmdb.org/t/p/w500/4UHOi16YNR1fxkDl0SS4HkHLH3r.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Dumb+and+Dumber&font=raleway"
     },
     {
       "id": "airplane",
@@ -46,13 +46,13 @@
       "id": "monty-python-holy-grail",
       "name": "Monty Python and the Holy Grail",
       "subtitle": "1975",
-      "image": "https://image.tmdb.org/t/p/w500/8AVb7tyxZRsbKJNVi0d32m1FYxH.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Monty+Python+and+the+Holy+Grail&font=raleway"
     },
     {
       "id": "the-grand-budapest-hotel",
       "name": "The Grand Budapest Hotel",
       "subtitle": "2014",
-      "image": "https://image.tmdb.org/t/p/w500/eWDyQ92bge0mZEh7k1RVo0TMOS0.jpg"
+      "image": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg"
     },
     {
       "id": "knocked-up",
@@ -70,19 +70,19 @@
       "id": "the-40-year-old-virgin",
       "name": "The 40-Year-Old Virgin",
       "subtitle": "2005",
-      "image": "https://image.tmdb.org/t/p/w500/mVeoMNfQJPIzxmKyElhn1gPCAIP.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+40-Year-Old+Virgin&font=raleway"
     },
     {
       "id": "mean-girls",
       "name": "Mean Girls",
       "subtitle": "2004",
-      "image": "https://image.tmdb.org/t/p/w500/fXm3YKXAEjx7d2tg5bEfsEFv94b.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Mean+Girls&font=raleway"
     },
     {
       "id": "napoleon-dynamite",
       "name": "Napoleon Dynamite",
       "subtitle": "2004",
-      "image": "https://image.tmdb.org/t/p/w500/lqkdKxEGjNPoFj7MtZMPhU7FZLX.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Napoleon+Dynamite&font=raleway"
     },
     {
       "id": "ferris-buellers-day-off",
@@ -106,7 +106,7 @@
       "id": "shaun-of-the-dead",
       "name": "Shaun of the Dead",
       "subtitle": "2004",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Shaun+of+the+Dead"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Shaun+of+the+Dead&font=raleway"
     },
     {
       "id": "tropic-thunder",
@@ -130,7 +130,7 @@
       "id": "the-big-lebowski-comedy",
       "name": "The Big Lebowski",
       "subtitle": "1998",
-      "image": "https://image.tmdb.org/t/p/w500/fcjEA7ntMptLLIblLIIuwOVTqDm.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Big+Lebowski&font=raleway"
     },
     {
       "id": "borat",

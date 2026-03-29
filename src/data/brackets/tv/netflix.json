@@ -16,7 +16,7 @@
       "id": "bridgerton",
       "name": "Bridgerton",
       "subtitle": "2020-present",
-      "image": "https://image.tmdb.org/t/p/w500/luoKpgVwi1E5nQsi7W0ULPJi5mZ.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Bridgerton&font=raleway"
     },
     {
       "id": "the-witcher",
@@ -28,7 +28,7 @@
       "id": "ozark",
       "name": "Ozark",
       "subtitle": "2017-2022",
-      "image": "https://image.tmdb.org/t/p/w500/pCgyMacg4p0IfJKvJsMC7IJKyx3.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Ozark&font=raleway"
     },
     {
       "id": "the-queens-gambit",
@@ -58,13 +58,13 @@
       "id": "the-crown",
       "name": "The Crown",
       "subtitle": "2016-2023",
-      "image": "https://image.tmdb.org/t/p/w500/1M7BGpFilMU2hyAq4cH1K3FMvWy.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Crown&font=raleway"
     },
     {
       "id": "cobra-kai",
       "name": "Cobra Kai",
       "subtitle": "2018-2025",
-      "image": "https://image.tmdb.org/t/p/w500/6POBWybSBBKKnziYFTtWca0STLz.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Cobra+Kai&font=raleway"
     },
     {
       "id": "dark",
@@ -130,13 +130,13 @@
       "id": "mindhunter",
       "name": "Mindhunter",
       "subtitle": "2017-2019",
-      "image": "https://image.tmdb.org/t/p/w500/gq57cFV5fRXhEjwsFqNLcBXLb7G.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Mindhunter&font=raleway"
     },
     {
       "id": "bojack-horseman",
       "name": "BoJack Horseman",
       "subtitle": "2014-2020",
-      "image": "https://image.tmdb.org/t/p/w500/pB9L0jAnEQLMKgexqCkRLv8W1kA.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=BoJack+Horseman&font=raleway"
     },
     {
       "id": "unbreakable-kimmy-schmidt",

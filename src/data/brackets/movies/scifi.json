@@ -4,7 +4,7 @@
       "id": "star-wars-new-hope",
       "name": "Star Wars: A New Hope",
       "subtitle": "1977",
-      "image": "https://image.tmdb.org/t/p/w500/6FfCtHmKCfCb77ri6h4Lcnt0PFa.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Star+Wars%3A+A+New+Hope&font=raleway"
     },
     {
       "id": "blade-runner",
@@ -34,19 +34,19 @@
       "id": "2001-a-space-odyssey",
       "name": "2001: A Space Odyssey",
       "subtitle": "1968",
-      "image": "https://image.tmdb.org/t/p/w500/ve72VLQ8SXXfhEBMnxCAOREKFOc.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=2001%3A+A+Space+Odyssey&font=raleway"
     },
     {
       "id": "empire-strikes-back",
       "name": "The Empire Strikes Back",
       "subtitle": "1980",
-      "image": "https://image.tmdb.org/t/p/w500/nNAeTmF4CtdSgMDplXTDPOpYoMo.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Empire+Strikes+Back&font=raleway"
     },
     {
       "id": "terminator-2-scifi",
       "name": "Terminator 2: Judgment Day",
       "subtitle": "1991",
-      "image": "https://image.tmdb.org/t/p/w500/5M0j0B18abtBI5bQat1zhas1vOU.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Terminator+2%3A+Judgment+Day&font=raleway"
     },
     {
       "id": "inception",
@@ -58,7 +58,7 @@
       "id": "arrival",
       "name": "Arrival",
       "subtitle": "2016",
-      "image": "https://image.tmdb.org/t/p/w500/x2FJsf1ElAgr63Y3LNxZq57Ro3S.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Arrival&font=raleway"
     },
     {
       "id": "blade-runner-2049",
@@ -70,13 +70,13 @@
       "id": "et",
       "name": "E.T. the Extra-Terrestrial",
       "subtitle": "1982",
-      "image": "https://image.tmdb.org/t/p/w500/an0nD6uq6bLxjcVX0r5rIJvMVOK.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=E.T.+the+Extra-Terrestrial&font=raleway"
     },
     {
       "id": "the-terminator",
       "name": "The Terminator",
       "subtitle": "1984",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Terminator"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Terminator&font=raleway"
     },
     {
       "id": "back-to-the-future",
@@ -88,7 +88,7 @@
       "id": "jurassic-park-scifi",
       "name": "Jurassic Park",
       "subtitle": "1993",
-      "image": "https://image.tmdb.org/t/p/w500/oU7Oez2kCnGBQjGoiRnag1VjKEv.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Jurassic+Park&font=raleway"
     },
     {
       "id": "dune-2021",
@@ -118,7 +118,7 @@
       "id": "ex-machina",
       "name": "Ex Machina",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Ex+Machina"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Ex+Machina&font=raleway"
     },
     {
       "id": "moon",
@@ -142,7 +142,7 @@
       "id": "gravity",
       "name": "Gravity",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Gravity"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Gravity&font=raleway"
     },
     {
       "id": "her",
@@ -190,7 +190,7 @@
       "id": "dune-part-two",
       "name": "Dune: Part Two",
       "subtitle": "2024",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Dune%3A+Part+Two"
+      "image": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
     }
   ]
 }

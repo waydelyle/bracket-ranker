@@ -4,7 +4,7 @@
       "id": "star-wars",
       "name": "Star Wars",
       "subtitle": "11 films",
-      "image": "https://image.tmdb.org/t/p/w500/6FfCtHmKCfCb77ri6h4Lcnt0PFa.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Star+Wars&font=raleway"
     },
     {
       "id": "marvel-cinematic-universe",
@@ -16,25 +16,25 @@
       "id": "harry-potter",
       "name": "Harry Potter",
       "subtitle": "8 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Harry+Potter"
+      "image": "https://image.tmdb.org/t/p/w500/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg"
     },
     {
       "id": "lord-of-the-rings",
       "name": "The Lord of the Rings",
       "subtitle": "6 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Lord+of+the+Rings"
+      "image": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
     },
     {
       "id": "james-bond",
       "name": "James Bond",
       "subtitle": "25 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=James+Bond"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=James+Bond&font=raleway"
     },
     {
       "id": "fast-and-furious",
       "name": "Fast & Furious",
       "subtitle": "11 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Fast+%26+Furious"
+      "image": "https://image.tmdb.org/t/p/w500/lgCEntS9mHagxdL5hb3qaV49YTd.jpg"
     },
     {
       "id": "jurassic-park-fr",
@@ -46,19 +46,19 @@
       "id": "batman-franchise",
       "name": "Batman",
       "subtitle": "9 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Batman"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Batman&font=raleway"
     },
     {
       "id": "mission-impossible",
       "name": "Mission: Impossible",
       "subtitle": "8 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Mission%3A+Impossible"
+      "image": "https://image.tmdb.org/t/p/w500/NNxYkU70HPurnNCSiCjYAmacwm.jpg"
     },
     {
       "id": "indiana-jones",
       "name": "Indiana Jones",
       "subtitle": "5 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Indiana+Jones"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Indiana+Jones&font=raleway"
     },
     {
       "id": "spider-man-franchise",
@@ -70,7 +70,7 @@
       "id": "x-men",
       "name": "X-Men",
       "subtitle": "13 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=X-Men"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=X-Men&font=raleway"
     },
     {
       "id": "pixar-franchise",
@@ -88,7 +88,7 @@
       "id": "transformers",
       "name": "Transformers",
       "subtitle": "7 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Transformers"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Transformers&font=raleway"
     },
     {
       "id": "alien-franchise",
@@ -118,7 +118,7 @@
       "id": "pirates-of-the-caribbean",
       "name": "Pirates of the Caribbean",
       "subtitle": "5 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Pirates+of+the+Caribbean"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Pirates+of+the+Caribbean&font=raleway"
     },
     {
       "id": "toy-story-franchise",
@@ -190,7 +190,7 @@
       "id": "twilight",
       "name": "Twilight",
       "subtitle": "5 films",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Twilight"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Twilight&font=raleway"
     }
   ]
 }

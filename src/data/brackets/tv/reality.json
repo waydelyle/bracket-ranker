@@ -4,25 +4,25 @@
       "id": "survivor",
       "name": "Survivor",
       "subtitle": "2000-present",
-      "image": "https://image.tmdb.org/t/p/w500/6lF4bppO4LOiEFU79gZ3bnXybqe.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Survivor&font=raleway"
     },
     {
       "id": "the-bachelor",
       "name": "The Bachelor",
       "subtitle": "2002-present",
-      "image": "https://image.tmdb.org/t/p/w500/f5uNbUC76oGt1hl7kJGkj0wNSv2.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Bachelor&font=raleway"
     },
     {
       "id": "rupauls-drag-race",
       "name": "RuPaul's Drag Race",
       "subtitle": "2009-present",
-      "image": "https://image.tmdb.org/t/p/w500/6lgrslkFIE0M7RkvcBWnWmppFr4.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=RuPaul's+Drag+Race&font=raleway"
     },
     {
       "id": "the-amazing-race",
       "name": "The Amazing Race",
       "subtitle": "2001-present",
-      "image": "https://image.tmdb.org/t/p/w500/3VK0TkP3GaAM8AIPM63fBhE7v6v.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Amazing+Race&font=raleway"
     },
     {
       "id": "love-island",
@@ -34,7 +34,7 @@
       "id": "big-brother",
       "name": "Big Brother",
       "subtitle": "2000-present",
-      "image": "https://image.tmdb.org/t/p/w500/dnqxlPNCxrCJIyIXKtDKYSlBkTr.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Big+Brother&font=raleway"
     },
     {
       "id": "american-idol",
@@ -52,7 +52,7 @@
       "id": "the-real-housewives",
       "name": "The Real Housewives",
       "subtitle": "2006-present",
-      "image": "https://image.tmdb.org/t/p/w500/fA5MQJGE6HjJ1gO0pQBgGkg6mey.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Real+Housewives&font=raleway"
     },
     {
       "id": "the-great-british-bake-off",

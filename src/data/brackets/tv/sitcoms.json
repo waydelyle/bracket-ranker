@@ -16,19 +16,19 @@
       "id": "seinfeld",
       "name": "Seinfeld",
       "subtitle": "1989-1998",
-      "image": "https://image.tmdb.org/t/p/w500/aCw8ONfyz3AhngVQa1E2Ss4KFKT.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Seinfeld&font=raleway"
     },
     {
       "id": "parks-and-rec",
       "name": "Parks and Recreation",
       "subtitle": "2009-2015",
-      "image": "https://image.tmdb.org/t/p/w500/A4Kf8MqJJmmJKUp9Y3v0hUPMPCK.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Parks+and+Recreation&font=raleway"
     },
     {
       "id": "brooklyn-nine-nine",
       "name": "Brooklyn Nine-Nine",
       "subtitle": "2013-2021",
-      "image": "https://image.tmdb.org/t/p/w500/hgRMSOt7a1NL1iSIXSJOsMk0Jho.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Brooklyn+Nine-Nine&font=raleway"
     },
     {
       "id": "how-i-met-your-mother",
@@ -112,7 +112,7 @@
       "id": "the-fresh-prince",
       "name": "The Fresh Prince of Bel-Air",
       "subtitle": "1990-1996",
-      "image": "https://image.tmdb.org/t/p/w500/iS07JMve2gkvONKGIjvPGn4Zlvt.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Fresh+Prince+of+Bel-Air&font=raleway"
     },
     {
       "id": "everybody-loves-raymond",
@@ -130,25 +130,25 @@
       "id": "ted-lasso",
       "name": "Ted Lasso",
       "subtitle": "2020-2023",
-      "image": "https://image.tmdb.org/t/p/w500/5fhZdwP1DVJ0FyVH5u0EEGIKEke.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Ted+Lasso&font=raleway"
     },
     {
       "id": "the-bear",
       "name": "The Bear",
       "subtitle": "2022-present",
-      "image": "https://image.tmdb.org/t/p/w500/sHFlm5YS6IKsGp9HbhcEGxTOMMo.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Bear&font=raleway"
     },
     {
       "id": "abbott-elementary",
       "name": "Abbott Elementary",
       "subtitle": "2021-present",
-      "image": "https://image.tmdb.org/t/p/w500/pNGX3fXppqxg0tFWnOFGR3CX37K.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Abbott+Elementary&font=raleway"
     },
     {
       "id": "fleabag",
       "name": "Fleabag",
       "subtitle": "2016-2019",
-      "image": "https://image.tmdb.org/t/p/w500/3OhSHMlh1V2ctaJLz9tYjHvm3nJ.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Fleabag&font=raleway"
     },
     {
       "id": "malcolm-in-the-middle",

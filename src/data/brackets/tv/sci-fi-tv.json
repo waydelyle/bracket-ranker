@@ -16,25 +16,25 @@
       "id": "the-expanse",
       "name": "The Expanse",
       "subtitle": "2015-2022",
-      "image": "https://image.tmdb.org/t/p/w500/parKXxAnkThT1wXbz1m5dpSoLSS.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Expanse&font=raleway"
     },
     {
       "id": "westworld",
       "name": "Westworld",
       "subtitle": "2016-2022",
-      "image": "https://image.tmdb.org/t/p/w500/y55oBgI2oGMDSSbOVp7Lf5pVamV.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Westworld&font=raleway"
     },
     {
       "id": "star-trek-tng",
       "name": "Star Trek: The Next Generation",
       "subtitle": "1987-1994",
-      "image": "https://image.tmdb.org/t/p/w500/y4PDksvUxPjlGwUKIbMgOFjSsp3.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Star+Trek%3A+The+Next+Generation&font=raleway"
     },
     {
       "id": "battlestar-galactica",
       "name": "Battlestar Galactica",
       "subtitle": "2004-2009",
-      "image": "https://image.tmdb.org/t/p/w500/3KUjDgUoNPcJh947FDZNuRkgJBG.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Battlestar+Galactica&font=raleway"
     },
     {
       "id": "doctor-who",
@@ -46,19 +46,19 @@
       "id": "the-mandalorian",
       "name": "The Mandalorian",
       "subtitle": "2019-present",
-      "image": "https://image.tmdb.org/t/p/w500/eU1i6eHXlzMOlEq0ku1Bry4Wrqu.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Mandalorian&font=raleway"
     },
     {
       "id": "lost-sf",
       "name": "Lost",
       "subtitle": "2004-2010",
-      "image": "https://image.tmdb.org/t/p/w500/og6S0aTZU6YUJAbqxmBHuTxphTO.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Lost&font=raleway"
     },
     {
       "id": "the-x-files",
       "name": "The X-Files",
       "subtitle": "1993-2018",
-      "image": "https://image.tmdb.org/t/p/w500/5BD0kiTGLaiJLONqt6MFbyOKN6B.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+X-Files&font=raleway"
     },
     {
       "id": "fringe",
@@ -88,7 +88,7 @@
       "id": "severance-sf",
       "name": "Severance",
       "subtitle": "2022-present",
-      "image": "https://image.tmdb.org/t/p/w500/lFRMmZqxShgu1YFuJSD0MgCVKXG.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Severance&font=raleway"
     },
     {
       "id": "firefly",

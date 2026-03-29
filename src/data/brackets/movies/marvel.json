@@ -22,13 +22,13 @@
       "id": "avengers-endgame",
       "name": "Avengers: Endgame",
       "subtitle": "2019",
-      "image": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9SlTR0xEYQ.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Avengers%3A+Endgame&font=raleway"
     },
     {
       "id": "guardians-of-the-galaxy",
       "name": "Guardians of the Galaxy",
       "subtitle": "2014",
-      "image": "https://image.tmdb.org/t/p/w500/r7vmZjiyZw9rpJMQJp0Rv9pvKcV.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Guardians+of+the+Galaxy&font=raleway"
     },
     {
       "id": "spider-man-homecoming",
@@ -40,13 +40,13 @@
       "id": "avengers-infinity-war",
       "name": "Avengers: Infinity War",
       "subtitle": "2018",
-      "image": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDhRhUg3IKQNiRV.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Avengers%3A+Infinity+War&font=raleway"
     },
     {
       "id": "captain-america-the-winter-soldier",
       "name": "Captain America: The Winter Soldier",
       "subtitle": "2014",
-      "image": "https://image.tmdb.org/t/p/w500/tVFRpFw3xTedgPGqxW0AOv8Yp1E.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Captain+America%3A+The+Winter+Soldier&font=raleway"
     },
     {
       "id": "thor-ragnarok",
@@ -64,133 +64,133 @@
       "id": "captain-america-civil-war",
       "name": "Captain America: Civil War",
       "subtitle": "2016",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Captain+America%3A+Civil+War"
+      "image": "https://image.tmdb.org/t/p/w500/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg"
     },
     {
       "id": "doctor-strange",
       "name": "Doctor Strange",
       "subtitle": "2016",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Doctor+Strange"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Doctor+Strange&font=raleway"
     },
     {
       "id": "ant-man",
       "name": "Ant-Man",
       "subtitle": "2015",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Ant-Man"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Ant-Man&font=raleway"
     },
     {
       "id": "shang-chi",
       "name": "Shang-Chi and the Legend of the Ten Rings",
       "subtitle": "2021",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Shang-Chi+and+the+Legend+of+the+Ten+Rings"
+      "image": "https://image.tmdb.org/t/p/w500/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg"
     },
     {
       "id": "the-incredible-hulk",
       "name": "The Incredible Hulk",
       "subtitle": "2008",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Incredible+Hulk"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Incredible+Hulk&font=raleway"
     },
     {
       "id": "iron-man-2",
       "name": "Iron Man 2",
       "subtitle": "2010",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Iron+Man+2"
+      "image": "https://image.tmdb.org/t/p/w500/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg"
     },
     {
       "id": "thor",
       "name": "Thor",
       "subtitle": "2011",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Thor"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Thor&font=raleway"
     },
     {
       "id": "captain-america-the-first-avenger",
       "name": "Captain America: The First Avenger",
       "subtitle": "2011",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Captain+America%3A+The+First+Avenger"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Captain+America%3A+The+First+Avenger&font=raleway"
     },
     {
       "id": "iron-man-3",
       "name": "Iron Man 3",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Iron+Man+3"
+      "image": "https://image.tmdb.org/t/p/w500/qhPtAc1TKbMPqNvcdXSOn9Bn7hZ.jpg"
     },
     {
       "id": "thor-the-dark-world",
       "name": "Thor: The Dark World",
       "subtitle": "2013",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Thor%3A+The+Dark+World"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Thor%3A+The+Dark+World&font=raleway"
     },
     {
       "id": "avengers-age-of-ultron",
       "name": "Avengers: Age of Ultron",
       "subtitle": "2015",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Avengers%3A+Age+of+Ultron"
+      "image": "https://image.tmdb.org/t/p/w500/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg"
     },
     {
       "id": "ant-man-and-the-wasp",
       "name": "Ant-Man and the Wasp",
       "subtitle": "2018",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Ant-Man+and+the+Wasp"
+      "image": "https://image.tmdb.org/t/p/w500/rv1AWImgx386ULjcf62VYaW8zSt.jpg"
     },
     {
       "id": "captain-marvel",
       "name": "Captain Marvel",
       "subtitle": "2019",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Captain+Marvel"
+      "image": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
     },
     {
       "id": "spider-man-far-from-home",
       "name": "Spider-Man: Far From Home",
       "subtitle": "2019",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Spider-Man%3A+Far+From+Home"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Spider-Man%3A+Far+From+Home&font=raleway"
     },
     {
       "id": "black-widow",
       "name": "Black Widow",
       "subtitle": "2021",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Black+Widow"
+      "image": "https://image.tmdb.org/t/p/w500/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg"
     },
     {
       "id": "eternals",
       "name": "Eternals",
       "subtitle": "2021",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Eternals"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Eternals&font=raleway"
     },
     {
       "id": "doctor-strange-multiverse-of-madness",
       "name": "Doctor Strange in the Multiverse of Madness",
       "subtitle": "2022",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Doctor+Strange+in+the+Multiverse+of+Madness"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Doctor+Strange+in+the+Multiverse+of+Madness&font=raleway"
     },
     {
       "id": "thor-love-and-thunder",
       "name": "Thor: Love and Thunder",
       "subtitle": "2022",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Thor%3A+Love+and+Thunder"
+      "image": "https://image.tmdb.org/t/p/w500/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg"
     },
     {
       "id": "guardians-of-the-galaxy-vol-2",
       "name": "Guardians of the Galaxy Vol. 2",
       "subtitle": "2017",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Guardians+of+the+Galaxy+Vol.+2"
+      "image": "https://image.tmdb.org/t/p/w500/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg"
     },
     {
       "id": "guardians-of-the-galaxy-vol-3",
       "name": "Guardians of the Galaxy Vol. 3",
       "subtitle": "2023",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Guardians+of+the+Galaxy+Vol.+3"
+      "image": "https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg"
     },
     {
       "id": "black-panther-wakanda-forever",
       "name": "Black Panther: Wakanda Forever",
       "subtitle": "2022",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Black+Panther%3A+Wakanda+Forever"
+      "image": "https://image.tmdb.org/t/p/w500/sv1xJUazXeYqALzczSZ3O6nkH75.jpg"
     },
     {
       "id": "ant-man-and-the-wasp-quantumania",
       "name": "Ant-Man and the Wasp: Quantumania",
       "subtitle": "2023",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Ant-Man+and+the+Wasp%3A+Quantumania"
+      "image": "https://image.tmdb.org/t/p/w500/ngl2FKBlU4fhbdsrtdom9LVLBXw.jpg"
     }
   ]
 }

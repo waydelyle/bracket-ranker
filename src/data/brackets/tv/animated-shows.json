@@ -22,31 +22,31 @@
       "id": "avatar-last-airbender",
       "name": "Avatar: The Last Airbender",
       "subtitle": "2005-2008",
-      "image": "https://image.tmdb.org/t/p/w500/cHFZA0aKuPHMJJDnEvQBaV0lRg.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Avatar%3A+The+Last+Airbender&font=raleway"
     },
     {
       "id": "futurama",
       "name": "Futurama",
       "subtitle": "1999-present",
-      "image": "https://image.tmdb.org/t/p/w500/7RRHbCUtAsVmKC1UJehGxMBuYXN.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Futurama&font=raleway"
     },
     {
       "id": "family-guy",
       "name": "Family Guy",
       "subtitle": "1999-present",
-      "image": "https://image.tmdb.org/t/p/w500/y4PDksvUxPjlGwUKIbMgOFjSsp3.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Family+Guy&font=raleway"
     },
     {
       "id": "bobs-burgers",
       "name": "Bob's Burgers",
       "subtitle": "2011-present",
-      "image": "https://image.tmdb.org/t/p/w500/couFnWryh9JRmmcDyalRtR8YHQg.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Bob's+Burgers&font=raleway"
     },
     {
       "id": "bojack-horseman-anim",
       "name": "BoJack Horseman",
       "subtitle": "2014-2020",
-      "image": "https://image.tmdb.org/t/p/w500/pB9L0jAnEQLMKgexqCkRLv8W1kA.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=BoJack+Horseman&font=raleway"
     },
     {
       "id": "arcane",
@@ -58,13 +58,13 @@
       "id": "adventure-time",
       "name": "Adventure Time",
       "subtitle": "2010-2018",
-      "image": "https://image.tmdb.org/t/p/w500/qk3eQ8jW4opJ48gFOYzXiaQ2NMB.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Adventure+Time&font=raleway"
     },
     {
       "id": "gravity-falls",
       "name": "Gravity Falls",
       "subtitle": "2012-2016",
-      "image": "https://image.tmdb.org/t/p/w500/pLmQmxDaHjMByeBHjNxJaEjn8AM.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Gravity+Falls&font=raleway"
     },
     {
       "id": "spongebob",
@@ -82,7 +82,7 @@
       "id": "archer",
       "name": "Archer",
       "subtitle": "2009-2023",
-      "image": "https://image.tmdb.org/t/p/w500/o1GuHqCUMVYEz2sVCK1mRAOmx1J.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Archer&font=raleway"
     },
     {
       "id": "american-dad",
@@ -124,13 +124,13 @@
       "id": "batman-animated-series",
       "name": "Batman: The Animated Series",
       "subtitle": "1992-1995",
-      "image": "https://image.tmdb.org/t/p/w500/lBjuX2SJiKbIlFFfNpGYVmKjMVv.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Batman%3A+The+Animated+Series&font=raleway"
     },
     {
       "id": "cowboy-bebop-show",
       "name": "Cowboy Bebop",
       "subtitle": "1998-1999",
-      "image": "https://image.tmdb.org/t/p/w500/2lBbwXMOl3mazX5F6gXzifcnPLd.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Cowboy+Bebop&font=raleway"
     },
     {
       "id": "castlevania",
@@ -184,7 +184,7 @@
       "id": "dbz-show",
       "name": "Dragon Ball Z",
       "subtitle": "1989-1996",
-      "image": "https://image.tmdb.org/t/p/w500/6VKOfMDAMhGPOVoTYBOaCwmhEhG.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dragon+Ball+Z&font=raleway"
     },
     {
       "id": "samurai-jack",

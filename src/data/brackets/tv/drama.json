@@ -10,13 +10,13 @@
       "id": "the-wire",
       "name": "The Wire",
       "subtitle": "2002-2008",
-      "image": "https://image.tmdb.org/t/p/w500/4lbclFbWhn0ASf0Lqp17McBi8jI.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Wire&font=raleway"
     },
     {
       "id": "the-sopranos",
       "name": "The Sopranos",
       "subtitle": "1999-2007",
-      "image": "https://image.tmdb.org/t/p/w500/57okJJUBK0Rjuq7SE9aDtMQWxoY.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Sopranos&font=raleway"
     },
     {
       "id": "game-of-thrones",
@@ -28,7 +28,7 @@
       "id": "succession",
       "name": "Succession",
       "subtitle": "2018-2023",
-      "image": "https://image.tmdb.org/t/p/w500/e7myLMelHQ3VKbcUk0c8bnRuNaD.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Succession&font=raleway"
     },
     {
       "id": "better-call-saul",
@@ -46,7 +46,7 @@
       "id": "mad-men",
       "name": "Mad Men",
       "subtitle": "2007-2015",
-      "image": "https://image.tmdb.org/t/p/w500/2DxPEyMIKbP7AJKL0MDUj3T5iJO.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Mad+Men&font=raleway"
     },
     {
       "id": "the-west-wing",
@@ -64,7 +64,7 @@
       "id": "house-of-the-dragon",
       "name": "House of the Dragon",
       "subtitle": "2022-present",
-      "image": "https://image.tmdb.org/t/p/w500/z2yahl2uefxDCl0nogcRBsaT7sG.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=House+of+the+Dragon&font=raleway"
     },
     {
       "id": "the-americans",
@@ -82,13 +82,13 @@
       "id": "lost",
       "name": "Lost",
       "subtitle": "2004-2010",
-      "image": "https://image.tmdb.org/t/p/w500/og6S0aTZU6YUJAbqxmBHuTxphTO.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Lost&font=raleway"
     },
     {
       "id": "dexter",
       "name": "Dexter",
       "subtitle": "2006-2013",
-      "image": "https://image.tmdb.org/t/p/w500/58H4JCslgDkJEMSLmnKGjp9X2pK.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dexter&font=raleway"
     },
     {
       "id": "yellowstone",
@@ -106,7 +106,7 @@
       "id": "the-walking-dead",
       "name": "The Walking Dead",
       "subtitle": "2010-2022",
-      "image": "https://image.tmdb.org/t/p/w500/n7PVlFGsDnBjWgIwk3UhoPSQCAw.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Walking+Dead&font=raleway"
     },
     {
       "id": "greys-anatomy",
@@ -178,7 +178,7 @@
       "id": "severance",
       "name": "Severance",
       "subtitle": "2022-present",
-      "image": "https://image.tmdb.org/t/p/w500/lFRMmZqxShgu1YFuJSD0MgCVKXG.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Severance&font=raleway"
     },
     {
       "id": "slow-horses",

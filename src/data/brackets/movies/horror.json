@@ -4,55 +4,55 @@
       "id": "the-shining",
       "name": "The Shining",
       "subtitle": "1980",
-      "image": "https://image.tmdb.org/t/p/w500/nRj5511mZdTl4saWEPoj9QroTIu.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Shining&font=raleway"
     },
     {
       "id": "get-out",
       "name": "Get Out",
       "subtitle": "2017",
-      "image": "https://image.tmdb.org/t/p/w500/qbaIVgiFKTivC5YQjeFF7qPq14M.jpg"
+      "image": "https://image.tmdb.org/t/p/w500/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg"
     },
     {
       "id": "scream",
       "name": "Scream",
       "subtitle": "1996",
-      "image": "https://image.tmdb.org/t/p/w500/3O3klyyYIhEHkfKBMvhNhYsyr0X.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Scream&font=raleway"
     },
     {
       "id": "the-exorcist",
       "name": "The Exorcist",
       "subtitle": "1973",
-      "image": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSBAIo.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Exorcist&font=raleway"
     },
     {
       "id": "halloween",
       "name": "Halloween",
       "subtitle": "1978",
-      "image": "https://image.tmdb.org/t/p/w500/brgTuPpFYyHOIIMb2PPqicFM3Uq.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Halloween&font=raleway"
     },
     {
       "id": "a-nightmare-on-elm-street",
       "name": "A Nightmare on Elm Street",
       "subtitle": "1984",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=A+Nightmare+on+Elm+Street"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=A+Nightmare+on+Elm+Street&font=raleway"
     },
     {
       "id": "hereditary",
       "name": "Hereditary",
       "subtitle": "2018",
-      "image": "https://image.tmdb.org/t/p/w500/p9fmuz3Iin5lEpkOaxPE9Cjpyqq.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Hereditary&font=raleway"
     },
     {
       "id": "the-texas-chain-saw-massacre",
       "name": "The Texas Chain Saw Massacre",
       "subtitle": "1974",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Texas+Chain+Saw+Massacre"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Texas+Chain+Saw+Massacre&font=raleway"
     },
     {
       "id": "psycho",
       "name": "Psycho",
       "subtitle": "1960",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Psycho"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Psycho&font=raleway"
     },
     {
       "id": "it",
@@ -76,7 +76,7 @@
       "id": "midsommar",
       "name": "Midsommar",
       "subtitle": "2019",
-      "image": "https://image.tmdb.org/t/p/w500/7LEI8ulZEBU2v4bPEENh1bHunc5.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Midsommar&font=raleway"
     },
     {
       "id": "the-ring",
@@ -88,13 +88,13 @@
       "id": "us",
       "name": "Us",
       "subtitle": "2019",
-      "image": "https://image.tmdb.org/t/p/w500/ux2dU1jQ2ACIMShzB3yP93Udezz.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Us&font=raleway"
     },
     {
       "id": "the-silence-of-the-lambs",
       "name": "The Silence of the Lambs",
       "subtitle": "1991",
-      "image": "https://image.tmdb.org/t/p/w500/uS9m8OBk1RVFzUOC8I0ocL1II27.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Silence+of+the+Lambs&font=raleway"
     },
     {
       "id": "jaws",
@@ -130,7 +130,7 @@
       "id": "a-quiet-place",
       "name": "A Quiet Place",
       "subtitle": "2018",
-      "image": "https://image.tmdb.org/t/p/w500/rknxGRg1ASCAGPzVlfrZ55GtkAr.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=A+Quiet+Place&font=raleway"
     },
     {
       "id": "friday-the-13th",

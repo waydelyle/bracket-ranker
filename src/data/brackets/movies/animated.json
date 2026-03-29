@@ -22,13 +22,13 @@
       "id": "shrek",
       "name": "Shrek",
       "subtitle": "2001 - DreamWorks",
-      "image": "https://image.tmdb.org/t/p/w500/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Shrek&font=raleway"
     },
     {
       "id": "finding-nemo-anim",
       "name": "Finding Nemo",
       "subtitle": "2003 - Pixar",
-      "image": "https://image.tmdb.org/t/p/w500/eHuGQ10FUzJ1cGgRnQ3Hy7PS3u9.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Finding+Nemo&font=raleway"
     },
     {
       "id": "spider-verse",
@@ -40,7 +40,7 @@
       "id": "frozen-anim",
       "name": "Frozen",
       "subtitle": "2013 - Disney",
-      "image": "https://image.tmdb.org/t/p/w500/kgwjIb2JDHRhNk13lmSMyuMK8Ns.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Frozen&font=raleway"
     },
     {
       "id": "wall-e-anim",
@@ -52,7 +52,7 @@
       "id": "up-anim",
       "name": "Up",
       "subtitle": "2009 - Pixar",
-      "image": "https://image.tmdb.org/t/p/w500/vpbaStTMt8qqXaEgnOR2yAAOFBR.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Up&font=raleway"
     },
     {
       "id": "how-to-train-your-dragon",
@@ -64,7 +64,7 @@
       "id": "the-incredibles-anim",
       "name": "The Incredibles",
       "subtitle": "2004 - Pixar",
-      "image": "https://image.tmdb.org/t/p/w500/2LqaLgk1MYR85FEOqNP4cQ3AJZJ.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Incredibles&font=raleway"
     },
     {
       "id": "ratatouille-anim",
@@ -88,37 +88,37 @@
       "id": "princess-mononoke",
       "name": "Princess Mononoke",
       "subtitle": "1997 - Studio Ghibli",
-      "image": "https://image.tmdb.org/t/p/w500/cMYCDADoLKLbB83g4WnJegaZimC.jpg"
+      "image": "https://image.tmdb.org/t/p/w500/jHWmNr7m544fJ8eItsfNk8fs2Ed.jpg"
     },
     {
       "id": "beauty-and-the-beast-anim",
       "name": "Beauty and the Beast",
       "subtitle": "1991 - Disney",
-      "image": "https://image.tmdb.org/t/p/w500/9BQqngPfwbyqVVPcTePjdaGnWfp.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Beauty+and+the+Beast&font=raleway"
     },
     {
       "id": "aladdin-anim",
       "name": "Aladdin",
       "subtitle": "1992 - Disney",
-      "image": "https://image.tmdb.org/t/p/w500/fwAlmJYeOJjoceSGqOXWub81Ena.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Aladdin&font=raleway"
     },
     {
       "id": "kung-fu-panda",
       "name": "Kung Fu Panda",
       "subtitle": "2008 - DreamWorks",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Kung+Fu+Panda"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Kung+Fu+Panda&font=raleway"
     },
     {
       "id": "the-iron-giant",
       "name": "The Iron Giant",
       "subtitle": "1999 - Warner Bros",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Iron+Giant"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Iron+Giant&font=raleway"
     },
     {
       "id": "monsters-inc-anim",
       "name": "Monsters, Inc.",
       "subtitle": "2001 - Pixar",
-      "image": "https://image.tmdb.org/t/p/w500/sgheSKxZkttIe8ONsf2smuXl2Td.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Monsters%2C+Inc.&font=raleway"
     },
     {
       "id": "shrek-2",
@@ -130,7 +130,7 @@
       "id": "moana-anim",
       "name": "Moana",
       "subtitle": "2016 - Disney",
-      "image": "https://image.tmdb.org/t/p/w500/4eOb8ditMaEbkiaXV8R8baurJmN.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Moana&font=raleway"
     },
     {
       "id": "akira",
@@ -142,7 +142,7 @@
       "id": "the-nightmare-before-christmas-anim",
       "name": "The Nightmare Before Christmas",
       "subtitle": "1993 - Disney",
-      "image": "https://image.tmdb.org/t/p/w500/sF9FOiMXbXeTpz6DjkMz6yRkYAy.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Nightmare+Before+Christmas&font=raleway"
     },
     {
       "id": "soul-anim",
@@ -154,7 +154,7 @@
       "id": "zootopia-anim",
       "name": "Zootopia",
       "subtitle": "2016 - Disney",
-      "image": "https://image.tmdb.org/t/p/w500/hlK0e0aALSmyDHUNUnDLjCMiYQH.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Zootopia&font=raleway"
     },
     {
       "id": "the-lego-movie",
@@ -172,7 +172,7 @@
       "id": "tangled-anim",
       "name": "Tangled",
       "subtitle": "2010 - Disney",
-      "image": "https://image.tmdb.org/t/p/w500/ym7T4g3MmORUkGRCOIoruaC35MF.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Tangled&font=raleway"
     },
     {
       "id": "puss-in-boots-last-wish",
@@ -184,13 +184,13 @@
       "id": "megamind",
       "name": "Megamind",
       "subtitle": "2010 - DreamWorks",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Megamind"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Megamind&font=raleway"
     },
     {
       "id": "coraline",
       "name": "Coraline",
       "subtitle": "2009 - Laika",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Coraline"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Coraline&font=raleway"
     }
   ]
 }

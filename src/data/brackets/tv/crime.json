@@ -10,25 +10,25 @@
       "id": "the-wire-crime",
       "name": "The Wire",
       "subtitle": "2002-2008",
-      "image": "https://image.tmdb.org/t/p/w500/4lbclFbWhn0ASf0Lqp17McBi8jI.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Wire&font=raleway"
     },
     {
       "id": "the-sopranos-crime",
       "name": "The Sopranos",
       "subtitle": "1999-2007",
-      "image": "https://image.tmdb.org/t/p/w500/57okJJUBK0Rjuq7SE9aDtMQWxoY.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Sopranos&font=raleway"
     },
     {
       "id": "true-detective",
       "name": "True Detective",
       "subtitle": "2014-present",
-      "image": "https://image.tmdb.org/t/p/w500/aowr0Cy9trmlfn6VjxgMGZjGRQw.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=True+Detective&font=raleway"
     },
     {
       "id": "mindhunter-crime",
       "name": "Mindhunter",
       "subtitle": "2017-2019",
-      "image": "https://image.tmdb.org/t/p/w500/gq57cFV5fRXhEjwsFqNLcBXLb7G.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Mindhunter&font=raleway"
     },
     {
       "id": "narcos-crime",
@@ -46,7 +46,7 @@
       "id": "ozark-crime",
       "name": "Ozark",
       "subtitle": "2017-2022",
-      "image": "https://image.tmdb.org/t/p/w500/pCgyMacg4p0IfJKvJsMC7IJKyx3.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Ozark&font=raleway"
     },
     {
       "id": "better-call-saul-crime",
@@ -70,7 +70,7 @@
       "id": "dexter-crime",
       "name": "Dexter",
       "subtitle": "2006-2013",
-      "image": "https://image.tmdb.org/t/p/w500/58H4JCslgDkJEMSLmnKGjp9X2pK.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dexter&font=raleway"
     },
     {
       "id": "luther",
@@ -130,7 +130,7 @@
       "id": "mare-of-easttown",
       "name": "Mare of Easttown",
       "subtitle": "2021",
-      "image": "https://image.tmdb.org/t/p/w500/qMH7RExSDAIYUacxmeTp9E2yNnm.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Mare+of+Easttown&font=raleway"
     },
     {
       "id": "the-shield-crime",

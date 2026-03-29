@@ -4,7 +4,7 @@
       "id": "everything-everywhere-all-at-once",
       "name": "Everything Everywhere All at Once",
       "subtitle": "2023 Winner",
-      "image": "https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Everything+Everywhere+All+at+Once&font=raleway"
     },
     {
       "id": "oppenheimer",
@@ -22,13 +22,13 @@
       "id": "nomadland",
       "name": "Nomadland",
       "subtitle": "2021 Winner",
-      "image": "https://image.tmdb.org/t/p/w500/fmHGjiCsHTlhisFc8NqXrG0h5UR.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Nomadland&font=raleway"
     },
     {
       "id": "coda",
       "name": "CODA",
       "subtitle": "2022 Winner",
-      "image": "https://image.tmdb.org/t/p/w500/b5GI1KM03Lxqhlhm4sPPSfL0wAh.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=CODA&font=raleway"
     },
     {
       "id": "moonlight",
@@ -40,7 +40,7 @@
       "id": "the-shape-of-water",
       "name": "The Shape of Water",
       "subtitle": "2018 Winner",
-      "image": "https://image.tmdb.org/t/p/w500/9zBIMcp3G2c4I7rZ7hhzRNWflBq.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Shape+of+Water&font=raleway"
     },
     {
       "id": "green-book",
@@ -52,49 +52,49 @@
       "id": "spotlight",
       "name": "Spotlight",
       "subtitle": "2016 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Spotlight"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Spotlight&font=raleway"
     },
     {
       "id": "birdman",
       "name": "Birdman",
       "subtitle": "2015 Winner",
-      "image": "https://image.tmdb.org/t/p/w500/rR2jG2mYJ9SqtdMdCSYz0FDqVpQ.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Birdman&font=raleway"
     },
     {
       "id": "12-years-a-slave",
       "name": "12 Years a Slave",
       "subtitle": "2014 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=12+Years+a+Slave"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=12+Years+a+Slave&font=raleway"
     },
     {
       "id": "argo",
       "name": "Argo",
       "subtitle": "2013 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Argo"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Argo&font=raleway"
     },
     {
       "id": "the-artist",
       "name": "The Artist",
       "subtitle": "2012 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Artist"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Artist&font=raleway"
     },
     {
       "id": "the-kings-speech",
       "name": "The King's Speech",
       "subtitle": "2011 Winner",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+King's+Speech"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+King's+Speech&font=raleway"
     },
     {
       "id": "the-hurt-locker",
       "name": "The Hurt Locker",
       "subtitle": "2010 Winner",
-      "image": "https://image.tmdb.org/t/p/w500/kPRhB2o1MEbPj3IiFdJvDQVfseV.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Hurt+Locker&font=raleway"
     },
     {
       "id": "no-country-for-old-men",
       "name": "No Country for Old Men",
       "subtitle": "2008 Winner",
-      "image": "https://image.tmdb.org/t/p/w500/6d5XOczc226IdIfs4eFhFYJnQVw.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=No+Country+for+Old+Men&font=raleway"
     },
     {
       "id": "anora",
@@ -106,7 +106,7 @@
       "id": "the-departed",
       "name": "The Departed",
       "subtitle": "2007 Winner",
-      "image": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Dqv4k7VA.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Departed&font=raleway"
     },
     {
       "id": "la-la-land",
@@ -118,7 +118,7 @@
       "id": "1917",
       "name": "1917",
       "subtitle": "2020 Nominee",
-      "image": "https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFDufj2nS.jpg"
+      "image": "https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFLCCrMi9.jpg"
     },
     {
       "id": "joker",
@@ -130,7 +130,7 @@
       "id": "the-power-of-the-dog",
       "name": "The Power of the Dog",
       "subtitle": "2022 Nominee",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Power+of+the+Dog"
+      "image": "https://image.tmdb.org/t/p/w500/kEy48iCzGnp0ao1cZbNeWR6yIhC.jpg"
     },
     {
       "id": "the-fabelmans",
@@ -142,7 +142,7 @@
       "id": "tar",
       "name": "Tar",
       "subtitle": "2023 Nominee",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Tar"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Tar&font=raleway"
     },
     {
       "id": "killers-of-the-flower-moon",
@@ -166,7 +166,7 @@
       "id": "past-lives",
       "name": "Past Lives",
       "subtitle": "2024 Nominee",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Past+Lives"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Past+Lives&font=raleway"
     },
     {
       "id": "anatomy-of-a-fall",

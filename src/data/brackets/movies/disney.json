@@ -10,43 +10,43 @@
       "id": "aladdin",
       "name": "Aladdin",
       "subtitle": "1992",
-      "image": "https://image.tmdb.org/t/p/w500/fwAlmJYeOJjoceSGqOXWub81Ena.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Aladdin&font=raleway"
     },
     {
       "id": "frozen",
       "name": "Frozen",
       "subtitle": "2013",
-      "image": "https://image.tmdb.org/t/p/w500/kgwjIb2JDHRhNk13lmSMyuMK8Ns.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Frozen&font=raleway"
     },
     {
       "id": "the-little-mermaid",
       "name": "The Little Mermaid",
       "subtitle": "1989",
-      "image": "https://image.tmdb.org/t/p/w500/vHAz0MjX5GSqPn0GkIFXD11Lpjl.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Little+Mermaid&font=raleway"
     },
     {
       "id": "beauty-and-the-beast",
       "name": "Beauty and the Beast",
       "subtitle": "1991",
-      "image": "https://image.tmdb.org/t/p/w500/9BQqngPfwbyqVVPcTePjdaGnWfp.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Beauty+and+the+Beast&font=raleway"
     },
     {
       "id": "moana",
       "name": "Moana",
       "subtitle": "2016",
-      "image": "https://image.tmdb.org/t/p/w500/4eOb8ditMaEbkiaXV8R8baurJmN.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Moana&font=raleway"
     },
     {
       "id": "mulan",
       "name": "Mulan",
       "subtitle": "1998",
-      "image": "https://image.tmdb.org/t/p/w500/rN1agYmo3xtO4wCvd5qmGRslFJO.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Mulan&font=raleway"
     },
     {
       "id": "tangled",
       "name": "Tangled",
       "subtitle": "2010",
-      "image": "https://image.tmdb.org/t/p/w500/ym7T4g3MmORUkGRCOIoruaC35MF.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Tangled&font=raleway"
     },
     {
       "id": "the-jungle-book",
@@ -58,49 +58,49 @@
       "id": "cinderella",
       "name": "Cinderella",
       "subtitle": "1950",
-      "image": "https://image.tmdb.org/t/p/w500/70LoFNi4fPBMPR4THXFC4jGojHW.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Cinderella&font=raleway"
     },
     {
       "id": "snow-white",
       "name": "Snow White and the Seven Dwarfs",
       "subtitle": "1937",
-      "image": "https://image.tmdb.org/t/p/w500/55O0VpcijFMPGnTMqbPe4NijCU7.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Snow+White+and+the+Seven+Dwarfs&font=raleway"
     },
     {
       "id": "sleeping-beauty",
       "name": "Sleeping Beauty",
       "subtitle": "1959",
-      "image": "https://image.tmdb.org/t/p/w500/cVPtVkPv3cHqG5LViDTEhN0sfqD.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Sleeping+Beauty&font=raleway"
     },
     {
       "id": "pocahontas",
       "name": "Pocahontas",
       "subtitle": "1995",
-      "image": "https://image.tmdb.org/t/p/w500/6Bq6KAFnYrGuYnqJqkO0Hhq91w1.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Pocahontas&font=raleway"
     },
     {
       "id": "hercules",
       "name": "Hercules",
       "subtitle": "1997",
-      "image": "https://image.tmdb.org/t/p/w500/j9FgqaQGpUxnhP9dB0fXlVYgjVT.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Hercules&font=raleway"
     },
     {
       "id": "tarzan",
       "name": "Tarzan",
       "subtitle": "1999",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Tarzan"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Tarzan&font=raleway"
     },
     {
       "id": "lilo-and-stitch",
       "name": "Lilo & Stitch",
       "subtitle": "2002",
-      "image": "https://image.tmdb.org/t/p/w500/jBBXX076VFVOBLYe4pp5pDq9AHt.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Lilo+%26+Stitch&font=raleway"
     },
     {
       "id": "the-emperors-new-groove",
       "name": "The Emperor's New Groove",
       "subtitle": "2000",
-      "image": "https://image.tmdb.org/t/p/w500/tVBy1fMJQPKPXJJvxR6dpKfMhn9.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Emperor's+New+Groove&font=raleway"
     },
     {
       "id": "101-dalmatians",
@@ -118,25 +118,25 @@
       "id": "bambi",
       "name": "Bambi",
       "subtitle": "1942",
-      "image": "https://image.tmdb.org/t/p/w500/vPE6p4CCVKMA1JNdLJ1teMF0kRb.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Bambi&font=raleway"
     },
     {
       "id": "wreck-it-ralph",
       "name": "Wreck-It Ralph",
       "subtitle": "2012",
-      "image": "https://image.tmdb.org/t/p/w500/pdXhDY1YN5Lq7bpUly1iXYGWTMj.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Wreck-It+Ralph&font=raleway"
     },
     {
       "id": "big-hero-6",
       "name": "Big Hero 6",
       "subtitle": "2014",
-      "image": "https://image.tmdb.org/t/p/w500/9w0Vh9eizfGnAZEeVuSVPGelNiE.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Big+Hero+6&font=raleway"
     },
     {
       "id": "zootopia",
       "name": "Zootopia",
       "subtitle": "2016",
-      "image": "https://image.tmdb.org/t/p/w500/hlK0e0aALSmyDHUNUnDLjCMiYQH.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Zootopia&font=raleway"
     },
     {
       "id": "encanto",

@@ -58,7 +58,7 @@
       "id": "the-batman",
       "name": "The Batman",
       "subtitle": "2022",
-      "image": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Batman&font=raleway"
     },
     {
       "id": "soul-20s",
@@ -70,7 +70,7 @@
       "id": "nomadland-20s",
       "name": "Nomadland",
       "subtitle": "2021",
-      "image": "https://image.tmdb.org/t/p/w500/fmHGjiCsHTlhisFc8NqXrG0h5UR.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Nomadland&font=raleway"
     },
     {
       "id": "killers-of-the-flower-moon-20s",

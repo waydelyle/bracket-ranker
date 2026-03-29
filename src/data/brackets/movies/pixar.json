@@ -10,19 +10,19 @@
       "id": "finding-nemo",
       "name": "Finding Nemo",
       "subtitle": "2003",
-      "image": "https://image.tmdb.org/t/p/w500/eHuGQ10FUzJ1cGgRnQ3Hy7PS3u9.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Finding+Nemo&font=raleway"
     },
     {
       "id": "up",
       "name": "Up",
       "subtitle": "2009",
-      "image": "https://image.tmdb.org/t/p/w500/vpbaStTMt8qqXaEgnOR2yAAOFBR.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Up&font=raleway"
     },
     {
       "id": "the-incredibles",
       "name": "The Incredibles",
       "subtitle": "2004",
-      "image": "https://image.tmdb.org/t/p/w500/2LqaLgk1MYR85FEOqNP4cQ3AJZJ.jpg"
+      "image": "https://image.tmdb.org/t/p/w500/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg"
     },
     {
       "id": "inside-out",
@@ -52,43 +52,43 @@
       "id": "monsters-inc",
       "name": "Monsters, Inc.",
       "subtitle": "2001",
-      "image": "https://image.tmdb.org/t/p/w500/sgheSKxZkttIe8ONsf2smuXl2Td.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Monsters%2C+Inc.&font=raleway"
     },
     {
       "id": "toy-story-3",
       "name": "Toy Story 3",
       "subtitle": "2010",
-      "image": "https://image.tmdb.org/t/p/w500/AbbXspMOwdvwWZgVN0nbNOj1qjt.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Toy+Story+3&font=raleway"
     },
     {
       "id": "toy-story-2",
       "name": "Toy Story 2",
       "subtitle": "1999",
-      "image": "https://image.tmdb.org/t/p/w500/xvzxqKWIij65WyNqMjriJqCrBPe.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Toy+Story+2&font=raleway"
     },
     {
       "id": "a-bugs-life",
       "name": "A Bug's Life",
       "subtitle": "1998",
-      "image": "https://image.tmdb.org/t/p/w500/aVvA5btgJ3L5yoZB0VPajrH2GRn.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=A+Bug's+Life&font=raleway"
     },
     {
       "id": "finding-dory",
       "name": "Finding Dory",
       "subtitle": "2016",
-      "image": "https://image.tmdb.org/t/p/w500/z09QAf8WbZncbitewNk6lKYMZsh.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Finding+Dory&font=raleway"
     },
     {
       "id": "brave",
       "name": "Brave",
       "subtitle": "2012",
-      "image": "https://image.tmdb.org/t/p/w500/3wJMrciaIMoQ05nFSE0sh89vpJU.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Brave&font=raleway"
     },
     {
       "id": "cars",
       "name": "Cars",
       "subtitle": "2006",
-      "image": "https://image.tmdb.org/t/p/w500/qa6HCwP4Z15l3hpsASz3auugBr6.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Cars&font=raleway"
     },
     {
       "id": "soul",
@@ -106,13 +106,13 @@
       "id": "turning-red",
       "name": "Turning Red",
       "subtitle": "2022",
-      "image": "https://image.tmdb.org/t/p/w500/qsdjcb0alu2m3K2e2LkhBSilbdR.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Turning+Red&font=raleway"
     },
     {
       "id": "elemental",
       "name": "Elemental",
       "subtitle": "2023",
-      "image": "https://image.tmdb.org/t/p/w500/4Y1WNkd88NIoGLumNkeMDnFTg8d.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Elemental&font=raleway"
     },
     {
       "id": "inside-out-2",
@@ -124,7 +124,7 @@
       "id": "toy-story-4",
       "name": "Toy Story 4",
       "subtitle": "2019",
-      "image": "https://image.tmdb.org/t/p/w500/w9kR8qbmQ01HwnivK4cHeYm2gIR.jpg"
+      "image": "https://image.tmdb.org/t/p/w500/w9kR8qbmQ01HwnvK4alvnQ2ca0L.jpg"
     },
     {
       "id": "the-incredibles-2",
@@ -136,7 +136,7 @@
       "id": "onward",
       "name": "Onward",
       "subtitle": "2020",
-      "image": "https://image.tmdb.org/t/p/w500/f4aul3FyD3jv3v4bul1IrkWZvzq.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Onward&font=raleway"
     },
     {
       "id": "the-good-dinosaur",

@@ -10,31 +10,31 @@
       "id": "silence-of-the-lambs-thr",
       "name": "The Silence of the Lambs",
       "subtitle": "1991",
-      "image": "https://image.tmdb.org/t/p/w500/uS9m8OBk1RVFzUOC8I0ocL1II27.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Silence+of+the+Lambs&font=raleway"
     },
     {
       "id": "gone-girl",
       "name": "Gone Girl",
       "subtitle": "2014",
-      "image": "https://image.tmdb.org/t/p/w500/wPsq25hqZQe2kTJuclcFrJciKTc.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Gone+Girl&font=raleway"
     },
     {
       "id": "zodiac",
       "name": "Zodiac",
       "subtitle": "2007",
-      "image": "https://image.tmdb.org/t/p/w500/q8FELO3pXwhG6Jv0GqV7cxMbKJp.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Zodiac&font=raleway"
     },
     {
       "id": "no-country-for-old-men-thr",
       "name": "No Country for Old Men",
       "subtitle": "2007",
-      "image": "https://image.tmdb.org/t/p/w500/6d5XOczc226IdIfs4eFhFYJnQVw.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=No+Country+for+Old+Men&font=raleway"
     },
     {
       "id": "shutter-island",
       "name": "Shutter Island",
       "subtitle": "2010",
-      "image": "https://image.tmdb.org/t/p/w500/4GDy0PHYX3VRXUtwK5ysFbg3kEx.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Shutter+Island&font=raleway"
     },
     {
       "id": "parasite-thr",
@@ -46,19 +46,19 @@
       "id": "the-departed-thr",
       "name": "The Departed",
       "subtitle": "2006",
-      "image": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Dqv4k7VA.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Departed&font=raleway"
     },
     {
       "id": "prisoners",
       "name": "Prisoners",
       "subtitle": "2013",
-      "image": "https://image.tmdb.org/t/p/w500/uhBqvilFb7FmXcP4K3VQfDeCqIc.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Prisoners&font=raleway"
     },
     {
       "id": "nightcrawler",
       "name": "Nightcrawler",
       "subtitle": "2014",
-      "image": "https://image.tmdb.org/t/p/w500/j9HrX8f7GbZQm1BrBiR40uFQEiE.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Nightcrawler&font=raleway"
     },
     {
       "id": "the-girl-with-the-dragon-tattoo",
@@ -88,7 +88,7 @@
       "id": "sicario",
       "name": "Sicario",
       "subtitle": "2015",
-      "image": "https://image.tmdb.org/t/p/w500/ri8xr22LO2TiKLIGIy3JFSqKBfT.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Sicario&font=raleway"
     },
     {
       "id": "psycho-thr",
@@ -142,7 +142,7 @@
       "id": "whiplash",
       "name": "Whiplash",
       "subtitle": "2014",
-      "image": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Whiplash&font=raleway"
     },
     {
       "id": "the-hand-of-god",
@@ -160,13 +160,13 @@
       "id": "knives-out",
       "name": "Knives Out",
       "subtitle": "2019",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Knives+Out"
+      "image": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg"
     },
     {
       "id": "the-prestige",
       "name": "The Prestige",
       "subtitle": "2006",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Prestige"
+      "image": "https://image.tmdb.org/t/p/w500/tRNlZbgNCNOpLpbPEz5L8G8A0JN.jpg"
     },
     {
       "id": "the-game",

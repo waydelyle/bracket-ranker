@@ -16,7 +16,7 @@
       "id": "apocalypse-now",
       "name": "Apocalypse Now",
       "subtitle": "1979",
-      "image": "https://image.tmdb.org/t/p/w500/gQB8Y5RCMkJIlKVUiRijS3GY6Ra.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Apocalypse+Now&font=raleway"
     },
     {
       "id": "schindlers-list-war",
@@ -28,37 +28,37 @@
       "id": "1917-war",
       "name": "1917",
       "subtitle": "2019",
-      "image": "https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFDufj2nS.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=1917&font=raleway"
     },
     {
       "id": "full-metal-jacket",
       "name": "Full Metal Jacket",
       "subtitle": "1987",
-      "image": "https://image.tmdb.org/t/p/w500/kMKyx1k8hWWscYFnPbnxxYjk5wg.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Full+Metal+Jacket&font=raleway"
     },
     {
       "id": "platoon",
       "name": "Platoon",
       "subtitle": "1986",
-      "image": "https://image.tmdb.org/t/p/w500/sLiHkqPuKkJRvOySfMdH3eSKpbN.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Platoon&font=raleway"
     },
     {
       "id": "hacksaw-ridge",
       "name": "Hacksaw Ridge",
       "subtitle": "2016",
-      "image": "https://image.tmdb.org/t/p/w500/oIEbravOkMFySDT0fIjY0xnQLap.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Hacksaw+Ridge&font=raleway"
     },
     {
       "id": "black-hawk-down",
       "name": "Black Hawk Down",
       "subtitle": "2001",
-      "image": "https://image.tmdb.org/t/p/w500/83GGMveRSnIDl5JNzCKymPM3K5b.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Black+Hawk+Down&font=raleway"
     },
     {
       "id": "the-thin-red-line",
       "name": "The Thin Red Line",
       "subtitle": "1998",
-      "image": "https://image.tmdb.org/t/p/w500/hFyAVqjczJivxIigQz8qhnoV9qz.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Thin+Red+Line&font=raleway"
     },
     {
       "id": "the-bridge-on-the-river-kwai",
@@ -82,19 +82,19 @@
       "id": "fury",
       "name": "Fury",
       "subtitle": "2014",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Fury"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Fury&font=raleway"
     },
     {
       "id": "letters-from-iwo-jima",
       "name": "Letters from Iwo Jima",
       "subtitle": "2006",
-      "image": "https://image.tmdb.org/t/p/w500/nWY3OqjS2LRlr4aZXhKCPDGPohD.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Letters+from+Iwo+Jima&font=raleway"
     },
     {
       "id": "the-pianist",
       "name": "The Pianist",
       "subtitle": "2002",
-      "image": "https://image.tmdb.org/t/p/w500/2hFvxCEWrTceZ5EHKsu1v6yZYXP.jpg"
+      "image": "https://image.tmdb.org/t/p/w500/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg"
     },
     {
       "id": "the-great-escape",
@@ -130,13 +130,13 @@
       "id": "the-hurt-locker-war",
       "name": "The Hurt Locker",
       "subtitle": "2008",
-      "image": "https://image.tmdb.org/t/p/w500/kPRhB2o1MEbPj3IiFdJvDQVfseV.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Hurt+Locker&font=raleway"
     },
     {
       "id": "braveheart-war",
       "name": "Braveheart",
       "subtitle": "1995",
-      "image": "https://image.tmdb.org/t/p/w500/or1Lb04dFtPQnbXYMSRlGPxAbQc.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Braveheart&font=raleway"
     },
     {
       "id": "all-quiet-on-the-western-front",

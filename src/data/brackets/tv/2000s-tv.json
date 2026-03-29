@@ -4,13 +4,13 @@
       "id": "the-wire-00s",
       "name": "The Wire",
       "subtitle": "2002-2008",
-      "image": "https://image.tmdb.org/t/p/w500/4lbclFbWhn0ASf0Lqp17McBi8jI.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=The+Wire&font=raleway"
     },
     {
       "id": "lost-00s",
       "name": "Lost",
       "subtitle": "2004-2010",
-      "image": "https://image.tmdb.org/t/p/w500/og6S0aTZU6YUJAbqxmBHuTxphTO.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Lost&font=raleway"
     },
     {
       "id": "the-office-00s",
@@ -28,13 +28,13 @@
       "id": "mad-men-00s",
       "name": "Mad Men",
       "subtitle": "2007-2015",
-      "image": "https://image.tmdb.org/t/p/w500/2DxPEyMIKbP7AJKL0MDUj3T5iJO.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Mad+Men&font=raleway"
     },
     {
       "id": "dexter-00s",
       "name": "Dexter",
       "subtitle": "2006-2013",
-      "image": "https://image.tmdb.org/t/p/w500/58H4JCslgDkJEMSLmnKGjp9X2pK.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Dexter&font=raleway"
     },
     {
       "id": "the-shield-00s",
@@ -106,7 +106,7 @@
       "id": "battlestar-00s",
       "name": "Battlestar Galactica",
       "subtitle": "2004-2009",
-      "image": "https://image.tmdb.org/t/p/w500/3KUjDgUoNPcJh947FDZNuRkgJBG.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Battlestar+Galactica&font=raleway"
     },
     {
       "id": "30-rock-00s",

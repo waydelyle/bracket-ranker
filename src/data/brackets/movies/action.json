@@ -4,7 +4,7 @@
       "id": "mad-max-fury-road",
       "name": "Mad Max: Fury Road",
       "subtitle": "2015",
-      "image": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Mad+Max%3A+Fury+Road&font=raleway"
     },
     {
       "id": "john-wick",
@@ -22,13 +22,13 @@
       "id": "the-dark-knight",
       "name": "The Dark Knight",
       "subtitle": "2008",
-      "image": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911kpWdfASJGnGT.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Dark+Knight&font=raleway"
     },
     {
       "id": "terminator-2-action",
       "name": "Terminator 2: Judgment Day",
       "subtitle": "1991",
-      "image": "https://image.tmdb.org/t/p/w500/5M0j0B18abtBI5bQat1zhas1vOU.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Terminator+2%3A+Judgment+Day&font=raleway"
     },
     {
       "id": "raiders-of-the-lost-ark",
@@ -40,7 +40,7 @@
       "id": "gladiator",
       "name": "Gladiator",
       "subtitle": "2000",
-      "image": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgCLbm.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Gladiator&font=raleway"
     },
     {
       "id": "the-matrix-action",
@@ -58,19 +58,19 @@
       "id": "kill-bill-vol-1",
       "name": "Kill Bill: Vol. 1",
       "subtitle": "2003",
-      "image": "https://image.tmdb.org/t/p/w500/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Kill+Bill%3A+Vol.+1&font=raleway"
     },
     {
       "id": "top-gun-maverick",
       "name": "Top Gun: Maverick",
       "subtitle": "2022",
-      "image": "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Top+Gun%3A+Maverick&font=raleway"
     },
     {
       "id": "the-bourne-identity",
       "name": "The Bourne Identity",
       "subtitle": "2002",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Bourne+Identity"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Bourne+Identity&font=raleway"
     },
     {
       "id": "predator",
@@ -88,7 +88,7 @@
       "id": "the-raid",
       "name": "The Raid",
       "subtitle": "2011",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Raid"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Raid&font=raleway"
     },
     {
       "id": "crouching-tiger-hidden-dragon",
@@ -172,7 +172,7 @@
       "id": "aliens",
       "name": "Aliens",
       "subtitle": "1986",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Aliens"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Aliens&font=raleway"
     },
     {
       "id": "extraction",

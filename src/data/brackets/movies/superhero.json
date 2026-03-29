@@ -4,7 +4,7 @@
       "id": "the-dark-knight-sh",
       "name": "The Dark Knight",
       "subtitle": "2008 - DC",
-      "image": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911kpWdfASJGnGT.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Dark+Knight&font=raleway"
     },
     {
       "id": "spider-man-no-way-home-sh",
@@ -16,7 +16,7 @@
       "id": "avengers-endgame-sh",
       "name": "Avengers: Endgame",
       "subtitle": "2019 - Marvel",
-      "image": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9SlTR0xEYQ.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Avengers%3A+Endgame&font=raleway"
     },
     {
       "id": "spider-verse-sh",
@@ -34,7 +34,7 @@
       "id": "avengers-infinity-war-sh",
       "name": "Avengers: Infinity War",
       "subtitle": "2018 - Marvel",
-      "image": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDhRhUg3IKQNiRV.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Avengers%3A+Infinity+War&font=raleway"
     },
     {
       "id": "logan",
@@ -52,13 +52,13 @@
       "id": "guardians-of-the-galaxy-sh",
       "name": "Guardians of the Galaxy",
       "subtitle": "2014 - Marvel",
-      "image": "https://image.tmdb.org/t/p/w500/r7vmZjiyZw9rpJMQJp0Rv9pvKcV.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Guardians+of+the+Galaxy&font=raleway"
     },
     {
       "id": "spider-man-2",
       "name": "Spider-Man 2",
       "subtitle": "2004 - Sony",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Spider-Man+2"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Spider-Man+2&font=raleway"
     },
     {
       "id": "batman-begins-sh",
@@ -82,13 +82,13 @@
       "id": "wonder-woman",
       "name": "Wonder Woman",
       "subtitle": "2017 - DC",
-      "image": "https://image.tmdb.org/t/p/w500/gfJGlDaHuWimTpvehSnKbFJuLbv.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Wonder+Woman&font=raleway"
     },
     {
       "id": "captain-america-winter-soldier-sh",
       "name": "Captain America: The Winter Soldier",
       "subtitle": "2014 - Marvel",
-      "image": "https://image.tmdb.org/t/p/w500/tVFRpFw3xTedgPGqxW0AOv8Yp1E.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Captain+America%3A+The+Winter+Soldier&font=raleway"
     },
     {
       "id": "thor-ragnarok-sh",
@@ -100,7 +100,7 @@
       "id": "the-incredibles-sh",
       "name": "The Incredibles",
       "subtitle": "2004 - Pixar",
-      "image": "https://image.tmdb.org/t/p/w500/2LqaLgk1MYR85FEOqNP4cQ3AJZJ.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Incredibles&font=raleway"
     },
     {
       "id": "superman-1978",

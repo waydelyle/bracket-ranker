@@ -4,25 +4,25 @@
       "id": "when-harry-met-sally",
       "name": "When Harry Met Sally",
       "subtitle": "1989",
-      "image": "https://image.tmdb.org/t/p/w500/9HCO7G0VnRBe4Sb1HHzCJgITr6n.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=When+Harry+Met+Sally&font=raleway"
     },
     {
       "id": "10-things-i-hate-about-you-rc",
       "name": "10 Things I Hate About You",
       "subtitle": "1999",
-      "image": "https://image.tmdb.org/t/p/w500/u1R17CVPlDqYWZIa0GxejERhYT1.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=10+Things+I+Hate+About+You&font=raleway"
     },
     {
       "id": "pretty-woman",
       "name": "Pretty Woman",
       "subtitle": "1990",
-      "image": "https://image.tmdb.org/t/p/w500/7v2VCuZ0wQQPLqg3g2MJ9yZ3vDw.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Pretty+Woman&font=raleway"
     },
     {
       "id": "the-notebook",
       "name": "The Notebook",
       "subtitle": "2004",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=The+Notebook"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Notebook&font=raleway"
     },
     {
       "id": "sleepless-in-seattle",
@@ -34,19 +34,19 @@
       "id": "bridget-joness-diary",
       "name": "Bridget Jones's Diary",
       "subtitle": "2001",
-      "image": "https://placehold.co/500x750/1a1a2e/ffffff?text=Bridget+Jones's+Diary"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Bridget+Jones's+Diary&font=raleway"
     },
     {
       "id": "notting-hill",
       "name": "Notting Hill",
       "subtitle": "1999",
-      "image": "https://image.tmdb.org/t/p/w500/lFmJImaAjg1sJfew6kgMFSvDT6j.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Notting+Hill&font=raleway"
     },
     {
       "id": "crazy-rich-asians",
       "name": "Crazy Rich Asians",
       "subtitle": "2018",
-      "image": "https://image.tmdb.org/t/p/w500/1XxL4LJ5WHdrcYFeCkOlKiCLEZr.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Crazy+Rich+Asians&font=raleway"
     },
     {
       "id": "the-proposal",
@@ -70,7 +70,7 @@
       "id": "my-big-fat-greek-wedding",
       "name": "My Big Fat Greek Wedding",
       "subtitle": "2002",
-      "image": "https://image.tmdb.org/t/p/w500/3sFDuKTjB3L8VpNpQLmvFUG0rXM.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=My+Big+Fat+Greek+Wedding&font=raleway"
     },
     {
       "id": "how-to-lose-a-guy",
@@ -100,7 +100,7 @@
       "id": "groundhog-day-rc",
       "name": "Groundhog Day",
       "subtitle": "1993",
-      "image": "https://image.tmdb.org/t/p/w500/gCgt1WARPZaXnq523ySQEUKincs.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Groundhog+Day&font=raleway"
     },
     {
       "id": "the-big-sick",
@@ -118,7 +118,7 @@
       "id": "mean-girls-rc",
       "name": "Mean Girls",
       "subtitle": "2004",
-      "image": "https://image.tmdb.org/t/p/w500/fXm3YKXAEjx7d2tg5bEfsEFv94b.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=Mean+Girls&font=raleway"
     },
     {
       "id": "set-it-up",
@@ -136,7 +136,7 @@
       "id": "the-princess-bride",
       "name": "The Princess Bride",
       "subtitle": "1987",
-      "image": "https://image.tmdb.org/t/p/w500/gpMV1fMHRlm6UbE6Bk1DQLaTq3K.jpg"
+      "image": "https://placehold.co/500x750/1a1a2e/ef4444?text=The+Princess+Bride&font=raleway"
     },
     {
       "id": "about-time",
