@@ -1,20 +1,20 @@
 {
   "items": [
-    { "id": "everything-everywhere-20s", "name": "Everything Everywhere All at Once", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2022" },
-    { "id": "oppenheimer-20s", "name": "Oppenheimer", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2023" },
-    { "id": "dune-20s", "name": "Dune", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2021" },
-    { "id": "spider-man-no-way-home-20s", "name": "Spider-Man: No Way Home", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2021" },
-    { "id": "top-gun-maverick-20s", "name": "Top Gun: Maverick", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2022" },
-    { "id": "parasite-20s", "name": "Parasite", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2020" },
-    { "id": "dune-part-two-20s", "name": "Dune: Part Two", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2024" },
-    { "id": "barbie-20s", "name": "Barbie", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2023" },
-    { "id": "across-the-spider-verse-20s", "name": "Across the Spider-Verse", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2023" },
-    { "id": "the-batman", "name": "The Batman", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2022" },
-    { "id": "soul-20s", "name": "Soul", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2020" },
-    { "id": "nomadland-20s", "name": "Nomadland", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2021" },
-    { "id": "killers-of-the-flower-moon-20s", "name": "Killers of the Flower Moon", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2023" },
-    { "id": "past-lives-20s", "name": "Past Lives", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2023" },
-    { "id": "puss-in-boots-last-wish-20s", "name": "Puss in Boots: The Last Wish", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2022" },
-    { "id": "anora-20s", "name": "Anora", "image": "https://image.tmdb.org/t/p/w300/placeholder.jpg", "subtitle": "2024" }
+    { "id": "everything-everywhere-20s", "name": "Everything Everywhere All at Once", "subtitle": "2022" },
+    { "id": "oppenheimer-20s", "name": "Oppenheimer", "subtitle": "2023" },
+    { "id": "dune-20s", "name": "Dune", "subtitle": "2021" },
+    { "id": "spider-man-no-way-home-20s", "name": "Spider-Man: No Way Home", "subtitle": "2021" },
+    { "id": "top-gun-maverick-20s", "name": "Top Gun: Maverick", "subtitle": "2022" },
+    { "id": "parasite-20s", "name": "Parasite", "subtitle": "2020" },
+    { "id": "dune-part-two-20s", "name": "Dune: Part Two", "subtitle": "2024" },
+    { "id": "barbie-20s", "name": "Barbie", "subtitle": "2023" },
+    { "id": "across-the-spider-verse-20s", "name": "Across the Spider-Verse", "subtitle": "2023" },
+    { "id": "the-batman", "name": "The Batman", "subtitle": "2022" },
+    { "id": "soul-20s", "name": "Soul", "subtitle": "2020" },
+    { "id": "nomadland-20s", "name": "Nomadland", "subtitle": "2021" },
+    { "id": "killers-of-the-flower-moon-20s", "name": "Killers of the Flower Moon", "subtitle": "2023" },
+    { "id": "past-lives-20s", "name": "Past Lives", "subtitle": "2023" },
+    { "id": "puss-in-boots-last-wish-20s", "name": "Puss in Boots: The Last Wish", "subtitle": "2022" },
+    { "id": "anora-20s", "name": "Anora", "subtitle": "2024" }
   ]
 }
