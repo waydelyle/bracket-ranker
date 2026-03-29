@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { JsonLd } from "@/components/JsonLd";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -51,6 +52,7 @@ export default function RootLayout({
           <main className="flex flex-1 flex-col">{children}</main>
           <Footer />
           <Toaster />
+          <Analytics />
         </TooltipProvider>
       </body>
     </html>
