@@ -2,6 +2,15 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { categories } from "@/data/categories";
 
+const glowClassMap: Record<string, string> = {
+  "#ef4444": "glow-red",
+  "#8b5cf6": "glow-violet",
+  "#6366f1": "glow-indigo",
+  "#22c55e": "glow-green",
+  "#3b82f6": "glow-blue",
+  "#ec4899": "glow-pink",
+};
+
 interface CategoryNavProps {
   activeCategory?: string;
 }
@@ -18,9 +27,9 @@ export function CategoryNav({ activeCategory }: CategoryNavProps) {
             href={`/${cat.slug}`}
             className={cn(
               "inline-flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
-              "hover:bg-muted",
-              isActive && "text-white shadow-sm",
-              !isActive && "text-muted-foreground hover:text-foreground",
+              isActive && cn("text-white", glowClassMap[cat.color]),
+              !isActive &&
+                "text-muted-foreground hover:bg-muted hover:text-foreground",
             )}
             style={isActive ? { backgroundColor: cat.color } : undefined}
           >

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Play } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { getFeaturedBrackets } from "@/data/registry";
 import { getCategoryBySlug } from "@/data/categories";
 import { Badge } from "@/components/ui/badge";
@@ -27,33 +27,61 @@ export function FeaturedBrackets() {
               key={`${bracket.category}/${bracket.slug}`}
               href={`/${bracket.category}/${bracket.slug}`}
               className={cn(
-                "group flex flex-col justify-between gap-4 rounded-xl border bg-card p-5 transition-all hover:-translate-y-0.5 hover:shadow-md"
+                "group flex flex-col justify-between gap-4 overflow-hidden rounded-xl border border-border bg-card transition-all duration-200 hover:-translate-y-1",
               )}
+              style={
+                cat
+                  ? {
+                      boxShadow: undefined,
+                    }
+                  : undefined
+              }
+              onMouseEnter={undefined}
             >
-              <div className="space-y-2">
-                <div className="flex items-center gap-2">
-                  {cat && (
-                    <Badge
-                      variant="secondary"
-                      className="text-xs"
-                      style={{
-                        backgroundColor: `${cat.color}15`,
-                        color: cat.color,
-                      }}
-                    >
-                      {cat.icon} {cat.name}
-                    </Badge>
-                  )}
-                  <Badge variant="outline" className="text-xs">
-                    {bracket.itemCount} items
-                  </Badge>
-                </div>
-                <h3 className="font-semibold leading-snug">{bracket.name}</h3>
-              </div>
+              {/* Top gradient bar */}
+              {cat && (
+                <div
+                  className="h-1 w-full"
+                  style={{
+                    background: `linear-gradient(90deg, ${cat.color}, ${cat.color}80)`,
+                  }}
+                />
+              )}
 
-              <div className="flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-colors group-hover:text-foreground">
-                <Play className="size-3.5" />
-                Play
+              <div className="flex flex-1 flex-col justify-between gap-4 p-5 pt-3">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    {cat && (
+                      <Badge
+                        className="text-xs text-white"
+                        style={{
+                          backgroundColor: cat.color,
+                        }}
+                      >
+                        {cat.icon} {cat.name}
+                      </Badge>
+                    )}
+                    <Badge variant="outline" className="text-xs">
+                      {bracket.itemCount} items
+                    </Badge>
+                  </div>
+                  <h3 className="font-bold leading-snug text-foreground">
+                    {bracket.name}
+                  </h3>
+                  {bracket.description && (
+                    <p className="line-clamp-2 text-sm text-muted-foreground">
+                      {bracket.description}
+                    </p>
+                  )}
+                </div>
+
+                <div
+                  className="flex items-center gap-1.5 text-sm font-semibold transition-colors"
+                  style={{ color: cat?.color }}
+                >
+                  Play
+                  <ArrowRight className="size-3.5 transition-transform group-hover:translate-x-1" />
+                </div>
               </div>
             </Link>
           );
