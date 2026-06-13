@@ -3,7 +3,18 @@ import { notFound } from "next/navigation";
 import { brackets, getBracketMeta } from "@/data/registry";
 import { getCategoryBySlug } from "@/data/categories";
 import { BracketGame } from "@/components/bracket/BracketGame";
+import { BracketSeoContent } from "@/components/bracket/BracketSeoContent";
+import { StructuredData } from "@/components/seo/StructuredData";
 import type { BracketItem } from "@/data/types";
+import {
+  buildBracketSoftwareJsonLd,
+  buildBreadcrumbJsonLd,
+  buildFaqJsonLd,
+  getBracketDescription,
+  getBracketSeo,
+  getBracketTitle,
+  getRelatedBrackets,
+} from "@/lib/seo";
 
 interface BracketPageProps {
   params: Promise<{ category: string; bracket: string }>;
@@ -34,11 +45,19 @@ export async function generateMetadata({
   const { category, bracket } = await params;
   const meta = getBracketMeta(category, bracket);
   if (!meta) return {};
+  const cat = getCategoryBySlug(category);
+  const title = getBracketTitle(meta);
+  const description = getBracketDescription(meta, cat);
   return {
-    title: `Rank ${meta.name} - ${meta.defaultSize}-Item Bracket Challenge`,
-    description: meta.description,
+    title,
+    description,
+    alternates: {
+      canonical: `/${category}/${bracket}`,
+    },
     openGraph: {
-      title: `Rank ${meta.name} - ${meta.defaultSize}-Item Bracket Challenge | BracketRanker`,
+      title,
+      description,
+      url: `/${category}/${bracket}`,
     },
   };
 }
@@ -58,17 +77,38 @@ export default async function BracketPage({ params }: BracketPageProps) {
     notFound();
   }
 
+  const seo = getBracketSeo(meta, cat, items);
+  const related = getRelatedBrackets(meta);
+  const path = `/${category}/${bracket}`;
+  const breadcrumbSchema = buildBreadcrumbJsonLd([
+    { name: "Home", path: "/" },
+    { name: cat?.name ?? category, path: `/${category}` },
+    { name: meta.name, path },
+  ]);
+  const faqSchema = buildFaqJsonLd(seo.faqs);
+  const softwareSchema = buildBracketSoftwareJsonLd(meta, seo, path);
+
   return (
-    <div className="flex flex-1 flex-col">
-      <BracketGame
-        bracketName={meta.name}
-        bracketDescription={meta.description}
+    <>
+      <StructuredData data={[breadcrumbSchema, faqSchema, softwareSchema]} />
+      <div className="flex flex-1 flex-col">
+        <BracketGame
+          bracketName={meta.name}
+          bracketDescription={seo.description}
+          items={items}
+          defaultSize={meta.defaultSize}
+          categoryColor={cat?.color ?? "#6366f1"}
+          categorySlug={category}
+          bracketSlug={bracket}
+        />
+      </div>
+      <BracketSeoContent
+        meta={meta}
+        category={cat}
         items={items}
-        defaultSize={meta.defaultSize}
-        categoryColor={cat?.color ?? "#6366f1"}
-        categorySlug={category}
-        bracketSlug={bracket}
+        seo={seo}
+        related={related}
       />
-    </div>
+    </>
   );
 }

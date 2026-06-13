@@ -11,11 +11,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params;
   const bracket = await getCustomBracket(id);
   if (!bracket) {
-    return { title: "Custom Bracket Not Found" };
+    return {
+      title: "Custom Bracket Not Found",
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
   }
   return {
     title: `${bracket.title} - Custom Bracket`,
     description: `Play this custom bracket: ${bracket.title}. ${bracket.items.length} items to rank!`,
+    robots: {
+      index: false,
+      follow: true,
+    },
   };
 }
 

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X, Plus } from "lucide-react";
+import { BarChart3, ListChecks, Menu, X, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { categories } from "@/data/categories";
 
@@ -47,6 +47,22 @@ export function MobileMenu() {
               ))}
 
               <div className="mt-2 border-t border-border pt-2">
+                <Link
+                  href="/tier-list-maker"
+                  onClick={() => setOpen(false)}
+                  className="flex items-center gap-2 rounded-lg px-3 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+                >
+                  <ListChecks className="size-4" />
+                  Tier List Maker
+                </Link>
+                <Link
+                  href="/leaderboard"
+                  onClick={() => setOpen(false)}
+                  className="flex items-center gap-2 rounded-lg px-3 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+                >
+                  <BarChart3 className="size-4" />
+                  Leaderboard
+                </Link>
                 <Link
                   href="/create"
                   onClick={() => setOpen(false)}

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, PlusCircle } from "lucide-react";
 
 export function Hero() {
   return (
@@ -47,22 +47,32 @@ export function Hero() {
         <div className="space-y-6">
           <h1 className="text-5xl font-extrabold tracking-tight sm:text-6xl lg:text-7xl">
             <span className="bg-gradient-to-r from-amber-400 via-yellow-200 to-amber-400 bg-clip-text text-transparent">
-              Rank Your Favorites
+              Free Bracket Maker
             </span>
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground sm:text-xl">
-            Pick a category, battle through head-to-head matchups, and share
-            your final ranking with friends
+            Create bracket-style rankings, tier list alternatives, and top 10
+            lists for movies, music, food, sports, TV, games, and anything else
+            worth debating.
           </p>
         </div>
 
-        <Link
-          href="#categories"
-          className="glow-gold inline-flex h-12 items-center justify-center gap-2 rounded-full bg-primary px-8 text-base font-semibold uppercase tracking-wider text-primary-foreground shadow-lg transition-all hover:scale-105 hover:bg-primary/90"
-        >
-          Browse Categories
-          <ArrowRight className="size-4" />
-        </Link>
+        <div className="flex flex-col gap-3 sm:flex-row">
+          <Link
+            href="/create"
+            className="glow-gold inline-flex h-12 items-center justify-center gap-2 rounded-full bg-primary px-8 text-base font-semibold uppercase tracking-wider text-primary-foreground shadow-lg transition-all hover:scale-105 hover:bg-primary/90"
+          >
+            <PlusCircle className="size-4" />
+            Create Bracket
+          </Link>
+          <Link
+            href="/tier-list-maker"
+            className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-border bg-card px-8 text-base font-semibold uppercase tracking-wider text-foreground transition-all hover:scale-105 hover:bg-secondary"
+          >
+            Tier List Maker
+            <ArrowRight className="size-4" />
+          </Link>
+        </div>
       </div>
     </section>
   );

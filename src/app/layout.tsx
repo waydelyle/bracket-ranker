@@ -6,6 +6,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { JsonLd } from "@/components/JsonLd";
 import { Analytics } from "@vercel/analytics/react";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -19,16 +20,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://bracketranker.com"),
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: "Bracket Ranker - Rank Your Favorites in Any Category | BracketRanker",
-    template: "%s | BracketRanker",
+    default: "Bracket Ranker - Free Bracket Maker and Ranking Generator",
+    template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Rank anything with interactive brackets! Movies, music, food, sports & more. Play elimination-style matchups, get your final ranking, and share with friends.",
+    "Create bracket-style rankings for movies, music, food, sports, TV, games, and custom lists. Pick winners head-to-head and share your final top list.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
-    siteName: "BracketRanker",
+    siteName: SITE_NAME,
+    url: SITE_URL,
   },
   twitter: {
     card: "summary_large_image",

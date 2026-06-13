@@ -37,6 +37,10 @@ export async function generateMetadata({
   if (!result) {
     return {
       title: "Result Not Found",
+      robots: {
+        index: false,
+        follow: false,
+      },
     };
   }
 
@@ -45,6 +49,10 @@ export async function generateMetadata({
 
   return {
     title: `My ${bracketName} Ranking`,
+    robots: {
+      index: false,
+      follow: true,
+    },
     openGraph: {
       title: `My ${bracketName} Ranking | BracketRanker`,
       images: [`/results/${id}/og`],

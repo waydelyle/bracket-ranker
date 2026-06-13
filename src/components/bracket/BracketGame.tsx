@@ -57,6 +57,12 @@ export function BracketGame({
     [pickWinner],
   );
 
+  const handleReset = useCallback(() => {
+    hasSavedRef.current = false;
+    setIsSaving(false);
+    reset();
+  }, [reset]);
+
   // Save results and navigate when bracket completes
   useEffect(() => {
     if (state.phase !== "complete" || hasSavedRef.current || !state.champion) {
@@ -64,9 +70,9 @@ export function BracketGame({
     }
 
     hasSavedRef.current = true;
-    setIsSaving(true);
 
     async function save() {
+      setIsSaving(true);
       try {
         const [resultId] = await Promise.all([
           saveResult({
@@ -93,14 +99,6 @@ export function BracketGame({
 
     save();
   }, [state.phase, state.champion, state.ranking, state.matchupHistory, categorySlug, bracketSlug, router]);
-
-  // Reset the save guard when bracket is reset
-  useEffect(() => {
-    if (state.phase === "intro") {
-      hasSavedRef.current = false;
-      setIsSaving(false);
-    }
-  }, [state.phase]);
 
   // ----- Intro phase -----
   if (state.phase === "intro") {
@@ -181,7 +179,7 @@ export function BracketGame({
           </div>
 
           <Button
-            onClick={reset}
+            onClick={handleReset}
             className="mt-4 gap-2 rounded-xl px-6 font-bold text-white"
             style={{
               backgroundColor: categoryColor,

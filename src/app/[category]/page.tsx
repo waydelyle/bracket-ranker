@@ -4,6 +4,13 @@ import { categories, getCategoryBySlug } from "@/data/categories";
 import { getBracketsByCategory } from "@/data/registry";
 import { CategoryHeader } from "@/components/category/CategoryHeader";
 import { BracketCard } from "@/components/category/BracketCard";
+import { CategorySeoContent } from "@/components/category/CategorySeoContent";
+import { StructuredData } from "@/components/seo/StructuredData";
+import {
+  buildBreadcrumbJsonLd,
+  buildItemListJsonLd,
+  getCategorySeo,
+} from "@/lib/seo";
 
 interface CategoryPageProps {
   params: Promise<{ category: string }>;
@@ -19,11 +26,18 @@ export async function generateMetadata({
   const { category } = await params;
   const cat = getCategoryBySlug(category);
   if (!cat) return {};
+  const categoryBrackets = getBracketsByCategory(category);
+  const seo = getCategorySeo(cat, categoryBrackets.length);
   return {
-    title: `Rank ${cat.name} - Interactive Bracket Rankings`,
-    description: `Rank the best ${cat.name.toLowerCase()} using our bracket system. Pick your favorites head-to-head, get your top 10, and see how you compare.`,
+    title: seo.title,
+    description: seo.description,
+    alternates: {
+      canonical: `/${cat.slug}`,
+    },
     openGraph: {
-      title: `Rank ${cat.name} - Interactive Bracket Rankings | BracketRanker`,
+      title: seo.title,
+      description: seo.description,
+      url: `/${cat.slug}`,
     },
   };
 }
@@ -37,9 +51,22 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   }
 
   const categoryBrackets = getBracketsByCategory(category);
+  const seo = getCategorySeo(cat, categoryBrackets.length);
+  const breadcrumbSchema = buildBreadcrumbJsonLd([
+    { name: "Home", path: "/" },
+    { name: cat.name, path: `/${cat.slug}` },
+  ]);
+  const itemListSchema = buildItemListJsonLd(
+    `${cat.name} ranking brackets`,
+    categoryBrackets.map((bracket) => ({
+      name: bracket.name,
+      url: `/${cat.slug}/${bracket.slug}`,
+    })),
+  );
 
   return (
     <>
+      <StructuredData data={[breadcrumbSchema, itemListSchema]} />
       <CategoryHeader category={cat} />
 
       <div className="mx-auto w-full max-w-6xl px-4 py-10">
@@ -58,6 +85,12 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           ))}
         </div>
       </div>
+      <CategorySeoContent
+        category={cat}
+        brackets={categoryBrackets}
+        heading={seo.heading}
+        intro={seo.intro}
+      />
     </>
   );
 }

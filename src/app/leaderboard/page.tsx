@@ -15,6 +15,15 @@ export const metadata: Metadata = {
   title: "Community Rankings - Global Leaderboard",
   description:
     "See how the community ranks items across all bracket categories. Updated live from player votes.",
+  alternates: {
+    canonical: "/leaderboard",
+  },
+  openGraph: {
+    title: "Community Rankings - Global Leaderboard",
+    description:
+      "See how the community ranks items across all bracket categories. Updated live from player votes.",
+    url: "/leaderboard",
+  },
 };
 
 async function getCategoryLeaderboard(

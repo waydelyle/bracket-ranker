@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Plus } from "lucide-react";
+import { BarChart3, ListChecks, Plus } from "lucide-react";
 import { CategoryNav } from "./CategoryNav";
 import { MobileMenu } from "./MobileMenu";
 
@@ -23,7 +23,21 @@ export function Header() {
         </div>
 
         {/* Create button (desktop) */}
-        <div className="hidden md:block">
+        <div className="hidden items-center gap-2 md:flex">
+          <Link
+            href="/tier-list-maker"
+            className="inline-flex h-9 items-center justify-center gap-1.5 rounded-full px-3 text-sm font-medium text-muted-foreground hover:bg-muted hover:text-foreground"
+          >
+            <ListChecks className="size-4" />
+            Tier Lists
+          </Link>
+          <Link
+            href="/leaderboard"
+            className="inline-flex h-9 items-center justify-center gap-1.5 rounded-full px-3 text-sm font-medium text-muted-foreground hover:bg-muted hover:text-foreground"
+          >
+            <BarChart3 className="size-4" />
+            Leaderboard
+          </Link>
           <Link
             href="/create"
             className="inline-flex h-9 items-center justify-center gap-1.5 rounded-full bg-primary px-4 text-sm font-medium text-primary-foreground shadow-xs hover:bg-primary/90"

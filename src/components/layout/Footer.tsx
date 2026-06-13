@@ -15,7 +15,19 @@ export function Footer() {
           </p>
 
           {/* Links */}
-          <nav className="flex gap-6">
+          <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2">
+            <Link
+              href="/tier-list-maker"
+              className="transition-colors hover:text-foreground"
+            >
+              Tier List Maker
+            </Link>
+            <Link
+              href="/leaderboard"
+              className="transition-colors hover:text-foreground"
+            >
+              Leaderboard
+            </Link>
             <Link
               href="/about"
               className="transition-colors hover:text-foreground"

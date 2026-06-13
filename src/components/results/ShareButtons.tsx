@@ -3,6 +3,7 @@
 import { Copy, Link, Share2 } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
+import { SITE_URL } from "@/lib/site";
 
 interface ShareButtonsProps {
   resultId: string;
@@ -20,7 +21,7 @@ export function ShareButtons({
   const resultUrl =
     typeof window !== "undefined"
       ? `${window.location.origin}/results/${resultId}`
-      : `https://bracketranker.com/results/${resultId}`;
+      : `${SITE_URL}/results/${resultId}`;
 
   const tweetText = `My ${bracketName} ranking: ${champion} is #1! What's yours?`;
   const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=${encodeURIComponent(resultUrl)}`;
