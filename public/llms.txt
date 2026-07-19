@@ -1,0 +1,71 @@
+# BracketRanker
+
+> Free interactive bracket-style ranking tool: pick a category, choose winners head-to-head through elimination rounds, and get a shareable top-10 ranking. No signup required.
+
+BracketRanker covers 100+ pre-built brackets across movies, music, TV, food, sports, and more. Every matchup is aggregated into community power rankings, and finished rankings get a unique shareable result page with an auto-generated image. Users can also build their own custom brackets and share them with friends.
+
+## Core Tools
+
+- [Bracket Maker](https://www.bracketranker.com/create): Build a custom bracket with your own items and share the link — no account needed
+- [Tier List Maker](https://www.bracketranker.com/tier-list-maker): Rank anything head-to-head and generate a tiered list of your favorites
+- [Leaderboard](https://www.bracketranker.com/leaderboard): Community power rankings aggregated from every matchup played on the site
+
+## Category Hubs
+
+- [Movies](https://www.bracketranker.com/movies): Rank the best movies ever made
+- [Music](https://www.bracketranker.com/music): Rank songs, albums, and artists
+- [TV](https://www.bracketranker.com/tv): Rank the best TV shows
+- [Food](https://www.bracketranker.com/food): Rank food, drinks, and restaurants
+- [Sports](https://www.bracketranker.com/sports): Rank teams, players, and GOATs
+- [Random](https://www.bracketranker.com/random): Rank everything from dog breeds to superpowers
+
+## Popular Movie Brackets
+
+- [Marvel Cinematic Universe](https://www.bracketranker.com/movies/marvel): Rank every MCU movie
+- [Disney Animated Classics](https://www.bracketranker.com/movies/disney): Rank classic Disney animated films
+- [Pixar Films](https://www.bracketranker.com/movies/pixar): Rank every Pixar movie
+- [Horror Movies](https://www.bracketranker.com/movies/horror): Rank the scariest horror films
+- [Christmas Movies](https://www.bracketranker.com/movies/christmas): Rank the best holiday movies
+- [90s Movies](https://www.bracketranker.com/movies/90s): Rank the biggest films of the 1990s
+- [Oscar Best Picture](https://www.bracketranker.com/movies/oscar-best-picture): Rank Academy Award Best Picture winners
+
+## Popular Music Brackets
+
+- [Taylor Swift Songs](https://www.bracketranker.com/music/taylor-swift): Rank Taylor Swift's discography
+- [Drake Songs](https://www.bracketranker.com/music/drake): Rank Drake's biggest tracks
+- [Beatles Songs](https://www.bracketranker.com/music/beatles): Rank the greatest Beatles songs
+- [Kanye West Songs & Albums](https://www.bracketranker.com/music/kanye): Rank Kanye's catalog
+- [2020s Hits](https://www.bracketranker.com/music/2020s-hits): Rank the biggest hits of the 2020s
+
+## Popular TV Brackets
+
+- [Sitcoms](https://www.bracketranker.com/tv/sitcoms): Rank the funniest sitcoms of all time
+- [Netflix Originals](https://www.bracketranker.com/tv/netflix): Rank the best Netflix original series
+- [Anime Series](https://www.bracketranker.com/tv/anime): Rank the greatest anime shows
+- [Reality TV Shows](https://www.bracketranker.com/tv/reality): Rank iconic reality TV
+
+## Popular Food Brackets
+
+- [Fast Food Chains](https://www.bracketranker.com/food/fast-food): Rank the biggest fast food restaurants
+- [Pizza Toppings](https://www.bracketranker.com/food/pizza-toppings): Rank the best pizza toppings
+- [Candy](https://www.bracketranker.com/food/candy): Rank the best candy
+- [Ice Cream Flavors](https://www.bracketranker.com/food/ice-cream): Rank classic ice cream flavors
+
+## Popular Sports Brackets
+
+- [NBA Players](https://www.bracketranker.com/sports/nba-players): Rank the greatest NBA players
+- [NFL Teams](https://www.bracketranker.com/sports/nfl-teams): Rank all NFL franchises
+- [Soccer Players](https://www.bracketranker.com/sports/soccer-players): Rank the best footballers in the world
+- [Greatest Athletes of All Time](https://www.bracketranker.com/sports/athletes-goat): The ultimate GOAT bracket
+
+## Popular Random Brackets
+
+- [Dog Breeds](https://www.bracketranker.com/random/dog-breeds): Rank the best dog breeds
+- [Cities](https://www.bracketranker.com/random/cities): Rank the best cities to live in
+- [Superpowers](https://www.bracketranker.com/random/superpowers): Rank the ultimate superpowers
+- [Emoji](https://www.bracketranker.com/random/emoji): Rank the most-used emoji
+
+## Optional
+
+- [About](https://www.bracketranker.com/about): What BracketRanker is and how rankings work
+- [Contact](https://www.bracketranker.com/contact): Get in touch with the BracketRanker team
