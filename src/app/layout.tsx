@@ -6,6 +6,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { JsonLd } from "@/components/JsonLd";
 import { Analytics } from "@vercel/analytics/react";
+import Script from "next/script";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -51,6 +52,7 @@ export default function RootLayout({
       className={`${outfit.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <Script src="https://js.sentry-cdn.com/4a35e6aafb5d1e911610f80498a1dbe1.min.js" crossOrigin="anonymous" strategy="beforeInteractive" />
         <JsonLd />
         <TooltipProvider>
           <Header />
