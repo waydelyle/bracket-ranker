@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { cache } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Trophy, ArrowRight } from "lucide-react";
@@ -18,20 +19,26 @@ interface ResultsPageProps {
   params: Promise<{ id: string }>;
 }
 
+/**
+ * One Redis read per request, shared by `generateMetadata` and the page.
+ */
+const loadResult = cache(
+  async (id: string) => (await getResult(id)) as BracketResult | null,
+);
+
 export async function generateMetadata({
   params,
 }: ResultsPageProps): Promise<Metadata> {
   const { id } = await params;
-  const result = (await getResult(id)) as BracketResult | null;
+  const result = await loadResult(id);
 
+  // The 404 has to be raised here rather than in the component below. This
+  // route has a `loading.tsx`, so rendering it streams: by the time the
+  // component runs, a 200 has already been flushed and `notFound()` can only
+  // swap the body, producing a soft 404. Metadata resolves before the shell is
+  // sent, so throwing here yields a real 404 status.
   if (!result) {
-    return {
-      title: "Result Not Found",
-      robots: {
-        index: false,
-        follow: false,
-      },
-    };
+    notFound();
   }
 
   const meta = getBracketMeta(result.categorySlug, result.bracketSlug);
@@ -57,10 +64,8 @@ export async function generateMetadata({
 
 export default async function ResultsPage({ params }: ResultsPageProps) {
   const { id } = await params;
-  const result = (await getResult(id)) as BracketResult | null;
-
-  // Expired or unknown ids used to render a 200 "not found" page, which
-  // Google logs as a soft 404. Return a real 404 instead.
+  // Already 404'd in generateMetadata for missing ids; this narrows the type.
+  const result = await loadResult(id);
   if (!result) {
     notFound();
   }
