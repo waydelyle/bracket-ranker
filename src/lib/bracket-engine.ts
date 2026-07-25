@@ -69,6 +69,18 @@ function shuffle<T>(array: T[]): T[] {
   return copy;
 }
 
+/**
+ * Largest valid bracket size that can actually be filled by `itemCount` items.
+ *
+ * A bracket only works when the first round is completely full: every later
+ * round is sized from the bracket size, so seeding a 16-slot bracket with 12
+ * items leaves permanently empty matchups and the game becomes unfinishable.
+ */
+export function maxBracketSize(itemCount: number): number {
+  const sizes = [64, 32, 16, 8] as const;
+  return sizes.find((size) => itemCount >= size) ?? 0;
+}
+
 /** Returns the display name for a given round in a bracket of the given size. */
 export function getRoundName(bracketSize: number, roundIndex: number): string {
   const names = ROUND_NAMES_BY_SIZE[bracketSize];
@@ -203,7 +215,12 @@ export function bracketReducer(
     case 'SEED': {
       const { items, size } = action;
       const validSizes = [8, 16, 32, 64];
-      const bracketSize = validSizes.includes(size) ? size : 8;
+      const requested = validSizes.includes(size) ? size : 8;
+
+      // Never seed a bracket larger than the item pool can fill. Doing so
+      // leaves null matchups in later rounds and the bracket can never finish.
+      const bracketSize = Math.min(requested, maxBracketSize(items.length));
+      if (bracketSize === 0) return state;
 
       // Shuffle and pick the required number of items.
       const shuffled = shuffle(items);

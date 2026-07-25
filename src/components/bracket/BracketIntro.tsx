@@ -4,10 +4,13 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { maxBracketSize } from "@/lib/bracket-engine";
 import { BracketSizeSelector } from "./BracketSizeSelector";
 
 interface BracketIntroProps {
   name: string;
+  /** Optional eyebrow showing the underlying bracket name. */
+  label?: string;
   description: string;
   itemCount: number;
   defaultSize: number;
@@ -17,19 +20,25 @@ interface BracketIntroProps {
 
 export function BracketIntro({
   name,
+  label,
   description,
   itemCount,
   defaultSize,
   categoryColor,
   onStart,
 }: BracketIntroProps) {
-  const [selectedSize, setSelectedSize] = useState<number>(defaultSize);
+  // A bracket larger than the item pool can never be completed, so the
+  // preselected size is clamped to what these items can actually fill.
+  const playableDefault = Math.min(defaultSize, maxBracketSize(itemCount));
+  const [selectedSize, setSelectedSize] = useState<number>(playableDefault);
 
   return (
+    // No entrance animation: this card is the first thing on a bracket page, so
+    // fading it in from `opacity: 0` shipped an invisible LCP element in the
+    // server HTML and pushed Largest Contentful Paint out by the full duration.
     <motion.div
-      initial={{ opacity: 0, y: 30 }}
+      initial={false}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
       className="mx-auto flex max-w-lg flex-col items-center gap-8 text-center"
     >
       {/* Dark card container with category accent bar */}
@@ -42,6 +51,14 @@ export function BracketIntro({
         <div className="flex flex-col items-center gap-6 px-6 py-8">
           {/* Header */}
           <div className="space-y-3">
+            {label && (
+              <p
+                className="text-xs font-semibold uppercase tracking-widest"
+                style={{ color: categoryColor }}
+              >
+                {label}
+              </p>
+            )}
             <h1
               className="text-3xl font-extrabold tracking-tight md:text-4xl"
               style={{ color: categoryColor }}
@@ -56,7 +73,7 @@ export function BracketIntro({
             <BracketSizeSelector
               itemCount={itemCount}
               onSelect={setSelectedSize}
-              defaultSize={defaultSize}
+              defaultSize={playableDefault}
               categoryColor={categoryColor}
             />
           </div>

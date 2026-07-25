@@ -20,6 +20,10 @@ import { UndoButton } from "./UndoButton";
 interface BracketGameProps {
   bracketName: string;
   bracketDescription: string;
+  /** Keyword-bearing H1. Falls back to the bracket name. */
+  headline?: string;
+  /** Supporting line under the H1. Falls back to the description. */
+  tagline?: string;
   items: BracketItem[];
   defaultSize: number;
   categoryColor: string;
@@ -30,6 +34,8 @@ interface BracketGameProps {
 export function BracketGame({
   bracketName,
   bracketDescription,
+  headline,
+  tagline,
   items,
   defaultSize,
   categoryColor,
@@ -105,8 +111,9 @@ export function BracketGame({
     return (
       <div className="flex flex-1 items-center justify-center px-4 py-12">
         <BracketIntro
-          name={bracketName}
-          description={bracketDescription}
+          name={headline ?? bracketName}
+          label={headline ? bracketName : undefined}
+          description={tagline ?? bracketDescription}
           itemCount={items.length}
           defaultSize={defaultSize}
           categoryColor={categoryColor}

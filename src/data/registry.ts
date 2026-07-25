@@ -1100,7 +1100,7 @@ export const brackets: BracketMeta[] = [
     name: "Zodiac Signs",
     description: "Rank the zodiac signs from best to worst",
     itemCount: 12,
-    defaultSize: 16,
+    defaultSize: 8,
     featured: false,
     keywords: ["zodiac", "astrology", "horoscope", "sign"],
   },
