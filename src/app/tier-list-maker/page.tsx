@@ -208,9 +208,9 @@ export default async function TierListMakerPage() {
                     key={tier}
                     className="flex items-start gap-3 rounded-xl border border-border/50 bg-card p-4"
                   >
-                    <span className="flex size-8 shrink-0 items-center justify-center rounded-md bg-secondary text-sm font-black text-white">
+                    <dt className="flex size-8 shrink-0 items-center justify-center rounded-md bg-secondary text-sm font-black text-white">
                       {tier}
-                    </span>
+                    </dt>
                     <dd className="text-sm leading-6 text-muted-foreground">
                       {meaning}
                     </dd>
