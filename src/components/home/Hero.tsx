@@ -47,30 +47,33 @@ export function Hero() {
         <div className="space-y-6">
           <h1 className="text-5xl font-extrabold tracking-tight sm:text-6xl lg:text-7xl">
             <span className="bg-gradient-to-r from-amber-400 via-yellow-200 to-amber-400 bg-clip-text text-transparent">
-              Free Bracket Maker
+              Rank Anything,
+              <br />
+              One Matchup at a Time
             </span>
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground sm:text-xl">
-            Create bracket-style rankings, tier list alternatives, and top 10
-            lists for movies, music, food, sports, TV, games, and anything else
-            worth debating.
+            110 tier lists and song sorters that decide themselves. Pick a
+            winner in every head-to-head, and the full ranking falls out at the
+            end — movies, music, TV, food, sports and everything else worth
+            arguing about.
           </p>
         </div>
 
         <div className="flex flex-col gap-3 sm:flex-row">
           <Link
-            href="/create"
+            href="#categories"
             className="glow-gold inline-flex h-12 items-center justify-center gap-2 rounded-full bg-primary px-8 text-base font-semibold uppercase tracking-wider text-primary-foreground shadow-lg transition-all hover:scale-105 hover:bg-primary/90"
           >
-            <PlusCircle className="size-4" />
-            Create Bracket
+            Browse Tier Lists
+            <ArrowRight className="size-4" />
           </Link>
           <Link
-            href="/tier-list-maker"
+            href="/create"
             className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-border bg-card px-8 text-base font-semibold uppercase tracking-wider text-foreground transition-all hover:scale-105 hover:bg-secondary"
           >
-            Tier List Maker
-            <ArrowRight className="size-4" />
+            <PlusCircle className="size-4" />
+            Make Your Own
           </Link>
         </div>
       </div>

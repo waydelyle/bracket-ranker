@@ -34,6 +34,21 @@ export function CategorySeoContent({
           <p className="max-w-3xl text-base leading-7 text-muted-foreground">
             {intro}
           </p>
+          <p className="max-w-3xl text-sm leading-6 text-muted-foreground">
+            Every bracket on this page:{" "}
+            {brackets.map((bracket, index) => (
+              <span key={bracket.slug}>
+                {index > 0 && ", "}
+                <Link
+                  href={`/${category.slug}/${bracket.slug}`}
+                  className="underline underline-offset-2 transition-colors hover:text-white"
+                >
+                  {bracket.name}
+                </Link>
+              </span>
+            ))}
+            .
+          </p>
           <div className="grid gap-3 sm:grid-cols-3">
             <div className="rounded-xl border border-border/50 bg-card p-4">
               <p className="text-2xl font-extrabold text-white">

@@ -4,13 +4,22 @@ import { Trophy, Swords, Share2 } from "lucide-react";
 import { Hero } from "@/components/home/Hero";
 import { CategoryGrid } from "@/components/home/CategoryGrid";
 import { FeaturedBrackets } from "@/components/home/FeaturedBrackets";
+import { StructuredData } from "@/components/seo/StructuredData";
+import { buildFaqJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Free Bracket Maker and Ranking Generator",
+  title: "Tier Lists & Song Sorters | BracketRanker",
   description:
-    "Create bracket-style rankings and tier list alternatives for movies, songs, food, sports, TV, games, and custom top 10 lists.",
+    "Rank anything head-to-head. 110 tier lists and song sorters for movies, music, TV, food, sports and games - pick a winner in each matchup, get a full ranking.",
   alternates: {
     canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    title: "Tier Lists & Song Sorters | BracketRanker",
+    description:
+      "Rank anything head-to-head. 110 tier lists and song sorters - pick a winner in each matchup and get a full ranking.",
+    url: "/",
   },
 };
 
@@ -22,18 +31,18 @@ const popularIdeas = [
   },
   {
     href: "/music/taylor-swift",
-    label: "Rank Taylor Swift songs",
-    detail: "Build an Eras-spanning song ranking from 64 tracks.",
+    label: "Taylor Swift song sorter",
+    detail: "Sort 64 tracks across every era into one ranked list.",
+  },
+  {
+    href: "/tv/anime",
+    label: "Anime tier list",
+    detail: "Attack on Titan, Fullmetal Alchemist, Death Note and 29 more.",
   },
   {
     href: "/movies/marvel",
     label: "Rank Marvel movies",
     detail: "Compare MCU films through a 32-movie bracket.",
-  },
-  {
-    href: "/movies/pixar",
-    label: "Rank Pixar movies",
-    detail: "Settle the Toy Story, Nemo, WALL-E, and Inside Out debates.",
   },
   {
     href: "/food/pizza-toppings",
@@ -42,7 +51,7 @@ const popularIdeas = [
   },
   {
     href: "/random/video-games",
-    label: "Rank video games",
+    label: "Video game tier list",
     detail: "Build a replayable ranking for classic and modern games.",
   },
 ];
@@ -132,14 +141,69 @@ function HowItWorks() {
   );
 }
 
+const homeFaqs = [
+  {
+    question: "How is this different from a drag-and-drop tier list maker?",
+    answer:
+      "A drag-and-drop tier list asks you to place everything at once, which means the first layout you sketch usually becomes the final answer. BracketRanker asks one question at a time - this or that - and builds the order out of your answers. For a 32-entrant list that is 31 quick comparisons instead of one hard sorting problem, and the result tends to survive a second look.",
+  },
+  {
+    question: "Do I need an account?",
+    answer:
+      "No. Nothing is saved until you finish a bracket, and even then you just get a shareable result link. There is no sign-up, no email, and no limit on how many times you can play.",
+  },
+  {
+    question: "Can I rank something that is not listed?",
+    answer:
+      "Yes. The bracket maker lets you add your own entrants, name the bracket and share a link so friends can play the same one. It works for anything from a friend group's favourite restaurants to a full discography.",
+  },
+  {
+    question: "How long does a bracket take?",
+    answer:
+      "An 8-entrant bracket is 7 picks and takes under a minute. A 32-entrant bracket is 31 picks, around 3 to 5 minutes. The 64-entrant song sorters are 63 picks and take closer to 8 minutes.",
+  },
+  {
+    question: "What happens to my picks?",
+    answer:
+      "Every matchup feeds the community ranking for that bracket, which is why each bracket has a results page showing win rates and champion counts across all plays. Your individual result page is yours to share; nothing personal is collected.",
+  },
+];
+
+function HomeFaq() {
+  return (
+    <section className="border-t border-border px-4 py-16">
+      <div className="mx-auto max-w-4xl">
+        <h2 className="mb-8 text-center text-2xl font-bold tracking-tight sm:text-3xl">
+          Questions about ranking brackets
+        </h2>
+        <div className="grid gap-3">
+          {homeFaqs.map((faq) => (
+            <div
+              key={faq.question}
+              className="rounded-xl border border-border/50 bg-card p-5"
+            >
+              <h3 className="font-semibold text-white">{faq.question}</h3>
+              <p className="mt-2 text-sm leading-6 text-muted-foreground">
+                {faq.answer}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function HomePage() {
   return (
     <>
+      <StructuredData data={buildFaqJsonLd(homeFaqs)} />
       <Hero />
       <CategoryGrid />
       <FeaturedBrackets />
       <PopularRankingIdeas />
       <HowItWorks />
+      <HomeFaq />
     </>
   );
 }
