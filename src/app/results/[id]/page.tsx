@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { Trophy, ArrowRight } from "lucide-react";
 import { getResult } from "@/app/actions/results";
 import { getVoteStats } from "@/app/actions/votes";
 import { getBracketMeta } from "@/data/registry";
 import { getCategoryBySlug } from "@/data/categories";
-import type { BracketItem, BracketResult } from "@/data/types";
+import type { BracketResult } from "@/data/types";
+import { loadBracketItems } from "@/data/items";
 import { Button } from "@/components/ui/button";
 import { ResultsDisplay } from "@/components/results/ResultsDisplay";
 import { ShareCard } from "@/components/results/ShareCard";
@@ -14,18 +16,6 @@ import { CommunityStats } from "@/components/results/CommunityStats";
 
 interface ResultsPageProps {
   params: Promise<{ id: string }>;
-}
-
-async function loadBracketItems(
-  category: string,
-  slug: string
-): Promise<BracketItem[] | null> {
-  try {
-    const data = await import(`@/data/brackets/${category}/${slug}.json`);
-    return data.default.items;
-  } catch {
-    return null;
-  }
 }
 
 export async function generateMetadata({
@@ -69,22 +59,10 @@ export default async function ResultsPage({ params }: ResultsPageProps) {
   const { id } = await params;
   const result = (await getResult(id)) as BracketResult | null;
 
+  // Expired or unknown ids used to render a 200 "not found" page, which
+  // Google logs as a soft 404. Return a real 404 instead.
   if (!result) {
-    return (
-      <div className="flex flex-1 items-center justify-center px-4 py-12">
-        <div className="mx-auto flex max-w-md flex-col items-center gap-4 text-center">
-          <div className="flex size-16 items-center justify-center rounded-full bg-muted">
-            <Trophy className="size-8 text-muted-foreground" />
-          </div>
-          <h1 className="text-2xl font-bold">Result Not Found</h1>
-          <p className="text-muted-foreground">
-            This result may have expired or doesn&apos;t exist. Results are kept
-            for 90 days.
-          </p>
-          <Button render={<Link href="/" />}>Browse Brackets</Button>
-        </div>
-      </div>
-    );
+    notFound();
   }
 
   const meta = getBracketMeta(result.categorySlug, result.bracketSlug);

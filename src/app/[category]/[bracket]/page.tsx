@@ -2,13 +2,15 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { brackets, getBracketMeta } from "@/data/registry";
 import { getCategoryBySlug } from "@/data/categories";
+import { loadBracketItems } from "@/data/items";
 import { BracketGame } from "@/components/bracket/BracketGame";
 import { BracketSeoContent } from "@/components/bracket/BracketSeoContent";
 import { StructuredData } from "@/components/seo/StructuredData";
-import type { BracketItem } from "@/data/types";
+import { getCachedCommunityStandings } from "@/lib/community";
 import {
   buildBracketSoftwareJsonLd,
   buildBreadcrumbJsonLd,
+  buildEntrantListJsonLd,
   buildFaqJsonLd,
   getBracketDescription,
   getBracketSeo,
@@ -16,20 +18,12 @@ import {
   getRelatedBrackets,
 } from "@/lib/seo";
 
+// Community results are folded into the page, so refresh it hourly rather than
+// pinning the HTML to build time.
+export const revalidate = 3600;
+
 interface BracketPageProps {
   params: Promise<{ category: string; bracket: string }>;
-}
-
-async function loadBracketItems(
-  category: string,
-  slug: string
-): Promise<BracketItem[] | null> {
-  try {
-    const data = await import(`@/data/brackets/${category}/${slug}.json`);
-    return data.default.items;
-  } catch {
-    return null;
-  }
 }
 
 export function generateStaticParams() {
@@ -46,7 +40,7 @@ export async function generateMetadata({
   const meta = getBracketMeta(category, bracket);
   if (!meta) return {};
   const cat = getCategoryBySlug(category);
-  const title = getBracketTitle(meta);
+  const title = getBracketTitle(meta, cat);
   const description = getBracketDescription(meta, cat);
   return {
     title,
@@ -55,6 +49,7 @@ export async function generateMetadata({
       canonical: `/${category}/${bracket}`,
     },
     openGraph: {
+      type: "website",
       title,
       description,
       url: `/${category}/${bracket}`,
@@ -79,22 +74,38 @@ export default async function BracketPage({ params }: BracketPageProps) {
 
   const seo = getBracketSeo(meta, cat, items);
   const related = getRelatedBrackets(meta);
+  const standings = await getCachedCommunityStandings(category, bracket, items);
   const path = `/${category}/${bracket}`;
+
   const breadcrumbSchema = buildBreadcrumbJsonLd([
     { name: "Home", path: "/" },
     { name: cat?.name ?? category, path: `/${category}` },
     { name: meta.name, path },
   ]);
   const faqSchema = buildFaqJsonLd(seo.faqs);
-  const softwareSchema = buildBracketSoftwareJsonLd(meta, seo, path);
+  const softwareSchema = buildBracketSoftwareJsonLd(
+    meta,
+    seo,
+    path,
+    standings?.totalPlays,
+  );
+  const entrantSchema = buildEntrantListJsonLd(
+    `${meta.name} bracket entrants`,
+    path,
+    items,
+  );
 
   return (
     <>
-      <StructuredData data={[breadcrumbSchema, faqSchema, softwareSchema]} />
+      <StructuredData
+        data={[breadcrumbSchema, faqSchema, softwareSchema, entrantSchema]}
+      />
       <div className="flex flex-1 flex-col">
         <BracketGame
           bracketName={meta.name}
           bracketDescription={seo.description}
+          headline={seo.heading}
+          tagline={seo.subheading}
           items={items}
           defaultSize={meta.defaultSize}
           categoryColor={cat?.color ?? "#6366f1"}
@@ -108,6 +119,7 @@ export default async function BracketPage({ params }: BracketPageProps) {
         items={items}
         seo={seo}
         related={related}
+        standings={standings}
       />
     </>
   );

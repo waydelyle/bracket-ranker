@@ -2,14 +2,22 @@ import type { Metadata } from "next";
 import { BarChart3 } from "lucide-react";
 import { categories } from "@/data/categories";
 import { getBracketsByCategory } from "@/data/registry";
-import { getVoteStats } from "@/app/actions/votes";
+import { loadBracketItems } from "@/data/items";
+import { getCachedVoteHash } from "@/lib/community";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   PowerRankings,
   type LeaderboardItem,
 } from "@/components/leaderboard/PowerRankings";
 
-export const revalidate = 300; // ISR: revalidate every 5 minutes
+// Rendered as ISR rather than per-request. This page used to be served with
+// `no-store` on every hit, which made it the slowest and heaviest route on the
+// site while also being listed in the sitemap.
+export const revalidate = 600;
+
+// Rows shown per category. The full aggregate for a category can run to
+// hundreds of entrants, which previously pushed the HTML past 1 MB.
+const ROWS_PER_CATEGORY = 25;
 
 export const metadata: Metadata = {
   title: "Community Rankings - Global Leaderboard",
@@ -35,39 +43,40 @@ async function getCategoryLeaderboard(
     { name: string; wins: number; losses: number; championCount: number }
   >();
 
-  // For each bracket in this category, load items and fetch vote stats
-  for (const meta of bracketMetas) {
-    // Load the item names from the JSON data
-    let bracketItems: { id: string; name: string }[] = [];
-    try {
-      const data = await import(
-        `@/data/brackets/${categorySlug}/${meta.slug}.json`
-      );
-      bracketItems = data.default.items;
-    } catch {
-      continue;
-    }
+  // Fetch every bracket in the category at once. Doing this serially meant one
+  // Redis round trip per bracket, which pushed the page past the 60s static
+  // generation budget. Each read goes through the data cache so this page stays
+  // prerendered rather than being rebuilt on every request.
+  const perBracket = await Promise.all(
+    bracketMetas.map(async (meta) => {
+      const [bracketItems, stats] = await Promise.all([
+        loadBracketItems(categorySlug, meta.slug),
+        getCachedVoteHash(categorySlug, meta.slug),
+      ]);
+      if (!bracketItems || !stats) return null;
+      return { bracketItems, stats };
+    }),
+  );
+
+  for (const bucket of perBracket) {
+    if (!bucket) continue;
 
     // Create a lookup from id to name
     const nameMap = new Map<string, string>();
-    for (const item of bracketItems) {
+    for (const item of bucket.bracketItems) {
       nameMap.set(item.id, item.name);
     }
 
-    // Fetch vote stats from Redis
-    const stats = await getVoteStats(categorySlug, meta.slug);
-    if (!stats) continue;
-
     // Parse the flat hash into per-item stats
-    const record = stats as Record<string, unknown>;
-    for (const [key, value] of Object.entries(record)) {
+    for (const [key, value] of Object.entries(bucket.stats)) {
       if (key === "totalPlays") continue;
 
-      const parts = key.split(":");
-      if (parts.length !== 2) continue;
+      // Item ids can contain colons, so split from the right.
+      const separator = key.lastIndexOf(":");
+      if (separator <= 0) continue;
 
-      const itemId = parts[0];
-      const stat = parts[1]; // "wins", "losses", or "champion"
+      const itemId = key.slice(0, separator);
+      const stat = key.slice(separator + 1); // "wins", "losses", or "champion"
       const count = typeof value === "number" ? value : Number(value) || 0;
 
       if (!itemMap.has(itemId)) {
@@ -111,7 +120,7 @@ async function getCategoryLeaderboard(
     return b.totalMatchups - a.totalMatchups;
   });
 
-  return items;
+  return items.slice(0, ROWS_PER_CATEGORY);
 }
 
 export default async function LeaderboardPage() {
@@ -182,7 +191,18 @@ export default async function LeaderboardPage() {
             </TabsList>
 
             {categoryData.map(({ category, items }) => (
-              <TabsContent key={category.slug} value={category.slug}>
+              // keepMounted: without it Base UI renders only the active panel,
+              // so five of the six category leaderboards never appeared in the
+              // served HTML at all — invisible to crawlers and to anyone
+              // reading the page with JavaScript disabled.
+              <TabsContent
+                key={category.slug}
+                value={category.slug}
+                keepMounted
+              >
+                <h2 className="sr-only">
+                  {category.name} community rankings
+                </h2>
                 <PowerRankings
                   items={items}
                   categoryColor={category.color}
