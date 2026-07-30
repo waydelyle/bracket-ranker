@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { TrophyMark } from "@/components/seo/TrophyMark";
 
 export const alt =
   "BracketRanker - rank anything head-to-head with tier list brackets";
@@ -47,10 +48,9 @@ export default function Image() {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: "38px",
             }}
           >
-            🏆
+            <TrophyMark size={40} color="#0b0b14" />
           </div>
           <span style={{ fontSize: "52px", fontWeight: 800 }}>
             BracketRanker

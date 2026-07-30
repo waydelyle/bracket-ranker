@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { TrophyMark } from "@/components/seo/TrophyMark";
 import { brackets, getBracketMeta } from "@/data/registry";
 import { getCategoryBySlug } from "@/data/categories";
 import { loadBracketItems } from "@/data/items";
@@ -118,7 +119,7 @@ export default async function Image({
             fontWeight: 800,
           }}
         >
-          <span>🏆</span>
+          <TrophyMark size={30} color="#fbbf24" />
           <span>BracketRanker</span>
         </div>
       </div>

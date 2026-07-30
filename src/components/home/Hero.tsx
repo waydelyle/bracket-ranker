@@ -1,5 +1,14 @@
 import Link from "next/link";
-import { ArrowRight, PlusCircle } from "lucide-react";
+import {
+  ArrowRight,
+  Clapperboard,
+  Dices,
+  Music,
+  PlusCircle,
+  Trophy,
+  Tv,
+  Utensils,
+} from "lucide-react";
 
 export function Hero() {
   return (
@@ -21,26 +30,14 @@ export function Hero() {
         }}
       />
 
-      {/* Floating category emoji badges */}
+      {/* Floating category icon badges */}
       <div className="absolute inset-0 -z-10 hidden md:block" aria-hidden>
-        <span className="absolute top-16 left-[12%] text-3xl opacity-40 animate-bounce [animation-duration:3s]">
-          🎬
-        </span>
-        <span className="absolute top-24 right-[14%] text-3xl opacity-40 animate-bounce [animation-duration:3.5s] [animation-delay:0.5s]">
-          🎵
-        </span>
-        <span className="absolute bottom-20 left-[18%] text-3xl opacity-40 animate-bounce [animation-duration:4s] [animation-delay:1s]">
-          🍔
-        </span>
-        <span className="absolute bottom-16 right-[10%] text-3xl opacity-40 animate-bounce [animation-duration:3.2s] [animation-delay:0.3s]">
-          🏆
-        </span>
-        <span className="absolute top-1/2 left-[6%] text-2xl opacity-30 animate-bounce [animation-duration:3.8s] [animation-delay:0.7s]">
-          📺
-        </span>
-        <span className="absolute top-1/3 right-[6%] text-2xl opacity-30 animate-bounce [animation-duration:4.2s] [animation-delay:1.2s]">
-          🎲
-        </span>
+        <Clapperboard className="absolute top-16 left-[12%] size-8 text-red-400 opacity-40 animate-bounce [animation-duration:3s]" />
+        <Music className="absolute top-24 right-[14%] size-8 text-violet-400 opacity-40 animate-bounce [animation-duration:3.5s] [animation-delay:0.5s]" />
+        <Utensils className="absolute bottom-20 left-[18%] size-8 text-amber-400 opacity-40 animate-bounce [animation-duration:4s] [animation-delay:1s]" />
+        <Trophy className="absolute bottom-16 right-[10%] size-8 text-amber-400 opacity-40 animate-bounce [animation-duration:3.2s] [animation-delay:0.3s]" />
+        <Tv className="absolute top-1/2 left-[6%] size-6 text-violet-400 opacity-30 animate-bounce [animation-duration:3.8s] [animation-delay:0.7s]" />
+        <Dices className="absolute top-1/3 right-[6%] size-6 text-red-400 opacity-30 animate-bounce [animation-duration:4.2s] [animation-delay:1.2s]" />
       </div>
 
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-10 px-4 py-24 text-center sm:py-32">

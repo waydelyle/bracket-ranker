@@ -1,4 +1,5 @@
 import { ImageResponse } from "@vercel/og";
+import { TrophyMark } from "@/components/seo/TrophyMark";
 import { getResult } from "@/app/actions/results";
 import { getBracketMeta } from "@/data/registry";
 import { getCategoryBySlug } from "@/data/categories";
@@ -50,10 +51,9 @@ function GenericOGImage() {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: "28px",
             }}
           >
-            🏆
+            <TrophyMark size={30} color="white" />
           </div>
           <span style={{ fontSize: "48px", fontWeight: 800 }}>
             BracketRanker
@@ -162,10 +162,9 @@ export async function GET(
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                fontSize: "20px",
               }}
             >
-              🏆
+              <TrophyMark size={22} color="white" />
             </div>
             <span style={{ fontSize: "24px", fontWeight: 700 }}>
               BracketRanker
@@ -199,7 +198,7 @@ export async function GET(
             marginBottom: "24px",
           }}
         >
-          <span style={{ fontSize: "32px" }}>🏆</span>
+          <TrophyMark size={34} color={categoryColor} />
           <div style={{ display: "flex", flexDirection: "column" }}>
             <span
               style={{
