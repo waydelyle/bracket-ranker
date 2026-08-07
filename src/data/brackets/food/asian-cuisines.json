@@ -4,97 +4,97 @@
       "id": "japanese",
       "name": "Japanese",
       "subtitle": "Sushi, ramen, tempura",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Nihongo.svg/500px-Nihongo.svg.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Oseti.jpg"
     },
     {
       "id": "thai",
       "name": "Thai",
       "subtitle": "Pad thai, curries, tom yum",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/500px-Flag_of_Thailand.svg.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg/500px-Phat_Thai_kung_Chang_Khien_street_stall.jpg"
     },
     {
       "id": "chinese",
       "name": "Chinese",
       "subtitle": "Dim sum, stir fry, dumplings",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Chineselanguage.svg/500px-Chineselanguage.svg.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Collage_Chinese_Cuisine_by_User-EME.png/500px-Collage_Chinese_Cuisine_by_User-EME.png"
     },
     {
       "id": "korean",
       "name": "Korean",
       "subtitle": "BBQ, bibimbap, kimchi",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Chosin.jpg/500px-Chosin.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Han-jeongsik.jpg"
     },
     {
       "id": "indian",
       "name": "Indian",
       "subtitle": "Curry, naan, biryani",
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/KandaharHijacking.jpg/500px-KandaharHijacking.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Indian_dish_with_mushrooms_and_green_peas%2C_Idstein.jpg/500px-Indian_dish_with_mushrooms_and_green_peas%2C_Idstein.jpg"
     },
     {
       "id": "vietnamese",
       "name": "Vietnamese",
       "subtitle": "Pho, banh mi, spring rolls",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Natively_Vietnamese-speaking_areas.png/500px-Natively_Vietnamese-speaking_areas.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/2023-07-28_Cuisine_of_Hanoi_%E4%B8%80%E8%88%AC%E5%AE%B6%E5%BA%AD%E3%83%99%E3%83%88%E3%83%8A%E3%83%A0%E6%96%99%E7%90%86DSCF0706.jpg"
     },
     {
       "id": "filipino",
       "name": "Filipino",
       "subtitle": "Adobo, lumpia, sinigang",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Map_of_the_Filipino_Diaspora_in_the_World.svg/500px-Map_of_the_Filipino_Diaspora_in_the_World.svg.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/Philippine_Food.jpg"
     },
     {
       "id": "indonesian",
       "name": "Indonesian",
       "subtitle": "Nasi goreng, satay, rendang",
-      "image": "https://upload.wikimedia.org/wikipedia/en/8/8d/Indonesian_killings_1965.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Food_Sundanese_Restaurant%2C_Jakarta.jpg"
     },
     {
       "id": "malaysian",
       "name": "Malaysian",
       "subtitle": "Laksa, nasi lemak, roti canai",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/MAS_plane.jpg/500px-MAS_plane.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Nasi_Lemak_dengan_Ayam_Goreng_Krispy_dengan_Sos_chili.jpg"
     },
     {
       "id": "taiwanese",
       "name": "Taiwanese",
       "subtitle": "Beef noodle soup, bubble tea",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/08.15_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C2016%E4%B8%89%E5%9C%B0%E9%96%80%E9%84%89%E8%81%AF%E5%90%88%E6%94%B6%E7%A9%AB%E7%A5%AD%E3%80%8D_%2828706865630%29.jpg/500px-08.15_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C2016%E4%B8%89%E5%9C%B0%E9%96%80%E9%84%89%E8%81%AF%E5%90%88%E6%94%B6%E7%A9%AB%E7%A5%AD%E3%80%8D_%2828706865630%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Taiwanese_khong_bah_png%2C_Tofu%2C_Milkfish_Skin_Soup.jpg/500px-Taiwanese_khong_bah_png%2C_Tofu%2C_Milkfish_Skin_Soup.jpg"
     },
     {
       "id": "singaporean",
       "name": "Singaporean",
       "subtitle": "Chili crab, Hainanese chicken",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/500px-Flag_of_Singapore.svg.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hainanese_Chicken_Rice.jpg"
     },
     {
       "id": "burmese",
       "name": "Burmese",
       "subtitle": "Mohinga, tea leaf salad",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Idioma_birmano.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Pickled_tea_%28lahpet%29.JPG"
     },
     {
       "id": "nepali",
       "name": "Nepali",
       "subtitle": "Momos, dal bhat",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Nepali_language_Devanagari.svg/500px-Nepali_language_Devanagari.svg.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Nepali_dal-bhat-tarkari.jpg"
     },
     {
       "id": "sri-lankan",
       "name": "Sri Lankan",
       "subtitle": "Hoppers, kottu roti",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Sri_Lanka_North_Eastern_Province_locator_map.svg/500px-Sri_Lanka_North_Eastern_Province_locator_map.svg.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Sri_Lankan_Rice_and_Curry.jpg"
     },
     {
       "id": "pakistani",
       "name": "Pakistani",
       "subtitle": "Nihari, biryani, seekh kebab",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/500px-Flag_of_Pakistan.svg.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Pakistani_Food_Karahi_Beef.jpg/500px-Pakistani_Food_Karahi_Beef.jpg"
     },
     {
       "id": "bangladeshi",
       "name": "Bangladeshi",
       "subtitle": "Hilsa fish, biryani",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/500px-Flag_of_Bangladesh.svg.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Panta_Ilish.jpg"
     }
   ]
 }

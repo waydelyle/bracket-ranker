@@ -32,7 +32,8 @@
     {
       "id": "jon-ygritte",
       "name": "Jon Snow & Ygritte",
-      "subtitle": "Game of Thrones"
+      "subtitle": "Game of Thrones",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/Game_of_Thrones_title_card.jpg"
     },
     {
       "id": "david-patrick",
@@ -66,7 +67,8 @@
     {
       "id": "tim-coach",
       "name": "Coach & Mrs. Coach",
-      "subtitle": "Friday Night Lights"
+      "subtitle": "Friday Night Lights",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bf/Friday_Night_Lights_title_card.png"
     },
     {
       "id": "carrie-big",

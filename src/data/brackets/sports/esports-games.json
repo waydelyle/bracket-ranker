@@ -81,7 +81,8 @@
     {
       "id": "fifa-ea-fc",
       "name": "EA FC / FIFA",
-      "subtitle": "Sports - EA"
+      "subtitle": "Sports - EA",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/EA_Sports_FC_logo.svg/500px-EA_Sports_FC_logo.svg.png"
     },
     {
       "id": "tekken-8",

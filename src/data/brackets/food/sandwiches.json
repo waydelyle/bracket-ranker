@@ -81,7 +81,8 @@
     {
       "id": "chicken-parm-sub",
       "name": "Chicken Parm Sub",
-      "subtitle": "Breaded chicken and marinara"
+      "subtitle": "Breaded chicken and marinara",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Chicken_parm_at_a_diner.jpg"
     },
     {
       "id": "french-dip",

@@ -69,12 +69,14 @@
     {
       "id": "mbdtf-album",
       "name": "My Beautiful Dark Twisted Fantasy (Album)",
-      "subtitle": "2010"
+      "subtitle": "2010",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/My_Beautiful_Dark_Twisted_Fantasy.jpg"
     },
     {
       "id": "the-college-dropout-album",
       "name": "The College Dropout (Album)",
-      "subtitle": "2004"
+      "subtitle": "2004",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a3/Kanyewest_collegedropout.jpg"
     },
     {
       "id": "graduation-album",

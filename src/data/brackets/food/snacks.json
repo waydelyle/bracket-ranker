@@ -21,7 +21,8 @@
     {
       "id": "lays-classic",
       "name": "Lay's Classic",
-      "subtitle": "Potato chips"
+      "subtitle": "Potato chips",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Lay%27s_2025.svg/500px-Lay%27s_2025.svg.png"
     },
     {
       "id": "oreos",

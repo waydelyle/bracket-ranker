@@ -81,7 +81,8 @@
     {
       "id": "dark-chocolate",
       "name": "Dark Chocolate (Generic)",
-      "subtitle": "70%+ cocoa"
+      "subtitle": "70%+ cocoa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Schokolade-schwarz-braun-weiss.jpg/500px-Schokolade-schwarz-braun-weiss.jpg"
     },
     {
       "id": "white-chocolate",

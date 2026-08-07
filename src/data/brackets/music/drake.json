@@ -51,7 +51,8 @@
     {
       "id": "take-care",
       "name": "Take Care (feat. Rihanna)",
-      "subtitle": "Take Care"
+      "subtitle": "Take Care",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Drake-Take-Care-feat.-Rihanna.jpg"
     },
     {
       "id": "marvins-room",
@@ -68,7 +69,8 @@
     {
       "id": "crew-love",
       "name": "Crew Love (feat. The Weeknd)",
-      "subtitle": "Take Care"
+      "subtitle": "Take Care",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Crew_Love_Drake.png"
     },
     {
       "id": "headlines",
@@ -97,7 +99,8 @@
     {
       "id": "tuscan-leather",
       "name": "Tuscan Leather",
-      "subtitle": "Nothing Was the Same"
+      "subtitle": "Nothing Was the Same",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/42/Drake_-_Nothing_Was_the_Same_cover.png"
     },
     {
       "id": "0-to-100",
@@ -142,7 +145,8 @@
     {
       "id": "too-good",
       "name": "Too Good (feat. Rihanna)",
-      "subtitle": "Views"
+      "subtitle": "Views",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Drake-Too-Good-2016.jpg"
     },
     {
       "id": "chicago-freestyle",

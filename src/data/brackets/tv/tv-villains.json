@@ -81,7 +81,8 @@
     {
       "id": "tuco-salamanca",
       "name": "Tuco Salamanca",
-      "subtitle": "Breaking Bad"
+      "subtitle": "Breaking Bad",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Breaking_Bad_logo.svg/500px-Breaking_Bad_logo.svg.png"
     },
     {
       "id": "vecna",

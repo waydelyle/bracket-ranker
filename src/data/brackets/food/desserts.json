@@ -93,7 +93,8 @@
     {
       "id": "lava-cake",
       "name": "Molten Lava Cake",
-      "subtitle": "Oozing chocolate center"
+      "subtitle": "Oozing chocolate center",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Chocolate_Fondant.jpg"
     },
     {
       "id": "cannoli",

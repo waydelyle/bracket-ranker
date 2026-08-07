@@ -135,7 +135,8 @@
     {
       "id": "falcon",
       "name": "Falcon / Captain America",
-      "subtitle": "Sam Wilson"
+      "subtitle": "Sam Wilson",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9e/Falcon_%28Samuel_Thomas_%22Sam%22_Wilson%29.png"
     },
     {
       "id": "winter-soldier",

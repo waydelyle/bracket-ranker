@@ -51,7 +51,8 @@
     {
       "id": "white-chocolate-macadamia",
       "name": "White Chocolate Macadamia",
-      "subtitle": "Nutty & sweet"
+      "subtitle": "Nutty & sweet",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/White_Chocolate_macadamia_nut_cookies_%283499207554%29.jpg/500px-White_Chocolate_macadamia_nut_cookies_%283499207554%29.jpg"
     },
     {
       "id": "gingerbread",
@@ -80,7 +81,8 @@
     {
       "id": "samoa",
       "name": "Samoa / Caramel deLites",
-      "subtitle": "Coconut & caramel"
+      "subtitle": "Coconut & caramel",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Girl_Scout_cookies_%28Girl_Scouts_of_the_USA%29.jpg"
     },
     {
       "id": "red-velvet",

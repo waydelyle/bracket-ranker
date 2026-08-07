@@ -21,7 +21,8 @@
     {
       "id": "extra-cheese",
       "name": "Extra Cheese",
-      "subtitle": "More mozzarella"
+      "subtitle": "More mozzarella",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mozzarella_di_bufala3.jpg/500px-Mozzarella_di_bufala3.jpg"
     },
     {
       "id": "green-peppers",

@@ -3,7 +3,8 @@
     {
       "id": "in-n-out-double-double",
       "name": "In-N-Out Double-Double",
-      "subtitle": "In-N-Out Burger"
+      "subtitle": "In-N-Out Burger",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/InNOut_2021_logo.svg/250px-InNOut_2021_logo.svg.png"
     },
     {
       "id": "big-mac",
@@ -31,7 +32,8 @@
     {
       "id": "smashburger",
       "name": "SmashBurger Classic",
-      "subtitle": "Smashburger"
+      "subtitle": "Smashburger",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Smashburger_03.jpg"
     },
     {
       "id": "shake-shack-burger",
@@ -72,7 +74,8 @@
     {
       "id": "rodeo-burger",
       "name": "Rodeo Burger",
-      "subtitle": "Burger King"
+      "subtitle": "Burger King",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Burger_King_2020.svg/500px-Burger_King_2020.svg.png"
     },
     {
       "id": "animal-style",
@@ -82,7 +85,8 @@
     {
       "id": "steak-n-shake-classic",
       "name": "Original Steakburger",
-      "subtitle": "Steak 'n Shake"
+      "subtitle": "Steak 'n Shake",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Steak_%27n_Shake_logo.svg/250px-Steak_%27n_Shake_logo.svg.png"
     },
     {
       "id": "hardees-thickburger",
