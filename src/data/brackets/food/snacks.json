@@ -21,8 +21,7 @@
     {
       "id": "lays-classic",
       "name": "Lay's Classic",
-      "subtitle": "Potato chips",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Lay's+Classic"
+      "subtitle": "Potato chips"
     },
     {
       "id": "oreos",
@@ -93,8 +92,7 @@
     {
       "id": "sour-cream-onion",
       "name": "Lay's Sour Cream & Onion",
-      "subtitle": "Flavored chips",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Lay's+Sour+Cream+%26+Onion"
+      "subtitle": "Flavored chips"
     },
     {
       "id": "sun-chips",

@@ -3,8 +3,7 @@
     {
       "id": "all-too-well",
       "name": "All Too Well (10 Minute Version)",
-      "subtitle": "Red (Taylor's Version)",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=All+Too+Well+(10+Minute+Version)"
+      "subtitle": "Red (Taylor's Version)"
     },
     {
       "id": "love-story",
@@ -111,8 +110,7 @@
     {
       "id": "exile",
       "name": "exile (feat. Bon Iver)",
-      "subtitle": "folklore",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=exile+(feat.+Bon+Iver)"
+      "subtitle": "folklore"
     },
     {
       "id": "getaway-car",
@@ -177,8 +175,7 @@
     {
       "id": "illicit-affairs",
       "name": "illicit affairs",
-      "subtitle": "folklore",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=illicit+affairs"
+      "subtitle": "folklore"
     },
     {
       "id": "i-knew-you-were-trouble",
@@ -189,8 +186,7 @@
     {
       "id": "my-tears-ricochet",
       "name": "my tears ricochet",
-      "subtitle": "folklore",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=my+tears+ricochet"
+      "subtitle": "folklore"
     },
     {
       "id": "seven",
@@ -213,8 +209,7 @@
     {
       "id": "the-last-great-american-dynasty",
       "name": "the last great american dynasty",
-      "subtitle": "folklore",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=the+last+great+american+dynasty"
+      "subtitle": "folklore"
     },
     {
       "id": "begin-again",
@@ -339,8 +334,7 @@
     {
       "id": "treacherous",
       "name": "Treacherous",
-      "subtitle": "Red",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Treacherous"
+      "subtitle": "Red"
     },
     {
       "id": "the-archer",
@@ -357,8 +351,7 @@
     {
       "id": "this-is-me-trying",
       "name": "this is me trying",
-      "subtitle": "folklore",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=this+is+me+trying"
+      "subtitle": "folklore"
     },
     {
       "id": "right-where-you-left-me",
@@ -381,8 +374,7 @@
     {
       "id": "snow-on-the-beach",
       "name": "Snow on the Beach",
-      "subtitle": "Midnights",
-      "image": "https://placehold.co/500x500/1a1a2e/8b5cf6?text=Snow+on+the+Beach"
+      "subtitle": "Midnights"
     }
   ]
 }

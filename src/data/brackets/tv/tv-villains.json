@@ -81,8 +81,7 @@
     {
       "id": "tuco-salamanca",
       "name": "Tuco Salamanca",
-      "subtitle": "Breaking Bad",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Tuco+Salamanca"
+      "subtitle": "Breaking Bad"
     },
     {
       "id": "vecna",
@@ -93,8 +92,7 @@
     {
       "id": "nellie-oleson",
       "name": "Nellie Oleson",
-      "subtitle": "Little House on the Prairie",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Nellie+Oleson"
+      "subtitle": "Little House on the Prairie"
     },
     {
       "id": "the-governor",

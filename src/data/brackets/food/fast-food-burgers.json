@@ -3,8 +3,7 @@
     {
       "id": "in-n-out-double-double",
       "name": "In-N-Out Double-Double",
-      "subtitle": "In-N-Out Burger",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=In-N-Out+Double-Double"
+      "subtitle": "In-N-Out Burger"
     },
     {
       "id": "big-mac",
@@ -27,14 +26,12 @@
     {
       "id": "five-guys-burger",
       "name": "Five Guys Cheeseburger",
-      "subtitle": "Five Guys",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Five+Guys+Cheeseburger"
+      "subtitle": "Five Guys"
     },
     {
       "id": "smashburger",
       "name": "SmashBurger Classic",
-      "subtitle": "Smashburger",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=SmashBurger+Classic"
+      "subtitle": "Smashburger"
     },
     {
       "id": "shake-shack-burger",
@@ -75,20 +72,17 @@
     {
       "id": "rodeo-burger",
       "name": "Rodeo Burger",
-      "subtitle": "Burger King",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Rodeo+Burger"
+      "subtitle": "Burger King"
     },
     {
       "id": "animal-style",
       "name": "Animal Style Burger",
-      "subtitle": "In-N-Out",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Animal+Style+Burger"
+      "subtitle": "In-N-Out"
     },
     {
       "id": "steak-n-shake-classic",
       "name": "Original Steakburger",
-      "subtitle": "Steak 'n Shake",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Original+Steakburger"
+      "subtitle": "Steak 'n Shake"
     },
     {
       "id": "hardees-thickburger",

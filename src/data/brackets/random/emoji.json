@@ -3,8 +3,7 @@
     {
       "id": "face-tears-of-joy",
       "name": "😂",
-      "subtitle": "Face with Tears of Joy",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%98%82"
+      "subtitle": "Face with Tears of Joy"
     },
     {
       "id": "red-heart",
@@ -45,8 +44,7 @@
     {
       "id": "heart-eyes",
       "name": "😍",
-      "subtitle": "Smiling Face with Heart-Eyes",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%98%8D"
+      "subtitle": "Smiling Face with Heart-Eyes"
     },
     {
       "id": "clapping",
@@ -63,20 +61,17 @@
     {
       "id": "sunglasses",
       "name": "😎",
-      "subtitle": "Smiling Face with Sunglasses",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%98%8E"
+      "subtitle": "Smiling Face with Sunglasses"
     },
     {
       "id": "100",
       "name": "💯",
-      "subtitle": "Hundred Points",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%92%AF"
+      "subtitle": "Hundred Points"
     },
     {
       "id": "pray",
       "name": "🙏",
-      "subtitle": "Folded Hands",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%99%8F"
+      "subtitle": "Folded Hands"
     },
     {
       "id": "rocket",
@@ -105,8 +100,7 @@
     {
       "id": "star-struck",
       "name": "🤩",
-      "subtitle": "Star-Struck",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%A4%A9"
+      "subtitle": "Star-Struck"
     },
     {
       "id": "rolling-eyes",
@@ -117,8 +111,7 @@
     {
       "id": "pleading-face",
       "name": "🥺",
-      "subtitle": "Pleading Face",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%A5%BA"
+      "subtitle": "Pleading Face"
     },
     {
       "id": "laughing",
@@ -171,8 +164,7 @@
     {
       "id": "alien",
       "name": "👽",
-      "subtitle": "Alien",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=%F0%9F%91%BD"
+      "subtitle": "Alien"
     },
     {
       "id": "rainbow",

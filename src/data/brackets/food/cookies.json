@@ -51,8 +51,7 @@
     {
       "id": "white-chocolate-macadamia",
       "name": "White Chocolate Macadamia",
-      "subtitle": "Nutty & sweet",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=White+Chocolate+Macadamia"
+      "subtitle": "Nutty & sweet"
     },
     {
       "id": "gingerbread",
@@ -81,8 +80,7 @@
     {
       "id": "samoa",
       "name": "Samoa / Caramel deLites",
-      "subtitle": "Coconut & caramel",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Samoa+%2F+Caramel+deLites"
+      "subtitle": "Coconut & caramel"
     },
     {
       "id": "red-velvet",

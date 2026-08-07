@@ -27,14 +27,12 @@
     {
       "id": "chandler-monica",
       "name": "Chandler & Monica",
-      "subtitle": "Friends",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Chandler+%26+Monica"
+      "subtitle": "Friends"
     },
     {
       "id": "jon-ygritte",
       "name": "Jon Snow & Ygritte",
-      "subtitle": "Game of Thrones",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Jon+Snow+%26+Ygritte"
+      "subtitle": "Game of Thrones"
     },
     {
       "id": "david-patrick",
@@ -45,8 +43,7 @@
     {
       "id": "meredith-derek",
       "name": "Meredith & Derek",
-      "subtitle": "Grey's Anatomy",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Meredith+%26+Derek"
+      "subtitle": "Grey's Anatomy"
     },
     {
       "id": "jake-amy",
@@ -69,8 +66,7 @@
     {
       "id": "tim-coach",
       "name": "Coach & Mrs. Coach",
-      "subtitle": "Friday Night Lights",
-      "image": "https://placehold.co/500x750/1a1a2e/6366f1?text=Coach+%26+Mrs.+Coach"
+      "subtitle": "Friday Night Lights"
     },
     {
       "id": "carrie-big",

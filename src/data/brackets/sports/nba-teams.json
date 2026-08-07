@@ -181,16 +181,14 @@
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Charlotte_Hornets_%282014%29.svg/500px-Charlotte_Hornets_%282014%29.svg.png"
     },
     {
-      "id": "wolves",
-      "name": "Minnesota Timberwolves",
-      "subtitle": "Western Conference",
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Minnesota_Timberwolves_logo.svg/500px-Minnesota_Timberwolves_logo.svg.png"
+      "id": "bulls-dynasty",
+      "name": "90s Bulls Dynasty",
+      "subtitle": "Historic Dynasty"
     },
     {
       "id": "lakers-legacy",
       "name": "Showtime Lakers (1980s)",
-      "subtitle": "Historic Dynasty",
-      "image": "https://placehold.co/500x500/1a1a2e/3b82f6?text=Showtime+Lakers+(1980s)"
+      "subtitle": "Historic Dynasty"
     }
   ]
 }

@@ -45,8 +45,7 @@
     {
       "id": "linkedin",
       "name": "LinkedIn",
-      "subtitle": "Professional networking",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=LinkedIn"
+      "subtitle": "Professional networking"
     },
     {
       "id": "pinterest",

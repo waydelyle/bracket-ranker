@@ -27,8 +27,7 @@
     {
       "id": "trypophobia",
       "name": "Clusters of Holes",
-      "subtitle": "Trypophobia",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Clusters+of+Holes"
+      "subtitle": "Trypophobia"
     },
     {
       "id": "nyctophobia",
@@ -93,8 +92,7 @@
     {
       "id": "agoraphobia",
       "name": "Open/Crowded Spaces",
-      "subtitle": "Agoraphobia",
-      "image": "https://placehold.co/500x500/1a1a2e/ec4899?text=Open%2FCrowded+Spaces"
+      "subtitle": "Agoraphobia"
     }
   ]
 }

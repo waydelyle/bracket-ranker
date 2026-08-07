@@ -81,8 +81,7 @@
     {
       "id": "dark-chocolate",
       "name": "Dark Chocolate (Generic)",
-      "subtitle": "70%+ cocoa",
-      "image": "https://placehold.co/500x500/1a1a2e/22c55e?text=Dark+Chocolate+(Generic)"
+      "subtitle": "70%+ cocoa"
     },
     {
       "id": "white-chocolate",
