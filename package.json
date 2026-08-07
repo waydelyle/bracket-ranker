@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "indexnow": "node scripts/submit-indexnow.mjs"
+    "indexnow": "node scripts/submit-indexnow.mjs",
+    "images:audit": "node scripts/bracket-images.mjs audit",
+    "images:resolve": "node scripts/bracket-images.mjs resolve"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
