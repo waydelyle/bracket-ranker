@@ -81,31 +81,36 @@ export function BracketBuilder({ onSubmit, isSubmitting }: BracketBuilderProps) 
                 </span>
                 <span className="flex-1 truncate text-sm">{item.name}</span>
                 <div className="flex gap-0.5">
+                  {/* Icon-only, so each needs a name a screen reader can read
+                      out — and one that says which entrant it acts on. */}
                   <Button
                     variant="ghost"
                     size="icon"
-                    className="size-7"
+                    className="size-8"
+                    aria-label={`Move ${item.name} up`}
                     onClick={() => moveItem(index, -1)}
                     disabled={index === 0}
                   >
-                    <ArrowUp className="size-3" />
+                    <ArrowUp className="size-3.5" />
                   </Button>
                   <Button
                     variant="ghost"
                     size="icon"
-                    className="size-7"
+                    className="size-8"
+                    aria-label={`Move ${item.name} down`}
                     onClick={() => moveItem(index, 1)}
                     disabled={index === items.length - 1}
                   >
-                    <ArrowDown className="size-3" />
+                    <ArrowDown className="size-3.5" />
                   </Button>
                   <Button
                     variant="ghost"
                     size="icon"
-                    className="size-7 text-destructive"
+                    className="size-8 text-destructive"
+                    aria-label={`Remove ${item.name}`}
                     onClick={() => removeItem(index)}
                   >
-                    <Trash2 className="size-3" />
+                    <Trash2 className="size-3.5" />
                   </Button>
                 </div>
               </div>

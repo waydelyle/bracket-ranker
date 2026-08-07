@@ -1,38 +1,35 @@
 import { ImageResponse } from "next/og";
 import { TrophyMark } from "@/components/seo/TrophyMark";
-import { brackets, getBracketMeta } from "@/data/registry";
-import { getCategoryBySlug } from "@/data/categories";
-import { loadBracketItems } from "@/data/items";
-import { getBracketTitle } from "@/lib/seo";
+import { categories, getCategoryBySlug } from "@/data/categories";
+import { getBracketsByCategory } from "@/data/registry";
+import { getCategorySeo } from "@/lib/seo";
 
-export const alt = "BracketRanker tier list";
+export const alt = "BracketRanker category";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export function generateStaticParams() {
-  return brackets.map((b) => ({ category: b.category, bracket: b.slug }));
+  return categories.map((c) => ({ category: c.slug }));
 }
 
 /**
- * Per-bracket social card.
+ * Category hub social card.
  *
- * Entrant names are rendered as chips rather than embedding the remote poster
- * images: a good share of the Wikipedia/TMDB URLs in the datasets are SVG-
- * derived or served with content types Satori cannot decode, which made image
- * generation both slow and inconsistent at build time.
+ * Without one, posting a hub to Discord, Reddit or X unfurls as a bare link —
+ * the root card does not cascade into nested segments.
  */
 export default async function Image({
   params,
 }: {
-  params: Promise<{ category: string; bracket: string }>;
+  params: Promise<{ category: string }>;
 }) {
-  const { category, bracket } = await params;
-  const meta = getBracketMeta(category, bracket);
+  const { category } = await params;
   const cat = getCategoryBySlug(category);
-  const items = (await loadBracketItems(category, bracket)) ?? [];
+  const list = getBracketsByCategory(category);
   const color = cat?.color ?? "#f59e0b";
-  const title = meta ? getBracketTitle(meta, cat) : "BracketRanker";
-  const chips = items.slice(0, 9).map((item) => item.name);
+  const seo = cat ? getCategorySeo(cat, list.length) : null;
+  const title = seo?.title ?? "BracketRanker";
+  const chips = list.slice(0, 8).map((bracket) => bracket.name);
 
   return new ImageResponse(
     (
@@ -64,12 +61,12 @@ export default async function Image({
               {cat?.name ?? "BracketRanker"}
             </span>
             <span>·</span>
-            <span>{items.length} entrants</span>
+            <span>{list.length} brackets</span>
           </div>
 
           <p
             style={{
-              fontSize: title.length > 28 ? "64px" : "76px",
+              fontSize: title.length > 30 ? "62px" : "74px",
               fontWeight: 800,
               lineHeight: 1.08,
               margin: "22px 0 0 0",

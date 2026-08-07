@@ -36,7 +36,9 @@ const categoryNoun: Record<string, { one: string; many: string }> = {
   movies: { one: "film", many: "films" },
   music: { one: "track", many: "tracks" },
   tv: { one: "show", many: "shows" },
-  food: { one: "pick", many: "picks" },
+  // Not "picks": the copy below already calls a matchup answer a pick, and the
+  // collision produced lines like "Rank 16 picks in 15 head-to-head picks".
+  food: { one: "choice", many: "choices" },
   sports: { one: "contender", many: "contenders" },
   random: { one: "option", many: "options" },
 };
@@ -178,7 +180,7 @@ export function getBracketSeo(
   // keyword-first, and a second phrasing would only compete with it.
   const heading = target.title;
 
-  const subheading = `Rank ${items.length} ${noun.many} in ${picks} head-to-head picks. Free, no account, works on mobile.`;
+  const subheading = `Rank ${items.length} ${noun.many} in ${picks} head-to-head matchups. Free, no account, works on mobile.`;
 
   const introClose = pick(
     [
@@ -194,7 +196,7 @@ export function getBracketSeo(
   const intro =
     `${keyword[0].toUpperCase()}${keyword.slice(1)} without dragging anything into rows. ` +
     `You get one matchup at a time — ${a ?? "the first entrant"} or ${b ?? "the second"}? ` +
-    `${c ?? "This"} or ${d ?? "that"}? — and after ${picks} picks the bracket has a winner and a full ranked order underneath it. ` +
+    `${c ?? "This"} or ${d ?? "that"}? — and after ${picks} picks the bracket has a champion, with everything else placed by how far it got. ` +
     introClose;
 
   const shuffleNote = pick(
@@ -287,7 +289,7 @@ export function getBracketSeo(
         seed,
         3,
       ),
-      answer: `Both are here. The bracket finishes with a full 1-to-${size} order rather than S/A/B/C buckets, so you can cut it into tiers wherever the gaps look right — and because the order came out of ${picks} direct comparisons rather than your first guess at a layout, those cut points are easier to justify. If you would rather place the ${noun.many} into tiers directly, the tier list maker loads all ${items.length} of them into S through F rows at bracketranker.com/tier-list-maker.`,
+      answer: `Both are here, and the bracket is closer to a tier list than it looks. It ends with a champion, a runner-up and then every other ${noun.one} grouped by the round it went out in — which is exactly a set of tiers, decided by ${picks} direct comparisons rather than by your first guess at a layout. What it deliberately does not do is claim a precise gap between two ${noun.many} that never met. If you would rather place the ${noun.many} into S through F rows yourself, the tier list maker loads all ${items.length} of them at bracketranker.com/tier-list-maker.`,
     },
     {
       question: pick(
@@ -379,7 +381,7 @@ const categoryKeywords: Record<
       "Rank Marvel, Pixar, Disney, horror, sci-fi and Oscar films head-to-head. 20 movie tier lists, each one a playable bracket with real posters.",
     heading: "Movie tier lists you play instead of drag",
     intro:
-      "Every movie bracket here works the same way: two films, one pick, repeat until a champion is left and a full ranking falls out underneath. It beats a drag-and-drop tier list for the same reason a knockout beats a league table — you are only ever judging one pair at a time.",
+      "Every movie bracket here works the same way: two films, one pick, repeat until a champion is left and everything else settles into place by how far it got. It beats a drag-and-drop tier list for the same reason a knockout beats a league table — you are only ever judging one pair at a time.",
   },
   music: {
     keyword: "song sorter",
@@ -435,7 +437,7 @@ export function getCategorySeo(category: BracketCategory, count: number) {
     title: seo?.title ?? `${category.name} Tier Lists & Ranking Brackets`,
     description:
       seo?.description ??
-      `Rank the best ${category.name.toLowerCase()} with ${count} head-to-head brackets. Pick winners, get a full ranking, and share it.`,
+      `Rank the best ${category.name.toLowerCase()} with ${count} head-to-head brackets. Pick winners, crown a champion, and share the result.`,
     heading: seo?.heading ?? `${category.name} tier lists and ranking brackets`,
     intro:
       seo?.intro ??
@@ -559,7 +561,7 @@ export function buildSiteJsonLd() {
       operatingSystem: "Web",
       isAccessibleForFree: true,
       description:
-        "Head-to-head ranking brackets and tier lists for movies, music, TV, food, sports and games. Pick a winner in every matchup and get a full ranking.",
+        "Head-to-head ranking brackets and tier lists for movies, music, TV, food, sports and games. Pick a winner in every matchup and crown a champion.",
       offers: {
         "@type": "Offer",
         price: "0",

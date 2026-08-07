@@ -6,19 +6,20 @@ import { CategoryGrid } from "@/components/home/CategoryGrid";
 import { FeaturedBrackets } from "@/components/home/FeaturedBrackets";
 import { StructuredData } from "@/components/seo/StructuredData";
 import { buildFaqJsonLd } from "@/lib/seo";
+import { OG_DEFAULTS } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Tier Lists & Song Sorters | BracketRanker",
   description:
-    "Rank anything head-to-head. 110 tier lists and song sorters for movies, music, TV, food, sports and games - pick a winner in each matchup, get a full ranking.",
+    "Rank anything head-to-head. 110 tier lists and song sorters for movies, music, TV, food, sports and games - pick a winner in each matchup, crown a champion, and see how everything else placed.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    type: "website",
+    ...OG_DEFAULTS,
     title: "Tier Lists & Song Sorters | BracketRanker",
     description:
-      "Rank anything head-to-head. 110 tier lists and song sorters - pick a winner in each matchup and get a full ranking.",
+      "Rank anything head-to-head. 110 tier lists and song sorters - pick a winner in each matchup and see how everything placed.",
     url: "/",
   },
 };

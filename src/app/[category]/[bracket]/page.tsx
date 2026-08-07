@@ -17,6 +17,7 @@ import {
   getBracketTitle,
   getRelatedBrackets,
 } from "@/lib/seo";
+import { OG_DEFAULTS } from "@/lib/site";
 
 // Community results are folded into the page, so refresh it hourly rather than
 // pinning the HTML to build time.
@@ -49,7 +50,7 @@ export async function generateMetadata({
       canonical: `/${category}/${bracket}`,
     },
     openGraph: {
-      type: "website",
+      ...OG_DEFAULTS,
       title,
       description,
       url: `/${category}/${bracket}`,

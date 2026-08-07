@@ -13,9 +13,13 @@ import { Button } from "@/components/ui/button";
 import { ResultsDisplay } from "@/components/results/ResultsDisplay";
 import { BracketIntro } from "./BracketIntro";
 import { MatchupCard } from "./MatchupCard";
+import { MatchupPreloader } from "./MatchupPreloader";
 import { ProgressBar } from "./ProgressBar";
 import { RoundIndicator } from "./RoundIndicator";
 import { UndoButton } from "./UndoButton";
+
+/** Minimum time the champion reveal stays on screen before navigating. */
+const CELEBRATION_MS = 1400;
 
 interface BracketGameProps {
   bracketName: string;
@@ -43,10 +47,20 @@ export function BracketGame({
   bracketSlug,
 }: BracketGameProps) {
   const router = useRouter();
-  const { state, startBracket, pickWinner, undo, reset, progress, currentMatchup, canUndo } =
-    useBracket();
+  const {
+    state,
+    startBracket,
+    pickWinner,
+    undo,
+    reset,
+    progress,
+    currentMatchup,
+    nextMatchup,
+    canUndo,
+  } = useBracket(`${categorySlug}/${bracketSlug}`);
 
   const [isSaving, setIsSaving] = useState(false);
+  const [saveFailed, setSaveFailed] = useState(false);
   const hasSavedRef = useRef(false);
 
   const handleStart = useCallback(
@@ -66,6 +80,7 @@ export function BracketGame({
   const handleReset = useCallback(() => {
     hasSavedRef.current = false;
     setIsSaving(false);
+    setSaveFailed(false);
     reset();
   }, [reset]);
 
@@ -80,26 +95,41 @@ export function BracketGame({
     async function save() {
       setIsSaving(true);
       try {
-        const [resultId] = await Promise.all([
-          saveResult({
-            categorySlug,
-            bracketSlug,
-            ranking: state.ranking,
-            champion: state.champion!,
-            matchups: state.matchupHistory,
-          }),
-          submitVotes(
-            categorySlug,
-            bracketSlug,
-            state.matchupHistory,
-            state.champion!
-          ),
+        const [[resultId]] = await Promise.all([
+          Promise.all([
+            saveResult({
+              categorySlug,
+              bracketSlug,
+              ranking: state.ranking,
+              champion: state.champion!,
+              matchups: state.matchupHistory,
+            }),
+            submitVotes(
+              categorySlug,
+              bracketSlug,
+              state.matchupHistory,
+              state.champion!
+            ),
+          ]),
+          // The champion reveal is the payoff for 30-odd picks and the moment
+          // someone decides whether to share. Saving usually resolves in a few
+          // hundred milliseconds, which made it flash past before it registered.
+          new Promise((resolve) => setTimeout(resolve, CELEBRATION_MS)),
         ]);
+
+        // No id means there was nowhere to store the result; navigating would
+        // land on a 404, so keep the ranking on screen instead.
+        if (!resultId) {
+          setIsSaving(false);
+          setSaveFailed(true);
+          return;
+        }
 
         router.push(`/results/${resultId}`);
       } catch {
         // If saving fails, stay on the page and show the results inline
         setIsSaving(false);
+        setSaveFailed(true);
       }
     }
 
@@ -145,6 +175,17 @@ export function BracketGame({
             </div>
           )}
 
+          {/* Without this the failure path offered nothing but "Play Again" —
+              the full ranking below is still valid and worth keeping. */}
+          {saveFailed && (
+            <div
+              role="status"
+              className="rounded-lg border border-border bg-secondary px-4 py-2 text-sm text-muted-foreground"
+            >
+              We could not save a share link, but your ranking is below.
+            </div>
+          )}
+
           {/* Trophy with glow */}
           <div
             className="flex h-24 w-24 items-center justify-center rounded-full"
@@ -180,7 +221,6 @@ export function BracketGame({
             <ResultsDisplay
               ranking={state.ranking.slice(0, 8)}
               items={state.items}
-              champion={state.champion ?? ""}
               categoryColor={categoryColor}
             />
           </div>
@@ -231,8 +271,16 @@ export function BracketGame({
         />
       </div>
 
+      {/* Announces each new pair. Without it a screen reader hears nothing
+          after a pick and has to hunt for what changed. */}
+      <p aria-live="polite" className="sr-only">
+        {currentMatchup
+          ? `${roundName}, matchup ${state.currentMatchup + 1} of ${totalInRound}: ${currentMatchup.itemA.name} or ${currentMatchup.itemB.name}?`
+          : ""}
+      </p>
+
       {/* Matchup */}
-      <div className="flex w-full max-w-2xl flex-1 items-center justify-center">
+      <div className="relative flex w-full max-w-2xl flex-1 items-center justify-center">
         <AnimatePresence mode="wait">
           {currentMatchup && (
             <MatchupCard
@@ -245,6 +293,9 @@ export function BracketGame({
             />
           )}
         </AnimatePresence>
+        <MatchupPreloader
+          items={[nextMatchup?.itemA, nextMatchup?.itemB]}
+        />
       </div>
     </div>
   );

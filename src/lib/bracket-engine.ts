@@ -35,7 +35,8 @@ export type BracketAction =
   | { type: 'SEED'; items: BracketItem[]; size: number }
   | { type: 'PICK_WINNER'; winnerId: string }
   | { type: 'UNDO' }
-  | { type: 'RESET' };
+  | { type: 'RESET' }
+  | { type: 'RESTORE'; state: BracketState };
 
 // ---------------------------------------------------------------------------
 // Constants
@@ -88,6 +89,47 @@ export function getRoundName(bracketSize: number, roundIndex: number): string {
     return `Round ${roundIndex + 1}`;
   }
   return names[roundIndex];
+}
+
+export interface RankingStage {
+  /** How far this group of entrants got, e.g. "Eliminated in the Sweet 16". */
+  label: string;
+  /** First index in `ranking` belonging to this stage. */
+  start: number;
+  /** Number of entrants in this stage. */
+  count: number;
+}
+
+/**
+ * How the final ranking breaks down by how far each entrant actually got.
+ *
+ * A knockout bracket only ever compares an entrant with the ones it faced, so
+ * the order inside a group of same-round losers is the order their matchups
+ * happened to be drawn in — not a preference. Presenting all 32 positions as a
+ * strict 1-to-32 ranking claims 24 comparisons that were never made, so the
+ * results are grouped by elimination round instead.
+ */
+export function rankingStages(bracketSize: number): RankingStage[] {
+  const rounds = Math.round(Math.log2(bracketSize));
+  if (!Number.isFinite(rounds) || rounds < 1) return [];
+
+  const stages: RankingStage[] = [{ label: "Champion", start: 0, count: 1 }];
+
+  // Losers of the last round sit closest to the champion: the final's loser is
+  // second, the previous round's two losers are third and fourth, and so on.
+  for (let round = rounds - 1; round >= 0; round--) {
+    const count = bracketSize / Math.pow(2, round + 1);
+    stages.push({
+      label:
+        round === rounds - 1
+          ? "Runner-up"
+          : `Eliminated in the ${getRoundName(bracketSize, round)}`,
+      start: count,
+      count,
+    });
+  }
+
+  return stages;
 }
 
 /** Returns progress through the bracket. */
@@ -409,6 +451,13 @@ export function bracketReducer(
         champion: null,
         completedMatchups: state.completedMatchups - 1,
       };
+    }
+
+    case 'RESTORE': {
+      // Only an in-progress bracket is worth restoring. A restored 'complete'
+      // state would re-fire the save effect and duplicate the result and votes.
+      if (action.state.phase !== 'playing') return state;
+      return action.state;
     }
 
     case 'RESET': {

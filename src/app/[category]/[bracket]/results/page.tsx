@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, BarChart3, Play, Trophy } from "lucide-react";
-import { getBracketMeta } from "@/data/registry";
+import { brackets, getBracketMeta } from "@/data/registry";
 import { getCategoryBySlug } from "@/data/categories";
 import { loadBracketItems } from "@/data/items";
 import { StructuredData } from "@/components/seo/StructuredData";
@@ -15,7 +15,7 @@ import {
   getBracketKeyword,
   getRelatedBrackets,
 } from "@/lib/seo";
-import { absoluteUrl } from "@/lib/site";
+import { absoluteUrl, OG_DEFAULTS } from "@/lib/site";
 
 // Community data changes as people play, so refresh more aggressively than the
 // bracket page itself.
@@ -25,9 +25,14 @@ interface ResultsPageProps {
   params: Promise<{ category: string; bracket: string }>;
 }
 
-// Deliberately not prerendered via generateStaticParams: most of these pages
-// have no votes yet, and building all 110 would mean 110 extra Redis round
-// trips per build. They are cached on first request instead.
+// `revalidate` alone does not make a dynamic segment cacheable: without
+// `generateStaticParams` these 110 pages were served with
+// `cache-control: private, no-cache, no-store`, so every visit and every crawl
+// re-rendered them and hit Redis live. Prerendering them costs one cached Redis
+// read per bracket at build time — the same reads the bracket pages already do.
+export function generateStaticParams() {
+  return brackets.map((b) => ({ category: b.category, bracket: b.slug }));
+}
 
 function formatUpdated(date: Date) {
   return date.toLocaleDateString("en-US", {
@@ -65,7 +70,7 @@ export async function generateMetadata({
     // out of the index until real data exists.
     robots: standings ? undefined : { index: false, follow: true },
     openGraph: {
-      type: "website",
+      ...OG_DEFAULTS,
       title,
       description,
       url: `/${category}/${bracket}/results`,

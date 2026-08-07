@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { BarChart3 } from "lucide-react";
 import { categories } from "@/data/categories";
 import { getBracketsByCategory } from "@/data/registry";
@@ -9,6 +10,7 @@ import {
   PowerRankings,
   type LeaderboardItem,
 } from "@/components/leaderboard/PowerRankings";
+import { OG_DEFAULTS } from "@/lib/site";
 
 // Rendered as ISR rather than per-request. This page used to be served with
 // `no-store` on every hit, which made it the slowest and heaviest route on the
@@ -19,6 +21,11 @@ export const revalidate = 600;
 // hundreds of entrants, which previously pushed the HTML past 1 MB.
 const ROWS_PER_CATEGORY = 25;
 
+// Strength of the 50% prior used when ordering the table. Effectively "an
+// entrant has to win about this many matchups before its record is taken at
+// face value".
+const PRIOR_MATCHUPS = 20;
+
 export const metadata: Metadata = {
   title: "Community Rankings - Global Leaderboard",
   description:
@@ -27,10 +34,12 @@ export const metadata: Metadata = {
     canonical: "/leaderboard",
   },
   openGraph: {
+    ...OG_DEFAULTS,
     title: "Community Rankings - Global Leaderboard",
     description:
       "See how the community ranks items across all bracket categories. Updated live from player votes.",
     url: "/leaderboard",
+    images: ["/opengraph-image"],
   },
 };
 
@@ -79,16 +88,25 @@ async function getCategoryLeaderboard(
       const stat = key.slice(separator + 1); // "wins", "losses", or "champion"
       const count = typeof value === "number" ? value : Number(value) || 0;
 
-      if (!itemMap.has(itemId)) {
-        itemMap.set(itemId, {
-          name: nameMap.get(itemId) ?? itemId,
+      const name = nameMap.get(itemId);
+      if (!name) continue;
+
+      // Aggregate by name, not by id. Ids are scoped to a bracket, so the same
+      // entity carries different ones across brackets in a category — Toy Story
+      // is "toy-story", "toy-story-anim" and "toy-story-franchise" — and keying
+      // on the id listed it three times with its record split between the rows.
+      const groupKey = name.trim().toLowerCase();
+
+      if (!itemMap.has(groupKey)) {
+        itemMap.set(groupKey, {
+          name: name.trim(),
           wins: 0,
           losses: 0,
           championCount: 0,
         });
       }
 
-      const entry = itemMap.get(itemId)!;
+      const entry = itemMap.get(groupKey)!;
       if (stat === "wins") entry.wins += count;
       else if (stat === "losses") entry.losses += count;
       else if (stat === "champion") entry.championCount += count;
@@ -112,9 +130,15 @@ async function getCategoryLeaderboard(
     }
   );
 
-  // Sort: win rate descending, then champion count descending as tiebreaker
+  // Sort on a win rate shrunk toward 50%, so a 4-for-4 entrant no longer
+  // outranks one that is 247-for-316. The rate shown to the reader is still the
+  // real one; only the ordering is smoothed.
+  const rank = (item: LeaderboardItem) =>
+    (item.wins + PRIOR_MATCHUPS / 2) / (item.totalMatchups + PRIOR_MATCHUPS);
+
   items.sort((a, b) => {
-    if (b.winRate !== a.winRate) return b.winRate - a.winRate;
+    const diff = rank(b) - rank(a);
+    if (diff !== 0) return diff;
     if (b.championCount !== a.championCount)
       return b.championCount - a.championCount;
     return b.totalMatchups - a.totalMatchups;
@@ -207,6 +231,27 @@ export default async function LeaderboardPage() {
                   items={items}
                   categoryColor={category.color}
                 />
+
+                {/* Per-bracket community pages were reachable from a single link
+                    each and from nothing on this page, which left 110 of them
+                    effectively orphaned. */}
+                <div className="mt-8">
+                  <h3 className="mb-3 text-sm font-semibold text-muted-foreground">
+                    Community rankings by bracket
+                  </h3>
+                  <ul className="flex flex-wrap gap-2">
+                    {getBracketsByCategory(category.slug).map((bracket) => (
+                      <li key={bracket.slug}>
+                        <Link
+                          href={`/${category.slug}/${bracket.slug}/results`}
+                          className="inline-flex rounded-full border border-border/60 bg-card px-3 py-1.5 text-xs text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+                        >
+                          {bracket.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </TabsContent>
             ))}
           </Tabs>

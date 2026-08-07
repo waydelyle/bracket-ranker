@@ -178,14 +178,20 @@ export async function getPlayCounts(
  * it dynamically on every crawl, which makes the declared `revalidate` on the
  * route meaningless.
  */
+const cachedPlayCounts = unstable_cache(
+  (keys: { category: string; slug: string }[]) => getPlayCounts(keys),
+  ["play-counts"],
+  { revalidate: 86400, tags: ["community-standings"] },
+);
+
 export function getCachedPlayCounts(
   keys: { category: string; slug: string }[],
 ) {
-  return unstable_cache(
-    () => getPlayCounts(keys),
-    ["play-counts", String(keys.length)],
-    { revalidate: 86400, tags: ["community-standings"] },
-  )();
+  // The keys are passed as an argument rather than baked into the key parts:
+  // Next folds arguments into the cache key, whereas the previous key varied
+  // only on `keys.length`, so any two different bracket lists of the same
+  // length shared one cache entry.
+  return cachedPlayCounts(keys);
 }
 
 /**

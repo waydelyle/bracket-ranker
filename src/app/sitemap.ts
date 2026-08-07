@@ -9,25 +9,26 @@ import { absoluteUrl } from "@/lib/site";
 export const revalidate = 86400;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  // `lastmod` is only set on the pages that genuinely change on their own —
+  // the community results, which move as brackets are played. Stamping today's
+  // date on all 226 URLs every day told crawlers the whole site had changed
+  // daily, which is both untrue and a reason to stop trusting the signal.
   const lastModified = new Date();
 
   const homepage: MetadataRoute.Sitemap[number] = {
     url: absoluteUrl("/"),
-    lastModified,
-    changeFrequency: "daily",
+    changeFrequency: "weekly",
     priority: 1.0,
   };
 
   const categoryPages: MetadataRoute.Sitemap = categories.map((cat) => ({
     url: absoluteUrl(`/${cat.slug}`),
-    lastModified,
     changeFrequency: "weekly",
     priority: 0.9,
   }));
 
   const bracketPages: MetadataRoute.Sitemap = brackets.map((b) => ({
     url: absoluteUrl(`/${b.category}/${b.slug}`),
-    lastModified,
     changeFrequency: "weekly",
     priority: b.featured ? 0.8 : 0.7,
   }));
@@ -49,17 +50,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: absoluteUrl("/tier-list-maker"),
-      lastModified,
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
       url: absoluteUrl("/create"),
-      lastModified,
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
+      // Aggregated from votes, so this one really does move daily.
       url: absoluteUrl("/leaderboard"),
       lastModified,
       changeFrequency: "daily",
@@ -67,19 +67,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: absoluteUrl("/about"),
-      lastModified,
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
       url: absoluteUrl("/privacy"),
-      lastModified,
       changeFrequency: "yearly",
       priority: 0.2,
     },
     {
       url: absoluteUrl("/contact"),
-      lastModified,
       changeFrequency: "yearly",
       priority: 0.2,
     },

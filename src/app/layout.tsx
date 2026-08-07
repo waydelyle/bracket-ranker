@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Outfit, Geist_Mono } from "next/font/google";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Toaster } from "@/components/ui/sonner";
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
   },
   description:
     "Create bracket-style rankings for movies, music, food, sports, TV, games, and custom lists. Pick winners head-to-head and share your final top list.",
-  alternates: {
-    canonical: "/",
-  },
+  // No root canonical: it is inherited rather than merged, so every page that
+  // did not set its own — including /results/[id] and /create/[id] — declared
+  // the homepage as its canonical URL. Every indexable route sets its own.
   openGraph: {
     type: "website",
     siteName: SITE_NAME,
@@ -39,6 +39,16 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
+  appleWebApp: {
+    title: SITE_NAME,
+    capable: true,
+    statusBarStyle: "black-translucent",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0b0b14",
+  colorScheme: "dark",
 };
 
 export default function RootLayout({
@@ -52,7 +62,14 @@ export default function RootLayout({
       className={`${outfit.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Script src="https://js.sentry-cdn.com/4a35e6aafb5d1e911610f80498a1dbe1.min.js" crossOrigin="anonymous" strategy="beforeInteractive" />
+        {/* Error monitoring only — it does not need to run before the page is
+            interactive, and blocking on a third-party host to load it costs
+            every visitor time on the critical path. */}
+        <Script
+          src="https://js.sentry-cdn.com/4a35e6aafb5d1e911610f80498a1dbe1.min.js"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <JsonLd />
         <TooltipProvider>
           <Header />

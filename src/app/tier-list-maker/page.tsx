@@ -10,7 +10,7 @@ import {
 import { brackets, getBracketMeta } from "@/data/registry";
 import { categories, getCategoryBySlug } from "@/data/categories";
 import { loadBracketItems } from "@/data/items";
-import { absoluteUrl } from "@/lib/site";
+import { absoluteUrl, OG_DEFAULTS } from "@/lib/site";
 import { buildBreadcrumbJsonLd, buildFaqJsonLd } from "@/lib/seo";
 
 /** The list the tool opens with. Highest-volume template on the site. */
@@ -25,11 +25,12 @@ export const metadata: Metadata = {
     canonical: "/tier-list-maker",
   },
   openGraph: {
-    type: "website",
+    ...OG_DEFAULTS,
     title: "Tier List Maker - 110 Templates, No Sign-Up",
     description:
       "Drag or tap entries into S through F tiers, add your own, and share a link that reopens the exact list. 110 templates across movies, music, TV, food, sports and games.",
     url: "/tier-list-maker",
+    images: ["/opengraph-image"],
   },
 };
 

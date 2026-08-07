@@ -17,7 +17,7 @@ export function ProgressBar({
   roundName,
   color,
 }: ProgressBarProps) {
-  const fillColor = color || "hsl(var(--primary))";
+  const fillColor = color || "var(--primary)";
 
   return (
     <div className="w-full space-y-2">
@@ -28,7 +28,14 @@ export function ProgressBar({
         </span>
       </div>
 
-      <div className="relative h-3 w-full overflow-hidden rounded-full bg-secondary">
+      <div
+        role="progressbar"
+        aria-valuenow={current}
+        aria-valuemin={0}
+        aria-valuemax={total}
+        aria-label={`${roundName}: ${current} of ${total} matchups complete`}
+        className="relative h-3 w-full overflow-hidden rounded-full bg-secondary"
+      >
         <motion.div
           className="absolute inset-y-0 left-0 rounded-full"
           style={{

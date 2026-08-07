@@ -67,8 +67,8 @@ export function ShareCard({
                               color: "white",
                             }
                           : {
-                              background: "hsl(var(--secondary))",
-                              color: "hsl(var(--muted-foreground))",
+                              background: "var(--secondary)",
+                              color: "var(--muted-foreground)",
                             }
                     }
                   >

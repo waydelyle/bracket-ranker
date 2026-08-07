@@ -65,7 +65,7 @@ export const bracketTargets: Record<string, BracketTarget> = {
     keyword: "rank Pixar movies",
     title: "Rank Pixar Movies: Pixar Tier List",
     description:
-      "Settle the Pixar debate for good. Toy Story vs Up, WALL-E vs Inside Out, Coco vs Ratatouille - pick a winner each round and get a full ranking.",
+      "Settle the Pixar debate for good. Toy Story vs Up, WALL-E vs Inside Out, Coco vs Ratatouille - pick a winner each round and crown a champion.",
     variants: ["Pixar tier list", "Pixar movie sorter"],
     related: [
       "movies/disney",

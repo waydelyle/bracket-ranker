@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CreatePageClient } from "@/components/create/CreatePageClient";
+import { OG_DEFAULTS } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Free Bracket Maker - Create a Custom Ranking Bracket",
@@ -9,10 +10,12 @@ export const metadata: Metadata = {
     canonical: "/create",
   },
   openGraph: {
+    ...OG_DEFAULTS,
     title: "Free Bracket Maker - Create a Custom Ranking Bracket",
     description:
       "Add custom items, create a shareable bracket, and rank anything head-to-head with BracketRanker.",
     url: "/create",
+    images: ["/opengraph-image"],
   },
 };
 

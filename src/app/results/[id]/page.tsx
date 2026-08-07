@@ -6,9 +6,10 @@ import { Trophy, ArrowRight } from "lucide-react";
 import { getResult } from "@/app/actions/results";
 import { getVoteStats } from "@/app/actions/votes";
 import { getBracketMeta } from "@/data/registry";
-import { getCategoryBySlug } from "@/data/categories";
 import type { BracketResult } from "@/data/types";
-import { loadBracketItems } from "@/data/items";
+import { getRelatedBrackets } from "@/lib/seo";
+import { resolveResultBracket } from "@/lib/result-bracket";
+import { OG_DEFAULTS } from "@/lib/site";
 import { Button } from "@/components/ui/button";
 import { ResultsDisplay } from "@/components/results/ResultsDisplay";
 import { ShareCard } from "@/components/results/ShareCard";
@@ -41,22 +42,47 @@ export async function generateMetadata({
     notFound();
   }
 
-  const meta = getBracketMeta(result.categorySlug, result.bracketSlug);
-  const bracketName = meta?.name ?? "Bracket";
+  const { name: bracketName, items } = await resolveResultBracket(
+    result.categorySlug,
+    result.bracketSlug,
+  );
+
+  // Name the actual podium. Every shared link used to carry the site-wide
+  // blurb, so a card that should read "Wendy's beat Chick-fil-A" instead
+  // described the whole website and gave nobody a reason to click.
+  const nameFor = (itemId: string) =>
+    items?.find((item) => item.id === itemId)?.name ?? itemId;
+  const podium = result.ranking.slice(0, 3).map(nameFor);
+  const description =
+    podium.length > 1
+      ? `${podium[0]} is my #1 in the ${bracketName} bracket, ahead of ${podium.slice(1).join(" and ")}. See the full ranking and build your own.`
+      : `My ${bracketName} ranking, decided head-to-head. See the full order and build your own.`;
+
+  const title = `My ${bracketName} Ranking`;
 
   return {
-    title: `My ${bracketName} Ranking`,
+    title,
+    description,
     robots: {
       index: false,
       follow: true,
     },
     openGraph: {
-      title: `My ${bracketName} Ranking | BracketRanker`,
-      images: [`/results/${id}/og`],
+      ...OG_DEFAULTS,
+      title: `${title} | BracketRanker`,
+      url: `/results/${id}`,
+      images: [
+        {
+          url: `/results/${id}/og`,
+          width: 1200,
+          height: 630,
+          alt: `${bracketName} ranking with ${podium[0]} at number one`,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
-      title: `My ${bracketName} Ranking | BracketRanker`,
+      title: `${title} | BracketRanker`,
       images: [`/results/${id}/og`],
     },
   };
@@ -71,14 +97,14 @@ export default async function ResultsPage({ params }: ResultsPageProps) {
   }
 
   const meta = getBracketMeta(result.categorySlug, result.bracketSlug);
-  const category = getCategoryBySlug(result.categorySlug);
-  const items = await loadBracketItems(
-    result.categorySlug,
-    result.bracketSlug
-  );
-  const categoryColor = category?.color ?? "#6366f1";
-  const bracketName = meta?.name ?? "Bracket";
-  const categoryName = category?.name ?? "Category";
+  const {
+    name: bracketName,
+    categoryName,
+    categoryColor,
+    items,
+    playPath,
+    isCustom,
+  } = await resolveResultBracket(result.categorySlug, result.bracketSlug);
 
   // Get community stats
   const voteData = await getVoteStats(
@@ -96,11 +122,19 @@ export default async function ResultsPage({ params }: ResultsPageProps) {
   const championItem = items?.find((i) => i.id === result.champion);
   const championName = championItem?.name ?? result.champion;
 
+  // Runners-up make the shared text worth reading — "X won" alone says little.
+  const nameFor = (id: string) => items?.find((i) => i.id === id)?.name ?? id;
+  const runnersUp = result.ranking.slice(1, 3).map(nameFor);
+
+  // A finished bracket is the moment someone is most likely to play another
+  // one, so the page needs somewhere to go that is not the bracket they just did.
+  const related = meta ? getRelatedBrackets(meta, 6) : [];
+
   return (
     <div className="mx-auto w-full max-w-4xl px-4 py-8">
-      <div className="grid gap-8 lg:grid-cols-[1fr_320px]">
-        {/* Main content */}
-        <div className="space-y-8">
+      <div className="grid gap-8 lg:grid-cols-[1fr_320px] lg:items-start">
+        {/* Champion, stats and sharing */}
+        <div className="space-y-8 lg:col-start-1 lg:row-start-1">
           {/* Champion header */}
           <div className="flex flex-col items-center gap-4 text-center sm:flex-row sm:text-left">
             <div
@@ -132,8 +166,31 @@ export default async function ResultsPage({ params }: ResultsPageProps) {
             resultId={id}
             bracketName={bracketName}
             champion={championName}
+            runnersUp={runnersUp}
+            categoryColor={categoryColor}
           />
+        </div>
 
+        {/* Share card — under the share row on mobile, right rail on desktop */}
+        <div className="lg:col-start-2 lg:row-start-1">
+          <div className="lg:sticky lg:top-24">
+            <h2 className="mb-3 text-sm font-semibold text-muted-foreground">
+              Your card
+            </h2>
+            {items ? (
+              <ShareCard
+                ranking={result.ranking}
+                items={items}
+                bracketName={bracketName}
+                categoryName={categoryName}
+                categoryColor={categoryColor}
+              />
+            ) : null}
+          </div>
+        </div>
+
+        {/* Ranking and what to play next */}
+        <div className="space-y-8 lg:col-start-1 lg:row-start-2">
           {/* Full ranking */}
           <div className="space-y-3">
             <h2 className="text-lg font-bold">Full Ranking</h2>
@@ -141,8 +198,8 @@ export default async function ResultsPage({ params }: ResultsPageProps) {
               <ResultsDisplay
                 ranking={result.ranking}
                 items={items}
-                champion={result.champion}
                 categoryColor={categoryColor}
+                bracketSize={result.ranking.length}
               />
             ) : (
               <ol className="space-y-1 text-sm">
@@ -160,38 +217,48 @@ export default async function ResultsPage({ params }: ResultsPageProps) {
 
           {/* Try this bracket CTA */}
           <div className="rounded-xl border bg-muted/30 p-6 text-center">
-            <h3 className="text-lg font-bold">Think you can do better?</h3>
+            <h2 className="text-lg font-bold">Think you can do better?</h2>
             <p className="mt-1 text-sm text-muted-foreground">
-              Try this bracket yourself and see how your ranking compares.
+              Replay it — the draw is reshuffled, so the matchups change.
             </p>
-            <Button
-              className="mt-4 gap-2"
-              render={
-                <Link href={`/${result.categorySlug}/${result.bracketSlug}`} />
-              }
-            >
-              Try This Bracket
-              <ArrowRight className="size-4" />
-            </Button>
+            <div className="mt-4 flex flex-wrap justify-center gap-2">
+              <Button className="gap-2" render={<Link href={playPath} />}>
+                Play it again
+                <ArrowRight className="size-4" />
+              </Button>
+              {/* Custom brackets have no community page — they are private to
+                  whoever holds the link. */}
+              {!isCustom && (
+                <Button
+                  variant="outline"
+                  render={<Link href={`${playPath}/results`} />}
+                >
+                  See how everyone ranked it
+                </Button>
+              )}
+            </div>
           </div>
-        </div>
 
-        {/* Sidebar — share card */}
-        <div className="hidden lg:block">
-          <div className="sticky top-24 space-y-4">
-            <h3 className="text-sm font-semibold text-muted-foreground">
-              Preview
-            </h3>
-            {items ? (
-              <ShareCard
-                ranking={result.ranking}
-                items={items}
-                bracketName={bracketName}
-                categoryName={categoryName}
-                categoryColor={categoryColor}
-              />
-            ) : null}
-          </div>
+          {/* What to play next */}
+          {related.length > 0 && (
+            <div className="space-y-3">
+              <h2 className="text-lg font-bold">Play another bracket</h2>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {related.map((item) => (
+                  <Link
+                    key={`${item.category}/${item.slug}`}
+                    href={`/${item.category}/${item.slug}`}
+                    className="group rounded-xl border border-border/50 bg-card p-4 transition-colors hover:bg-secondary/50"
+                  >
+                    <p className="font-semibold">{item.name}</p>
+                    <p className="mt-1 text-sm text-muted-foreground">
+                      {item.itemCount} entrants
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

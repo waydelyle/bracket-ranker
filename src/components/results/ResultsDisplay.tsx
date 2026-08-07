@@ -3,22 +3,38 @@
 import type React from "react";
 import { Trophy } from "lucide-react";
 import type { BracketItem } from "@/data/types";
+import { rankingStages } from "@/lib/bracket-engine";
 import { cn } from "@/lib/utils";
 
 interface ResultsDisplayProps {
   ranking: string[];
   items: BracketItem[];
-  champion: string;
   categoryColor: string;
+  /**
+   * Bracket size. When given, the list is broken up by how far each entrant
+   * got, which is the only ordering a knockout actually establishes.
+   */
+  bracketSize?: number;
 }
 
+// The champion is always `ranking[0]`, so it is derived rather than passed.
 export function ResultsDisplay({
   ranking,
   items,
-  champion,
   categoryColor,
+  bracketSize,
 }: ResultsDisplayProps) {
   const itemMap = new Map(items.map((item) => [item.id, item]));
+
+  // Index -> stage heading to print immediately above that row.
+  const headings = new Map<number, string>();
+  if (bracketSize && ranking.length === bracketSize) {
+    for (const stage of rankingStages(bracketSize)) {
+      // The top two speak for themselves; grouping starts where the ordering
+      // stops being a real comparison.
+      if (stage.count > 1) headings.set(stage.start, stage.label);
+    }
+  }
 
   return (
     <div className="w-full space-y-2">
@@ -29,9 +45,16 @@ export function ResultsDisplay({
         const isChampion = idx === 0;
         const isTopThree = idx < 3;
 
+        const heading = headings.get(idx);
+
         return (
+          <div key={itemId}>
+            {heading && (
+              <p className="px-1 pb-1.5 pt-4 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                {heading}
+              </p>
+            )}
           <div
-            key={itemId}
             className={cn(
               "flex items-center gap-3 rounded-xl px-4 py-3 transition-colors",
               isChampion
@@ -79,8 +102,8 @@ export function ResultsDisplay({
                                 "linear-gradient(to bottom right, #d97706, #92400e)",
                             }
                           : {
-                              background: "hsl(var(--secondary))",
-                              color: "hsl(var(--muted-foreground))",
+                              background: "var(--secondary)",
+                              color: "var(--muted-foreground)",
                             }
                   }
                 >
@@ -110,6 +133,7 @@ export function ResultsDisplay({
                 </p>
               )}
             </div>
+          </div>
           </div>
         );
       })}

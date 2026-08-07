@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { categories, getCategoryBySlug } from "@/data/categories";
 import { getBracketsByCategory } from "@/data/registry";
+import { loadBracketItems } from "@/data/items";
 import { CategoryHeader } from "@/components/category/CategoryHeader";
 import { BracketCard } from "@/components/category/BracketCard";
 import { CategorySeoContent } from "@/components/category/CategorySeoContent";
@@ -11,6 +12,7 @@ import {
   buildItemListJsonLd,
   getCategorySeo,
 } from "@/lib/seo";
+import { OG_DEFAULTS } from "@/lib/site";
 
 interface CategoryPageProps {
   params: Promise<{ category: string }>;
@@ -35,6 +37,7 @@ export async function generateMetadata({
       canonical: `/${cat.slug}`,
     },
     openGraph: {
+      ...OG_DEFAULTS,
       title: seo.title,
       description: seo.description,
       url: `/${cat.slug}`,
@@ -52,6 +55,22 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
   const categoryBrackets = getBracketsByCategory(category);
   const seo = getCategorySeo(cat, categoryBrackets.length);
+
+  // Entrant artwork for the preview strip on each card. The JSON is local and
+  // these pages are prerendered, so this costs nothing at request time.
+  const previewsBySlug = new Map(
+    await Promise.all(
+      categoryBrackets.map(async (bracket) => {
+        const items = await loadBracketItems(category, bracket.slug);
+        const previews = (items ?? [])
+          .filter((item) => item.image)
+          .slice(0, 4)
+          .map((item) => ({ name: item.name, image: item.image! }));
+        return [bracket.slug, previews] as const;
+      }),
+    ),
+  );
+
   const breadcrumbSchema = buildBreadcrumbJsonLd([
     { name: "Home", path: "/" },
     { name: cat.name, path: `/${cat.slug}` },
@@ -70,7 +89,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       <CategoryHeader
         category={cat}
         heading={seo.title}
-        tagline={`${categoryBrackets.length} head-to-head brackets. Pick a winner in every matchup, get a full ranking, and compare it with everyone else's.`}
+        tagline={`${categoryBrackets.length} head-to-head brackets. Pick a winner in every matchup, crown a champion, and compare it with everyone else's.`}
       />
 
       <div className="mx-auto w-full max-w-6xl px-4 py-10">
@@ -85,6 +104,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               bracket={bracket}
               categoryColor={cat.color}
               categorySlug={cat.slug}
+              previews={previewsBySlug.get(bracket.slug)}
             />
           ))}
         </div>

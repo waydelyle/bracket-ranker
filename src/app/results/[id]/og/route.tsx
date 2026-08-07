@@ -1,23 +1,10 @@
 import { ImageResponse } from "@vercel/og";
 import { TrophyMark } from "@/components/seo/TrophyMark";
 import { getResult } from "@/app/actions/results";
-import { getBracketMeta } from "@/data/registry";
-import { getCategoryBySlug } from "@/data/categories";
-import type { BracketItem, BracketResult } from "@/data/types";
+import { resolveResultBracket } from "@/lib/result-bracket";
+import type { BracketResult } from "@/data/types";
 
 export const runtime = "edge";
-
-async function loadBracketItems(
-  category: string,
-  slug: string
-): Promise<BracketItem[] | null> {
-  try {
-    const data = await import(`@/data/brackets/${category}/${slug}.json`);
-    return data.default.items;
-  } catch {
-    return null;
-  }
-}
 
 function GenericOGImage() {
   return new ImageResponse(
@@ -93,16 +80,13 @@ export async function GET(
     return GenericOGImage();
   }
 
-  const meta = getBracketMeta(result.categorySlug, result.bracketSlug);
-  const category = getCategoryBySlug(result.categorySlug);
-  const items = await loadBracketItems(
-    result.categorySlug,
-    result.bracketSlug
-  );
+  const {
+    name: bracketName,
+    categoryName,
+    categoryColor,
+    items,
+  } = await resolveResultBracket(result.categorySlug, result.bracketSlug);
 
-  const categoryColor = category?.color ?? "#6366f1";
-  const bracketName = meta?.name ?? "Bracket";
-  const categoryName = category?.name ?? "";
   const itemMap = new Map(items?.map((i) => [i.id, i]) ?? []);
 
   // Top 5 ranking
@@ -112,23 +96,6 @@ export async function GET(
   });
 
   const championName = top5[0]?.name ?? "Champion";
-
-  // Check Vercel Blob for cached image — skip if env vars are not set
-  const blobAvailable =
-    !!process.env.BLOB_READ_WRITE_TOKEN;
-  const cacheKey = `og-result-${id}`;
-
-  if (blobAvailable) {
-    try {
-      const { list } = await import("@vercel/blob");
-      const { blobs } = await list({ prefix: cacheKey, limit: 1 });
-      if (blobs.length > 0 && blobs[0].url) {
-        return Response.redirect(blobs[0].url, 302);
-      }
-    } catch {
-      // Blob unavailable — generate on the fly
-    }
-  }
 
   const response = new ImageResponse(
     (
@@ -263,19 +230,21 @@ export async function GET(
     { width: 1200, height: 630 }
   );
 
-  // Cache to Blob in background if available
-  if (blobAvailable) {
-    try {
-      const { put } = await import("@vercel/blob");
-      const buffer = await response.clone().arrayBuffer();
-      await put(cacheKey, buffer, {
-        access: "public",
-        contentType: "image/png",
-      });
-    } catch {
-      // Caching failed — that's fine, we still return the response
-    }
-  }
+  // Buffer the image and serve the bytes, rather than returning the streamed
+  // ImageResponse. Previously this route cloned the response to stash a copy in
+  // Vercel Blob; draining the clone left the returned stream empty, so the very
+  // first scrape of every share card — the one a crawler makes when the link is
+  // pasted — received a 0-byte PNG and rendered no preview at all.
+  //
+  // A result is immutable once saved, so an immutable cache header lets the CDN
+  // hold the image indefinitely. That replaces what the Blob copy was for,
+  // without the `list()` round trip that cost every cold request ~0.9s.
+  const png = await response.arrayBuffer();
 
-  return response;
+  return new Response(png, {
+    headers: {
+      "content-type": "image/png",
+      "cache-control": "public, max-age=31536000, immutable",
+    },
+  });
 }

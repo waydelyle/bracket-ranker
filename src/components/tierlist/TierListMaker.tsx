@@ -249,9 +249,10 @@ export function TierListMaker({
     };
 
     void (async () => {
-      // Deep links use a fragment rather than a query string: `?d=…` would give
-      // every template its own crawlable copy of this page, all of them
-      // identical apart from the client-side state.
+      // Deep links now use a query string so unfurlers and crawlers can see the
+      // shared state; the page's static self-referencing canonical keeps every
+      // `?d=…` variant from being indexed as a near-duplicate. Fragments are
+      // still read so links shared before the change keep working.
       const params = new URLSearchParams(
         window.location.hash.replace(/^#/, "") ||
           window.location.search.replace(/^\?/, ""),
@@ -411,7 +412,10 @@ export function TierListMaker({
     params.set("d", `${dataset.category}/${dataset.slug}`);
     params.set("t", encodePlacement(encodeIds, placement));
     if (custom.length > 0) params.set("c", custom.join("~"));
-    return `${window.location.origin}/tier-list-maker#${params.toString()}`;
+    // A query string rather than a fragment: fragments are never sent to the
+    // server, so a shared list was invisible to link unfurlers, crawlers and
+    // analytics alike. The restore path reads both, so old `#` links still work.
+    return `${window.location.origin}/tier-list-maker?${params.toString()}`;
   }, [custom, dataset.category, dataset.slug, encodeIds, placement]);
 
   const writeClipboard = useCallback(

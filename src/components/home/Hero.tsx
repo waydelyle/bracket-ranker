@@ -32,28 +32,30 @@ export function Hero() {
 
       {/* Floating category icon badges */}
       <div className="absolute inset-0 -z-10 hidden md:block" aria-hidden>
-        <Clapperboard className="absolute top-16 left-[12%] size-8 text-red-400 opacity-40 animate-bounce [animation-duration:3s]" />
-        <Music className="absolute top-24 right-[14%] size-8 text-violet-400 opacity-40 animate-bounce [animation-duration:3.5s] [animation-delay:0.5s]" />
-        <Utensils className="absolute bottom-20 left-[18%] size-8 text-amber-400 opacity-40 animate-bounce [animation-duration:4s] [animation-delay:1s]" />
-        <Trophy className="absolute bottom-16 right-[10%] size-8 text-amber-400 opacity-40 animate-bounce [animation-duration:3.2s] [animation-delay:0.3s]" />
-        <Tv className="absolute top-1/2 left-[6%] size-6 text-violet-400 opacity-30 animate-bounce [animation-duration:3.8s] [animation-delay:0.7s]" />
-        <Dices className="absolute top-1/3 right-[6%] size-6 text-red-400 opacity-30 animate-bounce [animation-duration:4.2s] [animation-delay:1.2s]" />
+        <Clapperboard className="absolute top-16 left-[12%] size-8 text-red-400 opacity-40 animate-bounce motion-reduce:animate-none [animation-duration:3s]" />
+        <Music className="absolute top-24 right-[14%] size-8 text-violet-400 opacity-40 animate-bounce motion-reduce:animate-none [animation-duration:3.5s] [animation-delay:0.5s]" />
+        <Utensils className="absolute bottom-20 left-[18%] size-8 text-amber-400 opacity-40 animate-bounce motion-reduce:animate-none [animation-duration:4s] [animation-delay:1s]" />
+        <Trophy className="absolute bottom-16 right-[10%] size-8 text-amber-400 opacity-40 animate-bounce motion-reduce:animate-none [animation-duration:3.2s] [animation-delay:0.3s]" />
+        <Tv className="absolute top-1/2 left-[6%] size-6 text-violet-400 opacity-30 animate-bounce motion-reduce:animate-none [animation-duration:3.8s] [animation-delay:0.7s]" />
+        <Dices className="absolute top-1/3 right-[6%] size-6 text-red-400 opacity-30 animate-bounce motion-reduce:animate-none [animation-duration:4.2s] [animation-delay:1.2s]" />
       </div>
 
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-10 px-4 py-24 text-center sm:py-32">
         <div className="space-y-6">
+          {/* The H1 carries the primary keyword and matches the title tag —
+              "Rank Anything" alone targeted nothing. */}
           <h1 className="text-5xl font-extrabold tracking-tight sm:text-6xl lg:text-7xl">
             <span className="bg-gradient-to-r from-amber-400 via-yellow-200 to-amber-400 bg-clip-text text-transparent">
-              Rank Anything,
+              Tier Lists You Play,
               <br />
               One Matchup at a Time
             </span>
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground sm:text-xl">
             110 tier lists and song sorters that decide themselves. Pick a
-            winner in every head-to-head, and the full ranking falls out at the
-            end — movies, music, TV, food, sports and everything else worth
-            arguing about.
+            winner in every head-to-head, and everything settles into place by
+            how far it got — movies, music, TV, food, sports and everything else
+            worth arguing about.
           </p>
         </div>
 

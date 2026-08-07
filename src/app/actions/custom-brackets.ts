@@ -2,32 +2,87 @@
 
 import { nanoid } from "nanoid";
 import { getRedis } from "@/lib/kv";
+import {
+  MAX_CUSTOM_ITEMS,
+  MAX_CUSTOM_ITEM_NAME_LENGTH,
+  MAX_CUSTOM_TITLE_LENGTH,
+} from "@/lib/validate";
 
 interface CustomBracketInput {
   title: string;
   items: { name: string; image?: string }[];
 }
 
+/** Custom bracket ids are ours: 10 chars from nanoid's URL-safe alphabet. */
+const CUSTOM_ID = /^[A-Za-z0-9_-]{10}$/;
+
+/** Only real image URLs are worth storing, and only over http(s). */
+function safeImageUrl(value: unknown): string | undefined {
+  if (typeof value !== "string" || value.length === 0 || value.length > 500) {
+    return undefined;
+  }
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:" || url.protocol === "http:"
+      ? value
+      : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
 export async function saveCustomBracket(
   input: CustomBracketInput
 ): Promise<string> {
+  // This is a public endpoint writing 90-day Redis keys, so the payload needs a
+  // ceiling before it is stored.
+  const title =
+    typeof input?.title === "string"
+      ? input.title.trim().slice(0, MAX_CUSTOM_TITLE_LENGTH)
+      : "";
+  if (!title) throw new Error("A bracket needs a title");
+
+  if (!Array.isArray(input.items)) throw new Error("Invalid items");
+
+  const kept = input.items.slice(0, MAX_CUSTOM_ITEMS);
+
+  // Ids have to be unique: the game identifies entrants by id, so two entrants
+  // sharing one ("Pizza" and "pizza" both slugify to "pizza") makes matchups
+  // ambiguous and the final ranking unusable.
+  const used = new Set<string>();
+  const bracketItems = kept
+    .map((item, index) => {
+      const name =
+        typeof item?.name === "string"
+          ? item.name.trim().slice(0, MAX_CUSTOM_ITEM_NAME_LENGTH)
+          : "";
+      if (!name) return null;
+
+      const base =
+        name
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-|-$/g, "") || `item-${index}`;
+
+      let id = base;
+      let suffix = 2;
+      while (used.has(id)) id = `${base}-${suffix++}`;
+      used.add(id);
+
+      return { id, name, image: safeImageUrl(item.image) };
+    })
+    .filter((item): item is NonNullable<typeof item> => item !== null);
+
+  if (bracketItems.length < 8) {
+    throw new Error("A bracket needs at least 8 entrants");
+  }
+
   const id = nanoid(10);
   const redis = getRedis();
 
-  // Generate proper BracketItem format with IDs
-  const bracketItems = input.items.map((item, index) => ({
-    id:
-      item.name
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/^-|-$/g, "") || `item-${index}`,
-    name: item.name,
-    image: item.image || undefined,
-  }));
-
   const bracket = {
     id,
-    title: input.title,
+    title,
     items: bracketItems,
     createdAt: Date.now(),
   };
@@ -44,6 +99,7 @@ export async function saveCustomBracket(
 export async function getCustomBracket(id: string) {
   const redis = getRedis();
   if (!redis) return null;
+  if (typeof id !== "string" || !CUSTOM_ID.test(id)) return null;
 
   const data = await redis.get<string>(`custom:${id}`);
   if (!data) return null;
