@@ -1,12 +1,8 @@
 import { buildSiteJsonLd } from "@/lib/seo";
+import { StructuredData } from "@/components/seo/StructuredData";
 
 export function JsonLd() {
   const schema = buildSiteJsonLd();
 
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
+  return <StructuredData data={schema} />;
 }

@@ -16,6 +16,10 @@ import {
 import { toast } from "sonner";
 import type { BracketItem } from "@/data/types";
 import { getBracketItemsAction } from "@/app/actions/bracket-items";
+import {
+  decodeCustomEntries,
+  encodeCustomEntries,
+} from "@/lib/serialization.mjs";
 import { cn } from "@/lib/utils";
 
 export interface TierListDataset {
@@ -263,7 +267,7 @@ export function TierListMaker({
         const sharedCustom = params.get("c");
         const stored: StoredState = {
           t: params.get("t") ?? undefined,
-          c: sharedCustom ? sharedCustom.split("~").filter(Boolean) : undefined,
+          c: decodeCustomEntries(sharedCustom),
         };
         if (shared === initialKey) {
           applyDataset(initialDataset, initialItems, stored);
@@ -411,7 +415,7 @@ export function TierListMaker({
     const params = new URLSearchParams();
     params.set("d", `${dataset.category}/${dataset.slug}`);
     params.set("t", encodePlacement(encodeIds, placement));
-    if (custom.length > 0) params.set("c", custom.join("~"));
+    if (custom.length > 0) params.set("c", encodeCustomEntries(custom));
     // A query string rather than a fragment: fragments are never sent to the
     // server, so a shared list was invisible to link unfurlers, crawlers and
     // analytics alike. The restore path reads both, so old `#` links still work.
