@@ -32,7 +32,17 @@ export interface BracketState {
 }
 
 export type BracketAction =
-  | { type: 'SEED'; items: BracketItem[]; size: number }
+  | {
+      type: 'SEED';
+      items: BracketItem[];
+      size: number;
+      /**
+       * Draw order. Defaults to shuffling; pass `false` to seed the items
+       * exactly as given, which is how a saved run is replayed back into
+       * the same bracket it was playing.
+       */
+      shuffleItems?: boolean;
+    }
   | { type: 'PICK_WINNER'; winnerId: string }
   | { type: 'UNDO' }
   | { type: 'RESET' }
@@ -255,7 +265,7 @@ export function bracketReducer(
 ): BracketState {
   switch (action.type) {
     case 'SEED': {
-      const { items, size } = action;
+      const { items, size, shuffleItems = true } = action;
       const validSizes = [8, 16, 32, 64];
       const requested = validSizes.includes(size) ? size : 8;
 
@@ -265,8 +275,8 @@ export function bracketReducer(
       if (bracketSize === 0) return state;
 
       // Shuffle and pick the required number of items.
-      const shuffled = shuffle(items);
-      const selected = shuffled.slice(0, bracketSize);
+      const ordered = shuffleItems ? shuffle(items) : items;
+      const selected = ordered.slice(0, bracketSize);
 
       const rounds = buildRounds(selected, bracketSize);
 

@@ -5,7 +5,9 @@ import { motion } from "framer-motion";
 import { Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { maxBracketSize } from "@/lib/bracket-engine";
+import type { SavedRunSummary } from "@/hooks/useBracket";
 import { BracketSizeSelector } from "./BracketSizeSelector";
+import { ResumeCard } from "./ResumeCard";
 
 interface BracketIntroProps {
   name: string;
@@ -16,6 +18,10 @@ interface BracketIntroProps {
   defaultSize: number;
   categoryColor: string;
   onStart: (size: number) => void;
+  /** An unfinished run on this bracket, offered before a fresh one. */
+  savedRun?: SavedRunSummary | null;
+  onResume?: () => void;
+  onDiscardSavedRun?: () => void;
 }
 
 export function BracketIntro({
@@ -26,6 +32,9 @@ export function BracketIntro({
   defaultSize,
   categoryColor,
   onStart,
+  savedRun,
+  onResume,
+  onDiscardSavedRun,
 }: BracketIntroProps) {
   // A bracket larger than the item pool can never be completed, so the
   // preselected size is clamped to what these items can actually fill.
@@ -68,6 +77,16 @@ export function BracketIntro({
             <p className="text-base text-muted-foreground">{description}</p>
           </div>
 
+          {/* An unfinished run on this bracket */}
+          {savedRun && onResume && onDiscardSavedRun && (
+            <ResumeCard
+              run={savedRun}
+              categoryColor={categoryColor}
+              onResume={onResume}
+              onDiscard={onDiscardSavedRun}
+            />
+          )}
+
           {/* Size selector */}
           <div className="w-full">
             <BracketSizeSelector
@@ -88,7 +107,7 @@ export function BracketIntro({
             }}
           >
             <Play className="size-5" />
-            Start Bracket
+            {savedRun ? "Start a new bracket" : "Start Bracket"}
           </Button>
         </div>
       </div>

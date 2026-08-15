@@ -57,7 +57,10 @@ export function BracketGame({
     currentMatchup,
     nextMatchup,
     canUndo,
-  } = useBracket(`${categorySlug}/${bracketSlug}`);
+    savedRun,
+    resumeSavedRun,
+    discardSavedRun,
+  } = useBracket(`${categorySlug}/${bracketSlug}`, items);
 
   const [isSaving, setIsSaving] = useState(false);
   const [saveFailed, setSaveFailed] = useState(false);
@@ -94,23 +97,26 @@ export function BracketGame({
 
     async function save() {
       setIsSaving(true);
+
+      // Community stats are best-effort and separate from the player's own
+      // result. Awaiting them together meant a failed vote write rejected the
+      // pair and threw away a share link that had already been created.
+      void submitVotes(
+        categorySlug,
+        bracketSlug,
+        state.matchupHistory,
+        state.champion!,
+      ).catch(() => {});
+
       try {
-        const [[resultId]] = await Promise.all([
-          Promise.all([
-            saveResult({
-              categorySlug,
-              bracketSlug,
-              ranking: state.ranking,
-              champion: state.champion!,
-              matchups: state.matchupHistory,
-            }),
-            submitVotes(
-              categorySlug,
-              bracketSlug,
-              state.matchupHistory,
-              state.champion!
-            ),
-          ]),
+        const [resultId] = await Promise.all([
+          saveResult({
+            categorySlug,
+            bracketSlug,
+            ranking: state.ranking,
+            champion: state.champion!,
+            matchups: state.matchupHistory,
+          }),
           // The champion reveal is the payoff for 30-odd picks and the moment
           // someone decides whether to share. Saving usually resolves in a few
           // hundred milliseconds, which made it flash past before it registered.
@@ -148,6 +154,9 @@ export function BracketGame({
           defaultSize={defaultSize}
           categoryColor={categoryColor}
           onStart={handleStart}
+          savedRun={savedRun}
+          onResume={resumeSavedRun}
+          onDiscardSavedRun={discardSavedRun}
         />
       </div>
     );

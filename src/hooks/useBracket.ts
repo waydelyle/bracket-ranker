@@ -1,52 +1,100 @@
 'use client';
 
-import { useReducer, useMemo, useCallback, useEffect, useRef } from 'react';
+import {
+  useReducer,
+  useMemo,
+  useCallback,
+  useEffect,
+  useSyncExternalStore,
+} from 'react';
 import type { BracketItem } from '@/data/types';
 import {
   bracketReducer,
   createInitialState,
   getProgress,
+  getRoundName,
   type BracketState,
 } from '@/lib/bracket-engine';
+import {
+  classifySavedRun,
+  parseProgress,
+  progressStorageKey,
+  restoreProgress,
+  saveActionFor,
+  serializeProgress,
+  summarizeProgress,
+} from '@/lib/bracket-progress.mjs';
 
-/** Bump when the persisted shape changes so old saves are ignored rather than crashing. */
-const SAVE_VERSION = 1;
-
-/** A part-finished bracket is only worth resuming for a day. */
-const SAVE_TTL_MS = 24 * 60 * 60 * 1000;
-
-interface SavedBracket {
-  version: number;
+/** What the resume prompt needs in order to describe a saved run. */
+export interface SavedRunSummary {
+  completed: number;
+  total: number;
+  percentage: number;
+  roundName: string;
   savedAt: number;
-  state: BracketState;
 }
 
-function storageKeyFor(id: string) {
-  return `bracketranker:progress:${id}`;
+// ---------------------------------------------------------------------------
+// Storage access
+//
+// localStorage is an external store, so it is subscribed to rather than copied
+// into state: `useSyncExternalStore` serves the server snapshot during
+// hydration, which keeps the server and client HTML in agreement without an
+// effect that writes state on mount.
+// ---------------------------------------------------------------------------
+
+const listeners = new Set<() => void>();
+
+function notifyProgressChanged() {
+  for (const listener of listeners) listener();
 }
 
-/** Reads a saved in-progress bracket, or null if absent, stale or unusable. */
-function readSave(id: string): BracketState | null {
+function subscribeToProgress(listener: () => void): () => void {
+  listeners.add(listener);
+  if (typeof window !== 'undefined') {
+    // Picks up saves made in another tab too.
+    window.addEventListener('storage', listener);
+  }
+  return () => {
+    listeners.delete(listener);
+    if (typeof window !== 'undefined') {
+      window.removeEventListener('storage', listener);
+    }
+  };
+}
+
+/**
+ * The stored entry, verbatim.
+ *
+ * Returns the raw string on purpose: `useSyncExternalStore` compares snapshots
+ * by identity, and strings compare by value, so an unchanged entry can never
+ * look like a change.
+ */
+function readRaw(id: string): string | null {
   try {
-    const raw = window.localStorage.getItem(storageKeyFor(id));
-    if (!raw) return null;
-
-    const save = JSON.parse(raw) as SavedBracket;
-    if (save.version !== SAVE_VERSION) return null;
-    if (Date.now() - save.savedAt > SAVE_TTL_MS) return null;
-
-    // A save is only coherent if it is mid-play and its round structure is
-    // intact — anything else is a partial write or an older data shape.
-    const state = save.state;
-    if (state?.phase !== 'playing') return null;
-    if (!Array.isArray(state.rounds) || state.rounds.length === 0) return null;
-    if (!Array.isArray(state.items) || state.items.length === 0) return null;
-    const round = state.rounds[state.currentRound];
-    if (!round?.matchups?.[state.currentMatchup]) return null;
-
-    return state;
+    if (typeof window === 'undefined') return null;
+    return window.localStorage.getItem(progressStorageKey(id));
   } catch {
+    // Storage access itself throws in some privacy modes.
     return null;
+  }
+}
+
+function writeRaw(id: string, value: string): void {
+  try {
+    window.localStorage.setItem(progressStorageKey(id), value);
+    notifyProgressChanged();
+  } catch {
+    // Quota exceeded or storage blocked — playing without a save is fine.
+  }
+}
+
+function removeRaw(id: string): void {
+  try {
+    window.localStorage.removeItem(progressStorageKey(id));
+    notifyProgressChanged();
+  } catch {
+    // Nothing actionable.
   }
 }
 
@@ -56,48 +104,84 @@ function readSave(id: string): BracketState | null {
  * Without this, a refresh or an app switch on mobile throws away every pick —
  * which on a 64-entrant sorter is 63 of them.
  *
+ * A saved run is offered rather than applied silently: being dropped into the
+ * middle of a bracket with no explanation, and no way back to the intro, is
+ * worse than being asked.
+ *
  * @param id Stable id for the bracket being played, e.g. "movies/marvel".
  *   Omit to run without persistence.
+ * @param items The bracket's current entrant pool. A saved run is only offered
+ *   while it still refers to entrants this bracket actually has.
  */
-export function useBracket(id?: string) {
+export function useBracket(id?: string, items?: BracketItem[]) {
   const [state, dispatch] = useReducer(bracketReducer, undefined, createInitialState);
 
-  // Restore after mount rather than in the reducer initialiser: reading
-  // localStorage during render would make the server and client HTML disagree.
-  const hasRestored = useRef(false);
-  useEffect(() => {
-    if (!id || hasRestored.current) return;
-    hasRestored.current = true;
-    const saved = readSave(id);
-    if (saved) dispatch({ type: 'RESTORE', state: saved });
-  }, [id]);
+  const rawSave = useSyncExternalStore(
+    subscribeToProgress,
+    () => (id ? readRaw(id) : null),
+    () => null
+  );
 
-  // Mirror every pick to storage, and clear the save once the bracket is done
-  // or abandoned so a finished run never resurrects.
+  /** Whether what is stored can be resumed here. Pure — no side effects. */
+  const storedRun = useMemo(
+    () => classifySavedRun(rawSave, id, items),
+    [rawSave, id, items]
+  );
+
+  /**
+   * A run waiting to be picked back up, or null.
+   *
+   * Only surfaced on the intro screen, which is the one moment it is
+   * actionable.
+   */
+  const savedRun: SavedRunSummary | null = useMemo(() => {
+    if (state.phase !== 'intro' || !storedRun.progress) return null;
+
+    const progress = storedRun.progress;
+    const summary = summarizeProgress(progress);
+    return {
+      completed: summary.completed,
+      total: summary.total,
+      percentage: summary.percentage,
+      roundName: getRoundName(progress.size, summary.roundIndex),
+      savedAt: summary.savedAt,
+    };
+  }, [storedRun, state.phase]);
+
+  // Evict a stored run that can never be resumed here. It renders no prompt,
+  // so nothing would ever read it again, and it would hold its key — up to
+  // tens of KB for a save in the older whole-state format — indefinitely.
+  // Done in an effect rather than while rendering, and only for entries
+  // already classified unusable, so a valid save is never touched.
   useEffect(() => {
-    if (!id || !hasRestored.current) return;
-    try {
-      const key = storageKeyFor(id);
-      if (state.phase === 'playing') {
-        const save: SavedBracket = {
-          version: SAVE_VERSION,
-          savedAt: Date.now(),
-          state,
-        };
-        window.localStorage.setItem(key, JSON.stringify(save));
-      } else {
-        window.localStorage.removeItem(key);
-      }
-    } catch {
-      // Quota exceeded or storage blocked — playing without a save is fine.
+    if (!id || storedRun.status !== 'unusable') return;
+    removeRaw(id);
+  }, [id, storedRun.status]);
+
+  // Mirror every pick to storage, and drop the save whenever there is nothing
+  // resumable under this key.
+  useEffect(() => {
+    if (!id) return;
+
+    const action = saveActionFor(state, items);
+    if (action === 'write') {
+      const snapshot = serializeProgress(state, id, Date.now());
+      if (snapshot) writeRaw(id, JSON.stringify(snapshot));
+    } else if (action === 'clear') {
+      removeRaw(id);
     }
-  }, [id, state]);
+  }, [id, items, state]);
 
   const startBracket = useCallback(
-    (items: BracketItem[], size: number) => {
-      dispatch({ type: 'SEED', items, size });
+    (seedItems: BracketItem[], size: number) => {
+      // Starting fresh abandons whatever was saved for this bracket. Cleared
+      // here, synchronously, because nothing is written back until the first
+      // pick — a reload in between would otherwise offer the run the player
+      // just walked away from.
+      if (id) removeRaw(id);
+      dispatch({ type: 'SEED', items: seedItems, size });
     },
-    []
+    [id]
   );
 
   const pickWinner = useCallback(
@@ -113,7 +197,37 @@ export function useBracket(id?: string) {
 
   const reset = useCallback(() => {
     dispatch({ type: 'RESET' });
-  }, []);
+    if (id) removeRaw(id);
+  }, [id]);
+
+  /**
+   * Replays the saved run. Returns false — and drops the save — when it cannot
+   * be replayed, so the prompt never offers something that will not load.
+   */
+  const resumeSavedRun = useCallback(() => {
+    if (!id || !items) return false;
+
+    const progress = parseProgress(readRaw(id), id);
+    const restored = progress
+      ? (restoreProgress(progress, id, items, {
+          bracketReducer,
+          createInitialState,
+        }) as BracketState | null)
+      : null;
+
+    if (!restored) {
+      removeRaw(id);
+      return false;
+    }
+
+    dispatch({ type: 'RESTORE', state: restored });
+    return true;
+  }, [id, items]);
+
+  /** Throws the saved run away so the intro stops offering it. */
+  const discardSavedRun = useCallback(() => {
+    if (id) removeRaw(id);
+  }, [id]);
 
   const progress = useMemo(() => getProgress(state), [state]);
 
@@ -148,5 +262,8 @@ export function useBracket(id?: string) {
     currentMatchup,
     nextMatchup,
     canUndo,
+    savedRun,
+    resumeSavedRun,
+    discardSavedRun,
   };
 }
