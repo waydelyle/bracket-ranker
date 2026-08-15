@@ -18,7 +18,9 @@ import type { BracketItem } from "@/data/types";
 import { getBracketItemsAction } from "@/app/actions/bracket-items";
 import {
   decodeCustomEntries,
+  decodePlacement,
   encodeCustomEntries,
+  encodePlacement,
 } from "@/lib/serialization.mjs";
 import { cn } from "@/lib/utils";
 
@@ -43,31 +45,22 @@ type TierId = (typeof TIERS)[number]["id"];
 type Placement = Record<string, TierId | undefined>;
 
 const TIER_IDS = TIERS.map((tier) => tier.id) as TierId[];
-const UNPLACED = ".";
 const STORAGE_PREFIX = "br:tierlist:v2:";
 const STORAGE_LAST = "br:tierlist:v2:last";
 const MAX_CUSTOM = 24;
 
-function isTierId(value: string): value is TierId {
-  return (TIER_IDS as string[]).includes(value);
-}
-
 /**
- * Compact placement encoding: one character per entrant, in the dataset's own
- * order, followed by one per custom entrant. Short enough to survive being
- * pasted into a chat window, and stable because the JSON datasets are ordered.
+ * Placements for `ids`, or null when the link was not made from this list.
+ *
+ * The encoding is positional — one character per entrant, in the dataset's own
+ * order — which is what keeps a shared link short enough to paste into a chat
+ * window, and which also means it says nothing useful against a list that has
+ * changed since. `decodePlacement` checks the link's fingerprint against the
+ * current entrants and refuses a stale one rather than shifting everybody's
+ * tier along by one.
  */
-function encodePlacement(ids: string[], placement: Placement) {
-  return ids.map((id) => placement[id] ?? UNPLACED).join("");
-}
-
-function decodePlacement(ids: string[], encoded: string): Placement {
-  const next: Placement = {};
-  for (let index = 0; index < ids.length && index < encoded.length; index++) {
-    const char = encoded[index];
-    if (isTierId(char)) next[ids[index]] = char;
-  }
-  return next;
+function readPlacement(ids: string[], encoded: string): Placement | null {
+  return decodePlacement(ids, encoded, TIER_IDS) as Placement | null;
 }
 
 function customId(index: number) {
@@ -195,11 +188,22 @@ export function TierListMaker({
         ...next.map((item) => item.id),
         ...customNames.map((_, index) => customId(index)),
       ];
+      // A link, or a session saved earlier, made against a different version
+      // of this list cannot be read positionally. Keep the entrants, drop the
+      // tiers, and say so — a board that is silently one entrant out of step
+      // looks exactly like a correct one.
+      const restored = stored?.t ? readPlacement(ids, stored.t) : {};
+      if (stored?.t && restored === null) {
+        toast.error(
+          "This list has changed since those tiers were saved, so they could not be restored.",
+        );
+      }
+
       setDataset(entry);
       setBaseItems(next);
       setCustom(customNames);
       setOrder(ids);
-      setPlacement(stored?.t ? decodePlacement(ids, stored.t) : {});
+      setPlacement(restored ?? {});
       setSelected(null);
     },
     [],
@@ -307,7 +311,11 @@ export function TierListMaker({
     if (!hydrated) return;
     const key = `${dataset.category}/${dataset.slug}`;
     const encoded = encodePlacement(encodeIds, placement);
-    const empty = !encoded.replace(/\./g, "") && custom.length === 0;
+    // Read from the placements rather than from the encoded string: the string
+    // now carries a fingerprint of the entrant list, so stripping the
+    // "unplaced" characters out of it never leaves nothing behind.
+    const empty =
+      !Object.values(placement).some(Boolean) && custom.length === 0;
     try {
       window.localStorage.setItem(STORAGE_LAST, key);
       if (empty) {

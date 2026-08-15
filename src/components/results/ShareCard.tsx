@@ -1,7 +1,8 @@
 "use client";
 
 import { Trophy } from "lucide-react";
-import type { BracketItem } from "@/data/types";
+import type { BracketItem, Matchup, Standing } from "@/data/types";
+import { bracketStandings, formatPosition } from "@/lib/standings.mjs";
 
 interface ShareCardProps {
   ranking: string[];
@@ -9,6 +10,8 @@ interface ShareCardProps {
   bracketName: string;
   categoryName: string;
   categoryColor: string;
+  /** The matchups played, so shared positions are not shown as a strict order. */
+  matchups?: Matchup[];
 }
 
 export function ShareCard({
@@ -17,9 +20,11 @@ export function ShareCard({
   bracketName,
   categoryName,
   categoryColor,
+  matchups,
 }: ShareCardProps) {
   const itemMap = new Map(items.map((item) => [item.id, item]));
-  const displayRanking = ranking.slice(0, 10);
+  const standings = bracketStandings(ranking, matchups) as Standing[];
+  const displayRanking = standings.slice(0, 10);
 
   return (
     <div className="overflow-hidden rounded-2xl bg-card shadow-xl">
@@ -37,14 +42,17 @@ export function ShareCard({
       {/* Dark ranking list */}
       <div className="bg-card px-6 py-4">
         <div className="space-y-2.5">
-          {displayRanking.map((itemId, idx) => {
-            const item = itemMap.get(itemId);
+          {displayRanking.map((entry) => {
+            const item = itemMap.get(entry.id);
             if (!item) return null;
 
-            const isChampion = idx === 0;
+            const isChampion = entry.position === 1;
+            // Silver for the runner-up, and nothing below it: third place in a
+            // knockout is a tie the bracket never played off.
+            const medal = !entry.tied && entry.position === 2;
 
             return (
-              <div key={itemId} className="flex items-center gap-3">
+              <div key={entry.id} className="flex items-center gap-3">
                 {isChampion ? (
                   <Trophy
                     className="size-4 shrink-0"
@@ -53,26 +61,25 @@ export function ShareCard({
                 ) : (
                   <div
                     className="flex size-5 shrink-0 items-center justify-center rounded-full text-[10px] font-bold"
+                    title={
+                      entry.tied
+                        ? `Joint ${formatPosition(entry.position, entry.count)}`
+                        : undefined
+                    }
                     style={
-                      idx === 1
+                      medal
                         ? {
                             background:
                               "linear-gradient(to bottom right, #fbbf24, #d97706)",
                             color: "white",
                           }
-                        : idx === 2
-                          ? {
-                              background:
-                                "linear-gradient(to bottom right, #9ca3af, #6b7280)",
-                              color: "white",
-                            }
-                          : {
-                              background: "var(--secondary)",
-                              color: "var(--muted-foreground)",
-                            }
+                        : {
+                            background: "var(--secondary)",
+                            color: "var(--muted-foreground)",
+                          }
                     }
                   >
-                    {idx + 1}
+                    {entry.position}
                   </div>
                 )}
                 <span

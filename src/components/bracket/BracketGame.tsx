@@ -227,10 +227,15 @@ export function BracketGame({
 
           {/* Inline results preview */}
           <div className="w-full rounded-2xl bg-card p-4 text-left">
+            {/* The whole ranking and the whole history go in, so the eight
+                rows on screen still report the positions the full field
+                settled rather than their own row numbers. */}
             <ResultsDisplay
-              ranking={state.ranking.slice(0, 8)}
+              ranking={state.ranking}
               items={state.items}
               categoryColor={categoryColor}
+              matchups={state.matchupHistory}
+              limit={8}
             />
           </div>
 

@@ -395,3 +395,138 @@ test("round names and progress track the bracket size", () => {
   assert.equal(getProgress(afterOne).current, 1);
   assert.equal(getProgress(createInitialState()).percentage, 0);
 });
+
+// ---------------------------------------------------------------------------
+// Reproducibility
+//
+// The draw is shuffled, which is the one place unseeded randomness enters the
+// engine. Everything downstream of it has to be a pure function of the draw
+// order and the picks, or a saved run would not replay into the bracket it was
+// playing and a result could not be trusted to mean the same thing twice.
+// ---------------------------------------------------------------------------
+
+test("the same entrant order and the same picks give the same bracket twice", () => {
+  const items = makeItems(32);
+
+  // Each run takes whichever side the previous pick did not, so the two runs
+  // exercise the whole tree rather than one corner of it.
+  const run = () => {
+    let state = seed(items, 32, false);
+    let flip = false;
+    while (state.phase === "playing") {
+      const matchup =
+        state.rounds[state.currentRound].matchups[state.currentMatchup];
+      flip = !flip;
+      state = bracketReducer(state, {
+        type: "PICK_WINNER",
+        winnerId: (flip ? matchup.itemA : matchup.itemB).id,
+      });
+    }
+    return state;
+  };
+
+  const first = run();
+  const second = run();
+
+  assert.equal(first.phase, "complete");
+  assert.deepEqual(first.ranking, second.ranking);
+  assert.deepEqual(first.matchupHistory, second.matchupHistory);
+  assert.equal(first.champion, second.champion);
+  // Nothing anywhere in the state differs, not just the parts read back out.
+  assert.equal(JSON.stringify(first), JSON.stringify(second));
+});
+
+test("the draw is the only thing chance decides, and it is shuffled", () => {
+  const items = makeItems(32);
+
+  // Seeding without a shuffle is exactly the order it was handed.
+  assert.deepEqual(
+    seed(items, 32, false).items.map((item) => item.id),
+    items.map((item) => item.id),
+  );
+
+  // Seeding with one is not — which is the behaviour a replayed saved run
+  // switches off, and why the run stores the draw rather than re-rolling it.
+  const draws = new Set(
+    Array.from({ length: 20 }, () =>
+      seed(items, 32).items.map((item) => item.id).join(","),
+    ),
+  );
+  assert.ok(draws.size > 1, "the draw never changed across 20 seeds");
+
+  // However the draw falls, it is always the whole pool, each entrant once.
+  for (const draw of draws) {
+    const ids = draw.split(",");
+    assert.equal(ids.length, 32);
+    assert.equal(new Set(ids).size, 32);
+  }
+});
+
+test("byes fall on the same slots for the same field size every time", () => {
+  // Bye placement is derived from the tree, not drawn, so two seeds of the
+  // same field give byes to the same *slots* — the entrants standing in them
+  // differ only because the draw does.
+  for (const size of [12, 24, 40, 63]) {
+    const shape = (state) =>
+      state.rounds.map((round) => round.matchups.length).join(",");
+
+    const first = seed(makeItems(size), size, false);
+    const second = seed(makeItems(size), size, false);
+
+    assert.equal(shape(first), shape(second), `size ${size}`);
+    assert.deepEqual(first.rounds[0].advancesTo, second.rounds[0].advancesTo);
+    assert.equal(byeCount(size), bracketSlots(size) - size, `size ${size}`);
+  }
+});
+
+// ---------------------------------------------------------------------------
+// Scale
+// ---------------------------------------------------------------------------
+
+test("the largest field the UI offers plays through without blowing up", () => {
+  // 64 is MAX_FIELD_SIZE, and the largest built-in bracket is exactly that.
+  assert.equal(fieldSizeOptions(200).at(-1), 64);
+  assert.deepEqual(matchupsPerRound(64), [32, 16, 8, 4, 2, 1]);
+
+  const state = playAll(seed(makeItems(64), 64, false));
+
+  assert.equal(state.phase, "complete");
+  assert.equal(state.completedMatchups, 63);
+  assert.equal(state.ranking.length, 64);
+  assert.equal(new Set(state.ranking).size, 64);
+  assert.equal(state.matchupHistory.length, 63);
+  assert.equal(state.rounds.length, 6);
+
+  // A saved run is the ids and the picks, so what has to cross localStorage
+  // and a page reload stays small even at the largest size.
+  const snapshot = JSON.stringify({
+    itemIds: state.items.map((item) => item.id),
+    picks: state.matchupHistory.map((matchup) => matchup.winner),
+  });
+  assert.ok(snapshot.length < 4096, `${snapshot.length} bytes`);
+});
+
+test("work per pick does not grow quadratically with the field", () => {
+  // Every pick copies the round structure, so the cost of a whole run rises
+  // with the field. What must not happen is the *per-pick* cost rising with
+  // it too, which is what would make 64 entrants unplayable on a phone.
+  const cost = (size) => {
+    const started = process.hrtime.bigint();
+    for (let repeat = 0; repeat < 40; repeat++) {
+      playAll(seed(makeItems(size), size, false));
+    }
+    return Number(process.hrtime.bigint() - started) / 40 / (size - 1);
+  };
+
+  cost(16); // warm up, so the first measured size is not paying for the JIT
+  const small = cost(16);
+  const large = cost(64);
+
+  // Four times the field, and a pick may cost more — the tree it copies is
+  // bigger — but nothing like the sixteen times a quadratic per-pick cost
+  // would bring. Loose enough not to flake on a busy machine.
+  assert.ok(
+    large < small * 8,
+    `a pick costs ${(large / small).toFixed(1)}x more at 64 than at 16`,
+  );
+});

@@ -2,6 +2,7 @@
 
 import { nanoid } from "nanoid";
 import { getRedis } from "@/lib/kv";
+import { clampText } from "@/lib/serialization.mjs";
 import {
   MAX_CUSTOM_ITEMS,
   MAX_CUSTOM_ITEM_NAME_LENGTH,
@@ -35,11 +36,12 @@ export async function saveCustomBracket(
   input: CustomBracketInput
 ): Promise<string> {
   // This is a public endpoint writing 90-day Redis keys, so the payload needs a
-  // ceiling before it is stored.
-  const title =
-    typeof input?.title === "string"
-      ? input.title.trim().slice(0, MAX_CUSTOM_TITLE_LENGTH)
-      : "";
+  // ceiling before it is stored. Clipped with `clampText` rather than `slice`:
+  // cutting at a fixed number of UTF-16 units lands inside an emoji whenever an
+  // odd number of units precede it, and the half left behind is stored, served
+  // back, and then thrown at `encodeURIComponent` by the share buttons — which
+  // raises `URIError` and stops the shared result page from opening at all.
+  const title = clampText(input?.title, MAX_CUSTOM_TITLE_LENGTH);
   if (!title) throw new Error("A bracket needs a title");
 
   if (!Array.isArray(input.items)) throw new Error("Invalid items");
@@ -52,10 +54,7 @@ export async function saveCustomBracket(
   const used = new Set<string>();
   const bracketItems = kept
     .map((item, index) => {
-      const name =
-        typeof item?.name === "string"
-          ? item.name.trim().slice(0, MAX_CUSTOM_ITEM_NAME_LENGTH)
-          : "";
+      const name = clampText(item?.name, MAX_CUSTOM_ITEM_NAME_LENGTH);
       if (!name) return null;
 
       const base =

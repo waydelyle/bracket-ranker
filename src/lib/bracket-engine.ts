@@ -230,6 +230,14 @@ export interface RankingStage {
  * happened to be drawn in — not a preference. Presenting all 32 positions as a
  * strict 1-to-32 ranking claims 24 comparisons that were never made, so the
  * results are grouped by elimination round instead.
+ *
+ * The results screens no longer use this: they group by matchups won, via
+ * `src/lib/standings.mjs`. The two agree on a power-of-two field and disagree
+ * on one with byes, where an entrant that starts in the second round and loses
+ * has won nothing, yet went out a round later than one that played its opening
+ * matchup and lost. Grouping by round ranks that free pass above the entrant
+ * that turned up; grouping by wins puts them level. This is kept for the round
+ * *shape* of a field, which is what it describes correctly.
  */
 export function rankingStages(fieldSize: number): RankingStage[] {
   const counts = matchupsPerRound(fieldSize);

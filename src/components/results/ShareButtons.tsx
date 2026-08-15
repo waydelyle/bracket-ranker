@@ -13,20 +13,40 @@ import {
   XIcon,
 } from "./BrandIcons";
 
+export interface PodiumEntry {
+  name: string;
+  /** How the position reads, e.g. "1", "2", "=3" for a shared third. */
+  label: string;
+}
+
 interface ShareButtonsProps {
   resultId: string;
   bracketName: string;
   champion: string;
-  /** Runners-up, used to make the shared text worth reading. */
-  runnersUp?: string[];
+  /** The top few, already labelled, so the shared text does not invent places. */
+  podium?: PodiumEntry[];
   categoryColor?: string;
+}
+
+/**
+ * A query string that cannot throw on the way out.
+ *
+ * `encodeURIComponent` raises `URIError` on an unpaired surrogate, and entrant
+ * names and custom bracket titles come from user input by way of Redis — a
+ * title clipped through an emoji by an older build still has one. Thrown here,
+ * during render, it took the whole shared result page down with it, so the link
+ * could not be opened at all. `URLSearchParams` substitutes the replacement
+ * character instead of throwing.
+ */
+function query(params: Record<string, string>): string {
+  return new URLSearchParams(params).toString();
 }
 
 export function ShareButtons({
   resultId,
   bracketName,
   champion,
-  runnersUp = [],
+  podium = [],
   categoryColor,
 }: ShareButtonsProps) {
   // Only known after mount, and gating the primary button on it would
@@ -40,12 +60,15 @@ export function ShareButtons({
 
   const resultUrl = `${SITE_URL}/results/${resultId}`;
 
-  const podium = [champion, ...runnersUp.slice(0, 2)]
-    .filter(Boolean)
-    .map((name, index) => `${index + 1}. ${name}`)
+  // "=3" rather than "3" where the bracket left two entrants level, so the
+  // text people paste elsewhere claims no more than the results do.
+  const podiumText = podium
+    .map((entry) => `${entry.label}. ${entry.name}`)
     .join("  ");
 
-  const shareText = `My ${bracketName} ranking:\n${podium}\n\nThink you can do better?`;
+  const shareText = podiumText
+    ? `My ${bracketName} ranking:\n${podiumText}\n\nThink you can do better?`
+    : `My ${bracketName} ranking. Think you can do better?`;
   const shortText = `${champion} won my ${bracketName} bracket. What's your #1?`;
 
   const targets = [
@@ -53,31 +76,36 @@ export function ShareButtons({
       key: "x",
       label: "X",
       Icon: XIcon,
-      href: `https://twitter.com/intent/tweet?text=${encodeURIComponent(shortText)}&url=${encodeURIComponent(resultUrl)}`,
+      href: `https://twitter.com/intent/tweet?${query({ text: shortText, url: resultUrl })}`,
     },
     {
       key: "reddit",
       label: "Reddit",
       Icon: RedditIcon,
-      href: `https://www.reddit.com/submit?url=${encodeURIComponent(resultUrl)}&title=${encodeURIComponent(`My ${bracketName} ranking — ${champion} took it`)}`,
+      href: `https://www.reddit.com/submit?${query({
+        url: resultUrl,
+        title: `My ${bracketName} ranking — ${champion} took it`,
+      })}`,
     },
     {
       key: "whatsapp",
       label: "WhatsApp",
       Icon: WhatsAppIcon,
-      href: `https://wa.me/?text=${encodeURIComponent(`${shortText} ${resultUrl}`)}`,
+      href: `https://wa.me/?${query({ text: `${shortText} ${resultUrl}` })}`,
     },
     {
       key: "threads",
       label: "Threads",
       Icon: ThreadsIcon,
-      href: `https://www.threads.net/intent/post?text=${encodeURIComponent(`${shortText} ${resultUrl}`)}`,
+      href: `https://www.threads.net/intent/post?${query({
+        text: `${shortText} ${resultUrl}`,
+      })}`,
     },
     {
       key: "facebook",
       label: "Facebook",
       Icon: FacebookIcon,
-      href: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(resultUrl)}`,
+      href: `https://www.facebook.com/sharer/sharer.php?${query({ u: resultUrl })}`,
     },
   ];
 

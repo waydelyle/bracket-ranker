@@ -2,7 +2,8 @@ import { ImageResponse } from "@vercel/og";
 import { TrophyMark } from "@/components/seo/TrophyMark";
 import { getResult } from "@/app/actions/results";
 import { resolveResultBracket } from "@/lib/result-bracket";
-import type { BracketResult } from "@/data/types";
+import { bracketStandings } from "@/lib/standings.mjs";
+import type { BracketResult, Standing } from "@/data/types";
 
 export const runtime = "edge";
 
@@ -89,11 +90,18 @@ export async function GET(
 
   const itemMap = new Map(items?.map((i) => [i.id, i]) ?? []);
 
-  // Top 5 ranking
-  const top5 = result.ranking.slice(0, 5).map((itemId, idx) => {
-    const item = itemMap.get(itemId);
-    return { rank: idx + 1, name: item?.name ?? itemId };
-  });
+  // Top 5, by shared position rather than by row number: a knockout settles
+  // the champion and the runner-up, and past that the entrants that got
+  // equally far are tied, so two of them can both be third.
+  const standings = bracketStandings(
+    result.ranking,
+    result.matchups,
+  ) as Standing[];
+  const top5 = standings.slice(0, 5).map((entry) => ({
+    key: entry.id,
+    rank: entry.position,
+    name: itemMap.get(entry.id)?.name ?? entry.id,
+  }));
 
   const championName = top5[0]?.name ?? "Champion";
 
@@ -200,7 +208,7 @@ export async function GET(
         >
           {top5.slice(1).map((item) => (
             <div
-              key={item.rank}
+              key={item.key}
               style={{
                 display: "flex",
                 alignItems: "center",

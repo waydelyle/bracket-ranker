@@ -6,9 +6,10 @@ import { Trophy, ArrowRight } from "lucide-react";
 import { getResult } from "@/app/actions/results";
 import { getVoteStats } from "@/app/actions/votes";
 import { getBracketMeta } from "@/data/registry";
-import type { BracketResult } from "@/data/types";
+import type { BracketResult, Standing } from "@/data/types";
 import { getRelatedBrackets } from "@/lib/seo";
 import { resolveResultBracket } from "@/lib/result-bracket";
+import { bracketStandings } from "@/lib/standings.mjs";
 import { OG_DEFAULTS } from "@/lib/site";
 import { Button } from "@/components/ui/button";
 import { ResultsDisplay } from "@/components/results/ResultsDisplay";
@@ -52,7 +53,13 @@ export async function generateMetadata({
   // described the whole website and gave nobody a reason to click.
   const nameFor = (itemId: string) =>
     items?.find((item) => item.id === itemId)?.name ?? itemId;
-  const podium = result.ranking.slice(0, 3).map(nameFor);
+  // From the standings, so the card names the same three the page and the
+  // share image do — the raw ranking can order a tied pair the other way.
+  const podium = (
+    bracketStandings(result.ranking, result.matchups) as Standing[]
+  )
+    .slice(0, 3)
+    .map((entry) => nameFor(entry.id));
   const description =
     podium.length > 1
       ? `${podium[0]} is my #1 in the ${bracketName} bracket, ahead of ${podium.slice(1).join(" and ")}. See the full ranking and build your own.`
@@ -123,8 +130,17 @@ export default async function ResultsPage({ params }: ResultsPageProps) {
   const championName = championItem?.name ?? result.champion;
 
   // Runners-up make the shared text worth reading — "X won" alone says little.
+  // Labelled from the standings so a shared third place is marked "=3" rather
+  // than being passed off as an outright one.
   const nameFor = (id: string) => items?.find((i) => i.id === id)?.name ?? id;
-  const runnersUp = result.ranking.slice(1, 3).map(nameFor);
+  const standings = bracketStandings(
+    result.ranking,
+    result.matchups,
+  ) as Standing[];
+  const podium = standings.slice(0, 3).map((entry) => ({
+    name: nameFor(entry.id),
+    label: entry.tied ? `=${entry.position}` : `${entry.position}`,
+  }));
 
   // A finished bracket is the moment someone is most likely to play another
   // one, so the page needs somewhere to go that is not the bracket they just did.
@@ -166,7 +182,7 @@ export default async function ResultsPage({ params }: ResultsPageProps) {
             resultId={id}
             bracketName={bracketName}
             champion={championName}
-            runnersUp={runnersUp}
+            podium={podium}
             categoryColor={categoryColor}
           />
         </div>
@@ -184,6 +200,7 @@ export default async function ResultsPage({ params }: ResultsPageProps) {
                 bracketName={bracketName}
                 categoryName={categoryName}
                 categoryColor={categoryColor}
+                matchups={result.matchups}
               />
             ) : null}
           </div>
@@ -194,12 +211,20 @@ export default async function ResultsPage({ params }: ResultsPageProps) {
           {/* Full ranking */}
           <div className="space-y-3">
             <h2 className="text-lg font-bold">Full Ranking</h2>
+            {/* The draw is shuffled, and in a knockout the draw is part of the
+                result: an entrant put opposite the eventual champion goes out
+                earlier than the same entrant would have anywhere else. Worth
+                saying, rather than letting the list read as a pure verdict. */}
+            <p className="text-sm text-muted-foreground">
+              Entrants are drawn at random, so who met whom is part of how this
+              turned out.
+            </p>
             {items ? (
               <ResultsDisplay
                 ranking={result.ranking}
                 items={items}
                 categoryColor={categoryColor}
-                bracketSize={result.ranking.length}
+                matchups={result.matchups}
               />
             ) : (
               <ol className="space-y-1 text-sm">

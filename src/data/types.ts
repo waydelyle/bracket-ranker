@@ -48,6 +48,25 @@ export interface Matchup {
   winner: string;
 }
 
+/**
+ * Where one entrant finished, as `src/lib/standings.mjs` works it out.
+ *
+ * Declared here because that module is plain ESM — kept that way so
+ * `node --test` can exercise it — and so carries no types of its own.
+ */
+export interface Standing {
+  id: string;
+  /** Shared 1-based position. Equal for entrants the bracket never separated. */
+  position: number;
+  /** How many entrants hold that position. */
+  count: number;
+  tied: boolean;
+  /** Matchups this entrant won — the only thing a knockout really measures. */
+  wins: number;
+  /** Round it went out in, or null for the champion. */
+  eliminatedInRound: number | null;
+}
+
 export interface GlobalStats {
   categoryId: string;
   itemId: string;
