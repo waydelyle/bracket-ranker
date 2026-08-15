@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { maxBracketSize } from "@/lib/bracket-engine";
+import { resolveFieldSize } from "@/lib/bracket-engine";
 import type { SavedRunSummary } from "@/hooks/useBracket";
 import { BracketSizeSelector } from "./BracketSizeSelector";
 import { ResumeCard } from "./ResumeCard";
@@ -38,7 +38,7 @@ export function BracketIntro({
 }: BracketIntroProps) {
   // A bracket larger than the item pool can never be completed, so the
   // preselected size is clamped to what these items can actually fill.
-  const playableDefault = Math.min(defaultSize, maxBracketSize(itemCount));
+  const playableDefault = resolveFieldSize(defaultSize, itemCount);
   const [selectedSize, setSelectedSize] = useState<number>(playableDefault);
 
   return (
@@ -100,6 +100,9 @@ export function BracketIntro({
           {/* Start button */}
           <Button
             onClick={() => onStart(selectedSize)}
+            // A pool too small for any field has nothing to start, and the
+            // reducer would silently ignore the click.
+            disabled={selectedSize === 0}
             className="h-12 gap-2 rounded-xl px-8 text-base font-bold text-white shadow-lg transition-transform hover:scale-[1.03]"
             style={{
               backgroundColor: categoryColor,

@@ -3,8 +3,7 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { Trophy, Users } from "lucide-react";
-
-const BRACKET_SIZES = [8, 16, 32, 64] as const;
+import { byeCount, fieldSizeOptions } from "@/lib/bracket-engine";
 
 interface BracketSizeSelectorProps {
   itemCount: number;
@@ -21,6 +20,11 @@ export function BracketSizeSelector({
 }: BracketSizeSelectorProps) {
   const [selected, setSelected] = useState<number>(defaultSize);
 
+  // Only fields this pool can actually play are offered. The pool's own size is
+  // one of them even when it is not a power of two — that run gives out
+  // first-round byes rather than leaving entrants out of the draw.
+  const sizes = fieldSizeOptions(itemCount);
+
   const handleSelect = (size: number) => {
     setSelected(size);
     onSelect(size);
@@ -34,26 +38,25 @@ export function BracketSizeSelector({
       </div>
 
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-        {BRACKET_SIZES.map((size) => {
-          const available = itemCount >= size;
+        {sizes.map((size) => {
           const isSelected = selected === size;
+          const byes = byeCount(size);
+          const isFullField = size >= itemCount;
 
           return (
             <button
               key={size}
               type="button"
-              onClick={() => available && handleSelect(size)}
-              disabled={!available}
+              onClick={() => handleSelect(size)}
+              // Icon-and-number tiles say nothing about their state to a
+              // screen reader; without this the chosen field is invisible.
+              aria-pressed={isSelected}
               className={cn(
                 "relative flex flex-col items-center gap-1 rounded-xl border-2 p-4 transition-all duration-200",
                 "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
-                "bg-card",
-                available &&
-                  !isSelected &&
-                  "border-border hover:shadow-md cursor-pointer",
-                isSelected && "shadow-md cursor-pointer",
-                !available &&
-                  "cursor-not-allowed border-border/50 opacity-50",
+                "cursor-pointer bg-card",
+                !isSelected && "border-border hover:shadow-md",
+                isSelected && "shadow-md",
               )}
               style={
                 isSelected
@@ -62,19 +65,15 @@ export function BracketSizeSelector({
                       backgroundColor: `${categoryColor}18`,
                       boxShadow: `0 0 16px 2px ${categoryColor}30`,
                     }
-                  : available
-                    ? {
-                        borderColor: undefined,
-                      }
-                    : undefined
+                  : undefined
               }
               onMouseEnter={(e) => {
-                if (available && !isSelected) {
+                if (!isSelected) {
                   e.currentTarget.style.borderColor = `${categoryColor}66`;
                 }
               }}
               onMouseLeave={(e) => {
-                if (available && !isSelected) {
+                if (!isSelected) {
                   e.currentTarget.style.borderColor = "";
                 }
               }}
@@ -94,7 +93,13 @@ export function BracketSizeSelector({
                 {size}
               </span>
               <span className="text-xs text-muted-foreground">
-                {available ? `${size} of ${itemCount}` : `Need ${size}`}
+                {/* The bye count is the one thing about a full field that is
+                    not obvious, and it changes how the first round feels. */}
+                {isFullField
+                  ? byes > 0
+                    ? `all — ${byes} on a bye`
+                    : "every entrant"
+                  : `${size} of ${itemCount}`}
               </span>
             </button>
           );

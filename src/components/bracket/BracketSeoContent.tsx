@@ -52,7 +52,9 @@ export function BracketSeoContent({
             </h3>
             <ol className="grid gap-2 sm:grid-cols-2">
               {seo.rounds.map((round, index) => {
-                const matchups = Math.pow(2, seo.rounds.length - index - 1);
+                // Read off the real shape of the draw: an opening round with
+                // byes plays fewer matchups than half the field.
+                const matchups = seo.roundMatchups[index] ?? 0;
                 return (
                   <li
                     key={round}

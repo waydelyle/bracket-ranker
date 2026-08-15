@@ -9,6 +9,15 @@ export type BracketPhase = 'intro' | 'playing' | 'complete';
 export interface Round {
   name: string; // "Round of 32", "Sweet 16", etc.
   matchups: RoundMatchup[];
+  /**
+   * Where each matchup's winner lands in the next round, as an index into that
+   * round's entrant slots (slot `s` is side `s % 2` of matchup `s / 2`).
+   *
+   * Only the opening round needs it. A field that is not a power of two has
+   * fewer opening matchups than slots, because the entrants holding a bye
+   * occupy the rest, so winner *i* does not simply feed slot *i*.
+   */
+  advancesTo?: number[];
 }
 
 export interface RoundMatchup {
@@ -52,6 +61,12 @@ export type BracketAction =
 // Constants
 // ---------------------------------------------------------------------------
 
+/** Below this there are not enough entrants for a bracket worth playing. */
+export const MIN_FIELD_SIZE = 8;
+
+/** Above this a run is longer than anyone finishes. */
+export const MAX_FIELD_SIZE = 64;
+
 const ROUND_NAMES_BY_SIZE: Record<number, string[]> = {
   64: [
     'Round of 64',
@@ -80,25 +95,122 @@ function shuffle<T>(array: T[]): T[] {
   return copy;
 }
 
-/**
- * Largest valid bracket size that can actually be filled by `itemCount` items.
- *
- * A bracket only works when the first round is completely full: every later
- * round is sized from the bracket size, so seeding a 16-slot bracket with 12
- * items leaves permanently empty matchups and the game becomes unfinishable.
- */
-export function maxBracketSize(itemCount: number): number {
-  const sizes = [64, 32, 16, 8] as const;
-  return sizes.find((size) => itemCount >= size) ?? 0;
+/** Knockout tree a field of this size is drawn into, and how deep it runs. */
+function treeFor(fieldSize: number): { slots: number; rounds: number } {
+  if (!Number.isInteger(fieldSize) || fieldSize < 2) {
+    return { slots: 1, rounds: 0 };
+  }
+  let slots = 1;
+  let rounds = 0;
+  while (slots < fieldSize) {
+    slots *= 2;
+    rounds += 1;
+  }
+  return { slots, rounds };
 }
 
-/** Returns the display name for a given round in a bracket of the given size. */
-export function getRoundName(bracketSize: number, roundIndex: number): string {
-  const names = ROUND_NAMES_BY_SIZE[bracketSize];
-  if (!names || roundIndex < 0 || roundIndex >= names.length) {
-    return `Round ${roundIndex + 1}`;
+/**
+ * Slots in the knockout tree a field of `fieldSize` entrants is drawn into:
+ * `fieldSize` rounded up to a power of two. The difference is the byes.
+ */
+export function bracketSlots(fieldSize: number): number {
+  return treeFor(fieldSize).slots;
+}
+
+/** How many entrants start the bracket without an opening-round matchup. */
+export function byeCount(fieldSize: number): number {
+  const { slots } = treeFor(fieldSize);
+  return slots > 1 ? slots - fieldSize : 0;
+}
+
+/** How many rounds a field of this size plays. */
+export function roundCount(fieldSize: number): number {
+  return treeFor(fieldSize).rounds;
+}
+
+/**
+ * Matchups in each round, opening round first.
+ *
+ * The opening round is the only irregular one: with byes it holds just the
+ * entrants that have to play in, so it is smaller than half the field.
+ */
+export function matchupsPerRound(fieldSize: number): number[] {
+  const { slots, rounds } = treeFor(fieldSize);
+  if (rounds < 1) return [];
+
+  const counts = [fieldSize - slots / 2];
+  for (let round = 1; round < rounds; round++) {
+    counts.push(slots / Math.pow(2, round + 1));
   }
-  return names[roundIndex];
+  return counts;
+}
+
+/** Which round the next pick falls in, after `completedPicks` picks. */
+export function roundIndexForPick(
+  fieldSize: number,
+  completedPicks: number,
+): number {
+  const counts = matchupsPerRound(fieldSize);
+  if (counts.length === 0) return 0;
+
+  let remaining = Math.max(0, completedPicks);
+  for (let round = 0; round < counts.length; round++) {
+    if (remaining < counts[round]) return round;
+    remaining -= counts[round];
+  }
+  // Every matchup is done; the last pick belonged to the final round.
+  return counts.length - 1;
+}
+
+/**
+ * Field sizes `itemCount` entrants can play, ascending.
+ *
+ * The powers of two are the short runs. The pool's own size is offered
+ * alongside them whenever it is not one — a 24-entrant bracket used to be
+ * capped at 16, which meant a third of the field was dropped from the draw at
+ * random and never appeared in the ranking at all.
+ */
+export function fieldSizeOptions(itemCount: number): number[] {
+  const full = Math.min(Math.floor(itemCount) || 0, MAX_FIELD_SIZE);
+  if (full < MIN_FIELD_SIZE) return [];
+
+  const sizes = [8, 16, 32, 64].filter((size) => size <= full);
+  if (!sizes.includes(full)) sizes.push(full);
+  return sizes;
+}
+
+/**
+ * The field a request for `requested` slots actually plays, or 0 when the pool
+ * is too small for a bracket. Falls back to the largest playable field that is
+ * no larger than what was asked for.
+ */
+export function resolveFieldSize(requested: number, itemCount: number): number {
+  const options = fieldSizeOptions(itemCount);
+  if (options.length === 0) return 0;
+  if (options.includes(requested)) return requested;
+
+  const smaller = options.filter((size) => size <= requested);
+  return smaller.length > 0 ? smaller[smaller.length - 1] : options[0];
+}
+
+/** Returns the display name for a given round in a field of the given size. */
+export function getRoundName(fieldSize: number, roundIndex: number): string {
+  const fallback = `Round ${roundIndex + 1}`;
+  if (roundIndex < 0) return fallback;
+
+  const names = ROUND_NAMES_BY_SIZE[fieldSize];
+  if (names) return names[roundIndex] ?? fallback;
+
+  // A field that is not a power of two opens with a partial round: the
+  // entrants without a bye play in, and from there it is an ordinary bracket
+  // of half the tree's slots.
+  const { slots, rounds } = treeFor(fieldSize);
+  if (rounds > 0 && slots !== fieldSize) {
+    if (roundIndex === 0) return `Round of ${fieldSize}`;
+    return ROUND_NAMES_BY_SIZE[slots / 2]?.[roundIndex - 1] ?? fallback;
+  }
+
+  return fallback;
 }
 
 export interface RankingStage {
@@ -119,24 +231,30 @@ export interface RankingStage {
  * strict 1-to-32 ranking claims 24 comparisons that were never made, so the
  * results are grouped by elimination round instead.
  */
-export function rankingStages(bracketSize: number): RankingStage[] {
-  const rounds = Math.round(Math.log2(bracketSize));
-  if (!Number.isFinite(rounds) || rounds < 1) return [];
+export function rankingStages(fieldSize: number): RankingStage[] {
+  const counts = matchupsPerRound(fieldSize);
+  if (counts.length === 0) return [];
 
   const stages: RankingStage[] = [{ label: "Champion", start: 0, count: 1 }];
 
-  // Losers of the last round sit closest to the champion: the final's loser is
-  // second, the previous round's two losers are third and fourth, and so on.
-  for (let round = rounds - 1; round >= 0; round--) {
-    const count = bracketSize / Math.pow(2, round + 1);
+  // One entrant goes out per matchup, so a round's matchup count is also the
+  // number of entrants it eliminates. Losers of the last round sit closest to
+  // the champion: the final's loser is second, the previous round's two losers
+  // are third and fourth, and so on.
+  let start = 1;
+  for (let round = counts.length - 1; round >= 0; round--) {
+    const count = counts[round];
+    if (count <= 0) continue;
+
     stages.push({
       label:
-        round === rounds - 1
+        round === counts.length - 1
           ? "Runner-up"
-          : `Eliminated in the ${getRoundName(bracketSize, round)}`,
-      start: count,
+          : `Eliminated in the ${getRoundName(fieldSize, round)}`,
+      start,
       count,
     });
+    start += count;
   }
 
   return stages;
@@ -185,42 +303,91 @@ function totalMatchupsForSize(size: number): number {
   return size - 1;
 }
 
-/** How many rounds are needed for a bracket of the given size. */
-function roundCount(size: number): number {
-  return Math.log2(size);
+/** A slot nobody has reached yet. */
+function emptyMatchup(): RoundMatchup {
+  return {
+    itemA: null as unknown as BracketItem,
+    itemB: null as unknown as BracketItem,
+  };
 }
 
-/** Build the full round structure. Only the first round has populated matchups. */
-function buildRounds(
-  items: BracketItem[],
-  bracketSize: number
-): Round[] {
-  const numRounds = roundCount(bracketSize);
-  const rounds: Round[] = [];
+/**
+ * Which opening-round slots hold a bye, spread as evenly as the tree allows.
+ *
+ * Handing byes out in slot order would pile them all into one corner: in a
+ * 24-entrant field the first eight entrants would reach the Round of 16
+ * untouched while the rest of the draw played a full round. Slots are taken in
+ * bit-reversed order instead — the standard way to spread a prefix across a
+ * binary tree — so every half, quarter and eighth of the draw ends up with the
+ * same number of byes, give or take one.
+ */
+function byeSlots(slotCount: number, byes: number): Set<number> {
+  const slots = new Set<number>();
+  if (byes <= 0) return slots;
 
-  for (let r = 0; r < numRounds; r++) {
-    const matchupCount = bracketSize / Math.pow(2, r + 1);
-    const name = getRoundName(bracketSize, r);
+  let bits = 0;
+  while (1 << bits < slotCount) bits += 1; // shift binds tighter than compare
 
-    if (r === 0) {
-      // First round — pair items sequentially.
-      const matchups: RoundMatchup[] = [];
-      for (let i = 0; i < items.length; i += 2) {
-        matchups.push({ itemA: items[i], itemB: items[i + 1] });
-      }
-      rounds.push({ name, matchups });
-    } else {
-      // Later rounds — create placeholder matchups with empty items.
-      // These will be populated as winners advance.
-      const placeholders: RoundMatchup[] = Array.from(
-        { length: matchupCount },
-        () => ({
-          itemA: null as unknown as BracketItem,
-          itemB: null as unknown as BracketItem,
-        })
-      );
-      rounds.push({ name, matchups: placeholders });
+  for (let index = 0; index < slotCount && slots.size < byes; index++) {
+    let reversed = 0;
+    for (let bit = 0; bit < bits; bit++) {
+      reversed = (reversed << 1) | ((index >> bit) & 1);
     }
+    slots.add(reversed);
+  }
+
+  return slots;
+}
+
+/**
+ * Builds the full round structure for a field of `items`.
+ *
+ * The opening round holds only the entrants that have to play in; everyone on
+ * a bye is placed straight into the second round, which is therefore already
+ * part-filled when the bracket starts.
+ */
+function buildRounds(items: BracketItem[]): Round[] {
+  const fieldSize = items.length;
+  const { slots, rounds: numRounds } = treeFor(fieldSize);
+  const openingSlots = slots / 2;
+  const byes = byeSlots(openingSlots, slots - fieldSize);
+
+  const opening: RoundMatchup[] = [];
+  const advancesTo: number[] = [];
+  const seeded: (BracketItem | null)[] = Array.from(
+    { length: openingSlots },
+    () => null,
+  );
+
+  let next = 0;
+  for (let slot = 0; slot < openingSlots; slot++) {
+    if (byes.has(slot)) {
+      seeded[slot] = items[next++];
+      continue;
+    }
+    advancesTo.push(slot);
+    opening.push({ itemA: items[next++], itemB: items[next++] });
+  }
+
+  const rounds: Round[] = [
+    { name: getRoundName(fieldSize, 0), matchups: opening, advancesTo },
+  ];
+
+  for (let r = 1; r < numRounds; r++) {
+    const matchupCount = slots / Math.pow(2, r + 1);
+    const matchups: RoundMatchup[] = Array.from(
+      { length: matchupCount },
+      (_, index) => {
+        if (r > 1) return emptyMatchup();
+        // Second round — byes are already standing in their slots, and the
+        // remaining sides fill in as the opening round is played.
+        return {
+          itemA: seeded[index * 2] as BracketItem,
+          itemB: seeded[index * 2 + 1] as BracketItem,
+        };
+      },
+    );
+    rounds.push({ name: getRoundName(fieldSize, r), matchups });
   }
 
   return rounds;
@@ -230,27 +397,43 @@ function buildRounds(
 // Internal helpers for PICK_WINNER
 // ---------------------------------------------------------------------------
 
+/** A rounds array that can be edited without touching the previous state. */
+function copyRounds(rounds: Round[]): Round[] {
+  return rounds.map((round) => ({
+    ...round,
+    matchups: round.matchups.map((matchup) => ({ ...matchup })),
+  }));
+}
+
+/**
+ * Walks each matchup of a round to the entrant slot its winner takes in the
+ * next round. Byes make the opening round's mapping non-trivial, so it is
+ * carried on the round itself.
+ */
+function forEachAdvance(
+  rounds: Round[],
+  roundIdx: number,
+  visit: (target: RoundMatchup, side: "itemA" | "itemB", from: RoundMatchup) => void,
+): void {
+  const round = rounds[roundIdx];
+  const nextRound = rounds[roundIdx + 1];
+  if (!round || !nextRound) return;
+
+  round.matchups.forEach((matchup, index) => {
+    const slot = round.advancesTo ? round.advancesTo[index] : index;
+    const target = nextRound.matchups[Math.floor(slot / 2)];
+    if (!target) return;
+    visit(target, slot % 2 === 0 ? "itemA" : "itemB", matchup);
+  });
+}
+
 /** Populate the next round's matchups from the current round's winners. */
 function populateNextRound(rounds: Round[], currentRoundIdx: number): Round[] {
-  const updatedRounds = rounds.map((r) => ({
-    ...r,
-    matchups: r.matchups.map((m) => ({ ...m })),
-  }));
+  const updatedRounds = copyRounds(rounds);
 
-  const currentRound = updatedRounds[currentRoundIdx];
-  const nextRound = updatedRounds[currentRoundIdx + 1];
-
-  if (!nextRound) return updatedRounds;
-
-  const winners = currentRound.matchups.map((m) => m.winner!);
-
-  for (let i = 0; i < winners.length; i += 2) {
-    const matchupIdx = i / 2;
-    nextRound.matchups[matchupIdx] = {
-      itemA: winners[i],
-      itemB: winners[i + 1],
-    };
-  }
+  forEachAdvance(updatedRounds, currentRoundIdx, (target, side, from) => {
+    if (from.winner) target[side] = from.winner;
+  });
 
   return updatedRounds;
 }
@@ -266,19 +449,20 @@ export function bracketReducer(
   switch (action.type) {
     case 'SEED': {
       const { items, size, shuffleItems = true } = action;
-      const validSizes = [8, 16, 32, 64];
-      const requested = validSizes.includes(size) ? size : 8;
+      if (!Array.isArray(items)) return state;
 
-      // Never seed a bracket larger than the item pool can fill. Doing so
-      // leaves null matchups in later rounds and the bracket can never finish.
-      const bracketSize = Math.min(requested, maxBracketSize(items.length));
+      // Never seed a field the item pool cannot fill: the missing entrants
+      // would leave matchups that nobody can play and the bracket could never
+      // finish. A field the pool fills only partly is fine — the gap becomes
+      // first-round byes.
+      const bracketSize = resolveFieldSize(size, items.length);
       if (bracketSize === 0) return state;
 
       // Shuffle and pick the required number of items.
       const ordered = shuffleItems ? shuffle(items) : items;
       const selected = ordered.slice(0, bracketSize);
 
-      const rounds = buildRounds(selected, bracketSize);
+      const rounds = buildRounds(selected);
 
       return {
         phase: 'playing',
@@ -302,9 +486,10 @@ export function bracketReducer(
       const { currentRound, currentMatchup, rounds } = state;
 
       const round = rounds[currentRound];
-      const matchup = round.matchups[currentMatchup];
+      const matchup = round?.matchups[currentMatchup];
 
       // Validate that the winner is one of the two items in this matchup.
+      if (!matchup?.itemA || !matchup.itemB) return state;
       if (matchup.itemA.id !== winnerId && matchup.itemB.id !== winnerId) {
         return state;
       }
@@ -315,10 +500,7 @@ export function bracketReducer(
         matchup.itemA.id === winnerId ? matchup.itemB : matchup.itemA;
 
       // Deep-copy rounds and record the winner on the current matchup.
-      let updatedRounds = rounds.map((r) => ({
-        ...r,
-        matchups: r.matchups.map((m) => ({ ...m })),
-      }));
+      let updatedRounds = copyRounds(rounds);
       updatedRounds[currentRound].matchups[currentMatchup] = {
         ...matchup,
         winner,
@@ -390,10 +572,7 @@ export function bracketReducer(
       const lastEntry = state.matchupHistory[state.matchupHistory.length - 1];
 
       // Deep-copy rounds.
-      const updatedRounds = state.rounds.map((r) => ({
-        ...r,
-        matchups: r.matchups.map((m) => ({ ...m })),
-      }));
+      const updatedRounds = copyRounds(state.rounds);
 
       const wasComplete = state.phase === 'complete';
 
@@ -424,19 +603,14 @@ export function bracketReducer(
         itemB: updatedRounds[prevRound].matchups[prevMatchupIdx].itemB,
       };
 
-      // If undoing across a round boundary, clear the next round's matchups.
+      // If undoing across a round boundary, take back the advances the round
+      // just made. Only the slots its winners filled are cleared: entrants
+      // standing in the next round on a bye never played for their place and
+      // must keep it.
       if (prevRound < state.currentRound || wasComplete) {
-        // Clear all matchups in the round that was being played (or would have been next).
-        const roundToClear = prevRound + 1;
-        if (roundToClear < updatedRounds.length) {
-          updatedRounds[roundToClear] = {
-            ...updatedRounds[roundToClear],
-            matchups: updatedRounds[roundToClear].matchups.map(() => ({
-              itemA: null as unknown as BracketItem,
-              itemB: null as unknown as BracketItem,
-            })),
-          };
-        }
+        forEachAdvance(updatedRounds, prevRound, (target, side) => {
+          target[side] = null as unknown as BracketItem;
+        });
       }
 
       // Remove the loser (or champion) from ranking.

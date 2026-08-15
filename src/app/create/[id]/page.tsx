@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getCustomBracket } from "@/app/actions/custom-brackets";
+import { MAX_FIELD_SIZE } from "@/lib/bracket-engine";
 import { BracketGame } from "@/components/bracket/BracketGame";
 
 interface Props {
@@ -37,14 +38,10 @@ export default async function CustomBracketPage({ params }: Props) {
     notFound();
   }
 
-  const defaultSize =
-    bracket.items.length >= 64
-      ? 64
-      : bracket.items.length >= 32
-        ? 32
-        : bracket.items.length >= 16
-          ? 16
-          : 8;
+  // Everything the builder was given is in the field. Rounding down to a power
+  // of two threw away up to half of a custom bracket's entrants — the ones
+  // someone had just typed in by hand — before the first matchup.
+  const defaultSize = Math.min(bracket.items.length, MAX_FIELD_SIZE);
 
   return (
     <div className="flex flex-1 flex-col">

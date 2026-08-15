@@ -13,6 +13,7 @@ import {
   createInitialState,
   getProgress,
   getRoundName,
+  roundIndexForPick,
   type BracketState,
 } from '@/lib/bracket-engine';
 import {
@@ -143,7 +144,10 @@ export function useBracket(id?: string, items?: BracketItem[]) {
       completed: summary.completed,
       total: summary.total,
       percentage: summary.percentage,
-      roundName: getRoundName(progress.size, summary.roundIndex),
+      roundName: getRoundName(
+        progress.size,
+        roundIndexForPick(progress.size, summary.completed),
+      ),
       savedAt: summary.savedAt,
     };
   }, [storedRun, state.phase]);

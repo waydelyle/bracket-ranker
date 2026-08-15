@@ -27,7 +27,19 @@ export const PROGRESS_VERSION = 2;
 /** A part-finished bracket is only worth resuming for a day. */
 export const PROGRESS_TTL_MS = 24 * 60 * 60 * 1000;
 
-const VALID_SIZES = [8, 16, 32, 64];
+/**
+ * Field sizes a run can have used. Any whole number in range: a field is no
+ * longer rounded down to a power of two, so a 24-entrant bracket saves as 24.
+ *
+ * Kept as a range check rather than a list so that saves written before byes
+ * existed — always 8, 16, 32 or 64 — still validate and still resume.
+ */
+const MIN_SIZE = 8;
+const MAX_SIZE = 64;
+
+function isValidSize(size) {
+  return Number.isInteger(size) && size >= MIN_SIZE && size <= MAX_SIZE;
+}
 
 export function progressStorageKey(id) {
   return `bracketranker:progress:${id}`;
@@ -77,7 +89,7 @@ export function isValidProgress(value) {
   if (typeof value.savedAt !== "number" || !Number.isFinite(value.savedAt)) {
     return false;
   }
-  if (!VALID_SIZES.includes(value.size)) return false;
+  if (!isValidSize(value.size)) return false;
 
   const { itemIds, picks } = value;
   if (!Array.isArray(itemIds) || itemIds.length !== value.size) return false;
@@ -203,29 +215,18 @@ export function saveActionFor(state, items) {
 /**
  * Progress description for the resume prompt.
  *
- * Returns the round *index* rather than its name so this module stays
- * independent of the engine's round naming.
+ * Deliberately says nothing about rounds: how a field divides into rounds
+ * depends on where its byes fall, which is the engine's business. The caller
+ * pairs `completed` with the engine's own round lookup.
  */
 export function summarizeProgress(progress) {
   const total = progress.size - 1;
   const completed = progress.picks.length;
 
-  // Walk the rounds, subtracting each one's matchups, to find where the next
-  // pick lands.
-  let remaining = completed;
-  let roundIndex = 0;
-  let matchupsInRound = progress.size / 2;
-  while (remaining >= matchupsInRound && matchupsInRound > 1) {
-    remaining -= matchupsInRound;
-    matchupsInRound /= 2;
-    roundIndex += 1;
-  }
-
   return {
     completed,
     total,
     percentage: total === 0 ? 0 : Math.round((completed / total) * 100),
-    roundIndex,
     savedAt: progress.savedAt,
   };
 }

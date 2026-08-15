@@ -23,6 +23,7 @@ import {
   bracketReducer,
   createInitialState,
   getRoundName,
+  roundIndexForPick,
 } from "../src/lib/bracket-engine.ts";
 
 const ENGINE = { bracketReducer, createInitialState };
@@ -132,14 +133,32 @@ test("the storage key is scoped per bracket", () => {
 test("structurally sound saves are accepted", () => {
   const progress = serializeProgress(playedState(makeItems(8), 8, 2), ID);
   assert.equal(isValidProgress(progress), true);
+
+  // A field that is not a power of two is an ordinary save now that byes let
+  // one be played, and must not be thrown away as malformed.
+  const withByes = serializeProgress(playedState(makeItems(24), 24, 5), ID);
+  assert.equal(withByes.size, 24);
+  assert.equal(isValidProgress(withByes), true);
 });
 
 test("malformed saves are rejected rather than restored", () => {
   const base = serializeProgress(playedState(makeItems(8), 8, 2), ID);
+  const ids = (count) =>
+    Array.from({ length: count }, (_, index) => `item-${index}`);
 
   const rejected = {
     "an older schema version": { ...base, v: 1 },
-    "a size the game does not offer": { ...base, size: 12 },
+    "a field too small for a bracket": {
+      ...base,
+      size: 4,
+      itemIds: ids(4),
+    },
+    "a field larger than the game offers": {
+      ...base,
+      size: 65,
+      itemIds: ids(65),
+    },
+    "a fractional field": { ...base, size: 8.5 },
     "an entrant list that disagrees with the size": { ...base, itemIds: ["a"] },
     "duplicate entrants": {
       ...base,
@@ -235,6 +254,68 @@ test("a save replays back into exactly the state it was taken from", () => {
 
   assert.notEqual(restored, null);
   assert.deepEqual(playableShape(restored), playableShape(original));
+});
+
+test("a save of a field with byes replays byes and all", () => {
+  const items = makeItems(24);
+  // Six picks: still inside the opening round, with the byes already standing
+  // in the second round waiting for opponents.
+  const original = playedState(items, 24, 6);
+  const progress = serializeProgress(original, ID);
+
+  assert.equal(progress.size, 24);
+  assert.equal(progress.itemIds.length, 24);
+
+  const restored = restoreProgress(progress, ID, items, ENGINE);
+  assert.notEqual(restored, null);
+  assert.deepEqual(playableShape(restored), playableShape(original));
+
+  // Resuming after the opening round is the case byes can break: the second
+  // round is part-filled before a single pick is made.
+  const acrossBoundary = playedState(items, 24, 8);
+  const resumed = restoreProgress(
+    serializeProgress(acrossBoundary, ID),
+    ID,
+    items,
+    ENGINE,
+  );
+  assert.deepEqual(playableShape(resumed), playableShape(acrossBoundary));
+  assert.equal(resumed.currentRound, 1);
+  assert.equal(resumed.currentMatchup, 0);
+
+  // And it still finishes, ranking every one of the 24.
+  let state = resumed;
+  while (state.phase === "playing") {
+    const matchup = state.rounds[state.currentRound].matchups[state.currentMatchup];
+    assert.ok(matchup?.itemA && matchup?.itemB, "resumed bracket must not stall");
+    state = bracketReducer(state, {
+      type: "PICK_WINNER",
+      winnerId: matchup.itemA.id,
+    });
+  }
+  assert.equal(state.phase, "complete");
+  assert.equal(new Set(state.ranking).size, 24);
+});
+
+test("saves written before byes existed still resume", () => {
+  // Byte-for-byte what the previous release wrote: same version, a power-of-two
+  // size, ids and picks. Rejecting these would drop every run in progress at
+  // the moment the change ships.
+  const items = makeItems(16);
+  const legacy = {
+    v: PROGRESS_VERSION,
+    id: ID,
+    size: 16,
+    itemIds: items.map((item) => item.id),
+    picks: ["item-0", "item-2", "item-4"],
+    savedAt: 1000,
+  };
+
+  const parsed = parseProgress(JSON.stringify(legacy), ID, 2000);
+  assert.deepEqual(parsed, legacy);
+
+  const restored = restoreProgress(parsed, ID, items, ENGINE);
+  assert.deepEqual(playableShape(restored), playableShape(playedState(items, 16, 3)));
 });
 
 test("a save taken across a round boundary resumes on the right matchup", () => {
@@ -404,19 +485,28 @@ test("classification without an entrant pool still catches unreadable saves", ()
 // Summary
 // ---------------------------------------------------------------------------
 
+/** How the resume prompt turns a save into "you were in the Semifinals". */
+function roundNameFor(progress) {
+  const summary = summarizeProgress(progress);
+  return getRoundName(
+    progress.size,
+    roundIndexForPick(progress.size, summary.completed),
+  );
+}
+
 test("the resume prompt reports the round the next pick falls in", () => {
   const items = makeItems(8);
-  const summaryAfter = (picks) =>
-    summarizeProgress(serializeProgress(playedState(items, 8, picks), ID));
+  const progressAfter = (picks) =>
+    serializeProgress(playedState(items, 8, picks), ID);
 
   assert.deepEqual(
-    { ...summaryAfter(1), savedAt: undefined },
-    { completed: 1, total: 7, percentage: 14, roundIndex: 0, savedAt: undefined },
+    { ...summarizeProgress(progressAfter(1)), savedAt: undefined },
+    { completed: 1, total: 7, percentage: 14, savedAt: undefined },
   );
-  assert.equal(getRoundName(8, summaryAfter(1).roundIndex), "Quarterfinals");
-  assert.equal(getRoundName(8, summaryAfter(4).roundIndex), "Semifinals");
-  assert.equal(getRoundName(8, summaryAfter(6).roundIndex), "Championship");
-  assert.equal(summaryAfter(6).percentage, 86);
+  assert.equal(roundNameFor(progressAfter(1)), "Quarterfinals");
+  assert.equal(roundNameFor(progressAfter(4)), "Semifinals");
+  assert.equal(roundNameFor(progressAfter(6)), "Championship");
+  assert.equal(summarizeProgress(progressAfter(6)).percentage, 86);
 });
 
 test("the resume prompt reports rounds for a 64-entrant bracket", () => {
@@ -426,5 +516,49 @@ test("the resume prompt reports rounds for a 64-entrant bracket", () => {
 
   assert.equal(summary.completed, 32);
   assert.equal(summary.total, 63);
-  assert.equal(getRoundName(64, summary.roundIndex), "Round of 32");
+  assert.equal(roundNameFor(progress), "Round of 32");
+});
+
+test("the resume prompt reports rounds for a field with byes", () => {
+  // 24 entrants: eight opening matchups, then an ordinary 16-slot bracket.
+  const items = makeItems(24);
+  const progressAfter = (picks) =>
+    serializeProgress(playedState(items, 24, picks), ID);
+
+  assert.equal(roundNameFor(progressAfter(1)), "Round of 24");
+  assert.equal(roundNameFor(progressAfter(7)), "Round of 24");
+  // The eighth pick finishes the opening round, so the next one is in the 16.
+  assert.equal(roundNameFor(progressAfter(8)), "Round of 16");
+  assert.equal(roundNameFor(progressAfter(16)), "Elite 8");
+  assert.equal(roundNameFor(progressAfter(22)), "Championship");
+  assert.equal(summarizeProgress(progressAfter(8)).total, 23);
+});
+
+test("the round walk agrees with the rounds the engine actually builds", () => {
+  // Two independent descriptions of the same draw: the progress summary walks
+  // matchup counts, the reducer builds real rounds. They must not drift.
+  for (let fieldSize = 8; fieldSize <= 64; fieldSize++) {
+    let state = bracketReducer(createInitialState(), {
+      type: "SEED",
+      items: makeItems(fieldSize),
+      size: fieldSize,
+      shuffleItems: false,
+    });
+
+    for (let pick = 0; pick < fieldSize - 1; pick++) {
+      assert.equal(
+        roundIndexForPick(fieldSize, pick),
+        state.currentRound,
+        `field ${fieldSize}: round for pick ${pick}`,
+      );
+      const matchup = state.rounds[state.currentRound].matchups[
+        state.currentMatchup
+      ];
+      state = bracketReducer(state, {
+        type: "PICK_WINNER",
+        winnerId: matchup.itemA.id,
+      });
+    }
+    assert.equal(state.phase, "complete");
+  }
 });

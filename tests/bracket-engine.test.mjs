@@ -4,11 +4,15 @@ import test from "node:test";
 // Loaded through Node's type stripping; the engine has no runtime imports.
 import {
   bracketReducer,
+  bracketSlots,
+  byeCount,
   createInitialState,
+  fieldSizeOptions,
   getProgress,
   getRoundName,
-  maxBracketSize,
+  matchupsPerRound,
   rankingStages,
+  resolveFieldSize,
 } from "../src/lib/bracket-engine.ts";
 
 function makeItems(count) {
@@ -44,18 +48,39 @@ function playAll(start) {
   return state;
 }
 
-test("a bracket is never seeded larger than the entrants can fill", () => {
-  assert.equal(maxBracketSize(12), 8);
-  assert.equal(maxBracketSize(24), 16);
-  assert.equal(maxBracketSize(64), 64);
-  assert.equal(maxBracketSize(7), 0);
+test("a pool is offered its own size, not just the power of two below it", () => {
+  // The whole pool used to be unplayable unless it happened to be a power of
+  // two: a 24-entrant bracket capped at 16 and dropped eight entrants from the
+  // draw at random, and they never appeared in the ranking at all.
+  assert.deepEqual(fieldSizeOptions(24), [8, 16, 24]);
+  assert.deepEqual(fieldSizeOptions(12), [8, 12]);
+  assert.deepEqual(fieldSizeOptions(32), [8, 16, 32]);
+  assert.deepEqual(fieldSizeOptions(64), [8, 16, 32, 64]);
+  // Nobody finishes more than 64, and under 8 there is no bracket to play.
+  assert.deepEqual(fieldSizeOptions(70), [8, 16, 32, 64]);
+  assert.deepEqual(fieldSizeOptions(7), []);
 
+  // Asking for more than the pool holds plays the pool, rather than falling
+  // back to half of it.
+  assert.equal(resolveFieldSize(64, 24), 24);
+  assert.equal(resolveFieldSize(16, 24), 16);
+  assert.equal(resolveFieldSize(20, 24), 16);
+  assert.equal(resolveFieldSize(4, 24), 8);
+  assert.equal(resolveFieldSize(16, 7), 0);
+});
+
+test("a bracket is never seeded larger than the entrants can fill", () => {
   const state = seed(makeItems(12), 16);
-  assert.equal(state.bracketSize, 8);
+
+  // Every entrant is in the draw: four opening matchups plus four byes make up
+  // the eight quarter-finalists.
+  assert.equal(state.bracketSize, 12);
+  assert.equal(state.items.length, 12);
   assert.deepEqual(
     state.rounds.map((round) => round.matchups.length),
-    [4, 2, 1],
+    [4, 4, 2, 1],
   );
+  assert.equal(state.totalMatchups, 11);
   assert.equal(playAll(state).phase, "complete");
 });
 
@@ -63,6 +88,140 @@ test("too few entrants leaves the bracket unstarted", () => {
   const state = seed(makeItems(5), 8);
   assert.equal(state.phase, "intro");
   assert.equal(state.rounds.length, 0);
+});
+
+test("every field from 8 to 64 plays to a champion and ranks all of them", () => {
+  for (let fieldSize = 8; fieldSize <= 64; fieldSize++) {
+    const start = seed(makeItems(fieldSize), fieldSize, false);
+    assert.equal(start.bracketSize, fieldSize, `field ${fieldSize} seats all`);
+    assert.equal(start.totalMatchups, fieldSize - 1);
+    assert.deepEqual(
+      start.rounds.map((round) => round.matchups.length),
+      matchupsPerRound(fieldSize),
+      `field ${fieldSize} round shape`,
+    );
+
+    const finished = playAll(start);
+    assert.equal(finished.phase, "complete", `field ${fieldSize} completes`);
+    assert.equal(finished.completedMatchups, fieldSize - 1);
+    assert.equal(finished.ranking.length, fieldSize);
+    assert.equal(new Set(finished.ranking).size, fieldSize);
+    assert.equal(finished.ranking[0], finished.champion);
+
+    // Everyone seeded is placed, and nobody else appears.
+    assert.deepEqual(
+      [...finished.ranking].sort(),
+      start.items.map((item) => item.id).sort(),
+    );
+  }
+});
+
+test("byes are spread across the draw rather than clustered in one corner", () => {
+  for (let fieldSize = 9; fieldSize <= 64; fieldSize++) {
+    const byes = byeCount(fieldSize);
+    if (byes === 0) continue;
+
+    const state = seed(makeItems(fieldSize), fieldSize, false);
+    const slots = bracketSlots(fieldSize) / 2;
+    const opening = state.rounds[0];
+
+    assert.equal(opening.matchups.length, slots - byes);
+    assert.equal(opening.advancesTo.length, opening.matchups.length);
+
+    // Whichever slots the play-in winners take, the rest are byes.
+    const byeSlots = new Set(
+      Array.from({ length: slots }, (_, slot) => slot).filter(
+        (slot) => !opening.advancesTo.includes(slot),
+      ),
+    );
+    assert.equal(byeSlots.size, byes);
+
+    // No half, quarter or eighth of the draw may carry more than one bye more
+    // than any other. Handing byes out in slot order fails this immediately:
+    // with 24 entrants all eight would sit in the same half.
+    for (let blocks = 2; blocks <= slots / 2; blocks *= 2) {
+      const perBlock = Array.from({ length: blocks }, (_, block) =>
+        [...byeSlots].filter(
+          (slot) => Math.floor(slot / (slots / blocks)) === block,
+        ).length,
+      );
+      assert.ok(
+        Math.max(...perBlock) - Math.min(...perBlock) <= 1,
+        `field ${fieldSize}: byes ${perBlock.join("/")} across ${blocks} blocks`,
+      );
+    }
+  }
+});
+
+test("a bye carries its entrant into the second round without a matchup", () => {
+  // 24 entrants: eight opening matchups, eight byes, and a Round of 16.
+  const state = seed(makeItems(24), 24, false);
+
+  assert.deepEqual(
+    state.rounds.map((round) => round.name),
+    ["Round of 24", "Round of 16", "Elite 8", "Final Four", "Championship"],
+  );
+
+  const second = state.rounds[1];
+  const standing = second.matchups.flatMap((matchup) =>
+    [matchup.itemA, matchup.itemB].filter(Boolean).map((item) => item.id),
+  );
+  assert.equal(standing.length, 8, "byes are already placed");
+
+  // Nobody is in two places at once: the opening round and the byes partition
+  // the field.
+  const playingIn = state.rounds[0].matchups.flatMap((matchup) => [
+    matchup.itemA.id,
+    matchup.itemB.id,
+  ]);
+  assert.equal(playingIn.length, 16);
+  assert.deepEqual(
+    [...playingIn, ...standing].sort(),
+    state.items.map((item) => item.id).sort(),
+  );
+});
+
+test("undoing back into the opening round leaves the byes standing", () => {
+  let state = seed(makeItems(24), 24, false);
+  const byesBefore = state.rounds[1].matchups.map((matchup) => [
+    matchup.itemA?.id ?? null,
+    matchup.itemB?.id ?? null,
+  ]);
+
+  // Play the whole opening round, which advances eight winners into the 16.
+  for (let i = 0; i < 8; i++) {
+    const matchup = state.rounds[0].matchups[state.currentMatchup];
+    state = bracketReducer(state, {
+      type: "PICK_WINNER",
+      winnerId: matchup.itemA.id,
+    });
+  }
+  assert.equal(state.currentRound, 1);
+  assert.equal(
+    state.rounds[1].matchups.every((m) => m.itemA && m.itemB),
+    true,
+  );
+
+  const undone = bracketReducer(state, { type: "UNDO" });
+  assert.equal(undone.currentRound, 0);
+  assert.equal(undone.currentMatchup, 7);
+  assert.deepEqual(
+    undone.rounds[1].matchups.map((matchup) => [
+      matchup.itemA?.id ?? null,
+      matchup.itemB?.id ?? null,
+    ]),
+    byesBefore,
+    "an entrant on a bye never played for its place and must keep it",
+  );
+
+  // And the bracket still finishes from there.
+  const redone = bracketReducer(undone, {
+    type: "PICK_WINNER",
+    winnerId: undone.rounds[0].matchups[7].itemB.id,
+  });
+  const finished = playAll(redone);
+  assert.equal(finished.phase, "complete");
+  assert.equal(new Set(finished.ranking).size, 24);
 });
 
 for (const size of [8, 16, 32, 64]) {
@@ -155,13 +314,60 @@ test("results are grouped by how far each entrant got, not ranked 1-to-N", () =>
     ],
   );
 
-  // Every position in the final ranking belongs to exactly one stage.
-  for (const size of [8, 16, 32, 64]) {
-    const covered = rankingStages(size).reduce(
-      (total, stage) => total + stage.count,
-      0,
-    );
+  // A field with byes has a smaller opening round, so its last group is
+  // smaller than the one above it — 8 of the 24 go out in the opening round,
+  // not 12.
+  assert.deepEqual(
+    rankingStages(24).map((stage) => [stage.label, stage.start, stage.count]),
+    [
+      ["Champion", 0, 1],
+      ["Runner-up", 1, 1],
+      ["Eliminated in the Final Four", 2, 2],
+      ["Eliminated in the Elite 8", 4, 4],
+      ["Eliminated in the Round of 16", 8, 8],
+      ["Eliminated in the Round of 24", 16, 8],
+    ],
+  );
+
+  // Every position in the final ranking belongs to exactly one stage, whatever
+  // the field size — the results page groups a ranking by these.
+  for (let size = 8; size <= 64; size++) {
+    const stages = rankingStages(size);
+    const covered = stages.reduce((total, stage) => total + stage.count, 0);
     assert.equal(covered, size, `stages must cover all ${size} entrants`);
+    assert.ok(
+      stages.every(
+        (stage) =>
+          Number.isInteger(stage.start) && Number.isInteger(stage.count),
+      ),
+      `stage boundaries for ${size} must be whole positions`,
+    );
+    // Stages run back to back with no gap and no overlap.
+    stages.reduce((next, stage) => {
+      assert.equal(stage.start, next, `stage ${stage.label} starts at ${next}`);
+      return next + stage.count;
+    }, 0);
+  }
+});
+
+test("the ranking groups every entrant by the round it went out in", () => {
+  const finished = playAll(seed(makeItems(24), 24, false));
+  const eliminated = new Map();
+  for (const matchup of finished.matchupHistory) {
+    const loser =
+      matchup.winner === matchup.itemA ? matchup.itemB : matchup.itemA;
+    eliminated.set(loser, matchup.round);
+  }
+
+  for (const stage of rankingStages(24)) {
+    const ids = finished.ranking.slice(stage.start, stage.start + stage.count);
+    if (stage.label === "Champion") {
+      assert.deepEqual(ids, [finished.champion]);
+      continue;
+    }
+    // Everyone in a group really did go out in the same round.
+    const rounds = new Set(ids.map((id) => eliminated.get(id)));
+    assert.equal(rounds.size, 1, `${stage.label} mixes elimination rounds`);
   }
 });
 
@@ -169,6 +375,15 @@ test("round names and progress track the bracket size", () => {
   assert.equal(getRoundName(8, 0), "Quarterfinals");
   assert.equal(getRoundName(64, 5), "Championship");
   assert.equal(getRoundName(16, 9), "Round 10");
+
+  // A field with byes opens with a partial round, and is an ordinary bracket
+  // of half the tree from there.
+  assert.equal(getRoundName(24, 0), "Round of 24");
+  assert.equal(getRoundName(24, 1), "Round of 16");
+  assert.equal(getRoundName(24, 4), "Championship");
+  assert.equal(getRoundName(12, 0), "Round of 12");
+  assert.equal(getRoundName(12, 1), "Quarterfinals");
+  assert.equal(getRoundName(24, 9), "Round 10");
 
   const state = seed(makeItems(16), 16, false);
   assert.deepEqual(getProgress(state), { current: 0, total: 15, percentage: 0 });

@@ -1,7 +1,14 @@
 import type { BracketCategory, BracketItem, BracketMeta } from "@/data/types";
 import { brackets } from "@/data/registry";
 import { bracketTargets } from "@/data/bracket-targets";
-import { getRoundName, maxBracketSize } from "@/lib/bracket-engine";
+import {
+  byeCount,
+  fieldSizeOptions,
+  getRoundName,
+  matchupsPerRound,
+  resolveFieldSize,
+  roundCount,
+} from "@/lib/bracket-engine";
 import { absoluteUrl, SITE_NAME, SITE_URL } from "@/lib/site";
 
 export interface Faq {
@@ -23,7 +30,12 @@ export interface BracketSeo {
   faqs: Faq[];
   /** Round names for the default bracket size, e.g. ["Round of 32", …]. */
   rounds: string[];
-  /** Bracket sizes this item pool can actually fill. */
+  /**
+   * Matchups in each of those rounds. Not simply halving: an opening round
+   * with byes has fewer matchups than the field has pairs.
+   */
+  roundMatchups: number[];
+  /** Field sizes this item pool can actually play. */
   sizes: number[];
   /** Picks required at the default size. */
   picks: number;
@@ -75,19 +87,11 @@ function pick<T>(variants: T[], seed: number, offset = 0): T {
   return variants[(seed + offset) % variants.length];
 }
 
-/** Bracket sizes this pool of items can actually fill, largest first. */
-export function playableSizes(itemCount: number): number[] {
-  return [8, 16, 32, 64].filter((size) => size <= maxBracketSize(itemCount));
-}
-
-/** Round names for a completed bracket of the given size. */
-export function roundNamesFor(size: number): string[] {
-  const count = Math.max(0, Math.round(Math.log2(size)));
-  return Array.from({ length: count }, (_, index) => getRoundName(size, index));
-}
-
-function playableDefaultSize(meta: BracketMeta) {
-  return Math.min(meta.defaultSize, maxBracketSize(meta.itemCount)) || 8;
+/** Round names for a completed bracket of the given field size. */
+function roundNamesFor(size: number): string[] {
+  return Array.from({ length: roundCount(size) }, (_, index) =>
+    getRoundName(size, index),
+  );
 }
 
 function estimateMinutes(picks: number) {
@@ -165,10 +169,16 @@ export function getBracketSeo(
   const keyword = target.keyword;
   const seed = seedFrom(bracketKey(meta.category, meta.slug));
   const noun = categoryNoun[meta.category] ?? { one: "option", many: "options" };
-  const size = playableDefaultSize(meta);
+  // The registry counts entrants, but the loaded pool is what actually plays.
+  const pool = items.length || meta.itemCount;
+  const size = resolveFieldSize(meta.defaultSize, pool) || 8;
   const picks = size - 1;
   const rounds = roundNamesFor(size);
-  const sizes = playableSizes(items.length || meta.itemCount);
+  const roundMatchups = matchupsPerRound(size);
+  const byes = byeCount(size);
+  const sizes = fieldSizeOptions(pool);
+  const shorterSizes = sizes.filter((option) => option < size);
+  const longerSizes = sizes.filter((option) => option > size);
   const names = items.map((item) => item.name);
   const minutes = estimateMinutes(picks);
 
@@ -212,7 +222,12 @@ export function getBracketSeo(
 
   const method =
     `This bracket runs ${rounds.length} rounds at the default ${size}-slot size (${rounds.join(", ")}), ` +
-    `drawn from a pool of ${items.length} ${noun.many}. ` +
+    (size >= pool
+      ? `with every one of the ${pool} ${noun.many} in the field. `
+      : `drawn from a pool of ${pool} ${noun.many}. `) +
+    (byes > 0
+      ? `${size} is not a power of two, so ${byes} of them draw a first-round bye — spread evenly across the draw rather than handed to whoever happens to land at the top of it. `
+      : ``) +
     shuffleNote +
     (sizes.length > 1
       ? ` You can also play it at ${sizes
@@ -225,11 +240,15 @@ export function getBracketSeo(
   const tips = [
     categoryTip[meta.category] ??
       "Trust the first instinct — overthinking a matchup usually produces a ranking you disagree with later.",
-    sizes.length > 1
+    longerSizes.length > 0
       ? `Start at ${size} slots. If the result feels too obvious, replay at ${Math.max(
-          ...sizes,
-        )} so more of the ${items.length} ${noun.many} make the field.`
-      : `Replay it — the shuffle changes which ${noun.many} meet early, and close calls in round one change the whole ranking.`,
+          ...longerSizes,
+        )} so more of the ${pool} ${noun.many} make the field.`
+      : shorterSizes.length > 0
+        ? `The default run puts all ${pool} ${noun.many} in the draw. Short on time? Drop to ${Math.max(
+            ...shorterSizes,
+          )} slots — a quicker run over a random ${Math.max(...shorterSizes)} of them.`
+        : `Replay it — the shuffle changes which ${noun.many} meet early, and close calls in round one change the whole ranking.`,
     pick(
       [
         `Use undo the moment you regret a pick. One reflex answer in an early round can knock out a favourite before it gets going.`,
@@ -246,11 +265,16 @@ export function getBracketSeo(
     {
       question: `How many ${noun.many} are in the ${meta.name} bracket?`,
       answer:
-        `The pool holds ${items.length} ${noun.many}. A default run uses ${size} of them and takes ${picks} picks across ${rounds.length} rounds: ${rounds.join(
+        `The pool holds ${pool} ${noun.many}. A default run ${
+          size >= pool ? `puts all of them in the draw` : `uses ${size} of them`
+        } and takes ${picks} picks across ${rounds.length} rounds: ${rounds.join(
           ", ",
         )}. ` +
+        (byes > 0
+          ? `${byes} entrants start with a first-round bye, spread evenly through the draw. `
+          : ``) +
         (sizes.length > 1
-          ? `Smaller and larger fields are available too — ${sizes.join(", ")} slots.`
+          ? `Other field sizes are available too — ${sizes.join(", ")} slots.`
           : ``),
     },
     {
@@ -263,9 +287,9 @@ export function getBracketSeo(
       question: `How long does the ${keyword} take?`,
       answer:
         `About ${minutes} — ${picks} choices at the default size${
-          sizes.length > 1
-            ? `, or ${Math.min(...sizes) - 1} if you drop to a ${Math.min(
-                ...sizes,
+          shorterSizes.length > 0
+            ? `, or ${Math.min(...shorterSizes) - 1} if you drop to a ${Math.min(
+                ...shorterSizes,
               )}-slot bracket`
             : ""
         }. ` +
@@ -328,6 +352,7 @@ export function getBracketSeo(
     tips,
     faqs,
     rounds,
+    roundMatchups,
     sizes,
     picks,
     minutes,

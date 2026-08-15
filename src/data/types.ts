@@ -13,7 +13,12 @@ export interface BracketMeta {
   name: string;
   description: string;
   itemCount: number;
-  defaultSize: 8 | 16 | 32 | 64;
+  /**
+   * Field the bracket opens on: the whole pool, capped at 64. It is no longer
+   * restricted to a power of two — a field that does not fill the tree gives
+   * out first-round byes instead of dropping entrants from the draw.
+   */
+  defaultSize: number;
   featured: boolean;
   keywords: string[];
 }
