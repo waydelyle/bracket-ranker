@@ -5,6 +5,10 @@ import { motion } from "framer-motion";
 import { Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { resolveFieldSize } from "@/lib/bracket-engine";
+import {
+  categorySurfaceColor,
+  categoryTextColor,
+} from "@/lib/category-color";
 import type { SavedRunSummary } from "@/hooks/useBracket";
 import { BracketSizeSelector } from "./BracketSizeSelector";
 import { ResumeCard } from "./ResumeCard";
@@ -63,14 +67,14 @@ export function BracketIntro({
             {label && (
               <p
                 className="text-xs font-semibold uppercase tracking-widest"
-                style={{ color: categoryColor }}
+                style={{ color: categoryTextColor(categoryColor) }}
               >
                 {label}
               </p>
             )}
             <h1
               className="text-3xl font-extrabold tracking-tight md:text-4xl"
-              style={{ color: categoryColor }}
+              style={{ color: categoryTextColor(categoryColor) }}
             >
               {name}
             </h1>
@@ -105,7 +109,7 @@ export function BracketIntro({
             disabled={selectedSize === 0}
             className="h-12 gap-2 rounded-xl px-8 text-base font-bold text-white shadow-lg transition-transform hover:scale-[1.03]"
             style={{
-              backgroundColor: categoryColor,
+              backgroundColor: categorySurfaceColor(categoryColor),
               boxShadow: `0 0 20px 2px ${categoryColor}40`,
             }}
           >

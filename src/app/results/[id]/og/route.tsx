@@ -5,8 +5,6 @@ import { resolveResultBracket } from "@/lib/result-bracket";
 import { bracketStandings } from "@/lib/standings.mjs";
 import type { BracketResult, Standing } from "@/data/types";
 
-export const runtime = "edge";
-
 function GenericOGImage() {
   return new ImageResponse(
     (

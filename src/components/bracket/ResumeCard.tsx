@@ -3,6 +3,10 @@
 import { History, Play, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { SavedRunSummary } from "@/hooks/useBracket";
+import {
+  categorySurfaceColor,
+  categoryTextColor,
+} from "@/lib/category-color";
 
 interface ResumeCardProps {
   run: SavedRunSummary;
@@ -35,7 +39,10 @@ export function ResumeCard({
       <div className="flex items-start gap-3">
         <div
           className="flex size-9 shrink-0 items-center justify-center rounded-full"
-          style={{ backgroundColor: `${categoryColor}26`, color: categoryColor }}
+          style={{
+            backgroundColor: `${categoryColor}26`,
+            color: categoryTextColor(categoryColor),
+          }}
         >
           <History className="size-4" />
         </div>
@@ -71,7 +78,7 @@ export function ResumeCard({
               onClick={onResume}
               size="sm"
               className="gap-1.5 font-bold text-white"
-              style={{ backgroundColor: categoryColor }}
+              style={{ backgroundColor: categorySurfaceColor(categoryColor) }}
             >
               <Play className="size-3.5" />
               Resume

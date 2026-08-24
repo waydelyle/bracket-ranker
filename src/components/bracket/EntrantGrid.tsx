@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { BracketItem } from "@/data/types";
+import { canOptimizeImage } from "@/lib/image-source";
 
 interface EntrantGridProps {
   items: BracketItem[];
@@ -37,6 +38,8 @@ export function EntrantGrid({ items, categoryColor }: EntrantGridProps) {
                 fill
                 className="object-cover"
                 sizes="56px"
+                unoptimized={!canOptimizeImage(item.image)}
+                referrerPolicy="no-referrer"
               />
             )}
           </div>

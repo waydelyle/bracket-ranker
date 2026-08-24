@@ -21,9 +21,9 @@ export function RoundIndicator({
       transition={{ duration: 0.3, ease: "easeOut" }}
       className="text-center"
     >
-      <h2 className="text-2xl font-extrabold tracking-tight text-foreground md:text-3xl">
+      <h1 className="text-2xl font-extrabold tracking-tight text-foreground md:text-3xl">
         {name}
-      </h2>
+      </h1>
       <p className="mt-1 text-sm text-muted-foreground">
         Matchup {matchupNumber} of {totalInRound}
       </p>

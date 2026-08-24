@@ -11,6 +11,10 @@ import { getRelatedBrackets } from "@/lib/seo";
 import { resolveResultBracket } from "@/lib/result-bracket";
 import { bracketStandings } from "@/lib/standings.mjs";
 import { OG_DEFAULTS } from "@/lib/site";
+import {
+  categorySurfaceColor,
+  categoryTextColor,
+} from "@/lib/category-color";
 import { Button } from "@/components/ui/button";
 import { ResultsDisplay } from "@/components/results/ResultsDisplay";
 import { ShareCard } from "@/components/results/ShareCard";
@@ -155,7 +159,9 @@ export default async function ResultsPage({ params }: ResultsPageProps) {
           <div className="flex flex-col items-center gap-4 text-center sm:flex-row sm:text-left">
             <div
               className="flex size-16 shrink-0 items-center justify-center rounded-full shadow-lg"
-              style={{ backgroundColor: categoryColor }}
+              style={{
+                backgroundColor: categorySurfaceColor(categoryColor),
+              }}
             >
               <Trophy className="size-8 text-white" />
             </div>
@@ -165,7 +171,9 @@ export default async function ResultsPage({ params }: ResultsPageProps) {
               </p>
               <h1 className="text-2xl font-extrabold tracking-tight sm:text-3xl">
                 Champion:{" "}
-                <span style={{ color: categoryColor }}>{championName}</span>
+                <span style={{ color: categoryTextColor(categoryColor) }}>
+                  {championName}
+                </span>
               </h1>
             </div>
           </div>
@@ -247,7 +255,11 @@ export default async function ResultsPage({ params }: ResultsPageProps) {
               Replay it — the draw is reshuffled, so the matchups change.
             </p>
             <div className="mt-4 flex flex-wrap justify-center gap-2">
-              <Button className="gap-2" render={<Link href={playPath} />}>
+              <Button
+                className="gap-2"
+                render={<Link href={playPath} />}
+                nativeButton={false}
+              >
                 Play it again
                 <ArrowRight className="size-4" />
               </Button>
@@ -257,6 +269,7 @@ export default async function ResultsPage({ params }: ResultsPageProps) {
                 <Button
                   variant="outline"
                   render={<Link href={`${playPath}/results`} />}
+                  nativeButton={false}
                 >
                   See how everyone ranked it
                 </Button>

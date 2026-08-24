@@ -44,9 +44,9 @@ export function CreatePageClient() {
             <PlusCircle className="size-8 text-green-500" />
           </div>
           <div className="space-y-2">
-            <h2 className="text-2xl font-extrabold tracking-tight text-white">
+            <h1 className="text-2xl font-extrabold tracking-tight text-white">
               Bracket Created!
-            </h2>
+            </h1>
             <p className="text-sm text-muted-foreground">
               Share the link with friends or start playing now.
             </p>
@@ -54,7 +54,7 @@ export function CreatePageClient() {
           <div className="flex flex-col gap-3">
             <Button
               onClick={() => router.push(`/create/${createdId}`)}
-              className="gap-2 bg-green-500 text-white hover:bg-green-600"
+              className="gap-2 bg-green-700 text-white hover:bg-green-600"
             >
               <Play className="size-4" />
               Play Now

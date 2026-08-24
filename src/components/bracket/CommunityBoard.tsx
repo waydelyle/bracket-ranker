@@ -1,5 +1,10 @@
 import Image from "next/image";
 import type { CommunityStandings } from "@/lib/community";
+import {
+  categorySurfaceColor,
+  categoryTextColor,
+} from "@/lib/category-color";
+import { canOptimizeImage } from "@/lib/image-source";
 
 interface CommunityBoardProps {
   standings: CommunityStandings;
@@ -33,7 +38,8 @@ export function CommunityBoard({
           <span
             className="flex size-7 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white"
             style={{
-              backgroundColor: index < 3 ? categoryColor : "transparent",
+              backgroundColor:
+                index < 3 ? categorySurfaceColor(categoryColor) : "transparent",
               border: index < 3 ? undefined : "1px solid currentColor",
               color: index < 3 ? "#fff" : undefined,
             }}
@@ -49,6 +55,8 @@ export function CommunityBoard({
                 fill
                 className="object-cover"
                 sizes="40px"
+                unoptimized={!canOptimizeImage(entry.image)}
+                referrerPolicy="no-referrer"
               />
             </div>
           )}
@@ -72,7 +80,7 @@ export function CommunityBoard({
           <div className="shrink-0 text-right">
             <p
               className="text-sm font-bold tabular-nums"
-              style={{ color: categoryColor }}
+              style={{ color: categoryTextColor(categoryColor) }}
             >
               {entry.winRate.toFixed(0)}%
             </p>

@@ -6,6 +6,10 @@ import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { SITE_URL } from "@/lib/site";
 import {
+  categorySurfaceColor,
+  categoryTextColor,
+} from "@/lib/category-color";
+import {
   FacebookIcon,
   RedditIcon,
   ThreadsIcon,
@@ -151,7 +155,12 @@ export function ShareButtons({
     }
   };
 
-  const iconColor = categoryColor || "var(--primary)";
+  const iconColor = categoryColor
+    ? categoryTextColor(categoryColor)
+    : "var(--primary)";
+  const shareColor = categoryColor
+    ? categorySurfaceColor(categoryColor)
+    : "var(--primary)";
 
   return (
     <div className="space-y-3">
@@ -162,7 +171,7 @@ export function ShareButtons({
           <Button
             size="sm"
             className="gap-1.5 font-semibold text-white"
-            style={{ backgroundColor: iconColor }}
+            style={{ backgroundColor: shareColor }}
             onClick={handleNativeShare}
           >
             <Share2 className="size-3.5" />

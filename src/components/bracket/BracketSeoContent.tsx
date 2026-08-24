@@ -5,6 +5,10 @@ import type { BracketSeo } from "@/lib/seo";
 import type { CommunityStandings } from "@/lib/community";
 import { formatPlays } from "@/lib/community";
 import { getCategoryBySlug } from "@/data/categories";
+import {
+  categorySurfaceColor,
+  categoryTextColor,
+} from "@/lib/category-color";
 import { EntrantGrid } from "./EntrantGrid";
 import { CommunityBoard } from "./CommunityBoard";
 
@@ -26,6 +30,8 @@ export function BracketSeoContent({
   standings,
 }: BracketSeoContentProps) {
   const color = category?.color ?? "#f59e0b";
+  const accentColor = categoryTextColor(color);
+  const surfaceColor = categorySurfaceColor(color);
   const resultsHref = `/${meta.category}/${meta.slug}/results`;
   const tierListHref = `/tier-list-maker#d=${meta.category}/${meta.slug}`;
 
@@ -76,7 +82,7 @@ export function BracketSeoContent({
           {/* Full roster — the page's main unique content. */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <ListChecks className="size-5" style={{ color }} />
+              <ListChecks className="size-5" style={{ color: accentColor }} />
               <h3 className="text-xl font-bold text-white">
                 All {items.length} entrants
               </h3>
@@ -90,7 +96,7 @@ export function BracketSeoContent({
               <Link
                 href={tierListHref}
                 className="font-semibold underline underline-offset-2"
-                style={{ color }}
+                style={{ color: accentColor }}
               >
                 Open all {items.length} in the tier list maker
               </Link>{" "}
@@ -103,7 +109,7 @@ export function BracketSeoContent({
           {standings && (
             <div className="space-y-4">
               <div className="flex items-center gap-2">
-                <BarChart3 className="size-5" style={{ color }} />
+                <BarChart3 className="size-5" style={{ color: accentColor }} />
                 <h3 className="text-xl font-bold text-white">
                   How everyone else ranked them
                 </h3>
@@ -117,7 +123,7 @@ export function BracketSeoContent({
               <Link
                 href={resultsHref}
                 className="inline-flex items-center gap-1 text-sm font-semibold"
-                style={{ color }}
+                style={{ color: accentColor }}
               >
                 See the full {meta.name} community ranking
                 <ArrowRight className="size-4" />
@@ -134,7 +140,7 @@ export function BracketSeoContent({
                 <li key={tip} className="flex gap-3">
                   <span
                     className="mt-0.5 flex size-6 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white"
-                    style={{ backgroundColor: color }}
+                    style={{ backgroundColor: surfaceColor }}
                   >
                     {index + 1}
                   </span>
@@ -169,7 +175,10 @@ export function BracketSeoContent({
             href={tierListHref}
             className="group block rounded-xl border border-border/50 bg-card p-5 transition-colors hover:bg-secondary/50"
           >
-            <div className="mb-3 flex items-center gap-2" style={{ color }}>
+            <div
+              className="mb-3 flex items-center gap-2"
+              style={{ color: accentColor }}
+            >
               <ListChecks className="size-5" />
               <h3 className="font-bold">Tier list instead?</h3>
             </div>
@@ -180,7 +189,7 @@ export function BracketSeoContent({
             </p>
             <span
               className="mt-4 inline-flex items-center gap-1 text-sm font-semibold"
-              style={{ color }}
+              style={{ color: accentColor }}
             >
               Open the tier list maker
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
@@ -191,7 +200,10 @@ export function BracketSeoContent({
             href={resultsHref}
             className="group block rounded-xl border border-border/50 bg-card p-5 transition-colors hover:bg-secondary/50"
           >
-            <div className="mb-3 flex items-center gap-2" style={{ color }}>
+            <div
+              className="mb-3 flex items-center gap-2"
+              style={{ color: accentColor }}
+            >
               <BarChart3 className="size-5" />
               <h3 className="font-bold">Community results</h3>
             </div>
@@ -204,7 +216,7 @@ export function BracketSeoContent({
             </p>
             <span
               className="mt-4 inline-flex items-center gap-1 text-sm font-semibold"
-              style={{ color }}
+              style={{ color: accentColor }}
             >
               View community ranking
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
@@ -257,7 +269,7 @@ export function BracketSeoContent({
             <Link
               href={`/${meta.category}`}
               className="mt-4 inline-flex items-center gap-1 text-sm font-semibold"
-              style={{ color }}
+              style={{ color: accentColor }}
             >
               All {category?.name ?? "category"} tier lists
               <ArrowRight className="size-4" />

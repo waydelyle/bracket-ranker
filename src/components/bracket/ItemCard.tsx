@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import type { BracketItem } from "@/data/types";
+import { canOptimizeImage, directImageLoader } from "@/lib/image-source";
 
 interface ItemCardProps {
   item: BracketItem;
@@ -22,6 +23,7 @@ export function ItemCard({
 }: ItemCardProps) {
   const [imgError, setImgError] = useState(false);
   const hasImage = item.image && !imgError;
+  const directImage = Boolean(item.image && !canOptimizeImage(item.image));
 
   return (
     <button
@@ -60,6 +62,9 @@ export function ItemCard({
           fill
           className="object-cover transition-transform duration-300 group-hover:scale-105"
           sizes="(max-width: 768px) 45vw, 300px"
+          loader={directImage ? directImageLoader : undefined}
+          unoptimized={directImage}
+          referrerPolicy={directImage ? "no-referrer" : undefined}
           onError={() => setImgError(true)}
         />
       )}

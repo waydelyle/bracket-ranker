@@ -34,7 +34,7 @@
       "id": "chipotle",
       "name": "Chipotle",
       "subtitle": "Burritos & Bowls",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Capsicum_annuum_chipotle_dried.jpg/500px-Capsicum_annuum_chipotle_dried.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Chipotle_Mexican_Grill_logo.svg/330px-Chipotle_Mexican_Grill_logo.svg.png"
     },
     {
       "id": "five-guys",
@@ -82,7 +82,7 @@
       "id": "kfc",
       "name": "KFC",
       "subtitle": "Fried Chicken",
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/KFC_logo-image.svg/500px-KFC_logo-image.svg.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Kentucky_Fried_Chicken_%28Tallulah%2C_Louisiana%29_01.jpg/330px-Kentucky_Fried_Chicken_%28Tallulah%2C_Louisiana%29_01.jpg"
     },
     {
       "id": "shake-shack",

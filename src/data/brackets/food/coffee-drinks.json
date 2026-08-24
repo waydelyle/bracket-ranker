@@ -16,7 +16,7 @@
       "id": "iced-coffee",
       "name": "Iced Coffee",
       "subtitle": "Chilled & refreshing",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Affogato_al_Caffe.jpg/500px-Affogato_al_Caffe.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/A_young_man_holding_a_glass_of_iced_coffee_at_home_at_sundown._Happy_hour_non-alcoholic_beverage.jpg/500px-A_young_man_holding_a_glass_of_iced_coffee_at_home_at_sundown._Happy_hour_non-alcoholic_beverage.jpg"
     },
     {
       "id": "cold-brew",
@@ -34,7 +34,7 @@
       "id": "americano",
       "name": "Americano",
       "subtitle": "Espresso + hot water",
-      "image": "https://upload.wikimedia.org/wikipedia/en/8/86/Lady_Gaga_-_Americano_%28vinyl%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Espresso_Americano.jpeg/330px-Espresso_Americano.jpeg"
     },
     {
       "id": "mocha",
@@ -46,7 +46,7 @@
       "id": "macchiato",
       "name": "Macchiato",
       "subtitle": "Stained with milk",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Ralph-Macchio-Teases-Potential-Cobra-Kai-Season-Six-Feature_%28cropped_headshot%29.jpg/500px-Ralph-Macchio-Teases-Potential-Cobra-Kai-Season-Six-Feature_%28cropped_headshot%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Macchiato_%287199366530%29.jpg/330px-Macchiato_%287199366530%29.jpg"
     },
     {
       "id": "frappuccino",
@@ -70,7 +70,7 @@
       "id": "pour-over",
       "name": "Pour Over",
       "subtitle": "Clean & bright",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Shakespeare-Testament.jpg/500px-Shakespeare-Testament.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coffee_Pour_Over_Setup.jpg/500px-Coffee_Pour_Over_Setup.jpg"
     },
     {
       "id": "irish-coffee",
@@ -88,7 +88,7 @@
       "id": "affogato",
       "name": "Affogato",
       "subtitle": "Espresso + ice cream",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Vinoteca%2C_Smithfield%2C_London_%284485849609%29.jpg/500px-Vinoteca%2C_Smithfield%2C_London_%284485849609%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Vinoteca%2C_Smithfield%2C_London_%284485849609%29.jpg/330px-Vinoteca%2C_Smithfield%2C_London_%284485849609%29.jpg"
     },
     {
       "id": "chai-latte",

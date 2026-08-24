@@ -16,6 +16,10 @@ import {
   getRelatedBrackets,
 } from "@/lib/seo";
 import { absoluteUrl, OG_DEFAULTS } from "@/lib/site";
+import {
+  categorySurfaceColor,
+  categoryTextColor,
+} from "@/lib/category-color";
 
 // Community data changes as people play, so refresh more aggressively than the
 // bracket page itself.
@@ -98,6 +102,8 @@ export default async function BracketResultsPage({
   const standings = await getCachedCommunityStandings(category, bracket, items, 600);
   const related = getRelatedBrackets(meta, 6);
   const color = cat?.color ?? "#6366f1";
+  const accentColor = categoryTextColor(color);
+  const surfaceColor = categorySurfaceColor(color);
   const playHref = `/${category}/${bracket}`;
   const path = `${playHref}/results`;
   const updated = new Date();
@@ -166,7 +172,7 @@ export default async function BracketResultsPage({
           <Link
             href={playHref}
             className="inline-flex items-center gap-1.5 text-sm font-semibold"
-            style={{ color }}
+            style={{ color: accentColor }}
           >
             {meta.name}
             <ArrowRight className="size-3.5" />
@@ -217,7 +223,7 @@ export default async function BracketResultsPage({
           <Link
             href={playHref}
             className="inline-flex h-12 items-center justify-center gap-2 rounded-full px-7 text-sm font-semibold uppercase tracking-wider text-white shadow-lg transition-transform hover:scale-105"
-            style={{ backgroundColor: color }}
+            style={{ backgroundColor: surfaceColor }}
           >
             <Play className="size-4" />
             Play the {meta.name} bracket
@@ -255,7 +261,7 @@ export default async function BracketResultsPage({
 
             <div className="space-y-4">
               <div className="flex items-center gap-2">
-                <BarChart3 className="size-5" style={{ color }} />
+                <BarChart3 className="size-5" style={{ color: accentColor }} />
                 <h2 className="text-xl font-bold text-white">
                   Full community ranking
                 </h2>
@@ -279,7 +285,7 @@ export default async function BracketResultsPage({
         <section className="px-4 py-12">
           <div className="mx-auto max-w-4xl space-y-4">
             <div className="flex items-center gap-2">
-              <Trophy className="size-5" style={{ color }} />
+              <Trophy className="size-5" style={{ color: accentColor }} />
               <h2 className="text-xl font-bold text-white">
                 The {items.length} entrants waiting to be ranked
               </h2>

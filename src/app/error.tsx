@@ -46,7 +46,11 @@ export default function Error({
             <RotateCcw className="size-4" />
             Try Again
           </Button>
-          <Button render={<Link href="/" />} className="gap-2 bg-destructive text-white hover:bg-destructive/90">
+          <Button
+            render={<Link href="/" />}
+            nativeButton={false}
+            className="gap-2 bg-destructive text-white hover:bg-destructive/90"
+          >
             <Home className="size-4" />
             Go Home
           </Button>

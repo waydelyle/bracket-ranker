@@ -3,6 +3,8 @@ import Image from "next/image";
 import { ArrowRight, Play } from "lucide-react";
 import type { BracketMeta } from "@/data/types";
 import { Badge } from "@/components/ui/badge";
+import { categoryTextColor } from "@/lib/category-color";
+import { canOptimizeImage } from "@/lib/image-source";
 
 interface BracketCardProps {
   bracket: BracketMeta;
@@ -38,6 +40,8 @@ export function BracketCard({
                 width={40}
                 height={53}
                 sizes="40px"
+                unoptimized={!canOptimizeImage(preview.image)}
+                referrerPolicy="no-referrer"
                 className="h-[53px] w-10 rounded-md border-2 border-card object-cover"
               />
             ))}
@@ -57,10 +61,11 @@ export function BracketCard({
               {bracket.itemCount} items
             </Badge>
             <Badge
+              variant="outline"
               className="text-xs"
               style={{
                 backgroundColor: `${categoryColor}20`,
-                color: categoryColor,
+                color: categoryTextColor(categoryColor),
               }}
             >
               {bracket.defaultSize}-item bracket
@@ -71,7 +76,7 @@ export function BracketCard({
 
       <div
         className="flex items-center gap-1.5 text-sm font-medium"
-        style={{ color: categoryColor }}
+        style={{ color: categoryTextColor(categoryColor) }}
       >
         <Play className="size-3.5" />
         <span>Play</span>

@@ -6,6 +6,10 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Loader2, RotateCcw, Trophy } from "lucide-react";
 import type { BracketItem } from "@/data/types";
 import { getRoundName } from "@/lib/bracket-engine";
+import {
+  categorySurfaceColor,
+  categoryTextColor,
+} from "@/lib/category-color";
 import { useBracket } from "@/hooks/useBracket";
 import { saveResult } from "@/app/actions/results";
 import { submitVotes } from "@/app/actions/votes";
@@ -65,6 +69,18 @@ export function BracketGame({
   const [isSaving, setIsSaving] = useState(false);
   const [saveFailed, setSaveFailed] = useState(false);
   const hasSavedRef = useRef(false);
+  const previousPhaseRef = useRef(state.phase);
+
+  // On a phone the intro card is taller than the viewport, so the Start and
+  // Resume buttons are reached by scrolling down. Replacing that card with the
+  // shorter game at the same scroll offset left the first matchup hidden above
+  // the sticky header. Every real phase change starts a new screen, so return
+  // it to the top after React commits the replacement content.
+  useEffect(() => {
+    if (previousPhaseRef.current === state.phase) return;
+    previousPhaseRef.current = state.phase;
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, [state.phase]);
 
   const handleStart = useCallback(
     (size: number) => {
@@ -199,7 +215,7 @@ export function BracketGame({
           <div
             className="flex h-24 w-24 items-center justify-center rounded-full"
             style={{
-              backgroundColor: categoryColor,
+              backgroundColor: categorySurfaceColor(categoryColor),
               boxShadow: `0 0 30px 8px ${categoryColor}50`,
             }}
           >
@@ -207,13 +223,13 @@ export function BracketGame({
           </div>
 
           <div className="space-y-2">
-            <h2 className="text-4xl font-extrabold tracking-tight text-white">
+            <h1 className="text-4xl font-extrabold tracking-tight text-white">
               Champion
-            </h2>
+            </h1>
             {champion && (
               <p
                 className="text-2xl font-bold"
-                style={{ color: categoryColor }}
+                style={{ color: categoryTextColor(categoryColor) }}
               >
                 {champion.name}
               </p>
@@ -243,7 +259,7 @@ export function BracketGame({
             onClick={handleReset}
             className="mt-4 gap-2 rounded-xl px-6 font-bold text-white"
             style={{
-              backgroundColor: categoryColor,
+              backgroundColor: categorySurfaceColor(categoryColor),
               boxShadow: `0 0 16px 2px ${categoryColor}30`,
             }}
           >

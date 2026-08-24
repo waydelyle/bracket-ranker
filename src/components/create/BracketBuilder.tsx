@@ -54,7 +54,7 @@ export function BracketBuilder({ onSubmit, isSubmitting }: BracketBuilderProps) 
           placeholder="e.g., Best Pizza Places in NYC"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          maxLength={100}
+          maxLength={80}
         />
       </div>
 

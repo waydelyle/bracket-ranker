@@ -3,6 +3,10 @@
 import { Trophy } from "lucide-react";
 import type { BracketItem, Matchup, Standing } from "@/data/types";
 import { bracketStandings, formatPosition } from "@/lib/standings.mjs";
+import {
+  categorySurfaceColor,
+  categoryTextColor,
+} from "@/lib/category-color";
 
 interface ShareCardProps {
   ranking: string[];
@@ -31,7 +35,7 @@ export function ShareCard({
       {/* Header bar */}
       <div
         className="px-6 py-4"
-        style={{ backgroundColor: categoryColor }}
+        style={{ backgroundColor: categorySurfaceColor(categoryColor) }}
       >
         <p className="text-xs font-medium uppercase tracking-wider text-white/80">
           {categoryName}
@@ -56,7 +60,7 @@ export function ShareCard({
                 {isChampion ? (
                   <Trophy
                     className="size-4 shrink-0"
-                    style={{ color: categoryColor }}
+                    style={{ color: categoryTextColor(categoryColor) }}
                   />
                 ) : (
                   <div
@@ -88,7 +92,11 @@ export function ShareCard({
                       ? "text-sm font-bold"
                       : "text-sm text-muted-foreground"
                   }
-                  style={isChampion ? { color: categoryColor } : undefined}
+                  style={
+                    isChampion
+                      ? { color: categoryTextColor(categoryColor) }
+                      : undefined
+                  }
                 >
                   {item.name}
                 </span>

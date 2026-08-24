@@ -23,6 +23,7 @@ import {
   encodePlacement,
 } from "@/lib/serialization.mjs";
 import { cn } from "@/lib/utils";
+import { canOptimizeImage, directImageLoader } from "@/lib/image-source";
 
 export interface TierListDataset {
   category: string;
@@ -453,6 +454,7 @@ export function TierListMaker({
 
   return (
     <div className="space-y-5">
+      <h2 className="sr-only">Build your tier list</h2>
       {/* Controls */}
       <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
         <label className="flex-1">
@@ -724,6 +726,8 @@ interface TierTileProps {
 }
 
 function TierTile({ item, selected, onClick, onDragStart }: TierTileProps) {
+  const directImage = Boolean(item.image && !canOptimizeImage(item.image));
+
   return (
     <button
       type="button"
@@ -743,6 +747,9 @@ function TierTile({ item, selected, onClick, onDragStart }: TierTileProps) {
           fill
           className="object-cover"
           sizes="72px"
+          loader={directImage ? directImageLoader : undefined}
+          unoptimized={directImage}
+          referrerPolicy={directImage ? "no-referrer" : undefined}
         />
       )}
       <span

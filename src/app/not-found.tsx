@@ -3,6 +3,7 @@ import { Home, ArrowRight, Trophy } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getFeaturedBrackets } from "@/data/registry";
 import { getCategoryBySlug } from "@/data/categories";
+import { categorySurfaceColor } from "@/lib/category-color";
 
 export default function NotFound() {
   const featured = getFeaturedBrackets().slice(0, 6);
@@ -33,7 +34,11 @@ export default function NotFound() {
         </p>
 
         {/* Home link */}
-        <Button render={<Link href="/" />} className="gap-2 bg-amber-500 text-white hover:bg-amber-600">
+        <Button
+          render={<Link href="/" />}
+          nativeButton={false}
+          className="gap-2 bg-amber-500 text-black hover:bg-amber-400"
+        >
           <Home className="size-4" />
           Back to Home
         </Button>
@@ -63,7 +68,11 @@ export default function NotFound() {
               >
                 <div
                   className="flex size-10 shrink-0 items-center justify-center rounded-lg text-lg text-white"
-                  style={{ backgroundColor: cat?.color ?? "#6366f1" }}
+                  style={{
+                    backgroundColor: categorySurfaceColor(
+                      cat?.color ?? "#6366f1",
+                    ),
+                  }}
                 >
                   {cat?.icon}
                 </div>

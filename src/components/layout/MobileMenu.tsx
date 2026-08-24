@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { BarChart3, ListChecks, Menu, X, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -9,6 +9,22 @@ import { categories } from "@/data/categories";
 export function MobileMenu() {
   const [open, setOpen] = useState(false);
 
+  useEffect(() => {
+    if (!open) return;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpen(false);
+    };
+    window.addEventListener("keydown", closeOnEscape);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [open]);
+
   return (
     <>
       <Button
@@ -16,6 +32,8 @@ export function MobileMenu() {
         size="icon"
         onClick={() => setOpen(!open)}
         aria-label={open ? "Close menu" : "Open menu"}
+        aria-expanded={open}
+        aria-controls="mobile-navigation"
       >
         {open ? <X className="size-5" /> : <Menu className="size-5" />}
       </Button>
@@ -28,8 +46,11 @@ export function MobileMenu() {
             onClick={() => setOpen(false)}
           />
 
-          <div className="absolute inset-x-0 top-14 z-50 border-b border-border bg-background p-4 shadow-lg">
-            <nav className="flex flex-col gap-1">
+          <div
+            id="mobile-navigation"
+            className="absolute inset-x-0 top-14 z-50 border-b border-border bg-background p-4 shadow-lg"
+          >
+            <nav aria-label="Mobile navigation" className="flex flex-col gap-1">
               {categories.map((cat) => (
                 <Link
                   key={cat.slug}

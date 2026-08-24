@@ -197,7 +197,10 @@ async function summaryImage(title) {
     if (!res.ok) return null;
     const d = await res.json();
     if (d.type === "disambiguation") return null;
-    const url = d.originalimage?.source ?? d.thumbnail?.source;
+    // The rendered cards top out around 300px. Prefer Wikipedia's thumbnail
+    // instead of storing a multi-megapixel original that every browser would
+    // have to download when Wikimedia images bypass the Next optimizer.
+    const url = d.thumbnail?.source ?? d.originalimage?.source;
     // The REST API appends a tracking query that does not belong in the data.
     return url ? { url: normaliseWidth(url.split("?")[0]), via: d.title } : null;
   } catch {

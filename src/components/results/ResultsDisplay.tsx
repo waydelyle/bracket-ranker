@@ -11,6 +11,7 @@ import {
   sharedExitRound,
 } from "@/lib/standings.mjs";
 import { cn } from "@/lib/utils";
+import { categoryTextColor } from "@/lib/category-color";
 
 interface ResultsDisplayProps {
   ranking: string[];
@@ -134,7 +135,7 @@ export function ResultsDisplay({
                     {isChampion ? (
                       <Trophy
                         className="size-5"
-                        style={{ color: categoryColor }}
+                        style={{ color: categoryTextColor(categoryColor) }}
                       />
                     ) : (
                       <div
@@ -177,7 +178,11 @@ export function ResultsDisplay({
                             ? "font-semibold text-white"
                             : "font-medium text-muted-foreground",
                       )}
-                      style={isChampion ? { color: categoryColor } : undefined}
+                      style={
+                        isChampion
+                          ? { color: categoryTextColor(categoryColor) }
+                          : undefined
+                      }
                     >
                       {item.name}
                     </p>

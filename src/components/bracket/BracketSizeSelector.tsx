@@ -4,6 +4,7 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { Trophy, Users } from "lucide-react";
 import { byeCount, fieldSizeOptions } from "@/lib/bracket-engine";
+import { categoryTextColor } from "@/lib/category-color";
 
 interface BracketSizeSelectorProps {
   itemCount: number;
@@ -81,13 +82,17 @@ export function BracketSizeSelector({
               <Trophy
                 className="size-5"
                 style={{
-                  color: isSelected ? categoryColor : undefined,
+                  color: isSelected
+                    ? categoryTextColor(categoryColor)
+                    : undefined,
                 }}
               />
               <span
                 className="text-lg font-bold"
                 style={{
-                  color: isSelected ? categoryColor : undefined,
+                  color: isSelected
+                    ? categoryTextColor(categoryColor)
+                    : undefined,
                 }}
               >
                 {size}

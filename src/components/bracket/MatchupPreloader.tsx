@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import type { BracketItem } from "@/data/types";
+import { canOptimizeImage, directImageLoader } from "@/lib/image-source";
 
 /**
  * Warms the browser cache with the next matchup's artwork.
@@ -27,16 +28,22 @@ export function MatchupPreloader({
       aria-hidden
       className="pointer-events-none absolute size-px overflow-hidden opacity-0"
     >
-      {sources.map((src) => (
-        <Image
-          key={src}
-          src={src}
-          alt=""
-          fill
-          sizes="(max-width: 768px) 45vw, 300px"
-          priority
-        />
-      ))}
+      {sources.map((src) => {
+        const directImage = !canOptimizeImage(src);
+        return (
+          <Image
+            key={src}
+            src={src}
+            alt=""
+            fill
+            sizes="(max-width: 768px) 45vw, 300px"
+            loader={directImage ? directImageLoader : undefined}
+            unoptimized={directImage}
+            referrerPolicy={directImage ? "no-referrer" : undefined}
+            preload
+          />
+        );
+      })}
     </div>
   );
 }

@@ -17,16 +17,14 @@ interface CustomBracketInput {
 /** Custom bracket ids are ours: 10 chars from nanoid's URL-safe alphabet. */
 const CUSTOM_ID = /^[A-Za-z0-9_-]{10}$/;
 
-/** Only real image URLs are worth storing, and only over http(s). */
+/** Only HTTPS image URLs are usable from the production HTTPS page. */
 function safeImageUrl(value: unknown): string | undefined {
   if (typeof value !== "string" || value.length === 0 || value.length > 500) {
     return undefined;
   }
   try {
     const url = new URL(value);
-    return url.protocol === "https:" || url.protocol === "http:"
-      ? value
-      : undefined;
+    return url.protocol === "https:" ? value : undefined;
   } catch {
     return undefined;
   }
@@ -76,8 +74,13 @@ export async function saveCustomBracket(
     throw new Error("A bracket needs at least 8 entrants");
   }
 
-  const id = nanoid(10);
   const redis = getRedis();
+  // Do not mint a share id unless there is somewhere to persist it. Returning
+  // an id in a local or degraded environment made the UI claim success and
+  // sent Play Now to a guaranteed 404.
+  if (!redis) throw new Error("Custom bracket storage is unavailable");
+
+  const id = nanoid(10);
 
   const bracket = {
     id,
@@ -86,11 +89,9 @@ export async function saveCustomBracket(
     createdAt: Date.now(),
   };
 
-  if (redis) {
-    await redis.set(`custom:${id}`, JSON.stringify(bracket), {
-      ex: 60 * 60 * 24 * 90,
-    });
-  }
+  await redis.set(`custom:${id}`, JSON.stringify(bracket), {
+    ex: 60 * 60 * 24 * 90,
+  });
 
   return id;
 }

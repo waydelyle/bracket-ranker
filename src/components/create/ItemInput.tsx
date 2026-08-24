@@ -28,6 +28,7 @@ export function ItemInput({ onAdd }: ItemInputProps) {
         value={name}
         onChange={(e) => setName(e.target.value)}
         onKeyDown={(e) => e.key === "Enter" && handleAdd()}
+        maxLength={60}
         className="flex-1"
       />
       <Input
@@ -35,9 +36,16 @@ export function ItemInput({ onAdd }: ItemInputProps) {
         value={image}
         onChange={(e) => setImage(e.target.value)}
         onKeyDown={(e) => e.key === "Enter" && handleAdd()}
+        maxLength={500}
         className="flex-1 hidden sm:block"
       />
-      <Button type="button" onClick={handleAdd} disabled={!name.trim()} size="icon">
+      <Button
+        type="button"
+        onClick={handleAdd}
+        disabled={!name.trim()}
+        size="icon"
+        aria-label="Add item"
+      >
         <Plus className="size-4" />
       </Button>
     </div>

@@ -2,6 +2,10 @@
 
 import { Trophy, Medal, Award } from "lucide-react";
 import { WinRateBar } from "./WinRateBar";
+import {
+  categorySurfaceColor,
+  categoryTextColor,
+} from "@/lib/category-color";
 
 export interface LeaderboardItem {
   id: string;
@@ -92,7 +96,10 @@ export function PowerRankings({ items, categoryColor }: PowerRankingsProps) {
             >
               {/* Rank */}
               <div className="flex items-center justify-center">
-                <RankBadge rank={rank} color={categoryColor} />
+                <RankBadge
+                  rank={rank}
+                  color={categorySurfaceColor(categoryColor)}
+                />
               </div>
 
               {/* Name */}
@@ -136,7 +143,10 @@ export function PowerRankings({ items, categoryColor }: PowerRankingsProps) {
               <span className="hidden text-right text-sm tabular-nums text-muted-foreground sm:block">
                 {item.championCount > 0 ? (
                   <span className="inline-flex items-center gap-1">
-                    <Trophy className="size-3" style={{ color: categoryColor }} />
+                    <Trophy
+                      className="size-3"
+                      style={{ color: categoryTextColor(categoryColor) }}
+                    />
                     {item.championCount}
                   </span>
                 ) : (

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { categories } from "@/data/categories";
+import { categorySurfaceColor } from "@/lib/category-color";
 
 const glowClassMap: Record<string, string> = {
   "#ef4444": "glow-red",
@@ -17,7 +18,10 @@ interface CategoryNavProps {
 
 export function CategoryNav({ activeCategory }: CategoryNavProps) {
   return (
-    <nav className="flex gap-1.5 overflow-x-auto scrollbar-none py-1">
+    <nav
+      aria-label="Bracket categories"
+      className="flex gap-1.5 overflow-x-auto scrollbar-none py-1"
+    >
       {categories.map((cat) => {
         const isActive = activeCategory === cat.slug;
 
@@ -31,7 +35,11 @@ export function CategoryNav({ activeCategory }: CategoryNavProps) {
               !isActive &&
                 "text-muted-foreground hover:bg-muted hover:text-foreground",
             )}
-            style={isActive ? { backgroundColor: cat.color } : undefined}
+            style={
+              isActive
+                ? { backgroundColor: categorySurfaceColor(cat.color) }
+                : undefined
+            }
           >
             <span className="text-base leading-none">{cat.icon}</span>
             <span>{cat.name}</span>

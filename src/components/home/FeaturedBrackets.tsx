@@ -4,6 +4,10 @@ import { getFeaturedBrackets } from "@/data/registry";
 import { getCategoryBySlug } from "@/data/categories";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
+import {
+  categorySurfaceColor,
+  categoryTextColor,
+} from "@/lib/category-color";
 
 export function FeaturedBrackets() {
   const featured = getFeaturedBrackets();
@@ -55,7 +59,7 @@ export function FeaturedBrackets() {
                       <Badge
                         className="text-xs text-white"
                         style={{
-                          backgroundColor: cat.color,
+                          backgroundColor: categorySurfaceColor(cat.color),
                         }}
                       >
                         {cat.icon} {cat.name}
@@ -77,7 +81,7 @@ export function FeaturedBrackets() {
 
                 <div
                   className="flex items-center gap-1.5 text-sm font-semibold transition-colors"
-                  style={{ color: cat?.color }}
+                  style={{ color: cat ? categoryTextColor(cat.color) : undefined }}
                 >
                   Play
                   <ArrowRight className="size-3.5 transition-transform group-hover:translate-x-1" />

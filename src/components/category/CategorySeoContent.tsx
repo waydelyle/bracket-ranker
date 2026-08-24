@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, Trophy } from "lucide-react";
 import type { BracketCategory, BracketMeta } from "@/data/types";
+import { categoryTextColor } from "@/lib/category-color";
 
 interface CategorySeoContentProps {
   category: BracketCategory;
@@ -24,7 +25,7 @@ export function CategorySeoContent({
         <div className="space-y-4">
           <p
             className="text-sm font-semibold uppercase tracking-wider"
-            style={{ color: category.color }}
+            style={{ color: categoryTextColor(category.color) }}
           >
             {category.name} rankings
           </p>
@@ -71,7 +72,10 @@ export function CategorySeoContent({
 
         <div className="rounded-xl border border-border/50 bg-card p-5">
           <div className="mb-4 flex items-center gap-2">
-            <Trophy className="size-5" style={{ color: category.color }} />
+            <Trophy
+              className="size-5"
+              style={{ color: categoryTextColor(category.color) }}
+            />
             <h3 className="font-bold text-white">Popular starting points</h3>
           </div>
           <div className="space-y-2">
