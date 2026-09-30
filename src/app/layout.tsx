@@ -1,3 +1,4 @@
+import { SENTRY_LOADER_CONFIG } from "@/lib/sentry-loader-config";
 import type { Metadata, Viewport } from "next";
 import { Outfit, Geist_Mono } from "next/font/google";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -65,6 +66,7 @@ export default function RootLayout({
         {/* Error monitoring only — it does not need to run before the page is
             interactive, and blocking on a third-party host to load it costs
             every visitor time on the critical path. */}
+        <script id="sentry-loader-config" dangerouslySetInnerHTML={{ __html: SENTRY_LOADER_CONFIG }} />
         <Script
           src="https://js.sentry-cdn.com/4a35e6aafb5d1e911610f80498a1dbe1.min.js"
           crossOrigin="anonymous"
