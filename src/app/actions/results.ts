@@ -30,11 +30,11 @@ export async function saveResult(
     input?.bracketSlug,
   );
   if (!entrants) throw new Error("Unknown bracket");
-  if (!isRankingValid(input.ranking, input.champion, entrants)) {
-    throw new Error("Invalid ranking");
-  }
-  if (!areMatchupsValid(input.matchups, entrants)) {
+  if (!areMatchupsValid(input.matchups, entrants, input.champion)) {
     throw new Error("Invalid matchups");
+  }
+  if (!isRankingValid(input.ranking, input.champion, entrants, input.matchups)) {
+    throw new Error("Invalid ranking");
   }
 
   const redis = getRedis();
@@ -50,15 +50,31 @@ export async function saveResult(
     bracketSlug: input.bracketSlug,
     ranking: input.ranking,
     champion: input.champion,
-    matchups: input.matchups,
+    // Persist only the fields the game uses, rather than arbitrary additional
+    // properties supplied to this public action.
+    matchups: input.matchups.map(({ round, itemA, itemB, winner }) => ({
+      round,
+      itemA,
+      itemB,
+      winner,
+    })),
     id,
     createdAt: Date.now(),
   };
 
-  // Save with 90-day TTL
-  await redis.set(`result:${id}`, JSON.stringify(result), {
-    ex: 60 * 60 * 24 * 90,
-  });
+  const ttl = 60 * 60 * 24 * 90;
+  if (input.categorySlug === "custom") {
+    // A result relies on its custom bracket for entrant names and images.
+    // Keep that bracket for the result's full lifetime: a run saved on day 89
+    // used to lose its names on day 90 while its result survived to day 179.
+    await redis
+      .multi()
+      .set(`result:${id}`, JSON.stringify(result), { ex: ttl })
+      .expire(`custom:${input.bracketSlug}`, ttl)
+      .exec();
+  } else {
+    await redis.set(`result:${id}`, JSON.stringify(result), { ex: ttl });
+  }
 
   return id;
 }

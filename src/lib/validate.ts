@@ -1,11 +1,15 @@
 import { getBracketMeta } from "@/data/registry";
 import { loadBracketItems } from "@/data/items";
 import { getCustomBracket } from "@/app/actions/custom-brackets";
-import type { BracketItem, Matchup } from "@/data/types";
+import type { BracketItem } from "@/data/types";
+import { MAX_BRACKET_SIZE } from "@/lib/tournament-validation";
 
-/** Largest bracket the game offers, so the most picks a real run can produce. */
-export const MAX_BRACKET_SIZE = 64;
-export const MAX_MATCHUPS = MAX_BRACKET_SIZE - 1;
+export {
+  MAX_BRACKET_SIZE,
+  MAX_MATCHUPS,
+  areMatchupsValid,
+  isRankingValid,
+} from "@/lib/tournament-validation";
 
 /** Ceilings for user-named custom brackets. */
 export const MAX_CUSTOM_TITLE_LENGTH = 80;
@@ -58,37 +62,4 @@ export async function bracketEntrantIds(
   const items = await loadBracketItems(categorySlug, bracketSlug);
   if (!items || items.length === 0) return null;
   return new Set(items.map((item) => item.id));
-}
-
-/** True when `matchups` could have come from a real run of this bracket. */
-export function areMatchupsValid(
-  matchups: unknown,
-  entrants: Set<string>,
-): matchups is Matchup[] {
-  if (!Array.isArray(matchups)) return false;
-  if (matchups.length === 0 || matchups.length > MAX_MATCHUPS) return false;
-
-  return matchups.every((matchup) => {
-    if (!matchup || typeof matchup !== "object") return false;
-    const { itemA, itemB, winner } = matchup as Matchup;
-    if (!entrants.has(itemA) || !entrants.has(itemB)) return false;
-    if (itemA === itemB) return false;
-    return winner === itemA || winner === itemB;
-  });
-}
-
-/** True when `ranking` is a plausible final order for this bracket. */
-export function isRankingValid(
-  ranking: unknown,
-  champion: unknown,
-  entrants: Set<string>,
-): ranking is string[] {
-  if (!Array.isArray(ranking)) return false;
-  if (ranking.length < 2 || ranking.length > MAX_BRACKET_SIZE) return false;
-  if (typeof champion !== "string" || ranking[0] !== champion) return false;
-  if (!ranking.every((id) => typeof id === "string" && entrants.has(id))) {
-    return false;
-  }
-  // A ranking lists each entrant once.
-  return new Set(ranking).size === ranking.length;
 }

@@ -15,13 +15,14 @@
  * their positions are their draw slots in reverse and nothing else. The draw is
  * shuffled, so that is a coin toss deciding who is "9th" and who is "16th".
  *
- * So positions here are shared rather than invented. Entrants are grouped by
- * the one thing the bracket really measured — how many matchups each of them
- * won — and everyone in a group holds the same position.
+ * The final settles the champion and runner-up. Below those two, positions
+ * are shared rather than invented: entrants are grouped by how many matchups
+ * each of them won, and everyone in a group holds the same position.
  *
- * Wins are used rather than the round an entrant went out in because byes make
- * those two disagree. In a 24-entrant field, eight entrants start in the second
- * round without playing; one of them that then loses has won nothing, yet it
+ * Wins are used below the finalists rather than the round an entrant went out
+ * in because byes make those two disagree. In a 24-entrant field, eight entrants
+ * start in the second round without playing; one of them that then loses has
+ * won nothing, yet it
  * went out a round later than an entrant that played its opening matchup and
  * lost. Grouping by round would rank the free pass above the entrant that
  * actually turned up. Grouping by wins puts them level, which is what their
@@ -78,10 +79,12 @@ function exitRoundByEntrant(matchups) {
 /**
  * Standings for `ranking`, in the order they should be shown.
  *
- * Entrants are reordered by wins, high to low, keeping the stored order inside
- * a group so a result renders the same way every time it is opened. The stored
- * `ranking` array is left alone: it is the saved format, it is validated
- * server-side, and it already holds every entrant exactly once.
+ * The saved ranking starts with the champion and final loser, who retain
+ * unique first and second places. A champion that received a bye can win the
+ * same number of matchups as the runner-up, but their final still separated
+ * them. Everyone below them is reordered by wins, high to low, keeping the
+ * stored order inside a group so a result renders the same way every time it
+ * is opened. The stored `ranking` array is left alone.
  *
  * Without a usable matchup history nothing can be grouped, so every entrant is
  * returned at its own position — the same list the caller passed in, just
@@ -110,13 +113,22 @@ export function bracketStandings(ranking, matchups) {
     }));
   }
 
-  // Stable: `sort` is stable in every engine this runs on, so entrants on the
-  // same record keep the order the run recorded them in.
-  const ordered = [...ids].sort(
+  // The final establishes these two places even when byes leave their win
+  // totals equal, or leave the runner-up level with a semi-final loser.
+  const standings = ids.slice(0, 2).map((id, index) => ({
+    id,
+    position: index + 1,
+    count: 1,
+    tied: false,
+    wins: wins.get(id) ?? 0,
+    eliminatedInRound: exits.has(id) ? exits.get(id) : null,
+  }));
+
+  // Stable: entrants on the same record keep their stored order.
+  const ordered = ids.slice(2).sort(
     (a, b) => (wins.get(b) ?? 0) - (wins.get(a) ?? 0),
   );
 
-  const standings = [];
   let index = 0;
   while (index < ordered.length) {
     const record = wins.get(ordered[index]) ?? 0;
@@ -126,7 +138,7 @@ export function bracketStandings(ranking, matchups) {
       end += 1;
     }
 
-    const position = index + 1;
+    const position = index + 3;
     const count = end - index;
 
     for (let at = index; at < end; at++) {

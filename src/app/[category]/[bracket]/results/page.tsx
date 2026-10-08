@@ -9,6 +9,7 @@ import { StructuredData } from "@/components/seo/StructuredData";
 import { CommunityBoard } from "@/components/bracket/CommunityBoard";
 import { EntrantGrid } from "@/components/bracket/EntrantGrid";
 import { formatPlays, getCachedCommunityStandings } from "@/lib/community";
+import { getChampionLeaders } from "@/lib/community-champions.mjs";
 import {
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
@@ -109,7 +110,8 @@ export default async function BracketResultsPage({
   const updated = new Date();
   const keyword = getBracketKeyword(meta, cat);
 
-  const champion = standings?.entries.find((entry) => entry.championCount > 0);
+  const championLeaders = getChampionLeaders(standings?.entries ?? []);
+  const champion = championLeaders[0];
   const topByWinRate = standings?.entries[0];
 
   const faqs = [
@@ -196,13 +198,17 @@ export default async function BracketResultsPage({
                       {topByWinRate.name}
                     </strong>{" "}
                     currently leads on win rate
-                    {champion && champion.id !== topByWinRate.id && (
-                      <>
-                        , while{" "}
-                        <strong className="text-white">{champion.name}</strong>{" "}
-                        has taken the title most often
-                      </>
-                    )}
+                    {champion &&
+                      (champion.id !== topByWinRate.id ||
+                        championLeaders.length > 1) && (
+                        <>
+                          , while{" "}
+                          <strong className="text-white">{champion.name}</strong>{" "}
+                          {championLeaders.length > 1
+                            ? "is tied for the most titles"
+                            : "has taken the title most often"}
+                        </>
+                      )}
                     .
                   </>
                 )}

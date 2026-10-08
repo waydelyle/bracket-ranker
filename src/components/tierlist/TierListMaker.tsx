@@ -377,6 +377,10 @@ export function TierListMaker({
   const removeCustom = useCallback((index: number) => {
     // Ids are positional, so drop the placement for the removed entry and
     // shift everything above it down by one.
+    // A pending selection or drag still carries the old position and could
+    // otherwise place a different entrant after that shift.
+    setSelected(null);
+    dragged.current = null;
     setCustom((current) => current.filter((_, i) => i !== index));
     setPlacement((current) => {
       const next: Placement = {};

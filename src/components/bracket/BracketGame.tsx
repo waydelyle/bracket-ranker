@@ -69,7 +69,14 @@ export function BracketGame({
   const [isSaving, setIsSaving] = useState(false);
   const [saveFailed, setSaveFailed] = useState(false);
   const hasSavedRef = useRef(false);
+  const saveRunRef = useRef(0);
   const previousPhaseRef = useRef(state.phase);
+
+  // A save can finish after the player restarts or leaves this bracket. Its
+  // result belongs to the old run and must not navigate away from the new one.
+  useEffect(() => () => {
+    saveRunRef.current += 1;
+  }, [categorySlug, bracketSlug]);
 
   // On a phone the intro card is taller than the viewport, so the Start and
   // Resume buttons are reached by scrolling down. Replacing that card with the
@@ -97,6 +104,7 @@ export function BracketGame({
   );
 
   const handleReset = useCallback(() => {
+    saveRunRef.current += 1;
     hasSavedRef.current = false;
     setIsSaving(false);
     setSaveFailed(false);
@@ -110,6 +118,7 @@ export function BracketGame({
     }
 
     hasSavedRef.current = true;
+    const saveRun = saveRunRef.current;
 
     async function save() {
       setIsSaving(true);
@@ -139,6 +148,8 @@ export function BracketGame({
           new Promise((resolve) => setTimeout(resolve, CELEBRATION_MS)),
         ]);
 
+        if (saveRun !== saveRunRef.current) return;
+
         // No id means there was nowhere to store the result; navigating would
         // land on a 404, so keep the ranking on screen instead.
         if (!resultId) {
@@ -149,6 +160,7 @@ export function BracketGame({
 
         router.push(`/results/${resultId}`);
       } catch {
+        if (saveRun !== saveRunRef.current) return;
         // If saving fails, stay on the page and show the results inline
         setIsSaving(false);
         setSaveFailed(true);

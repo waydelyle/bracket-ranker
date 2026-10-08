@@ -24,7 +24,7 @@ export async function submitVotes(
   const entrants = await bracketEntrantIds(categorySlug, bracketSlug);
   if (!entrants) return;
   if (!entrants.has(championId)) return;
-  if (!areMatchupsValid(matchups, entrants)) return;
+  if (!areMatchupsValid(matchups, entrants, championId)) return;
 
   const key = `votes:${categorySlug}/${bracketSlug}`;
   const pipe = redis.pipeline();

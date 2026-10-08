@@ -153,6 +153,73 @@ test("a bye does not buy a better position than an entrant that played", () => {
   assert.ok(exits.size > 1, `all winless entrants left in round ${[...exits]}`);
 });
 
+test("a bye champion remains alone in first even when the final loser has as many wins", () => {
+  // i0 receives a bye in this draw. Its final opponent plays the opening
+  // round, so both finish on four wins despite i0 winning their final.
+  const { ranking, matchupHistory } = play(24, (matchup) =>
+    matchup.itemA.id === "i0" ? matchup.itemA : matchup.itemB,
+  );
+  const standings = bracketStandings(ranking, matchupHistory);
+  const final = matchupHistory.at(-1);
+
+  assert.equal(final.winner, "i0");
+  assert.equal(standings[0].wins, 4);
+  assert.equal(standings[1].wins, 4);
+  assert.deepEqual(
+    standings.slice(0, 2).map(({ id, position, count, tied }) => ({
+      id, position, count, tied,
+    })),
+    [
+      { id: "i0", position: 1, count: 1, tied: false },
+      { id: "i23", position: 2, count: 1, tied: false },
+    ],
+  );
+  assert.equal(standings.filter((entry) => entry.position === 1).length, 1);
+});
+
+test("the final establishes unique first and second places across fields with byes", () => {
+  for (const size of [9, 12, 17, 24, 33, 48, 63]) {
+    for (const preferBye of [false, true]) {
+      const { ranking, matchupHistory } = play(size, (matchup) =>
+        preferBye && matchup.itemA.id === "i0" ? matchup.itemA : matchup.itemB,
+      );
+      const final = matchupHistory.at(-1);
+      const runnerUp = final.winner === final.itemA ? final.itemB : final.itemA;
+      const standings = bracketStandings(ranking, matchupHistory);
+
+      assert.equal(standings[0].id, final.winner, `champion in field ${size}`);
+      assert.equal(standings[1].id, runnerUp, `runner-up in field ${size}`);
+      assert.deepEqual(standings.slice(0, 2).map((entry) => entry.position), [1, 2]);
+      assert.ok(standings.slice(0, 2).every((entry) => !entry.tied && entry.count === 1));
+      // Entrants below the finalists still share positions by actual wins.
+      const positionsByWins = new Map();
+      for (const entry of standings.slice(2)) {
+        const position = positionsByWins.get(entry.wins) ?? entry.position;
+        assert.equal(entry.position, position, `shared wins in field ${size}`);
+        positionsByWins.set(entry.wins, position);
+      }
+      assert.equal(new Set(standings.map((entry) => entry.id)).size, size);
+    }
+  }
+});
+
+test("a bye runner-up stays second when semi-final losers have the same wins", () => {
+  const { ranking, matchupHistory } = play(24, (matchup) =>
+    matchup.itemA.id === "i0" && matchup.itemB.id !== "i23"
+      ? matchup.itemA
+      : matchup.itemB,
+  );
+  const standings = bracketStandings(ranking, matchupHistory);
+
+  assert.equal(standings[1].id, "i0");
+  assert.equal(standings[1].wins, 3);
+  assert.equal(standings[1].position, 2);
+  assert.equal(standings[1].tied, false);
+  assert.equal(standings[2].wins, 3);
+  assert.equal(standings[2].position, 3);
+  assert.equal(standings[2].tied, true);
+});
+
 test("positions run 1..fieldSize with no gaps and no invented places", () => {
   for (const size of [8, 12, 16, 24, 32, 64]) {
     const { ranking, matchupHistory } = play(size);
