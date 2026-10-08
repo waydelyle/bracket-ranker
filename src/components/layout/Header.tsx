@@ -18,12 +18,12 @@ export function Header() {
         </Link>
 
         {/* Desktop navigation */}
-        <div className="hidden flex-1 justify-center md:flex">
+        <div className="hidden flex-1 justify-center lg:flex">
           <CategoryNav />
         </div>
 
         {/* Create button (desktop) */}
-        <div className="hidden items-center gap-2 md:flex">
+        <div className="hidden items-center gap-2 lg:flex">
           <Link
             href="/tier-list-maker"
             className="inline-flex h-9 items-center justify-center gap-1.5 rounded-full px-3 text-sm font-medium text-muted-foreground hover:bg-muted hover:text-foreground"
@@ -48,7 +48,7 @@ export function Header() {
         </div>
 
         {/* Mobile menu */}
-        <div className="flex flex-1 justify-end md:hidden">
+        <div className="flex flex-1 justify-end lg:hidden">
           <MobileMenu />
         </div>
       </div>
