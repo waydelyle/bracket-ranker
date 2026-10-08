@@ -1,7 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { SENTRY_LOADER_CONFIG } from '../src/lib/sentry-loader-config.ts';
+import { sentryLoaderConfig } from '../src/lib/sentry-loader-config.ts';
+
+const SENTRY_LOADER_CONFIG = sentryLoaderConfig('test-release');
 
 const options = (() => {
   let options;
@@ -31,7 +33,31 @@ test('preserves application errors, worker failures and missing stacks', () => {
   assert.equal(options.beforeSend(empty), empty);
 });
 
-test('registers the callback before the SDK loader in the layout', () => {
+test('registers the head callback before the actual deferred CDN loader', () => {
   const source = readFileSync(new URL('../src/app/layout.tsx', import.meta.url), 'utf8');
   assert.ok(source.indexOf('id="sentry-loader-config"') < source.indexOf('src="https://js.sentry-cdn.com/'));
+  assert.ok(source.indexOf('<head>') < source.indexOf('id="sentry-loader-config"'));
+  assert.ok(source.indexOf('id="sentry-loader-config"') < source.indexOf('</head>'));
+  assert.match(source, /<script\s+src="https:\/\/js\.sentry-cdn\.com\/[^\"]+"\s+crossOrigin="anonymous"\s+defer/);
+  assert.ok(!source.includes('import Script from "next/script"'));
+});
+
+test('identifies the release and keeps monitoring limited to errors', () => {
+  assert.equal(options.release, 'test-release');
+  assert.equal(options.environment, 'production');
+  assert.equal(options.sendDefaultPii, false);
+  assert.equal(options.tracesSampleRate, 0);
+  assert.equal(options.replaysSessionSampleRate, 0);
+  assert.equal(options.replaysOnErrorSampleRate, 0);
+});
+
+test('serializes release metadata without closing the script', () => {
+  const release = '</script>"quoted"\\release';
+  const config = sentryLoaderConfig(release);
+  assert.ok(!config.includes('</script>'));
+  let captured;
+  const window = { Sentry: { init: value => { captured = value; } } };
+  new Function('window', config)(window);
+  window.sentryOnLoad();
+  assert.equal(captured.release, release);
 });

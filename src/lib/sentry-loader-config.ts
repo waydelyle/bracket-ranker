@@ -13,5 +13,15 @@ export function isMonitoringDiagnostic(event: DiagnosticEvent): boolean {
     ));
 }
 
-// Define this synchronously before the loader can initialise its SDK.
-export const SENTRY_LOADER_CONFIG = `window.sentryOnLoad=function(){window.Sentry.init({beforeSend:function(event){return (${isMonitoringDiagnostic.toString()})(event)?null:event;}});};`;
+// Keep metadata script-safe and define the callback before the CDN loader runs.
+export function sentryLoaderConfig(release?: string): string {
+  const options = JSON.stringify({
+    ...(release ? { release } : {}),
+    environment: 'production',
+    sendDefaultPii: false,
+    tracesSampleRate: 0,
+    replaysSessionSampleRate: 0,
+    replaysOnErrorSampleRate: 0,
+  }).replace(/</g, '\\u003c');
+  return `window.sentryOnLoad=function(){window.Sentry.init({...${options},beforeSend:function(event){return (${isMonitoringDiagnostic.toString()})(event)?null:event;}});};`;
+}
